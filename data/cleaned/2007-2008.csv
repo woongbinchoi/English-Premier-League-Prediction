@@ -1,0 +1,381 @@
+,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+0,11/08/07,Aston Villa,Liverpool,1,2,A
+1,11/08/07,Bolton,Newcastle,1,3,A
+2,11/08/07,Derby,Portsmouth,2,2,D
+3,11/08/07,Everton,Wigan,2,1,H
+4,11/08/07,Middlesbrough,Blackburn,1,2,A
+5,11/08/07,Sunderland,Tottenham,1,0,H
+6,11/08/07,West Ham,Man City,0,2,A
+7,12/08/07,Arsenal,Fulham,2,1,H
+8,12/08/07,Chelsea,Birmingham,3,2,H
+9,12/08/07,Man United,Reading,0,0,D
+10,14/08/07,Tottenham,Everton,1,3,A
+11,15/08/07,Birmingham,Sunderland,2,2,D
+12,15/08/07,Fulham,Bolton,2,1,H
+13,15/08/07,Man City,Derby,1,0,H
+14,15/08/07,Portsmouth,Man United,1,1,D
+15,15/08/07,Reading,Chelsea,1,2,A
+16,15/08/07,Wigan,Middlesbrough,1,0,H
+17,18/08/07,Birmingham,West Ham,0,1,A
+18,18/08/07,Fulham,Middlesbrough,1,2,A
+19,18/08/07,Newcastle,Aston Villa,0,0,D
+20,18/08/07,Portsmouth,Bolton,3,1,H
+21,18/08/07,Reading,Everton,1,0,H
+22,18/08/07,Tottenham,Derby,4,0,H
+23,18/08/07,Wigan,Sunderland,3,0,H
+24,19/08/07,Blackburn,Arsenal,1,1,D
+25,19/08/07,Liverpool,Chelsea,1,1,D
+26,19/08/07,Man City,Man United,1,0,H
+27,25/08/07,Arsenal,Man City,1,0,H
+28,25/08/07,Aston Villa,Fulham,2,1,H
+29,25/08/07,Bolton,Reading,3,0,H
+30,25/08/07,Chelsea,Portsmouth,1,0,H
+31,25/08/07,Derby,Birmingham,1,2,A
+32,25/08/07,Everton,Blackburn,1,1,D
+33,25/08/07,Sunderland,Liverpool,0,2,A
+34,25/08/07,West Ham,Wigan,1,1,D
+35,26/08/07,Man United,Tottenham,1,0,H
+36,26/08/07,Middlesbrough,Newcastle,2,2,D
+37,01/09/07,Bolton,Everton,1,2,A
+38,01/09/07,Fulham,Tottenham,3,3,D
+39,01/09/07,Liverpool,Derby,6,0,H
+40,01/09/07,Man United,Sunderland,1,0,H
+41,01/09/07,Middlesbrough,Birmingham,2,0,H
+42,01/09/07,Newcastle,Wigan,1,0,H
+43,01/09/07,Reading,West Ham,0,3,A
+44,02/09/07,Arsenal,Portsmouth,3,1,H
+45,02/09/07,Aston Villa,Chelsea,2,0,H
+46,02/09/07,Blackburn,Man City,1,0,H
+47,15/09/07,Birmingham,Bolton,1,0,H
+48,15/09/07,Chelsea,Blackburn,0,0,D
+49,15/09/07,Everton,Man United,0,1,A
+50,15/09/07,Portsmouth,Liverpool,0,0,D
+51,15/09/07,Sunderland,Reading,2,1,H
+52,15/09/07,Tottenham,Arsenal,1,3,A
+53,15/09/07,West Ham,Middlesbrough,3,0,H
+54,15/09/07,Wigan,Fulham,1,1,D
+55,16/09/07,Man City,Aston Villa,1,0,H
+56,17/09/07,Derby,Newcastle,1,0,H
+57,22/09/07,Arsenal,Derby,5,0,H
+58,22/09/07,Fulham,Man City,3,3,D
+59,22/09/07,Liverpool,Birmingham,0,0,D
+60,22/09/07,Middlesbrough,Sunderland,2,2,D
+61,22/09/07,Reading,Wigan,2,1,H
+62,23/09/07,Aston Villa,Everton,2,0,H
+63,23/09/07,Blackburn,Portsmouth,0,1,A
+64,23/09/07,Bolton,Tottenham,1,1,D
+65,23/09/07,Man United,Chelsea,2,0,H
+66,23/09/07,Newcastle,West Ham,3,1,H
+67,29/09/07,Birmingham,Man United,0,1,A
+68,29/09/07,Chelsea,Fulham,0,0,D
+69,29/09/07,Derby,Bolton,1,1,D
+70,29/09/07,Man City,Newcastle,3,1,H
+71,29/09/07,Portsmouth,Reading,7,4,H
+72,29/09/07,Sunderland,Blackburn,1,2,A
+73,29/09/07,West Ham,Arsenal,0,1,A
+74,29/09/07,Wigan,Liverpool,0,1,A
+75,30/09/07,Everton,Middlesbrough,2,0,H
+76,01/10/07,Tottenham,Aston Villa,4,4,D
+77,06/10/07,Aston Villa,West Ham,1,0,H
+78,06/10/07,Man United,Wigan,4,0,H
+79,07/10/07,Arsenal,Sunderland,3,2,H
+80,07/10/07,Blackburn,Birmingham,2,1,H
+81,07/10/07,Bolton,Chelsea,0,1,A
+82,07/10/07,Fulham,Portsmouth,0,2,A
+83,07/10/07,Liverpool,Tottenham,2,2,D
+84,07/10/07,Man City,Middlesbrough,3,1,H
+85,07/10/07,Newcastle,Everton,3,2,H
+86,07/10/07,Reading,Derby,1,0,H
+87,20/10/07,Arsenal,Bolton,2,0,H
+88,20/10/07,Aston Villa,Man United,1,4,A
+89,20/10/07,Blackburn,Reading,4,2,H
+90,20/10/07,Everton,Liverpool,1,2,A
+91,20/10/07,Fulham,Derby,0,0,D
+92,20/10/07,Man City,Birmingham,1,0,H
+93,20/10/07,Middlesbrough,Chelsea,0,2,A
+94,20/10/07,Wigan,Portsmouth,0,2,A
+95,21/10/07,West Ham,Sunderland,3,1,H
+96,22/10/07,Newcastle,Tottenham,3,1,H
+97,27/10/07,Birmingham,Wigan,3,2,H
+98,27/10/07,Chelsea,Man City,6,0,H
+99,27/10/07,Man United,Middlesbrough,4,1,H
+100,27/10/07,Portsmouth,West Ham,0,0,D
+101,27/10/07,Reading,Newcastle,2,1,H
+102,27/10/07,Sunderland,Fulham,1,1,D
+103,28/10/07,Bolton,Aston Villa,1,1,D
+104,28/10/07,Derby,Everton,0,2,A
+105,28/10/07,Liverpool,Arsenal,1,1,D
+106,28/10/07,Tottenham,Blackburn,1,2,A
+107,03/11/07,Arsenal,Man United,2,2,D
+108,03/11/07,Aston Villa,Derby,2,0,H
+109,03/11/07,Blackburn,Liverpool,0,0,D
+110,03/11/07,Everton,Birmingham,3,1,H
+111,03/11/07,Fulham,Reading,3,1,H
+112,03/11/07,Middlesbrough,Tottenham,1,1,D
+113,03/11/07,Newcastle,Portsmouth,1,4,A
+114,03/11/07,Wigan,Chelsea,0,2,A
+115,04/11/07,West Ham,Bolton,1,1,D
+116,05/11/07,Man City,Sunderland,1,0,H
+117,10/11/07,Derby,West Ham,0,5,A
+118,10/11/07,Liverpool,Fulham,2,0,H
+119,10/11/07,Sunderland,Newcastle,1,1,D
+120,11/11/07,Birmingham,Aston Villa,1,2,A
+121,11/11/07,Bolton,Middlesbrough,0,0,D
+122,11/11/07,Chelsea,Everton,1,1,D
+123,11/11/07,Man United,Blackburn,2,0,H
+124,11/11/07,Portsmouth,Man City,0,0,D
+125,11/11/07,Tottenham,Wigan,4,0,H
+126,12/11/07,Reading,Arsenal,1,3,A
+127,24/11/07,Arsenal,Wigan,2,0,H
+128,24/11/07,Birmingham,Portsmouth,0,2,A
+129,24/11/07,Bolton,Man United,1,0,H
+130,24/11/07,Derby,Chelsea,0,2,A
+131,24/11/07,Everton,Sunderland,7,1,H
+132,24/11/07,Man City,Reading,2,1,H
+133,24/11/07,Middlesbrough,Aston Villa,0,3,A
+134,24/11/07,Newcastle,Liverpool,0,3,A
+135,25/11/07,Fulham,Blackburn,2,2,D
+136,25/11/07,West Ham,Tottenham,1,1,D
+137,28/11/07,Blackburn,Aston Villa,0,4,A
+138,01/12/07,Aston Villa,Arsenal,1,2,A
+139,01/12/07,Blackburn,Newcastle,3,1,H
+140,01/12/07,Chelsea,West Ham,1,0,H
+141,01/12/07,Portsmouth,Everton,0,0,D
+142,01/12/07,Reading,Middlesbrough,1,1,D
+143,01/12/07,Sunderland,Derby,1,0,H
+144,01/12/07,Wigan,Man City,1,1,D
+145,02/12/07,Liverpool,Bolton,4,0,H
+146,02/12/07,Tottenham,Birmingham,2,3,A
+147,03/12/07,Man United,Fulham,2,0,H
+148,05/12/07,Newcastle,Arsenal,1,1,D
+149,08/12/07,Aston Villa,Portsmouth,1,3,A
+150,08/12/07,Chelsea,Sunderland,2,0,H
+151,08/12/07,Everton,Fulham,3,0,H
+152,08/12/07,Man United,Derby,4,1,H
+153,08/12/07,Newcastle,Birmingham,2,1,H
+154,08/12/07,Reading,Liverpool,3,1,H
+155,09/12/07,Blackburn,West Ham,0,1,A
+156,09/12/07,Bolton,Wigan,4,1,H
+157,09/12/07,Middlesbrough,Arsenal,2,1,H
+158,09/12/07,Tottenham,Man City,2,1,H
+159,15/12/07,Birmingham,Reading,1,1,D
+160,15/12/07,Derby,Middlesbrough,0,1,A
+161,15/12/07,Fulham,Newcastle,0,1,A
+162,15/12/07,Man City,Bolton,4,2,H
+163,15/12/07,Portsmouth,Tottenham,0,1,A
+164,15/12/07,Sunderland,Aston Villa,1,1,D
+165,15/12/07,West Ham,Everton,0,2,A
+166,15/12/07,Wigan,Blackburn,5,3,H
+167,16/12/07,Arsenal,Chelsea,1,0,H
+168,16/12/07,Liverpool,Man United,0,1,A
+169,22/12/07,Arsenal,Tottenham,2,1,H
+170,22/12/07,Aston Villa,Man City,1,1,D
+171,22/12/07,Bolton,Birmingham,3,0,H
+172,22/12/07,Fulham,Wigan,1,1,D
+173,22/12/07,Liverpool,Portsmouth,4,1,H
+174,22/12/07,Middlesbrough,West Ham,1,2,A
+175,22/12/07,Reading,Sunderland,2,1,H
+176,23/12/07,Blackburn,Chelsea,0,1,A
+177,23/12/07,Man United,Everton,2,1,H
+178,23/12/07,Newcastle,Derby,2,2,D
+179,26/12/07,Birmingham,Middlesbrough,3,0,H
+180,26/12/07,Chelsea,Aston Villa,4,4,D
+181,26/12/07,Derby,Liverpool,1,2,A
+182,26/12/07,Everton,Bolton,2,0,H
+183,26/12/07,Portsmouth,Arsenal,0,0,D
+184,26/12/07,Sunderland,Man United,0,4,A
+185,26/12/07,Tottenham,Fulham,5,1,H
+186,26/12/07,West Ham,Reading,1,1,D
+187,26/12/07,Wigan,Newcastle,1,0,H
+188,27/12/07,Man City,Blackburn,2,2,D
+189,29/12/07,Birmingham,Fulham,1,1,D
+190,29/12/07,Chelsea,Newcastle,2,1,H
+191,29/12/07,Everton,Arsenal,1,4,A
+192,29/12/07,Portsmouth,Middlesbrough,0,1,A
+193,29/12/07,Sunderland,Bolton,3,1,H
+194,29/12/07,Tottenham,Reading,6,4,H
+195,29/12/07,West Ham,Man United,2,1,H
+196,29/12/07,Wigan,Aston Villa,1,2,A
+197,30/12/07,Derby,Blackburn,1,2,A
+198,30/12/07,Man City,Liverpool,0,0,D
+199,01/01/08,Arsenal,West Ham,2,0,H
+200,01/01/08,Aston Villa,Tottenham,2,1,H
+201,01/01/08,Fulham,Chelsea,1,2,A
+202,01/01/08,Man United,Birmingham,1,0,H
+203,01/01/08,Middlesbrough,Everton,0,2,A
+204,01/01/08,Reading,Portsmouth,0,2,A
+205,02/01/08,Blackburn,Sunderland,1,0,H
+206,02/01/08,Bolton,Derby,1,0,H
+207,02/01/08,Liverpool,Wigan,1,1,D
+208,02/01/08,Newcastle,Man City,0,2,A
+209,12/01/08,Arsenal,Birmingham,1,1,D
+210,12/01/08,Aston Villa,Reading,3,1,H
+211,12/01/08,Chelsea,Tottenham,2,0,H
+212,12/01/08,Derby,Wigan,0,1,A
+213,12/01/08,Everton,Man City,1,0,H
+214,12/01/08,Man United,Newcastle,6,0,H
+215,12/01/08,Middlesbrough,Liverpool,1,1,D
+216,12/01/08,West Ham,Fulham,2,1,H
+217,13/01/08,Bolton,Blackburn,1,2,A
+218,13/01/08,Sunderland,Portsmouth,2,0,H
+219,19/01/08,Birmingham,Chelsea,0,1,A
+220,19/01/08,Blackburn,Middlesbrough,1,1,D
+221,19/01/08,Fulham,Arsenal,0,3,A
+222,19/01/08,Newcastle,Bolton,0,0,D
+223,19/01/08,Portsmouth,Derby,3,1,H
+224,19/01/08,Reading,Man United,0,2,A
+225,19/01/08,Tottenham,Sunderland,2,0,H
+226,20/01/08,Man City,West Ham,1,1,D
+227,20/01/08,Wigan,Everton,1,2,A
+228,21/01/08,Liverpool,Aston Villa,2,2,D
+229,26/01/08,Aston Villa,Blackburn,1,1,D
+230,29/01/08,Arsenal,Newcastle,3,0,H
+231,29/01/08,Bolton,Fulham,0,0,D
+232,29/01/08,Middlesbrough,Wigan,1,0,H
+233,29/01/08,Sunderland,Birmingham,2,0,H
+234,30/01/08,Chelsea,Reading,1,0,H
+235,30/01/08,Derby,Man City,1,1,D
+236,30/01/08,Everton,Tottenham,0,0,D
+237,30/01/08,Man United,Portsmouth,2,0,H
+238,30/01/08,West Ham,Liverpool,1,0,H
+239,02/02/08,Birmingham,Derby,1,1,D
+240,02/02/08,Blackburn,Everton,0,0,D
+241,02/02/08,Liverpool,Sunderland,3,0,H
+242,02/02/08,Man City,Arsenal,1,3,A
+243,02/02/08,Portsmouth,Chelsea,1,1,D
+244,02/02/08,Reading,Bolton,0,2,A
+245,02/02/08,Tottenham,Man United,1,1,D
+246,02/02/08,Wigan,West Ham,1,0,H
+247,03/02/08,Fulham,Aston Villa,2,1,H
+248,03/02/08,Newcastle,Middlesbrough,1,1,D
+249,09/02/08,Aston Villa,Newcastle,4,1,H
+250,09/02/08,Bolton,Portsmouth,0,1,A
+251,09/02/08,Derby,Tottenham,0,3,A
+252,09/02/08,Everton,Reading,1,0,H
+253,09/02/08,Middlesbrough,Fulham,1,0,H
+254,09/02/08,Sunderland,Wigan,2,0,H
+255,09/02/08,West Ham,Birmingham,1,1,D
+256,10/02/08,Chelsea,Liverpool,0,0,D
+257,10/02/08,Man United,Man City,1,2,A
+258,11/02/08,Arsenal,Blackburn,2,0,H
+259,23/02/08,Birmingham,Arsenal,2,2,D
+260,23/02/08,Fulham,West Ham,0,1,A
+261,23/02/08,Liverpool,Middlesbrough,3,2,H
+262,23/02/08,Newcastle,Man United,1,5,A
+263,23/02/08,Portsmouth,Sunderland,1,0,H
+264,23/02/08,Wigan,Derby,2,0,H
+265,24/02/08,Blackburn,Bolton,4,1,H
+266,24/02/08,Reading,Aston Villa,1,2,A
+267,25/02/08,Man City,Everton,0,2,A
+268,01/03/08,Arsenal,Aston Villa,1,1,D
+269,01/03/08,Birmingham,Tottenham,4,1,H
+270,01/03/08,Derby,Sunderland,0,0,D
+271,01/03/08,Fulham,Man United,0,3,A
+272,01/03/08,Man City,Wigan,0,0,D
+273,01/03/08,Middlesbrough,Reading,0,1,A
+274,01/03/08,Newcastle,Blackburn,0,1,A
+275,01/03/08,West Ham,Chelsea,0,4,A
+276,02/03/08,Bolton,Liverpool,1,3,A
+277,02/03/08,Everton,Portsmouth,3,1,H
+278,05/03/08,Liverpool,West Ham,4,0,H
+279,08/03/08,Blackburn,Fulham,1,1,D
+280,08/03/08,Liverpool,Newcastle,3,0,H
+281,08/03/08,Reading,Man City,2,0,H
+282,09/03/08,Sunderland,Everton,0,1,A
+283,09/03/08,Tottenham,West Ham,4,0,H
+284,09/03/08,Wigan,Arsenal,0,0,D
+285,12/03/08,Aston Villa,Middlesbrough,1,1,D
+286,12/03/08,Chelsea,Derby,6,1,H
+287,12/03/08,Portsmouth,Birmingham,4,2,H
+288,15/03/08,Arsenal,Middlesbrough,1,1,D
+289,15/03/08,Derby,Man United,0,1,A
+290,15/03/08,Liverpool,Reading,2,1,H
+291,15/03/08,Portsmouth,Aston Villa,2,0,H
+292,15/03/08,Sunderland,Chelsea,0,1,A
+293,15/03/08,West Ham,Blackburn,2,1,H
+294,16/03/08,Fulham,Everton,1,0,H
+295,16/03/08,Man City,Tottenham,2,1,H
+296,16/03/08,Wigan,Bolton,1,0,H
+297,17/03/08,Birmingham,Newcastle,1,1,D
+298,19/03/08,Man United,Bolton,2,0,H
+299,19/03/08,Tottenham,Chelsea,4,4,D
+300,22/03/08,Aston Villa,Sunderland,0,1,A
+301,22/03/08,Blackburn,Wigan,3,1,H
+302,22/03/08,Bolton,Man City,0,0,D
+303,22/03/08,Everton,West Ham,1,1,D
+304,22/03/08,Middlesbrough,Derby,1,0,H
+305,22/03/08,Newcastle,Fulham,2,0,H
+306,22/03/08,Reading,Birmingham,2,1,H
+307,22/03/08,Tottenham,Portsmouth,2,0,H
+308,23/03/08,Chelsea,Arsenal,2,1,H
+309,23/03/08,Man United,Liverpool,3,0,H
+310,29/03/08,Birmingham,Man City,3,1,H
+311,29/03/08,Bolton,Arsenal,2,3,A
+312,29/03/08,Derby,Fulham,2,2,D
+313,29/03/08,Man United,Aston Villa,4,0,H
+314,29/03/08,Portsmouth,Wigan,2,0,H
+315,29/03/08,Reading,Blackburn,0,0,D
+316,29/03/08,Sunderland,West Ham,2,1,H
+317,30/03/08,Chelsea,Middlesbrough,1,0,H
+318,30/03/08,Liverpool,Everton,1,0,H
+319,30/03/08,Tottenham,Newcastle,1,4,A
+320,05/04/08,Arsenal,Liverpool,1,1,D
+321,05/04/08,Aston Villa,Bolton,4,0,H
+322,05/04/08,Blackburn,Tottenham,1,1,D
+323,05/04/08,Fulham,Sunderland,1,3,A
+324,05/04/08,Man City,Chelsea,0,2,A
+325,05/04/08,Newcastle,Reading,3,0,H
+326,05/04/08,Wigan,Birmingham,2,0,H
+327,06/04/08,Everton,Derby,1,0,H
+328,06/04/08,Middlesbrough,Man United,2,2,D
+329,08/04/08,West Ham,Portsmouth,0,1,A
+330,12/04/08,Birmingham,Everton,1,1,D
+331,12/04/08,Bolton,West Ham,1,0,H
+332,12/04/08,Derby,Aston Villa,0,6,A
+333,12/04/08,Portsmouth,Newcastle,0,0,D
+334,12/04/08,Reading,Fulham,0,2,A
+335,12/04/08,Sunderland,Man City,1,2,A
+336,12/04/08,Tottenham,Middlesbrough,1,1,D
+337,13/04/08,Liverpool,Blackburn,3,1,H
+338,13/04/08,Man United,Arsenal,2,1,H
+339,14/04/08,Chelsea,Wigan,1,1,D
+340,17/04/08,Everton,Chelsea,0,1,A
+341,19/04/08,Arsenal,Reading,2,0,H
+342,19/04/08,Blackburn,Man United,1,1,D
+343,19/04/08,Fulham,Liverpool,0,2,A
+344,19/04/08,Middlesbrough,Bolton,0,1,A
+345,19/04/08,West Ham,Derby,2,1,H
+346,19/04/08,Wigan,Tottenham,1,1,D
+347,20/04/08,Aston Villa,Birmingham,5,1,H
+348,20/04/08,Man City,Portsmouth,3,1,H
+349,20/04/08,Newcastle,Sunderland,2,0,H
+350,26/04/08,Birmingham,Liverpool,2,2,D
+351,26/04/08,Chelsea,Man United,2,1,H
+352,26/04/08,Man City,Fulham,2,3,A
+353,26/04/08,Sunderland,Middlesbrough,3,2,H
+354,26/04/08,Tottenham,Bolton,1,1,D
+355,26/04/08,West Ham,Newcastle,2,2,D
+356,26/04/08,Wigan,Reading,0,0,D
+357,27/04/08,Everton,Aston Villa,2,2,D
+358,27/04/08,Portsmouth,Blackburn,0,1,A
+359,28/04/08,Derby,Arsenal,2,6,A
+360,03/05/08,Aston Villa,Wigan,0,2,A
+361,03/05/08,Blackburn,Derby,3,1,H
+362,03/05/08,Bolton,Sunderland,2,0,H
+363,03/05/08,Fulham,Birmingham,2,0,H
+364,03/05/08,Man United,West Ham,4,1,H
+365,03/05/08,Middlesbrough,Portsmouth,2,0,H
+366,03/05/08,Reading,Tottenham,0,1,A
+367,04/05/08,Arsenal,Everton,1,0,H
+368,04/05/08,Liverpool,Man City,1,0,H
+369,05/05/08,Newcastle,Chelsea,0,2,A
+370,11/05/08,Birmingham,Blackburn,4,1,H
+371,11/05/08,Chelsea,Bolton,1,1,D
+372,11/05/08,Derby,Reading,0,4,A
+373,11/05/08,Everton,Newcastle,3,1,H
+374,11/05/08,Middlesbrough,Man City,8,1,H
+375,11/05/08,Portsmouth,Fulham,0,1,A
+376,11/05/08,Sunderland,Arsenal,0,1,A
+377,11/05/08,Tottenham,Liverpool,0,2,A
+378,11/05/08,West Ham,Aston Villa,2,2,D
+379,11/05/08,Wigan,Man United,0,2,A

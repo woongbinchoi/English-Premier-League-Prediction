@@ -1,0 +1,553 @@
+,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+0,14/08/93,Arsenal,Coventry,0.0,3.0,A
+1,14/08/93,Aston Villa,QPR,4.0,1.0,H
+2,14/08/93,Chelsea,Blackburn,1.0,2.0,A
+3,14/08/93,Liverpool,Sheffield Weds,2.0,0.0,H
+4,14/08/93,Man City,Leeds,1.0,1.0,D
+5,14/08/93,Newcastle,Tottenham,0.0,1.0,A
+6,14/08/93,Oldham,Ipswich,0.0,3.0,A
+7,14/08/93,Sheffield United,Swindon,3.0,1.0,H
+8,14/08/93,Southampton,Everton,0.0,2.0,A
+9,14/08/93,West Ham,Wimbledon,0.0,2.0,A
+10,15/08/93,Norwich,Man United,0.0,2.0,A
+11,16/08/93,Tottenham,Arsenal,0.0,1.0,A
+12,17/08/93,Everton,Man City,1.0,0.0,H
+13,17/08/93,Ipswich,Southampton,1.0,0.0,H
+14,17/08/93,Leeds,West Ham,1.0,0.0,H
+15,17/08/93,Wimbledon,Chelsea,1.0,1.0,D
+16,18/08/93,Blackburn,Norwich,2.0,3.0,A
+17,18/08/93,Coventry,Newcastle,2.0,1.0,H
+18,18/08/93,Man United,Sheffield United,3.0,0.0,H
+19,18/08/93,QPR,Liverpool,1.0,3.0,A
+20,18/08/93,Sheffield Weds,Aston Villa,0.0,0.0,D
+21,18/08/93,Swindon,Oldham,0.0,1.0,A
+22,21/08/93,Blackburn,Oldham,1.0,0.0,H
+23,21/08/93,Coventry,West Ham,1.0,1.0,D
+24,21/08/93,Everton,Sheffield United,4.0,2.0,H
+25,21/08/93,Ipswich,Chelsea,1.0,0.0,H
+26,21/08/93,Leeds,Norwich,0.0,4.0,A
+27,21/08/93,Man United,Newcastle,1.0,1.0,D
+28,21/08/93,QPR,Southampton,2.0,1.0,H
+29,21/08/93,Sheffield Weds,Arsenal,0.0,1.0,A
+30,21/08/93,Tottenham,Man City,1.0,0.0,H
+31,21/08/93,Wimbledon,Aston Villa,2.0,2.0,D
+32,22/08/93,Swindon,Liverpool,0.0,5.0,A
+33,23/08/93,Aston Villa,Man United,1.0,2.0,A
+34,24/08/93,Arsenal,Leeds,2.0,1.0,H
+35,24/08/93,Man City,Blackburn,0.0,2.0,A
+36,24/08/93,Oldham,Coventry,3.0,3.0,D
+37,24/08/93,Sheffield United,Wimbledon,2.0,1.0,H
+38,25/08/93,Chelsea,QPR,2.0,0.0,H
+39,25/08/93,Liverpool,Tottenham,1.0,2.0,A
+40,25/08/93,Newcastle,Everton,1.0,0.0,H
+41,25/08/93,Norwich,Ipswich,1.0,0.0,H
+42,25/08/93,Southampton,Swindon,5.0,1.0,H
+43,25/08/93,West Ham,Sheffield Weds,2.0,0.0,H
+44,27/08/93,Man City,Coventry,1.0,1.0,D
+45,28/08/93,Arsenal,Everton,2.0,0.0,H
+46,28/08/93,Aston Villa,Tottenham,1.0,0.0,H
+47,28/08/93,Chelsea,Sheffield Weds,1.0,1.0,D
+48,28/08/93,Liverpool,Leeds,2.0,0.0,H
+49,28/08/93,Norwich,Swindon,0.0,0.0,D
+50,28/08/93,Oldham,Wimbledon,1.0,1.0,D
+51,28/08/93,Sheffield United,Ipswich,1.0,1.0,D
+52,28/08/93,Southampton,Man United,1.0,3.0,A
+53,28/08/93,West Ham,QPR,0.0,4.0,A
+54,29/08/93,Newcastle,Blackburn,1.0,1.0,D
+55,30/08/93,Leeds,Oldham,1.0,0.0,H
+56,31/08/93,Everton,Aston Villa,0.0,1.0,A
+57,31/08/93,Ipswich,Newcastle,1.0,1.0,D
+58,31/08/93,Wimbledon,Southampton,1.0,0.0,H
+59,01/09/93,Blackburn,Arsenal,1.0,1.0,D
+60,01/09/93,Coventry,Liverpool,1.0,0.0,H
+61,01/09/93,Man United,West Ham,3.0,0.0,H
+62,01/09/93,QPR,Sheffield United,2.0,1.0,H
+63,01/09/93,Sheffield Weds,Norwich,3.0,3.0,D
+64,01/09/93,Swindon,Man City,1.0,3.0,A
+65,01/09/93,Tottenham,Chelsea,1.0,1.0,D
+66,11/09/93,Arsenal,Ipswich,4.0,0.0,H
+67,11/09/93,Aston Villa,Coventry,0.0,0.0,D
+68,11/09/93,Chelsea,Man United,1.0,0.0,H
+69,11/09/93,Man City,QPR,3.0,0.0,H
+70,11/09/93,Norwich,Wimbledon,0.0,1.0,A
+71,11/09/93,Oldham,Everton,0.0,1.0,A
+72,11/09/93,Sheffield United,Tottenham,2.0,2.0,D
+73,11/09/93,Southampton,Leeds,0.0,2.0,A
+74,11/09/93,West Ham,Swindon,0.0,0.0,D
+75,12/09/93,Liverpool,Blackburn,0.0,1.0,A
+76,13/09/93,Newcastle,Sheffield Weds,4.0,2.0,H
+77,18/09/93,Blackburn,West Ham,0.0,2.0,A
+78,18/09/93,Coventry,Chelsea,1.0,1.0,D
+79,18/09/93,Everton,Liverpool,2.0,0.0,H
+80,18/09/93,Ipswich,Aston Villa,1.0,2.0,A
+81,18/09/93,Leeds,Sheffield United,2.0,1.0,H
+82,18/09/93,QPR,Norwich,2.0,2.0,D
+83,18/09/93,Sheffield Weds,Southampton,2.0,0.0,H
+84,18/09/93,Swindon,Newcastle,2.0,2.0,D
+85,18/09/93,Tottenham,Oldham,5.0,0.0,H
+86,19/09/93,Man United,Arsenal,1.0,0.0,H
+87,20/09/93,Wimbledon,Man City,1.0,0.0,H
+88,25/09/93,Arsenal,Southampton,1.0,0.0,H
+89,25/09/93,Blackburn,Sheffield Weds,1.0,1.0,D
+90,25/09/93,Chelsea,Liverpool,1.0,0.0,H
+91,25/09/93,Coventry,Leeds,0.0,2.0,A
+92,25/09/93,Everton,Norwich,1.0,5.0,A
+93,25/09/93,Man United,Swindon,4.0,2.0,H
+94,25/09/93,Newcastle,West Ham,2.0,0.0,H
+95,25/09/93,Oldham,Aston Villa,1.0,1.0,D
+96,25/09/93,Sheffield United,Man City,0.0,1.0,A
+97,26/09/93,Ipswich,Tottenham,2.0,2.0,D
+98,27/09/93,Wimbledon,QPR,1.0,1.0,D
+99,02/10/93,Aston Villa,Newcastle,0.0,2.0,A
+100,02/10/93,Leeds,Wimbledon,4.0,0.0,H
+101,02/10/93,Liverpool,Arsenal,0.0,0.0,D
+102,02/10/93,Norwich,Coventry,1.0,0.0,H
+103,02/10/93,QPR,Ipswich,3.0,0.0,H
+104,02/10/93,Sheffield Weds,Man United,2.0,3.0,A
+105,02/10/93,Southampton,Sheffield United,3.0,3.0,D
+106,02/10/93,Swindon,Blackburn,1.0,3.0,A
+107,02/10/93,West Ham,Chelsea,1.0,0.0,H
+108,03/10/93,Tottenham,Everton,3.0,2.0,H
+109,04/10/93,Man City,Oldham,1.0,1.0,D
+110,16/10/93,Arsenal,Man City,0.0,0.0,D
+111,16/10/93,Chelsea,Norwich,1.0,2.0,A
+112,16/10/93,Coventry,Southampton,1.0,1.0,D
+113,16/10/93,Liverpool,Oldham,2.0,1.0,H
+114,16/10/93,Man United,Tottenham,2.0,1.0,H
+115,16/10/93,Newcastle,QPR,1.0,2.0,A
+116,16/10/93,Sheffield Weds,Wimbledon,2.0,2.0,D
+117,16/10/93,Swindon,Everton,1.0,1.0,D
+118,16/10/93,West Ham,Aston Villa,0.0,0.0,D
+119,17/10/93,Ipswich,Leeds,0.0,0.0,D
+120,18/10/93,Blackburn,Sheffield United,0.0,0.0,D
+121,23/10/93,Aston Villa,Chelsea,1.0,0.0,H
+122,23/10/93,Everton,Man United,0.0,1.0,A
+123,23/10/93,Leeds,Blackburn,3.0,3.0,D
+124,23/10/93,Man City,Liverpool,1.0,1.0,D
+125,23/10/93,Norwich,West Ham,0.0,0.0,D
+126,23/10/93,Oldham,Arsenal,0.0,0.0,D
+127,23/10/93,QPR,Coventry,5.0,1.0,H
+128,23/10/93,Sheffield United,Sheffield Weds,1.0,1.0,D
+129,23/10/93,Tottenham,Swindon,1.0,1.0,D
+130,24/10/93,Southampton,Newcastle,2.0,1.0,H
+131,25/10/93,Wimbledon,Ipswich,0.0,2.0,A
+132,30/10/93,Arsenal,Norwich,0.0,0.0,D
+133,30/10/93,Blackburn,Tottenham,1.0,0.0,H
+134,30/10/93,Chelsea,Oldham,0.0,1.0,A
+135,30/10/93,Ipswich,Everton,0.0,2.0,A
+136,30/10/93,Liverpool,Southampton,4.0,2.0,H
+137,30/10/93,Man United,QPR,2.0,1.0,H
+138,30/10/93,Newcastle,Wimbledon,4.0,0.0,H
+139,30/10/93,Sheffield Weds,Leeds,3.0,3.0,D
+140,30/10/93,Swindon,Aston Villa,1.0,2.0,A
+141,31/10/93,Coventry,Sheffield United,0.0,0.0,D
+142,01/11/93,West Ham,Man City,3.0,1.0,H
+143,06/11/93,Arsenal,Aston Villa,1.0,2.0,A
+144,06/11/93,Coventry,Everton,2.0,1.0,H
+145,06/11/93,Ipswich,Sheffield Weds,1.0,4.0,A
+146,06/11/93,Leeds,Chelsea,4.0,1.0,H
+147,06/11/93,Liverpool,West Ham,2.0,0.0,H
+148,06/11/93,QPR,Blackburn,1.0,0.0,H
+149,06/11/93,Sheffield United,Norwich,1.0,2.0,A
+150,06/11/93,Southampton,Tottenham,1.0,0.0,H
+151,06/11/93,Wimbledon,Swindon,3.0,0.0,H
+152,07/11/93,Man City,Man United,2.0,3.0,A
+153,08/11/93,Oldham,Newcastle,1.0,3.0,A
+154,20/11/93,Aston Villa,Sheffield United,1.0,0.0,H
+155,20/11/93,Blackburn,Southampton,2.0,0.0,H
+156,20/11/93,Chelsea,Arsenal,0.0,2.0,A
+157,20/11/93,Everton,QPR,0.0,3.0,A
+158,20/11/93,Man United,Wimbledon,3.0,1.0,H
+159,20/11/93,Norwich,Man City,1.0,1.0,D
+160,20/11/93,Sheffield Weds,Coventry,0.0,0.0,D
+161,20/11/93,Swindon,Ipswich,2.0,2.0,D
+162,20/11/93,Tottenham,Leeds,1.0,1.0,D
+163,20/11/93,West Ham,Oldham,2.0,0.0,H
+164,21/11/93,Newcastle,Liverpool,3.0,0.0,H
+165,22/11/93,Chelsea,Man City,0.0,0.0,D
+166,23/11/93,Blackburn,Coventry,2.0,1.0,H
+167,23/11/93,Everton,Leeds,1.0,1.0,D
+168,24/11/93,Aston Villa,Southampton,0.0,2.0,A
+169,24/11/93,Man United,Ipswich,0.0,0.0,D
+170,24/11/93,Newcastle,Sheffield United,4.0,0.0,H
+171,24/11/93,Sheffield Weds,Oldham,3.0,0.0,H
+172,24/11/93,Swindon,QPR,1.0,0.0,H
+173,24/11/93,Tottenham,Wimbledon,1.0,1.0,D
+174,24/11/93,West Ham,Arsenal,0.0,0.0,D
+175,27/11/93,Arsenal,Newcastle,2.0,1.0,H
+176,27/11/93,Coventry,Man United,0.0,1.0,A
+177,27/11/93,Ipswich,Blackburn,1.0,0.0,H
+178,27/11/93,Leeds,Swindon,3.0,0.0,H
+179,27/11/93,Man City,Sheffield Weds,1.0,3.0,A
+180,27/11/93,Oldham,Norwich,2.0,1.0,H
+181,27/11/93,QPR,Tottenham,1.0,1.0,D
+182,27/11/93,Sheffield United,Chelsea,1.0,0.0,H
+183,27/11/93,Wimbledon,Everton,1.0,1.0,D
+184,28/11/93,Liverpool,Aston Villa,2.0,1.0,H
+185,29/11/93,Southampton,West Ham,0.0,2.0,A
+186,04/12/93,Coventry,Arsenal,1.0,0.0,H
+187,04/12/93,Everton,Southampton,1.0,0.0,H
+188,04/12/93,Ipswich,Oldham,0.0,0.0,D
+189,04/12/93,Leeds,Man City,3.0,2.0,H
+190,04/12/93,Man United,Norwich,2.0,2.0,D
+191,04/12/93,QPR,Aston Villa,2.0,2.0,D
+192,04/12/93,Sheffield Weds,Liverpool,3.0,1.0,H
+193,04/12/93,Swindon,Sheffield United,0.0,0.0,D
+194,04/12/93,Tottenham,Newcastle,1.0,2.0,A
+195,04/12/93,Wimbledon,West Ham,1.0,2.0,A
+196,05/12/93,Blackburn,Chelsea,2.0,0.0,H
+197,06/12/93,Arsenal,Tottenham,1.0,1.0,D
+198,07/12/93,Oldham,Swindon,2.0,1.0,H
+199,07/12/93,Sheffield United,Man United,0.0,3.0,A
+200,08/12/93,Aston Villa,Sheffield Weds,2.0,2.0,D
+201,08/12/93,Liverpool,QPR,3.0,2.0,H
+202,08/12/93,Man City,Everton,1.0,0.0,H
+203,08/12/93,Southampton,Ipswich,0.0,1.0,A
+204,08/12/93,West Ham,Leeds,0.0,1.0,A
+205,11/12/93,Aston Villa,Wimbledon,0.0,1.0,A
+206,11/12/93,Chelsea,Ipswich,1.0,1.0,D
+207,11/12/93,Liverpool,Swindon,2.0,2.0,D
+208,11/12/93,Man City,Tottenham,0.0,2.0,A
+209,11/12/93,Newcastle,Man United,1.0,1.0,D
+210,11/12/93,Oldham,Blackburn,1.0,2.0,A
+211,11/12/93,Sheffield United,Everton,0.0,0.0,D
+212,11/12/93,Southampton,QPR,0.0,1.0,A
+213,11/12/93,West Ham,Coventry,3.0,2.0,H
+214,12/12/93,Arsenal,Sheffield Weds,1.0,0.0,H
+215,13/12/93,Norwich,Leeds,2.0,1.0,H
+216,18/12/93,Blackburn,Man City,2.0,0.0,H
+217,18/12/93,Coventry,Oldham,1.0,1.0,D
+218,18/12/93,Everton,Newcastle,0.0,2.0,A
+219,18/12/93,Ipswich,Norwich,2.0,1.0,H
+220,18/12/93,Leeds,Arsenal,2.0,1.0,H
+221,18/12/93,Sheffield Weds,West Ham,5.0,0.0,H
+222,18/12/93,Swindon,Southampton,2.0,1.0,H
+223,18/12/93,Tottenham,Liverpool,3.0,3.0,D
+224,18/12/93,Wimbledon,Sheffield United,2.0,0.0,H
+225,19/12/93,Man United,Aston Villa,3.0,1.0,H
+226,22/12/93,Newcastle,Leeds,1.0,1.0,D
+227,26/12/93,Man United,Blackburn,1.0,1.0,D
+228,26/12/93,Sheffield United,Liverpool,0.0,0.0,D
+229,26/12/93,Wimbledon,Coventry,1.0,2.0,A
+230,27/12/93,Everton,Sheffield Weds,0.0,2.0,A
+231,27/12/93,Ipswich,West Ham,1.0,1.0,D
+232,27/12/93,QPR,Oldham,2.0,0.0,H
+233,27/12/93,Southampton,Chelsea,3.0,1.0,H
+234,27/12/93,Swindon,Arsenal,0.0,4.0,A
+235,27/12/93,Tottenham,Norwich,1.0,3.0,A
+236,28/12/93,Chelsea,Newcastle,1.0,0.0,H
+237,28/12/93,Liverpool,Wimbledon,1.0,1.0,D
+238,28/12/93,Man City,Southampton,1.0,1.0,D
+239,28/12/93,West Ham,Tottenham,1.0,3.0,A
+240,29/12/93,Arsenal,Sheffield United,3.0,0.0,H
+241,29/12/93,Blackburn,Everton,2.0,0.0,H
+242,29/12/93,Leeds,QPR,1.0,1.0,D
+243,29/12/93,Norwich,Aston Villa,1.0,2.0,A
+244,29/12/93,Oldham,Man United,2.0,5.0,A
+245,29/12/93,Sheffield Weds,Swindon,3.0,3.0,D
+246,01/01/94,Aston Villa,Blackburn,0.0,1.0,A
+247,01/01/94,Everton,West Ham,0.0,1.0,A
+248,01/01/94,Ipswich,Liverpool,1.0,2.0,A
+249,01/01/94,Man United,Leeds,0.0,0.0,D
+250,01/01/94,Newcastle,Man City,2.0,0.0,H
+251,01/01/94,QPR,Sheffield Weds,1.0,2.0,A
+252,01/01/94,Sheffield United,Oldham,2.0,1.0,H
+253,01/01/94,Southampton,Norwich,0.0,1.0,A
+254,01/01/94,Swindon,Chelsea,1.0,3.0,A
+255,01/01/94,Tottenham,Coventry,1.0,2.0,A
+256,01/01/94,Wimbledon,Arsenal,0.0,3.0,A
+257,03/01/94,Arsenal,QPR,0.0,0.0,D
+258,03/01/94,Chelsea,Everton,4.0,2.0,H
+259,03/01/94,Coventry,Swindon,1.0,1.0,D
+260,03/01/94,Sheffield Weds,Tottenham,1.0,0.0,H
+261,03/01/94,West Ham,Sheffield United,0.0,0.0,D
+262,04/01/94,Liverpool,Man United,3.0,3.0,D
+263,04/01/94,Norwich,Newcastle,1.0,2.0,A
+264,15/01/94,Aston Villa,West Ham,3.0,1.0,H
+265,15/01/94,Everton,Swindon,6.0,2.0,H
+266,15/01/94,Leeds,Ipswich,0.0,0.0,D
+267,15/01/94,Man City,Arsenal,0.0,0.0,D
+268,15/01/94,Norwich,Chelsea,1.0,1.0,D
+269,15/01/94,Oldham,Liverpool,0.0,3.0,A
+270,15/01/94,Sheffield United,Blackburn,1.0,2.0,A
+271,15/01/94,Southampton,Coventry,1.0,0.0,H
+272,15/01/94,Tottenham,Man United,0.0,1.0,A
+273,15/01/94,Wimbledon,Sheffield Weds,2.0,1.0,H
+274,16/01/94,QPR,Newcastle,1.0,2.0,A
+275,22/01/94,Arsenal,Oldham,1.0,1.0,D
+276,22/01/94,Chelsea,Aston Villa,1.0,1.0,D
+277,22/01/94,Coventry,QPR,0.0,1.0,A
+278,22/01/94,Ipswich,Wimbledon,0.0,0.0,D
+279,22/01/94,Liverpool,Man City,2.0,1.0,H
+280,22/01/94,Man United,Everton,1.0,0.0,H
+281,22/01/94,Newcastle,Southampton,1.0,2.0,A
+282,22/01/94,Sheffield Weds,Sheffield United,3.0,1.0,H
+283,22/01/94,Swindon,Tottenham,2.0,1.0,H
+284,23/01/94,Blackburn,Leeds,2.0,1.0,H
+285,24/01/94,West Ham,Norwich,3.0,3.0,D
+286,02/02/94,Coventry,Ipswich,1.0,0.0,H
+287,05/02/94,Blackburn,Wimbledon,3.0,0.0,H
+288,05/02/94,Everton,Chelsea,4.0,2.0,H
+289,05/02/94,Man City,Ipswich,2.0,1.0,H
+290,05/02/94,Norwich,Liverpool,2.0,2.0,D
+291,05/02/94,Oldham,Southampton,2.0,1.0,H
+292,05/02/94,QPR,Man United,2.0,3.0,A
+293,05/02/94,Swindon,Coventry,3.0,1.0,H
+294,05/02/94,Tottenham,Sheffield Weds,1.0,3.0,A
+295,06/02/94,Aston Villa,Leeds,1.0,0.0,H
+296,12/02/94,Aston Villa,Swindon,5.0,0.0,H
+297,12/02/94,Everton,Ipswich,0.0,0.0,D
+298,12/02/94,Man City,West Ham,0.0,0.0,D
+299,12/02/94,Oldham,Chelsea,2.0,1.0,H
+300,12/02/94,Sheffield United,Coventry,0.0,0.0,D
+301,12/02/94,Tottenham,Blackburn,0.0,2.0,A
+302,12/02/94,Wimbledon,Newcastle,4.0,2.0,H
+303,13/02/94,Norwich,Arsenal,1.0,1.0,D
+304,14/02/94,Southampton,Liverpool,4.0,2.0,H
+305,19/02/94,Blackburn,Newcastle,1.0,0.0,H
+306,19/02/94,Coventry,Man City,4.0,0.0,H
+307,19/02/94,Everton,Arsenal,1.0,1.0,D
+308,19/02/94,Leeds,Liverpool,2.0,0.0,H
+309,19/02/94,Swindon,Norwich,3.0,3.0,D
+310,22/02/94,Aston Villa,Man City,0.0,0.0,D
+311,22/02/94,Norwich,Blackburn,2.0,2.0,D
+312,23/02/94,Newcastle,Coventry,4.0,0.0,H
+313,26/02/94,Arsenal,Blackburn,1.0,0.0,H
+314,26/02/94,Ipswich,Sheffield United,3.0,2.0,H
+315,26/02/94,Liverpool,Coventry,1.0,0.0,H
+316,26/02/94,Man City,Swindon,2.0,1.0,H
+317,26/02/94,Norwich,Sheffield Weds,1.0,1.0,D
+318,26/02/94,Southampton,Wimbledon,1.0,0.0,H
+319,26/02/94,West Ham,Man United,2.0,2.0,D
+320,27/02/94,Chelsea,Tottenham,4.0,3.0,H
+321,28/02/94,Oldham,Leeds,1.0,1.0,D
+322,02/03/94,Tottenham,Aston Villa,1.0,1.0,D
+323,05/03/94,Blackburn,Liverpool,2.0,0.0,H
+324,05/03/94,Everton,Oldham,2.0,1.0,H
+325,05/03/94,Ipswich,Arsenal,1.0,5.0,A
+326,05/03/94,Leeds,Southampton,0.0,0.0,D
+327,05/03/94,Man United,Chelsea,0.0,1.0,A
+328,05/03/94,QPR,Man City,1.0,1.0,D
+329,05/03/94,Sheffield Weds,Newcastle,0.0,1.0,A
+330,05/03/94,Swindon,West Ham,1.0,1.0,D
+331,05/03/94,Tottenham,Sheffield United,2.0,2.0,D
+332,05/03/94,Wimbledon,Norwich,3.0,1.0,H
+333,06/03/94,Coventry,Aston Villa,0.0,1.0,A
+334,12/03/94,Aston Villa,Ipswich,0.0,1.0,A
+335,12/03/94,Man City,Wimbledon,0.0,1.0,A
+336,12/03/94,Newcastle,Swindon,7.0,1.0,H
+337,12/03/94,Norwich,QPR,3.0,4.0,A
+338,12/03/94,Southampton,Sheffield Weds,1.0,1.0,D
+339,13/03/94,Liverpool,Everton,2.0,1.0,H
+340,13/03/94,Sheffield United,Leeds,2.0,2.0,D
+341,16/03/94,Chelsea,Wimbledon,2.0,0.0,H
+342,16/03/94,Leeds,Aston Villa,2.0,0.0,H
+343,16/03/94,Man United,Sheffield Weds,5.0,0.0,H
+344,16/03/94,Sheffield United,QPR,1.0,1.0,D
+345,19/03/94,Aston Villa,Oldham,1.0,2.0,A
+346,19/03/94,Leeds,Coventry,1.0,0.0,H
+347,19/03/94,Liverpool,Chelsea,2.0,1.0,H
+348,19/03/94,Man City,Sheffield United,0.0,0.0,D
+349,19/03/94,QPR,Wimbledon,1.0,0.0,H
+350,19/03/94,Southampton,Arsenal,0.0,4.0,A
+351,19/03/94,Swindon,Man United,2.0,2.0,D
+352,19/03/94,Tottenham,Ipswich,1.0,1.0,D
+353,19/03/94,West Ham,Newcastle,2.0,4.0,A
+354,20/03/94,Sheffield Weds,Blackburn,1.0,2.0,A
+355,21/03/94,Norwich,Everton,3.0,0.0,H
+356,22/03/94,Arsenal,Man United,2.0,2.0,D
+357,22/03/94,Newcastle,Ipswich,2.0,0.0,H
+358,26/03/94,Arsenal,Liverpool,1.0,0.0,H
+359,26/03/94,Blackburn,Swindon,3.0,1.0,H
+360,26/03/94,Chelsea,West Ham,2.0,0.0,H
+361,26/03/94,Coventry,Norwich,2.0,1.0,H
+362,26/03/94,Everton,Tottenham,0.0,1.0,A
+363,26/03/94,Ipswich,QPR,1.0,3.0,A
+364,26/03/94,Oldham,Man City,0.0,0.0,D
+365,26/03/94,Sheffield United,Southampton,0.0,0.0,D
+366,27/03/94,Wimbledon,Leeds,1.0,0.0,H
+367,28/03/94,Sheffield United,West Ham,3.0,2.0,H
+368,29/03/94,Ipswich,Man City,2.0,2.0,D
+369,29/03/94,Newcastle,Norwich,3.0,0.0,H
+370,29/03/94,Wimbledon,Blackburn,4.0,1.0,H
+371,30/03/94,Aston Villa,Everton,0.0,0.0,D
+372,30/03/94,Man United,Liverpool,1.0,0.0,H
+373,30/03/94,Sheffield Weds,Chelsea,3.0,1.0,H
+374,30/03/94,Southampton,Oldham,1.0,3.0,A
+375,01/04/94,Leeds,Newcastle,1.0,1.0,D
+376,02/04/94,Arsenal,Swindon,1.0,1.0,D
+377,02/04/94,Blackburn,Man United,2.0,0.0,H
+378,02/04/94,Chelsea,Southampton,2.0,0.0,H
+379,02/04/94,Coventry,Wimbledon,1.0,2.0,A
+380,02/04/94,Liverpool,Sheffield United,1.0,2.0,A
+381,02/04/94,Man City,Aston Villa,3.0,0.0,H
+382,02/04/94,Norwich,Tottenham,1.0,2.0,A
+383,02/04/94,Oldham,QPR,4.0,1.0,H
+384,02/04/94,Sheffield Weds,Everton,5.0,1.0,H
+385,02/04/94,West Ham,Ipswich,2.0,1.0,H
+386,04/04/94,Aston Villa,Norwich,0.0,0.0,D
+387,04/04/94,Everton,Blackburn,0.0,3.0,A
+388,04/04/94,Ipswich,Coventry,0.0,2.0,A
+389,04/04/94,Man United,Oldham,3.0,2.0,H
+390,04/04/94,Newcastle,Chelsea,0.0,0.0,D
+391,04/04/94,QPR,Leeds,0.0,4.0,A
+392,04/04/94,Sheffield United,Arsenal,1.0,1.0,D
+393,04/04/94,Southampton,Man City,0.0,1.0,A
+394,04/04/94,Swindon,Sheffield Weds,0.0,1.0,A
+395,04/04/94,Tottenham,West Ham,1.0,4.0,A
+396,04/04/94,Wimbledon,Liverpool,1.0,1.0,D
+397,09/04/94,Coventry,Tottenham,1.0,0.0,H
+398,09/04/94,Liverpool,Ipswich,1.0,0.0,H
+399,09/04/94,Man City,Newcastle,2.0,1.0,H
+400,09/04/94,Norwich,Southampton,4.0,5.0,A
+401,09/04/94,Sheffield Weds,QPR,3.0,1.0,H
+402,09/04/94,West Ham,Everton,0.0,1.0,A
+403,11/04/94,Blackburn,Aston Villa,1.0,0.0,H
+404,13/04/94,QPR,Chelsea,1.0,1.0,D
+405,16/04/94,Arsenal,Chelsea,1.0,0.0,H
+406,16/04/94,Coventry,Sheffield Weds,1.0,1.0,D
+407,16/04/94,Ipswich,Swindon,1.0,1.0,D
+408,16/04/94,Liverpool,Newcastle,0.0,2.0,A
+409,16/04/94,Man City,Norwich,1.0,1.0,D
+410,16/04/94,Oldham,West Ham,1.0,2.0,A
+411,16/04/94,QPR,Everton,2.0,1.0,H
+412,16/04/94,Sheffield United,Aston Villa,1.0,2.0,A
+413,16/04/94,Southampton,Blackburn,3.0,1.0,H
+414,16/04/94,Wimbledon,Man United,1.0,0.0,H
+415,17/04/94,Leeds,Tottenham,2.0,0.0,H
+416,19/04/94,Arsenal,Wimbledon,1.0,1.0,D
+417,23/04/94,Aston Villa,Arsenal,1.0,2.0,A
+418,23/04/94,Chelsea,Leeds,1.0,1.0,D
+419,23/04/94,Everton,Coventry,0.0,0.0,D
+420,23/04/94,Man United,Man City,2.0,0.0,H
+421,23/04/94,Newcastle,Oldham,3.0,2.0,H
+422,23/04/94,Norwich,Sheffield United,0.0,1.0,A
+423,23/04/94,Sheffield Weds,Ipswich,5.0,0.0,H
+424,23/04/94,Swindon,Wimbledon,2.0,4.0,A
+425,23/04/94,Tottenham,Southampton,3.0,0.0,H
+426,23/04/94,West Ham,Liverpool,1.0,2.0,A
+427,24/04/94,Blackburn,QPR,1.0,1.0,D
+428,26/04/94,Wimbledon,Oldham,3.0,0.0,H
+429,27/04/94,Chelsea,Swindon,2.0,0.0,H
+430,27/04/94,Leeds,Man United,0.0,2.0,A
+431,27/04/94,Newcastle,Aston Villa,5.0,1.0,H
+432,27/04/94,QPR,Arsenal,1.0,1.0,D
+433,27/04/94,West Ham,Blackburn,1.0,2.0,A
+434,30/04/94,Arsenal,West Ham,0.0,2.0,A
+435,30/04/94,Leeds,Everton,3.0,0.0,H
+436,30/04/94,Liverpool,Norwich,0.0,1.0,A
+437,30/04/94,Man City,Chelsea,2.0,2.0,D
+438,30/04/94,Oldham,Sheffield Weds,0.0,0.0,D
+439,30/04/94,QPR,Swindon,1.0,3.0,A
+440,30/04/94,Sheffield United,Newcastle,2.0,0.0,H
+441,30/04/94,Southampton,Aston Villa,4.0,1.0,H
+442,30/04/94,Wimbledon,Tottenham,2.0,1.0,H
+443,01/05/94,Ipswich,Man United,1.0,2.0,A
+444,02/05/94,Coventry,Blackburn,2.0,1.0,H
+445,03/05/94,Leeds,Sheffield Weds,2.0,2.0,D
+446,03/05/94,Oldham,Sheffield United,1.0,1.0,D
+447,03/05/94,QPR,West Ham,0.0,0.0,D
+448,04/05/94,Chelsea,Coventry,1.0,2.0,A
+449,04/05/94,Man United,Southampton,2.0,0.0,H
+450,05/05/94,Oldham,Tottenham,0.0,2.0,A
+451,07/05/94,Aston Villa,Liverpool,2.0,1.0,H
+452,07/05/94,Blackburn,Ipswich,0.0,0.0,D
+453,07/05/94,Chelsea,Sheffield United,3.0,2.0,H
+454,07/05/94,Everton,Wimbledon,3.0,2.0,H
+455,07/05/94,Newcastle,Arsenal,2.0,0.0,H
+456,07/05/94,Norwich,Oldham,1.0,1.0,D
+457,07/05/94,Sheffield Weds,Man City,1.0,1.0,D
+458,07/05/94,Swindon,Leeds,0.0,5.0,A
+459,07/05/94,Tottenham,QPR,1.0,2.0,A
+460,07/05/94,West Ham,Southampton,3.0,3.0,D
+461,08/05/94,Man United,Coventry,0.0,0.0,D
+462,,,,,,
+463,,,,,,
+464,,,,,,
+465,,,,,,
+466,,,,,,
+467,,,,,,
+468,,,,,,
+469,,,,,,
+470,,,,,,
+471,,,,,,
+472,,,,,,
+473,,,,,,
+474,,,,,,
+475,,,,,,
+476,,,,,,
+477,,,,,,
+478,,,,,,
+479,,,,,,
+480,,,,,,
+481,,,,,,
+482,,,,,,
+483,,,,,,
+484,,,,,,
+485,,,,,,
+486,,,,,,
+487,,,,,,
+488,,,,,,
+489,,,,,,
+490,,,,,,
+491,,,,,,
+492,,,,,,
+493,,,,,,
+494,,,,,,
+495,,,,,,
+496,,,,,,
+497,,,,,,
+498,,,,,,
+499,,,,,,
+500,,,,,,
+501,,,,,,
+502,,,,,,
+503,,,,,,
+504,,,,,,
+505,,,,,,
+506,,,,,,
+507,,,,,,
+508,,,,,,
+509,,,,,,
+510,,,,,,
+511,,,,,,
+512,,,,,,
+513,,,,,,
+514,,,,,,
+515,,,,,,
+516,,,,,,
+517,,,,,,
+518,,,,,,
+519,,,,,,
+520,,,,,,
+521,,,,,,
+522,,,,,,
+523,,,,,,
+524,,,,,,
+525,,,,,,
+526,,,,,,
+527,,,,,,
+528,,,,,,
+529,,,,,,
+530,,,,,,
+531,,,,,,
+532,,,,,,
+533,,,,,,
+534,,,,,,
+535,,,,,,
+536,,,,,,
+537,,,,,,
+538,,,,,,
+539,,,,,,
+540,,,,,,
+541,,,,,,
+542,,,,,,
+543,,,,,,
+544,,,,,,
+545,,,,,,
+546,,,,,,
+547,,,,,,
+548,,,,,,
+549,,,,,,
+550,,,,,,
+551,,,,,,

@@ -1,0 +1,381 @@
+,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+0,09/08/97,Barnsley,West Ham,1,2,A
+1,09/08/97,Blackburn,Derby,1,0,H
+2,09/08/97,Coventry,Chelsea,3,2,H
+3,09/08/97,Everton,Crystal Palace,1,2,A
+4,09/08/97,Leeds,Arsenal,1,1,D
+5,09/08/97,Leicester,Aston Villa,1,0,H
+6,09/08/97,Newcastle,Sheffield Weds,2,1,H
+7,09/08/97,Southampton,Bolton,0,1,A
+8,09/08/97,Wimbledon,Liverpool,1,1,D
+9,10/08/97,Tottenham,Man United,0,2,A
+10,11/08/97,Arsenal,Coventry,2,0,H
+11,12/08/97,Crystal Palace,Barnsley,0,1,A
+12,13/08/97,Aston Villa,Blackburn,0,4,A
+13,13/08/97,Liverpool,Leicester,1,2,A
+14,13/08/97,Man United,Southampton,1,0,H
+15,13/08/97,Sheffield Weds,Leeds,1,3,A
+16,13/08/97,West Ham,Tottenham,2,1,H
+17,23/08/97,Blackburn,Liverpool,1,1,D
+18,23/08/97,Coventry,Bolton,2,2,D
+19,23/08/97,Everton,West Ham,2,1,H
+20,23/08/97,Leeds,Crystal Palace,0,2,A
+21,23/08/97,Leicester,Man United,0,0,D
+22,23/08/97,Newcastle,Aston Villa,1,0,H
+23,23/08/97,Southampton,Arsenal,1,3,A
+24,23/08/97,Tottenham,Derby,1,0,H
+25,23/08/97,Wimbledon,Sheffield Weds,1,1,D
+26,24/08/97,Barnsley,Chelsea,0,6,A
+27,25/08/97,Blackburn,Sheffield Weds,7,2,H
+28,26/08/97,Leeds,Liverpool,0,2,A
+29,27/08/97,Barnsley,Bolton,2,1,H
+30,27/08/97,Coventry,West Ham,1,1,D
+31,27/08/97,Everton,Man United,0,2,A
+32,27/08/97,Leicester,Arsenal,3,3,D
+33,27/08/97,Southampton,Crystal Palace,1,0,H
+34,27/08/97,Tottenham,Aston Villa,3,2,H
+35,27/08/97,Wimbledon,Chelsea,0,2,A
+36,30/08/97,Arsenal,Tottenham,0,0,D
+37,30/08/97,Aston Villa,Leeds,1,0,H
+38,30/08/97,Chelsea,Southampton,4,2,H
+39,30/08/97,Crystal Palace,Blackburn,1,2,A
+40,30/08/97,Derby,Barnsley,1,0,H
+41,30/08/97,Man United,Coventry,3,0,H
+42,30/08/97,Sheffield Weds,Leicester,1,0,H
+43,30/08/97,West Ham,Wimbledon,3,1,H
+44,01/09/97,Bolton,Everton,0,0,D
+45,13/09/97,Arsenal,Bolton,4,1,H
+46,13/09/97,Barnsley,Aston Villa,0,3,A
+47,13/09/97,Coventry,Southampton,1,0,H
+48,13/09/97,Crystal Palace,Chelsea,0,3,A
+49,13/09/97,Derby,Everton,3,1,H
+50,13/09/97,Leicester,Tottenham,3,0,H
+51,13/09/97,Liverpool,Sheffield Weds,2,1,H
+52,13/09/97,Man United,West Ham,2,1,H
+53,13/09/97,Newcastle,Wimbledon,1,3,A
+54,14/09/97,Blackburn,Leeds,3,4,A
+55,20/09/97,Aston Villa,Derby,2,1,H
+56,20/09/97,Bolton,Man United,0,0,D
+57,20/09/97,Everton,Barnsley,4,2,H
+58,20/09/97,Leeds,Leicester,0,1,A
+59,20/09/97,Sheffield Weds,Coventry,0,0,D
+60,20/09/97,Southampton,Liverpool,1,1,D
+61,20/09/97,Tottenham,Blackburn,0,0,D
+62,20/09/97,West Ham,Newcastle,0,1,A
+63,20/09/97,Wimbledon,Crystal Palace,0,1,A
+64,21/09/97,Chelsea,Arsenal,2,3,A
+65,22/09/97,Liverpool,Aston Villa,3,0,H
+66,23/09/97,Bolton,Tottenham,1,1,D
+67,23/09/97,Wimbledon,Barnsley,4,1,H
+68,24/09/97,Arsenal,West Ham,4,0,H
+69,24/09/97,Coventry,Crystal Palace,1,1,D
+70,24/09/97,Leicester,Blackburn,1,1,D
+71,24/09/97,Man United,Chelsea,2,2,D
+72,24/09/97,Newcastle,Everton,1,0,H
+73,24/09/97,Sheffield Weds,Derby,2,5,A
+74,24/09/97,Southampton,Leeds,0,2,A
+75,27/09/97,Aston Villa,Sheffield Weds,2,2,D
+76,27/09/97,Barnsley,Leicester,0,2,A
+77,27/09/97,Chelsea,Newcastle,1,0,H
+78,27/09/97,Crystal Palace,Bolton,2,2,D
+79,27/09/97,Derby,Southampton,4,0,H
+80,27/09/97,Everton,Arsenal,2,2,D
+81,27/09/97,Leeds,Man United,1,0,H
+82,27/09/97,Tottenham,Wimbledon,0,0,D
+83,27/09/97,West Ham,Liverpool,2,1,H
+84,28/09/97,Blackburn,Coventry,0,0,D
+85,04/10/97,Arsenal,Barnsley,5,0,H
+86,04/10/97,Bolton,Aston Villa,0,1,A
+87,04/10/97,Coventry,Leeds,0,0,D
+88,04/10/97,Man United,Crystal Palace,2,0,H
+89,04/10/97,Newcastle,Tottenham,1,0,H
+90,04/10/97,Sheffield Weds,Everton,3,1,H
+91,04/10/97,Southampton,West Ham,3,0,H
+92,04/10/97,Wimbledon,Blackburn,0,1,A
+93,05/10/97,Liverpool,Chelsea,4,2,H
+94,06/10/97,Leicester,Derby,1,2,A
+95,18/10/97,Aston Villa,Wimbledon,1,2,A
+96,18/10/97,Blackburn,Southampton,1,0,H
+97,18/10/97,Chelsea,Leicester,1,0,H
+98,18/10/97,Crystal Palace,Arsenal,0,0,D
+99,18/10/97,Derby,Man United,2,2,D
+100,18/10/97,Everton,Liverpool,2,0,H
+101,18/10/97,Leeds,Newcastle,4,1,H
+102,18/10/97,West Ham,Bolton,3,0,H
+103,19/10/97,Tottenham,Sheffield Weds,3,2,H
+104,20/10/97,Barnsley,Coventry,2,0,H
+105,22/10/97,Derby,Wimbledon,1,1,D
+106,25/10/97,Coventry,Everton,0,0,D
+107,25/10/97,Liverpool,Derby,4,0,H
+108,25/10/97,Man United,Barnsley,7,0,H
+109,25/10/97,Newcastle,Blackburn,1,1,D
+110,25/10/97,Sheffield Weds,Crystal Palace,1,3,A
+111,25/10/97,Southampton,Tottenham,3,2,H
+112,25/10/97,Wimbledon,Leeds,1,0,H
+113,26/10/97,Arsenal,Aston Villa,0,0,D
+114,26/10/97,Bolton,Chelsea,1,0,H
+115,27/10/97,Leicester,West Ham,2,1,H
+116,01/11/97,Aston Villa,Chelsea,0,2,A
+117,01/11/97,Barnsley,Blackburn,1,1,D
+118,01/11/97,Bolton,Liverpool,1,1,D
+119,01/11/97,Derby,Arsenal,3,0,H
+120,01/11/97,Man United,Sheffield Weds,6,1,H
+121,01/11/97,Newcastle,Leicester,3,3,D
+122,01/11/97,Tottenham,Leeds,0,1,A
+123,01/11/97,Wimbledon,Coventry,1,2,A
+124,02/11/97,Everton,Southampton,0,2,A
+125,08/11/97,Blackburn,Everton,3,2,H
+126,08/11/97,Coventry,Newcastle,2,2,D
+127,08/11/97,Crystal Palace,Aston Villa,1,1,D
+128,08/11/97,Leeds,Derby,4,3,H
+129,08/11/97,Liverpool,Tottenham,4,0,H
+130,08/11/97,Sheffield Weds,Bolton,5,0,H
+131,08/11/97,Southampton,Barnsley,4,1,H
+132,09/11/97,Arsenal,Man United,3,2,H
+133,09/11/97,Chelsea,West Ham,2,1,H
+134,10/11/97,Leicester,Wimbledon,0,1,A
+135,22/11/97,Aston Villa,Everton,2,1,H
+136,22/11/97,Blackburn,Chelsea,1,0,H
+137,22/11/97,Derby,Coventry,3,1,H
+138,22/11/97,Leicester,Bolton,0,0,D
+139,22/11/97,Liverpool,Barnsley,0,1,A
+140,22/11/97,Newcastle,Southampton,2,1,H
+141,22/11/97,Sheffield Weds,Arsenal,2,0,H
+142,22/11/97,Wimbledon,Man United,2,5,A
+143,23/11/97,Leeds,West Ham,3,1,H
+144,24/11/97,Tottenham,Crystal Palace,0,1,A
+145,26/11/97,Chelsea,Everton,2,0,H
+146,29/11/97,Barnsley,Leeds,2,3,A
+147,29/11/97,Bolton,Wimbledon,1,0,H
+148,29/11/97,Chelsea,Derby,4,0,H
+149,29/11/97,Coventry,Leicester,0,2,A
+150,29/11/97,Crystal Palace,Newcastle,1,2,A
+151,29/11/97,Everton,Tottenham,0,2,A
+152,29/11/97,Southampton,Sheffield Weds,2,3,A
+153,29/11/97,West Ham,Aston Villa,2,1,H
+154,30/11/97,Arsenal,Liverpool,0,1,A
+155,30/11/97,Man United,Blackburn,4,0,H
+156,01/12/97,Bolton,Newcastle,1,0,H
+157,03/12/97,West Ham,Crystal Palace,4,1,H
+158,06/12/97,Aston Villa,Coventry,3,0,H
+159,06/12/97,Blackburn,Bolton,3,1,H
+160,06/12/97,Derby,West Ham,2,0,H
+161,06/12/97,Leeds,Everton,0,0,D
+162,06/12/97,Leicester,Crystal Palace,1,1,D
+163,06/12/97,Liverpool,Man United,1,3,A
+164,06/12/97,Newcastle,Arsenal,0,1,A
+165,06/12/97,Tottenham,Chelsea,1,6,A
+166,07/12/97,Wimbledon,Southampton,1,0,H
+167,08/12/97,Sheffield Weds,Barnsley,2,1,H
+168,13/12/97,Arsenal,Blackburn,1,3,A
+169,13/12/97,Barnsley,Newcastle,2,2,D
+170,13/12/97,Chelsea,Leeds,0,0,D
+171,13/12/97,Coventry,Tottenham,4,0,H
+172,13/12/97,Crystal Palace,Liverpool,0,3,A
+173,13/12/97,Everton,Wimbledon,0,0,D
+174,13/12/97,Southampton,Leicester,2,1,H
+175,13/12/97,West Ham,Sheffield Weds,1,0,H
+176,14/12/97,Bolton,Derby,3,3,D
+177,15/12/97,Man United,Aston Villa,1,0,H
+178,17/12/97,Newcastle,Derby,0,0,D
+179,20/12/97,Aston Villa,Southampton,1,1,D
+180,20/12/97,Blackburn,West Ham,3,0,H
+181,20/12/97,Derby,Crystal Palace,0,0,D
+182,20/12/97,Leeds,Bolton,2,0,H
+183,20/12/97,Leicester,Everton,0,1,A
+184,20/12/97,Liverpool,Coventry,1,0,H
+185,20/12/97,Sheffield Weds,Chelsea,1,4,A
+186,20/12/97,Tottenham,Barnsley,3,0,H
+187,21/12/97,Newcastle,Man United,0,1,A
+188,26/12/97,Arsenal,Leicester,2,1,H
+189,26/12/97,Aston Villa,Tottenham,4,1,H
+190,26/12/97,Bolton,Barnsley,1,1,D
+191,26/12/97,Chelsea,Wimbledon,1,1,D
+192,26/12/97,Crystal Palace,Southampton,1,1,D
+193,26/12/97,Derby,Newcastle,1,0,H
+194,26/12/97,Liverpool,Leeds,3,1,H
+195,26/12/97,Man United,Everton,2,0,H
+196,26/12/97,Sheffield Weds,Blackburn,0,0,D
+197,26/12/97,West Ham,Coventry,1,0,H
+198,28/12/97,Barnsley,Derby,1,0,H
+199,28/12/97,Blackburn,Crystal Palace,2,2,D
+200,28/12/97,Coventry,Man United,3,2,H
+201,28/12/97,Everton,Bolton,3,2,H
+202,28/12/97,Leeds,Aston Villa,1,1,D
+203,28/12/97,Leicester,Sheffield Weds,1,1,D
+204,28/12/97,Newcastle,Liverpool,1,2,A
+205,28/12/97,Tottenham,Arsenal,1,1,D
+206,28/12/97,Wimbledon,West Ham,1,2,A
+207,29/12/97,Southampton,Chelsea,1,0,H
+208,10/01/98,Arsenal,Leeds,2,1,H
+209,10/01/98,Aston Villa,Leicester,1,1,D
+210,10/01/98,Bolton,Southampton,0,0,D
+211,10/01/98,Chelsea,Coventry,3,1,H
+212,10/01/98,Crystal Palace,Everton,1,3,A
+213,10/01/98,Liverpool,Wimbledon,2,0,H
+214,10/01/98,Man United,Tottenham,2,0,H
+215,10/01/98,Sheffield Weds,Newcastle,2,1,H
+216,10/01/98,West Ham,Barnsley,6,0,H
+217,11/01/98,Derby,Blackburn,3,1,H
+218,17/01/98,Barnsley,Crystal Palace,1,0,H
+219,17/01/98,Blackburn,Aston Villa,5,0,H
+220,17/01/98,Coventry,Arsenal,2,2,D
+221,17/01/98,Leeds,Sheffield Weds,1,2,A
+222,17/01/98,Leicester,Liverpool,0,0,D
+223,17/01/98,Newcastle,Bolton,2,1,H
+224,17/01/98,Tottenham,West Ham,1,0,H
+225,17/01/98,Wimbledon,Derby,0,0,D
+226,18/01/98,Everton,Chelsea,3,1,H
+227,19/01/98,Southampton,Man United,1,0,H
+228,20/01/98,Liverpool,Newcastle,1,0,H
+229,31/01/98,Arsenal,Southampton,3,0,H
+230,31/01/98,Bolton,Coventry,1,5,A
+231,31/01/98,Chelsea,Barnsley,2,0,H
+232,31/01/98,Crystal Palace,Leeds,0,2,A
+233,31/01/98,Derby,Tottenham,2,1,H
+234,31/01/98,Liverpool,Blackburn,0,0,D
+235,31/01/98,Man United,Leicester,0,1,A
+236,31/01/98,Sheffield Weds,Wimbledon,1,1,D
+237,31/01/98,West Ham,Everton,2,2,D
+238,01/02/98,Aston Villa,Newcastle,0,1,A
+239,07/02/98,Barnsley,Everton,2,2,D
+240,07/02/98,Blackburn,Tottenham,0,3,A
+241,07/02/98,Coventry,Sheffield Weds,1,0,H
+242,07/02/98,Derby,Aston Villa,0,1,A
+243,07/02/98,Leicester,Leeds,1,0,H
+244,07/02/98,Liverpool,Southampton,2,3,A
+245,07/02/98,Man United,Bolton,1,1,D
+246,07/02/98,Newcastle,West Ham,0,1,A
+247,08/02/98,Arsenal,Chelsea,2,0,H
+248,09/02/98,Crystal Palace,Wimbledon,0,3,A
+249,14/02/98,Everton,Derby,1,2,A
+250,14/02/98,Sheffield Weds,Liverpool,3,3,D
+251,14/02/98,Tottenham,Leicester,1,1,D
+252,18/02/98,Aston Villa,Man United,0,2,A
+253,18/02/98,Southampton,Coventry,1,2,A
+254,21/02/98,Arsenal,Crystal Palace,1,0,H
+255,21/02/98,Bolton,West Ham,1,1,D
+256,21/02/98,Coventry,Barnsley,1,0,H
+257,21/02/98,Leicester,Chelsea,2,0,H
+258,21/02/98,Man United,Derby,2,0,H
+259,21/02/98,Sheffield Weds,Tottenham,1,0,H
+260,21/02/98,Southampton,Blackburn,3,0,H
+261,21/02/98,Wimbledon,Aston Villa,2,1,H
+262,22/02/98,Newcastle,Leeds,1,1,D
+263,23/02/98,Liverpool,Everton,1,1,D
+264,28/02/98,Aston Villa,Liverpool,2,1,H
+265,28/02/98,Barnsley,Wimbledon,2,1,H
+266,28/02/98,Blackburn,Leicester,5,3,H
+267,28/02/98,Chelsea,Man United,0,1,A
+268,28/02/98,Crystal Palace,Coventry,0,3,A
+269,28/02/98,Derby,Sheffield Weds,3,0,H
+270,28/02/98,Everton,Newcastle,0,0,D
+271,28/02/98,Leeds,Southampton,0,1,A
+272,01/03/98,Tottenham,Bolton,1,0,H
+273,02/03/98,West Ham,Arsenal,0,0,D
+274,04/03/98,Leeds,Tottenham,1,0,H
+275,07/03/98,Liverpool,Bolton,2,1,H
+276,07/03/98,Sheffield Weds,Man United,2,0,H
+277,07/03/98,Southampton,Everton,2,1,H
+278,08/03/98,Chelsea,Aston Villa,0,1,A
+279,11/03/98,Aston Villa,Barnsley,0,1,A
+280,11/03/98,Chelsea,Crystal Palace,6,2,H
+281,11/03/98,Leeds,Blackburn,4,0,H
+282,11/03/98,West Ham,Man United,1,1,D
+283,11/03/98,Wimbledon,Arsenal,0,1,A
+284,14/03/98,Aston Villa,Crystal Palace,3,1,H
+285,14/03/98,Barnsley,Southampton,4,3,H
+286,14/03/98,Bolton,Sheffield Weds,3,2,H
+287,14/03/98,Everton,Blackburn,1,0,H
+288,14/03/98,Man United,Arsenal,0,1,A
+289,14/03/98,Newcastle,Coventry,0,0,D
+290,14/03/98,Tottenham,Liverpool,3,3,D
+291,14/03/98,West Ham,Chelsea,2,1,H
+292,14/03/98,Wimbledon,Leicester,2,1,H
+293,15/03/98,Derby,Leeds,0,5,A
+294,18/03/98,Newcastle,Crystal Palace,1,2,A
+295,28/03/98,Arsenal,Sheffield Weds,1,0,H
+296,28/03/98,Barnsley,Liverpool,2,3,A
+297,28/03/98,Bolton,Leicester,2,0,H
+298,28/03/98,Coventry,Derby,1,0,H
+299,28/03/98,Crystal Palace,Tottenham,1,3,A
+300,28/03/98,Everton,Aston Villa,1,4,A
+301,28/03/98,Man United,Wimbledon,2,0,H
+302,28/03/98,Southampton,Newcastle,2,1,H
+303,30/03/98,West Ham,Leeds,3,0,H
+304,31/03/98,Blackburn,Barnsley,2,1,H
+305,31/03/98,Bolton,Arsenal,0,1,A
+306,31/03/98,Wimbledon,Newcastle,0,0,D
+307,04/04/98,Aston Villa,West Ham,2,0,H
+308,04/04/98,Leeds,Barnsley,2,1,H
+309,04/04/98,Leicester,Coventry,1,1,D
+310,04/04/98,Sheffield Weds,Southampton,1,0,H
+311,04/04/98,Tottenham,Everton,1,1,D
+312,04/04/98,Wimbledon,Bolton,0,0,D
+313,05/04/98,Derby,Chelsea,0,1,A
+314,06/04/98,Blackburn,Man United,1,3,A
+315,08/04/98,Leeds,Chelsea,3,1,H
+316,10/04/98,Man United,Liverpool,1,1,D
+317,11/04/98,Arsenal,Newcastle,3,1,H
+318,11/04/98,Barnsley,Sheffield Weds,2,1,H
+319,11/04/98,Bolton,Blackburn,2,1,H
+320,11/04/98,Chelsea,Tottenham,2,0,H
+321,11/04/98,Coventry,Aston Villa,1,2,A
+322,11/04/98,Crystal Palace,Leicester,0,3,A
+323,11/04/98,Everton,Leeds,2,0,H
+324,11/04/98,Southampton,Wimbledon,0,1,A
+325,11/04/98,West Ham,Derby,0,0,D
+326,13/04/98,Blackburn,Arsenal,1,4,A
+327,13/04/98,Derby,Bolton,4,0,H
+328,13/04/98,Liverpool,Crystal Palace,2,1,H
+329,13/04/98,Newcastle,Barnsley,2,1,H
+330,13/04/98,Sheffield Weds,West Ham,1,1,D
+331,13/04/98,Tottenham,Coventry,1,1,D
+332,13/04/98,Wimbledon,Everton,0,0,D
+333,14/04/98,Leicester,Southampton,3,3,D
+334,18/04/98,Arsenal,Wimbledon,5,0,H
+335,18/04/98,Barnsley,Tottenham,1,1,D
+336,18/04/98,Bolton,Leeds,2,3,A
+337,18/04/98,Crystal Palace,Derby,3,1,H
+338,18/04/98,Everton,Leicester,1,1,D
+339,18/04/98,Man United,Newcastle,1,1,D
+340,18/04/98,Southampton,Aston Villa,1,2,A
+341,18/04/98,West Ham,Blackburn,2,1,H
+342,19/04/98,Chelsea,Sheffield Weds,1,0,H
+343,19/04/98,Coventry,Liverpool,1,1,D
+344,25/04/98,Aston Villa,Bolton,1,3,A
+345,25/04/98,Barnsley,Arsenal,0,2,A
+346,25/04/98,Blackburn,Wimbledon,0,0,D
+347,25/04/98,Chelsea,Liverpool,4,1,H
+348,25/04/98,Everton,Sheffield Weds,1,3,A
+349,25/04/98,Leeds,Coventry,3,3,D
+350,25/04/98,Tottenham,Newcastle,2,0,H
+351,25/04/98,West Ham,Southampton,2,4,A
+352,26/04/98,Derby,Leicester,0,4,A
+353,27/04/98,Crystal Palace,Man United,0,3,A
+354,29/04/98,Arsenal,Derby,1,0,H
+355,29/04/98,Chelsea,Blackburn,0,1,A
+356,29/04/98,Coventry,Wimbledon,0,0,D
+357,29/04/98,Leicester,Newcastle,0,0,D
+358,02/05/98,Bolton,Crystal Palace,5,2,H
+359,02/05/98,Coventry,Blackburn,2,0,H
+360,02/05/98,Leicester,Barnsley,1,0,H
+361,02/05/98,Liverpool,West Ham,5,0,H
+362,02/05/98,Newcastle,Chelsea,3,1,H
+363,02/05/98,Sheffield Weds,Aston Villa,1,3,A
+364,02/05/98,Southampton,Derby,0,2,A
+365,02/05/98,Wimbledon,Tottenham,2,6,A
+366,03/05/98,Arsenal,Everton,4,0,H
+367,04/05/98,Man United,Leeds,3,0,H
+368,05/05/98,Crystal Palace,West Ham,3,3,D
+369,06/05/98,Liverpool,Arsenal,4,0,H
+370,10/05/98,Aston Villa,Arsenal,1,0,H
+371,10/05/98,Barnsley,Man United,0,2,A
+372,10/05/98,Blackburn,Newcastle,1,0,H
+373,10/05/98,Chelsea,Bolton,2,0,H
+374,10/05/98,Crystal Palace,Sheffield Weds,1,0,H
+375,10/05/98,Derby,Liverpool,1,0,H
+376,10/05/98,Everton,Coventry,1,1,D
+377,10/05/98,Leeds,Wimbledon,1,1,D
+378,10/05/98,Tottenham,Southampton,1,1,D
+379,10/05/98,West Ham,Leicester,4,3,H

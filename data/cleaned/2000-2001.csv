@@ -1,0 +1,381 @@
+,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+0,19/08/00,Charlton,Man City,4,0,H
+1,19/08/00,Chelsea,West Ham,4,2,H
+2,19/08/00,Coventry,Middlesbrough,1,3,A
+3,19/08/00,Derby,Southampton,2,2,D
+4,19/08/00,Leeds,Everton,2,0,H
+5,19/08/00,Leicester,Aston Villa,0,0,D
+6,19/08/00,Liverpool,Bradford,1,0,H
+7,19/08/00,Sunderland,Arsenal,1,0,H
+8,19/08/00,Tottenham,Ipswich,3,1,H
+9,20/08/00,Man United,Newcastle,2,0,H
+10,21/08/00,Arsenal,Liverpool,2,0,H
+11,22/08/00,Bradford,Chelsea,2,0,H
+12,22/08/00,Ipswich,Man United,1,1,D
+13,22/08/00,Middlesbrough,Tottenham,1,1,D
+14,23/08/00,Everton,Charlton,3,0,H
+15,23/08/00,Man City,Sunderland,4,2,H
+16,23/08/00,Newcastle,Derby,3,2,H
+17,23/08/00,Southampton,Coventry,1,2,A
+18,23/08/00,West Ham,Leicester,0,1,A
+19,26/08/00,Arsenal,Charlton,5,3,H
+20,26/08/00,Bradford,Leicester,0,0,D
+21,26/08/00,Everton,Derby,2,2,D
+22,26/08/00,Ipswich,Sunderland,1,0,H
+23,26/08/00,Man City,Coventry,1,2,A
+24,26/08/00,Middlesbrough,Leeds,1,2,A
+25,26/08/00,Newcastle,Tottenham,2,0,H
+26,26/08/00,Southampton,Liverpool,3,3,D
+27,26/08/00,West Ham,Man United,2,2,D
+28,27/08/00,Aston Villa,Chelsea,1,1,D
+29,05/09/00,Leeds,Man City,1,2,A
+30,05/09/00,Man United,Bradford,6,0,H
+31,05/09/00,Sunderland,West Ham,1,1,D
+32,05/09/00,Tottenham,Everton,3,2,H
+33,06/09/00,Charlton,Southampton,1,1,D
+34,06/09/00,Chelsea,Arsenal,2,2,D
+35,06/09/00,Coventry,Newcastle,0,2,A
+36,06/09/00,Derby,Middlesbrough,3,3,D
+37,06/09/00,Leicester,Ipswich,2,1,H
+38,06/09/00,Liverpool,Aston Villa,3,1,H
+39,09/09/00,Bradford,Arsenal,1,1,D
+40,09/09/00,Coventry,Leeds,0,0,D
+41,09/09/00,Ipswich,Aston Villa,1,2,A
+42,09/09/00,Leicester,Southampton,1,0,H
+43,09/09/00,Liverpool,Man City,3,2,H
+44,09/09/00,Man United,Sunderland,3,0,H
+45,09/09/00,Middlesbrough,Everton,1,2,A
+46,09/09/00,Newcastle,Chelsea,0,0,D
+47,10/09/00,Derby,Charlton,2,2,D
+48,11/09/00,Tottenham,West Ham,1,0,H
+49,16/09/00,Arsenal,Coventry,2,1,H
+50,16/09/00,Aston Villa,Bradford,2,0,H
+51,16/09/00,Charlton,Tottenham,1,0,H
+52,16/09/00,Everton,Man United,1,3,A
+53,16/09/00,Leeds,Ipswich,1,2,A
+54,16/09/00,Southampton,Newcastle,2,0,H
+55,16/09/00,Sunderland,Derby,2,1,H
+56,17/09/00,Chelsea,Leicester,0,2,A
+57,17/09/00,Man City,Middlesbrough,1,1,D
+58,17/09/00,West Ham,Liverpool,1,1,D
+59,23/09/00,Bradford,Southampton,0,1,A
+60,23/09/00,Coventry,West Ham,0,3,A
+61,23/09/00,Derby,Leeds,1,1,D
+62,23/09/00,Ipswich,Arsenal,1,1,D
+63,23/09/00,Liverpool,Sunderland,1,1,D
+64,23/09/00,Man United,Chelsea,3,3,D
+65,23/09/00,Middlesbrough,Aston Villa,1,1,D
+66,23/09/00,Newcastle,Charlton,0,1,A
+67,23/09/00,Tottenham,Man City,0,0,D
+68,24/09/00,Leicester,Everton,1,1,D
+69,30/09/00,Aston Villa,Derby,4,1,H
+70,30/09/00,Charlton,Coventry,2,2,D
+71,30/09/00,Everton,Ipswich,0,3,A
+72,30/09/00,Leeds,Tottenham,4,3,H
+73,30/09/00,Man City,Newcastle,0,1,A
+74,30/09/00,Southampton,Middlesbrough,1,3,A
+75,30/09/00,West Ham,Bradford,1,1,D
+76,01/10/00,Arsenal,Man United,1,0,H
+77,01/10/00,Chelsea,Liverpool,3,0,H
+78,01/10/00,Sunderland,Leicester,0,0,D
+79,14/10/00,Arsenal,Aston Villa,1,0,H
+80,14/10/00,Coventry,Tottenham,2,1,H
+81,14/10/00,Everton,Southampton,1,1,D
+82,14/10/00,Ipswich,West Ham,1,1,D
+83,14/10/00,Leeds,Charlton,3,1,H
+84,14/10/00,Leicester,Man United,0,3,A
+85,14/10/00,Man City,Bradford,2,0,H
+86,14/10/00,Sunderland,Chelsea,1,0,H
+87,15/10/00,Derby,Liverpool,0,4,A
+88,16/10/00,Middlesbrough,Newcastle,1,3,A
+89,21/10/00,Bradford,Ipswich,0,2,A
+90,21/10/00,Charlton,Middlesbrough,1,0,H
+91,21/10/00,Chelsea,Coventry,6,1,H
+92,21/10/00,Liverpool,Leicester,1,0,H
+93,21/10/00,Man United,Leeds,3,0,H
+94,21/10/00,Newcastle,Everton,0,1,A
+95,21/10/00,Tottenham,Derby,3,1,H
+96,21/10/00,West Ham,Arsenal,1,2,A
+97,22/10/00,Aston Villa,Sunderland,0,0,D
+98,23/10/00,Southampton,Man City,0,2,A
+99,28/10/00,Arsenal,Man City,5,0,H
+100,28/10/00,Aston Villa,Charlton,2,1,H
+101,28/10/00,Chelsea,Tottenham,3,0,H
+102,28/10/00,Ipswich,Middlesbrough,2,1,H
+103,28/10/00,Leicester,Derby,2,1,H
+104,28/10/00,Man United,Southampton,5,0,H
+105,28/10/00,Sunderland,Coventry,1,0,H
+106,28/10/00,West Ham,Newcastle,1,0,H
+107,29/10/00,Bradford,Leeds,1,1,D
+108,29/10/00,Liverpool,Everton,3,1,H
+109,04/11/00,Charlton,Bradford,2,0,H
+110,04/11/00,Coventry,Man United,1,2,A
+111,04/11/00,Leeds,Liverpool,4,3,H
+112,04/11/00,Man City,Leicester,0,1,A
+113,04/11/00,Middlesbrough,Arsenal,0,1,A
+114,04/11/00,Newcastle,Ipswich,2,1,H
+115,04/11/00,Southampton,Chelsea,3,2,H
+116,04/11/00,Tottenham,Sunderland,2,1,H
+117,05/11/00,Everton,Aston Villa,0,1,A
+118,06/11/00,Derby,West Ham,0,0,D
+119,11/11/00,Arsenal,Derby,0,0,D
+120,11/11/00,Aston Villa,Tottenham,2,0,H
+121,11/11/00,Bradford,Everton,0,1,A
+122,11/11/00,Ipswich,Charlton,2,0,H
+123,11/11/00,Leicester,Newcastle,1,1,D
+124,11/11/00,Man United,Middlesbrough,2,1,H
+125,11/11/00,Sunderland,Southampton,2,2,D
+126,11/11/00,West Ham,Man City,4,1,H
+127,12/11/00,Chelsea,Leeds,1,1,D
+128,12/11/00,Liverpool,Coventry,4,1,H
+129,18/11/00,Charlton,Chelsea,2,0,H
+130,18/11/00,Derby,Bradford,2,0,H
+131,18/11/00,Everton,Arsenal,2,0,H
+132,18/11/00,Leeds,West Ham,0,1,A
+133,18/11/00,Man City,Man United,0,1,A
+134,18/11/00,Middlesbrough,Leicester,0,3,A
+135,18/11/00,Newcastle,Sunderland,1,2,A
+136,18/11/00,Southampton,Aston Villa,2,0,H
+137,19/11/00,Tottenham,Liverpool,2,1,H
+138,20/11/00,Coventry,Ipswich,0,1,A
+139,25/11/00,Charlton,Sunderland,0,1,A
+140,25/11/00,Coventry,Aston Villa,1,1,D
+141,25/11/00,Derby,Man United,0,3,A
+142,25/11/00,Everton,Chelsea,2,1,H
+143,25/11/00,Man City,Ipswich,2,3,A
+144,25/11/00,Middlesbrough,Bradford,2,2,D
+145,25/11/00,Southampton,West Ham,2,3,A
+146,25/11/00,Tottenham,Leicester,3,0,H
+147,26/11/00,Leeds,Arsenal,1,0,H
+148,26/11/00,Newcastle,Liverpool,2,1,H
+149,02/12/00,Arsenal,Southampton,1,0,H
+150,02/12/00,Aston Villa,Newcastle,1,1,D
+151,02/12/00,Bradford,Coventry,2,1,H
+152,02/12/00,Ipswich,Derby,0,1,A
+153,02/12/00,Leicester,Leeds,3,1,H
+154,02/12/00,Liverpool,Charlton,3,0,H
+155,02/12/00,Man United,Tottenham,2,0,H
+156,02/12/00,West Ham,Middlesbrough,1,0,H
+157,03/12/00,Chelsea,Man City,2,1,H
+158,04/12/00,Sunderland,Everton,2,0,H
+159,09/12/00,Arsenal,Newcastle,5,0,H
+160,09/12/00,Bradford,Tottenham,3,3,D
+161,09/12/00,Charlton,Man United,3,3,D
+162,09/12/00,Chelsea,Derby,4,1,H
+163,09/12/00,Man City,Everton,5,0,H
+164,09/12/00,Southampton,Leeds,1,0,H
+165,09/12/00,Sunderland,Middlesbrough,1,0,H
+166,09/12/00,West Ham,Aston Villa,1,1,D
+167,10/12/00,Coventry,Leicester,1,0,H
+168,10/12/00,Liverpool,Ipswich,0,1,A
+169,16/12/00,Aston Villa,Man City,2,2,D
+170,16/12/00,Derby,Coventry,1,0,H
+171,16/12/00,Everton,West Ham,1,1,D
+172,16/12/00,Ipswich,Southampton,3,1,H
+173,16/12/00,Leeds,Sunderland,2,0,H
+174,16/12/00,Leicester,Charlton,3,1,H
+175,16/12/00,Middlesbrough,Chelsea,1,0,H
+176,16/12/00,Newcastle,Bradford,2,1,H
+177,17/12/00,Man United,Liverpool,0,1,A
+178,18/12/00,Tottenham,Arsenal,1,1,D
+179,22/12/00,Coventry,Southampton,1,1,D
+180,23/12/00,Charlton,Everton,1,0,H
+181,23/12/00,Chelsea,Bradford,3,0,H
+182,23/12/00,Derby,Newcastle,2,0,H
+183,23/12/00,Leeds,Aston Villa,1,2,A
+184,23/12/00,Leicester,West Ham,2,1,H
+185,23/12/00,Liverpool,Arsenal,4,0,H
+186,23/12/00,Man United,Ipswich,2,0,H
+187,23/12/00,Sunderland,Man City,1,0,H
+188,23/12/00,Tottenham,Middlesbrough,0,0,D
+189,26/12/00,Arsenal,Leicester,6,1,H
+190,26/12/00,Aston Villa,Man United,0,1,A
+191,26/12/00,Bradford,Sunderland,1,4,A
+192,26/12/00,Everton,Coventry,1,2,A
+193,26/12/00,Ipswich,Chelsea,2,2,D
+194,26/12/00,Man City,Derby,0,0,D
+195,26/12/00,Middlesbrough,Liverpool,1,0,H
+196,26/12/00,Newcastle,Leeds,2,1,H
+197,26/12/00,West Ham,Charlton,5,0,H
+198,27/12/00,Southampton,Tottenham,2,0,H
+199,30/12/00,Arsenal,Sunderland,2,2,D
+200,30/12/00,Ipswich,Tottenham,3,0,H
+201,30/12/00,Man City,Charlton,1,4,A
+202,30/12/00,Middlesbrough,Coventry,1,1,D
+203,30/12/00,Newcastle,Man United,1,1,D
+204,30/12/00,Southampton,Derby,1,0,H
+205,01/01/01,Charlton,Arsenal,1,0,H
+206,01/01/01,Chelsea,Aston Villa,1,0,H
+207,01/01/01,Coventry,Man City,1,1,D
+208,01/01/01,Derby,Everton,1,0,H
+209,01/01/01,Leeds,Middlesbrough,1,1,D
+210,01/01/01,Leicester,Bradford,1,2,A
+211,01/01/01,Liverpool,Southampton,2,1,H
+212,01/01/01,Man United,West Ham,3,1,H
+213,01/01/01,Sunderland,Ipswich,4,1,H
+214,02/01/01,Tottenham,Newcastle,4,2,H
+215,13/01/01,Arsenal,Chelsea,1,1,D
+216,13/01/01,Aston Villa,Liverpool,0,3,A
+217,13/01/01,Bradford,Man United,0,3,A
+218,13/01/01,Everton,Tottenham,0,0,D
+219,13/01/01,Man City,Leeds,0,4,A
+220,13/01/01,Middlesbrough,Derby,4,0,H
+221,13/01/01,Newcastle,Coventry,3,1,H
+222,13/01/01,Southampton,Charlton,0,0,D
+223,13/01/01,West Ham,Sunderland,0,2,A
+224,14/01/01,Ipswich,Leicester,2,0,H
+225,20/01/01,Chelsea,Ipswich,4,1,H
+226,20/01/01,Coventry,Everton,1,3,A
+227,20/01/01,Derby,Man City,1,1,D
+228,20/01/01,Leeds,Newcastle,1,3,A
+229,20/01/01,Leicester,Arsenal,0,0,D
+230,20/01/01,Liverpool,Middlesbrough,0,0,D
+231,20/01/01,Man United,Aston Villa,2,0,H
+232,20/01/01,Tottenham,Southampton,0,0,D
+233,21/01/01,Sunderland,Bradford,0,0,D
+234,22/01/01,Charlton,West Ham,1,1,D
+235,24/01/01,Aston Villa,Leeds,1,2,A
+236,30/01/01,Arsenal,Bradford,2,0,H
+237,30/01/01,Charlton,Derby,2,1,H
+238,31/01/01,Chelsea,Newcastle,3,1,H
+239,31/01/01,Everton,Middlesbrough,2,2,D
+240,31/01/01,Leeds,Coventry,1,0,H
+241,31/01/01,Man City,Liverpool,1,1,D
+242,31/01/01,Southampton,Leicester,1,0,H
+243,31/01/01,Sunderland,Man United,0,1,A
+244,31/01/01,West Ham,Tottenham,0,0,D
+245,03/02/01,Bradford,Aston Villa,0,3,A
+246,03/02/01,Coventry,Arsenal,0,1,A
+247,03/02/01,Derby,Sunderland,1,0,H
+248,03/02/01,Ipswich,Leeds,1,2,A
+249,03/02/01,Leicester,Chelsea,2,1,H
+250,03/02/01,Liverpool,West Ham,3,0,H
+251,03/02/01,Man United,Everton,1,0,H
+252,03/02/01,Middlesbrough,Man City,1,1,D
+253,03/02/01,Tottenham,Charlton,0,0,D
+254,07/02/01,Everton,Leeds,2,2,D
+255,10/02/01,Arsenal,Ipswich,1,0,H
+256,10/02/01,Aston Villa,Middlesbrough,1,1,D
+257,10/02/01,Chelsea,Man United,1,1,D
+258,10/02/01,Everton,Leicester,2,1,H
+259,10/02/01,Leeds,Derby,0,0,D
+260,10/02/01,Man City,Tottenham,0,1,A
+261,10/02/01,Southampton,Bradford,2,0,H
+262,10/02/01,Sunderland,Liverpool,1,1,D
+263,11/02/01,Charlton,Newcastle,2,0,H
+264,12/02/01,West Ham,Coventry,1,1,D
+265,24/02/01,Bradford,West Ham,1,2,A
+266,24/02/01,Coventry,Charlton,2,2,D
+267,24/02/01,Derby,Aston Villa,1,0,H
+268,24/02/01,Ipswich,Everton,2,0,H
+269,24/02/01,Leicester,Sunderland,2,0,H
+270,24/02/01,Middlesbrough,Southampton,0,1,A
+271,24/02/01,Newcastle,Man City,0,1,A
+272,24/02/01,Tottenham,Leeds,1,2,A
+273,25/02/01,Man United,Arsenal,6,1,H
+274,03/03/01,Arsenal,West Ham,3,0,H
+275,03/03/01,Coventry,Chelsea,0,0,D
+276,03/03/01,Derby,Tottenham,2,1,H
+277,03/03/01,Everton,Newcastle,1,1,D
+278,03/03/01,Leeds,Man United,1,1,D
+279,03/03/01,Leicester,Liverpool,2,0,H
+280,03/03/01,Man City,Southampton,0,1,A
+281,03/03/01,Middlesbrough,Charlton,0,0,D
+282,04/03/01,Ipswich,Bradford,3,1,H
+283,05/03/01,Sunderland,Aston Villa,1,1,D
+284,07/03/01,West Ham,Chelsea,0,2,A
+285,10/03/01,Aston Villa,Ipswich,2,1,H
+286,17/03/01,Bradford,Man City,2,2,D
+287,17/03/01,Charlton,Leeds,1,2,A
+288,17/03/01,Chelsea,Sunderland,2,4,A
+289,17/03/01,Man United,Leicester,2,0,H
+290,17/03/01,Newcastle,Middlesbrough,1,2,A
+291,17/03/01,Southampton,Everton,1,0,H
+292,17/03/01,Tottenham,Coventry,3,0,H
+293,17/03/01,West Ham,Ipswich,0,1,A
+294,18/03/01,Aston Villa,Arsenal,0,0,D
+295,18/03/01,Liverpool,Derby,1,1,D
+296,31/03/01,Arsenal,Tottenham,2,0,H
+297,31/03/01,Bradford,Newcastle,2,2,D
+298,31/03/01,Chelsea,Middlesbrough,2,1,H
+299,31/03/01,Coventry,Derby,2,0,H
+300,31/03/01,Liverpool,Man United,2,0,H
+301,31/03/01,Man City,Aston Villa,1,3,A
+302,31/03/01,Sunderland,Leeds,0,2,A
+303,31/03/01,West Ham,Everton,0,2,A
+304,01/04/01,Charlton,Leicester,2,0,H
+305,02/04/01,Southampton,Ipswich,0,3,A
+306,04/04/01,Aston Villa,Leicester,2,1,H
+307,07/04/01,Aston Villa,West Ham,2,2,D
+308,07/04/01,Derby,Chelsea,0,4,A
+309,07/04/01,Leeds,Southampton,2,0,H
+310,07/04/01,Leicester,Coventry,1,3,A
+311,08/04/01,Everton,Man City,3,1,H
+312,09/04/01,Middlesbrough,Sunderland,0,0,D
+313,10/04/01,Ipswich,Liverpool,1,1,D
+314,10/04/01,Man United,Charlton,2,1,H
+315,10/04/01,Tottenham,Bradford,2,1,H
+316,11/04/01,Man City,Arsenal,0,4,A
+317,13/04/01,Bradford,Charlton,2,0,H
+318,13/04/01,Liverpool,Leeds,1,2,A
+319,14/04/01,Arsenal,Middlesbrough,0,3,A
+320,14/04/01,Aston Villa,Everton,2,1,H
+321,14/04/01,Chelsea,Southampton,1,0,H
+322,14/04/01,Ipswich,Newcastle,1,0,H
+323,14/04/01,Leicester,Man City,1,2,A
+324,14/04/01,Man United,Coventry,4,2,H
+325,14/04/01,Sunderland,Tottenham,2,3,A
+326,14/04/01,West Ham,Derby,3,1,H
+327,16/04/01,Coventry,Sunderland,1,0,H
+328,16/04/01,Derby,Leicester,2,0,H
+329,16/04/01,Everton,Liverpool,2,3,A
+330,16/04/01,Middlesbrough,Ipswich,1,2,A
+331,16/04/01,Newcastle,West Ham,2,1,H
+332,17/04/01,Charlton,Aston Villa,3,3,D
+333,17/04/01,Tottenham,Chelsea,0,3,A
+334,21/04/01,Arsenal,Everton,4,1,H
+335,21/04/01,Aston Villa,Southampton,0,0,D
+336,21/04/01,Bradford,Derby,2,0,H
+337,21/04/01,Chelsea,Charlton,0,1,A
+338,21/04/01,Ipswich,Coventry,2,0,H
+339,21/04/01,Leicester,Middlesbrough,0,3,A
+340,21/04/01,Man United,Man City,1,1,D
+341,21/04/01,Sunderland,Newcastle,1,1,D
+342,21/04/01,West Ham,Leeds,0,2,A
+343,22/04/01,Liverpool,Tottenham,3,1,H
+344,28/04/01,Coventry,Liverpool,0,2,A
+345,28/04/01,Derby,Arsenal,1,2,A
+346,28/04/01,Everton,Bradford,2,1,H
+347,28/04/01,Leeds,Chelsea,2,0,H
+348,28/04/01,Man City,West Ham,1,0,H
+349,28/04/01,Middlesbrough,Man United,0,2,A
+350,28/04/01,Newcastle,Leicester,1,0,H
+351,28/04/01,Southampton,Sunderland,0,1,A
+352,28/04/01,Tottenham,Aston Villa,0,0,D
+353,30/04/01,Charlton,Ipswich,2,1,H
+354,01/05/01,Bradford,Liverpool,0,2,A
+355,01/05/01,Newcastle,Southampton,1,1,D
+356,05/05/01,Arsenal,Leeds,2,1,H
+357,05/05/01,Aston Villa,Coventry,3,2,H
+358,05/05/01,Bradford,Middlesbrough,1,1,D
+359,05/05/01,Chelsea,Everton,2,1,H
+360,05/05/01,Leicester,Tottenham,4,2,H
+361,05/05/01,Liverpool,Newcastle,3,0,H
+362,05/05/01,Man United,Derby,0,1,A
+363,05/05/01,Sunderland,Charlton,3,2,H
+364,05/05/01,West Ham,Southampton,3,0,H
+365,07/05/01,Ipswich,Man City,2,1,H
+366,08/05/01,Liverpool,Chelsea,2,2,D
+367,13/05/01,Leeds,Bradford,6,1,H
+368,13/05/01,Southampton,Man United,2,1,H
+369,15/05/01,Newcastle,Arsenal,0,0,D
+370,19/05/01,Charlton,Liverpool,0,4,A
+371,19/05/01,Coventry,Bradford,0,0,D
+372,19/05/01,Derby,Ipswich,1,1,D
+373,19/05/01,Everton,Sunderland,2,2,D
+374,19/05/01,Leeds,Leicester,3,1,H
+375,19/05/01,Man City,Chelsea,1,2,A
+376,19/05/01,Middlesbrough,West Ham,2,1,H
+377,19/05/01,Newcastle,Aston Villa,3,0,H
+378,19/05/01,Southampton,Arsenal,3,2,H
+379,19/05/01,Tottenham,Man United,3,1,H

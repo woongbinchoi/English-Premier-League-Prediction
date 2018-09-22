@@ -1,0 +1,381 @@
+,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+0,14/08/10,Aston Villa,West Ham,3,0,H
+1,14/08/10,Blackburn,Everton,1,0,H
+2,14/08/10,Bolton,Fulham,0,0,D
+3,14/08/10,Chelsea,West Brom,6,0,H
+4,14/08/10,Sunderland,Birmingham,2,2,D
+5,14/08/10,Tottenham,Man City,0,0,D
+6,14/08/10,Wigan,Blackpool,0,4,A
+7,14/08/10,Wolves,Stoke,2,1,H
+8,15/08/10,Liverpool,Arsenal,1,1,D
+9,16/08/10,Man United,Newcastle,3,0,H
+10,21/08/10,Arsenal,Blackpool,6,0,H
+11,21/08/10,Birmingham,Blackburn,2,1,H
+12,21/08/10,Everton,Wolves,1,1,D
+13,21/08/10,Stoke,Tottenham,1,2,A
+14,21/08/10,West Brom,Sunderland,1,0,H
+15,21/08/10,West Ham,Bolton,1,3,A
+16,21/08/10,Wigan,Chelsea,0,6,A
+17,22/08/10,Fulham,Man United,2,2,D
+18,22/08/10,Newcastle,Aston Villa,6,0,H
+19,23/08/10,Man City,Liverpool,3,0,H
+20,28/08/10,Blackburn,Arsenal,1,2,A
+21,28/08/10,Blackpool,Fulham,2,2,D
+22,28/08/10,Chelsea,Stoke,2,0,H
+23,28/08/10,Man United,West Ham,3,0,H
+24,28/08/10,Tottenham,Wigan,0,1,A
+25,28/08/10,Wolves,Newcastle,1,1,D
+26,29/08/10,Aston Villa,Everton,1,0,H
+27,29/08/10,Bolton,Birmingham,2,2,D
+28,29/08/10,Liverpool,West Brom,1,0,H
+29,29/08/10,Sunderland,Man City,1,0,H
+30,11/09/10,Arsenal,Bolton,4,1,H
+31,11/09/10,Everton,Man United,3,3,D
+32,11/09/10,Fulham,Wolves,2,1,H
+33,11/09/10,Man City,Blackburn,1,1,D
+34,11/09/10,Newcastle,Blackpool,0,2,A
+35,11/09/10,West Brom,Tottenham,1,1,D
+36,11/09/10,West Ham,Chelsea,1,3,A
+37,11/09/10,Wigan,Sunderland,1,1,D
+38,12/09/10,Birmingham,Liverpool,0,0,D
+39,13/09/10,Stoke,Aston Villa,2,1,H
+40,18/09/10,Aston Villa,Bolton,1,1,D
+41,18/09/10,Blackburn,Fulham,1,1,D
+42,18/09/10,Everton,Newcastle,0,1,A
+43,18/09/10,Stoke,West Ham,1,1,D
+44,18/09/10,Sunderland,Arsenal,1,1,D
+45,18/09/10,Tottenham,Wolves,3,1,H
+46,18/09/10,West Brom,Birmingham,3,1,H
+47,19/09/10,Chelsea,Blackpool,4,0,H
+48,19/09/10,Man United,Liverpool,3,2,H
+49,19/09/10,Wigan,Man City,0,2,A
+50,25/09/10,Arsenal,West Brom,2,3,A
+51,25/09/10,Birmingham,Wigan,0,0,D
+52,25/09/10,Blackpool,Blackburn,1,2,A
+53,25/09/10,Fulham,Everton,0,0,D
+54,25/09/10,Liverpool,Sunderland,2,2,D
+55,25/09/10,Man City,Chelsea,1,0,H
+56,25/09/10,West Ham,Tottenham,1,0,H
+57,26/09/10,Bolton,Man United,2,2,D
+58,26/09/10,Newcastle,Stoke,1,2,A
+59,26/09/10,Wolves,Aston Villa,1,2,A
+60,02/10/10,Birmingham,Everton,0,2,A
+61,02/10/10,Stoke,Blackburn,1,0,H
+62,02/10/10,Sunderland,Man United,0,0,D
+63,02/10/10,Tottenham,Aston Villa,2,1,H
+64,02/10/10,West Brom,Bolton,1,1,D
+65,02/10/10,West Ham,Fulham,1,1,D
+66,02/10/10,Wigan,Wolves,2,0,H
+67,03/10/10,Chelsea,Arsenal,2,0,H
+68,03/10/10,Liverpool,Blackpool,1,2,A
+69,03/10/10,Man City,Newcastle,2,1,H
+70,16/10/10,Arsenal,Birmingham,2,1,H
+71,16/10/10,Aston Villa,Chelsea,0,0,D
+72,16/10/10,Bolton,Stoke,2,1,H
+73,16/10/10,Fulham,Tottenham,1,2,A
+74,16/10/10,Man United,West Brom,2,2,D
+75,16/10/10,Newcastle,Wigan,2,2,D
+76,16/10/10,Wolves,West Ham,1,1,D
+77,17/10/10,Blackpool,Man City,2,3,A
+78,17/10/10,Everton,Liverpool,2,0,H
+79,18/10/10,Blackburn,Sunderland,0,0,D
+80,23/10/10,Birmingham,Blackpool,2,0,H
+81,23/10/10,Chelsea,Wolves,2,0,H
+82,23/10/10,Sunderland,Aston Villa,1,0,H
+83,23/10/10,Tottenham,Everton,1,1,D
+84,23/10/10,West Brom,Fulham,2,1,H
+85,23/10/10,West Ham,Newcastle,1,2,A
+86,23/10/10,Wigan,Bolton,1,1,D
+87,24/10/10,Liverpool,Blackburn,2,1,H
+88,24/10/10,Man City,Arsenal,0,3,A
+89,24/10/10,Stoke,Man United,1,2,A
+90,30/10/10,Arsenal,West Ham,1,0,H
+91,30/10/10,Blackburn,Chelsea,1,2,A
+92,30/10/10,Everton,Stoke,1,0,H
+93,30/10/10,Fulham,Wigan,2,0,H
+94,30/10/10,Man United,Tottenham,2,0,H
+95,30/10/10,Wolves,Man City,2,1,H
+96,31/10/10,Aston Villa,Birmingham,0,0,D
+97,31/10/10,Bolton,Liverpool,0,1,A
+98,31/10/10,Newcastle,Sunderland,5,1,H
+99,01/11/10,Blackpool,West Brom,2,1,H
+100,06/11/10,Birmingham,West Ham,2,2,D
+101,06/11/10,Blackburn,Wigan,2,1,H
+102,06/11/10,Blackpool,Everton,2,2,D
+103,06/11/10,Bolton,Tottenham,4,2,H
+104,06/11/10,Fulham,Aston Villa,1,1,D
+105,06/11/10,Man United,Wolves,2,1,H
+106,06/11/10,Sunderland,Stoke,2,0,H
+107,07/11/10,Arsenal,Newcastle,0,1,A
+108,07/11/10,Liverpool,Chelsea,2,0,H
+109,07/11/10,West Brom,Man City,0,2,A
+110,09/11/10,Stoke,Birmingham,3,2,H
+111,09/11/10,Tottenham,Sunderland,1,1,D
+112,10/11/10,Aston Villa,Blackpool,3,2,H
+113,10/11/10,Chelsea,Fulham,1,0,H
+114,10/11/10,Everton,Bolton,1,1,D
+115,10/11/10,Man City,Man United,0,0,D
+116,10/11/10,Newcastle,Blackburn,1,2,A
+117,10/11/10,West Ham,West Brom,2,2,D
+118,10/11/10,Wigan,Liverpool,1,1,D
+119,10/11/10,Wolves,Arsenal,0,2,A
+120,13/11/10,Aston Villa,Man United,2,2,D
+121,13/11/10,Man City,Birmingham,0,0,D
+122,13/11/10,Newcastle,Fulham,0,0,D
+123,13/11/10,Stoke,Liverpool,2,0,H
+124,13/11/10,Tottenham,Blackburn,4,2,H
+125,13/11/10,West Ham,Blackpool,0,0,D
+126,13/11/10,Wigan,West Brom,1,0,H
+127,13/11/10,Wolves,Bolton,2,3,A
+128,14/11/10,Chelsea,Sunderland,0,3,A
+129,14/11/10,Everton,Arsenal,1,2,A
+130,20/11/10,Arsenal,Tottenham,2,3,A
+131,20/11/10,Birmingham,Chelsea,1,0,H
+132,20/11/10,Blackpool,Wolves,2,1,H
+133,20/11/10,Bolton,Newcastle,5,1,H
+134,20/11/10,Liverpool,West Ham,3,0,H
+135,20/11/10,Man United,Wigan,2,0,H
+136,20/11/10,West Brom,Stoke,0,3,A
+137,21/11/10,Blackburn,Aston Villa,2,0,H
+138,21/11/10,Fulham,Man City,1,4,A
+139,22/11/10,Sunderland,Everton,2,2,D
+140,27/11/10,Aston Villa,Arsenal,2,4,A
+141,27/11/10,Bolton,Blackpool,2,2,D
+142,27/11/10,Everton,West Brom,1,4,A
+143,27/11/10,Fulham,Birmingham,1,1,D
+144,27/11/10,Man United,Blackburn,7,1,H
+145,27/11/10,Stoke,Man City,1,1,D
+146,27/11/10,West Ham,Wigan,3,1,H
+147,27/11/10,Wolves,Sunderland,3,2,H
+148,28/11/10,Newcastle,Chelsea,1,1,D
+149,28/11/10,Tottenham,Liverpool,2,1,H
+150,04/12/10,Arsenal,Fulham,2,1,H
+151,04/12/10,Birmingham,Tottenham,1,1,D
+152,04/12/10,Blackburn,Wolves,3,0,H
+153,04/12/10,Chelsea,Everton,1,1,D
+154,04/12/10,Man City,Bolton,1,0,H
+155,04/12/10,Wigan,Stoke,2,2,D
+156,05/12/10,Sunderland,West Ham,1,0,H
+157,05/12/10,West Brom,Newcastle,3,1,H
+158,06/12/10,Liverpool,Aston Villa,3,0,H
+159,11/12/10,Aston Villa,West Brom,2,1,H
+160,11/12/10,Everton,Wigan,0,0,D
+161,11/12/10,Fulham,Sunderland,0,0,D
+162,11/12/10,Newcastle,Liverpool,3,1,H
+163,11/12/10,Stoke,Blackpool,0,1,A
+164,11/12/10,West Ham,Man City,1,3,A
+165,12/12/10,Bolton,Blackburn,2,1,H
+166,12/12/10,Tottenham,Chelsea,1,1,D
+167,12/12/10,Wolves,Birmingham,1,0,H
+168,13/12/10,Man United,Arsenal,1,0,H
+169,18/12/10,Blackburn,West Ham,1,1,D
+170,18/12/10,Sunderland,Bolton,1,0,H
+171,20/12/10,Man City,Everton,1,2,A
+172,26/12/10,Aston Villa,Tottenham,1,2,A
+173,26/12/10,Blackburn,Stoke,0,2,A
+174,26/12/10,Bolton,West Brom,2,0,H
+175,26/12/10,Fulham,West Ham,1,3,A
+176,26/12/10,Man United,Sunderland,2,0,H
+177,26/12/10,Newcastle,Man City,1,3,A
+178,26/12/10,Wolves,Wigan,1,2,A
+179,27/12/10,Arsenal,Chelsea,3,1,H
+180,28/12/10,Birmingham,Man United,1,1,D
+181,28/12/10,Man City,Aston Villa,4,0,H
+182,28/12/10,Stoke,Fulham,0,2,A
+183,28/12/10,Sunderland,Blackpool,0,2,A
+184,28/12/10,Tottenham,Newcastle,2,0,H
+185,28/12/10,West Brom,Blackburn,1,3,A
+186,28/12/10,West Ham,Everton,1,1,D
+187,29/12/10,Chelsea,Bolton,1,0,H
+188,29/12/10,Liverpool,Wolves,0,1,A
+189,29/12/10,Wigan,Arsenal,2,2,D
+190,01/01/11,Birmingham,Arsenal,0,3,A
+191,01/01/11,Liverpool,Bolton,2,1,H
+192,01/01/11,Man City,Blackpool,1,0,H
+193,01/01/11,Stoke,Everton,2,0,H
+194,01/01/11,Sunderland,Blackburn,3,0,H
+195,01/01/11,Tottenham,Fulham,1,0,H
+196,01/01/11,West Brom,Man United,1,2,A
+197,01/01/11,West Ham,Wolves,2,0,H
+198,02/01/11,Chelsea,Aston Villa,3,3,D
+199,02/01/11,Wigan,Newcastle,0,1,A
+200,04/01/11,Blackpool,Birmingham,1,2,A
+201,04/01/11,Fulham,West Brom,3,0,H
+202,04/01/11,Man United,Stoke,2,1,H
+203,05/01/11,Arsenal,Man City,0,0,D
+204,05/01/11,Aston Villa,Sunderland,0,1,A
+205,05/01/11,Blackburn,Liverpool,3,1,H
+206,05/01/11,Bolton,Wigan,1,1,D
+207,05/01/11,Everton,Tottenham,2,1,H
+208,05/01/11,Newcastle,West Ham,5,0,H
+209,05/01/11,Wolves,Chelsea,1,0,H
+210,12/01/11,Blackpool,Liverpool,2,1,H
+211,15/01/11,Chelsea,Blackburn,2,0,H
+212,15/01/11,Man City,Wolves,4,3,H
+213,15/01/11,Stoke,Bolton,2,0,H
+214,15/01/11,West Brom,Blackpool,3,2,H
+215,15/01/11,West Ham,Arsenal,0,3,A
+216,15/01/11,Wigan,Fulham,1,1,D
+217,16/01/11,Birmingham,Aston Villa,1,1,D
+218,16/01/11,Liverpool,Everton,2,2,D
+219,16/01/11,Sunderland,Newcastle,1,1,D
+220,16/01/11,Tottenham,Man United,0,0,D
+221,22/01/11,Arsenal,Wigan,3,0,H
+222,22/01/11,Aston Villa,Man City,1,0,H
+223,22/01/11,Blackpool,Sunderland,1,2,A
+224,22/01/11,Everton,West Ham,2,2,D
+225,22/01/11,Fulham,Stoke,2,0,H
+226,22/01/11,Man United,Birmingham,5,0,H
+227,22/01/11,Newcastle,Tottenham,1,1,D
+228,22/01/11,Wolves,Liverpool,0,3,A
+229,23/01/11,Blackburn,West Brom,2,0,H
+230,24/01/11,Bolton,Chelsea,0,4,A
+231,25/01/11,Blackpool,Man United,2,3,A
+232,25/01/11,Wigan,Aston Villa,1,2,A
+233,26/01/11,Liverpool,Fulham,1,0,H
+234,01/02/11,Arsenal,Everton,2,1,H
+235,01/02/11,Man United,Aston Villa,3,1,H
+236,01/02/11,Sunderland,Chelsea,2,4,A
+237,01/02/11,West Brom,Wigan,2,2,D
+238,02/02/11,Birmingham,Man City,2,2,D
+239,02/02/11,Blackburn,Tottenham,0,1,A
+240,02/02/11,Blackpool,West Ham,1,3,A
+241,02/02/11,Bolton,Wolves,1,0,H
+242,02/02/11,Fulham,Newcastle,1,0,H
+243,02/02/11,Liverpool,Stoke,2,0,H
+244,05/02/11,Aston Villa,Fulham,2,2,D
+245,05/02/11,Everton,Blackpool,5,3,H
+246,05/02/11,Man City,West Brom,3,0,H
+247,05/02/11,Newcastle,Arsenal,4,4,D
+248,05/02/11,Stoke,Sunderland,3,2,H
+249,05/02/11,Tottenham,Bolton,2,1,H
+250,05/02/11,Wigan,Blackburn,4,3,H
+251,05/02/11,Wolves,Man United,2,1,H
+252,06/02/11,Chelsea,Liverpool,0,1,A
+253,06/02/11,West Ham,Birmingham,0,1,A
+254,12/02/11,Arsenal,Wolves,2,0,H
+255,12/02/11,Birmingham,Stoke,1,0,H
+256,12/02/11,Blackburn,Newcastle,0,0,D
+257,12/02/11,Blackpool,Aston Villa,1,1,D
+258,12/02/11,Liverpool,Wigan,1,1,D
+259,12/02/11,Man United,Man City,2,1,H
+260,12/02/11,Sunderland,Tottenham,1,2,A
+261,12/02/11,West Brom,West Ham,3,3,D
+262,13/02/11,Bolton,Everton,2,0,H
+263,14/02/11,Fulham,Chelsea,0,0,D
+264,15/02/11,Birmingham,Newcastle,0,2,A
+265,20/02/11,West Brom,Wolves,1,1,D
+266,22/02/11,Blackpool,Tottenham,3,1,H
+267,23/02/11,Arsenal,Stoke,1,0,H
+268,26/02/11,Aston Villa,Blackburn,4,1,H
+269,26/02/11,Everton,Sunderland,2,0,H
+270,26/02/11,Newcastle,Bolton,1,1,D
+271,26/02/11,Wigan,Man United,0,4,A
+272,26/02/11,Wolves,Blackpool,4,0,H
+273,27/02/11,Man City,Fulham,1,1,D
+274,27/02/11,West Ham,Liverpool,3,1,H
+275,28/02/11,Stoke,West Brom,1,1,D
+276,01/03/11,Chelsea,Man United,2,1,H
+277,05/03/11,Arsenal,Sunderland,0,0,D
+278,05/03/11,Birmingham,West Brom,1,3,A
+279,05/03/11,Bolton,Aston Villa,3,2,H
+280,05/03/11,Fulham,Blackburn,3,2,H
+281,05/03/11,Man City,Wigan,1,0,H
+282,05/03/11,Newcastle,Everton,1,2,A
+283,05/03/11,West Ham,Stoke,3,0,H
+284,06/03/11,Liverpool,Man United,3,1,H
+285,06/03/11,Wolves,Tottenham,3,3,D
+286,07/03/11,Blackpool,Chelsea,1,3,A
+287,09/03/11,Everton,Birmingham,1,1,D
+288,19/03/11,Aston Villa,Wolves,0,1,A
+289,19/03/11,Blackburn,Blackpool,2,2,D
+290,19/03/11,Everton,Fulham,2,1,H
+291,19/03/11,Man United,Bolton,1,0,H
+292,19/03/11,Stoke,Newcastle,4,0,H
+293,19/03/11,Tottenham,West Ham,0,0,D
+294,19/03/11,West Brom,Arsenal,2,2,D
+295,19/03/11,Wigan,Birmingham,2,1,H
+296,20/03/11,Chelsea,Man City,2,0,H
+297,20/03/11,Sunderland,Liverpool,0,2,A
+298,02/04/11,Arsenal,Blackburn,0,0,D
+299,02/04/11,Birmingham,Bolton,2,1,H
+300,02/04/11,Everton,Aston Villa,2,2,D
+301,02/04/11,Newcastle,Wolves,4,1,H
+302,02/04/11,Stoke,Chelsea,1,1,D
+303,02/04/11,West Brom,Liverpool,2,1,H
+304,02/04/11,West Ham,Man United,2,4,A
+305,02/04/11,Wigan,Tottenham,0,0,D
+306,03/04/11,Fulham,Blackpool,3,0,H
+307,03/04/11,Man City,Sunderland,5,0,H
+308,09/04/11,Blackburn,Birmingham,1,1,D
+309,09/04/11,Bolton,West Ham,3,0,H
+310,09/04/11,Chelsea,Wigan,1,0,H
+311,09/04/11,Man United,Fulham,2,0,H
+312,09/04/11,Sunderland,West Brom,2,3,A
+313,09/04/11,Tottenham,Stoke,3,2,H
+314,09/04/11,Wolves,Everton,0,3,A
+315,10/04/11,Aston Villa,Newcastle,1,0,H
+316,10/04/11,Blackpool,Arsenal,1,3,A
+317,11/04/11,Liverpool,Man City,3,0,H
+318,16/04/11,Birmingham,Sunderland,2,0,H
+319,16/04/11,Blackpool,Wigan,1,3,A
+320,16/04/11,Everton,Blackburn,2,0,H
+321,16/04/11,West Brom,Chelsea,1,3,A
+322,16/04/11,West Ham,Aston Villa,1,2,A
+323,17/04/11,Arsenal,Liverpool,1,1,D
+324,19/04/11,Newcastle,Man United,0,0,D
+325,20/04/11,Chelsea,Birmingham,3,1,H
+326,20/04/11,Tottenham,Arsenal,3,3,D
+327,23/04/11,Aston Villa,Stoke,1,1,D
+328,23/04/11,Blackpool,Newcastle,1,1,D
+329,23/04/11,Chelsea,West Ham,3,0,H
+330,23/04/11,Liverpool,Birmingham,5,0,H
+331,23/04/11,Man United,Everton,1,0,H
+332,23/04/11,Sunderland,Wigan,4,2,H
+333,23/04/11,Tottenham,West Brom,2,2,D
+334,23/04/11,Wolves,Fulham,1,1,D
+335,24/04/11,Bolton,Arsenal,2,1,H
+336,25/04/11,Blackburn,Man City,0,1,A
+337,26/04/11,Stoke,Wolves,3,0,H
+338,27/04/11,Fulham,Bolton,3,0,H
+339,30/04/11,Blackburn,Bolton,1,0,H
+340,30/04/11,Blackpool,Stoke,0,0,D
+341,30/04/11,Chelsea,Tottenham,2,1,H
+342,30/04/11,Sunderland,Fulham,0,3,A
+343,30/04/11,West Brom,Aston Villa,2,1,H
+344,30/04/11,Wigan,Everton,1,1,D
+345,01/05/11,Arsenal,Man United,1,0,H
+346,01/05/11,Birmingham,Wolves,1,1,D
+347,01/05/11,Liverpool,Newcastle,3,0,H
+348,01/05/11,Man City,West Ham,2,1,H
+349,07/05/11,Aston Villa,Wigan,1,1,D
+350,07/05/11,Bolton,Sunderland,1,2,A
+351,07/05/11,Everton,Man City,2,1,H
+352,07/05/11,Newcastle,Birmingham,2,1,H
+353,07/05/11,Tottenham,Blackpool,1,1,D
+354,07/05/11,West Ham,Blackburn,1,1,D
+355,08/05/11,Man United,Chelsea,2,1,H
+356,08/05/11,Stoke,Arsenal,3,1,H
+357,08/05/11,Wolves,West Brom,3,1,H
+358,09/05/11,Fulham,Liverpool,2,5,A
+359,10/05/11,Man City,Tottenham,1,0,H
+360,14/05/11,Blackburn,Man United,1,1,D
+361,14/05/11,Blackpool,Bolton,4,3,H
+362,14/05/11,Sunderland,Wolves,1,3,A
+363,14/05/11,West Brom,Everton,1,0,H
+364,15/05/11,Arsenal,Aston Villa,1,2,A
+365,15/05/11,Birmingham,Fulham,0,2,A
+366,15/05/11,Chelsea,Newcastle,2,2,D
+367,15/05/11,Liverpool,Tottenham,0,2,A
+368,15/05/11,Wigan,West Ham,3,2,H
+369,17/05/11,Man City,Stoke,3,0,H
+370,22/05/11,Aston Villa,Liverpool,1,0,H
+371,22/05/11,Bolton,Man City,0,2,A
+372,22/05/11,Everton,Chelsea,1,0,H
+373,22/05/11,Fulham,Arsenal,2,2,D
+374,22/05/11,Man United,Blackpool,4,2,H
+375,22/05/11,Newcastle,West Brom,3,3,D
+376,22/05/11,Stoke,Wigan,0,1,A
+377,22/05/11,Tottenham,Birmingham,2,1,H
+378,22/05/11,West Ham,Sunderland,0,3,A
+379,22/05/11,Wolves,Blackburn,2,3,A

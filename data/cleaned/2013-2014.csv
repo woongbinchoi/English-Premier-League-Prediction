@@ -1,0 +1,381 @@
+,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+0,17/08/13,Arsenal,Aston Villa,1,3,A
+1,17/08/13,Liverpool,Stoke,1,0,H
+2,17/08/13,Norwich,Everton,2,2,D
+3,17/08/13,Sunderland,Fulham,0,1,A
+4,17/08/13,Swansea,Man United,1,4,A
+5,17/08/13,West Brom,Southampton,0,1,A
+6,17/08/13,West Ham,Cardiff,2,0,H
+7,18/08/13,Chelsea,Hull,2,0,H
+8,18/08/13,Crystal Palace,Tottenham,0,1,A
+9,19/08/13,Man City,Newcastle,4,0,H
+10,21/08/13,Chelsea,Aston Villa,2,1,H
+11,24/08/13,Aston Villa,Liverpool,0,1,A
+12,24/08/13,Everton,West Brom,0,0,D
+13,24/08/13,Fulham,Arsenal,1,3,A
+14,24/08/13,Hull,Norwich,1,0,H
+15,24/08/13,Newcastle,West Ham,0,0,D
+16,24/08/13,Southampton,Sunderland,1,1,D
+17,24/08/13,Stoke,Crystal Palace,2,1,H
+18,25/08/13,Cardiff,Man City,3,2,H
+19,25/08/13,Tottenham,Swansea,1,0,H
+20,26/08/13,Man United,Chelsea,0,0,D
+21,31/08/13,Cardiff,Everton,0,0,D
+22,31/08/13,Crystal Palace,Sunderland,3,1,H
+23,31/08/13,Man City,Hull,2,0,H
+24,31/08/13,Newcastle,Fulham,1,0,H
+25,31/08/13,Norwich,Southampton,1,0,H
+26,31/08/13,West Ham,Stoke,0,1,A
+27,01/09/13,Arsenal,Tottenham,1,0,H
+28,01/09/13,Liverpool,Man United,1,0,H
+29,01/09/13,West Brom,Swansea,0,2,A
+30,14/09/13,Aston Villa,Newcastle,1,2,A
+31,14/09/13,Everton,Chelsea,1,0,H
+32,14/09/13,Fulham,West Brom,1,1,D
+33,14/09/13,Hull,Cardiff,1,1,D
+34,14/09/13,Man United,Crystal Palace,2,0,H
+35,14/09/13,Stoke,Man City,0,0,D
+36,14/09/13,Sunderland,Arsenal,1,3,A
+37,14/09/13,Tottenham,Norwich,2,0,H
+38,15/09/13,Southampton,West Ham,0,0,D
+39,16/09/13,Swansea,Liverpool,2,2,D
+40,21/09/13,Chelsea,Fulham,2,0,H
+41,21/09/13,Liverpool,Southampton,0,1,A
+42,21/09/13,Newcastle,Hull,2,3,A
+43,21/09/13,Norwich,Aston Villa,0,1,A
+44,21/09/13,West Brom,Sunderland,3,0,H
+45,21/09/13,West Ham,Everton,2,3,A
+46,22/09/13,Arsenal,Stoke,3,1,H
+47,22/09/13,Cardiff,Tottenham,0,1,A
+48,22/09/13,Crystal Palace,Swansea,0,2,A
+49,22/09/13,Man City,Man United,4,1,H
+50,28/09/13,Aston Villa,Man City,3,2,H
+51,28/09/13,Fulham,Cardiff,1,2,A
+52,28/09/13,Hull,West Ham,1,0,H
+53,28/09/13,Man United,West Brom,1,2,A
+54,28/09/13,Southampton,Crystal Palace,2,0,H
+55,28/09/13,Swansea,Arsenal,1,2,A
+56,28/09/13,Tottenham,Chelsea,1,1,D
+57,29/09/13,Stoke,Norwich,0,1,A
+58,29/09/13,Sunderland,Liverpool,1,3,A
+59,30/09/13,Everton,Newcastle,3,2,H
+60,05/10/13,Cardiff,Newcastle,1,2,A
+61,05/10/13,Fulham,Stoke,1,0,H
+62,05/10/13,Hull,Aston Villa,0,0,D
+63,05/10/13,Liverpool,Crystal Palace,3,1,H
+64,05/10/13,Man City,Everton,3,1,H
+65,05/10/13,Sunderland,Man United,1,2,A
+66,06/10/13,Norwich,Chelsea,1,3,A
+67,06/10/13,Southampton,Swansea,2,0,H
+68,06/10/13,Tottenham,West Ham,0,3,A
+69,06/10/13,West Brom,Arsenal,1,1,D
+70,19/10/13,Arsenal,Norwich,4,1,H
+71,19/10/13,Chelsea,Cardiff,4,1,H
+72,19/10/13,Everton,Hull,2,1,H
+73,19/10/13,Man United,Southampton,1,1,D
+74,19/10/13,Newcastle,Liverpool,2,2,D
+75,19/10/13,Stoke,West Brom,0,0,D
+76,19/10/13,Swansea,Sunderland,4,0,H
+77,19/10/13,West Ham,Man City,1,3,A
+78,20/10/13,Aston Villa,Tottenham,0,2,A
+79,21/10/13,Crystal Palace,Fulham,1,4,A
+80,26/10/13,Aston Villa,Everton,0,2,A
+81,26/10/13,Crystal Palace,Arsenal,0,2,A
+82,26/10/13,Liverpool,West Brom,4,1,H
+83,26/10/13,Man United,Stoke,3,2,H
+84,26/10/13,Norwich,Cardiff,0,0,D
+85,26/10/13,Southampton,Fulham,2,0,H
+86,27/10/13,Chelsea,Man City,2,1,H
+87,27/10/13,Sunderland,Newcastle,2,1,H
+88,27/10/13,Swansea,West Ham,0,0,D
+89,27/10/13,Tottenham,Hull,1,0,H
+90,02/11/13,Arsenal,Liverpool,2,0,H
+91,02/11/13,Fulham,Man United,1,3,A
+92,02/11/13,Hull,Sunderland,1,0,H
+93,02/11/13,Man City,Norwich,7,0,H
+94,02/11/13,Newcastle,Chelsea,2,0,H
+95,02/11/13,Stoke,Southampton,1,1,D
+96,02/11/13,West Brom,Crystal Palace,2,0,H
+97,02/11/13,West Ham,Aston Villa,0,0,D
+98,03/11/13,Cardiff,Swansea,1,0,H
+99,03/11/13,Everton,Tottenham,0,0,D
+100,09/11/13,Aston Villa,Cardiff,2,0,H
+101,09/11/13,Chelsea,West Brom,2,2,D
+102,09/11/13,Crystal Palace,Everton,0,0,D
+103,09/11/13,Liverpool,Fulham,4,0,H
+104,09/11/13,Norwich,West Ham,3,1,H
+105,09/11/13,Southampton,Hull,4,1,H
+106,10/11/13,Man United,Arsenal,1,0,H
+107,10/11/13,Sunderland,Man City,1,0,H
+108,10/11/13,Swansea,Stoke,3,3,D
+109,10/11/13,Tottenham,Newcastle,0,1,A
+110,23/11/13,Arsenal,Southampton,2,0,H
+111,23/11/13,Everton,Liverpool,3,3,D
+112,23/11/13,Fulham,Swansea,1,2,A
+113,23/11/13,Hull,Crystal Palace,0,1,A
+114,23/11/13,Newcastle,Norwich,2,1,H
+115,23/11/13,Stoke,Sunderland,2,0,H
+116,23/11/13,West Ham,Chelsea,0,3,A
+117,24/11/13,Cardiff,Man United,2,2,D
+118,24/11/13,Man City,Tottenham,6,0,H
+119,25/11/13,West Brom,Aston Villa,2,2,D
+120,30/11/13,Aston Villa,Sunderland,0,0,D
+121,30/11/13,Cardiff,Arsenal,0,3,A
+122,30/11/13,Everton,Stoke,4,0,H
+123,30/11/13,Newcastle,West Brom,2,1,H
+124,30/11/13,Norwich,Crystal Palace,1,0,H
+125,30/11/13,West Ham,Fulham,3,0,H
+126,01/12/13,Chelsea,Southampton,3,1,H
+127,01/12/13,Hull,Liverpool,3,1,H
+128,01/12/13,Man City,Swansea,3,0,H
+129,01/12/13,Tottenham,Man United,2,2,D
+130,03/12/13,Crystal Palace,West Ham,1,0,H
+131,04/12/13,Arsenal,Hull,2,0,H
+132,04/12/13,Fulham,Tottenham,1,2,A
+133,04/12/13,Liverpool,Norwich,5,1,H
+134,04/12/13,Man United,Everton,0,1,A
+135,04/12/13,Southampton,Aston Villa,2,3,A
+136,04/12/13,Stoke,Cardiff,0,0,D
+137,04/12/13,Sunderland,Chelsea,3,4,A
+138,04/12/13,Swansea,Newcastle,3,0,H
+139,04/12/13,West Brom,Man City,2,3,A
+140,07/12/13,Crystal Palace,Cardiff,2,0,H
+141,07/12/13,Liverpool,West Ham,4,1,H
+142,07/12/13,Man United,Newcastle,0,1,A
+143,07/12/13,Southampton,Man City,1,1,D
+144,07/12/13,Stoke,Chelsea,3,2,H
+145,07/12/13,Sunderland,Tottenham,1,2,A
+146,07/12/13,West Brom,Norwich,0,2,A
+147,08/12/13,Arsenal,Everton,1,1,D
+148,08/12/13,Fulham,Aston Villa,2,0,H
+149,09/12/13,Swansea,Hull,1,1,D
+150,14/12/13,Cardiff,West Brom,1,0,H
+151,14/12/13,Chelsea,Crystal Palace,2,1,H
+152,14/12/13,Everton,Fulham,4,1,H
+153,14/12/13,Hull,Stoke,0,0,D
+154,14/12/13,Man City,Arsenal,6,3,H
+155,14/12/13,Newcastle,Southampton,1,1,D
+156,14/12/13,West Ham,Sunderland,0,0,D
+157,15/12/13,Aston Villa,Man United,0,3,A
+158,15/12/13,Norwich,Swansea,1,1,D
+159,15/12/13,Tottenham,Liverpool,0,5,A
+160,21/12/13,Crystal Palace,Newcastle,0,3,A
+161,21/12/13,Fulham,Man City,2,4,A
+162,21/12/13,Liverpool,Cardiff,3,1,H
+163,21/12/13,Man United,West Ham,3,1,H
+164,21/12/13,Stoke,Aston Villa,2,1,H
+165,21/12/13,Sunderland,Norwich,0,0,D
+166,21/12/13,West Brom,Hull,1,1,D
+167,22/12/13,Southampton,Tottenham,2,3,A
+168,22/12/13,Swansea,Everton,1,2,A
+169,23/12/13,Arsenal,Chelsea,0,0,D
+170,26/12/13,Aston Villa,Crystal Palace,0,1,A
+171,26/12/13,Cardiff,Southampton,0,3,A
+172,26/12/13,Chelsea,Swansea,1,0,H
+173,26/12/13,Everton,Sunderland,0,1,A
+174,26/12/13,Hull,Man United,2,3,A
+175,26/12/13,Man City,Liverpool,2,1,H
+176,26/12/13,Newcastle,Stoke,5,1,H
+177,26/12/13,Norwich,Fulham,1,2,A
+178,26/12/13,Tottenham,West Brom,1,1,D
+179,26/12/13,West Ham,Arsenal,1,3,A
+180,28/12/13,Aston Villa,Swansea,1,1,D
+181,28/12/13,Cardiff,Sunderland,2,2,D
+182,28/12/13,Hull,Fulham,6,0,H
+183,28/12/13,Man City,Crystal Palace,1,0,H
+184,28/12/13,Norwich,Man United,0,1,A
+185,28/12/13,West Ham,West Brom,3,3,D
+186,29/12/13,Chelsea,Liverpool,2,1,H
+187,29/12/13,Everton,Southampton,2,1,H
+188,29/12/13,Newcastle,Arsenal,0,1,A
+189,29/12/13,Tottenham,Stoke,3,0,H
+190,01/01/14,Arsenal,Cardiff,2,0,H
+191,01/01/14,Crystal Palace,Norwich,1,1,D
+192,01/01/14,Fulham,West Ham,2,1,H
+193,01/01/14,Liverpool,Hull,2,0,H
+194,01/01/14,Man United,Tottenham,1,2,A
+195,01/01/14,Southampton,Chelsea,0,3,A
+196,01/01/14,Stoke,Everton,1,1,D
+197,01/01/14,Sunderland,Aston Villa,0,1,A
+198,01/01/14,Swansea,Man City,2,3,A
+199,01/01/14,West Brom,Newcastle,1,0,H
+200,11/01/14,Cardiff,West Ham,0,2,A
+201,11/01/14,Everton,Norwich,2,0,H
+202,11/01/14,Fulham,Sunderland,1,4,A
+203,11/01/14,Hull,Chelsea,0,2,A
+204,11/01/14,Man United,Swansea,2,0,H
+205,11/01/14,Southampton,West Brom,1,0,H
+206,11/01/14,Tottenham,Crystal Palace,2,0,H
+207,12/01/14,Newcastle,Man City,0,2,A
+208,12/01/14,Stoke,Liverpool,3,5,A
+209,13/01/14,Aston Villa,Arsenal,1,2,A
+210,18/01/14,Arsenal,Fulham,2,0,H
+211,18/01/14,Crystal Palace,Stoke,1,0,H
+212,18/01/14,Liverpool,Aston Villa,2,2,D
+213,18/01/14,Man City,Cardiff,4,2,H
+214,18/01/14,Norwich,Hull,1,0,H
+215,18/01/14,Sunderland,Southampton,2,2,D
+216,18/01/14,West Ham,Newcastle,1,3,A
+217,19/01/14,Chelsea,Man United,3,1,H
+218,19/01/14,Swansea,Tottenham,1,3,A
+219,20/01/14,West Brom,Everton,1,1,D
+220,28/01/14,Crystal Palace,Hull,1,0,H
+221,28/01/14,Liverpool,Everton,4,0,H
+222,28/01/14,Man United,Cardiff,2,0,H
+223,28/01/14,Norwich,Newcastle,0,0,D
+224,28/01/14,Southampton,Arsenal,2,2,D
+225,28/01/14,Swansea,Fulham,2,0,H
+226,29/01/14,Aston Villa,West Brom,4,3,H
+227,29/01/14,Chelsea,West Ham,0,0,D
+228,29/01/14,Sunderland,Stoke,1,0,H
+229,29/01/14,Tottenham,Man City,1,5,A
+230,01/02/14,Cardiff,Norwich,2,1,H
+231,01/02/14,Everton,Aston Villa,2,1,H
+232,01/02/14,Fulham,Southampton,0,3,A
+233,01/02/14,Hull,Tottenham,1,1,D
+234,01/02/14,Newcastle,Sunderland,0,3,A
+235,01/02/14,Stoke,Man United,2,1,H
+236,01/02/14,West Ham,Swansea,2,0,H
+237,02/02/14,Arsenal,Crystal Palace,2,0,H
+238,02/02/14,West Brom,Liverpool,1,1,D
+239,03/02/14,Man City,Chelsea,0,1,A
+240,08/02/14,Aston Villa,West Ham,0,2,A
+241,08/02/14,Chelsea,Newcastle,3,0,H
+242,08/02/14,Crystal Palace,West Brom,3,1,H
+243,08/02/14,Liverpool,Arsenal,5,1,H
+244,08/02/14,Norwich,Man City,0,0,D
+245,08/02/14,Southampton,Stoke,2,2,D
+246,08/02/14,Sunderland,Hull,0,2,A
+247,08/02/14,Swansea,Cardiff,3,0,H
+248,09/02/14,Man United,Fulham,2,2,D
+249,09/02/14,Tottenham,Everton,1,0,H
+250,11/02/14,Cardiff,Aston Villa,0,0,D
+251,11/02/14,Hull,Southampton,0,1,A
+252,11/02/14,West Brom,Chelsea,1,1,D
+253,11/02/14,West Ham,Norwich,2,0,H
+254,12/02/14,Arsenal,Man United,0,0,D
+255,12/02/14,Fulham,Liverpool,2,3,A
+256,12/02/14,Newcastle,Tottenham,0,4,A
+257,12/02/14,Stoke,Swansea,1,1,D
+258,22/02/14,Arsenal,Sunderland,4,1,H
+259,22/02/14,Cardiff,Hull,0,4,A
+260,22/02/14,Chelsea,Everton,1,0,H
+261,22/02/14,Crystal Palace,Man United,0,2,A
+262,22/02/14,Man City,Stoke,1,0,H
+263,22/02/14,West Brom,Fulham,1,1,D
+264,22/02/14,West Ham,Southampton,3,1,H
+265,23/02/14,Liverpool,Swansea,4,3,H
+266,23/02/14,Newcastle,Aston Villa,1,0,H
+267,23/02/14,Norwich,Tottenham,1,0,H
+268,01/03/14,Everton,West Ham,1,0,H
+269,01/03/14,Fulham,Chelsea,1,3,A
+270,01/03/14,Hull,Newcastle,1,4,A
+271,01/03/14,Southampton,Liverpool,0,3,A
+272,01/03/14,Stoke,Arsenal,1,0,H
+273,02/03/14,Aston Villa,Norwich,4,1,H
+274,02/03/14,Swansea,Crystal Palace,1,1,D
+275,02/03/14,Tottenham,Cardiff,1,0,H
+276,08/03/14,Cardiff,Fulham,3,1,H
+277,08/03/14,Chelsea,Tottenham,4,0,H
+278,08/03/14,Crystal Palace,Southampton,0,1,A
+279,08/03/14,Norwich,Stoke,1,1,D
+280,08/03/14,West Brom,Man United,0,3,A
+281,15/03/14,Aston Villa,Chelsea,1,0,H
+282,15/03/14,Everton,Cardiff,2,1,H
+283,15/03/14,Fulham,Newcastle,1,0,H
+284,15/03/14,Hull,Man City,0,2,A
+285,15/03/14,Southampton,Norwich,4,2,H
+286,15/03/14,Stoke,West Ham,3,1,H
+287,15/03/14,Sunderland,Crystal Palace,0,0,D
+288,15/03/14,Swansea,West Brom,1,2,A
+289,16/03/14,Man United,Liverpool,0,3,A
+290,16/03/14,Tottenham,Arsenal,0,1,A
+291,22/03/14,Cardiff,Liverpool,3,6,A
+292,22/03/14,Chelsea,Arsenal,6,0,H
+293,22/03/14,Everton,Swansea,3,2,H
+294,22/03/14,Hull,West Brom,2,0,H
+295,22/03/14,Man City,Fulham,5,0,H
+296,22/03/14,Newcastle,Crystal Palace,1,0,H
+297,22/03/14,Norwich,Sunderland,2,0,H
+298,22/03/14,West Ham,Man United,0,2,A
+299,23/03/14,Aston Villa,Stoke,1,4,A
+300,23/03/14,Tottenham,Southampton,3,2,H
+301,25/03/14,Arsenal,Swansea,2,2,D
+302,25/03/14,Man United,Man City,0,3,A
+303,25/03/14,Newcastle,Everton,0,3,A
+304,26/03/14,Liverpool,Sunderland,2,1,H
+305,26/03/14,West Ham,Hull,2,1,H
+306,29/03/14,Arsenal,Man City,1,1,D
+307,29/03/14,Crystal Palace,Chelsea,1,0,H
+308,29/03/14,Man United,Aston Villa,4,1,H
+309,29/03/14,Southampton,Newcastle,4,0,H
+310,29/03/14,Stoke,Hull,1,0,H
+311,29/03/14,Swansea,Norwich,3,0,H
+312,29/03/14,West Brom,Cardiff,3,3,D
+313,30/03/14,Fulham,Everton,1,3,A
+314,30/03/14,Liverpool,Tottenham,4,0,H
+315,31/03/14,Sunderland,West Ham,1,2,A
+316,05/04/14,Aston Villa,Fulham,1,2,A
+317,05/04/14,Cardiff,Crystal Palace,0,3,A
+318,05/04/14,Chelsea,Stoke,3,0,H
+319,05/04/14,Hull,Swansea,1,0,H
+320,05/04/14,Man City,Southampton,4,1,H
+321,05/04/14,Newcastle,Man United,0,4,A
+322,05/04/14,Norwich,West Brom,0,1,A
+323,06/04/14,Everton,Arsenal,3,0,H
+324,06/04/14,West Ham,Liverpool,1,2,A
+325,07/04/14,Tottenham,Sunderland,5,1,H
+326,12/04/14,Crystal Palace,Aston Villa,1,0,H
+327,12/04/14,Fulham,Norwich,1,0,H
+328,12/04/14,Southampton,Cardiff,0,1,A
+329,12/04/14,Stoke,Newcastle,1,0,H
+330,12/04/14,Sunderland,Everton,0,1,A
+331,12/04/14,West Brom,Tottenham,3,3,D
+332,13/04/14,Liverpool,Man City,3,2,H
+333,13/04/14,Swansea,Chelsea,0,1,A
+334,15/04/14,Arsenal,West Ham,3,1,H
+335,16/04/14,Everton,Crystal Palace,2,3,A
+336,16/04/14,Man City,Sunderland,2,2,D
+337,19/04/14,Aston Villa,Southampton,0,0,D
+338,19/04/14,Cardiff,Stoke,1,1,D
+339,19/04/14,Chelsea,Sunderland,1,2,A
+340,19/04/14,Newcastle,Swansea,1,2,A
+341,19/04/14,Tottenham,Fulham,3,1,H
+342,19/04/14,West Ham,Crystal Palace,0,1,A
+343,20/04/14,Everton,Man United,2,0,H
+344,20/04/14,Hull,Arsenal,0,3,A
+345,20/04/14,Norwich,Liverpool,2,3,A
+346,21/04/14,Man City,West Brom,3,1,H
+347,26/04/14,Fulham,Hull,2,2,D
+348,26/04/14,Man United,Norwich,4,0,H
+349,26/04/14,Southampton,Everton,2,0,H
+350,26/04/14,Stoke,Tottenham,0,1,A
+351,26/04/14,Swansea,Aston Villa,4,1,H
+352,26/04/14,West Brom,West Ham,1,0,H
+353,27/04/14,Crystal Palace,Man City,0,2,A
+354,27/04/14,Liverpool,Chelsea,0,2,A
+355,27/04/14,Sunderland,Cardiff,4,0,H
+356,28/04/14,Arsenal,Newcastle,3,0,H
+357,03/05/14,Aston Villa,Hull,3,1,H
+358,03/05/14,Everton,Man City,2,3,A
+359,03/05/14,Man United,Sunderland,0,1,A
+360,03/05/14,Newcastle,Cardiff,3,0,H
+361,03/05/14,Stoke,Fulham,4,1,H
+362,03/05/14,Swansea,Southampton,0,1,A
+363,03/05/14,West Ham,Tottenham,2,0,H
+364,04/05/14,Arsenal,West Brom,1,0,H
+365,04/05/14,Chelsea,Norwich,0,0,D
+366,05/05/14,Crystal Palace,Liverpool,3,3,D
+367,06/05/14,Man United,Hull,3,1,H
+368,07/05/14,Man City,Aston Villa,4,0,H
+369,07/05/14,Sunderland,West Brom,2,0,H
+370,11/05/14,Cardiff,Chelsea,1,2,A
+371,11/05/14,Fulham,Crystal Palace,2,2,D
+372,11/05/14,Hull,Everton,0,2,A
+373,11/05/14,Liverpool,Newcastle,2,1,H
+374,11/05/14,Man City,West Ham,2,0,H
+375,11/05/14,Norwich,Arsenal,0,2,A
+376,11/05/14,Southampton,Man United,1,1,D
+377,11/05/14,Sunderland,Swansea,1,3,A
+378,11/05/14,Tottenham,Aston Villa,3,0,H
+379,11/05/14,West Brom,Stoke,1,2,A
