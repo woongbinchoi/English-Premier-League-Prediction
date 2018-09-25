@@ -28,9 +28,9 @@ def clean(path, columns):
 
 
 if __name__ == "__main__":
-    columns = ['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR']
+    # columns = ['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR']
     
-    for year in range(1993, 2019):
-        path = 'data/%s-%s.csv' % (year, year + 1)
-        clean(path, columns)
+    # for year in range(1993, 2019):
+    #     path = 'data/%s-%s.csv' % (year, year + 1)
+    #     clean(path, columns)
 
