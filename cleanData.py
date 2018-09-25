@@ -5,8 +5,16 @@ import pandas as pd
 
 # clean the original raw data by storing only the columns that we need, and removing the rest.
 def clean(path, columns):
+    print("Cleaning ", path, "...")
     df = pd.read_csv(path, error_bad_lines=False)
     df = df[columns]
+    df = df[pd.notnull(df['Date'])]
+
+    df['MatchID'] = pd.Series([str(x) for x in range(len(df))])
+    df.set_index('MatchID', inplace=True)
+
+    df['FTHG'] = df['FTHG'].astype(int)
+    df['FTAG'] = df['FTAG'].astype(int)
     
     fileName = ntpath.basename(path)
     head, _ = ntpath.split(path)

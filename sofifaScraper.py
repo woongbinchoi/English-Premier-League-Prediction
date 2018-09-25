@@ -1,3 +1,4 @@
+import ntpath
 import os
 import pandas as pd
 from selenium import webdriver
@@ -11,6 +12,30 @@ import time
 # Constants
 timeout = 5
 sleepTime = 0.5
+NameChangeMap = {
+	'Birmingham': 'Birmingham City',
+	'Blackburn': 'Blackburn Rovers',
+	'Bolton': 'Bolton Wanderers',
+	'Brighton': 'Brighton & Hove Albion',
+	'Cardiff': 'Cardiff City',
+	'Charlton': 'Charlton Athletic',
+	'Derby': 'Derby County',
+	'Huddersfield': 'Huddersfield Town',
+	'Hull': 'Hull City',
+	'Leicester': 'Leicester City',
+	'Man City': 'Manchester City',
+	'Man United': 'Manchester United',
+	'Newcastle': 'Newcastle United',
+	'Norwich': 'Norwich City',
+	'QPR': 'Queens Park Rangers',
+	'Stoke': 'Stoke City',
+	'Swansea': 'Swansea City',
+	'Tottenham': 'Tottenham Hotspur',
+	'West Brom': 'West Bromwich Albion',
+	'West Ham': 'West Ham United',
+	'Wigan': 'Wigan Athletic',
+	'Wolves': 'Wolverhampton Wanderers'
+}
 
 # Scrape EPL team OVA data from sofifa.com from {fromYear} to {toYear} season and save the collected data in {csvPath}
 def scrapeTeamOVA(fromYear, toYear, csvPath):
@@ -68,8 +93,45 @@ def scrapeTeamOVA(fromYear, toYear, csvPath):
 
 		# Data to csv
 		df = pd.DataFrame.from_records(zip(titles, OVAs), columns=["Team", "OVA"])
+		df.set_index('Team', inplace=True)
 		filePath = "%s/%s-%s.csv" % (csvPath, year, year + 1)
 		df.to_csv(filePath)
 
+def convertTeamName(name):
+	return NameChangeMap[name] if name in NameChangeMap else name
+
+def mergeOVAToCleaned(ovaPath, cleanedPath):
+	OVAdf = pd.read_csv(ovaPath)
+	cleaneddf = pd.read_csv(cleanedPath)
+
+	OVAdf.set_index('Team', inplace=True)
+	cleaneddf.set_index('MatchID', inplace=True)
+
+	HomeOVAs, AwayOVAs = [], []
+	for index, row in cleaneddf.iterrows():
+		HT = convertTeamName(row['HomeTeam'])
+		AT = convertTeamName(row['AwayTeam'])
+		HomeOVAs.append(OVAdf.loc[HT]['OVA'])
+		AwayOVAs.append(OVAdf.loc[AT]['OVA'])
+
+	cleaneddf['HomeOVA'] = pd.Series(HomeOVAs, index=cleaneddf.index)
+	cleaneddf['AwayOVA'] = pd.Series(AwayOVAs, index=cleaneddf.index)
+	cleaneddf.to_csv(cleanedPath)
+
+def scrapeTeamOVAAll(path):
+	scrapeTeamOVA(2006, 2018, path)
+
+def mergeOVAToCLeanedAll(ovaFolderPath, cleanedFolderPath):
+	fromYear = 2006
+	toYear = 2018
+	for year in range(fromYear, toYear + 1):
+		ovaPath = ntpath.join(ovaFolderPath, '%s-%s.csv' % (year, year + 1))
+		cleanedPath = ntpath.join(cleanedFolderPath, '%s-%s.csv' % (year, year + 1))
+
+		print("About to merge " + ovaPath)
+		mergeOVAToCleaned(ovaPath, cleanedPath)
+
 if __name__ == "__main__":
-	scrapeTeamOVA(2007, 2018, 'data/OVAs')
+	# scrapeTeamOVA(2006, 2018, 'data/OVAs')
+	# mergeOVAToCleaned('data/OVAs/2006-2007.csv', 'data/cleaned/2006-2007.csv')
+	mergeOVAToCLeanedAll('data/OVAs', 'data/cleaned')

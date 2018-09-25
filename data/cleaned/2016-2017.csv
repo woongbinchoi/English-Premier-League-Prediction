@@ -1,381 +1,381 @@
-,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
-0,13/08/16,Burnley,Swansea,0,1,A
-1,13/08/16,Crystal Palace,West Brom,0,1,A
-2,13/08/16,Everton,Tottenham,1,1,D
-3,13/08/16,Hull,Leicester,2,1,H
-4,13/08/16,Man City,Sunderland,2,1,H
-5,13/08/16,Middlesbrough,Stoke,1,1,D
-6,13/08/16,Southampton,Watford,1,1,D
-7,14/08/16,Arsenal,Liverpool,3,4,A
-8,14/08/16,Bournemouth,Man United,1,3,A
-9,15/08/16,Chelsea,West Ham,2,1,H
-10,19/08/16,Man United,Southampton,2,0,H
-11,20/08/16,Burnley,Liverpool,2,0,H
-12,20/08/16,Leicester,Arsenal,0,0,D
-13,20/08/16,Stoke,Man City,1,4,A
-14,20/08/16,Swansea,Hull,0,2,A
-15,20/08/16,Tottenham,Crystal Palace,1,0,H
-16,20/08/16,Watford,Chelsea,1,2,A
-17,20/08/16,West Brom,Everton,1,2,A
-18,21/08/16,Sunderland,Middlesbrough,1,2,A
-19,21/08/16,West Ham,Bournemouth,1,0,H
-20,27/08/16,Chelsea,Burnley,3,0,H
-21,27/08/16,Crystal Palace,Bournemouth,1,1,D
-22,27/08/16,Everton,Stoke,1,0,H
-23,27/08/16,Hull,Man United,0,1,A
-24,27/08/16,Leicester,Swansea,2,1,H
-25,27/08/16,Southampton,Sunderland,1,1,D
-26,27/08/16,Tottenham,Liverpool,1,1,D
-27,27/08/16,Watford,Arsenal,1,3,A
-28,28/08/16,Man City,West Ham,3,1,H
-29,28/08/16,West Brom,Middlesbrough,0,0,D
-30,10/09/16,Arsenal,Southampton,2,1,H
-31,10/09/16,Bournemouth,West Brom,1,0,H
-32,10/09/16,Burnley,Hull,1,1,D
-33,10/09/16,Liverpool,Leicester,4,1,H
-34,10/09/16,Man United,Man City,1,2,A
-35,10/09/16,Middlesbrough,Crystal Palace,1,2,A
-36,10/09/16,Stoke,Tottenham,0,4,A
-37,10/09/16,West Ham,Watford,2,4,A
-38,11/09/16,Swansea,Chelsea,2,2,D
-39,12/09/16,Sunderland,Everton,0,3,A
-40,16/09/16,Chelsea,Liverpool,1,2,A
-41,17/09/16,Everton,Middlesbrough,3,1,H
-42,17/09/16,Hull,Arsenal,1,4,A
-43,17/09/16,Leicester,Burnley,3,0,H
-44,17/09/16,Man City,Bournemouth,4,0,H
-45,17/09/16,West Brom,West Ham,4,2,H
-46,18/09/16,Crystal Palace,Stoke,4,1,H
-47,18/09/16,Southampton,Swansea,1,0,H
-48,18/09/16,Tottenham,Sunderland,1,0,H
-49,18/09/16,Watford,Man United,3,1,H
-50,24/09/16,Arsenal,Chelsea,3,0,H
-51,24/09/16,Bournemouth,Everton,1,0,H
-52,24/09/16,Liverpool,Hull,5,1,H
-53,24/09/16,Man United,Leicester,4,1,H
-54,24/09/16,Middlesbrough,Tottenham,1,2,A
-55,24/09/16,Stoke,West Brom,1,1,D
-56,24/09/16,Sunderland,Crystal Palace,2,3,A
-57,24/09/16,Swansea,Man City,1,3,A
-58,25/09/16,West Ham,Southampton,0,3,A
-59,26/09/16,Burnley,Watford,2,0,H
-60,30/09/16,Everton,Crystal Palace,1,1,D
-61,01/10/16,Hull,Chelsea,0,2,A
-62,01/10/16,Sunderland,West Brom,1,1,D
-63,01/10/16,Swansea,Liverpool,1,2,A
-64,01/10/16,Watford,Bournemouth,2,2,D
-65,01/10/16,West Ham,Middlesbrough,1,1,D
-66,02/10/16,Burnley,Arsenal,0,1,A
-67,02/10/16,Leicester,Southampton,0,0,D
-68,02/10/16,Man United,Stoke,1,1,D
-69,02/10/16,Tottenham,Man City,2,0,H
-70,15/10/16,Arsenal,Swansea,3,2,H
-71,15/10/16,Bournemouth,Hull,6,1,H
-72,15/10/16,Chelsea,Leicester,3,0,H
-73,15/10/16,Crystal Palace,West Ham,0,1,A
-74,15/10/16,Man City,Everton,1,1,D
-75,15/10/16,Stoke,Sunderland,2,0,H
-76,15/10/16,West Brom,Tottenham,1,1,D
-77,16/10/16,Middlesbrough,Watford,0,1,A
-78,16/10/16,Southampton,Burnley,3,1,H
-79,17/10/16,Liverpool,Man United,0,0,D
-80,22/10/16,Arsenal,Middlesbrough,0,0,D
-81,22/10/16,Bournemouth,Tottenham,0,0,D
-82,22/10/16,Burnley,Everton,2,1,H
-83,22/10/16,Hull,Stoke,0,2,A
-84,22/10/16,Leicester,Crystal Palace,3,1,H
-85,22/10/16,Liverpool,West Brom,2,1,H
-86,22/10/16,Swansea,Watford,0,0,D
-87,22/10/16,West Ham,Sunderland,1,0,H
-88,23/10/16,Chelsea,Man United,4,0,H
-89,23/10/16,Man City,Southampton,1,1,D
-90,29/10/16,Crystal Palace,Liverpool,2,4,A
-91,29/10/16,Man United,Burnley,0,0,D
-92,29/10/16,Middlesbrough,Bournemouth,2,0,H
-93,29/10/16,Sunderland,Arsenal,1,4,A
-94,29/10/16,Tottenham,Leicester,1,1,D
-95,29/10/16,Watford,Hull,1,0,H
-96,29/10/16,West Brom,Man City,0,4,A
-97,30/10/16,Everton,West Ham,2,0,H
-98,30/10/16,Southampton,Chelsea,0,2,A
-99,31/10/16,Stoke,Swansea,3,1,H
-100,05/11/16,Bournemouth,Sunderland,1,2,A
-101,05/11/16,Burnley,Crystal Palace,3,2,H
-102,05/11/16,Chelsea,Everton,5,0,H
-103,05/11/16,Man City,Middlesbrough,1,1,D
-104,05/11/16,West Ham,Stoke,1,1,D
-105,06/11/16,Arsenal,Tottenham,1,1,D
-106,06/11/16,Hull,Southampton,2,1,H
-107,06/11/16,Leicester,West Brom,1,2,A
-108,06/11/16,Liverpool,Watford,6,1,H
-109,06/11/16,Swansea,Man United,1,3,A
-110,19/11/16,Crystal Palace,Man City,1,2,A
-111,19/11/16,Everton,Swansea,1,1,D
-112,19/11/16,Man United,Arsenal,1,1,D
-113,19/11/16,Southampton,Liverpool,0,0,D
-114,19/11/16,Stoke,Bournemouth,0,1,A
-115,19/11/16,Sunderland,Hull,3,0,H
-116,19/11/16,Tottenham,West Ham,3,2,H
-117,19/11/16,Watford,Leicester,2,1,H
-118,20/11/16,Middlesbrough,Chelsea,0,1,A
-119,21/11/16,West Brom,Burnley,4,0,H
-120,26/11/16,Burnley,Man City,1,2,A
-121,26/11/16,Chelsea,Tottenham,2,1,H
-122,26/11/16,Hull,West Brom,1,1,D
-123,26/11/16,Leicester,Middlesbrough,2,2,D
-124,26/11/16,Liverpool,Sunderland,2,0,H
-125,26/11/16,Swansea,Crystal Palace,5,4,H
-126,27/11/16,Arsenal,Bournemouth,3,1,H
-127,27/11/16,Man United,West Ham,1,1,D
-128,27/11/16,Southampton,Everton,1,0,H
-129,27/11/16,Watford,Stoke,0,1,A
-130,03/12/16,Crystal Palace,Southampton,3,0,H
-131,03/12/16,Man City,Chelsea,1,3,A
-132,03/12/16,Stoke,Burnley,2,0,H
-133,03/12/16,Sunderland,Leicester,2,1,H
-134,03/12/16,Tottenham,Swansea,5,0,H
-135,03/12/16,West Brom,Watford,3,1,H
-136,03/12/16,West Ham,Arsenal,1,5,A
-137,04/12/16,Bournemouth,Liverpool,4,3,H
-138,04/12/16,Everton,Man United,1,1,D
-139,05/12/16,Middlesbrough,Hull,1,0,H
-140,10/12/16,Arsenal,Stoke,3,1,H
-141,10/12/16,Burnley,Bournemouth,3,2,H
-142,10/12/16,Hull,Crystal Palace,3,3,D
-143,10/12/16,Leicester,Man City,4,2,H
-144,10/12/16,Swansea,Sunderland,3,0,H
-145,10/12/16,Watford,Everton,3,2,H
-146,11/12/16,Chelsea,West Brom,1,0,H
-147,11/12/16,Liverpool,West Ham,2,2,D
-148,11/12/16,Man United,Tottenham,1,0,H
-149,11/12/16,Southampton,Middlesbrough,1,0,H
-150,13/12/16,Bournemouth,Leicester,1,0,H
-151,13/12/16,Everton,Arsenal,2,1,H
-152,14/12/16,Crystal Palace,Man United,1,2,A
-153,14/12/16,Man City,Watford,2,0,H
-154,14/12/16,Middlesbrough,Liverpool,0,3,A
-155,14/12/16,Stoke,Southampton,0,0,D
-156,14/12/16,Sunderland,Chelsea,0,1,A
-157,14/12/16,Tottenham,Hull,3,0,H
-158,14/12/16,West Brom,Swansea,3,1,H
-159,14/12/16,West Ham,Burnley,1,0,H
-160,17/12/16,Crystal Palace,Chelsea,0,1,A
-161,17/12/16,Middlesbrough,Swansea,3,0,H
-162,17/12/16,Stoke,Leicester,2,2,D
-163,17/12/16,Sunderland,Watford,1,0,H
-164,17/12/16,West Brom,Man United,0,2,A
-165,17/12/16,West Ham,Hull,1,0,H
-166,18/12/16,Bournemouth,Southampton,1,3,A
-167,18/12/16,Man City,Arsenal,2,1,H
-168,18/12/16,Tottenham,Burnley,2,1,H
-169,19/12/16,Everton,Liverpool,0,1,A
-170,26/12/16,Arsenal,West Brom,1,0,H
-171,26/12/16,Burnley,Middlesbrough,1,0,H
-172,26/12/16,Chelsea,Bournemouth,3,0,H
-173,26/12/16,Hull,Man City,0,3,A
-174,26/12/16,Leicester,Everton,0,2,A
-175,26/12/16,Man United,Sunderland,3,1,H
-176,26/12/16,Swansea,West Ham,1,4,A
-177,26/12/16,Watford,Crystal Palace,1,1,D
-178,27/12/16,Liverpool,Stoke,4,1,H
-179,28/12/16,Southampton,Tottenham,1,4,A
-180,30/12/16,Hull,Everton,2,2,D
-181,31/12/16,Burnley,Sunderland,4,1,H
-182,31/12/16,Chelsea,Stoke,4,2,H
-183,31/12/16,Leicester,West Ham,1,0,H
-184,31/12/16,Liverpool,Man City,1,0,H
-185,31/12/16,Man United,Middlesbrough,2,1,H
-186,31/12/16,Southampton,West Brom,1,2,A
-187,31/12/16,Swansea,Bournemouth,0,3,A
-188,01/01/17,Arsenal,Crystal Palace,2,0,H
-189,01/01/17,Watford,Tottenham,1,4,A
-190,02/01/17,Everton,Southampton,3,0,H
-191,02/01/17,Man City,Burnley,2,1,H
-192,02/01/17,Middlesbrough,Leicester,0,0,D
-193,02/01/17,Sunderland,Liverpool,2,2,D
-194,02/01/17,West Brom,Hull,3,1,H
-195,02/01/17,West Ham,Man United,0,2,A
-196,03/01/17,Bournemouth,Arsenal,3,3,D
-197,03/01/17,Crystal Palace,Swansea,1,2,A
-198,03/01/17,Stoke,Watford,2,0,H
-199,04/01/17,Tottenham,Chelsea,2,0,H
-200,14/01/17,Burnley,Southampton,1,0,H
-201,14/01/17,Hull,Bournemouth,3,1,H
-202,14/01/17,Leicester,Chelsea,0,3,A
-203,14/01/17,Sunderland,Stoke,1,3,A
-204,14/01/17,Swansea,Arsenal,0,4,A
-205,14/01/17,Tottenham,West Brom,4,0,H
-206,14/01/17,Watford,Middlesbrough,0,0,D
-207,14/01/17,West Ham,Crystal Palace,3,0,H
-208,15/01/17,Everton,Man City,4,0,H
-209,15/01/17,Man United,Liverpool,1,1,D
-210,21/01/17,Bournemouth,Watford,2,2,D
-211,21/01/17,Crystal Palace,Everton,0,1,A
-212,21/01/17,Liverpool,Swansea,2,3,A
-213,21/01/17,Man City,Tottenham,2,2,D
-214,21/01/17,Middlesbrough,West Ham,1,3,A
-215,21/01/17,Stoke,Man United,1,1,D
-216,21/01/17,West Brom,Sunderland,2,0,H
-217,22/01/17,Arsenal,Burnley,2,1,H
-218,22/01/17,Chelsea,Hull,2,0,H
-219,22/01/17,Southampton,Leicester,3,0,H
-220,31/01/17,Arsenal,Watford,1,2,A
-221,31/01/17,Bournemouth,Crystal Palace,0,2,A
-222,31/01/17,Burnley,Leicester,1,0,H
-223,31/01/17,Liverpool,Chelsea,1,1,D
-224,31/01/17,Middlesbrough,West Brom,1,1,D
-225,31/01/17,Sunderland,Tottenham,0,0,D
-226,31/01/17,Swansea,Southampton,2,1,H
-227,01/02/17,Man United,Hull,0,0,D
-228,01/02/17,Stoke,Everton,1,1,D
-229,01/02/17,West Ham,Man City,0,4,A
-230,04/02/17,Chelsea,Arsenal,3,1,H
-231,04/02/17,Crystal Palace,Sunderland,0,4,A
-232,04/02/17,Everton,Bournemouth,6,3,H
-233,04/02/17,Hull,Liverpool,2,0,H
-234,04/02/17,Southampton,West Ham,1,3,A
-235,04/02/17,Tottenham,Middlesbrough,1,0,H
-236,04/02/17,Watford,Burnley,2,1,H
-237,04/02/17,West Brom,Stoke,1,0,H
-238,05/02/17,Leicester,Man United,0,3,A
-239,05/02/17,Man City,Swansea,2,1,H
-240,11/02/17,Arsenal,Hull,2,0,H
-241,11/02/17,Liverpool,Tottenham,2,0,H
-242,11/02/17,Man United,Watford,2,0,H
-243,11/02/17,Middlesbrough,Everton,0,0,D
-244,11/02/17,Stoke,Crystal Palace,1,0,H
-245,11/02/17,Sunderland,Southampton,0,4,A
-246,11/02/17,West Ham,West Brom,2,2,D
-247,12/02/17,Burnley,Chelsea,1,1,D
-248,12/02/17,Swansea,Leicester,2,0,H
-249,13/02/17,Bournemouth,Man City,0,2,A
-250,25/02/17,Chelsea,Swansea,3,1,H
-251,25/02/17,Crystal Palace,Middlesbrough,1,0,H
-252,25/02/17,Everton,Sunderland,2,0,H
-253,25/02/17,Hull,Burnley,1,1,D
-254,25/02/17,Watford,West Ham,1,1,D
-255,25/02/17,West Brom,Bournemouth,2,1,H
-256,26/02/17,Tottenham,Stoke,4,0,H
-257,27/02/17,Leicester,Liverpool,3,1,H
-258,04/03/17,Leicester,Hull,3,1,H
-259,04/03/17,Liverpool,Arsenal,3,1,H
-260,04/03/17,Man United,Bournemouth,1,1,D
-261,04/03/17,Stoke,Middlesbrough,2,0,H
-262,04/03/17,Swansea,Burnley,3,2,H
-263,04/03/17,Watford,Southampton,3,4,A
-264,04/03/17,West Brom,Crystal Palace,0,2,A
-265,05/03/17,Sunderland,Man City,0,2,A
-266,05/03/17,Tottenham,Everton,3,2,H
-267,06/03/17,West Ham,Chelsea,1,2,A
-268,08/03/17,Man City,Stoke,0,0,D
-269,11/03/17,Bournemouth,West Ham,3,2,H
-270,11/03/17,Everton,West Brom,3,0,H
-271,11/03/17,Hull,Swansea,2,1,H
-272,12/03/17,Liverpool,Burnley,2,1,H
-273,18/03/17,Bournemouth,Swansea,2,0,H
-274,18/03/17,Crystal Palace,Watford,1,0,H
-275,18/03/17,Everton,Hull,4,0,H
-276,18/03/17,Stoke,Chelsea,1,2,A
-277,18/03/17,Sunderland,Burnley,0,0,D
-278,18/03/17,West Brom,Arsenal,3,1,H
-279,18/03/17,West Ham,Leicester,2,3,A
-280,19/03/17,Man City,Liverpool,1,1,D
-281,19/03/17,Middlesbrough,Man United,1,3,A
-282,19/03/17,Tottenham,Southampton,2,1,H
-283,01/04/17,Burnley,Tottenham,0,2,A
-284,01/04/17,Chelsea,Crystal Palace,1,2,A
-285,01/04/17,Hull,West Ham,2,1,H
-286,01/04/17,Leicester,Stoke,2,0,H
-287,01/04/17,Liverpool,Everton,3,1,H
-288,01/04/17,Man United,West Brom,0,0,D
-289,01/04/17,Southampton,Bournemouth,0,0,D
-290,01/04/17,Watford,Sunderland,1,0,H
-291,02/04/17,Arsenal,Man City,2,2,D
-292,02/04/17,Swansea,Middlesbrough,0,0,D
-293,04/04/17,Burnley,Stoke,1,0,H
-294,04/04/17,Leicester,Sunderland,2,0,H
-295,04/04/17,Man United,Everton,1,1,D
-296,04/04/17,Watford,West Brom,2,0,H
-297,05/04/17,Arsenal,West Ham,3,0,H
-298,05/04/17,Chelsea,Man City,2,1,H
-299,05/04/17,Hull,Middlesbrough,4,2,H
-300,05/04/17,Liverpool,Bournemouth,2,2,D
-301,05/04/17,Southampton,Crystal Palace,3,1,H
-302,05/04/17,Swansea,Tottenham,1,3,A
-303,08/04/17,Bournemouth,Chelsea,1,3,A
-304,08/04/17,Man City,Hull,3,1,H
-305,08/04/17,Middlesbrough,Burnley,0,0,D
-306,08/04/17,Stoke,Liverpool,1,2,A
-307,08/04/17,Tottenham,Watford,4,0,H
-308,08/04/17,West Brom,Southampton,0,1,A
-309,08/04/17,West Ham,Swansea,1,0,H
-310,09/04/17,Everton,Leicester,4,2,H
-311,09/04/17,Sunderland,Man United,0,3,A
-312,10/04/17,Crystal Palace,Arsenal,3,0,H
-313,15/04/17,Crystal Palace,Leicester,2,2,D
-314,15/04/17,Everton,Burnley,3,1,H
-315,15/04/17,Southampton,Man City,0,3,A
-316,15/04/17,Stoke,Hull,3,1,H
-317,15/04/17,Sunderland,West Ham,2,2,D
-318,15/04/17,Tottenham,Bournemouth,4,0,H
-319,15/04/17,Watford,Swansea,1,0,H
-320,16/04/17,Man United,Chelsea,2,0,H
-321,16/04/17,West Brom,Liverpool,0,1,A
-322,17/04/17,Middlesbrough,Arsenal,1,2,A
-323,22/04/17,Bournemouth,Middlesbrough,4,0,H
-324,22/04/17,Hull,Watford,2,0,H
-325,22/04/17,Swansea,Stoke,2,0,H
-326,22/04/17,West Ham,Everton,0,0,D
-327,23/04/17,Burnley,Man United,0,2,A
-328,23/04/17,Liverpool,Crystal Palace,1,2,A
-329,25/04/17,Chelsea,Southampton,4,2,H
-330,26/04/17,Arsenal,Leicester,1,0,H
-331,26/04/17,Crystal Palace,Tottenham,0,1,A
-332,26/04/17,Middlesbrough,Sunderland,1,0,H
-333,27/04/17,Man City,Man United,0,0,D
-334,29/04/17,Crystal Palace,Burnley,0,2,A
-335,29/04/17,Southampton,Hull,0,0,D
-336,29/04/17,Stoke,West Ham,0,0,D
-337,29/04/17,Sunderland,Bournemouth,0,1,A
-338,29/04/17,West Brom,Leicester,0,1,A
-339,30/04/17,Everton,Chelsea,0,3,A
-340,30/04/17,Man United,Swansea,1,1,D
-341,30/04/17,Middlesbrough,Man City,2,2,D
-342,30/04/17,Tottenham,Arsenal,2,0,H
-343,01/05/17,Watford,Liverpool,0,1,A
-344,05/05/17,West Ham,Tottenham,1,0,H
-345,06/05/17,Bournemouth,Stoke,2,2,D
-346,06/05/17,Burnley,West Brom,2,2,D
-347,06/05/17,Hull,Sunderland,0,2,A
-348,06/05/17,Leicester,Watford,3,0,H
-349,06/05/17,Man City,Crystal Palace,5,0,H
-350,06/05/17,Swansea,Everton,1,0,H
-351,07/05/17,Arsenal,Man United,2,0,H
-352,07/05/17,Liverpool,Southampton,0,0,D
-353,08/05/17,Chelsea,Middlesbrough,3,0,H
-354,10/05/17,Southampton,Arsenal,0,2,A
-355,12/05/17,Everton,Watford,1,0,H
-356,12/05/17,West Brom,Chelsea,0,1,A
-357,13/05/17,Bournemouth,Burnley,2,1,H
-358,13/05/17,Man City,Leicester,2,1,H
-359,13/05/17,Middlesbrough,Southampton,1,2,A
-360,13/05/17,Stoke,Arsenal,1,4,A
-361,13/05/17,Sunderland,Swansea,0,2,A
-362,14/05/17,Crystal Palace,Hull,4,0,H
-363,14/05/17,Tottenham,Man United,2,1,H
-364,14/05/17,West Ham,Liverpool,0,4,A
-365,15/05/17,Chelsea,Watford,4,3,H
-366,16/05/17,Arsenal,Sunderland,2,0,H
-367,16/05/17,Man City,West Brom,3,1,H
-368,17/05/17,Southampton,Man United,0,0,D
-369,18/05/17,Leicester,Tottenham,1,6,A
-370,21/05/17,Arsenal,Everton,3,1,H
-371,21/05/17,Burnley,West Ham,1,2,A
-372,21/05/17,Chelsea,Sunderland,5,1,H
-373,21/05/17,Hull,Tottenham,1,7,A
-374,21/05/17,Leicester,Bournemouth,1,1,D
-375,21/05/17,Liverpool,Middlesbrough,3,0,H
-376,21/05/17,Man United,Crystal Palace,2,0,H
-377,21/05/17,Southampton,Stoke,0,1,A
-378,21/05/17,Swansea,West Brom,2,1,H
-379,21/05/17,Watford,Man City,0,5,A
+MatchID,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA
+0,13/08/16,Burnley,Swansea,0,1,A,74,77
+1,13/08/16,Crystal Palace,West Brom,0,1,A,77,75
+2,13/08/16,Everton,Tottenham,1,1,D,80,81
+3,13/08/16,Hull,Leicester,2,1,H,75,78
+4,13/08/16,Man City,Sunderland,2,1,H,83,76
+5,13/08/16,Middlesbrough,Stoke,1,1,D,75,78
+6,13/08/16,Southampton,Watford,1,1,D,78,77
+7,14/08/16,Arsenal,Liverpool,3,4,A,83,81
+8,14/08/16,Bournemouth,Man United,1,3,A,74,83
+9,15/08/16,Chelsea,West Ham,2,1,H,83,78
+10,19/08/16,Man United,Southampton,2,0,H,83,78
+11,20/08/16,Burnley,Liverpool,2,0,H,74,81
+12,20/08/16,Leicester,Arsenal,0,0,D,78,83
+13,20/08/16,Stoke,Man City,1,4,A,78,83
+14,20/08/16,Swansea,Hull,0,2,A,77,75
+15,20/08/16,Tottenham,Crystal Palace,1,0,H,81,77
+16,20/08/16,Watford,Chelsea,1,2,A,77,83
+17,20/08/16,West Brom,Everton,1,2,A,75,80
+18,21/08/16,Sunderland,Middlesbrough,1,2,A,76,75
+19,21/08/16,West Ham,Bournemouth,1,0,H,78,74
+20,27/08/16,Chelsea,Burnley,3,0,H,83,74
+21,27/08/16,Crystal Palace,Bournemouth,1,1,D,77,74
+22,27/08/16,Everton,Stoke,1,0,H,80,78
+23,27/08/16,Hull,Man United,0,1,A,75,83
+24,27/08/16,Leicester,Swansea,2,1,H,78,77
+25,27/08/16,Southampton,Sunderland,1,1,D,78,76
+26,27/08/16,Tottenham,Liverpool,1,1,D,81,81
+27,27/08/16,Watford,Arsenal,1,3,A,77,83
+28,28/08/16,Man City,West Ham,3,1,H,83,78
+29,28/08/16,West Brom,Middlesbrough,0,0,D,75,75
+30,10/09/16,Arsenal,Southampton,2,1,H,83,78
+31,10/09/16,Bournemouth,West Brom,1,0,H,74,75
+32,10/09/16,Burnley,Hull,1,1,D,74,75
+33,10/09/16,Liverpool,Leicester,4,1,H,81,78
+34,10/09/16,Man United,Man City,1,2,A,83,83
+35,10/09/16,Middlesbrough,Crystal Palace,1,2,A,75,77
+36,10/09/16,Stoke,Tottenham,0,4,A,78,81
+37,10/09/16,West Ham,Watford,2,4,A,78,77
+38,11/09/16,Swansea,Chelsea,2,2,D,77,83
+39,12/09/16,Sunderland,Everton,0,3,A,76,80
+40,16/09/16,Chelsea,Liverpool,1,2,A,83,81
+41,17/09/16,Everton,Middlesbrough,3,1,H,80,75
+42,17/09/16,Hull,Arsenal,1,4,A,75,83
+43,17/09/16,Leicester,Burnley,3,0,H,78,74
+44,17/09/16,Man City,Bournemouth,4,0,H,83,74
+45,17/09/16,West Brom,West Ham,4,2,H,75,78
+46,18/09/16,Crystal Palace,Stoke,4,1,H,77,78
+47,18/09/16,Southampton,Swansea,1,0,H,78,77
+48,18/09/16,Tottenham,Sunderland,1,0,H,81,76
+49,18/09/16,Watford,Man United,3,1,H,77,83
+50,24/09/16,Arsenal,Chelsea,3,0,H,83,83
+51,24/09/16,Bournemouth,Everton,1,0,H,74,80
+52,24/09/16,Liverpool,Hull,5,1,H,81,75
+53,24/09/16,Man United,Leicester,4,1,H,83,78
+54,24/09/16,Middlesbrough,Tottenham,1,2,A,75,81
+55,24/09/16,Stoke,West Brom,1,1,D,78,75
+56,24/09/16,Sunderland,Crystal Palace,2,3,A,76,77
+57,24/09/16,Swansea,Man City,1,3,A,77,83
+58,25/09/16,West Ham,Southampton,0,3,A,78,78
+59,26/09/16,Burnley,Watford,2,0,H,74,77
+60,30/09/16,Everton,Crystal Palace,1,1,D,80,77
+61,01/10/16,Hull,Chelsea,0,2,A,75,83
+62,01/10/16,Sunderland,West Brom,1,1,D,76,75
+63,01/10/16,Swansea,Liverpool,1,2,A,77,81
+64,01/10/16,Watford,Bournemouth,2,2,D,77,74
+65,01/10/16,West Ham,Middlesbrough,1,1,D,78,75
+66,02/10/16,Burnley,Arsenal,0,1,A,74,83
+67,02/10/16,Leicester,Southampton,0,0,D,78,78
+68,02/10/16,Man United,Stoke,1,1,D,83,78
+69,02/10/16,Tottenham,Man City,2,0,H,81,83
+70,15/10/16,Arsenal,Swansea,3,2,H,83,77
+71,15/10/16,Bournemouth,Hull,6,1,H,74,75
+72,15/10/16,Chelsea,Leicester,3,0,H,83,78
+73,15/10/16,Crystal Palace,West Ham,0,1,A,77,78
+74,15/10/16,Man City,Everton,1,1,D,83,80
+75,15/10/16,Stoke,Sunderland,2,0,H,78,76
+76,15/10/16,West Brom,Tottenham,1,1,D,75,81
+77,16/10/16,Middlesbrough,Watford,0,1,A,75,77
+78,16/10/16,Southampton,Burnley,3,1,H,78,74
+79,17/10/16,Liverpool,Man United,0,0,D,81,83
+80,22/10/16,Arsenal,Middlesbrough,0,0,D,83,75
+81,22/10/16,Bournemouth,Tottenham,0,0,D,74,81
+82,22/10/16,Burnley,Everton,2,1,H,74,80
+83,22/10/16,Hull,Stoke,0,2,A,75,78
+84,22/10/16,Leicester,Crystal Palace,3,1,H,78,77
+85,22/10/16,Liverpool,West Brom,2,1,H,81,75
+86,22/10/16,Swansea,Watford,0,0,D,77,77
+87,22/10/16,West Ham,Sunderland,1,0,H,78,76
+88,23/10/16,Chelsea,Man United,4,0,H,83,83
+89,23/10/16,Man City,Southampton,1,1,D,83,78
+90,29/10/16,Crystal Palace,Liverpool,2,4,A,77,81
+91,29/10/16,Man United,Burnley,0,0,D,83,74
+92,29/10/16,Middlesbrough,Bournemouth,2,0,H,75,74
+93,29/10/16,Sunderland,Arsenal,1,4,A,76,83
+94,29/10/16,Tottenham,Leicester,1,1,D,81,78
+95,29/10/16,Watford,Hull,1,0,H,77,75
+96,29/10/16,West Brom,Man City,0,4,A,75,83
+97,30/10/16,Everton,West Ham,2,0,H,80,78
+98,30/10/16,Southampton,Chelsea,0,2,A,78,83
+99,31/10/16,Stoke,Swansea,3,1,H,78,77
+100,05/11/16,Bournemouth,Sunderland,1,2,A,74,76
+101,05/11/16,Burnley,Crystal Palace,3,2,H,74,77
+102,05/11/16,Chelsea,Everton,5,0,H,83,80
+103,05/11/16,Man City,Middlesbrough,1,1,D,83,75
+104,05/11/16,West Ham,Stoke,1,1,D,78,78
+105,06/11/16,Arsenal,Tottenham,1,1,D,83,81
+106,06/11/16,Hull,Southampton,2,1,H,75,78
+107,06/11/16,Leicester,West Brom,1,2,A,78,75
+108,06/11/16,Liverpool,Watford,6,1,H,81,77
+109,06/11/16,Swansea,Man United,1,3,A,77,83
+110,19/11/16,Crystal Palace,Man City,1,2,A,77,83
+111,19/11/16,Everton,Swansea,1,1,D,80,77
+112,19/11/16,Man United,Arsenal,1,1,D,83,83
+113,19/11/16,Southampton,Liverpool,0,0,D,78,81
+114,19/11/16,Stoke,Bournemouth,0,1,A,78,74
+115,19/11/16,Sunderland,Hull,3,0,H,76,75
+116,19/11/16,Tottenham,West Ham,3,2,H,81,78
+117,19/11/16,Watford,Leicester,2,1,H,77,78
+118,20/11/16,Middlesbrough,Chelsea,0,1,A,75,83
+119,21/11/16,West Brom,Burnley,4,0,H,75,74
+120,26/11/16,Burnley,Man City,1,2,A,74,83
+121,26/11/16,Chelsea,Tottenham,2,1,H,83,81
+122,26/11/16,Hull,West Brom,1,1,D,75,75
+123,26/11/16,Leicester,Middlesbrough,2,2,D,78,75
+124,26/11/16,Liverpool,Sunderland,2,0,H,81,76
+125,26/11/16,Swansea,Crystal Palace,5,4,H,77,77
+126,27/11/16,Arsenal,Bournemouth,3,1,H,83,74
+127,27/11/16,Man United,West Ham,1,1,D,83,78
+128,27/11/16,Southampton,Everton,1,0,H,78,80
+129,27/11/16,Watford,Stoke,0,1,A,77,78
+130,03/12/16,Crystal Palace,Southampton,3,0,H,77,78
+131,03/12/16,Man City,Chelsea,1,3,A,83,83
+132,03/12/16,Stoke,Burnley,2,0,H,78,74
+133,03/12/16,Sunderland,Leicester,2,1,H,76,78
+134,03/12/16,Tottenham,Swansea,5,0,H,81,77
+135,03/12/16,West Brom,Watford,3,1,H,75,77
+136,03/12/16,West Ham,Arsenal,1,5,A,78,83
+137,04/12/16,Bournemouth,Liverpool,4,3,H,74,81
+138,04/12/16,Everton,Man United,1,1,D,80,83
+139,05/12/16,Middlesbrough,Hull,1,0,H,75,75
+140,10/12/16,Arsenal,Stoke,3,1,H,83,78
+141,10/12/16,Burnley,Bournemouth,3,2,H,74,74
+142,10/12/16,Hull,Crystal Palace,3,3,D,75,77
+143,10/12/16,Leicester,Man City,4,2,H,78,83
+144,10/12/16,Swansea,Sunderland,3,0,H,77,76
+145,10/12/16,Watford,Everton,3,2,H,77,80
+146,11/12/16,Chelsea,West Brom,1,0,H,83,75
+147,11/12/16,Liverpool,West Ham,2,2,D,81,78
+148,11/12/16,Man United,Tottenham,1,0,H,83,81
+149,11/12/16,Southampton,Middlesbrough,1,0,H,78,75
+150,13/12/16,Bournemouth,Leicester,1,0,H,74,78
+151,13/12/16,Everton,Arsenal,2,1,H,80,83
+152,14/12/16,Crystal Palace,Man United,1,2,A,77,83
+153,14/12/16,Man City,Watford,2,0,H,83,77
+154,14/12/16,Middlesbrough,Liverpool,0,3,A,75,81
+155,14/12/16,Stoke,Southampton,0,0,D,78,78
+156,14/12/16,Sunderland,Chelsea,0,1,A,76,83
+157,14/12/16,Tottenham,Hull,3,0,H,81,75
+158,14/12/16,West Brom,Swansea,3,1,H,75,77
+159,14/12/16,West Ham,Burnley,1,0,H,78,74
+160,17/12/16,Crystal Palace,Chelsea,0,1,A,77,83
+161,17/12/16,Middlesbrough,Swansea,3,0,H,75,77
+162,17/12/16,Stoke,Leicester,2,2,D,78,78
+163,17/12/16,Sunderland,Watford,1,0,H,76,77
+164,17/12/16,West Brom,Man United,0,2,A,75,83
+165,17/12/16,West Ham,Hull,1,0,H,78,75
+166,18/12/16,Bournemouth,Southampton,1,3,A,74,78
+167,18/12/16,Man City,Arsenal,2,1,H,83,83
+168,18/12/16,Tottenham,Burnley,2,1,H,81,74
+169,19/12/16,Everton,Liverpool,0,1,A,80,81
+170,26/12/16,Arsenal,West Brom,1,0,H,83,75
+171,26/12/16,Burnley,Middlesbrough,1,0,H,74,75
+172,26/12/16,Chelsea,Bournemouth,3,0,H,83,74
+173,26/12/16,Hull,Man City,0,3,A,75,83
+174,26/12/16,Leicester,Everton,0,2,A,78,80
+175,26/12/16,Man United,Sunderland,3,1,H,83,76
+176,26/12/16,Swansea,West Ham,1,4,A,77,78
+177,26/12/16,Watford,Crystal Palace,1,1,D,77,77
+178,27/12/16,Liverpool,Stoke,4,1,H,81,78
+179,28/12/16,Southampton,Tottenham,1,4,A,78,81
+180,30/12/16,Hull,Everton,2,2,D,75,80
+181,31/12/16,Burnley,Sunderland,4,1,H,74,76
+182,31/12/16,Chelsea,Stoke,4,2,H,83,78
+183,31/12/16,Leicester,West Ham,1,0,H,78,78
+184,31/12/16,Liverpool,Man City,1,0,H,81,83
+185,31/12/16,Man United,Middlesbrough,2,1,H,83,75
+186,31/12/16,Southampton,West Brom,1,2,A,78,75
+187,31/12/16,Swansea,Bournemouth,0,3,A,77,74
+188,01/01/17,Arsenal,Crystal Palace,2,0,H,83,77
+189,01/01/17,Watford,Tottenham,1,4,A,77,81
+190,02/01/17,Everton,Southampton,3,0,H,80,78
+191,02/01/17,Man City,Burnley,2,1,H,83,74
+192,02/01/17,Middlesbrough,Leicester,0,0,D,75,78
+193,02/01/17,Sunderland,Liverpool,2,2,D,76,81
+194,02/01/17,West Brom,Hull,3,1,H,75,75
+195,02/01/17,West Ham,Man United,0,2,A,78,83
+196,03/01/17,Bournemouth,Arsenal,3,3,D,74,83
+197,03/01/17,Crystal Palace,Swansea,1,2,A,77,77
+198,03/01/17,Stoke,Watford,2,0,H,78,77
+199,04/01/17,Tottenham,Chelsea,2,0,H,81,83
+200,14/01/17,Burnley,Southampton,1,0,H,74,78
+201,14/01/17,Hull,Bournemouth,3,1,H,75,74
+202,14/01/17,Leicester,Chelsea,0,3,A,78,83
+203,14/01/17,Sunderland,Stoke,1,3,A,76,78
+204,14/01/17,Swansea,Arsenal,0,4,A,77,83
+205,14/01/17,Tottenham,West Brom,4,0,H,81,75
+206,14/01/17,Watford,Middlesbrough,0,0,D,77,75
+207,14/01/17,West Ham,Crystal Palace,3,0,H,78,77
+208,15/01/17,Everton,Man City,4,0,H,80,83
+209,15/01/17,Man United,Liverpool,1,1,D,83,81
+210,21/01/17,Bournemouth,Watford,2,2,D,74,77
+211,21/01/17,Crystal Palace,Everton,0,1,A,77,80
+212,21/01/17,Liverpool,Swansea,2,3,A,81,77
+213,21/01/17,Man City,Tottenham,2,2,D,83,81
+214,21/01/17,Middlesbrough,West Ham,1,3,A,75,78
+215,21/01/17,Stoke,Man United,1,1,D,78,83
+216,21/01/17,West Brom,Sunderland,2,0,H,75,76
+217,22/01/17,Arsenal,Burnley,2,1,H,83,74
+218,22/01/17,Chelsea,Hull,2,0,H,83,75
+219,22/01/17,Southampton,Leicester,3,0,H,78,78
+220,31/01/17,Arsenal,Watford,1,2,A,83,77
+221,31/01/17,Bournemouth,Crystal Palace,0,2,A,74,77
+222,31/01/17,Burnley,Leicester,1,0,H,74,78
+223,31/01/17,Liverpool,Chelsea,1,1,D,81,83
+224,31/01/17,Middlesbrough,West Brom,1,1,D,75,75
+225,31/01/17,Sunderland,Tottenham,0,0,D,76,81
+226,31/01/17,Swansea,Southampton,2,1,H,77,78
+227,01/02/17,Man United,Hull,0,0,D,83,75
+228,01/02/17,Stoke,Everton,1,1,D,78,80
+229,01/02/17,West Ham,Man City,0,4,A,78,83
+230,04/02/17,Chelsea,Arsenal,3,1,H,83,83
+231,04/02/17,Crystal Palace,Sunderland,0,4,A,77,76
+232,04/02/17,Everton,Bournemouth,6,3,H,80,74
+233,04/02/17,Hull,Liverpool,2,0,H,75,81
+234,04/02/17,Southampton,West Ham,1,3,A,78,78
+235,04/02/17,Tottenham,Middlesbrough,1,0,H,81,75
+236,04/02/17,Watford,Burnley,2,1,H,77,74
+237,04/02/17,West Brom,Stoke,1,0,H,75,78
+238,05/02/17,Leicester,Man United,0,3,A,78,83
+239,05/02/17,Man City,Swansea,2,1,H,83,77
+240,11/02/17,Arsenal,Hull,2,0,H,83,75
+241,11/02/17,Liverpool,Tottenham,2,0,H,81,81
+242,11/02/17,Man United,Watford,2,0,H,83,77
+243,11/02/17,Middlesbrough,Everton,0,0,D,75,80
+244,11/02/17,Stoke,Crystal Palace,1,0,H,78,77
+245,11/02/17,Sunderland,Southampton,0,4,A,76,78
+246,11/02/17,West Ham,West Brom,2,2,D,78,75
+247,12/02/17,Burnley,Chelsea,1,1,D,74,83
+248,12/02/17,Swansea,Leicester,2,0,H,77,78
+249,13/02/17,Bournemouth,Man City,0,2,A,74,83
+250,25/02/17,Chelsea,Swansea,3,1,H,83,77
+251,25/02/17,Crystal Palace,Middlesbrough,1,0,H,77,75
+252,25/02/17,Everton,Sunderland,2,0,H,80,76
+253,25/02/17,Hull,Burnley,1,1,D,75,74
+254,25/02/17,Watford,West Ham,1,1,D,77,78
+255,25/02/17,West Brom,Bournemouth,2,1,H,75,74
+256,26/02/17,Tottenham,Stoke,4,0,H,81,78
+257,27/02/17,Leicester,Liverpool,3,1,H,78,81
+258,04/03/17,Leicester,Hull,3,1,H,78,75
+259,04/03/17,Liverpool,Arsenal,3,1,H,81,83
+260,04/03/17,Man United,Bournemouth,1,1,D,83,74
+261,04/03/17,Stoke,Middlesbrough,2,0,H,78,75
+262,04/03/17,Swansea,Burnley,3,2,H,77,74
+263,04/03/17,Watford,Southampton,3,4,A,77,78
+264,04/03/17,West Brom,Crystal Palace,0,2,A,75,77
+265,05/03/17,Sunderland,Man City,0,2,A,76,83
+266,05/03/17,Tottenham,Everton,3,2,H,81,80
+267,06/03/17,West Ham,Chelsea,1,2,A,78,83
+268,08/03/17,Man City,Stoke,0,0,D,83,78
+269,11/03/17,Bournemouth,West Ham,3,2,H,74,78
+270,11/03/17,Everton,West Brom,3,0,H,80,75
+271,11/03/17,Hull,Swansea,2,1,H,75,77
+272,12/03/17,Liverpool,Burnley,2,1,H,81,74
+273,18/03/17,Bournemouth,Swansea,2,0,H,74,77
+274,18/03/17,Crystal Palace,Watford,1,0,H,77,77
+275,18/03/17,Everton,Hull,4,0,H,80,75
+276,18/03/17,Stoke,Chelsea,1,2,A,78,83
+277,18/03/17,Sunderland,Burnley,0,0,D,76,74
+278,18/03/17,West Brom,Arsenal,3,1,H,75,83
+279,18/03/17,West Ham,Leicester,2,3,A,78,78
+280,19/03/17,Man City,Liverpool,1,1,D,83,81
+281,19/03/17,Middlesbrough,Man United,1,3,A,75,83
+282,19/03/17,Tottenham,Southampton,2,1,H,81,78
+283,01/04/17,Burnley,Tottenham,0,2,A,74,81
+284,01/04/17,Chelsea,Crystal Palace,1,2,A,83,77
+285,01/04/17,Hull,West Ham,2,1,H,75,78
+286,01/04/17,Leicester,Stoke,2,0,H,78,78
+287,01/04/17,Liverpool,Everton,3,1,H,81,80
+288,01/04/17,Man United,West Brom,0,0,D,83,75
+289,01/04/17,Southampton,Bournemouth,0,0,D,78,74
+290,01/04/17,Watford,Sunderland,1,0,H,77,76
+291,02/04/17,Arsenal,Man City,2,2,D,83,83
+292,02/04/17,Swansea,Middlesbrough,0,0,D,77,75
+293,04/04/17,Burnley,Stoke,1,0,H,74,78
+294,04/04/17,Leicester,Sunderland,2,0,H,78,76
+295,04/04/17,Man United,Everton,1,1,D,83,80
+296,04/04/17,Watford,West Brom,2,0,H,77,75
+297,05/04/17,Arsenal,West Ham,3,0,H,83,78
+298,05/04/17,Chelsea,Man City,2,1,H,83,83
+299,05/04/17,Hull,Middlesbrough,4,2,H,75,75
+300,05/04/17,Liverpool,Bournemouth,2,2,D,81,74
+301,05/04/17,Southampton,Crystal Palace,3,1,H,78,77
+302,05/04/17,Swansea,Tottenham,1,3,A,77,81
+303,08/04/17,Bournemouth,Chelsea,1,3,A,74,83
+304,08/04/17,Man City,Hull,3,1,H,83,75
+305,08/04/17,Middlesbrough,Burnley,0,0,D,75,74
+306,08/04/17,Stoke,Liverpool,1,2,A,78,81
+307,08/04/17,Tottenham,Watford,4,0,H,81,77
+308,08/04/17,West Brom,Southampton,0,1,A,75,78
+309,08/04/17,West Ham,Swansea,1,0,H,78,77
+310,09/04/17,Everton,Leicester,4,2,H,80,78
+311,09/04/17,Sunderland,Man United,0,3,A,76,83
+312,10/04/17,Crystal Palace,Arsenal,3,0,H,77,83
+313,15/04/17,Crystal Palace,Leicester,2,2,D,77,78
+314,15/04/17,Everton,Burnley,3,1,H,80,74
+315,15/04/17,Southampton,Man City,0,3,A,78,83
+316,15/04/17,Stoke,Hull,3,1,H,78,75
+317,15/04/17,Sunderland,West Ham,2,2,D,76,78
+318,15/04/17,Tottenham,Bournemouth,4,0,H,81,74
+319,15/04/17,Watford,Swansea,1,0,H,77,77
+320,16/04/17,Man United,Chelsea,2,0,H,83,83
+321,16/04/17,West Brom,Liverpool,0,1,A,75,81
+322,17/04/17,Middlesbrough,Arsenal,1,2,A,75,83
+323,22/04/17,Bournemouth,Middlesbrough,4,0,H,74,75
+324,22/04/17,Hull,Watford,2,0,H,75,77
+325,22/04/17,Swansea,Stoke,2,0,H,77,78
+326,22/04/17,West Ham,Everton,0,0,D,78,80
+327,23/04/17,Burnley,Man United,0,2,A,74,83
+328,23/04/17,Liverpool,Crystal Palace,1,2,A,81,77
+329,25/04/17,Chelsea,Southampton,4,2,H,83,78
+330,26/04/17,Arsenal,Leicester,1,0,H,83,78
+331,26/04/17,Crystal Palace,Tottenham,0,1,A,77,81
+332,26/04/17,Middlesbrough,Sunderland,1,0,H,75,76
+333,27/04/17,Man City,Man United,0,0,D,83,83
+334,29/04/17,Crystal Palace,Burnley,0,2,A,77,74
+335,29/04/17,Southampton,Hull,0,0,D,78,75
+336,29/04/17,Stoke,West Ham,0,0,D,78,78
+337,29/04/17,Sunderland,Bournemouth,0,1,A,76,74
+338,29/04/17,West Brom,Leicester,0,1,A,75,78
+339,30/04/17,Everton,Chelsea,0,3,A,80,83
+340,30/04/17,Man United,Swansea,1,1,D,83,77
+341,30/04/17,Middlesbrough,Man City,2,2,D,75,83
+342,30/04/17,Tottenham,Arsenal,2,0,H,81,83
+343,01/05/17,Watford,Liverpool,0,1,A,77,81
+344,05/05/17,West Ham,Tottenham,1,0,H,78,81
+345,06/05/17,Bournemouth,Stoke,2,2,D,74,78
+346,06/05/17,Burnley,West Brom,2,2,D,74,75
+347,06/05/17,Hull,Sunderland,0,2,A,75,76
+348,06/05/17,Leicester,Watford,3,0,H,78,77
+349,06/05/17,Man City,Crystal Palace,5,0,H,83,77
+350,06/05/17,Swansea,Everton,1,0,H,77,80
+351,07/05/17,Arsenal,Man United,2,0,H,83,83
+352,07/05/17,Liverpool,Southampton,0,0,D,81,78
+353,08/05/17,Chelsea,Middlesbrough,3,0,H,83,75
+354,10/05/17,Southampton,Arsenal,0,2,A,78,83
+355,12/05/17,Everton,Watford,1,0,H,80,77
+356,12/05/17,West Brom,Chelsea,0,1,A,75,83
+357,13/05/17,Bournemouth,Burnley,2,1,H,74,74
+358,13/05/17,Man City,Leicester,2,1,H,83,78
+359,13/05/17,Middlesbrough,Southampton,1,2,A,75,78
+360,13/05/17,Stoke,Arsenal,1,4,A,78,83
+361,13/05/17,Sunderland,Swansea,0,2,A,76,77
+362,14/05/17,Crystal Palace,Hull,4,0,H,77,75
+363,14/05/17,Tottenham,Man United,2,1,H,81,83
+364,14/05/17,West Ham,Liverpool,0,4,A,78,81
+365,15/05/17,Chelsea,Watford,4,3,H,83,77
+366,16/05/17,Arsenal,Sunderland,2,0,H,83,76
+367,16/05/17,Man City,West Brom,3,1,H,83,75
+368,17/05/17,Southampton,Man United,0,0,D,78,83
+369,18/05/17,Leicester,Tottenham,1,6,A,78,81
+370,21/05/17,Arsenal,Everton,3,1,H,83,80
+371,21/05/17,Burnley,West Ham,1,2,A,74,78
+372,21/05/17,Chelsea,Sunderland,5,1,H,83,76
+373,21/05/17,Hull,Tottenham,1,7,A,75,81
+374,21/05/17,Leicester,Bournemouth,1,1,D,78,74
+375,21/05/17,Liverpool,Middlesbrough,3,0,H,81,75
+376,21/05/17,Man United,Crystal Palace,2,0,H,83,77
+377,21/05/17,Southampton,Stoke,0,1,A,78,78
+378,21/05/17,Swansea,West Brom,2,1,H,77,75
+379,21/05/17,Watford,Man City,0,5,A,77,83

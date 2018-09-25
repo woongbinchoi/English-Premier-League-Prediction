@@ -1,553 +1,463 @@
-,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
-0,20/08/94,Arsenal,Man City,3.0,0.0,H
-1,20/08/94,Chelsea,Norwich,2.0,0.0,H
-2,20/08/94,Coventry,Wimbledon,1.0,1.0,D
-3,20/08/94,Crystal Palace,Liverpool,1.0,6.0,A
-4,20/08/94,Everton,Aston Villa,2.0,2.0,D
-5,20/08/94,Ipswich,Nott'm Forest,0.0,1.0,A
-6,20/08/94,Man United,QPR,2.0,0.0,H
-7,20/08/94,Sheffield Weds,Tottenham,3.0,4.0,A
-8,20/08/94,Southampton,Blackburn,1.0,1.0,D
-9,20/08/94,West Ham,Leeds,0.0,0.0,D
-10,21/08/94,Leicester,Newcastle,1.0,3.0,A
-11,22/08/94,Nott'm Forest,Man United,1.0,1.0,D
-12,23/08/94,Blackburn,Leicester,3.0,0.0,H
-13,23/08/94,Leeds,Arsenal,1.0,0.0,H
-14,23/08/94,Wimbledon,Ipswich,1.0,1.0,D
-15,24/08/94,Aston Villa,Southampton,1.0,1.0,D
-16,24/08/94,Man City,West Ham,3.0,0.0,H
-17,24/08/94,Newcastle,Coventry,4.0,0.0,H
-18,24/08/94,Norwich,Crystal Palace,0.0,0.0,D
-19,24/08/94,QPR,Sheffield Weds,3.0,2.0,H
-20,24/08/94,Tottenham,Everton,2.0,1.0,H
-21,27/08/94,Aston Villa,Crystal Palace,1.0,1.0,D
-22,27/08/94,Blackburn,Coventry,4.0,0.0,H
-23,27/08/94,Leeds,Chelsea,2.0,3.0,A
-24,27/08/94,Man City,Everton,4.0,0.0,H
-25,27/08/94,Newcastle,Southampton,5.0,1.0,H
-26,27/08/94,Norwich,West Ham,1.0,0.0,H
-27,27/08/94,Nott'm Forest,Leicester,1.0,0.0,H
-28,27/08/94,QPR,Ipswich,1.0,2.0,A
-29,27/08/94,Tottenham,Man United,0.0,1.0,A
-30,27/08/94,Wimbledon,Sheffield Weds,0.0,1.0,A
-31,28/08/94,Liverpool,Arsenal,3.0,0.0,H
-32,29/08/94,Coventry,Aston Villa,0.0,1.0,A
-33,30/08/94,Crystal Palace,Leeds,1.0,2.0,A
-34,30/08/94,Everton,Nott'm Forest,1.0,2.0,A
-35,30/08/94,Ipswich,Tottenham,1.0,3.0,A
-36,31/08/94,Arsenal,Blackburn,0.0,0.0,D
-37,31/08/94,Chelsea,Man City,3.0,0.0,H
-38,31/08/94,Leicester,QPR,1.0,1.0,D
-39,31/08/94,Man United,Wimbledon,3.0,0.0,H
-40,31/08/94,Sheffield Weds,Norwich,0.0,0.0,D
-41,31/08/94,Southampton,Liverpool,0.0,2.0,A
-42,31/08/94,West Ham,Newcastle,1.0,3.0,A
-43,10/09/94,Aston Villa,Ipswich,2.0,0.0,H
-44,10/09/94,Blackburn,Everton,3.0,0.0,H
-45,10/09/94,Liverpool,West Ham,0.0,0.0,D
-46,10/09/94,Man City,Crystal Palace,1.0,1.0,D
-47,10/09/94,Newcastle,Chelsea,4.0,2.0,H
-48,10/09/94,Norwich,Arsenal,0.0,0.0,D
-49,10/09/94,Nott'm Forest,Sheffield Weds,4.0,1.0,H
-50,10/09/94,QPR,Coventry,2.0,2.0,D
-51,10/09/94,Wimbledon,Leicester,2.0,1.0,H
-52,11/09/94,Leeds,Man United,2.0,1.0,H
-53,12/09/94,Tottenham,Southampton,1.0,2.0,A
-54,17/09/94,Coventry,Leeds,2.0,1.0,H
-55,17/09/94,Crystal Palace,Wimbledon,0.0,0.0,D
-56,17/09/94,Everton,QPR,2.0,2.0,D
-57,17/09/94,Leicester,Tottenham,3.0,1.0,H
-58,17/09/94,Man United,Liverpool,2.0,0.0,H
-59,17/09/94,Sheffield Weds,Man City,1.0,1.0,D
-60,17/09/94,Southampton,Nott'm Forest,1.0,1.0,D
-61,17/09/94,West Ham,Aston Villa,1.0,0.0,H
-62,18/09/94,Arsenal,Newcastle,2.0,3.0,A
-63,18/09/94,Chelsea,Blackburn,1.0,2.0,A
-64,19/09/94,Ipswich,Norwich,1.0,2.0,A
-65,24/09/94,Blackburn,Aston Villa,3.0,1.0,H
-66,24/09/94,Coventry,Southampton,1.0,3.0,A
-67,24/09/94,Crystal Palace,Chelsea,0.0,1.0,A
-68,24/09/94,Everton,Leicester,1.0,1.0,D
-69,24/09/94,Ipswich,Man United,3.0,2.0,H
-70,24/09/94,Man City,Norwich,2.0,0.0,H
-71,24/09/94,Newcastle,Liverpool,1.0,1.0,D
-72,24/09/94,QPR,Wimbledon,0.0,1.0,A
-73,24/09/94,Tottenham,Nott'm Forest,1.0,4.0,A
-74,25/09/94,West Ham,Arsenal,0.0,2.0,A
-75,26/09/94,Sheffield Weds,Leeds,1.0,1.0,D
-76,01/10/94,Arsenal,Crystal Palace,1.0,2.0,A
-77,01/10/94,Aston Villa,Newcastle,0.0,2.0,A
-78,01/10/94,Leeds,Man City,2.0,0.0,H
-79,01/10/94,Liverpool,Sheffield Weds,4.0,1.0,H
-80,01/10/94,Man United,Everton,2.0,0.0,H
-81,01/10/94,Norwich,Blackburn,2.0,1.0,H
-82,01/10/94,Southampton,Ipswich,3.0,1.0,H
-83,01/10/94,Wimbledon,Tottenham,1.0,2.0,A
-84,02/10/94,Chelsea,West Ham,1.0,2.0,A
-85,02/10/94,Nott'm Forest,QPR,3.0,2.0,H
-86,03/10/94,Leicester,Coventry,2.0,2.0,D
-87,08/10/94,Chelsea,Leicester,4.0,0.0,H
-88,08/10/94,Liverpool,Aston Villa,3.0,2.0,H
-89,08/10/94,Man City,Nott'm Forest,3.0,3.0,D
-90,08/10/94,Norwich,Leeds,2.0,1.0,H
-91,08/10/94,Sheffield Weds,Man United,1.0,0.0,H
-92,08/10/94,Southampton,Everton,2.0,0.0,H
-93,08/10/94,Tottenham,QPR,1.0,1.0,D
-94,08/10/94,West Ham,Crystal Palace,1.0,0.0,H
-95,08/10/94,Wimbledon,Arsenal,1.0,3.0,A
-96,09/10/94,Newcastle,Blackburn,1.0,1.0,D
-97,10/10/94,Coventry,Ipswich,2.0,0.0,H
-98,15/10/94,Arsenal,Chelsea,3.0,1.0,H
-99,15/10/94,Aston Villa,Norwich,1.0,1.0,D
-100,15/10/94,Blackburn,Liverpool,3.0,2.0,H
-101,15/10/94,Crystal Palace,Newcastle,0.0,1.0,A
-102,15/10/94,Everton,Coventry,0.0,2.0,A
-103,15/10/94,Leeds,Tottenham,1.0,1.0,D
-104,15/10/94,Leicester,Southampton,4.0,3.0,H
-105,15/10/94,Man United,West Ham,1.0,0.0,H
-106,15/10/94,QPR,Man City,1.0,2.0,A
-107,16/10/94,Ipswich,Sheffield Weds,1.0,2.0,A
-108,17/10/94,Nott'm Forest,Wimbledon,3.0,1.0,H
-109,22/10/94,Aston Villa,Nott'm Forest,0.0,2.0,A
-110,22/10/94,Crystal Palace,Everton,1.0,0.0,H
-111,22/10/94,Liverpool,Wimbledon,3.0,0.0,H
-112,22/10/94,Man City,Tottenham,5.0,2.0,H
-113,22/10/94,Newcastle,Sheffield Weds,2.0,1.0,H
-114,22/10/94,Norwich,QPR,4.0,2.0,H
-115,22/10/94,West Ham,Southampton,2.0,0.0,H
-116,23/10/94,Arsenal,Coventry,2.0,1.0,H
-117,23/10/94,Blackburn,Man United,2.0,4.0,A
-118,23/10/94,Chelsea,Ipswich,2.0,0.0,H
-119,24/10/94,Leeds,Leicester,2.0,1.0,H
-120,29/10/94,Coventry,Man City,1.0,0.0,H
-121,29/10/94,Everton,Arsenal,1.0,1.0,D
-122,29/10/94,Ipswich,Liverpool,1.0,3.0,A
-123,29/10/94,Leicester,Crystal Palace,0.0,1.0,A
-124,29/10/94,Man United,Newcastle,2.0,0.0,H
-125,29/10/94,Nott'm Forest,Blackburn,0.0,2.0,A
-126,29/10/94,QPR,Aston Villa,2.0,0.0,H
-127,29/10/94,Sheffield Weds,Chelsea,1.0,1.0,D
-128,29/10/94,Southampton,Leeds,1.0,3.0,A
-129,29/10/94,Tottenham,West Ham,3.0,1.0,H
-130,30/10/94,Wimbledon,Norwich,1.0,0.0,H
-131,31/10/94,QPR,Liverpool,2.0,1.0,H
-132,01/11/94,Everton,West Ham,1.0,0.0,H
-133,01/11/94,Ipswich,Leeds,2.0,0.0,H
-134,02/11/94,Coventry,Crystal Palace,1.0,4.0,A
-135,02/11/94,Sheffield Weds,Blackburn,0.0,1.0,A
-136,02/11/94,Southampton,Norwich,1.0,1.0,D
-137,05/11/94,Blackburn,Tottenham,2.0,0.0,H
-138,05/11/94,Crystal Palace,Ipswich,3.0,0.0,H
-139,05/11/94,Leeds,Wimbledon,3.0,1.0,H
-140,05/11/94,Liverpool,Nott'm Forest,1.0,0.0,H
-141,05/11/94,Man City,Southampton,3.0,3.0,D
-142,05/11/94,Newcastle,QPR,2.0,1.0,H
-143,05/11/94,Norwich,Everton,0.0,0.0,D
-144,05/11/94,West Ham,Leicester,1.0,0.0,H
-145,06/11/94,Arsenal,Sheffield Weds,0.0,0.0,D
-146,06/11/94,Aston Villa,Man United,1.0,2.0,A
-147,06/11/94,Chelsea,Coventry,2.0,2.0,D
-148,07/11/94,Nott'm Forest,Newcastle,0.0,0.0,D
-149,09/11/94,Liverpool,Chelsea,3.0,1.0,H
-150,09/11/94,Wimbledon,Aston Villa,4.0,3.0,H
-151,10/11/94,Man United,Man City,5.0,0.0,H
-152,19/11/94,Coventry,Norwich,1.0,0.0,H
-153,19/11/94,Ipswich,Blackburn,1.0,3.0,A
-154,19/11/94,Man United,Crystal Palace,3.0,0.0,H
-155,19/11/94,Nott'm Forest,Chelsea,0.0,1.0,A
-156,19/11/94,QPR,Leeds,3.0,2.0,H
-157,19/11/94,Sheffield Weds,West Ham,1.0,0.0,H
-158,19/11/94,Southampton,Arsenal,1.0,0.0,H
-159,19/11/94,Tottenham,Aston Villa,3.0,4.0,A
-160,19/11/94,Wimbledon,Newcastle,3.0,2.0,H
-161,20/11/94,Leicester,Man City,0.0,1.0,A
-162,21/11/94,Everton,Liverpool,2.0,0.0,H
-163,23/11/94,Leicester,Arsenal,2.0,1.0,H
-164,23/11/94,Tottenham,Chelsea,0.0,0.0,D
-165,26/11/94,Arsenal,Man United,0.0,0.0,D
-166,26/11/94,Blackburn,QPR,4.0,0.0,H
-167,26/11/94,Chelsea,Everton,0.0,1.0,A
-168,26/11/94,Crystal Palace,Southampton,0.0,0.0,D
-169,26/11/94,Leeds,Nott'm Forest,1.0,0.0,H
-170,26/11/94,Liverpool,Tottenham,1.0,1.0,D
-171,26/11/94,Man City,Wimbledon,2.0,0.0,H
-172,26/11/94,Newcastle,Ipswich,1.0,1.0,D
-173,26/11/94,Norwich,Leicester,2.0,1.0,H
-174,26/11/94,West Ham,Coventry,0.0,1.0,A
-175,27/11/94,Aston Villa,Sheffield Weds,1.0,1.0,D
-176,03/12/94,Coventry,Liverpool,1.0,1.0,D
-177,03/12/94,Ipswich,Man City,1.0,2.0,A
-178,03/12/94,Leicester,Aston Villa,1.0,1.0,D
-179,03/12/94,Man United,Norwich,1.0,0.0,H
-180,03/12/94,Nott'm Forest,Arsenal,2.0,2.0,D
-181,03/12/94,Sheffield Weds,Crystal Palace,1.0,0.0,H
-182,03/12/94,Southampton,Chelsea,0.0,1.0,A
-183,03/12/94,Tottenham,Newcastle,4.0,2.0,H
-184,03/12/94,Wimbledon,Blackburn,0.0,3.0,A
-185,04/12/94,Everton,Leeds,3.0,0.0,H
-186,04/12/94,QPR,West Ham,2.0,1.0,H
-187,10/12/94,Aston Villa,Everton,0.0,0.0,D
-188,10/12/94,Blackburn,Southampton,3.0,2.0,H
-189,10/12/94,Leeds,West Ham,2.0,2.0,D
-190,10/12/94,Newcastle,Leicester,3.0,1.0,H
-191,10/12/94,Norwich,Chelsea,3.0,0.0,H
-192,10/12/94,Nott'm Forest,Ipswich,4.0,1.0,H
-193,10/12/94,QPR,Man United,2.0,3.0,A
-194,10/12/94,Tottenham,Sheffield Weds,3.0,1.0,H
-195,10/12/94,Wimbledon,Coventry,2.0,0.0,H
-196,11/12/94,Liverpool,Crystal Palace,0.0,0.0,D
-197,12/12/94,Man City,Arsenal,1.0,2.0,A
-198,16/12/94,Ipswich,Wimbledon,2.0,2.0,D
-199,17/12/94,Arsenal,Leeds,1.0,3.0,A
-200,17/12/94,Coventry,Newcastle,0.0,0.0,D
-201,17/12/94,Crystal Palace,Norwich,0.0,1.0,A
-202,17/12/94,Everton,Tottenham,0.0,0.0,D
-203,17/12/94,Leicester,Blackburn,0.0,0.0,D
-204,17/12/94,Man United,Nott'm Forest,1.0,2.0,A
-205,17/12/94,Sheffield Weds,QPR,0.0,2.0,A
-206,17/12/94,West Ham,Man City,3.0,0.0,H
-207,18/12/94,Chelsea,Liverpool,0.0,0.0,D
-208,19/12/94,Southampton,Aston Villa,2.0,1.0,H
-209,26/12/94,Arsenal,Aston Villa,0.0,0.0,D
-210,26/12/94,Chelsea,Man United,2.0,3.0,A
-211,26/12/94,Coventry,Nott'm Forest,0.0,0.0,D
-212,26/12/94,Crystal Palace,QPR,0.0,0.0,D
-213,26/12/94,Everton,Sheffield Weds,1.0,4.0,A
-214,26/12/94,Leeds,Newcastle,0.0,0.0,D
-215,26/12/94,Leicester,Liverpool,1.0,2.0,A
-216,26/12/94,Man City,Blackburn,1.0,3.0,A
-217,26/12/94,Norwich,Tottenham,0.0,2.0,A
-218,26/12/94,Southampton,Wimbledon,2.0,3.0,A
-219,26/12/94,West Ham,Ipswich,1.0,1.0,D
-220,27/12/94,Nott'm Forest,Norwich,1.0,0.0,H
-221,27/12/94,Tottenham,Crystal Palace,0.0,0.0,D
-222,28/12/94,Aston Villa,Chelsea,3.0,0.0,H
-223,28/12/94,Ipswich,Arsenal,0.0,2.0,A
-224,28/12/94,Liverpool,Man City,2.0,0.0,H
-225,28/12/94,Man United,Leicester,1.0,1.0,D
-226,28/12/94,QPR,Southampton,2.0,2.0,D
-227,28/12/94,Sheffield Weds,Coventry,5.0,1.0,H
-228,28/12/94,Wimbledon,West Ham,1.0,0.0,H
-229,31/12/94,Arsenal,QPR,1.0,3.0,A
-230,31/12/94,Chelsea,Wimbledon,1.0,1.0,D
-231,31/12/94,Coventry,Tottenham,0.0,4.0,A
-232,31/12/94,Crystal Palace,Blackburn,0.0,1.0,A
-233,31/12/94,Everton,Ipswich,4.0,1.0,H
-234,31/12/94,Leeds,Liverpool,0.0,2.0,A
-235,31/12/94,Leicester,Sheffield Weds,0.0,1.0,A
-236,31/12/94,Man City,Aston Villa,2.0,2.0,D
-237,31/12/94,Norwich,Newcastle,2.0,1.0,H
-238,31/12/94,Southampton,Man United,2.0,2.0,D
-239,31/12/94,West Ham,Nott'm Forest,3.0,1.0,H
-240,02/01/95,Aston Villa,Leeds,0.0,0.0,D
-241,02/01/95,Blackburn,West Ham,4.0,2.0,H
-242,02/01/95,Ipswich,Leicester,4.0,1.0,H
-243,02/01/95,Liverpool,Norwich,4.0,0.0,H
-244,02/01/95,Newcastle,Man City,0.0,0.0,D
-245,02/01/95,Nott'm Forest,Crystal Palace,1.0,0.0,H
-246,02/01/95,Sheffield Weds,Southampton,1.0,1.0,D
-247,02/01/95,Tottenham,Arsenal,1.0,0.0,H
-248,02/01/95,Wimbledon,Everton,2.0,1.0,H
-249,03/01/95,Man United,Coventry,2.0,0.0,H
-250,14/01/95,Arsenal,Everton,1.0,1.0,D
-251,14/01/95,Aston Villa,QPR,2.0,1.0,H
-252,14/01/95,Blackburn,Nott'm Forest,3.0,0.0,H
-253,14/01/95,Chelsea,Sheffield Weds,1.0,1.0,D
-254,14/01/95,Crystal Palace,Leicester,2.0,0.0,H
-255,14/01/95,Leeds,Southampton,0.0,0.0,D
-256,14/01/95,Liverpool,Ipswich,0.0,1.0,A
-257,14/01/95,Man City,Coventry,0.0,0.0,D
-258,14/01/95,Norwich,Wimbledon,1.0,2.0,A
-259,14/01/95,West Ham,Tottenham,1.0,2.0,A
-260,15/01/95,Newcastle,Man United,1.0,1.0,D
-261,21/01/95,Coventry,Arsenal,0.0,1.0,A
-262,21/01/95,Everton,Crystal Palace,3.0,1.0,H
-263,21/01/95,Ipswich,Chelsea,2.0,2.0,D
-264,21/01/95,Nott'm Forest,Aston Villa,1.0,2.0,A
-265,21/01/95,Sheffield Weds,Newcastle,0.0,0.0,D
-266,22/01/95,Man United,Blackburn,1.0,0.0,H
-267,23/01/95,West Ham,Sheffield Weds,0.0,2.0,A
-268,24/01/95,Arsenal,Southampton,1.0,1.0,D
-269,24/01/95,Leeds,QPR,4.0,0.0,H
-270,24/01/95,Liverpool,Everton,0.0,0.0,D
-271,25/01/95,Aston Villa,Tottenham,1.0,0.0,H
-272,25/01/95,Chelsea,Nott'm Forest,0.0,2.0,A
-273,25/01/95,Crystal Palace,Man United,1.0,1.0,D
-274,25/01/95,Man City,Leicester,0.0,1.0,A
-275,25/01/95,Newcastle,Wimbledon,2.0,1.0,H
-276,25/01/95,Norwich,Coventry,2.0,2.0,D
-277,28/01/95,Blackburn,Ipswich,4.0,1.0,H
-278,01/02/95,Blackburn,Leeds,1.0,1.0,D
-279,01/02/95,Newcastle,Everton,2.0,0.0,H
-280,04/02/95,Coventry,Chelsea,2.0,2.0,D
-281,04/02/95,Everton,Norwich,2.0,1.0,H
-282,04/02/95,Ipswich,Crystal Palace,0.0,2.0,A
-283,04/02/95,Leicester,West Ham,1.0,2.0,A
-284,04/02/95,Man United,Aston Villa,1.0,0.0,H
-285,04/02/95,Nott'm Forest,Liverpool,1.0,1.0,D
-286,04/02/95,QPR,Newcastle,3.0,0.0,H
-287,04/02/95,Sheffield Weds,Arsenal,3.0,1.0,H
-288,04/02/95,Southampton,Man City,2.0,2.0,D
-289,04/02/95,Wimbledon,Leeds,0.0,0.0,D
-290,05/02/95,Tottenham,Blackburn,3.0,1.0,H
-291,11/02/95,Arsenal,Leicester,1.0,1.0,D
-292,11/02/95,Aston Villa,Wimbledon,7.0,1.0,H
-293,11/02/95,Chelsea,Tottenham,1.0,1.0,D
-294,11/02/95,Crystal Palace,Coventry,0.0,2.0,A
-295,11/02/95,Liverpool,QPR,1.0,1.0,D
-296,11/02/95,Man City,Man United,0.0,3.0,A
-297,11/02/95,Newcastle,Nott'm Forest,2.0,1.0,H
-298,11/02/95,Norwich,Southampton,2.0,2.0,D
-299,12/02/95,Blackburn,Sheffield Weds,3.0,1.0,H
-300,13/02/95,West Ham,Everton,2.0,2.0,D
-301,18/02/95,Coventry,West Ham,2.0,0.0,H
-302,18/02/95,Sheffield Weds,Aston Villa,1.0,2.0,A
-303,21/02/95,Arsenal,Nott'm Forest,1.0,0.0,H
-304,22/02/95,Aston Villa,Leicester,4.0,4.0,D
-305,22/02/95,Blackburn,Wimbledon,2.0,1.0,H
-306,22/02/95,Leeds,Everton,1.0,0.0,H
-307,22/02/95,Man City,Ipswich,2.0,0.0,H
-308,22/02/95,Norwich,Man United,0.0,2.0,A
-309,25/02/95,Blackburn,Norwich,0.0,0.0,D
-310,25/02/95,Coventry,Leicester,4.0,2.0,H
-311,25/02/95,Crystal Palace,Arsenal,0.0,3.0,A
-312,25/02/95,Everton,Man United,1.0,0.0,H
-313,25/02/95,Ipswich,Southampton,2.0,1.0,H
-314,25/02/95,Man City,Leeds,0.0,0.0,D
-315,25/02/95,Newcastle,Aston Villa,3.0,1.0,H
-316,25/02/95,Sheffield Weds,Liverpool,1.0,2.0,A
-317,25/02/95,Tottenham,Wimbledon,1.0,2.0,A
-318,25/02/95,West Ham,Chelsea,1.0,2.0,A
-319,26/02/95,QPR,Nott'm Forest,1.0,1.0,D
-320,28/02/95,Ipswich,Newcastle,0.0,2.0,A
-321,04/03/95,Aston Villa,Blackburn,0.0,1.0,A
-322,04/03/95,Leeds,Sheffield Weds,0.0,1.0,A
-323,04/03/95,Leicester,Everton,2.0,2.0,D
-324,04/03/95,Liverpool,Newcastle,2.0,0.0,H
-325,04/03/95,Man United,Ipswich,9.0,0.0,H
-326,04/03/95,Norwich,Man City,1.0,1.0,D
-327,04/03/95,Nott'm Forest,Tottenham,2.0,2.0,D
-328,04/03/95,Southampton,Coventry,0.0,0.0,D
-329,04/03/95,Wimbledon,QPR,1.0,3.0,A
-330,05/03/95,Arsenal,West Ham,0.0,1.0,A
-331,05/03/95,Chelsea,Crystal Palace,0.0,0.0,D
-332,06/03/95,Aston Villa,Coventry,0.0,0.0,D
-333,07/03/95,Wimbledon,Man United,0.0,1.0,A
-334,08/03/95,Blackburn,Arsenal,3.0,1.0,H
-335,08/03/95,Man City,Chelsea,1.0,2.0,A
-336,08/03/95,Newcastle,West Ham,2.0,0.0,H
-337,08/03/95,Norwich,Sheffield Weds,0.0,0.0,D
-338,08/03/95,Nott'm Forest,Everton,2.0,1.0,H
-339,08/03/95,QPR,Leicester,2.0,0.0,H
-340,08/03/95,Tottenham,Ipswich,3.0,0.0,H
-341,11/03/95,Chelsea,Leeds,0.0,3.0,A
-342,11/03/95,Coventry,Blackburn,1.0,1.0,D
-343,11/03/95,Leicester,Nott'm Forest,2.0,4.0,A
-344,11/03/95,Sheffield Weds,Wimbledon,0.0,1.0,A
-345,11/03/95,West Ham,Norwich,2.0,2.0,D
-346,14/03/95,Crystal Palace,Sheffield Weds,2.0,1.0,H
-347,14/03/95,Liverpool,Coventry,2.0,3.0,A
-348,15/03/95,Everton,Man City,1.0,1.0,D
-349,15/03/95,Leicester,Leeds,1.0,3.0,A
-350,15/03/95,Man United,Tottenham,0.0,0.0,D
-351,15/03/95,QPR,Norwich,2.0,0.0,H
-352,15/03/95,Southampton,West Ham,1.0,1.0,D
-353,18/03/95,Aston Villa,West Ham,0.0,2.0,A
-354,18/03/95,Blackburn,Chelsea,2.0,1.0,H
-355,18/03/95,Leeds,Coventry,3.0,0.0,H
-356,18/03/95,Man City,Sheffield Weds,3.0,2.0,H
-357,18/03/95,Nott'm Forest,Southampton,3.0,0.0,H
-358,18/03/95,QPR,Everton,2.0,3.0,A
-359,18/03/95,Tottenham,Leicester,1.0,0.0,H
-360,18/03/95,Wimbledon,Crystal Palace,2.0,0.0,H
-361,19/03/95,Liverpool,Man United,2.0,0.0,H
-362,19/03/95,Newcastle,Arsenal,1.0,0.0,H
-363,20/03/95,Norwich,Ipswich,3.0,0.0,H
-364,21/03/95,Wimbledon,Man City,2.0,0.0,H
-365,22/03/95,Man United,Arsenal,3.0,0.0,H
-366,22/03/95,Nott'm Forest,Leeds,3.0,0.0,H
-367,22/03/95,QPR,Chelsea,1.0,0.0,H
-368,22/03/95,Southampton,Newcastle,3.0,1.0,H
-369,22/03/95,Tottenham,Liverpool,0.0,0.0,D
-370,01/04/95,Arsenal,Norwich,5.0,1.0,H
-371,01/04/95,Chelsea,Newcastle,1.0,1.0,D
-372,01/04/95,Coventry,QPR,0.0,1.0,A
-373,01/04/95,Crystal Palace,Man City,2.0,1.0,H
-374,01/04/95,Everton,Blackburn,1.0,2.0,A
-375,01/04/95,Ipswich,Aston Villa,0.0,1.0,A
-376,01/04/95,Leicester,Wimbledon,3.0,4.0,A
-377,01/04/95,Sheffield Weds,Nott'm Forest,1.0,7.0,A
-378,02/04/95,Man United,Leeds,0.0,0.0,D
-379,02/04/95,Southampton,Tottenham,4.0,3.0,H
-380,04/04/95,Crystal Palace,Aston Villa,0.0,0.0,D
-381,04/04/95,QPR,Blackburn,0.0,1.0,A
-382,05/04/95,Leeds,Ipswich,4.0,0.0,H
-383,05/04/95,Leicester,Norwich,1.0,0.0,H
-384,05/04/95,Liverpool,Southampton,3.0,1.0,H
-385,08/04/95,Newcastle,Norwich,3.0,0.0,H
-386,08/04/95,Nott'm Forest,West Ham,1.0,1.0,D
-387,08/04/95,QPR,Arsenal,3.0,1.0,H
-388,08/04/95,Sheffield Weds,Leicester,1.0,0.0,H
-389,09/04/95,Liverpool,Leeds,0.0,1.0,A
-390,10/04/95,Wimbledon,Chelsea,1.0,1.0,D
-391,11/04/95,Ipswich,QPR,0.0,1.0,A
-392,11/04/95,Tottenham,Man City,2.0,1.0,H
-393,12/04/95,Arsenal,Liverpool,0.0,1.0,A
-394,12/04/95,Chelsea,Southampton,0.0,2.0,A
-395,12/04/95,Norwich,Nott'm Forest,0.0,1.0,A
-396,13/04/95,West Ham,Wimbledon,3.0,0.0,H
-397,14/04/95,Crystal Palace,Tottenham,1.0,1.0,D
-398,14/04/95,Everton,Newcastle,2.0,0.0,H
-399,14/04/95,Man City,Liverpool,2.0,1.0,H
-400,15/04/95,Arsenal,Ipswich,4.0,1.0,H
-401,15/04/95,Chelsea,Aston Villa,1.0,0.0,H
-402,15/04/95,Coventry,Sheffield Weds,2.0,0.0,H
-403,15/04/95,Leeds,Blackburn,1.0,1.0,D
-404,15/04/95,Leicester,Man United,0.0,4.0,A
-405,15/04/95,Southampton,QPR,2.0,1.0,H
-406,17/04/95,Aston Villa,Arsenal,0.0,4.0,A
-407,17/04/95,Blackburn,Man City,2.0,3.0,A
-408,17/04/95,Ipswich,West Ham,1.0,1.0,D
-409,17/04/95,Liverpool,Leicester,2.0,0.0,H
-410,17/04/95,Man United,Chelsea,0.0,0.0,D
-411,17/04/95,Newcastle,Leeds,1.0,2.0,A
-412,17/04/95,Nott'm Forest,Coventry,2.0,0.0,H
-413,17/04/95,QPR,Crystal Palace,0.0,1.0,A
-414,17/04/95,Sheffield Weds,Everton,0.0,0.0,D
-415,17/04/95,Tottenham,Norwich,1.0,0.0,H
-416,17/04/95,Wimbledon,Southampton,0.0,2.0,A
-417,19/04/95,Blackburn,Crystal Palace,2.0,1.0,H
-418,29/04/95,Arsenal,Tottenham,1.0,1.0,D
-419,29/04/95,Chelsea,QPR,1.0,0.0,H
-420,29/04/95,Crystal Palace,Nott'm Forest,1.0,2.0,A
-421,29/04/95,Everton,Wimbledon,0.0,0.0,D
-422,29/04/95,Leeds,Aston Villa,1.0,0.0,H
-423,29/04/95,Leicester,Ipswich,2.0,0.0,H
-424,29/04/95,Man City,Newcastle,0.0,0.0,D
-425,29/04/95,Norwich,Liverpool,1.0,2.0,A
-426,29/04/95,Southampton,Sheffield Weds,0.0,0.0,D
-427,30/04/95,West Ham,Blackburn,2.0,0.0,H
-428,01/05/95,Coventry,Man United,2.0,3.0,A
-429,02/05/95,Wimbledon,Liverpool,0.0,0.0,D
-430,03/05/95,Aston Villa,Man City,1.0,1.0,D
-431,03/05/95,Everton,Chelsea,3.0,3.0,D
-432,03/05/95,Newcastle,Tottenham,3.0,3.0,D
-433,03/05/95,Southampton,Crystal Palace,3.0,1.0,H
-434,03/05/95,West Ham,QPR,0.0,0.0,D
-435,04/05/95,Arsenal,Wimbledon,0.0,0.0,D
-436,06/05/95,Aston Villa,Liverpool,2.0,0.0,H
-437,06/05/95,Crystal Palace,West Ham,1.0,0.0,H
-438,06/05/95,Everton,Southampton,0.0,0.0,D
-439,06/05/95,Ipswich,Coventry,2.0,0.0,H
-440,06/05/95,Leeds,Norwich,2.0,1.0,H
-441,06/05/95,Leicester,Chelsea,1.0,1.0,D
-442,06/05/95,Nott'm Forest,Man City,1.0,0.0,H
-443,06/05/95,QPR,Tottenham,2.0,1.0,H
-444,07/05/95,Man United,Sheffield Weds,1.0,0.0,H
-445,08/05/95,Blackburn,Newcastle,1.0,0.0,H
-446,09/05/95,Ipswich,Everton,0.0,1.0,A
-447,09/05/95,Leeds,Crystal Palace,3.0,1.0,H
-448,09/05/95,Tottenham,Coventry,1.0,3.0,A
-449,10/05/95,Man United,Southampton,2.0,1.0,H
-450,10/05/95,West Ham,Liverpool,3.0,0.0,H
-451,13/05/95,Wimbledon,Nott'm Forest,2.0,2.0,D
-452,14/05/95,Chelsea,Arsenal,2.0,1.0,H
-453,14/05/95,Coventry,Everton,0.0,0.0,D
-454,14/05/95,Liverpool,Blackburn,2.0,1.0,H
-455,14/05/95,Man City,QPR,2.0,3.0,A
-456,14/05/95,Newcastle,Crystal Palace,3.0,2.0,H
-457,14/05/95,Norwich,Aston Villa,1.0,1.0,D
-458,14/05/95,Sheffield Weds,Ipswich,4.0,1.0,H
-459,14/05/95,Southampton,Leicester,2.0,2.0,D
-460,14/05/95,Tottenham,Leeds,1.0,1.0,D
-461,14/05/95,West Ham,Man United,1.0,1.0,D
-462,,,,,,
-463,,,,,,
-464,,,,,,
-465,,,,,,
-466,,,,,,
-467,,,,,,
-468,,,,,,
-469,,,,,,
-470,,,,,,
-471,,,,,,
-472,,,,,,
-473,,,,,,
-474,,,,,,
-475,,,,,,
-476,,,,,,
-477,,,,,,
-478,,,,,,
-479,,,,,,
-480,,,,,,
-481,,,,,,
-482,,,,,,
-483,,,,,,
-484,,,,,,
-485,,,,,,
-486,,,,,,
-487,,,,,,
-488,,,,,,
-489,,,,,,
-490,,,,,,
-491,,,,,,
-492,,,,,,
-493,,,,,,
-494,,,,,,
-495,,,,,,
-496,,,,,,
-497,,,,,,
-498,,,,,,
-499,,,,,,
-500,,,,,,
-501,,,,,,
-502,,,,,,
-503,,,,,,
-504,,,,,,
-505,,,,,,
-506,,,,,,
-507,,,,,,
-508,,,,,,
-509,,,,,,
-510,,,,,,
-511,,,,,,
-512,,,,,,
-513,,,,,,
-514,,,,,,
-515,,,,,,
-516,,,,,,
-517,,,,,,
-518,,,,,,
-519,,,,,,
-520,,,,,,
-521,,,,,,
-522,,,,,,
-523,,,,,,
-524,,,,,,
-525,,,,,,
-526,,,,,,
-527,,,,,,
-528,,,,,,
-529,,,,,,
-530,,,,,,
-531,,,,,,
-532,,,,,,
-533,,,,,,
-534,,,,,,
-535,,,,,,
-536,,,,,,
-537,,,,,,
-538,,,,,,
-539,,,,,,
-540,,,,,,
-541,,,,,,
-542,,,,,,
-543,,,,,,
-544,,,,,,
-545,,,,,,
-546,,,,,,
-547,,,,,,
-548,,,,,,
-549,,,,,,
-550,,,,,,
-551,,,,,,
+MatchID,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+0,20/08/94,Arsenal,Man City,3,0,H
+1,20/08/94,Chelsea,Norwich,2,0,H
+2,20/08/94,Coventry,Wimbledon,1,1,D
+3,20/08/94,Crystal Palace,Liverpool,1,6,A
+4,20/08/94,Everton,Aston Villa,2,2,D
+5,20/08/94,Ipswich,Nott'm Forest,0,1,A
+6,20/08/94,Man United,QPR,2,0,H
+7,20/08/94,Sheffield Weds,Tottenham,3,4,A
+8,20/08/94,Southampton,Blackburn,1,1,D
+9,20/08/94,West Ham,Leeds,0,0,D
+10,21/08/94,Leicester,Newcastle,1,3,A
+11,22/08/94,Nott'm Forest,Man United,1,1,D
+12,23/08/94,Blackburn,Leicester,3,0,H
+13,23/08/94,Leeds,Arsenal,1,0,H
+14,23/08/94,Wimbledon,Ipswich,1,1,D
+15,24/08/94,Aston Villa,Southampton,1,1,D
+16,24/08/94,Man City,West Ham,3,0,H
+17,24/08/94,Newcastle,Coventry,4,0,H
+18,24/08/94,Norwich,Crystal Palace,0,0,D
+19,24/08/94,QPR,Sheffield Weds,3,2,H
+20,24/08/94,Tottenham,Everton,2,1,H
+21,27/08/94,Aston Villa,Crystal Palace,1,1,D
+22,27/08/94,Blackburn,Coventry,4,0,H
+23,27/08/94,Leeds,Chelsea,2,3,A
+24,27/08/94,Man City,Everton,4,0,H
+25,27/08/94,Newcastle,Southampton,5,1,H
+26,27/08/94,Norwich,West Ham,1,0,H
+27,27/08/94,Nott'm Forest,Leicester,1,0,H
+28,27/08/94,QPR,Ipswich,1,2,A
+29,27/08/94,Tottenham,Man United,0,1,A
+30,27/08/94,Wimbledon,Sheffield Weds,0,1,A
+31,28/08/94,Liverpool,Arsenal,3,0,H
+32,29/08/94,Coventry,Aston Villa,0,1,A
+33,30/08/94,Crystal Palace,Leeds,1,2,A
+34,30/08/94,Everton,Nott'm Forest,1,2,A
+35,30/08/94,Ipswich,Tottenham,1,3,A
+36,31/08/94,Arsenal,Blackburn,0,0,D
+37,31/08/94,Chelsea,Man City,3,0,H
+38,31/08/94,Leicester,QPR,1,1,D
+39,31/08/94,Man United,Wimbledon,3,0,H
+40,31/08/94,Sheffield Weds,Norwich,0,0,D
+41,31/08/94,Southampton,Liverpool,0,2,A
+42,31/08/94,West Ham,Newcastle,1,3,A
+43,10/09/94,Aston Villa,Ipswich,2,0,H
+44,10/09/94,Blackburn,Everton,3,0,H
+45,10/09/94,Liverpool,West Ham,0,0,D
+46,10/09/94,Man City,Crystal Palace,1,1,D
+47,10/09/94,Newcastle,Chelsea,4,2,H
+48,10/09/94,Norwich,Arsenal,0,0,D
+49,10/09/94,Nott'm Forest,Sheffield Weds,4,1,H
+50,10/09/94,QPR,Coventry,2,2,D
+51,10/09/94,Wimbledon,Leicester,2,1,H
+52,11/09/94,Leeds,Man United,2,1,H
+53,12/09/94,Tottenham,Southampton,1,2,A
+54,17/09/94,Coventry,Leeds,2,1,H
+55,17/09/94,Crystal Palace,Wimbledon,0,0,D
+56,17/09/94,Everton,QPR,2,2,D
+57,17/09/94,Leicester,Tottenham,3,1,H
+58,17/09/94,Man United,Liverpool,2,0,H
+59,17/09/94,Sheffield Weds,Man City,1,1,D
+60,17/09/94,Southampton,Nott'm Forest,1,1,D
+61,17/09/94,West Ham,Aston Villa,1,0,H
+62,18/09/94,Arsenal,Newcastle,2,3,A
+63,18/09/94,Chelsea,Blackburn,1,2,A
+64,19/09/94,Ipswich,Norwich,1,2,A
+65,24/09/94,Blackburn,Aston Villa,3,1,H
+66,24/09/94,Coventry,Southampton,1,3,A
+67,24/09/94,Crystal Palace,Chelsea,0,1,A
+68,24/09/94,Everton,Leicester,1,1,D
+69,24/09/94,Ipswich,Man United,3,2,H
+70,24/09/94,Man City,Norwich,2,0,H
+71,24/09/94,Newcastle,Liverpool,1,1,D
+72,24/09/94,QPR,Wimbledon,0,1,A
+73,24/09/94,Tottenham,Nott'm Forest,1,4,A
+74,25/09/94,West Ham,Arsenal,0,2,A
+75,26/09/94,Sheffield Weds,Leeds,1,1,D
+76,01/10/94,Arsenal,Crystal Palace,1,2,A
+77,01/10/94,Aston Villa,Newcastle,0,2,A
+78,01/10/94,Leeds,Man City,2,0,H
+79,01/10/94,Liverpool,Sheffield Weds,4,1,H
+80,01/10/94,Man United,Everton,2,0,H
+81,01/10/94,Norwich,Blackburn,2,1,H
+82,01/10/94,Southampton,Ipswich,3,1,H
+83,01/10/94,Wimbledon,Tottenham,1,2,A
+84,02/10/94,Chelsea,West Ham,1,2,A
+85,02/10/94,Nott'm Forest,QPR,3,2,H
+86,03/10/94,Leicester,Coventry,2,2,D
+87,08/10/94,Chelsea,Leicester,4,0,H
+88,08/10/94,Liverpool,Aston Villa,3,2,H
+89,08/10/94,Man City,Nott'm Forest,3,3,D
+90,08/10/94,Norwich,Leeds,2,1,H
+91,08/10/94,Sheffield Weds,Man United,1,0,H
+92,08/10/94,Southampton,Everton,2,0,H
+93,08/10/94,Tottenham,QPR,1,1,D
+94,08/10/94,West Ham,Crystal Palace,1,0,H
+95,08/10/94,Wimbledon,Arsenal,1,3,A
+96,09/10/94,Newcastle,Blackburn,1,1,D
+97,10/10/94,Coventry,Ipswich,2,0,H
+98,15/10/94,Arsenal,Chelsea,3,1,H
+99,15/10/94,Aston Villa,Norwich,1,1,D
+100,15/10/94,Blackburn,Liverpool,3,2,H
+101,15/10/94,Crystal Palace,Newcastle,0,1,A
+102,15/10/94,Everton,Coventry,0,2,A
+103,15/10/94,Leeds,Tottenham,1,1,D
+104,15/10/94,Leicester,Southampton,4,3,H
+105,15/10/94,Man United,West Ham,1,0,H
+106,15/10/94,QPR,Man City,1,2,A
+107,16/10/94,Ipswich,Sheffield Weds,1,2,A
+108,17/10/94,Nott'm Forest,Wimbledon,3,1,H
+109,22/10/94,Aston Villa,Nott'm Forest,0,2,A
+110,22/10/94,Crystal Palace,Everton,1,0,H
+111,22/10/94,Liverpool,Wimbledon,3,0,H
+112,22/10/94,Man City,Tottenham,5,2,H
+113,22/10/94,Newcastle,Sheffield Weds,2,1,H
+114,22/10/94,Norwich,QPR,4,2,H
+115,22/10/94,West Ham,Southampton,2,0,H
+116,23/10/94,Arsenal,Coventry,2,1,H
+117,23/10/94,Blackburn,Man United,2,4,A
+118,23/10/94,Chelsea,Ipswich,2,0,H
+119,24/10/94,Leeds,Leicester,2,1,H
+120,29/10/94,Coventry,Man City,1,0,H
+121,29/10/94,Everton,Arsenal,1,1,D
+122,29/10/94,Ipswich,Liverpool,1,3,A
+123,29/10/94,Leicester,Crystal Palace,0,1,A
+124,29/10/94,Man United,Newcastle,2,0,H
+125,29/10/94,Nott'm Forest,Blackburn,0,2,A
+126,29/10/94,QPR,Aston Villa,2,0,H
+127,29/10/94,Sheffield Weds,Chelsea,1,1,D
+128,29/10/94,Southampton,Leeds,1,3,A
+129,29/10/94,Tottenham,West Ham,3,1,H
+130,30/10/94,Wimbledon,Norwich,1,0,H
+131,31/10/94,QPR,Liverpool,2,1,H
+132,01/11/94,Everton,West Ham,1,0,H
+133,01/11/94,Ipswich,Leeds,2,0,H
+134,02/11/94,Coventry,Crystal Palace,1,4,A
+135,02/11/94,Sheffield Weds,Blackburn,0,1,A
+136,02/11/94,Southampton,Norwich,1,1,D
+137,05/11/94,Blackburn,Tottenham,2,0,H
+138,05/11/94,Crystal Palace,Ipswich,3,0,H
+139,05/11/94,Leeds,Wimbledon,3,1,H
+140,05/11/94,Liverpool,Nott'm Forest,1,0,H
+141,05/11/94,Man City,Southampton,3,3,D
+142,05/11/94,Newcastle,QPR,2,1,H
+143,05/11/94,Norwich,Everton,0,0,D
+144,05/11/94,West Ham,Leicester,1,0,H
+145,06/11/94,Arsenal,Sheffield Weds,0,0,D
+146,06/11/94,Aston Villa,Man United,1,2,A
+147,06/11/94,Chelsea,Coventry,2,2,D
+148,07/11/94,Nott'm Forest,Newcastle,0,0,D
+149,09/11/94,Liverpool,Chelsea,3,1,H
+150,09/11/94,Wimbledon,Aston Villa,4,3,H
+151,10/11/94,Man United,Man City,5,0,H
+152,19/11/94,Coventry,Norwich,1,0,H
+153,19/11/94,Ipswich,Blackburn,1,3,A
+154,19/11/94,Man United,Crystal Palace,3,0,H
+155,19/11/94,Nott'm Forest,Chelsea,0,1,A
+156,19/11/94,QPR,Leeds,3,2,H
+157,19/11/94,Sheffield Weds,West Ham,1,0,H
+158,19/11/94,Southampton,Arsenal,1,0,H
+159,19/11/94,Tottenham,Aston Villa,3,4,A
+160,19/11/94,Wimbledon,Newcastle,3,2,H
+161,20/11/94,Leicester,Man City,0,1,A
+162,21/11/94,Everton,Liverpool,2,0,H
+163,23/11/94,Leicester,Arsenal,2,1,H
+164,23/11/94,Tottenham,Chelsea,0,0,D
+165,26/11/94,Arsenal,Man United,0,0,D
+166,26/11/94,Blackburn,QPR,4,0,H
+167,26/11/94,Chelsea,Everton,0,1,A
+168,26/11/94,Crystal Palace,Southampton,0,0,D
+169,26/11/94,Leeds,Nott'm Forest,1,0,H
+170,26/11/94,Liverpool,Tottenham,1,1,D
+171,26/11/94,Man City,Wimbledon,2,0,H
+172,26/11/94,Newcastle,Ipswich,1,1,D
+173,26/11/94,Norwich,Leicester,2,1,H
+174,26/11/94,West Ham,Coventry,0,1,A
+175,27/11/94,Aston Villa,Sheffield Weds,1,1,D
+176,03/12/94,Coventry,Liverpool,1,1,D
+177,03/12/94,Ipswich,Man City,1,2,A
+178,03/12/94,Leicester,Aston Villa,1,1,D
+179,03/12/94,Man United,Norwich,1,0,H
+180,03/12/94,Nott'm Forest,Arsenal,2,2,D
+181,03/12/94,Sheffield Weds,Crystal Palace,1,0,H
+182,03/12/94,Southampton,Chelsea,0,1,A
+183,03/12/94,Tottenham,Newcastle,4,2,H
+184,03/12/94,Wimbledon,Blackburn,0,3,A
+185,04/12/94,Everton,Leeds,3,0,H
+186,04/12/94,QPR,West Ham,2,1,H
+187,10/12/94,Aston Villa,Everton,0,0,D
+188,10/12/94,Blackburn,Southampton,3,2,H
+189,10/12/94,Leeds,West Ham,2,2,D
+190,10/12/94,Newcastle,Leicester,3,1,H
+191,10/12/94,Norwich,Chelsea,3,0,H
+192,10/12/94,Nott'm Forest,Ipswich,4,1,H
+193,10/12/94,QPR,Man United,2,3,A
+194,10/12/94,Tottenham,Sheffield Weds,3,1,H
+195,10/12/94,Wimbledon,Coventry,2,0,H
+196,11/12/94,Liverpool,Crystal Palace,0,0,D
+197,12/12/94,Man City,Arsenal,1,2,A
+198,16/12/94,Ipswich,Wimbledon,2,2,D
+199,17/12/94,Arsenal,Leeds,1,3,A
+200,17/12/94,Coventry,Newcastle,0,0,D
+201,17/12/94,Crystal Palace,Norwich,0,1,A
+202,17/12/94,Everton,Tottenham,0,0,D
+203,17/12/94,Leicester,Blackburn,0,0,D
+204,17/12/94,Man United,Nott'm Forest,1,2,A
+205,17/12/94,Sheffield Weds,QPR,0,2,A
+206,17/12/94,West Ham,Man City,3,0,H
+207,18/12/94,Chelsea,Liverpool,0,0,D
+208,19/12/94,Southampton,Aston Villa,2,1,H
+209,26/12/94,Arsenal,Aston Villa,0,0,D
+210,26/12/94,Chelsea,Man United,2,3,A
+211,26/12/94,Coventry,Nott'm Forest,0,0,D
+212,26/12/94,Crystal Palace,QPR,0,0,D
+213,26/12/94,Everton,Sheffield Weds,1,4,A
+214,26/12/94,Leeds,Newcastle,0,0,D
+215,26/12/94,Leicester,Liverpool,1,2,A
+216,26/12/94,Man City,Blackburn,1,3,A
+217,26/12/94,Norwich,Tottenham,0,2,A
+218,26/12/94,Southampton,Wimbledon,2,3,A
+219,26/12/94,West Ham,Ipswich,1,1,D
+220,27/12/94,Nott'm Forest,Norwich,1,0,H
+221,27/12/94,Tottenham,Crystal Palace,0,0,D
+222,28/12/94,Aston Villa,Chelsea,3,0,H
+223,28/12/94,Ipswich,Arsenal,0,2,A
+224,28/12/94,Liverpool,Man City,2,0,H
+225,28/12/94,Man United,Leicester,1,1,D
+226,28/12/94,QPR,Southampton,2,2,D
+227,28/12/94,Sheffield Weds,Coventry,5,1,H
+228,28/12/94,Wimbledon,West Ham,1,0,H
+229,31/12/94,Arsenal,QPR,1,3,A
+230,31/12/94,Chelsea,Wimbledon,1,1,D
+231,31/12/94,Coventry,Tottenham,0,4,A
+232,31/12/94,Crystal Palace,Blackburn,0,1,A
+233,31/12/94,Everton,Ipswich,4,1,H
+234,31/12/94,Leeds,Liverpool,0,2,A
+235,31/12/94,Leicester,Sheffield Weds,0,1,A
+236,31/12/94,Man City,Aston Villa,2,2,D
+237,31/12/94,Norwich,Newcastle,2,1,H
+238,31/12/94,Southampton,Man United,2,2,D
+239,31/12/94,West Ham,Nott'm Forest,3,1,H
+240,02/01/95,Aston Villa,Leeds,0,0,D
+241,02/01/95,Blackburn,West Ham,4,2,H
+242,02/01/95,Ipswich,Leicester,4,1,H
+243,02/01/95,Liverpool,Norwich,4,0,H
+244,02/01/95,Newcastle,Man City,0,0,D
+245,02/01/95,Nott'm Forest,Crystal Palace,1,0,H
+246,02/01/95,Sheffield Weds,Southampton,1,1,D
+247,02/01/95,Tottenham,Arsenal,1,0,H
+248,02/01/95,Wimbledon,Everton,2,1,H
+249,03/01/95,Man United,Coventry,2,0,H
+250,14/01/95,Arsenal,Everton,1,1,D
+251,14/01/95,Aston Villa,QPR,2,1,H
+252,14/01/95,Blackburn,Nott'm Forest,3,0,H
+253,14/01/95,Chelsea,Sheffield Weds,1,1,D
+254,14/01/95,Crystal Palace,Leicester,2,0,H
+255,14/01/95,Leeds,Southampton,0,0,D
+256,14/01/95,Liverpool,Ipswich,0,1,A
+257,14/01/95,Man City,Coventry,0,0,D
+258,14/01/95,Norwich,Wimbledon,1,2,A
+259,14/01/95,West Ham,Tottenham,1,2,A
+260,15/01/95,Newcastle,Man United,1,1,D
+261,21/01/95,Coventry,Arsenal,0,1,A
+262,21/01/95,Everton,Crystal Palace,3,1,H
+263,21/01/95,Ipswich,Chelsea,2,2,D
+264,21/01/95,Nott'm Forest,Aston Villa,1,2,A
+265,21/01/95,Sheffield Weds,Newcastle,0,0,D
+266,22/01/95,Man United,Blackburn,1,0,H
+267,23/01/95,West Ham,Sheffield Weds,0,2,A
+268,24/01/95,Arsenal,Southampton,1,1,D
+269,24/01/95,Leeds,QPR,4,0,H
+270,24/01/95,Liverpool,Everton,0,0,D
+271,25/01/95,Aston Villa,Tottenham,1,0,H
+272,25/01/95,Chelsea,Nott'm Forest,0,2,A
+273,25/01/95,Crystal Palace,Man United,1,1,D
+274,25/01/95,Man City,Leicester,0,1,A
+275,25/01/95,Newcastle,Wimbledon,2,1,H
+276,25/01/95,Norwich,Coventry,2,2,D
+277,28/01/95,Blackburn,Ipswich,4,1,H
+278,01/02/95,Blackburn,Leeds,1,1,D
+279,01/02/95,Newcastle,Everton,2,0,H
+280,04/02/95,Coventry,Chelsea,2,2,D
+281,04/02/95,Everton,Norwich,2,1,H
+282,04/02/95,Ipswich,Crystal Palace,0,2,A
+283,04/02/95,Leicester,West Ham,1,2,A
+284,04/02/95,Man United,Aston Villa,1,0,H
+285,04/02/95,Nott'm Forest,Liverpool,1,1,D
+286,04/02/95,QPR,Newcastle,3,0,H
+287,04/02/95,Sheffield Weds,Arsenal,3,1,H
+288,04/02/95,Southampton,Man City,2,2,D
+289,04/02/95,Wimbledon,Leeds,0,0,D
+290,05/02/95,Tottenham,Blackburn,3,1,H
+291,11/02/95,Arsenal,Leicester,1,1,D
+292,11/02/95,Aston Villa,Wimbledon,7,1,H
+293,11/02/95,Chelsea,Tottenham,1,1,D
+294,11/02/95,Crystal Palace,Coventry,0,2,A
+295,11/02/95,Liverpool,QPR,1,1,D
+296,11/02/95,Man City,Man United,0,3,A
+297,11/02/95,Newcastle,Nott'm Forest,2,1,H
+298,11/02/95,Norwich,Southampton,2,2,D
+299,12/02/95,Blackburn,Sheffield Weds,3,1,H
+300,13/02/95,West Ham,Everton,2,2,D
+301,18/02/95,Coventry,West Ham,2,0,H
+302,18/02/95,Sheffield Weds,Aston Villa,1,2,A
+303,21/02/95,Arsenal,Nott'm Forest,1,0,H
+304,22/02/95,Aston Villa,Leicester,4,4,D
+305,22/02/95,Blackburn,Wimbledon,2,1,H
+306,22/02/95,Leeds,Everton,1,0,H
+307,22/02/95,Man City,Ipswich,2,0,H
+308,22/02/95,Norwich,Man United,0,2,A
+309,25/02/95,Blackburn,Norwich,0,0,D
+310,25/02/95,Coventry,Leicester,4,2,H
+311,25/02/95,Crystal Palace,Arsenal,0,3,A
+312,25/02/95,Everton,Man United,1,0,H
+313,25/02/95,Ipswich,Southampton,2,1,H
+314,25/02/95,Man City,Leeds,0,0,D
+315,25/02/95,Newcastle,Aston Villa,3,1,H
+316,25/02/95,Sheffield Weds,Liverpool,1,2,A
+317,25/02/95,Tottenham,Wimbledon,1,2,A
+318,25/02/95,West Ham,Chelsea,1,2,A
+319,26/02/95,QPR,Nott'm Forest,1,1,D
+320,28/02/95,Ipswich,Newcastle,0,2,A
+321,04/03/95,Aston Villa,Blackburn,0,1,A
+322,04/03/95,Leeds,Sheffield Weds,0,1,A
+323,04/03/95,Leicester,Everton,2,2,D
+324,04/03/95,Liverpool,Newcastle,2,0,H
+325,04/03/95,Man United,Ipswich,9,0,H
+326,04/03/95,Norwich,Man City,1,1,D
+327,04/03/95,Nott'm Forest,Tottenham,2,2,D
+328,04/03/95,Southampton,Coventry,0,0,D
+329,04/03/95,Wimbledon,QPR,1,3,A
+330,05/03/95,Arsenal,West Ham,0,1,A
+331,05/03/95,Chelsea,Crystal Palace,0,0,D
+332,06/03/95,Aston Villa,Coventry,0,0,D
+333,07/03/95,Wimbledon,Man United,0,1,A
+334,08/03/95,Blackburn,Arsenal,3,1,H
+335,08/03/95,Man City,Chelsea,1,2,A
+336,08/03/95,Newcastle,West Ham,2,0,H
+337,08/03/95,Norwich,Sheffield Weds,0,0,D
+338,08/03/95,Nott'm Forest,Everton,2,1,H
+339,08/03/95,QPR,Leicester,2,0,H
+340,08/03/95,Tottenham,Ipswich,3,0,H
+341,11/03/95,Chelsea,Leeds,0,3,A
+342,11/03/95,Coventry,Blackburn,1,1,D
+343,11/03/95,Leicester,Nott'm Forest,2,4,A
+344,11/03/95,Sheffield Weds,Wimbledon,0,1,A
+345,11/03/95,West Ham,Norwich,2,2,D
+346,14/03/95,Crystal Palace,Sheffield Weds,2,1,H
+347,14/03/95,Liverpool,Coventry,2,3,A
+348,15/03/95,Everton,Man City,1,1,D
+349,15/03/95,Leicester,Leeds,1,3,A
+350,15/03/95,Man United,Tottenham,0,0,D
+351,15/03/95,QPR,Norwich,2,0,H
+352,15/03/95,Southampton,West Ham,1,1,D
+353,18/03/95,Aston Villa,West Ham,0,2,A
+354,18/03/95,Blackburn,Chelsea,2,1,H
+355,18/03/95,Leeds,Coventry,3,0,H
+356,18/03/95,Man City,Sheffield Weds,3,2,H
+357,18/03/95,Nott'm Forest,Southampton,3,0,H
+358,18/03/95,QPR,Everton,2,3,A
+359,18/03/95,Tottenham,Leicester,1,0,H
+360,18/03/95,Wimbledon,Crystal Palace,2,0,H
+361,19/03/95,Liverpool,Man United,2,0,H
+362,19/03/95,Newcastle,Arsenal,1,0,H
+363,20/03/95,Norwich,Ipswich,3,0,H
+364,21/03/95,Wimbledon,Man City,2,0,H
+365,22/03/95,Man United,Arsenal,3,0,H
+366,22/03/95,Nott'm Forest,Leeds,3,0,H
+367,22/03/95,QPR,Chelsea,1,0,H
+368,22/03/95,Southampton,Newcastle,3,1,H
+369,22/03/95,Tottenham,Liverpool,0,0,D
+370,01/04/95,Arsenal,Norwich,5,1,H
+371,01/04/95,Chelsea,Newcastle,1,1,D
+372,01/04/95,Coventry,QPR,0,1,A
+373,01/04/95,Crystal Palace,Man City,2,1,H
+374,01/04/95,Everton,Blackburn,1,2,A
+375,01/04/95,Ipswich,Aston Villa,0,1,A
+376,01/04/95,Leicester,Wimbledon,3,4,A
+377,01/04/95,Sheffield Weds,Nott'm Forest,1,7,A
+378,02/04/95,Man United,Leeds,0,0,D
+379,02/04/95,Southampton,Tottenham,4,3,H
+380,04/04/95,Crystal Palace,Aston Villa,0,0,D
+381,04/04/95,QPR,Blackburn,0,1,A
+382,05/04/95,Leeds,Ipswich,4,0,H
+383,05/04/95,Leicester,Norwich,1,0,H
+384,05/04/95,Liverpool,Southampton,3,1,H
+385,08/04/95,Newcastle,Norwich,3,0,H
+386,08/04/95,Nott'm Forest,West Ham,1,1,D
+387,08/04/95,QPR,Arsenal,3,1,H
+388,08/04/95,Sheffield Weds,Leicester,1,0,H
+389,09/04/95,Liverpool,Leeds,0,1,A
+390,10/04/95,Wimbledon,Chelsea,1,1,D
+391,11/04/95,Ipswich,QPR,0,1,A
+392,11/04/95,Tottenham,Man City,2,1,H
+393,12/04/95,Arsenal,Liverpool,0,1,A
+394,12/04/95,Chelsea,Southampton,0,2,A
+395,12/04/95,Norwich,Nott'm Forest,0,1,A
+396,13/04/95,West Ham,Wimbledon,3,0,H
+397,14/04/95,Crystal Palace,Tottenham,1,1,D
+398,14/04/95,Everton,Newcastle,2,0,H
+399,14/04/95,Man City,Liverpool,2,1,H
+400,15/04/95,Arsenal,Ipswich,4,1,H
+401,15/04/95,Chelsea,Aston Villa,1,0,H
+402,15/04/95,Coventry,Sheffield Weds,2,0,H
+403,15/04/95,Leeds,Blackburn,1,1,D
+404,15/04/95,Leicester,Man United,0,4,A
+405,15/04/95,Southampton,QPR,2,1,H
+406,17/04/95,Aston Villa,Arsenal,0,4,A
+407,17/04/95,Blackburn,Man City,2,3,A
+408,17/04/95,Ipswich,West Ham,1,1,D
+409,17/04/95,Liverpool,Leicester,2,0,H
+410,17/04/95,Man United,Chelsea,0,0,D
+411,17/04/95,Newcastle,Leeds,1,2,A
+412,17/04/95,Nott'm Forest,Coventry,2,0,H
+413,17/04/95,QPR,Crystal Palace,0,1,A
+414,17/04/95,Sheffield Weds,Everton,0,0,D
+415,17/04/95,Tottenham,Norwich,1,0,H
+416,17/04/95,Wimbledon,Southampton,0,2,A
+417,19/04/95,Blackburn,Crystal Palace,2,1,H
+418,29/04/95,Arsenal,Tottenham,1,1,D
+419,29/04/95,Chelsea,QPR,1,0,H
+420,29/04/95,Crystal Palace,Nott'm Forest,1,2,A
+421,29/04/95,Everton,Wimbledon,0,0,D
+422,29/04/95,Leeds,Aston Villa,1,0,H
+423,29/04/95,Leicester,Ipswich,2,0,H
+424,29/04/95,Man City,Newcastle,0,0,D
+425,29/04/95,Norwich,Liverpool,1,2,A
+426,29/04/95,Southampton,Sheffield Weds,0,0,D
+427,30/04/95,West Ham,Blackburn,2,0,H
+428,01/05/95,Coventry,Man United,2,3,A
+429,02/05/95,Wimbledon,Liverpool,0,0,D
+430,03/05/95,Aston Villa,Man City,1,1,D
+431,03/05/95,Everton,Chelsea,3,3,D
+432,03/05/95,Newcastle,Tottenham,3,3,D
+433,03/05/95,Southampton,Crystal Palace,3,1,H
+434,03/05/95,West Ham,QPR,0,0,D
+435,04/05/95,Arsenal,Wimbledon,0,0,D
+436,06/05/95,Aston Villa,Liverpool,2,0,H
+437,06/05/95,Crystal Palace,West Ham,1,0,H
+438,06/05/95,Everton,Southampton,0,0,D
+439,06/05/95,Ipswich,Coventry,2,0,H
+440,06/05/95,Leeds,Norwich,2,1,H
+441,06/05/95,Leicester,Chelsea,1,1,D
+442,06/05/95,Nott'm Forest,Man City,1,0,H
+443,06/05/95,QPR,Tottenham,2,1,H
+444,07/05/95,Man United,Sheffield Weds,1,0,H
+445,08/05/95,Blackburn,Newcastle,1,0,H
+446,09/05/95,Ipswich,Everton,0,1,A
+447,09/05/95,Leeds,Crystal Palace,3,1,H
+448,09/05/95,Tottenham,Coventry,1,3,A
+449,10/05/95,Man United,Southampton,2,1,H
+450,10/05/95,West Ham,Liverpool,3,0,H
+451,13/05/95,Wimbledon,Nott'm Forest,2,2,D
+452,14/05/95,Chelsea,Arsenal,2,1,H
+453,14/05/95,Coventry,Everton,0,0,D
+454,14/05/95,Liverpool,Blackburn,2,1,H
+455,14/05/95,Man City,QPR,2,3,A
+456,14/05/95,Newcastle,Crystal Palace,3,2,H
+457,14/05/95,Norwich,Aston Villa,1,1,D
+458,14/05/95,Sheffield Weds,Ipswich,4,1,H
+459,14/05/95,Southampton,Leicester,2,2,D
+460,14/05/95,Tottenham,Leeds,1,1,D
+461,14/05/95,West Ham,Man United,1,1,D

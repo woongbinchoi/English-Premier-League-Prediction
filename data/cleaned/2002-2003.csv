@@ -1,4 +1,4 @@
-,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+MatchID,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
 0,17/08/2002,Blackburn,Sunderland,0,0,D
 1,17/08/2002,Charlton,Chelsea,2,3,A
 2,17/08/2002,Everton,Tottenham,2,2,D
@@ -254,64 +254,128 @@
 252,01/02/2003,Man City,West Brom,1,2,A
 253,01/02/2003,Southampton,Man United,0,2,A
 254,01/02/2003,Sunderland,Charlton,1,3,A
-255,05/03/2003,Man United,Leeds,2,1,H
-256,05/03/2003,Middlesboro,Newcastle,1,0,H
-257,08/03/2003,Liverpool,Bolton,2,0,H
-258,15/03/2003,Aston Villa,Man United,0,1,A
-259,15/03/2003,Blackburn,Arsenal,2,0,H
-260,15/03/2003,Charlton,Newcastle,0,2,A
-261,15/03/2003,Everton,West Ham,0,0,D
-262,15/03/2003,Fulham,Southampton,2,2,D
-263,15/03/2003,Leeds,Middlesboro,2,3,A
-264,15/03/2003,Sunderland,Bolton,0,2,A
-265,16/03/2003,Man City,Birmingham,1,0,H
-266,16/03/2003,Tottenham,Liverpool,2,3,A
-267,16/03/2003,West Brom,Chelsea,0,2,A
-268,22/03/2003,Birmingham,West Brom,1,0,H
-269,22/03/2003,Chelsea,Man City,5,0,H
-270,22/03/2003,Man United,Fulham,3,0,H
-271,22/03/2003,Middlesboro,Charlton,1,1,D
-272,22/03/2003,Newcastle,Blackburn,5,1,H
-273,22/03/2003,Southampton,Aston Villa,2,2,D
-274,22/03/2003,West Ham,Sunderland,2,0,H
-275,23/03/2003,Arsenal,Everton,2,1,H
-276,23/03/2003,Liverpool,Leeds,3,1,H
-277,24/03/2003,Bolton,Tottenham,1,0,H
-278,05/04/2003,Aston Villa,Arsenal,1,1,D
-279,05/04/2003,Bolton,Man City,2,0,H
-280,05/04/2003,Charlton,Leeds,1,6,A
-281,05/04/2003,Man United,Liverpool,4,0,H
-282,05/04/2003,Middlesboro,West Brom,3,0,H
-283,05/04/2003,Southampton,West Ham,1,1,D
-284,05/04/2003,Sunderland,Chelsea,1,2,A
-285,05/04/2003,Tottenham,Birmingham,2,1,H
-286,06/04/2003,Everton,Newcastle,2,1,H
-287,26/04/2003,Charlton,Southampton,2,1,H
-288,26/04/2003,Chelsea,Fulham,1,1,D
-289,26/04/2003,Everton,Aston Villa,2,1,H
-290,26/04/2003,Leeds,Blackburn,2,3,A
-291,26/04/2003,Sunderland,Newcastle,0,1,A
-292,26/04/2003,West Brom,Liverpool,0,6,A
-293,27/04/2003,Man City,West Ham,0,1,A
-294,27/04/2003,Tottenham,Man United,0,2,A
-295,03/05/2003,Aston Villa,Sunderland,1,0,H
-296,03/05/2003,Blackburn,West Brom,1,1,D
-297,03/05/2003,Fulham,Everton,2,0,H
-298,03/05/2003,Liverpool,Man City,1,2,A
-299,03/05/2003,Man United,Charlton,4,1,H
-300,03/05/2003,Middlesboro,Tottenham,5,1,H
-301,03/05/2003,Newcastle,Birmingham,1,0,H
-302,03/05/2003,Southampton,Bolton,0,0,D
-303,03/05/2003,West Ham,Chelsea,1,0,H
-304,04/05/2003,Arsenal,Leeds,2,3,A
-305,07/05/2003,Arsenal,Southampton,6,1,H
-306,11/05/2003,Birmingham,West Ham,2,2,D
-307,11/05/2003,Bolton,Middlesboro,2,1,H
-308,11/05/2003,Charlton,Fulham,0,1,A
-309,11/05/2003,Chelsea,Liverpool,2,1,H
-310,11/05/2003,Everton,Man United,1,2,A
-311,11/05/2003,Leeds,Aston Villa,3,1,H
-312,11/05/2003,Man City,Southampton,0,1,A
-313,11/05/2003,Sunderland,Arsenal,0,4,A
-314,11/05/2003,Tottenham,Blackburn,0,4,A
-315,11/05/2003,West Brom,Newcastle,2,2,D
+255,02/02/2003,Aston Villa,Blackburn,3,0,H
+256,02/02/2003,West Ham,Liverpool,0,3,A
+257,04/02/2003,Birmingham,Man United,0,1,A
+258,08/02/2003,Birmingham,Chelsea,1,3,A
+259,08/02/2003,Blackburn,Southampton,1,0,H
+260,08/02/2003,Charlton,Everton,2,1,H
+261,08/02/2003,Fulham,Aston Villa,2,1,H
+262,08/02/2003,Leeds,West Ham,1,0,H
+263,08/02/2003,Liverpool,Middlesboro,1,1,D
+264,08/02/2003,Tottenham,Sunderland,4,1,H
+265,08/02/2003,West Brom,Bolton,1,1,D
+266,09/02/2003,Man United,Man City,1,1,D
+267,09/02/2003,Newcastle,Arsenal,1,1,D
+268,19/02/2003,Fulham,West Brom,3,0,H
+269,22/02/2003,Bolton,Man United,1,1,D
+270,22/02/2003,Charlton,Aston Villa,3,0,H
+271,22/02/2003,Chelsea,Blackburn,1,2,A
+272,22/02/2003,Everton,Southampton,2,1,H
+273,22/02/2003,Leeds,Newcastle,0,3,A
+274,22/02/2003,Man City,Arsenal,1,5,A
+275,22/02/2003,Sunderland,Middlesboro,1,3,A
+276,23/02/2003,Birmingham,Liverpool,2,1,H
+277,23/02/2003,West Brom,West Ham,1,2,A
+278,24/02/2003,Tottenham,Fulham,1,1,D
+279,01/03/2003,Blackburn,Man City,1,0,H
+280,01/03/2003,Fulham,Sunderland,1,0,H
+281,01/03/2003,Middlesboro,Everton,1,1,D
+282,01/03/2003,Newcastle,Chelsea,2,1,H
+283,01/03/2003,Southampton,West Brom,1,0,H
+284,01/03/2003,West Ham,Tottenham,2,0,H
+285,02/03/2003,Arsenal,Charlton,2,0,H
+286,03/03/2003,Aston Villa,Birmingham,0,2,A
+287,05/03/2003,Man United,Leeds,2,1,H
+288,05/03/2003,Middlesboro,Newcastle,1,0,H
+289,08/03/2003,Liverpool,Bolton,2,0,H
+290,15/03/2003,Aston Villa,Man United,0,1,A
+291,15/03/2003,Blackburn,Arsenal,2,0,H
+292,15/03/2003,Charlton,Newcastle,0,2,A
+293,15/03/2003,Everton,West Ham,0,0,D
+294,15/03/2003,Fulham,Southampton,2,2,D
+295,15/03/2003,Leeds,Middlesboro,2,3,A
+296,15/03/2003,Sunderland,Bolton,0,2,A
+297,16/03/2003,Man City,Birmingham,1,0,H
+298,16/03/2003,Tottenham,Liverpool,2,3,A
+299,16/03/2003,West Brom,Chelsea,0,2,A
+300,22/03/2003,Birmingham,West Brom,1,0,H
+301,22/03/2003,Chelsea,Man City,5,0,H
+302,22/03/2003,Man United,Fulham,3,0,H
+303,22/03/2003,Middlesboro,Charlton,1,1,D
+304,22/03/2003,Newcastle,Blackburn,5,1,H
+305,22/03/2003,Southampton,Aston Villa,2,2,D
+306,22/03/2003,West Ham,Sunderland,2,0,H
+307,23/03/2003,Arsenal,Everton,2,1,H
+308,23/03/2003,Liverpool,Leeds,3,1,H
+309,24/03/2003,Bolton,Tottenham,1,0,H
+310,05/04/2003,Aston Villa,Arsenal,1,1,D
+311,05/04/2003,Bolton,Man City,2,0,H
+312,05/04/2003,Charlton,Leeds,1,6,A
+313,05/04/2003,Man United,Liverpool,4,0,H
+314,05/04/2003,Middlesboro,West Brom,3,0,H
+315,05/04/2003,Southampton,West Ham,1,1,D
+316,05/04/2003,Sunderland,Chelsea,1,2,A
+317,05/04/2003,Tottenham,Birmingham,2,1,H
+318,06/04/2003,Everton,Newcastle,2,1,H
+319,07/04/2003,Fulham,Blackburn,0,4,A
+320,12/04/2003,Birmingham,Sunderland,2,0,H
+321,12/04/2003,Blackburn,Charlton,1,0,H
+322,12/04/2003,Chelsea,Bolton,1,0,H
+323,12/04/2003,Leeds,Tottenham,2,2,D
+324,12/04/2003,Liverpool,Fulham,2,0,H
+325,12/04/2003,Man City,Middlesboro,0,0,D
+326,12/04/2003,Newcastle,Man United,2,6,A
+327,12/04/2003,West Brom,Everton,1,2,A
+328,12/04/2003,West Ham,Aston Villa,2,2,D
+329,16/04/2003,Arsenal,Man United,2,2,D
+330,18/04/2003,Tottenham,Man City,0,2,A
+331,19/04/2003,Aston Villa,Chelsea,2,1,H
+332,19/04/2003,Bolton,West Ham,1,0,H
+333,19/04/2003,Charlton,Birmingham,0,2,A
+334,19/04/2003,Everton,Liverpool,1,2,A
+335,19/04/2003,Fulham,Newcastle,2,1,H
+336,19/04/2003,Man United,Blackburn,3,1,H
+337,19/04/2003,Middlesboro,Arsenal,0,2,A
+338,19/04/2003,Southampton,Leeds,3,2,H
+339,19/04/2003,Sunderland,West Brom,1,2,A
+340,21/04/2003,Birmingham,Southampton,3,2,H
+341,21/04/2003,Blackburn,Bolton,0,0,D
+342,21/04/2003,Chelsea,Everton,4,1,H
+343,21/04/2003,Liverpool,Charlton,2,1,H
+344,21/04/2003,Man City,Sunderland,3,0,H
+345,21/04/2003,Newcastle,Aston Villa,1,1,D
+346,21/04/2003,West Brom,Tottenham,2,3,A
+347,21/04/2003,West Ham,Middlesboro,1,0,H
+348,22/04/2003,Leeds,Fulham,2,0,H
+349,26/04/2003,Birmingham,Middlesboro,3,0,H
+350,26/04/2003,Bolton,Arsenal,2,2,D
+351,26/04/2003,Charlton,Southampton,2,1,H
+352,26/04/2003,Chelsea,Fulham,1,1,D
+353,26/04/2003,Everton,Aston Villa,2,1,H
+354,26/04/2003,Leeds,Blackburn,2,3,A
+355,26/04/2003,Sunderland,Newcastle,0,1,A
+356,26/04/2003,West Brom,Liverpool,0,6,A
+357,27/04/2003,Man City,West Ham,0,1,A
+358,27/04/2003,Tottenham,Man United,0,2,A
+359,03/05/2003,Aston Villa,Sunderland,1,0,H
+360,03/05/2003,Blackburn,West Brom,1,1,D
+361,03/05/2003,Fulham,Everton,2,0,H
+362,03/05/2003,Liverpool,Man City,1,2,A
+363,03/05/2003,Man United,Charlton,4,1,H
+364,03/05/2003,Middlesboro,Tottenham,5,1,H
+365,03/05/2003,Newcastle,Birmingham,1,0,H
+366,03/05/2003,Southampton,Bolton,0,0,D
+367,03/05/2003,West Ham,Chelsea,1,0,H
+368,04/05/2003,Arsenal,Leeds,2,3,A
+369,07/05/2003,Arsenal,Southampton,6,1,H
+370,11/05/2003,Birmingham,West Ham,2,2,D
+371,11/05/2003,Bolton,Middlesboro,2,1,H
+372,11/05/2003,Charlton,Fulham,0,1,A
+373,11/05/2003,Chelsea,Liverpool,2,1,H
+374,11/05/2003,Everton,Man United,1,2,A
+375,11/05/2003,Leeds,Aston Villa,3,1,H
+376,11/05/2003,Man City,Southampton,0,1,A
+377,11/05/2003,Sunderland,Arsenal,0,4,A
+378,11/05/2003,Tottenham,Blackburn,0,4,A
+379,11/05/2003,West Brom,Newcastle,2,2,D

@@ -1,553 +1,381 @@
-,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
-0,17/08/96,Arsenal,West Ham,2.0,0.0,H
-1,17/08/96,Blackburn,Tottenham,0.0,2.0,A
-2,17/08/96,Coventry,Nott'm Forest,0.0,3.0,A
-3,17/08/96,Derby,Leeds,3.0,3.0,D
-4,17/08/96,Everton,Newcastle,2.0,0.0,H
-5,17/08/96,Middlesbrough,Liverpool,3.0,3.0,D
-6,17/08/96,Sheffield Weds,Aston Villa,2.0,1.0,H
-7,17/08/96,Sunderland,Leicester,0.0,0.0,D
-8,17/08/96,Wimbledon,Man United,0.0,3.0,A
-9,18/08/96,Southampton,Chelsea,0.0,0.0,D
-10,19/08/96,Liverpool,Arsenal,2.0,0.0,H
-11,20/08/96,Leeds,Sheffield Weds,0.0,2.0,A
-12,21/08/96,Aston Villa,Blackburn,1.0,0.0,H
-13,21/08/96,Chelsea,Middlesbrough,1.0,0.0,H
-14,21/08/96,Leicester,Southampton,2.0,1.0,H
-15,21/08/96,Man United,Everton,2.0,2.0,D
-16,21/08/96,Newcastle,Wimbledon,2.0,0.0,H
-17,21/08/96,Nott'm Forest,Sunderland,1.0,4.0,A
-18,21/08/96,Tottenham,Derby,1.0,1.0,D
-19,21/08/96,West Ham,Coventry,1.0,1.0,D
-20,24/08/96,Aston Villa,Derby,2.0,0.0,H
-21,24/08/96,Chelsea,Coventry,2.0,0.0,H
-22,24/08/96,Leicester,Arsenal,0.0,2.0,A
-23,24/08/96,Liverpool,Sunderland,0.0,0.0,D
-24,24/08/96,Newcastle,Sheffield Weds,1.0,2.0,A
-25,24/08/96,Nott'm Forest,Middlesbrough,1.0,1.0,D
-26,24/08/96,Tottenham,Everton,0.0,0.0,D
-27,24/08/96,West Ham,Southampton,2.0,1.0,H
-28,25/08/96,Man United,Blackburn,2.0,2.0,D
-29,26/08/96,Leeds,Wimbledon,1.0,0.0,H
-30,02/09/96,Sheffield Weds,Leicester,2.0,1.0,H
-31,04/09/96,Arsenal,Chelsea,3.0,3.0,D
-32,04/09/96,Blackburn,Leeds,0.0,1.0,A
-33,04/09/96,Coventry,Liverpool,0.0,1.0,A
-34,04/09/96,Derby,Man United,1.0,1.0,D
-35,04/09/96,Everton,Aston Villa,0.0,1.0,A
-36,04/09/96,Middlesbrough,West Ham,4.0,1.0,H
-37,04/09/96,Southampton,Nott'm Forest,2.0,2.0,D
-38,04/09/96,Sunderland,Newcastle,1.0,2.0,A
-39,04/09/96,Wimbledon,Tottenham,1.0,0.0,H
-40,07/09/96,Aston Villa,Arsenal,2.0,2.0,D
-41,07/09/96,Leeds,Man United,0.0,4.0,A
-42,07/09/96,Liverpool,Southampton,2.0,1.0,H
-43,07/09/96,Middlesbrough,Coventry,4.0,0.0,H
-44,07/09/96,Nott'm Forest,Leicester,0.0,0.0,D
-45,07/09/96,Sheffield Weds,Chelsea,0.0,2.0,A
-46,07/09/96,Tottenham,Newcastle,1.0,2.0,A
-47,07/09/96,Wimbledon,Everton,4.0,0.0,H
-48,08/09/96,Sunderland,West Ham,0.0,0.0,D
-49,09/09/96,Blackburn,Derby,1.0,2.0,A
-50,14/09/96,Coventry,Leeds,2.0,1.0,H
-51,14/09/96,Derby,Sunderland,1.0,0.0,H
-52,14/09/96,Everton,Middlesbrough,1.0,2.0,A
-53,14/09/96,Man United,Nott'm Forest,4.0,1.0,H
-54,14/09/96,Newcastle,Blackburn,2.0,1.0,H
-55,14/09/96,Southampton,Tottenham,0.0,1.0,A
-56,14/09/96,West Ham,Wimbledon,0.0,2.0,A
-57,15/09/96,Chelsea,Aston Villa,1.0,1.0,D
-58,15/09/96,Leicester,Liverpool,0.0,3.0,A
-59,16/09/96,Arsenal,Sheffield Weds,4.0,1.0,H
-60,21/09/96,Aston Villa,Man United,0.0,0.0,D
-61,21/09/96,Blackburn,Everton,1.0,1.0,D
-62,21/09/96,Leeds,Newcastle,0.0,1.0,A
-63,21/09/96,Liverpool,Chelsea,5.0,1.0,H
-64,21/09/96,Middlesbrough,Arsenal,0.0,2.0,A
-65,21/09/96,Nott'm Forest,West Ham,0.0,2.0,A
-66,21/09/96,Sheffield Weds,Derby,0.0,0.0,D
-67,21/09/96,Sunderland,Coventry,1.0,0.0,H
-68,22/09/96,Tottenham,Leicester,1.0,2.0,A
-69,23/09/96,Wimbledon,Southampton,3.0,1.0,H
-70,28/09/96,Arsenal,Sunderland,2.0,0.0,H
-71,28/09/96,Chelsea,Nott'm Forest,1.0,1.0,D
-72,28/09/96,Coventry,Blackburn,0.0,0.0,D
-73,28/09/96,Derby,Wimbledon,0.0,2.0,A
-74,28/09/96,Everton,Sheffield Weds,2.0,0.0,H
-75,28/09/96,Leicester,Leeds,1.0,0.0,H
-76,28/09/96,Southampton,Middlesbrough,4.0,0.0,H
-77,29/09/96,Man United,Tottenham,2.0,0.0,H
-78,29/09/96,West Ham,Liverpool,1.0,2.0,A
-79,30/09/96,Newcastle,Aston Villa,4.0,3.0,H
-80,12/10/96,Blackburn,Arsenal,0.0,2.0,A
-81,12/10/96,Derby,Newcastle,0.0,1.0,A
-82,12/10/96,Everton,West Ham,2.0,1.0,H
-83,12/10/96,Leeds,Nott'm Forest,2.0,0.0,H
-84,12/10/96,Leicester,Chelsea,1.0,3.0,A
-85,12/10/96,Man United,Liverpool,1.0,0.0,H
-86,12/10/96,Tottenham,Aston Villa,1.0,0.0,H
-87,12/10/96,Wimbledon,Sheffield Weds,4.0,2.0,H
-88,13/10/96,Coventry,Southampton,1.0,1.0,D
-89,14/10/96,Sunderland,Middlesbrough,2.0,2.0,D
-90,19/10/96,Arsenal,Coventry,0.0,0.0,D
-91,19/10/96,Aston Villa,Leeds,2.0,0.0,H
-92,19/10/96,Chelsea,Wimbledon,2.0,4.0,A
-93,19/10/96,Middlesbrough,Tottenham,0.0,3.0,A
-94,19/10/96,Nott'm Forest,Derby,1.0,1.0,D
-95,19/10/96,Sheffield Weds,Blackburn,1.0,1.0,D
-96,19/10/96,Southampton,Sunderland,3.0,0.0,H
-97,19/10/96,West Ham,Leicester,1.0,0.0,H
-98,20/10/96,Newcastle,Man United,5.0,0.0,H
-99,26/10/96,Arsenal,Leeds,3.0,0.0,H
-100,26/10/96,Chelsea,Tottenham,3.0,1.0,H
-101,26/10/96,Coventry,Sheffield Weds,0.0,0.0,D
-102,26/10/96,Leicester,Newcastle,2.0,0.0,H
-103,26/10/96,Middlesbrough,Wimbledon,0.0,0.0,D
-104,26/10/96,Southampton,Man United,6.0,3.0,H
-105,26/10/96,Sunderland,Aston Villa,1.0,0.0,H
-106,26/10/96,West Ham,Blackburn,2.0,1.0,H
-107,27/10/96,Liverpool,Derby,2.0,1.0,H
-108,28/10/96,Nott'm Forest,Everton,0.0,1.0,A
-109,02/11/96,Aston Villa,Nott'm Forest,2.0,0.0,H
-110,02/11/96,Derby,Leicester,2.0,0.0,H
-111,02/11/96,Leeds,Sunderland,3.0,0.0,H
-112,02/11/96,Man United,Chelsea,1.0,2.0,A
-113,02/11/96,Sheffield Weds,Southampton,1.0,1.0,D
-114,02/11/96,Tottenham,West Ham,1.0,0.0,H
-115,02/11/96,Wimbledon,Arsenal,2.0,2.0,D
-116,03/11/96,Blackburn,Liverpool,3.0,0.0,H
-117,03/11/96,Newcastle,Middlesbrough,3.0,1.0,H
-118,04/11/96,Everton,Coventry,1.0,1.0,D
-119,16/11/96,Aston Villa,Leicester,1.0,3.0,A
-120,16/11/96,Blackburn,Chelsea,1.0,1.0,D
-121,16/11/96,Everton,Southampton,7.0,1.0,H
-122,16/11/96,Leeds,Liverpool,0.0,2.0,A
-123,16/11/96,Man United,Arsenal,1.0,0.0,H
-124,16/11/96,Newcastle,West Ham,1.0,1.0,D
-125,16/11/96,Tottenham,Sunderland,2.0,0.0,H
-126,16/11/96,Wimbledon,Coventry,2.0,2.0,D
-127,17/11/96,Derby,Middlesbrough,2.0,1.0,H
-128,18/11/96,Sheffield Weds,Nott'm Forest,2.0,0.0,H
-129,20/11/96,Liverpool,Everton,1.0,1.0,D
-130,23/11/96,Chelsea,Newcastle,1.0,1.0,D
-131,23/11/96,Coventry,Aston Villa,1.0,2.0,A
-132,23/11/96,Leicester,Everton,1.0,2.0,A
-133,23/11/96,Liverpool,Wimbledon,1.0,1.0,D
-134,23/11/96,Middlesbrough,Man United,2.0,2.0,D
-135,23/11/96,Southampton,Leeds,0.0,2.0,A
-136,23/11/96,Sunderland,Sheffield Weds,1.0,1.0,D
-137,23/11/96,West Ham,Derby,1.0,1.0,D
-138,24/11/96,Arsenal,Tottenham,3.0,1.0,H
-139,25/11/96,Nott'm Forest,Blackburn,2.0,2.0,D
-140,30/11/96,Aston Villa,Middlesbrough,1.0,0.0,H
-141,30/11/96,Blackburn,Southampton,2.0,1.0,H
-142,30/11/96,Derby,Coventry,2.0,1.0,H
-143,30/11/96,Everton,Sunderland,1.0,3.0,A
-144,30/11/96,Man United,Leicester,3.0,1.0,H
-145,30/11/96,Newcastle,Arsenal,1.0,2.0,A
-146,30/11/96,Sheffield Weds,West Ham,0.0,0.0,D
-147,30/11/96,Wimbledon,Nott'm Forest,1.0,0.0,H
-148,01/12/96,Leeds,Chelsea,2.0,0.0,H
-149,02/12/96,Tottenham,Liverpool,0.0,2.0,A
-150,03/12/96,Middlesbrough,Leicester,0.0,2.0,A
-151,04/12/96,Arsenal,Southampton,3.0,1.0,H
-152,04/12/96,West Ham,Aston Villa,0.0,2.0,A
-153,07/12/96,Arsenal,Derby,2.0,2.0,D
-154,07/12/96,Chelsea,Everton,2.0,2.0,D
-155,07/12/96,Coventry,Tottenham,1.0,2.0,A
-156,07/12/96,Leicester,Blackburn,1.0,1.0,D
-157,07/12/96,Liverpool,Sheffield Weds,0.0,1.0,A
-158,07/12/96,Middlesbrough,Leeds,0.0,0.0,D
-159,07/12/96,Southampton,Aston Villa,0.0,1.0,A
-160,07/12/96,Sunderland,Wimbledon,1.0,3.0,A
-161,08/12/96,West Ham,Man United,2.0,2.0,D
-162,09/12/96,Nott'm Forest,Newcastle,0.0,0.0,D
-163,14/12/96,Leeds,Tottenham,0.0,0.0,D
-164,14/12/96,Liverpool,Middlesbrough,5.0,1.0,H
-165,14/12/96,Wimbledon,Blackburn,1.0,0.0,H
-166,15/12/96,Sunderland,Chelsea,3.0,0.0,H
-167,16/12/96,Derby,Everton,0.0,1.0,A
-168,17/12/96,Coventry,Newcastle,2.0,1.0,H
-169,17/12/96,Liverpool,Nott'm Forest,4.0,2.0,H
-170,18/12/96,Sheffield Weds,Man United,1.0,1.0,D
-171,21/12/96,Chelsea,West Ham,3.0,1.0,H
-172,21/12/96,Everton,Leeds,0.0,0.0,D
-173,21/12/96,Leicester,Coventry,0.0,2.0,A
-174,21/12/96,Man United,Sunderland,5.0,0.0,H
-175,21/12/96,Nott'm Forest,Arsenal,2.0,1.0,H
-176,21/12/96,Southampton,Derby,3.0,1.0,H
-177,21/12/96,Tottenham,Sheffield Weds,1.0,1.0,D
-178,22/12/96,Aston Villa,Wimbledon,5.0,0.0,H
-179,23/12/96,Newcastle,Liverpool,1.0,1.0,D
-180,26/12/96,Aston Villa,Chelsea,0.0,2.0,A
-181,26/12/96,Blackburn,Newcastle,1.0,0.0,H
-182,26/12/96,Leeds,Coventry,1.0,3.0,A
-183,26/12/96,Liverpool,Leicester,1.0,1.0,D
-184,26/12/96,Middlesbrough,Everton,4.0,2.0,H
-185,26/12/96,Nott'm Forest,Man United,0.0,4.0,A
-186,26/12/96,Sheffield Weds,Arsenal,0.0,0.0,D
-187,26/12/96,Sunderland,Derby,2.0,0.0,H
-188,26/12/96,Tottenham,Southampton,3.0,1.0,H
-189,28/12/96,Arsenal,Aston Villa,2.0,2.0,D
-190,28/12/96,Chelsea,Sheffield Weds,2.0,2.0,D
-191,28/12/96,Coventry,Middlesbrough,3.0,0.0,H
-192,28/12/96,Derby,Blackburn,0.0,0.0,D
-193,28/12/96,Everton,Wimbledon,1.0,3.0,A
-194,28/12/96,Leicester,Nott'm Forest,2.0,2.0,D
-195,28/12/96,Man United,Leeds,1.0,0.0,H
-196,28/12/96,Newcastle,Tottenham,7.0,1.0,H
-197,28/12/96,West Ham,Sunderland,2.0,0.0,H
-198,29/12/96,Southampton,Liverpool,0.0,1.0,A
-199,01/01/97,Arsenal,Middlesbrough,2.0,0.0,H
-200,01/01/97,Chelsea,Liverpool,1.0,0.0,H
-201,01/01/97,Coventry,Sunderland,2.0,2.0,D
-202,01/01/97,Everton,Blackburn,0.0,2.0,A
-203,01/01/97,Man United,Aston Villa,0.0,0.0,D
-204,01/01/97,Newcastle,Leeds,3.0,0.0,H
-205,01/01/97,West Ham,Nott'm Forest,0.0,1.0,A
-206,11/01/97,Aston Villa,Newcastle,2.0,2.0,D
-207,11/01/97,Blackburn,Coventry,4.0,0.0,H
-208,11/01/97,Leeds,Leicester,3.0,0.0,H
-209,11/01/97,Liverpool,West Ham,0.0,0.0,D
-210,11/01/97,Middlesbrough,Southampton,0.0,1.0,A
-211,11/01/97,Nott'm Forest,Chelsea,2.0,0.0,H
-212,11/01/97,Sheffield Weds,Everton,2.0,1.0,H
-213,11/01/97,Sunderland,Arsenal,1.0,0.0,H
-214,11/01/97,Wimbledon,Derby,1.0,1.0,D
-215,12/01/97,Tottenham,Man United,1.0,2.0,A
-216,18/01/97,Chelsea,Derby,3.0,1.0,H
-217,18/01/97,Coventry,Man United,0.0,2.0,A
-218,18/01/97,Leicester,Wimbledon,1.0,0.0,H
-219,18/01/97,Liverpool,Aston Villa,3.0,0.0,H
-220,18/01/97,Middlesbrough,Sheffield Weds,4.0,2.0,H
-221,18/01/97,Southampton,Newcastle,2.0,2.0,D
-222,18/01/97,Sunderland,Blackburn,0.0,0.0,D
-223,19/01/97,Arsenal,Everton,3.0,1.0,H
-224,19/01/97,Nott'm Forest,Tottenham,2.0,1.0,H
-225,20/01/97,West Ham,Leeds,0.0,2.0,A
-226,29/01/97,Aston Villa,Sheffield Weds,0.0,1.0,A
-227,29/01/97,Leeds,Derby,0.0,0.0,D
-228,29/01/97,Leicester,Sunderland,1.0,1.0,D
-229,29/01/97,Man United,Wimbledon,2.0,1.0,H
-230,29/01/97,Newcastle,Everton,4.0,1.0,H
-231,29/01/97,Nott'm Forest,Coventry,0.0,1.0,A
-232,29/01/97,Tottenham,Blackburn,2.0,1.0,H
-233,29/01/97,West Ham,Arsenal,1.0,2.0,A
-234,01/02/97,Aston Villa,Sunderland,1.0,0.0,H
-235,01/02/97,Blackburn,West Ham,2.0,1.0,H
-236,01/02/97,Derby,Liverpool,0.0,1.0,A
-237,01/02/97,Everton,Nott'm Forest,2.0,0.0,H
-238,01/02/97,Leeds,Arsenal,0.0,0.0,D
-239,01/02/97,Man United,Southampton,2.0,1.0,H
-240,01/02/97,Sheffield Weds,Coventry,0.0,0.0,D
-241,01/02/97,Tottenham,Chelsea,1.0,2.0,A
-242,01/02/97,Wimbledon,Middlesbrough,1.0,1.0,D
-243,02/02/97,Newcastle,Leicester,4.0,3.0,H
-244,15/02/97,Derby,West Ham,1.0,0.0,H
-245,15/02/97,Tottenham,Arsenal,0.0,0.0,D
-246,19/02/97,Arsenal,Man United,1.0,2.0,A
-247,19/02/97,Aston Villa,Coventry,2.0,1.0,H
-248,19/02/97,Derby,Sheffield Weds,2.0,2.0,D
-249,19/02/97,Liverpool,Leeds,4.0,0.0,H
-250,22/02/97,Chelsea,Man United,1.0,1.0,D
-251,22/02/97,Coventry,Everton,0.0,0.0,D
-252,22/02/97,Leicester,Derby,4.0,2.0,H
-253,22/02/97,Liverpool,Blackburn,0.0,0.0,D
-254,22/02/97,Middlesbrough,Newcastle,0.0,1.0,A
-255,22/02/97,Nott'm Forest,Aston Villa,0.0,0.0,D
-256,22/02/97,Southampton,Sheffield Weds,2.0,3.0,A
-257,22/02/97,Sunderland,Leeds,0.0,1.0,A
-258,23/02/97,Arsenal,Wimbledon,0.0,1.0,A
-259,24/02/97,West Ham,Tottenham,4.0,3.0,H
-260,26/02/97,Southampton,Wimbledon,0.0,0.0,D
-261,01/03/97,Blackburn,Sunderland,1.0,0.0,H
-262,01/03/97,Derby,Chelsea,3.0,2.0,H
-263,01/03/97,Everton,Arsenal,0.0,2.0,A
-264,01/03/97,Leeds,West Ham,1.0,0.0,H
-265,01/03/97,Man United,Coventry,3.0,1.0,H
-266,01/03/97,Newcastle,Southampton,0.0,1.0,A
-267,01/03/97,Sheffield Weds,Middlesbrough,3.0,1.0,H
-268,01/03/97,Tottenham,Nott'm Forest,0.0,1.0,A
-269,01/03/97,Wimbledon,Leicester,1.0,3.0,A
-270,02/03/97,Aston Villa,Liverpool,1.0,0.0,H
-271,03/03/97,Coventry,Wimbledon,1.0,1.0,D
-272,04/03/97,Sunderland,Tottenham,0.0,4.0,A
-273,05/03/97,Chelsea,Blackburn,1.0,1.0,D
-274,05/03/97,Leicester,Aston Villa,1.0,0.0,H
-275,05/03/97,Middlesbrough,Derby,6.0,1.0,H
-276,05/03/97,Nott'm Forest,Sheffield Weds,0.0,3.0,A
-277,05/03/97,Southampton,Everton,2.0,2.0,D
-278,08/03/97,Arsenal,Nott'm Forest,2.0,0.0,H
-279,08/03/97,Coventry,Leicester,0.0,0.0,D
-280,08/03/97,Leeds,Everton,1.0,0.0,H
-281,08/03/97,Sunderland,Man United,2.0,1.0,H
-282,10/03/97,Liverpool,Newcastle,4.0,3.0,H
-283,11/03/97,Blackburn,Nott'm Forest,1.0,1.0,D
-284,12/03/97,Leeds,Southampton,0.0,0.0,D
-285,12/03/97,Sheffield Weds,Sunderland,2.0,1.0,H
-286,12/03/97,West Ham,Chelsea,3.0,2.0,H
-287,15/03/97,Aston Villa,West Ham,0.0,0.0,D
-288,15/03/97,Blackburn,Wimbledon,3.0,1.0,H
-289,15/03/97,Everton,Derby,1.0,0.0,H
-290,15/03/97,Leicester,Middlesbrough,1.0,3.0,A
-291,15/03/97,Man United,Sheffield Weds,2.0,0.0,H
-292,15/03/97,Newcastle,Coventry,4.0,0.0,H
-293,15/03/97,Nott'm Forest,Liverpool,1.0,1.0,D
-294,15/03/97,Southampton,Arsenal,0.0,2.0,A
-295,15/03/97,Tottenham,Leeds,1.0,0.0,H
-296,16/03/97,Chelsea,Sunderland,6.0,2.0,H
-297,18/03/97,Wimbledon,West Ham,1.0,1.0,D
-298,19/03/97,Chelsea,Southampton,1.0,0.0,H
-299,19/03/97,Leicester,Tottenham,1.0,1.0,D
-300,19/03/97,Middlesbrough,Blackburn,2.0,1.0,H
-301,22/03/97,Blackburn,Aston Villa,0.0,2.0,A
-302,22/03/97,Coventry,West Ham,1.0,3.0,A
-303,22/03/97,Derby,Tottenham,4.0,2.0,H
-304,22/03/97,Everton,Man United,0.0,2.0,A
-305,22/03/97,Middlesbrough,Chelsea,1.0,0.0,H
-306,22/03/97,Sheffield Weds,Leeds,2.0,2.0,D
-307,22/03/97,Southampton,Leicester,2.0,2.0,D
-308,22/03/97,Sunderland,Nott'm Forest,1.0,1.0,D
-309,23/03/97,Wimbledon,Newcastle,1.0,1.0,D
-310,24/03/97,Arsenal,Liverpool,1.0,2.0,A
-311,24/03/97,Middlesbrough,Nott'm Forest,1.0,1.0,D
-312,05/04/97,Aston Villa,Everton,3.0,1.0,H
-313,05/04/97,Chelsea,Arsenal,0.0,3.0,A
-314,05/04/97,Man United,Derby,2.0,3.0,A
-315,05/04/97,Newcastle,Sunderland,1.0,1.0,D
-316,05/04/97,Nott'm Forest,Southampton,1.0,3.0,A
-317,05/04/97,Tottenham,Wimbledon,1.0,0.0,H
-318,06/04/97,Liverpool,Coventry,1.0,2.0,A
-319,07/04/97,Leeds,Blackburn,0.0,0.0,D
-320,09/04/97,Coventry,Chelsea,3.0,1.0,H
-321,09/04/97,Derby,Southampton,1.0,1.0,D
-322,09/04/97,Everton,Leicester,1.0,1.0,D
-323,09/04/97,Sheffield Weds,Tottenham,2.0,1.0,H
-324,09/04/97,West Ham,Middlesbrough,0.0,0.0,D
-325,09/04/97,Wimbledon,Aston Villa,0.0,2.0,A
-326,12/04/97,Arsenal,Leicester,2.0,0.0,H
-327,12/04/97,Blackburn,Man United,2.0,3.0,A
-328,12/04/97,Derby,Aston Villa,2.0,1.0,H
-329,12/04/97,Everton,Tottenham,1.0,0.0,H
-330,12/04/97,Southampton,West Ham,2.0,0.0,H
-331,13/04/97,Sheffield Weds,Newcastle,1.0,1.0,D
-332,13/04/97,Sunderland,Liverpool,1.0,2.0,A
-333,16/04/97,Everton,Liverpool,1.0,1.0,D
-334,16/04/97,Newcastle,Chelsea,3.0,1.0,H
-335,16/04/97,Wimbledon,Leeds,2.0,0.0,H
-336,19/04/97,Arsenal,Blackburn,1.0,1.0,D
-337,19/04/97,Aston Villa,Tottenham,1.0,1.0,D
-338,19/04/97,Chelsea,Leicester,2.0,1.0,H
-339,19/04/97,Liverpool,Man United,1.0,3.0,A
-340,19/04/97,Middlesbrough,Sunderland,0.0,1.0,A
-341,19/04/97,Newcastle,Derby,3.0,1.0,H
-342,19/04/97,Nott'm Forest,Leeds,1.0,1.0,D
-343,19/04/97,Sheffield Weds,Wimbledon,3.0,1.0,H
-344,19/04/97,Southampton,Coventry,2.0,2.0,D
-345,19/04/97,West Ham,Everton,2.0,2.0,D
-346,21/04/97,Coventry,Arsenal,1.0,1.0,D
-347,22/04/97,Blackburn,Sheffield Weds,4.0,1.0,H
-348,22/04/97,Leeds,Aston Villa,0.0,0.0,D
-349,22/04/97,Sunderland,Southampton,0.0,1.0,A
-350,22/04/97,Wimbledon,Chelsea,0.0,1.0,A
-351,23/04/97,Derby,Nott'm Forest,0.0,0.0,D
-352,23/04/97,Leicester,West Ham,0.0,1.0,A
-353,24/04/97,Tottenham,Middlesbrough,1.0,0.0,H
-354,03/05/97,Arsenal,Newcastle,0.0,1.0,A
-355,03/05/97,Chelsea,Leeds,0.0,0.0,D
-356,03/05/97,Coventry,Derby,1.0,2.0,A
-357,03/05/97,Leicester,Man United,2.0,2.0,D
-358,03/05/97,Liverpool,Tottenham,2.0,1.0,H
-359,03/05/97,Middlesbrough,Aston Villa,3.0,2.0,H
-360,03/05/97,Nott'm Forest,Wimbledon,1.0,1.0,D
-361,03/05/97,Southampton,Blackburn,2.0,0.0,H
-362,03/05/97,Sunderland,Everton,3.0,0.0,H
-363,03/05/97,West Ham,Sheffield Weds,5.0,1.0,H
-364,05/05/97,Man United,Middlesbrough,3.0,3.0,D
-365,06/05/97,West Ham,Newcastle,0.0,0.0,D
-366,06/05/97,Wimbledon,Liverpool,2.0,1.0,H
-367,07/05/97,Leicester,Sheffield Weds,1.0,0.0,H
-368,08/05/97,Blackburn,Middlesbrough,0.0,0.0,D
-369,08/05/97,Man United,Newcastle,0.0,0.0,D
-370,11/05/97,Aston Villa,Southampton,1.0,0.0,H
-371,11/05/97,Blackburn,Leicester,2.0,4.0,A
-372,11/05/97,Derby,Arsenal,1.0,3.0,A
-373,11/05/97,Everton,Chelsea,1.0,2.0,A
-374,11/05/97,Leeds,Middlesbrough,1.0,1.0,D
-375,11/05/97,Man United,West Ham,2.0,0.0,H
-376,11/05/97,Newcastle,Nott'm Forest,5.0,0.0,H
-377,11/05/97,Sheffield Weds,Liverpool,1.0,1.0,D
-378,11/05/97,Tottenham,Coventry,1.0,2.0,A
-379,11/05/97,Wimbledon,Sunderland,1.0,0.0,H
-380,,,,,,
-381,,,,,,
-382,,,,,,
-383,,,,,,
-384,,,,,,
-385,,,,,,
-386,,,,,,
-387,,,,,,
-388,,,,,,
-389,,,,,,
-390,,,,,,
-391,,,,,,
-392,,,,,,
-393,,,,,,
-394,,,,,,
-395,,,,,,
-396,,,,,,
-397,,,,,,
-398,,,,,,
-399,,,,,,
-400,,,,,,
-401,,,,,,
-402,,,,,,
-403,,,,,,
-404,,,,,,
-405,,,,,,
-406,,,,,,
-407,,,,,,
-408,,,,,,
-409,,,,,,
-410,,,,,,
-411,,,,,,
-412,,,,,,
-413,,,,,,
-414,,,,,,
-415,,,,,,
-416,,,,,,
-417,,,,,,
-418,,,,,,
-419,,,,,,
-420,,,,,,
-421,,,,,,
-422,,,,,,
-423,,,,,,
-424,,,,,,
-425,,,,,,
-426,,,,,,
-427,,,,,,
-428,,,,,,
-429,,,,,,
-430,,,,,,
-431,,,,,,
-432,,,,,,
-433,,,,,,
-434,,,,,,
-435,,,,,,
-436,,,,,,
-437,,,,,,
-438,,,,,,
-439,,,,,,
-440,,,,,,
-441,,,,,,
-442,,,,,,
-443,,,,,,
-444,,,,,,
-445,,,,,,
-446,,,,,,
-447,,,,,,
-448,,,,,,
-449,,,,,,
-450,,,,,,
-451,,,,,,
-452,,,,,,
-453,,,,,,
-454,,,,,,
-455,,,,,,
-456,,,,,,
-457,,,,,,
-458,,,,,,
-459,,,,,,
-460,,,,,,
-461,,,,,,
-462,,,,,,
-463,,,,,,
-464,,,,,,
-465,,,,,,
-466,,,,,,
-467,,,,,,
-468,,,,,,
-469,,,,,,
-470,,,,,,
-471,,,,,,
-472,,,,,,
-473,,,,,,
-474,,,,,,
-475,,,,,,
-476,,,,,,
-477,,,,,,
-478,,,,,,
-479,,,,,,
-480,,,,,,
-481,,,,,,
-482,,,,,,
-483,,,,,,
-484,,,,,,
-485,,,,,,
-486,,,,,,
-487,,,,,,
-488,,,,,,
-489,,,,,,
-490,,,,,,
-491,,,,,,
-492,,,,,,
-493,,,,,,
-494,,,,,,
-495,,,,,,
-496,,,,,,
-497,,,,,,
-498,,,,,,
-499,,,,,,
-500,,,,,,
-501,,,,,,
-502,,,,,,
-503,,,,,,
-504,,,,,,
-505,,,,,,
-506,,,,,,
-507,,,,,,
-508,,,,,,
-509,,,,,,
-510,,,,,,
-511,,,,,,
-512,,,,,,
-513,,,,,,
-514,,,,,,
-515,,,,,,
-516,,,,,,
-517,,,,,,
-518,,,,,,
-519,,,,,,
-520,,,,,,
-521,,,,,,
-522,,,,,,
-523,,,,,,
-524,,,,,,
-525,,,,,,
-526,,,,,,
-527,,,,,,
-528,,,,,,
-529,,,,,,
-530,,,,,,
-531,,,,,,
-532,,,,,,
-533,,,,,,
-534,,,,,,
-535,,,,,,
-536,,,,,,
-537,,,,,,
-538,,,,,,
-539,,,,,,
-540,,,,,,
-541,,,,,,
-542,,,,,,
-543,,,,,,
-544,,,,,,
-545,,,,,,
-546,,,,,,
-547,,,,,,
-548,,,,,,
-549,,,,,,
-550,,,,,,
-551,,,,,,
+MatchID,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+0,17/08/96,Arsenal,West Ham,2,0,H
+1,17/08/96,Blackburn,Tottenham,0,2,A
+2,17/08/96,Coventry,Nott'm Forest,0,3,A
+3,17/08/96,Derby,Leeds,3,3,D
+4,17/08/96,Everton,Newcastle,2,0,H
+5,17/08/96,Middlesbrough,Liverpool,3,3,D
+6,17/08/96,Sheffield Weds,Aston Villa,2,1,H
+7,17/08/96,Sunderland,Leicester,0,0,D
+8,17/08/96,Wimbledon,Man United,0,3,A
+9,18/08/96,Southampton,Chelsea,0,0,D
+10,19/08/96,Liverpool,Arsenal,2,0,H
+11,20/08/96,Leeds,Sheffield Weds,0,2,A
+12,21/08/96,Aston Villa,Blackburn,1,0,H
+13,21/08/96,Chelsea,Middlesbrough,1,0,H
+14,21/08/96,Leicester,Southampton,2,1,H
+15,21/08/96,Man United,Everton,2,2,D
+16,21/08/96,Newcastle,Wimbledon,2,0,H
+17,21/08/96,Nott'm Forest,Sunderland,1,4,A
+18,21/08/96,Tottenham,Derby,1,1,D
+19,21/08/96,West Ham,Coventry,1,1,D
+20,24/08/96,Aston Villa,Derby,2,0,H
+21,24/08/96,Chelsea,Coventry,2,0,H
+22,24/08/96,Leicester,Arsenal,0,2,A
+23,24/08/96,Liverpool,Sunderland,0,0,D
+24,24/08/96,Newcastle,Sheffield Weds,1,2,A
+25,24/08/96,Nott'm Forest,Middlesbrough,1,1,D
+26,24/08/96,Tottenham,Everton,0,0,D
+27,24/08/96,West Ham,Southampton,2,1,H
+28,25/08/96,Man United,Blackburn,2,2,D
+29,26/08/96,Leeds,Wimbledon,1,0,H
+30,02/09/96,Sheffield Weds,Leicester,2,1,H
+31,04/09/96,Arsenal,Chelsea,3,3,D
+32,04/09/96,Blackburn,Leeds,0,1,A
+33,04/09/96,Coventry,Liverpool,0,1,A
+34,04/09/96,Derby,Man United,1,1,D
+35,04/09/96,Everton,Aston Villa,0,1,A
+36,04/09/96,Middlesbrough,West Ham,4,1,H
+37,04/09/96,Southampton,Nott'm Forest,2,2,D
+38,04/09/96,Sunderland,Newcastle,1,2,A
+39,04/09/96,Wimbledon,Tottenham,1,0,H
+40,07/09/96,Aston Villa,Arsenal,2,2,D
+41,07/09/96,Leeds,Man United,0,4,A
+42,07/09/96,Liverpool,Southampton,2,1,H
+43,07/09/96,Middlesbrough,Coventry,4,0,H
+44,07/09/96,Nott'm Forest,Leicester,0,0,D
+45,07/09/96,Sheffield Weds,Chelsea,0,2,A
+46,07/09/96,Tottenham,Newcastle,1,2,A
+47,07/09/96,Wimbledon,Everton,4,0,H
+48,08/09/96,Sunderland,West Ham,0,0,D
+49,09/09/96,Blackburn,Derby,1,2,A
+50,14/09/96,Coventry,Leeds,2,1,H
+51,14/09/96,Derby,Sunderland,1,0,H
+52,14/09/96,Everton,Middlesbrough,1,2,A
+53,14/09/96,Man United,Nott'm Forest,4,1,H
+54,14/09/96,Newcastle,Blackburn,2,1,H
+55,14/09/96,Southampton,Tottenham,0,1,A
+56,14/09/96,West Ham,Wimbledon,0,2,A
+57,15/09/96,Chelsea,Aston Villa,1,1,D
+58,15/09/96,Leicester,Liverpool,0,3,A
+59,16/09/96,Arsenal,Sheffield Weds,4,1,H
+60,21/09/96,Aston Villa,Man United,0,0,D
+61,21/09/96,Blackburn,Everton,1,1,D
+62,21/09/96,Leeds,Newcastle,0,1,A
+63,21/09/96,Liverpool,Chelsea,5,1,H
+64,21/09/96,Middlesbrough,Arsenal,0,2,A
+65,21/09/96,Nott'm Forest,West Ham,0,2,A
+66,21/09/96,Sheffield Weds,Derby,0,0,D
+67,21/09/96,Sunderland,Coventry,1,0,H
+68,22/09/96,Tottenham,Leicester,1,2,A
+69,23/09/96,Wimbledon,Southampton,3,1,H
+70,28/09/96,Arsenal,Sunderland,2,0,H
+71,28/09/96,Chelsea,Nott'm Forest,1,1,D
+72,28/09/96,Coventry,Blackburn,0,0,D
+73,28/09/96,Derby,Wimbledon,0,2,A
+74,28/09/96,Everton,Sheffield Weds,2,0,H
+75,28/09/96,Leicester,Leeds,1,0,H
+76,28/09/96,Southampton,Middlesbrough,4,0,H
+77,29/09/96,Man United,Tottenham,2,0,H
+78,29/09/96,West Ham,Liverpool,1,2,A
+79,30/09/96,Newcastle,Aston Villa,4,3,H
+80,12/10/96,Blackburn,Arsenal,0,2,A
+81,12/10/96,Derby,Newcastle,0,1,A
+82,12/10/96,Everton,West Ham,2,1,H
+83,12/10/96,Leeds,Nott'm Forest,2,0,H
+84,12/10/96,Leicester,Chelsea,1,3,A
+85,12/10/96,Man United,Liverpool,1,0,H
+86,12/10/96,Tottenham,Aston Villa,1,0,H
+87,12/10/96,Wimbledon,Sheffield Weds,4,2,H
+88,13/10/96,Coventry,Southampton,1,1,D
+89,14/10/96,Sunderland,Middlesbrough,2,2,D
+90,19/10/96,Arsenal,Coventry,0,0,D
+91,19/10/96,Aston Villa,Leeds,2,0,H
+92,19/10/96,Chelsea,Wimbledon,2,4,A
+93,19/10/96,Middlesbrough,Tottenham,0,3,A
+94,19/10/96,Nott'm Forest,Derby,1,1,D
+95,19/10/96,Sheffield Weds,Blackburn,1,1,D
+96,19/10/96,Southampton,Sunderland,3,0,H
+97,19/10/96,West Ham,Leicester,1,0,H
+98,20/10/96,Newcastle,Man United,5,0,H
+99,26/10/96,Arsenal,Leeds,3,0,H
+100,26/10/96,Chelsea,Tottenham,3,1,H
+101,26/10/96,Coventry,Sheffield Weds,0,0,D
+102,26/10/96,Leicester,Newcastle,2,0,H
+103,26/10/96,Middlesbrough,Wimbledon,0,0,D
+104,26/10/96,Southampton,Man United,6,3,H
+105,26/10/96,Sunderland,Aston Villa,1,0,H
+106,26/10/96,West Ham,Blackburn,2,1,H
+107,27/10/96,Liverpool,Derby,2,1,H
+108,28/10/96,Nott'm Forest,Everton,0,1,A
+109,02/11/96,Aston Villa,Nott'm Forest,2,0,H
+110,02/11/96,Derby,Leicester,2,0,H
+111,02/11/96,Leeds,Sunderland,3,0,H
+112,02/11/96,Man United,Chelsea,1,2,A
+113,02/11/96,Sheffield Weds,Southampton,1,1,D
+114,02/11/96,Tottenham,West Ham,1,0,H
+115,02/11/96,Wimbledon,Arsenal,2,2,D
+116,03/11/96,Blackburn,Liverpool,3,0,H
+117,03/11/96,Newcastle,Middlesbrough,3,1,H
+118,04/11/96,Everton,Coventry,1,1,D
+119,16/11/96,Aston Villa,Leicester,1,3,A
+120,16/11/96,Blackburn,Chelsea,1,1,D
+121,16/11/96,Everton,Southampton,7,1,H
+122,16/11/96,Leeds,Liverpool,0,2,A
+123,16/11/96,Man United,Arsenal,1,0,H
+124,16/11/96,Newcastle,West Ham,1,1,D
+125,16/11/96,Tottenham,Sunderland,2,0,H
+126,16/11/96,Wimbledon,Coventry,2,2,D
+127,17/11/96,Derby,Middlesbrough,2,1,H
+128,18/11/96,Sheffield Weds,Nott'm Forest,2,0,H
+129,20/11/96,Liverpool,Everton,1,1,D
+130,23/11/96,Chelsea,Newcastle,1,1,D
+131,23/11/96,Coventry,Aston Villa,1,2,A
+132,23/11/96,Leicester,Everton,1,2,A
+133,23/11/96,Liverpool,Wimbledon,1,1,D
+134,23/11/96,Middlesbrough,Man United,2,2,D
+135,23/11/96,Southampton,Leeds,0,2,A
+136,23/11/96,Sunderland,Sheffield Weds,1,1,D
+137,23/11/96,West Ham,Derby,1,1,D
+138,24/11/96,Arsenal,Tottenham,3,1,H
+139,25/11/96,Nott'm Forest,Blackburn,2,2,D
+140,30/11/96,Aston Villa,Middlesbrough,1,0,H
+141,30/11/96,Blackburn,Southampton,2,1,H
+142,30/11/96,Derby,Coventry,2,1,H
+143,30/11/96,Everton,Sunderland,1,3,A
+144,30/11/96,Man United,Leicester,3,1,H
+145,30/11/96,Newcastle,Arsenal,1,2,A
+146,30/11/96,Sheffield Weds,West Ham,0,0,D
+147,30/11/96,Wimbledon,Nott'm Forest,1,0,H
+148,01/12/96,Leeds,Chelsea,2,0,H
+149,02/12/96,Tottenham,Liverpool,0,2,A
+150,03/12/96,Middlesbrough,Leicester,0,2,A
+151,04/12/96,Arsenal,Southampton,3,1,H
+152,04/12/96,West Ham,Aston Villa,0,2,A
+153,07/12/96,Arsenal,Derby,2,2,D
+154,07/12/96,Chelsea,Everton,2,2,D
+155,07/12/96,Coventry,Tottenham,1,2,A
+156,07/12/96,Leicester,Blackburn,1,1,D
+157,07/12/96,Liverpool,Sheffield Weds,0,1,A
+158,07/12/96,Middlesbrough,Leeds,0,0,D
+159,07/12/96,Southampton,Aston Villa,0,1,A
+160,07/12/96,Sunderland,Wimbledon,1,3,A
+161,08/12/96,West Ham,Man United,2,2,D
+162,09/12/96,Nott'm Forest,Newcastle,0,0,D
+163,14/12/96,Leeds,Tottenham,0,0,D
+164,14/12/96,Liverpool,Middlesbrough,5,1,H
+165,14/12/96,Wimbledon,Blackburn,1,0,H
+166,15/12/96,Sunderland,Chelsea,3,0,H
+167,16/12/96,Derby,Everton,0,1,A
+168,17/12/96,Coventry,Newcastle,2,1,H
+169,17/12/96,Liverpool,Nott'm Forest,4,2,H
+170,18/12/96,Sheffield Weds,Man United,1,1,D
+171,21/12/96,Chelsea,West Ham,3,1,H
+172,21/12/96,Everton,Leeds,0,0,D
+173,21/12/96,Leicester,Coventry,0,2,A
+174,21/12/96,Man United,Sunderland,5,0,H
+175,21/12/96,Nott'm Forest,Arsenal,2,1,H
+176,21/12/96,Southampton,Derby,3,1,H
+177,21/12/96,Tottenham,Sheffield Weds,1,1,D
+178,22/12/96,Aston Villa,Wimbledon,5,0,H
+179,23/12/96,Newcastle,Liverpool,1,1,D
+180,26/12/96,Aston Villa,Chelsea,0,2,A
+181,26/12/96,Blackburn,Newcastle,1,0,H
+182,26/12/96,Leeds,Coventry,1,3,A
+183,26/12/96,Liverpool,Leicester,1,1,D
+184,26/12/96,Middlesbrough,Everton,4,2,H
+185,26/12/96,Nott'm Forest,Man United,0,4,A
+186,26/12/96,Sheffield Weds,Arsenal,0,0,D
+187,26/12/96,Sunderland,Derby,2,0,H
+188,26/12/96,Tottenham,Southampton,3,1,H
+189,28/12/96,Arsenal,Aston Villa,2,2,D
+190,28/12/96,Chelsea,Sheffield Weds,2,2,D
+191,28/12/96,Coventry,Middlesbrough,3,0,H
+192,28/12/96,Derby,Blackburn,0,0,D
+193,28/12/96,Everton,Wimbledon,1,3,A
+194,28/12/96,Leicester,Nott'm Forest,2,2,D
+195,28/12/96,Man United,Leeds,1,0,H
+196,28/12/96,Newcastle,Tottenham,7,1,H
+197,28/12/96,West Ham,Sunderland,2,0,H
+198,29/12/96,Southampton,Liverpool,0,1,A
+199,01/01/97,Arsenal,Middlesbrough,2,0,H
+200,01/01/97,Chelsea,Liverpool,1,0,H
+201,01/01/97,Coventry,Sunderland,2,2,D
+202,01/01/97,Everton,Blackburn,0,2,A
+203,01/01/97,Man United,Aston Villa,0,0,D
+204,01/01/97,Newcastle,Leeds,3,0,H
+205,01/01/97,West Ham,Nott'm Forest,0,1,A
+206,11/01/97,Aston Villa,Newcastle,2,2,D
+207,11/01/97,Blackburn,Coventry,4,0,H
+208,11/01/97,Leeds,Leicester,3,0,H
+209,11/01/97,Liverpool,West Ham,0,0,D
+210,11/01/97,Middlesbrough,Southampton,0,1,A
+211,11/01/97,Nott'm Forest,Chelsea,2,0,H
+212,11/01/97,Sheffield Weds,Everton,2,1,H
+213,11/01/97,Sunderland,Arsenal,1,0,H
+214,11/01/97,Wimbledon,Derby,1,1,D
+215,12/01/97,Tottenham,Man United,1,2,A
+216,18/01/97,Chelsea,Derby,3,1,H
+217,18/01/97,Coventry,Man United,0,2,A
+218,18/01/97,Leicester,Wimbledon,1,0,H
+219,18/01/97,Liverpool,Aston Villa,3,0,H
+220,18/01/97,Middlesbrough,Sheffield Weds,4,2,H
+221,18/01/97,Southampton,Newcastle,2,2,D
+222,18/01/97,Sunderland,Blackburn,0,0,D
+223,19/01/97,Arsenal,Everton,3,1,H
+224,19/01/97,Nott'm Forest,Tottenham,2,1,H
+225,20/01/97,West Ham,Leeds,0,2,A
+226,29/01/97,Aston Villa,Sheffield Weds,0,1,A
+227,29/01/97,Leeds,Derby,0,0,D
+228,29/01/97,Leicester,Sunderland,1,1,D
+229,29/01/97,Man United,Wimbledon,2,1,H
+230,29/01/97,Newcastle,Everton,4,1,H
+231,29/01/97,Nott'm Forest,Coventry,0,1,A
+232,29/01/97,Tottenham,Blackburn,2,1,H
+233,29/01/97,West Ham,Arsenal,1,2,A
+234,01/02/97,Aston Villa,Sunderland,1,0,H
+235,01/02/97,Blackburn,West Ham,2,1,H
+236,01/02/97,Derby,Liverpool,0,1,A
+237,01/02/97,Everton,Nott'm Forest,2,0,H
+238,01/02/97,Leeds,Arsenal,0,0,D
+239,01/02/97,Man United,Southampton,2,1,H
+240,01/02/97,Sheffield Weds,Coventry,0,0,D
+241,01/02/97,Tottenham,Chelsea,1,2,A
+242,01/02/97,Wimbledon,Middlesbrough,1,1,D
+243,02/02/97,Newcastle,Leicester,4,3,H
+244,15/02/97,Derby,West Ham,1,0,H
+245,15/02/97,Tottenham,Arsenal,0,0,D
+246,19/02/97,Arsenal,Man United,1,2,A
+247,19/02/97,Aston Villa,Coventry,2,1,H
+248,19/02/97,Derby,Sheffield Weds,2,2,D
+249,19/02/97,Liverpool,Leeds,4,0,H
+250,22/02/97,Chelsea,Man United,1,1,D
+251,22/02/97,Coventry,Everton,0,0,D
+252,22/02/97,Leicester,Derby,4,2,H
+253,22/02/97,Liverpool,Blackburn,0,0,D
+254,22/02/97,Middlesbrough,Newcastle,0,1,A
+255,22/02/97,Nott'm Forest,Aston Villa,0,0,D
+256,22/02/97,Southampton,Sheffield Weds,2,3,A
+257,22/02/97,Sunderland,Leeds,0,1,A
+258,23/02/97,Arsenal,Wimbledon,0,1,A
+259,24/02/97,West Ham,Tottenham,4,3,H
+260,26/02/97,Southampton,Wimbledon,0,0,D
+261,01/03/97,Blackburn,Sunderland,1,0,H
+262,01/03/97,Derby,Chelsea,3,2,H
+263,01/03/97,Everton,Arsenal,0,2,A
+264,01/03/97,Leeds,West Ham,1,0,H
+265,01/03/97,Man United,Coventry,3,1,H
+266,01/03/97,Newcastle,Southampton,0,1,A
+267,01/03/97,Sheffield Weds,Middlesbrough,3,1,H
+268,01/03/97,Tottenham,Nott'm Forest,0,1,A
+269,01/03/97,Wimbledon,Leicester,1,3,A
+270,02/03/97,Aston Villa,Liverpool,1,0,H
+271,03/03/97,Coventry,Wimbledon,1,1,D
+272,04/03/97,Sunderland,Tottenham,0,4,A
+273,05/03/97,Chelsea,Blackburn,1,1,D
+274,05/03/97,Leicester,Aston Villa,1,0,H
+275,05/03/97,Middlesbrough,Derby,6,1,H
+276,05/03/97,Nott'm Forest,Sheffield Weds,0,3,A
+277,05/03/97,Southampton,Everton,2,2,D
+278,08/03/97,Arsenal,Nott'm Forest,2,0,H
+279,08/03/97,Coventry,Leicester,0,0,D
+280,08/03/97,Leeds,Everton,1,0,H
+281,08/03/97,Sunderland,Man United,2,1,H
+282,10/03/97,Liverpool,Newcastle,4,3,H
+283,11/03/97,Blackburn,Nott'm Forest,1,1,D
+284,12/03/97,Leeds,Southampton,0,0,D
+285,12/03/97,Sheffield Weds,Sunderland,2,1,H
+286,12/03/97,West Ham,Chelsea,3,2,H
+287,15/03/97,Aston Villa,West Ham,0,0,D
+288,15/03/97,Blackburn,Wimbledon,3,1,H
+289,15/03/97,Everton,Derby,1,0,H
+290,15/03/97,Leicester,Middlesbrough,1,3,A
+291,15/03/97,Man United,Sheffield Weds,2,0,H
+292,15/03/97,Newcastle,Coventry,4,0,H
+293,15/03/97,Nott'm Forest,Liverpool,1,1,D
+294,15/03/97,Southampton,Arsenal,0,2,A
+295,15/03/97,Tottenham,Leeds,1,0,H
+296,16/03/97,Chelsea,Sunderland,6,2,H
+297,18/03/97,Wimbledon,West Ham,1,1,D
+298,19/03/97,Chelsea,Southampton,1,0,H
+299,19/03/97,Leicester,Tottenham,1,1,D
+300,19/03/97,Middlesbrough,Blackburn,2,1,H
+301,22/03/97,Blackburn,Aston Villa,0,2,A
+302,22/03/97,Coventry,West Ham,1,3,A
+303,22/03/97,Derby,Tottenham,4,2,H
+304,22/03/97,Everton,Man United,0,2,A
+305,22/03/97,Middlesbrough,Chelsea,1,0,H
+306,22/03/97,Sheffield Weds,Leeds,2,2,D
+307,22/03/97,Southampton,Leicester,2,2,D
+308,22/03/97,Sunderland,Nott'm Forest,1,1,D
+309,23/03/97,Wimbledon,Newcastle,1,1,D
+310,24/03/97,Arsenal,Liverpool,1,2,A
+311,24/03/97,Middlesbrough,Nott'm Forest,1,1,D
+312,05/04/97,Aston Villa,Everton,3,1,H
+313,05/04/97,Chelsea,Arsenal,0,3,A
+314,05/04/97,Man United,Derby,2,3,A
+315,05/04/97,Newcastle,Sunderland,1,1,D
+316,05/04/97,Nott'm Forest,Southampton,1,3,A
+317,05/04/97,Tottenham,Wimbledon,1,0,H
+318,06/04/97,Liverpool,Coventry,1,2,A
+319,07/04/97,Leeds,Blackburn,0,0,D
+320,09/04/97,Coventry,Chelsea,3,1,H
+321,09/04/97,Derby,Southampton,1,1,D
+322,09/04/97,Everton,Leicester,1,1,D
+323,09/04/97,Sheffield Weds,Tottenham,2,1,H
+324,09/04/97,West Ham,Middlesbrough,0,0,D
+325,09/04/97,Wimbledon,Aston Villa,0,2,A
+326,12/04/97,Arsenal,Leicester,2,0,H
+327,12/04/97,Blackburn,Man United,2,3,A
+328,12/04/97,Derby,Aston Villa,2,1,H
+329,12/04/97,Everton,Tottenham,1,0,H
+330,12/04/97,Southampton,West Ham,2,0,H
+331,13/04/97,Sheffield Weds,Newcastle,1,1,D
+332,13/04/97,Sunderland,Liverpool,1,2,A
+333,16/04/97,Everton,Liverpool,1,1,D
+334,16/04/97,Newcastle,Chelsea,3,1,H
+335,16/04/97,Wimbledon,Leeds,2,0,H
+336,19/04/97,Arsenal,Blackburn,1,1,D
+337,19/04/97,Aston Villa,Tottenham,1,1,D
+338,19/04/97,Chelsea,Leicester,2,1,H
+339,19/04/97,Liverpool,Man United,1,3,A
+340,19/04/97,Middlesbrough,Sunderland,0,1,A
+341,19/04/97,Newcastle,Derby,3,1,H
+342,19/04/97,Nott'm Forest,Leeds,1,1,D
+343,19/04/97,Sheffield Weds,Wimbledon,3,1,H
+344,19/04/97,Southampton,Coventry,2,2,D
+345,19/04/97,West Ham,Everton,2,2,D
+346,21/04/97,Coventry,Arsenal,1,1,D
+347,22/04/97,Blackburn,Sheffield Weds,4,1,H
+348,22/04/97,Leeds,Aston Villa,0,0,D
+349,22/04/97,Sunderland,Southampton,0,1,A
+350,22/04/97,Wimbledon,Chelsea,0,1,A
+351,23/04/97,Derby,Nott'm Forest,0,0,D
+352,23/04/97,Leicester,West Ham,0,1,A
+353,24/04/97,Tottenham,Middlesbrough,1,0,H
+354,03/05/97,Arsenal,Newcastle,0,1,A
+355,03/05/97,Chelsea,Leeds,0,0,D
+356,03/05/97,Coventry,Derby,1,2,A
+357,03/05/97,Leicester,Man United,2,2,D
+358,03/05/97,Liverpool,Tottenham,2,1,H
+359,03/05/97,Middlesbrough,Aston Villa,3,2,H
+360,03/05/97,Nott'm Forest,Wimbledon,1,1,D
+361,03/05/97,Southampton,Blackburn,2,0,H
+362,03/05/97,Sunderland,Everton,3,0,H
+363,03/05/97,West Ham,Sheffield Weds,5,1,H
+364,05/05/97,Man United,Middlesbrough,3,3,D
+365,06/05/97,West Ham,Newcastle,0,0,D
+366,06/05/97,Wimbledon,Liverpool,2,1,H
+367,07/05/97,Leicester,Sheffield Weds,1,0,H
+368,08/05/97,Blackburn,Middlesbrough,0,0,D
+369,08/05/97,Man United,Newcastle,0,0,D
+370,11/05/97,Aston Villa,Southampton,1,0,H
+371,11/05/97,Blackburn,Leicester,2,4,A
+372,11/05/97,Derby,Arsenal,1,3,A
+373,11/05/97,Everton,Chelsea,1,2,A
+374,11/05/97,Leeds,Middlesbrough,1,1,D
+375,11/05/97,Man United,West Ham,2,0,H
+376,11/05/97,Newcastle,Nott'm Forest,5,0,H
+377,11/05/97,Sheffield Weds,Liverpool,1,1,D
+378,11/05/97,Tottenham,Coventry,1,2,A
+379,11/05/97,Wimbledon,Sunderland,1,0,H

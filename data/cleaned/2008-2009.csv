@@ -1,381 +1,381 @@
-,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
-0,16/08/08,Arsenal,West Brom,1,0,H
-1,16/08/08,Bolton,Stoke,3,1,H
-2,16/08/08,Everton,Blackburn,2,3,A
-3,16/08/08,Hull,Fulham,2,1,H
-4,16/08/08,Middlesbrough,Tottenham,2,1,H
-5,16/08/08,Sunderland,Liverpool,0,1,A
-6,16/08/08,West Ham,Wigan,2,1,H
-7,17/08/08,Aston Villa,Man City,4,2,H
-8,17/08/08,Chelsea,Portsmouth,4,0,H
-9,17/08/08,Man United,Newcastle,1,1,D
-10,23/08/08,Blackburn,Hull,1,1,D
-11,23/08/08,Fulham,Arsenal,1,0,H
-12,23/08/08,Liverpool,Middlesbrough,2,1,H
-13,23/08/08,Newcastle,Bolton,1,0,H
-14,23/08/08,Stoke,Aston Villa,3,2,H
-15,23/08/08,Tottenham,Sunderland,1,2,A
-16,23/08/08,West Brom,Everton,1,2,A
-17,24/08/08,Man City,West Ham,3,0,H
-18,24/08/08,Wigan,Chelsea,0,1,A
-19,25/08/08,Portsmouth,Man United,0,1,A
-20,30/08/08,Arsenal,Newcastle,3,0,H
-21,30/08/08,Bolton,West Brom,0,0,D
-22,30/08/08,Everton,Portsmouth,0,3,A
-23,30/08/08,Hull,Wigan,0,5,A
-24,30/08/08,Middlesbrough,Stoke,2,1,H
-25,30/08/08,West Ham,Blackburn,4,1,H
-26,31/08/08,Aston Villa,Liverpool,0,0,D
-27,31/08/08,Chelsea,Tottenham,1,1,D
-28,31/08/08,Sunderland,Man City,0,3,A
-29,13/09/08,Blackburn,Arsenal,0,4,A
-30,13/09/08,Fulham,Bolton,2,1,H
-31,13/09/08,Liverpool,Man United,2,1,H
-32,13/09/08,Man City,Chelsea,1,3,A
-33,13/09/08,Newcastle,Hull,1,2,A
-34,13/09/08,Portsmouth,Middlesbrough,2,1,H
-35,13/09/08,West Brom,West Ham,3,2,H
-36,13/09/08,Wigan,Sunderland,1,1,D
-37,14/09/08,Stoke,Everton,2,3,A
-38,15/09/08,Tottenham,Aston Villa,1,2,A
-39,20/09/08,Blackburn,Fulham,1,0,H
-40,20/09/08,Bolton,Arsenal,1,3,A
-41,20/09/08,Liverpool,Stoke,0,0,D
-42,20/09/08,Sunderland,Middlesbrough,2,0,H
-43,20/09/08,West Ham,Newcastle,3,1,H
-44,21/09/08,Chelsea,Man United,1,1,D
-45,21/09/08,Hull,Everton,2,2,D
-46,21/09/08,Man City,Portsmouth,6,0,H
-47,21/09/08,Tottenham,Wigan,0,0,D
-48,21/09/08,West Brom,Aston Villa,1,2,A
-49,27/09/08,Arsenal,Hull,1,2,A
-50,27/09/08,Aston Villa,Sunderland,2,1,H
-51,27/09/08,Everton,Liverpool,0,2,A
-52,27/09/08,Fulham,West Ham,1,2,A
-53,27/09/08,Man United,Bolton,2,0,H
-54,27/09/08,Middlesbrough,West Brom,0,1,A
-55,27/09/08,Newcastle,Blackburn,1,2,A
-56,27/09/08,Stoke,Chelsea,0,2,A
-57,28/09/08,Portsmouth,Tottenham,2,0,H
-58,28/09/08,Wigan,Man City,2,1,H
-59,04/10/08,Blackburn,Man United,0,2,A
-60,04/10/08,Sunderland,Arsenal,1,1,D
-61,04/10/08,West Brom,Fulham,1,0,H
-62,04/10/08,Wigan,Middlesbrough,0,1,A
-63,05/10/08,Chelsea,Aston Villa,2,0,H
-64,05/10/08,Everton,Newcastle,2,2,D
-65,05/10/08,Man City,Liverpool,2,3,A
-66,05/10/08,Portsmouth,Stoke,2,1,H
-67,05/10/08,Tottenham,Hull,0,1,A
-68,05/10/08,West Ham,Bolton,1,3,A
-69,18/10/08,Arsenal,Everton,3,1,H
-70,18/10/08,Aston Villa,Portsmouth,0,0,D
-71,18/10/08,Bolton,Blackburn,0,0,D
-72,18/10/08,Fulham,Sunderland,0,0,D
-73,18/10/08,Liverpool,Wigan,3,2,H
-74,18/10/08,Man United,West Brom,4,0,H
-75,18/10/08,Middlesbrough,Chelsea,0,5,A
-76,19/10/08,Hull,West Ham,1,0,H
-77,19/10/08,Stoke,Tottenham,2,1,H
-78,20/10/08,Newcastle,Man City,2,2,D
-79,25/10/08,Blackburn,Middlesbrough,1,1,D
-80,25/10/08,Everton,Man United,1,1,D
-81,25/10/08,Sunderland,Newcastle,2,1,H
-82,25/10/08,West Brom,Hull,0,3,A
-83,26/10/08,Chelsea,Liverpool,0,1,A
-84,26/10/08,Man City,Stoke,3,0,H
-85,26/10/08,Portsmouth,Fulham,1,1,D
-86,26/10/08,Tottenham,Bolton,2,0,H
-87,26/10/08,West Ham,Arsenal,0,2,A
-88,26/10/08,Wigan,Aston Villa,0,4,A
-89,28/10/08,Newcastle,West Brom,2,1,H
-90,29/10/08,Arsenal,Tottenham,4,4,D
-91,29/10/08,Aston Villa,Blackburn,3,2,H
-92,29/10/08,Bolton,Everton,0,1,A
-93,29/10/08,Fulham,Wigan,2,0,H
-94,29/10/08,Hull,Chelsea,0,3,A
-95,29/10/08,Liverpool,Portsmouth,1,0,H
-96,29/10/08,Man United,West Ham,2,0,H
-97,29/10/08,Middlesbrough,Man City,2,0,H
-98,29/10/08,Stoke,Sunderland,1,0,H
-99,01/11/08,Chelsea,Sunderland,5,0,H
-100,01/11/08,Everton,Fulham,1,0,H
-101,01/11/08,Man United,Hull,4,3,H
-102,01/11/08,Middlesbrough,West Ham,1,1,D
-103,01/11/08,Portsmouth,Wigan,1,2,A
-104,01/11/08,Stoke,Arsenal,2,1,H
-105,01/11/08,Tottenham,Liverpool,2,1,H
-106,01/11/08,West Brom,Blackburn,2,2,D
-107,02/11/08,Bolton,Man City,2,0,H
-108,03/11/08,Newcastle,Aston Villa,2,0,H
-109,08/11/08,Arsenal,Man United,2,1,H
-110,08/11/08,Hull,Bolton,0,1,A
-111,08/11/08,Liverpool,West Brom,3,0,H
-112,08/11/08,Sunderland,Portsmouth,1,2,A
-113,08/11/08,West Ham,Everton,1,3,A
-114,08/11/08,Wigan,Stoke,0,0,D
-115,09/11/08,Aston Villa,Middlesbrough,1,2,A
-116,09/11/08,Blackburn,Chelsea,0,2,A
-117,09/11/08,Fulham,Newcastle,2,1,H
-118,09/11/08,Man City,Tottenham,1,2,A
-119,15/11/08,Arsenal,Aston Villa,0,2,A
-120,15/11/08,Blackburn,Sunderland,1,2,A
-121,15/11/08,Bolton,Liverpool,0,2,A
-122,15/11/08,Fulham,Tottenham,2,1,H
-123,15/11/08,Man United,Stoke,5,0,H
-124,15/11/08,Newcastle,Wigan,2,2,D
-125,15/11/08,West Brom,Chelsea,0,3,A
-126,15/11/08,West Ham,Portsmouth,0,0,D
-127,16/11/08,Everton,Middlesbrough,1,1,D
-128,16/11/08,Hull,Man City,2,2,D
-129,22/11/08,Aston Villa,Man United,0,0,D
-130,22/11/08,Chelsea,Newcastle,0,0,D
-131,22/11/08,Liverpool,Fulham,0,0,D
-132,22/11/08,Man City,Arsenal,3,0,H
-133,22/11/08,Middlesbrough,Bolton,1,3,A
-134,22/11/08,Portsmouth,Hull,2,2,D
-135,22/11/08,Stoke,West Brom,1,0,H
-136,23/11/08,Sunderland,West Ham,0,1,A
-137,23/11/08,Tottenham,Blackburn,1,0,H
-138,24/11/08,Wigan,Everton,1,0,H
-139,29/11/08,Aston Villa,Fulham,0,0,D
-140,29/11/08,Middlesbrough,Newcastle,0,0,D
-141,29/11/08,Stoke,Hull,1,1,D
-142,29/11/08,Sunderland,Bolton,1,4,A
-143,29/11/08,Wigan,West Brom,2,1,H
-144,30/11/08,Chelsea,Arsenal,1,2,A
-145,30/11/08,Man City,Man United,0,1,A
-146,30/11/08,Portsmouth,Blackburn,3,2,H
-147,30/11/08,Tottenham,Everton,0,1,A
-148,01/12/08,Liverpool,West Ham,0,0,D
-149,06/12/08,Arsenal,Wigan,1,0,H
-150,06/12/08,Blackburn,Liverpool,1,3,A
-151,06/12/08,Bolton,Chelsea,0,2,A
-152,06/12/08,Fulham,Man City,1,1,D
-153,06/12/08,Hull,Middlesbrough,2,1,H
-154,06/12/08,Man United,Sunderland,1,0,H
-155,06/12/08,Newcastle,Stoke,2,2,D
-156,07/12/08,Everton,Aston Villa,2,3,A
-157,07/12/08,West Brom,Portsmouth,1,1,D
-158,08/12/08,West Ham,Tottenham,0,2,A
-159,13/12/08,Aston Villa,Bolton,4,2,H
-160,13/12/08,Liverpool,Hull,2,2,D
-161,13/12/08,Man City,Everton,0,1,A
-162,13/12/08,Middlesbrough,Arsenal,1,1,D
-163,13/12/08,Stoke,Fulham,0,0,D
-164,13/12/08,Sunderland,West Brom,4,0,H
-165,13/12/08,Tottenham,Man United,0,0,D
-166,13/12/08,Wigan,Blackburn,3,0,H
-167,14/12/08,Chelsea,West Ham,1,1,D
-168,14/12/08,Portsmouth,Newcastle,0,3,A
-169,20/12/08,Blackburn,Stoke,3,0,H
-170,20/12/08,Bolton,Portsmouth,2,1,H
-171,20/12/08,Fulham,Middlesbrough,3,0,H
-172,20/12/08,Hull,Sunderland,1,4,A
-173,20/12/08,West Ham,Aston Villa,0,1,A
-174,21/12/08,Arsenal,Liverpool,1,1,D
-175,21/12/08,Newcastle,Tottenham,2,1,H
-176,21/12/08,West Brom,Man City,2,1,H
-177,22/12/08,Everton,Chelsea,0,0,D
-178,26/12/08,Aston Villa,Arsenal,2,2,D
-179,26/12/08,Chelsea,West Brom,2,0,H
-180,26/12/08,Liverpool,Bolton,3,0,H
-181,26/12/08,Man City,Hull,5,1,H
-182,26/12/08,Middlesbrough,Everton,0,1,A
-183,26/12/08,Portsmouth,West Ham,1,4,A
-184,26/12/08,Stoke,Man United,0,1,A
-185,26/12/08,Sunderland,Blackburn,0,0,D
-186,26/12/08,Tottenham,Fulham,0,0,D
-187,26/12/08,Wigan,Newcastle,2,1,H
-188,28/12/08,Arsenal,Portsmouth,1,0,H
-189,28/12/08,Blackburn,Man City,2,2,D
-190,28/12/08,Bolton,Wigan,0,1,A
-191,28/12/08,Everton,Sunderland,3,0,H
-192,28/12/08,Fulham,Chelsea,2,2,D
-193,28/12/08,Newcastle,Liverpool,1,5,A
-194,28/12/08,West Brom,Tottenham,2,0,H
-195,28/12/08,West Ham,Stoke,2,1,H
-196,29/12/08,Man United,Middlesbrough,1,0,H
-197,30/12/08,Hull,Aston Villa,0,1,A
-198,10/01/09,Arsenal,Bolton,1,0,H
-199,10/01/09,Aston Villa,West Brom,2,1,H
-200,10/01/09,Everton,Hull,2,0,H
-201,10/01/09,Middlesbrough,Sunderland,1,1,D
-202,10/01/09,Newcastle,West Ham,2,2,D
-203,10/01/09,Stoke,Liverpool,0,0,D
-204,11/01/09,Man United,Chelsea,3,0,H
-205,11/01/09,Wigan,Tottenham,1,0,H
-206,14/01/09,Man United,Wigan,1,0,H
-207,17/01/09,Blackburn,Newcastle,3,0,H
-208,17/01/09,Bolton,Man United,0,1,A
-209,17/01/09,Chelsea,Stoke,2,1,H
-210,17/01/09,Hull,Arsenal,1,3,A
-211,17/01/09,Man City,Wigan,1,0,H
-212,17/01/09,Sunderland,Aston Villa,1,2,A
-213,17/01/09,West Brom,Middlesbrough,3,0,H
-214,18/01/09,Tottenham,Portsmouth,1,1,D
-215,18/01/09,West Ham,Fulham,3,1,H
-216,19/01/09,Liverpool,Everton,1,1,D
-217,27/01/09,Portsmouth,Aston Villa,0,1,A
-218,27/01/09,Sunderland,Fulham,1,0,H
-219,27/01/09,Tottenham,Stoke,3,1,H
-220,27/01/09,West Brom,Man United,0,5,A
-221,28/01/09,Blackburn,Bolton,2,2,D
-222,28/01/09,Chelsea,Middlesbrough,2,0,H
-223,28/01/09,Everton,Arsenal,1,1,D
-224,28/01/09,Man City,Newcastle,2,1,H
-225,28/01/09,West Ham,Hull,2,0,H
-226,28/01/09,Wigan,Liverpool,1,1,D
-227,31/01/09,Arsenal,West Ham,0,0,D
-228,31/01/09,Aston Villa,Wigan,0,0,D
-229,31/01/09,Bolton,Tottenham,3,2,H
-230,31/01/09,Fulham,Portsmouth,3,1,H
-231,31/01/09,Hull,West Brom,2,2,D
-232,31/01/09,Man United,Everton,1,0,H
-233,31/01/09,Middlesbrough,Blackburn,0,0,D
-234,31/01/09,Stoke,Man City,1,0,H
-235,01/02/09,Liverpool,Chelsea,2,0,H
-236,01/02/09,Newcastle,Sunderland,1,1,D
-237,07/02/09,Blackburn,Aston Villa,0,2,A
-238,07/02/09,Chelsea,Hull,0,0,D
-239,07/02/09,Everton,Bolton,3,0,H
-240,07/02/09,Man City,Middlesbrough,1,0,H
-241,07/02/09,Portsmouth,Liverpool,2,3,A
-242,07/02/09,Sunderland,Stoke,2,0,H
-243,07/02/09,West Brom,Newcastle,2,3,A
-244,07/02/09,Wigan,Fulham,0,0,D
-245,08/02/09,Tottenham,Arsenal,0,0,D
-246,08/02/09,West Ham,Man United,0,1,A
-247,14/02/09,Portsmouth,Man City,2,0,H
-248,18/02/09,Man United,Fulham,3,0,H
-249,21/02/09,Arsenal,Sunderland,0,0,D
-250,21/02/09,Aston Villa,Chelsea,0,1,A
-251,21/02/09,Bolton,West Ham,2,1,H
-252,21/02/09,Man United,Blackburn,2,1,H
-253,21/02/09,Middlesbrough,Wigan,0,0,D
-254,21/02/09,Stoke,Portsmouth,2,2,D
-255,22/02/09,Fulham,West Brom,2,0,H
-256,22/02/09,Liverpool,Man City,1,1,D
-257,22/02/09,Newcastle,Everton,0,0,D
-258,23/02/09,Hull,Tottenham,1,2,A
-259,28/02/09,Arsenal,Fulham,0,0,D
-260,28/02/09,Chelsea,Wigan,2,1,H
-261,28/02/09,Everton,West Brom,2,0,H
-262,28/02/09,Middlesbrough,Liverpool,2,0,H
-263,01/03/09,Aston Villa,Stoke,2,2,D
-264,01/03/09,Bolton,Newcastle,1,0,H
-265,01/03/09,Hull,Blackburn,1,2,A
-266,01/03/09,West Ham,Man City,1,0,H
-267,03/03/09,Liverpool,Sunderland,2,0,H
-268,03/03/09,Portsmouth,Chelsea,0,1,A
-269,03/03/09,West Brom,Arsenal,1,3,A
-270,04/03/09,Blackburn,Everton,0,0,D
-271,04/03/09,Fulham,Hull,0,1,A
-272,04/03/09,Man City,Aston Villa,2,0,H
-273,04/03/09,Newcastle,Man United,1,2,A
-274,04/03/09,Stoke,Bolton,2,0,H
-275,04/03/09,Tottenham,Middlesbrough,4,0,H
-276,04/03/09,Wigan,West Ham,0,1,A
-277,07/03/09,Sunderland,Tottenham,1,1,D
-278,11/03/09,Fulham,Blackburn,1,2,A
-279,14/03/09,Arsenal,Blackburn,4,0,H
-280,14/03/09,Bolton,Fulham,1,3,A
-281,14/03/09,Everton,Stoke,3,1,H
-282,14/03/09,Hull,Newcastle,1,1,D
-283,14/03/09,Man United,Liverpool,1,4,A
-284,14/03/09,Middlesbrough,Portsmouth,1,1,D
-285,14/03/09,Sunderland,Wigan,1,2,A
-286,15/03/09,Aston Villa,Tottenham,1,2,A
-287,15/03/09,Chelsea,Man City,1,0,H
-288,16/03/09,West Ham,West Brom,0,0,D
-289,21/03/09,Blackburn,West Ham,1,1,D
-290,21/03/09,Fulham,Man United,2,0,H
-291,21/03/09,Newcastle,Arsenal,1,3,A
-292,21/03/09,Portsmouth,Everton,2,1,H
-293,21/03/09,Stoke,Middlesbrough,1,0,H
-294,21/03/09,Tottenham,Chelsea,1,0,H
-295,21/03/09,West Brom,Bolton,1,1,D
-296,22/03/09,Liverpool,Aston Villa,5,0,H
-297,22/03/09,Man City,Sunderland,1,0,H
-298,22/03/09,Wigan,Hull,1,0,H
-299,04/04/09,Arsenal,Man City,2,0,H
-300,04/04/09,Blackburn,Tottenham,2,1,H
-301,04/04/09,Bolton,Middlesbrough,4,1,H
-302,04/04/09,Fulham,Liverpool,0,1,A
-303,04/04/09,Hull,Portsmouth,0,0,D
-304,04/04/09,Newcastle,Chelsea,0,2,A
-305,04/04/09,West Brom,Stoke,0,2,A
-306,04/04/09,West Ham,Sunderland,2,0,H
-307,05/04/09,Everton,Wigan,4,0,H
-308,05/04/09,Man United,Aston Villa,3,2,H
-309,11/04/09,Chelsea,Bolton,4,3,H
-310,11/04/09,Liverpool,Blackburn,4,0,H
-311,11/04/09,Middlesbrough,Hull,3,1,H
-312,11/04/09,Portsmouth,West Brom,2,2,D
-313,11/04/09,Stoke,Newcastle,1,1,D
-314,11/04/09,Sunderland,Man United,1,2,A
-315,11/04/09,Tottenham,West Ham,1,0,H
-316,11/04/09,Wigan,Arsenal,1,4,A
-317,12/04/09,Aston Villa,Everton,3,3,D
-318,12/04/09,Man City,Fulham,1,3,A
-319,18/04/09,Aston Villa,West Ham,1,1,D
-320,18/04/09,Middlesbrough,Fulham,0,0,D
-321,18/04/09,Portsmouth,Bolton,1,0,H
-322,18/04/09,Stoke,Blackburn,1,0,H
-323,18/04/09,Sunderland,Hull,1,0,H
-324,19/04/09,Man City,West Brom,4,2,H
-325,19/04/09,Tottenham,Newcastle,1,0,H
-326,21/04/09,Liverpool,Arsenal,4,4,D
-327,22/04/09,Chelsea,Everton,0,0,D
-328,22/04/09,Man United,Portsmouth,2,0,H
-329,25/04/09,Bolton,Aston Villa,1,1,D
-330,25/04/09,Everton,Man City,1,2,A
-331,25/04/09,Fulham,Stoke,1,0,H
-332,25/04/09,Hull,Liverpool,1,3,A
-333,25/04/09,Man United,Tottenham,5,2,H
-334,25/04/09,West Brom,Sunderland,3,0,H
-335,25/04/09,West Ham,Chelsea,0,1,A
-336,26/04/09,Arsenal,Middlesbrough,2,0,H
-337,26/04/09,Blackburn,Wigan,2,0,H
-338,27/04/09,Newcastle,Portsmouth,0,0,D
-339,02/05/09,Chelsea,Fulham,3,1,H
-340,02/05/09,Man City,Blackburn,3,1,H
-341,02/05/09,Middlesbrough,Man United,0,2,A
-342,02/05/09,Portsmouth,Arsenal,0,3,A
-343,02/05/09,Stoke,West Ham,0,1,A
-344,02/05/09,Tottenham,West Brom,1,0,H
-345,02/05/09,Wigan,Bolton,0,0,D
-346,03/05/09,Liverpool,Newcastle,3,0,H
-347,03/05/09,Sunderland,Everton,0,2,A
-348,04/05/09,Aston Villa,Hull,1,0,H
-349,09/05/09,Blackburn,Portsmouth,2,0,H
-350,09/05/09,Bolton,Sunderland,0,0,D
-351,09/05/09,Everton,Tottenham,0,0,D
-352,09/05/09,Fulham,Aston Villa,3,1,H
-353,09/05/09,Hull,Stoke,1,2,A
-354,09/05/09,West Brom,Wigan,3,1,H
-355,09/05/09,West Ham,Liverpool,0,3,A
-356,10/05/09,Arsenal,Chelsea,1,4,A
-357,10/05/09,Man United,Man City,2,0,H
-358,11/05/09,Newcastle,Middlesbrough,3,1,H
-359,13/05/09,Wigan,Man United,1,2,A
-360,16/05/09,Bolton,Hull,1,1,D
-361,16/05/09,Everton,West Ham,3,1,H
-362,16/05/09,Man United,Arsenal,0,0,D
-363,16/05/09,Middlesbrough,Aston Villa,1,1,D
-364,16/05/09,Newcastle,Fulham,0,1,A
-365,16/05/09,Stoke,Wigan,2,0,H
-366,16/05/09,Tottenham,Man City,2,1,H
-367,17/05/09,Chelsea,Blackburn,2,0,H
-368,17/05/09,West Brom,Liverpool,0,2,A
-369,18/05/09,Portsmouth,Sunderland,3,1,H
-370,24/05/09,Arsenal,Stoke,4,1,H
-371,24/05/09,Aston Villa,Newcastle,1,0,H
-372,24/05/09,Blackburn,West Brom,0,0,D
-373,24/05/09,Fulham,Everton,0,2,A
-374,24/05/09,Hull,Man United,0,1,A
-375,24/05/09,Liverpool,Tottenham,3,1,H
-376,24/05/09,Man City,Bolton,1,0,H
-377,24/05/09,Sunderland,Chelsea,2,3,A
-378,24/05/09,West Ham,Middlesbrough,2,1,H
-379,24/05/09,Wigan,Portsmouth,1,0,H
+MatchID,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA
+0,16/08/08,Arsenal,West Brom,1,0,H,81,71
+1,16/08/08,Bolton,Stoke,3,1,H,74,70
+2,16/08/08,Everton,Blackburn,2,3,A,78,76
+3,16/08/08,Hull,Fulham,2,1,H,71,74
+4,16/08/08,Middlesbrough,Tottenham,2,1,H,74,79
+5,16/08/08,Sunderland,Liverpool,0,1,A,75,81
+6,16/08/08,West Ham,Wigan,2,1,H,76,73
+7,17/08/08,Aston Villa,Man City,4,2,H,78,79
+8,17/08/08,Chelsea,Portsmouth,4,0,H,84,76
+9,17/08/08,Man United,Newcastle,1,1,D,84,76
+10,23/08/08,Blackburn,Hull,1,1,D,76,71
+11,23/08/08,Fulham,Arsenal,1,0,H,74,81
+12,23/08/08,Liverpool,Middlesbrough,2,1,H,81,74
+13,23/08/08,Newcastle,Bolton,1,0,H,76,74
+14,23/08/08,Stoke,Aston Villa,3,2,H,70,78
+15,23/08/08,Tottenham,Sunderland,1,2,A,79,75
+16,23/08/08,West Brom,Everton,1,2,A,71,78
+17,24/08/08,Man City,West Ham,3,0,H,79,76
+18,24/08/08,Wigan,Chelsea,0,1,A,73,84
+19,25/08/08,Portsmouth,Man United,0,1,A,76,84
+20,30/08/08,Arsenal,Newcastle,3,0,H,81,76
+21,30/08/08,Bolton,West Brom,0,0,D,74,71
+22,30/08/08,Everton,Portsmouth,0,3,A,78,76
+23,30/08/08,Hull,Wigan,0,5,A,71,73
+24,30/08/08,Middlesbrough,Stoke,2,1,H,74,70
+25,30/08/08,West Ham,Blackburn,4,1,H,76,76
+26,31/08/08,Aston Villa,Liverpool,0,0,D,78,81
+27,31/08/08,Chelsea,Tottenham,1,1,D,84,79
+28,31/08/08,Sunderland,Man City,0,3,A,75,79
+29,13/09/08,Blackburn,Arsenal,0,4,A,76,81
+30,13/09/08,Fulham,Bolton,2,1,H,74,74
+31,13/09/08,Liverpool,Man United,2,1,H,81,84
+32,13/09/08,Man City,Chelsea,1,3,A,79,84
+33,13/09/08,Newcastle,Hull,1,2,A,76,71
+34,13/09/08,Portsmouth,Middlesbrough,2,1,H,76,74
+35,13/09/08,West Brom,West Ham,3,2,H,71,76
+36,13/09/08,Wigan,Sunderland,1,1,D,73,75
+37,14/09/08,Stoke,Everton,2,3,A,70,78
+38,15/09/08,Tottenham,Aston Villa,1,2,A,79,78
+39,20/09/08,Blackburn,Fulham,1,0,H,76,74
+40,20/09/08,Bolton,Arsenal,1,3,A,74,81
+41,20/09/08,Liverpool,Stoke,0,0,D,81,70
+42,20/09/08,Sunderland,Middlesbrough,2,0,H,75,74
+43,20/09/08,West Ham,Newcastle,3,1,H,76,76
+44,21/09/08,Chelsea,Man United,1,1,D,84,84
+45,21/09/08,Hull,Everton,2,2,D,71,78
+46,21/09/08,Man City,Portsmouth,6,0,H,79,76
+47,21/09/08,Tottenham,Wigan,0,0,D,79,73
+48,21/09/08,West Brom,Aston Villa,1,2,A,71,78
+49,27/09/08,Arsenal,Hull,1,2,A,81,71
+50,27/09/08,Aston Villa,Sunderland,2,1,H,78,75
+51,27/09/08,Everton,Liverpool,0,2,A,78,81
+52,27/09/08,Fulham,West Ham,1,2,A,74,76
+53,27/09/08,Man United,Bolton,2,0,H,84,74
+54,27/09/08,Middlesbrough,West Brom,0,1,A,74,71
+55,27/09/08,Newcastle,Blackburn,1,2,A,76,76
+56,27/09/08,Stoke,Chelsea,0,2,A,70,84
+57,28/09/08,Portsmouth,Tottenham,2,0,H,76,79
+58,28/09/08,Wigan,Man City,2,1,H,73,79
+59,04/10/08,Blackburn,Man United,0,2,A,76,84
+60,04/10/08,Sunderland,Arsenal,1,1,D,75,81
+61,04/10/08,West Brom,Fulham,1,0,H,71,74
+62,04/10/08,Wigan,Middlesbrough,0,1,A,73,74
+63,05/10/08,Chelsea,Aston Villa,2,0,H,84,78
+64,05/10/08,Everton,Newcastle,2,2,D,78,76
+65,05/10/08,Man City,Liverpool,2,3,A,79,81
+66,05/10/08,Portsmouth,Stoke,2,1,H,76,70
+67,05/10/08,Tottenham,Hull,0,1,A,79,71
+68,05/10/08,West Ham,Bolton,1,3,A,76,74
+69,18/10/08,Arsenal,Everton,3,1,H,81,78
+70,18/10/08,Aston Villa,Portsmouth,0,0,D,78,76
+71,18/10/08,Bolton,Blackburn,0,0,D,74,76
+72,18/10/08,Fulham,Sunderland,0,0,D,74,75
+73,18/10/08,Liverpool,Wigan,3,2,H,81,73
+74,18/10/08,Man United,West Brom,4,0,H,84,71
+75,18/10/08,Middlesbrough,Chelsea,0,5,A,74,84
+76,19/10/08,Hull,West Ham,1,0,H,71,76
+77,19/10/08,Stoke,Tottenham,2,1,H,70,79
+78,20/10/08,Newcastle,Man City,2,2,D,76,79
+79,25/10/08,Blackburn,Middlesbrough,1,1,D,76,74
+80,25/10/08,Everton,Man United,1,1,D,78,84
+81,25/10/08,Sunderland,Newcastle,2,1,H,75,76
+82,25/10/08,West Brom,Hull,0,3,A,71,71
+83,26/10/08,Chelsea,Liverpool,0,1,A,84,81
+84,26/10/08,Man City,Stoke,3,0,H,79,70
+85,26/10/08,Portsmouth,Fulham,1,1,D,76,74
+86,26/10/08,Tottenham,Bolton,2,0,H,79,74
+87,26/10/08,West Ham,Arsenal,0,2,A,76,81
+88,26/10/08,Wigan,Aston Villa,0,4,A,73,78
+89,28/10/08,Newcastle,West Brom,2,1,H,76,71
+90,29/10/08,Arsenal,Tottenham,4,4,D,81,79
+91,29/10/08,Aston Villa,Blackburn,3,2,H,78,76
+92,29/10/08,Bolton,Everton,0,1,A,74,78
+93,29/10/08,Fulham,Wigan,2,0,H,74,73
+94,29/10/08,Hull,Chelsea,0,3,A,71,84
+95,29/10/08,Liverpool,Portsmouth,1,0,H,81,76
+96,29/10/08,Man United,West Ham,2,0,H,84,76
+97,29/10/08,Middlesbrough,Man City,2,0,H,74,79
+98,29/10/08,Stoke,Sunderland,1,0,H,70,75
+99,01/11/08,Chelsea,Sunderland,5,0,H,84,75
+100,01/11/08,Everton,Fulham,1,0,H,78,74
+101,01/11/08,Man United,Hull,4,3,H,84,71
+102,01/11/08,Middlesbrough,West Ham,1,1,D,74,76
+103,01/11/08,Portsmouth,Wigan,1,2,A,76,73
+104,01/11/08,Stoke,Arsenal,2,1,H,70,81
+105,01/11/08,Tottenham,Liverpool,2,1,H,79,81
+106,01/11/08,West Brom,Blackburn,2,2,D,71,76
+107,02/11/08,Bolton,Man City,2,0,H,74,79
+108,03/11/08,Newcastle,Aston Villa,2,0,H,76,78
+109,08/11/08,Arsenal,Man United,2,1,H,81,84
+110,08/11/08,Hull,Bolton,0,1,A,71,74
+111,08/11/08,Liverpool,West Brom,3,0,H,81,71
+112,08/11/08,Sunderland,Portsmouth,1,2,A,75,76
+113,08/11/08,West Ham,Everton,1,3,A,76,78
+114,08/11/08,Wigan,Stoke,0,0,D,73,70
+115,09/11/08,Aston Villa,Middlesbrough,1,2,A,78,74
+116,09/11/08,Blackburn,Chelsea,0,2,A,76,84
+117,09/11/08,Fulham,Newcastle,2,1,H,74,76
+118,09/11/08,Man City,Tottenham,1,2,A,79,79
+119,15/11/08,Arsenal,Aston Villa,0,2,A,81,78
+120,15/11/08,Blackburn,Sunderland,1,2,A,76,75
+121,15/11/08,Bolton,Liverpool,0,2,A,74,81
+122,15/11/08,Fulham,Tottenham,2,1,H,74,79
+123,15/11/08,Man United,Stoke,5,0,H,84,70
+124,15/11/08,Newcastle,Wigan,2,2,D,76,73
+125,15/11/08,West Brom,Chelsea,0,3,A,71,84
+126,15/11/08,West Ham,Portsmouth,0,0,D,76,76
+127,16/11/08,Everton,Middlesbrough,1,1,D,78,74
+128,16/11/08,Hull,Man City,2,2,D,71,79
+129,22/11/08,Aston Villa,Man United,0,0,D,78,84
+130,22/11/08,Chelsea,Newcastle,0,0,D,84,76
+131,22/11/08,Liverpool,Fulham,0,0,D,81,74
+132,22/11/08,Man City,Arsenal,3,0,H,79,81
+133,22/11/08,Middlesbrough,Bolton,1,3,A,74,74
+134,22/11/08,Portsmouth,Hull,2,2,D,76,71
+135,22/11/08,Stoke,West Brom,1,0,H,70,71
+136,23/11/08,Sunderland,West Ham,0,1,A,75,76
+137,23/11/08,Tottenham,Blackburn,1,0,H,79,76
+138,24/11/08,Wigan,Everton,1,0,H,73,78
+139,29/11/08,Aston Villa,Fulham,0,0,D,78,74
+140,29/11/08,Middlesbrough,Newcastle,0,0,D,74,76
+141,29/11/08,Stoke,Hull,1,1,D,70,71
+142,29/11/08,Sunderland,Bolton,1,4,A,75,74
+143,29/11/08,Wigan,West Brom,2,1,H,73,71
+144,30/11/08,Chelsea,Arsenal,1,2,A,84,81
+145,30/11/08,Man City,Man United,0,1,A,79,84
+146,30/11/08,Portsmouth,Blackburn,3,2,H,76,76
+147,30/11/08,Tottenham,Everton,0,1,A,79,78
+148,01/12/08,Liverpool,West Ham,0,0,D,81,76
+149,06/12/08,Arsenal,Wigan,1,0,H,81,73
+150,06/12/08,Blackburn,Liverpool,1,3,A,76,81
+151,06/12/08,Bolton,Chelsea,0,2,A,74,84
+152,06/12/08,Fulham,Man City,1,1,D,74,79
+153,06/12/08,Hull,Middlesbrough,2,1,H,71,74
+154,06/12/08,Man United,Sunderland,1,0,H,84,75
+155,06/12/08,Newcastle,Stoke,2,2,D,76,70
+156,07/12/08,Everton,Aston Villa,2,3,A,78,78
+157,07/12/08,West Brom,Portsmouth,1,1,D,71,76
+158,08/12/08,West Ham,Tottenham,0,2,A,76,79
+159,13/12/08,Aston Villa,Bolton,4,2,H,78,74
+160,13/12/08,Liverpool,Hull,2,2,D,81,71
+161,13/12/08,Man City,Everton,0,1,A,79,78
+162,13/12/08,Middlesbrough,Arsenal,1,1,D,74,81
+163,13/12/08,Stoke,Fulham,0,0,D,70,74
+164,13/12/08,Sunderland,West Brom,4,0,H,75,71
+165,13/12/08,Tottenham,Man United,0,0,D,79,84
+166,13/12/08,Wigan,Blackburn,3,0,H,73,76
+167,14/12/08,Chelsea,West Ham,1,1,D,84,76
+168,14/12/08,Portsmouth,Newcastle,0,3,A,76,76
+169,20/12/08,Blackburn,Stoke,3,0,H,76,70
+170,20/12/08,Bolton,Portsmouth,2,1,H,74,76
+171,20/12/08,Fulham,Middlesbrough,3,0,H,74,74
+172,20/12/08,Hull,Sunderland,1,4,A,71,75
+173,20/12/08,West Ham,Aston Villa,0,1,A,76,78
+174,21/12/08,Arsenal,Liverpool,1,1,D,81,81
+175,21/12/08,Newcastle,Tottenham,2,1,H,76,79
+176,21/12/08,West Brom,Man City,2,1,H,71,79
+177,22/12/08,Everton,Chelsea,0,0,D,78,84
+178,26/12/08,Aston Villa,Arsenal,2,2,D,78,81
+179,26/12/08,Chelsea,West Brom,2,0,H,84,71
+180,26/12/08,Liverpool,Bolton,3,0,H,81,74
+181,26/12/08,Man City,Hull,5,1,H,79,71
+182,26/12/08,Middlesbrough,Everton,0,1,A,74,78
+183,26/12/08,Portsmouth,West Ham,1,4,A,76,76
+184,26/12/08,Stoke,Man United,0,1,A,70,84
+185,26/12/08,Sunderland,Blackburn,0,0,D,75,76
+186,26/12/08,Tottenham,Fulham,0,0,D,79,74
+187,26/12/08,Wigan,Newcastle,2,1,H,73,76
+188,28/12/08,Arsenal,Portsmouth,1,0,H,81,76
+189,28/12/08,Blackburn,Man City,2,2,D,76,79
+190,28/12/08,Bolton,Wigan,0,1,A,74,73
+191,28/12/08,Everton,Sunderland,3,0,H,78,75
+192,28/12/08,Fulham,Chelsea,2,2,D,74,84
+193,28/12/08,Newcastle,Liverpool,1,5,A,76,81
+194,28/12/08,West Brom,Tottenham,2,0,H,71,79
+195,28/12/08,West Ham,Stoke,2,1,H,76,70
+196,29/12/08,Man United,Middlesbrough,1,0,H,84,74
+197,30/12/08,Hull,Aston Villa,0,1,A,71,78
+198,10/01/09,Arsenal,Bolton,1,0,H,81,74
+199,10/01/09,Aston Villa,West Brom,2,1,H,78,71
+200,10/01/09,Everton,Hull,2,0,H,78,71
+201,10/01/09,Middlesbrough,Sunderland,1,1,D,74,75
+202,10/01/09,Newcastle,West Ham,2,2,D,76,76
+203,10/01/09,Stoke,Liverpool,0,0,D,70,81
+204,11/01/09,Man United,Chelsea,3,0,H,84,84
+205,11/01/09,Wigan,Tottenham,1,0,H,73,79
+206,14/01/09,Man United,Wigan,1,0,H,84,73
+207,17/01/09,Blackburn,Newcastle,3,0,H,76,76
+208,17/01/09,Bolton,Man United,0,1,A,74,84
+209,17/01/09,Chelsea,Stoke,2,1,H,84,70
+210,17/01/09,Hull,Arsenal,1,3,A,71,81
+211,17/01/09,Man City,Wigan,1,0,H,79,73
+212,17/01/09,Sunderland,Aston Villa,1,2,A,75,78
+213,17/01/09,West Brom,Middlesbrough,3,0,H,71,74
+214,18/01/09,Tottenham,Portsmouth,1,1,D,79,76
+215,18/01/09,West Ham,Fulham,3,1,H,76,74
+216,19/01/09,Liverpool,Everton,1,1,D,81,78
+217,27/01/09,Portsmouth,Aston Villa,0,1,A,76,78
+218,27/01/09,Sunderland,Fulham,1,0,H,75,74
+219,27/01/09,Tottenham,Stoke,3,1,H,79,70
+220,27/01/09,West Brom,Man United,0,5,A,71,84
+221,28/01/09,Blackburn,Bolton,2,2,D,76,74
+222,28/01/09,Chelsea,Middlesbrough,2,0,H,84,74
+223,28/01/09,Everton,Arsenal,1,1,D,78,81
+224,28/01/09,Man City,Newcastle,2,1,H,79,76
+225,28/01/09,West Ham,Hull,2,0,H,76,71
+226,28/01/09,Wigan,Liverpool,1,1,D,73,81
+227,31/01/09,Arsenal,West Ham,0,0,D,81,76
+228,31/01/09,Aston Villa,Wigan,0,0,D,78,73
+229,31/01/09,Bolton,Tottenham,3,2,H,74,79
+230,31/01/09,Fulham,Portsmouth,3,1,H,74,76
+231,31/01/09,Hull,West Brom,2,2,D,71,71
+232,31/01/09,Man United,Everton,1,0,H,84,78
+233,31/01/09,Middlesbrough,Blackburn,0,0,D,74,76
+234,31/01/09,Stoke,Man City,1,0,H,70,79
+235,01/02/09,Liverpool,Chelsea,2,0,H,81,84
+236,01/02/09,Newcastle,Sunderland,1,1,D,76,75
+237,07/02/09,Blackburn,Aston Villa,0,2,A,76,78
+238,07/02/09,Chelsea,Hull,0,0,D,84,71
+239,07/02/09,Everton,Bolton,3,0,H,78,74
+240,07/02/09,Man City,Middlesbrough,1,0,H,79,74
+241,07/02/09,Portsmouth,Liverpool,2,3,A,76,81
+242,07/02/09,Sunderland,Stoke,2,0,H,75,70
+243,07/02/09,West Brom,Newcastle,2,3,A,71,76
+244,07/02/09,Wigan,Fulham,0,0,D,73,74
+245,08/02/09,Tottenham,Arsenal,0,0,D,79,81
+246,08/02/09,West Ham,Man United,0,1,A,76,84
+247,14/02/09,Portsmouth,Man City,2,0,H,76,79
+248,18/02/09,Man United,Fulham,3,0,H,84,74
+249,21/02/09,Arsenal,Sunderland,0,0,D,81,75
+250,21/02/09,Aston Villa,Chelsea,0,1,A,78,84
+251,21/02/09,Bolton,West Ham,2,1,H,74,76
+252,21/02/09,Man United,Blackburn,2,1,H,84,76
+253,21/02/09,Middlesbrough,Wigan,0,0,D,74,73
+254,21/02/09,Stoke,Portsmouth,2,2,D,70,76
+255,22/02/09,Fulham,West Brom,2,0,H,74,71
+256,22/02/09,Liverpool,Man City,1,1,D,81,79
+257,22/02/09,Newcastle,Everton,0,0,D,76,78
+258,23/02/09,Hull,Tottenham,1,2,A,71,79
+259,28/02/09,Arsenal,Fulham,0,0,D,81,74
+260,28/02/09,Chelsea,Wigan,2,1,H,84,73
+261,28/02/09,Everton,West Brom,2,0,H,78,71
+262,28/02/09,Middlesbrough,Liverpool,2,0,H,74,81
+263,01/03/09,Aston Villa,Stoke,2,2,D,78,70
+264,01/03/09,Bolton,Newcastle,1,0,H,74,76
+265,01/03/09,Hull,Blackburn,1,2,A,71,76
+266,01/03/09,West Ham,Man City,1,0,H,76,79
+267,03/03/09,Liverpool,Sunderland,2,0,H,81,75
+268,03/03/09,Portsmouth,Chelsea,0,1,A,76,84
+269,03/03/09,West Brom,Arsenal,1,3,A,71,81
+270,04/03/09,Blackburn,Everton,0,0,D,76,78
+271,04/03/09,Fulham,Hull,0,1,A,74,71
+272,04/03/09,Man City,Aston Villa,2,0,H,79,78
+273,04/03/09,Newcastle,Man United,1,2,A,76,84
+274,04/03/09,Stoke,Bolton,2,0,H,70,74
+275,04/03/09,Tottenham,Middlesbrough,4,0,H,79,74
+276,04/03/09,Wigan,West Ham,0,1,A,73,76
+277,07/03/09,Sunderland,Tottenham,1,1,D,75,79
+278,11/03/09,Fulham,Blackburn,1,2,A,74,76
+279,14/03/09,Arsenal,Blackburn,4,0,H,81,76
+280,14/03/09,Bolton,Fulham,1,3,A,74,74
+281,14/03/09,Everton,Stoke,3,1,H,78,70
+282,14/03/09,Hull,Newcastle,1,1,D,71,76
+283,14/03/09,Man United,Liverpool,1,4,A,84,81
+284,14/03/09,Middlesbrough,Portsmouth,1,1,D,74,76
+285,14/03/09,Sunderland,Wigan,1,2,A,75,73
+286,15/03/09,Aston Villa,Tottenham,1,2,A,78,79
+287,15/03/09,Chelsea,Man City,1,0,H,84,79
+288,16/03/09,West Ham,West Brom,0,0,D,76,71
+289,21/03/09,Blackburn,West Ham,1,1,D,76,76
+290,21/03/09,Fulham,Man United,2,0,H,74,84
+291,21/03/09,Newcastle,Arsenal,1,3,A,76,81
+292,21/03/09,Portsmouth,Everton,2,1,H,76,78
+293,21/03/09,Stoke,Middlesbrough,1,0,H,70,74
+294,21/03/09,Tottenham,Chelsea,1,0,H,79,84
+295,21/03/09,West Brom,Bolton,1,1,D,71,74
+296,22/03/09,Liverpool,Aston Villa,5,0,H,81,78
+297,22/03/09,Man City,Sunderland,1,0,H,79,75
+298,22/03/09,Wigan,Hull,1,0,H,73,71
+299,04/04/09,Arsenal,Man City,2,0,H,81,79
+300,04/04/09,Blackburn,Tottenham,2,1,H,76,79
+301,04/04/09,Bolton,Middlesbrough,4,1,H,74,74
+302,04/04/09,Fulham,Liverpool,0,1,A,74,81
+303,04/04/09,Hull,Portsmouth,0,0,D,71,76
+304,04/04/09,Newcastle,Chelsea,0,2,A,76,84
+305,04/04/09,West Brom,Stoke,0,2,A,71,70
+306,04/04/09,West Ham,Sunderland,2,0,H,76,75
+307,05/04/09,Everton,Wigan,4,0,H,78,73
+308,05/04/09,Man United,Aston Villa,3,2,H,84,78
+309,11/04/09,Chelsea,Bolton,4,3,H,84,74
+310,11/04/09,Liverpool,Blackburn,4,0,H,81,76
+311,11/04/09,Middlesbrough,Hull,3,1,H,74,71
+312,11/04/09,Portsmouth,West Brom,2,2,D,76,71
+313,11/04/09,Stoke,Newcastle,1,1,D,70,76
+314,11/04/09,Sunderland,Man United,1,2,A,75,84
+315,11/04/09,Tottenham,West Ham,1,0,H,79,76
+316,11/04/09,Wigan,Arsenal,1,4,A,73,81
+317,12/04/09,Aston Villa,Everton,3,3,D,78,78
+318,12/04/09,Man City,Fulham,1,3,A,79,74
+319,18/04/09,Aston Villa,West Ham,1,1,D,78,76
+320,18/04/09,Middlesbrough,Fulham,0,0,D,74,74
+321,18/04/09,Portsmouth,Bolton,1,0,H,76,74
+322,18/04/09,Stoke,Blackburn,1,0,H,70,76
+323,18/04/09,Sunderland,Hull,1,0,H,75,71
+324,19/04/09,Man City,West Brom,4,2,H,79,71
+325,19/04/09,Tottenham,Newcastle,1,0,H,79,76
+326,21/04/09,Liverpool,Arsenal,4,4,D,81,81
+327,22/04/09,Chelsea,Everton,0,0,D,84,78
+328,22/04/09,Man United,Portsmouth,2,0,H,84,76
+329,25/04/09,Bolton,Aston Villa,1,1,D,74,78
+330,25/04/09,Everton,Man City,1,2,A,78,79
+331,25/04/09,Fulham,Stoke,1,0,H,74,70
+332,25/04/09,Hull,Liverpool,1,3,A,71,81
+333,25/04/09,Man United,Tottenham,5,2,H,84,79
+334,25/04/09,West Brom,Sunderland,3,0,H,71,75
+335,25/04/09,West Ham,Chelsea,0,1,A,76,84
+336,26/04/09,Arsenal,Middlesbrough,2,0,H,81,74
+337,26/04/09,Blackburn,Wigan,2,0,H,76,73
+338,27/04/09,Newcastle,Portsmouth,0,0,D,76,76
+339,02/05/09,Chelsea,Fulham,3,1,H,84,74
+340,02/05/09,Man City,Blackburn,3,1,H,79,76
+341,02/05/09,Middlesbrough,Man United,0,2,A,74,84
+342,02/05/09,Portsmouth,Arsenal,0,3,A,76,81
+343,02/05/09,Stoke,West Ham,0,1,A,70,76
+344,02/05/09,Tottenham,West Brom,1,0,H,79,71
+345,02/05/09,Wigan,Bolton,0,0,D,73,74
+346,03/05/09,Liverpool,Newcastle,3,0,H,81,76
+347,03/05/09,Sunderland,Everton,0,2,A,75,78
+348,04/05/09,Aston Villa,Hull,1,0,H,78,71
+349,09/05/09,Blackburn,Portsmouth,2,0,H,76,76
+350,09/05/09,Bolton,Sunderland,0,0,D,74,75
+351,09/05/09,Everton,Tottenham,0,0,D,78,79
+352,09/05/09,Fulham,Aston Villa,3,1,H,74,78
+353,09/05/09,Hull,Stoke,1,2,A,71,70
+354,09/05/09,West Brom,Wigan,3,1,H,71,73
+355,09/05/09,West Ham,Liverpool,0,3,A,76,81
+356,10/05/09,Arsenal,Chelsea,1,4,A,81,84
+357,10/05/09,Man United,Man City,2,0,H,84,79
+358,11/05/09,Newcastle,Middlesbrough,3,1,H,76,74
+359,13/05/09,Wigan,Man United,1,2,A,73,84
+360,16/05/09,Bolton,Hull,1,1,D,74,71
+361,16/05/09,Everton,West Ham,3,1,H,78,76
+362,16/05/09,Man United,Arsenal,0,0,D,84,81
+363,16/05/09,Middlesbrough,Aston Villa,1,1,D,74,78
+364,16/05/09,Newcastle,Fulham,0,1,A,76,74
+365,16/05/09,Stoke,Wigan,2,0,H,70,73
+366,16/05/09,Tottenham,Man City,2,1,H,79,79
+367,17/05/09,Chelsea,Blackburn,2,0,H,84,76
+368,17/05/09,West Brom,Liverpool,0,2,A,71,81
+369,18/05/09,Portsmouth,Sunderland,3,1,H,76,75
+370,24/05/09,Arsenal,Stoke,4,1,H,81,70
+371,24/05/09,Aston Villa,Newcastle,1,0,H,78,76
+372,24/05/09,Blackburn,West Brom,0,0,D,76,71
+373,24/05/09,Fulham,Everton,0,2,A,74,78
+374,24/05/09,Hull,Man United,0,1,A,71,84
+375,24/05/09,Liverpool,Tottenham,3,1,H,81,79
+376,24/05/09,Man City,Bolton,1,0,H,79,74
+377,24/05/09,Sunderland,Chelsea,2,3,A,75,84
+378,24/05/09,West Ham,Middlesbrough,2,1,H,76,74
+379,24/05/09,Wigan,Portsmouth,1,0,H,73,76

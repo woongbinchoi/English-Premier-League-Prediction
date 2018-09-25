@@ -1,4 +1,4 @@
-,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+MatchID,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
 0,16/08/03,Arsenal,Everton,2,1,H
 1,16/08/03,Birmingham,Tottenham,1,0,H
 2,16/08/03,Blackburn,Wolves,5,1,H
@@ -302,35 +302,80 @@
 300,03/04/04,Fulham,Birmingham,0,0,D
 301,03/04/04,Middlesbrough,Bolton,2,0,H
 302,03/04/04,Newcastle,Everton,4,2,H
-303,17/04/04,Wolves,Middlesbrough,2,0,H
-304,18/04/04,Aston Villa,Newcastle,0,0,D
-305,20/04/04,Man United,Charlton,2,0,H
-306,24/04/04,Everton,Blackburn,0,1,A
-307,24/04/04,Fulham,Charlton,2,0,H
-308,24/04/04,Leicester,Man City,1,1,D
-309,24/04/04,Man United,Liverpool,0,1,A
-310,24/04/04,Middlesbrough,Aston Villa,1,2,A
-311,24/04/04,Southampton,Bolton,1,2,A
-312,25/04/04,Birmingham,Wolves,2,2,D
-313,25/04/04,Leeds,Portsmouth,1,2,A
-314,25/04/04,Newcastle,Chelsea,2,1,H
-315,25/04/04,Tottenham,Arsenal,2,2,D
-316,01/05/04,Arsenal,Birmingham,0,0,D
-317,01/05/04,Blackburn,Man United,1,0,H
-318,01/05/04,Charlton,Leicester,2,2,D
-319,01/05/04,Chelsea,Southampton,4,0,H
-320,01/05/04,Man City,Newcastle,1,0,H
-321,01/05/04,Portsmouth,Fulham,1,1,D
-322,01/05/04,Wolves,Everton,2,1,H
-323,02/05/04,Aston Villa,Tottenham,1,0,H
-324,02/05/04,Bolton,Leeds,4,1,H
-325,02/05/04,Liverpool,Middlesbrough,2,0,H
-326,04/05/04,Portsmouth,Arsenal,1,1,D
-327,08/05/04,Birmingham,Liverpool,0,3,A
-328,08/05/04,Everton,Bolton,1,2,A
-329,08/05/04,Leeds,Charlton,3,3,D
-330,08/05/04,Leicester,Portsmouth,3,1,H
-331,08/05/04,Man United,Chelsea,1,1,D
-332,08/05/04,Middlesbrough,Man City,2,1,H
-333,08/05/04,Southampton,Aston Villa,1,1,D
-334,08/05/04,Tottenham,Blackburn,1,0,H
+303,03/04/04,Tottenham,Chelsea,0,1,A
+304,03/04/04,Wolves,Southampton,1,4,A
+305,04/04/04,Aston Villa,Man City,1,1,D
+306,04/04/04,Liverpool,Blackburn,4,0,H
+307,05/04/04,Leeds,Leicester,3,2,H
+308,09/04/04,Arsenal,Liverpool,4,2,H
+309,09/04/04,Everton,Tottenham,3,1,H
+310,10/04/04,Birmingham,Man United,1,2,A
+311,10/04/04,Blackburn,Leeds,1,2,A
+312,10/04/04,Bolton,Aston Villa,2,2,D
+313,10/04/04,Charlton,Portsmouth,1,1,D
+314,10/04/04,Chelsea,Middlesbrough,0,0,D
+315,10/04/04,Leicester,Fulham,0,2,A
+316,10/04/04,Man City,Wolves,3,3,D
+317,11/04/04,Newcastle,Arsenal,0,0,D
+318,12/04/04,Aston Villa,Chelsea,3,2,H
+319,12/04/04,Fulham,Blackburn,3,4,A
+320,12/04/04,Liverpool,Charlton,0,1,A
+321,12/04/04,Middlesbrough,Southampton,3,1,H
+322,12/04/04,Portsmouth,Birmingham,3,1,H
+323,12/04/04,Tottenham,Man City,1,1,D
+324,12/04/04,Wolves,Bolton,1,2,A
+325,13/04/04,Leeds,Everton,1,1,D
+326,13/04/04,Man United,Leicester,1,0,H
+327,16/04/04,Arsenal,Leeds,5,0,H
+328,17/04/04,Blackburn,Leicester,1,0,H
+329,17/04/04,Bolton,Tottenham,2,0,H
+330,17/04/04,Charlton,Birmingham,1,1,D
+331,17/04/04,Chelsea,Everton,0,0,D
+332,17/04/04,Liverpool,Fulham,0,0,D
+333,17/04/04,Man City,Southampton,1,3,A
+334,17/04/04,Portsmouth,Man United,1,0,H
+335,17/04/04,Wolves,Middlesbrough,2,0,H
+336,18/04/04,Aston Villa,Newcastle,0,0,D
+337,20/04/04,Man United,Charlton,2,0,H
+338,24/04/04,Everton,Blackburn,0,1,A
+339,24/04/04,Fulham,Charlton,2,0,H
+340,24/04/04,Leicester,Man City,1,1,D
+341,24/04/04,Man United,Liverpool,0,1,A
+342,24/04/04,Middlesbrough,Aston Villa,1,2,A
+343,24/04/04,Southampton,Bolton,1,2,A
+344,25/04/04,Birmingham,Wolves,2,2,D
+345,25/04/04,Leeds,Portsmouth,1,2,A
+346,25/04/04,Newcastle,Chelsea,2,1,H
+347,25/04/04,Tottenham,Arsenal,2,2,D
+348,01/05/04,Arsenal,Birmingham,0,0,D
+349,01/05/04,Blackburn,Man United,1,0,H
+350,01/05/04,Charlton,Leicester,2,2,D
+351,01/05/04,Chelsea,Southampton,4,0,H
+352,01/05/04,Man City,Newcastle,1,0,H
+353,01/05/04,Portsmouth,Fulham,1,1,D
+354,01/05/04,Wolves,Everton,2,1,H
+355,02/05/04,Aston Villa,Tottenham,1,0,H
+356,02/05/04,Bolton,Leeds,4,1,H
+357,02/05/04,Liverpool,Middlesbrough,2,0,H
+358,04/05/04,Portsmouth,Arsenal,1,1,D
+359,08/05/04,Birmingham,Liverpool,0,3,A
+360,08/05/04,Everton,Bolton,1,2,A
+361,08/05/04,Leeds,Charlton,3,3,D
+362,08/05/04,Leicester,Portsmouth,3,1,H
+363,08/05/04,Man United,Chelsea,1,1,D
+364,08/05/04,Middlesbrough,Man City,2,1,H
+365,08/05/04,Southampton,Aston Villa,1,1,D
+366,08/05/04,Tottenham,Blackburn,1,0,H
+367,09/05/04,Fulham,Arsenal,0,1,A
+368,09/05/04,Newcastle,Wolves,1,1,D
+369,12/05/04,Southampton,Newcastle,3,3,D
+370,15/05/04,Arsenal,Leicester,2,1,H
+371,15/05/04,Aston Villa,Man United,0,2,A
+372,15/05/04,Blackburn,Birmingham,1,1,D
+373,15/05/04,Bolton,Fulham,0,2,A
+374,15/05/04,Charlton,Southampton,2,1,H
+375,15/05/04,Chelsea,Leeds,1,0,H
+376,15/05/04,Liverpool,Newcastle,1,1,D
+377,15/05/04,Man City,Everton,5,1,H
+378,15/05/04,Portsmouth,Middlesbrough,5,1,H
+379,15/05/04,Wolves,Tottenham,0,2,A
