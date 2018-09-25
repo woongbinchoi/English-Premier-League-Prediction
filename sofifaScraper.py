@@ -134,4 +134,4 @@ def mergeOVAToCLeanedAll(ovaFolderPath, cleanedFolderPath):
 if __name__ == "__main__":
 	# scrapeTeamOVA(2006, 2018, 'data/OVAs')
 	# mergeOVAToCleaned('data/OVAs/2006-2007.csv', 'data/cleaned/2006-2007.csv')
-	# mergeOVAToCLeanedAll('data/OVAs', 'data/cleaned')
+	mergeOVAToCLeanedAll('data/OVAs', 'data/cleaned')
