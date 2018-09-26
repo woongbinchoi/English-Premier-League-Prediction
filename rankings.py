@@ -32,8 +32,8 @@ def getRankings(year, date):
 	with open('data/standings/' + str(year) + 'Standings.csv', mode='w') as standing_files:
 		standing_writer = csv.writer(standing_files, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 		standing_writer.writerow(['Team', 'Points'])
-		for key, value in reversed(sorted(scores.iteritems(), key=lambda (k,v): (v,k))):
-			standing_writer.writerow([key, value])
+		for key in sorted(scores, key=scores.get, reverse=True):
+			standing_writer.writerow([key, scores[key]])
 
 for year in range(2006, 2018):
-	getRankings(year, '31/12/' + str(year)[-2:])
+	getRankings(year, '31/12/' + str(year+1)[-2:])
