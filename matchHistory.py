@@ -1,4 +1,3 @@
-
 import ntpath
 import os
 import pandas as pd
@@ -57,6 +56,6 @@ def getAllTime():
 	    	else:
 	    		score[1] += 1
 	for key in scores:
-		print key
-		print scores[key]
+		print (key)
+		print (scores[key])
 	return scores
