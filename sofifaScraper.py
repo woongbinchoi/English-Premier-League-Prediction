@@ -121,17 +121,12 @@ def mergeOVAToCleaned(ovaPath, cleanedPath):
 def scrapeTeamOVAAll(path):
 	scrapeTeamOVA(2006, 2018, path)
 
-def mergeOVAToCLeanedAll(ovaFolderPath, cleanedFolderPath):
+def mergeOVAToCleanedAll(ovaFolderPath, cleanedFolderPath):
 	fromYear = 2006
 	toYear = 2018
 	for year in range(fromYear, toYear + 1):
 		ovaPath = ntpath.join(ovaFolderPath, '%s-%s.csv' % (year, year + 1))
 		cleanedPath = ntpath.join(cleanedFolderPath, '%s-%s.csv' % (year, year + 1))
 
-		print("About to merge " + ovaPath)
+		print("About to merge " + ovaPath + " ...")
 		mergeOVAToCleaned(ovaPath, cleanedPath)
-
-if __name__ == "__main__":
-	# scrapeTeamOVA(2006, 2018, 'data/OVAs')
-	# mergeOVAToCleaned('data/OVAs/2006-2007.csv', 'data/cleaned/2006-2007.csv')
-	mergeOVAToCLeanedAll('data/OVAs', 'data/cleaned')

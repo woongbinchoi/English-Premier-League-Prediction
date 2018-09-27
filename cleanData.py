@@ -1,6 +1,8 @@
 import ntpath
 import os
 import pandas as pd
+from sofifaScraper import mergeOVAToCleanedAll
+from currentStatus import addCurrentDetailsAll
 
 
 # clean the original raw data by storing only the columns that we need, and removing the rest.
@@ -29,6 +31,20 @@ def cleanAll(fromFolder, toFolder, columns):
         clean(frompath, topath, columns)
 
 if __name__ == "__main__":
-    columns = ['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR']
-    cleanAll('data/raw', 'data/cleaned', columns)
+    RAW_DATA_FILE_PATH = 'data/raw'
+    CLEANED_DATA_FILE_PATH = 'data/cleaned'
+    OVA_FILE_PATH = 'data/OVAs'
 
+    # 1. From raw data, remove all data but these columns below.
+    # Produces: cleaned data csv located in CLEANED_DATA_FILE_PATH
+    columns = ['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR']
+    cleanAll(RAW_DATA_FILE_PATH, CLEANED_DATA_FILE_PATH, columns)
+
+    # 2. From 1, add Overall Rating columns
+    # Produces: cleaned csv modified, located in CLEANED_DATA_FILE_PATH. Now all cleaned csv from 2006-2019 have OVA column. 
+    mergeOVAToCleanedAll(OVA_FILE_PATH, CLEANED_DATA_FILE_PATH)
+
+    # 3. From 2, add current status columns (current point, current goal for,against,difference, match played)
+    # Produces: cleaned csv modified, located in CLEANED_DATA_FILE_PATH. Now all cleaned csv from 1993-2019 have additinoal columns
+    addCurrentDetailsAll(CLEANED_DATA_FILE_PATH)
+    

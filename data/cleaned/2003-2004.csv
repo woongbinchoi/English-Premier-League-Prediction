@@ -1,381 +1,381 @@
-MatchID,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
-0,16/08/03,Arsenal,Everton,2,1,H
-1,16/08/03,Birmingham,Tottenham,1,0,H
-2,16/08/03,Blackburn,Wolves,5,1,H
-3,16/08/03,Fulham,Middlesbrough,3,2,H
-4,16/08/03,Leicester,Southampton,2,2,D
-5,16/08/03,Man United,Bolton,4,0,H
-6,16/08/03,Portsmouth,Aston Villa,2,1,H
-7,17/08/03,Charlton,Man City,0,3,A
-8,17/08/03,Leeds,Newcastle,2,2,D
-9,17/08/03,Liverpool,Chelsea,1,2,A
-10,23/08/03,Bolton,Blackburn,2,2,D
-11,23/08/03,Chelsea,Leicester,2,1,H
-12,23/08/03,Everton,Fulham,3,1,H
-13,23/08/03,Man City,Portsmouth,1,1,D
-14,23/08/03,Newcastle,Man United,1,2,A
-15,23/08/03,Southampton,Birmingham,0,0,D
-16,23/08/03,Tottenham,Leeds,2,1,H
-17,23/08/03,Wolves,Charlton,0,4,A
-18,24/08/03,Aston Villa,Liverpool,0,0,D
-19,24/08/03,Middlesbrough,Arsenal,0,4,A
-20,25/08/03,Blackburn,Man City,2,3,A
-21,26/08/03,Charlton,Everton,2,2,D
-22,26/08/03,Leeds,Southampton,0,0,D
-23,26/08/03,Leicester,Middlesbrough,0,0,D
-24,26/08/03,Portsmouth,Bolton,4,0,H
-25,27/08/03,Arsenal,Aston Villa,2,0,H
-26,27/08/03,Liverpool,Tottenham,0,0,D
-27,27/08/03,Man United,Wolves,1,0,H
-28,30/08/03,Aston Villa,Leicester,3,1,H
-29,30/08/03,Bolton,Charlton,0,0,D
-30,30/08/03,Chelsea,Blackburn,2,2,D
-31,30/08/03,Everton,Liverpool,0,3,A
-32,30/08/03,Middlesbrough,Leeds,2,3,A
-33,30/08/03,Newcastle,Birmingham,0,1,A
-34,30/08/03,Tottenham,Fulham,0,3,A
-35,30/08/03,Wolves,Portsmouth,0,0,D
-36,31/08/03,Man City,Arsenal,1,2,A
-37,31/08/03,Southampton,Man United,1,0,H
-38,13/09/03,Arsenal,Portsmouth,1,1,D
-39,13/09/03,Blackburn,Liverpool,1,3,A
-40,13/09/03,Bolton,Middlesbrough,2,0,H
-41,13/09/03,Charlton,Man United,0,2,A
-42,13/09/03,Chelsea,Tottenham,4,2,H
-43,13/09/03,Everton,Newcastle,2,2,D
-44,13/09/03,Southampton,Wolves,2,0,H
-45,14/09/03,Birmingham,Fulham,2,2,D
-46,14/09/03,Man City,Aston Villa,4,1,H
-47,15/09/03,Leicester,Leeds,4,0,H
-48,20/09/03,Aston Villa,Charlton,2,1,H
-49,20/09/03,Fulham,Man City,2,2,D
-50,20/09/03,Leeds,Birmingham,0,2,A
-51,20/09/03,Liverpool,Leicester,2,1,H
-52,20/09/03,Newcastle,Bolton,0,0,D
-53,20/09/03,Portsmouth,Blackburn,1,2,A
-54,20/09/03,Tottenham,Southampton,1,3,A
-55,20/09/03,Wolves,Chelsea,0,5,A
-56,21/09/03,Man United,Arsenal,0,0,D
-57,21/09/03,Middlesbrough,Everton,1,0,H
-58,26/09/03,Arsenal,Newcastle,3,2,H
-59,27/09/03,Birmingham,Portsmouth,2,0,H
-60,27/09/03,Bolton,Wolves,1,1,D
-61,27/09/03,Chelsea,Aston Villa,1,0,H
-62,27/09/03,Leicester,Man United,1,4,A
-63,27/09/03,Southampton,Middlesbrough,0,1,A
-64,28/09/03,Blackburn,Fulham,0,2,A
-65,28/09/03,Charlton,Liverpool,3,2,H
-66,28/09/03,Everton,Leeds,4,0,H
-67,28/09/03,Man City,Tottenham,0,0,D
-68,04/10/03,Fulham,Leicester,2,0,H
-69,04/10/03,Leeds,Blackburn,2,1,H
-70,04/10/03,Liverpool,Arsenal,1,2,A
-71,04/10/03,Man United,Birmingham,3,0,H
-72,04/10/03,Newcastle,Southampton,1,0,H
-73,04/10/03,Portsmouth,Charlton,1,2,A
-74,04/10/03,Tottenham,Everton,3,0,H
-75,04/10/03,Wolves,Man City,1,0,H
-76,05/10/03,Aston Villa,Bolton,1,1,D
-77,05/10/03,Middlesbrough,Chelsea,1,2,A
-78,14/10/03,Birmingham,Chelsea,0,0,D
-79,18/10/03,Arsenal,Chelsea,2,1,H
-80,18/10/03,Fulham,Wolves,0,0,D
-81,18/10/03,Leeds,Man United,0,1,A
-82,18/10/03,Man City,Bolton,6,2,H
-83,18/10/03,Middlesbrough,Newcastle,0,1,A
-84,18/10/03,Portsmouth,Liverpool,1,0,H
-85,19/10/03,Birmingham,Aston Villa,0,0,D
-86,19/10/03,Everton,Southampton,0,0,D
-87,19/10/03,Leicester,Tottenham,1,2,A
-88,20/10/03,Blackburn,Charlton,0,1,A
-89,21/10/03,Fulham,Newcastle,2,3,A
-90,25/10/03,Aston Villa,Everton,0,0,D
-91,25/10/03,Bolton,Birmingham,0,1,A
-92,25/10/03,Chelsea,Man City,1,0,H
-93,25/10/03,Liverpool,Leeds,3,1,H
-94,25/10/03,Man United,Fulham,1,3,A
-95,25/10/03,Newcastle,Portsmouth,3,0,H
-96,25/10/03,Southampton,Blackburn,2,0,H
-97,25/10/03,Wolves,Leicester,4,3,H
-98,26/10/03,Charlton,Arsenal,1,1,D
-99,26/10/03,Tottenham,Middlesbrough,0,0,D
-100,01/11/03,Everton,Chelsea,0,1,A
-101,01/11/03,Leeds,Arsenal,1,4,A
-102,01/11/03,Man United,Portsmouth,3,0,H
-103,01/11/03,Middlesbrough,Wolves,2,0,H
-104,01/11/03,Newcastle,Aston Villa,1,1,D
-105,01/11/03,Southampton,Man City,0,2,A
-106,01/11/03,Tottenham,Bolton,0,1,A
-107,02/11/03,Fulham,Liverpool,1,2,A
-108,02/11/03,Leicester,Blackburn,2,0,H
-109,03/11/03,Birmingham,Charlton,1,2,A
-110,08/11/03,Arsenal,Tottenham,2,1,H
-111,08/11/03,Aston Villa,Middlesbrough,0,2,A
-112,08/11/03,Bolton,Southampton,0,0,D
-113,08/11/03,Charlton,Fulham,3,1,H
-114,08/11/03,Portsmouth,Leeds,6,1,H
-115,08/11/03,Wolves,Birmingham,1,1,D
-116,09/11/03,Chelsea,Newcastle,5,0,H
-117,09/11/03,Liverpool,Man United,1,2,A
-118,09/11/03,Man City,Leicester,0,3,A
-119,10/11/03,Blackburn,Everton,2,1,H
-120,22/11/03,Birmingham,Arsenal,0,3,A
-121,22/11/03,Everton,Wolves,2,0,H
-122,22/11/03,Leeds,Bolton,0,2,A
-123,22/11/03,Leicester,Charlton,1,1,D
-124,22/11/03,Man United,Blackburn,2,1,H
-125,22/11/03,Middlesbrough,Liverpool,0,0,D
-126,22/11/03,Newcastle,Man City,3,0,H
-127,22/11/03,Southampton,Chelsea,0,1,A
-128,23/11/03,Tottenham,Aston Villa,2,1,H
-129,24/11/03,Fulham,Portsmouth,2,0,H
-130,29/11/03,Aston Villa,Southampton,1,0,H
-131,29/11/03,Blackburn,Tottenham,1,0,H
-132,29/11/03,Bolton,Everton,2,0,H
-133,29/11/03,Charlton,Leeds,0,1,A
-134,29/11/03,Portsmouth,Leicester,0,2,A
-135,29/11/03,Wolves,Newcastle,1,1,D
-136,30/11/03,Arsenal,Fulham,0,0,D
-137,30/11/03,Chelsea,Man United,1,0,H
-138,30/11/03,Liverpool,Birmingham,3,1,H
-139,30/11/03,Man City,Middlesbrough,0,1,A
-140,06/12/03,Birmingham,Blackburn,0,4,A
-141,06/12/03,Fulham,Bolton,2,1,H
-142,06/12/03,Leeds,Chelsea,1,1,D
-143,06/12/03,Leicester,Arsenal,1,1,D
-144,06/12/03,Man United,Aston Villa,4,0,H
-145,06/12/03,Middlesbrough,Portsmouth,0,0,D
-146,06/12/03,Newcastle,Liverpool,1,1,D
-147,06/12/03,Tottenham,Wolves,5,2,H
-148,07/12/03,Everton,Man City,0,0,D
-149,07/12/03,Southampton,Charlton,3,2,H
-150,13/12/03,Chelsea,Bolton,1,2,A
-151,13/12/03,Leicester,Birmingham,0,2,A
-152,13/12/03,Liverpool,Southampton,1,2,A
-153,13/12/03,Man United,Man City,3,1,H
-154,13/12/03,Middlesbrough,Charlton,0,0,D
-155,13/12/03,Newcastle,Tottenham,4,0,H
-156,13/12/03,Portsmouth,Everton,1,2,A
-157,14/12/03,Arsenal,Blackburn,1,0,H
-158,14/12/03,Aston Villa,Wolves,3,2,H
-159,14/12/03,Leeds,Fulham,3,2,H
-160,20/12/03,Blackburn,Aston Villa,0,2,A
-161,20/12/03,Bolton,Arsenal,1,1,D
-162,20/12/03,Charlton,Newcastle,0,0,D
-163,20/12/03,Everton,Leicester,3,2,H
-164,20/12/03,Fulham,Chelsea,0,1,A
-165,21/12/03,Southampton,Portsmouth,3,0,H
-166,21/12/03,Tottenham,Man United,1,2,A
-167,22/12/03,Man City,Leeds,1,1,D
-168,26/12/03,Arsenal,Wolves,3,0,H
-169,26/12/03,Birmingham,Man City,2,1,H
-170,26/12/03,Blackburn,Middlesbrough,2,2,D
-171,26/12/03,Charlton,Chelsea,4,2,H
-172,26/12/03,Fulham,Southampton,2,0,H
-173,26/12/03,Leeds,Aston Villa,0,0,D
-174,26/12/03,Leicester,Newcastle,1,1,D
-175,26/12/03,Liverpool,Bolton,3,1,H
-176,26/12/03,Man United,Everton,3,2,H
-177,26/12/03,Portsmouth,Tottenham,2,0,H
-178,28/12/03,Aston Villa,Fulham,3,0,H
-179,28/12/03,Bolton,Leicester,2,2,D
-180,28/12/03,Chelsea,Portsmouth,3,0,H
-181,28/12/03,Everton,Birmingham,1,0,H
-182,28/12/03,Man City,Liverpool,2,2,D
-183,28/12/03,Middlesbrough,Man United,0,1,A
-184,28/12/03,Newcastle,Blackburn,0,1,A
-185,28/12/03,Tottenham,Charlton,0,1,A
-186,28/12/03,Wolves,Leeds,3,1,H
-187,29/12/03,Southampton,Arsenal,0,1,A
-188,06/01/04,Aston Villa,Portsmouth,2,1,H
-189,07/01/04,Bolton,Man United,1,2,A
-190,07/01/04,Chelsea,Liverpool,0,1,A
-191,07/01/04,Everton,Arsenal,1,1,D
-192,07/01/04,Man City,Charlton,1,1,D
-193,07/01/04,Middlesbrough,Fulham,2,1,H
-194,07/01/04,Newcastle,Leeds,1,0,H
-195,07/01/04,Southampton,Leicester,0,0,D
-196,07/01/04,Tottenham,Birmingham,4,1,H
-197,07/01/04,Wolves,Blackburn,2,2,D
-198,10/01/04,Arsenal,Middlesbrough,4,1,H
-199,10/01/04,Birmingham,Southampton,2,1,H
-200,10/01/04,Blackburn,Bolton,3,4,A
-201,10/01/04,Charlton,Wolves,2,0,H
-202,10/01/04,Fulham,Everton,2,1,H
-203,10/01/04,Leeds,Tottenham,0,1,A
-204,10/01/04,Liverpool,Aston Villa,1,0,H
-205,10/01/04,Portsmouth,Man City,4,2,H
-206,11/01/04,Leicester,Chelsea,0,4,A
-207,11/01/04,Man United,Newcastle,0,0,D
-208,17/01/04,Bolton,Portsmouth,1,0,H
-209,17/01/04,Everton,Charlton,0,1,A
-210,17/01/04,Man City,Blackburn,1,1,D
-211,17/01/04,Middlesbrough,Leicester,3,3,D
-212,17/01/04,Southampton,Leeds,2,1,H
-213,17/01/04,Tottenham,Liverpool,2,1,H
-214,17/01/04,Wolves,Man United,1,0,H
-215,18/01/04,Aston Villa,Arsenal,0,2,A
-216,18/01/04,Chelsea,Birmingham,0,0,D
-217,19/01/04,Newcastle,Fulham,3,1,H
-218,21/01/04,Wolves,Liverpool,1,1,D
-219,31/01/04,Birmingham,Newcastle,1,1,D
-220,31/01/04,Charlton,Bolton,1,2,A
-221,31/01/04,Fulham,Tottenham,2,1,H
-222,31/01/04,Leeds,Middlesbrough,0,3,A
-223,31/01/04,Leicester,Aston Villa,0,5,A
-224,31/01/04,Liverpool,Everton,0,0,D
-225,31/01/04,Man United,Southampton,3,2,H
-226,31/01/04,Portsmouth,Wolves,0,0,D
-227,01/02/04,Arsenal,Man City,2,1,H
-228,01/02/04,Blackburn,Chelsea,2,3,A
-229,07/02/04,Aston Villa,Leeds,2,0,H
-230,07/02/04,Bolton,Liverpool,2,2,D
-231,07/02/04,Everton,Man United,3,4,A
-232,07/02/04,Middlesbrough,Blackburn,0,1,A
-233,07/02/04,Newcastle,Leicester,3,1,H
-234,07/02/04,Southampton,Fulham,0,0,D
-235,07/02/04,Tottenham,Portsmouth,4,3,H
-236,07/02/04,Wolves,Arsenal,1,3,A
-237,08/02/04,Chelsea,Charlton,1,0,H
-238,08/02/04,Man City,Birmingham,0,0,D
-239,10/02/04,Arsenal,Southampton,2,0,H
-240,10/02/04,Leeds,Wolves,4,1,H
-241,10/02/04,Leicester,Bolton,1,1,D
-242,11/02/04,Birmingham,Everton,3,0,H
-243,11/02/04,Blackburn,Newcastle,1,1,D
-244,11/02/04,Charlton,Tottenham,2,4,A
-245,11/02/04,Fulham,Aston Villa,1,2,A
-246,11/02/04,Liverpool,Man City,2,1,H
-247,11/02/04,Man United,Middlesbrough,2,3,A
-248,11/02/04,Portsmouth,Chelsea,0,2,A
-249,21/02/04,Bolton,Man City,1,3,A
-250,21/02/04,Charlton,Blackburn,3,2,H
-251,21/02/04,Chelsea,Arsenal,1,2,A
-252,21/02/04,Man United,Leeds,1,1,D
-253,21/02/04,Newcastle,Middlesbrough,2,1,H
-254,21/02/04,Southampton,Everton,3,3,D
-255,21/02/04,Wolves,Fulham,2,1,H
-256,22/02/04,Aston Villa,Birmingham,2,2,D
-257,22/02/04,Tottenham,Leicester,4,4,D
-258,28/02/04,Arsenal,Charlton,2,1,H
-259,28/02/04,Blackburn,Southampton,1,1,D
-260,28/02/04,Everton,Aston Villa,2,0,H
-261,28/02/04,Fulham,Man United,1,1,D
-262,28/02/04,Leicester,Wolves,0,0,D
-263,28/02/04,Man City,Chelsea,0,1,A
-264,29/02/04,Leeds,Liverpool,2,2,D
-265,29/02/04,Portsmouth,Newcastle,1,1,D
-266,03/03/04,Birmingham,Middlesbrough,3,1,H
-267,06/03/04,Birmingham,Bolton,2,0,H
-268,09/03/04,Middlesbrough,Tottenham,1,0,H
-269,13/03/04,Birmingham,Leicester,0,1,A
-270,13/03/04,Blackburn,Arsenal,0,2,A
-271,13/03/04,Bolton,Chelsea,0,2,A
-272,13/03/04,Charlton,Middlesbrough,1,0,H
-273,13/03/04,Everton,Portsmouth,1,0,H
-274,13/03/04,Fulham,Leeds,2,0,H
-275,14/03/04,Man City,Man United,4,1,H
-276,14/03/04,Southampton,Liverpool,2,0,H
-277,14/03/04,Tottenham,Newcastle,1,0,H
-278,14/03/04,Wolves,Aston Villa,0,4,A
-279,17/03/04,Liverpool,Portsmouth,3,0,H
-280,20/03/04,Arsenal,Bolton,2,1,H
-281,20/03/04,Aston Villa,Blackburn,0,2,A
-282,20/03/04,Chelsea,Fulham,2,1,H
-283,20/03/04,Leicester,Everton,1,1,D
-284,20/03/04,Liverpool,Wolves,1,0,H
-285,20/03/04,Man United,Tottenham,3,0,H
-286,20/03/04,Middlesbrough,Birmingham,5,3,H
-287,20/03/04,Newcastle,Charlton,3,1,H
-288,21/03/04,Portsmouth,Southampton,1,0,H
-289,22/03/04,Leeds,Man City,2,1,H
-290,27/03/04,Birmingham,Leeds,4,1,H
-291,27/03/04,Blackburn,Portsmouth,1,2,A
-292,27/03/04,Charlton,Aston Villa,1,2,A
-293,27/03/04,Chelsea,Wolves,5,2,H
-294,27/03/04,Everton,Middlesbrough,1,1,D
-295,27/03/04,Man City,Fulham,0,0,D
-296,27/03/04,Southampton,Tottenham,1,0,H
-297,28/03/04,Arsenal,Man United,1,1,D
-298,28/03/04,Bolton,Newcastle,1,0,H
-299,28/03/04,Leicester,Liverpool,0,0,D
-300,03/04/04,Fulham,Birmingham,0,0,D
-301,03/04/04,Middlesbrough,Bolton,2,0,H
-302,03/04/04,Newcastle,Everton,4,2,H
-303,03/04/04,Tottenham,Chelsea,0,1,A
-304,03/04/04,Wolves,Southampton,1,4,A
-305,04/04/04,Aston Villa,Man City,1,1,D
-306,04/04/04,Liverpool,Blackburn,4,0,H
-307,05/04/04,Leeds,Leicester,3,2,H
-308,09/04/04,Arsenal,Liverpool,4,2,H
-309,09/04/04,Everton,Tottenham,3,1,H
-310,10/04/04,Birmingham,Man United,1,2,A
-311,10/04/04,Blackburn,Leeds,1,2,A
-312,10/04/04,Bolton,Aston Villa,2,2,D
-313,10/04/04,Charlton,Portsmouth,1,1,D
-314,10/04/04,Chelsea,Middlesbrough,0,0,D
-315,10/04/04,Leicester,Fulham,0,2,A
-316,10/04/04,Man City,Wolves,3,3,D
-317,11/04/04,Newcastle,Arsenal,0,0,D
-318,12/04/04,Aston Villa,Chelsea,3,2,H
-319,12/04/04,Fulham,Blackburn,3,4,A
-320,12/04/04,Liverpool,Charlton,0,1,A
-321,12/04/04,Middlesbrough,Southampton,3,1,H
-322,12/04/04,Portsmouth,Birmingham,3,1,H
-323,12/04/04,Tottenham,Man City,1,1,D
-324,12/04/04,Wolves,Bolton,1,2,A
-325,13/04/04,Leeds,Everton,1,1,D
-326,13/04/04,Man United,Leicester,1,0,H
-327,16/04/04,Arsenal,Leeds,5,0,H
-328,17/04/04,Blackburn,Leicester,1,0,H
-329,17/04/04,Bolton,Tottenham,2,0,H
-330,17/04/04,Charlton,Birmingham,1,1,D
-331,17/04/04,Chelsea,Everton,0,0,D
-332,17/04/04,Liverpool,Fulham,0,0,D
-333,17/04/04,Man City,Southampton,1,3,A
-334,17/04/04,Portsmouth,Man United,1,0,H
-335,17/04/04,Wolves,Middlesbrough,2,0,H
-336,18/04/04,Aston Villa,Newcastle,0,0,D
-337,20/04/04,Man United,Charlton,2,0,H
-338,24/04/04,Everton,Blackburn,0,1,A
-339,24/04/04,Fulham,Charlton,2,0,H
-340,24/04/04,Leicester,Man City,1,1,D
-341,24/04/04,Man United,Liverpool,0,1,A
-342,24/04/04,Middlesbrough,Aston Villa,1,2,A
-343,24/04/04,Southampton,Bolton,1,2,A
-344,25/04/04,Birmingham,Wolves,2,2,D
-345,25/04/04,Leeds,Portsmouth,1,2,A
-346,25/04/04,Newcastle,Chelsea,2,1,H
-347,25/04/04,Tottenham,Arsenal,2,2,D
-348,01/05/04,Arsenal,Birmingham,0,0,D
-349,01/05/04,Blackburn,Man United,1,0,H
-350,01/05/04,Charlton,Leicester,2,2,D
-351,01/05/04,Chelsea,Southampton,4,0,H
-352,01/05/04,Man City,Newcastle,1,0,H
-353,01/05/04,Portsmouth,Fulham,1,1,D
-354,01/05/04,Wolves,Everton,2,1,H
-355,02/05/04,Aston Villa,Tottenham,1,0,H
-356,02/05/04,Bolton,Leeds,4,1,H
-357,02/05/04,Liverpool,Middlesbrough,2,0,H
-358,04/05/04,Portsmouth,Arsenal,1,1,D
-359,08/05/04,Birmingham,Liverpool,0,3,A
-360,08/05/04,Everton,Bolton,1,2,A
-361,08/05/04,Leeds,Charlton,3,3,D
-362,08/05/04,Leicester,Portsmouth,3,1,H
-363,08/05/04,Man United,Chelsea,1,1,D
-364,08/05/04,Middlesbrough,Man City,2,1,H
-365,08/05/04,Southampton,Aston Villa,1,1,D
-366,08/05/04,Tottenham,Blackburn,1,0,H
-367,09/05/04,Fulham,Arsenal,0,1,A
-368,09/05/04,Newcastle,Wolves,1,1,D
-369,12/05/04,Southampton,Newcastle,3,3,D
-370,15/05/04,Arsenal,Leicester,2,1,H
-371,15/05/04,Aston Villa,Man United,0,2,A
-372,15/05/04,Blackburn,Birmingham,1,1,D
-373,15/05/04,Bolton,Fulham,0,2,A
-374,15/05/04,Charlton,Southampton,2,1,H
-375,15/05/04,Chelsea,Leeds,1,0,H
-376,15/05/04,Liverpool,Newcastle,1,1,D
-377,15/05/04,Man City,Everton,5,1,H
-378,15/05/04,Portsmouth,Middlesbrough,5,1,H
-379,15/05/04,Wolves,Tottenham,0,2,A
+MatchID,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,AT_match_played,AT_goal_against,HT_goal_against,HT_goal_differnece,AT_current_standing,HT_match_played,AT_goal_differnece,AT_goal_for,HT_current_standing,HT_goal_for
+0,16/08/03,Arsenal,Everton,2,1,H,0,0,0,0,0,0,0,0,0,0
+1,16/08/03,Birmingham,Tottenham,1,0,H,0,0,0,0,0,0,0,0,0,0
+2,16/08/03,Blackburn,Wolves,5,1,H,0,0,0,0,0,0,0,0,0,0
+3,16/08/03,Fulham,Middlesbrough,3,2,H,0,0,0,0,0,0,0,0,0,0
+4,16/08/03,Leicester,Southampton,2,2,D,0,0,0,0,0,0,0,0,0,0
+5,16/08/03,Man United,Bolton,4,0,H,0,0,0,0,0,0,0,0,0,0
+6,16/08/03,Portsmouth,Aston Villa,2,1,H,0,0,0,0,0,0,0,0,0,0
+7,17/08/03,Charlton,Man City,0,3,A,0,0,0,0,0,0,0,0,0,0
+8,17/08/03,Leeds,Newcastle,2,2,D,0,0,0,0,0,0,0,0,0,0
+9,17/08/03,Liverpool,Chelsea,1,2,A,0,0,0,0,0,0,0,0,0,0
+10,23/08/03,Bolton,Blackburn,2,2,D,1,1,4,-4,3,1,4,5,0,0
+11,23/08/03,Chelsea,Leicester,2,1,H,1,2,1,1,1,1,0,2,3,2
+12,23/08/03,Everton,Fulham,3,1,H,1,2,2,-1,3,1,1,3,0,1
+13,23/08/03,Man City,Portsmouth,1,1,D,1,1,0,3,3,1,1,2,3,3
+14,23/08/03,Newcastle,Man United,1,2,A,1,0,2,0,3,1,4,4,1,2
+15,23/08/03,Southampton,Birmingham,0,0,D,1,0,2,0,3,1,1,1,1,2
+16,23/08/03,Tottenham,Leeds,2,1,H,1,2,1,-1,1,1,0,2,0,0
+17,23/08/03,Wolves,Charlton,0,4,A,1,3,5,-4,0,1,-3,0,0,1
+18,24/08/03,Aston Villa,Liverpool,0,0,D,1,2,2,-1,0,1,-1,1,0,1
+19,24/08/03,Middlesbrough,Arsenal,0,4,A,1,1,3,-1,3,1,1,2,0,2
+20,25/08/03,Blackburn,Man City,2,3,A,2,1,3,4,4,2,3,4,4,7
+21,26/08/03,Charlton,Everton,2,2,D,2,3,3,1,3,2,1,4,3,4
+22,26/08/03,Leeds,Southampton,0,0,D,2,2,4,-1,2,2,0,2,1,3
+23,26/08/03,Leicester,Middlesbrough,0,0,D,2,7,4,-1,0,2,-5,2,1,3
+24,26/08/03,Portsmouth,Bolton,4,0,H,2,6,2,1,1,2,-4,2,4,3
+25,27/08/03,Arsenal,Aston Villa,2,0,H,2,2,1,5,1,2,-1,1,6,6
+26,27/08/03,Liverpool,Tottenham,0,0,D,2,2,2,-1,3,2,0,2,1,1
+27,27/08/03,Man United,Wolves,1,0,H,2,9,1,5,0,2,-8,1,6,6
+28,30/08/03,Aston Villa,Leicester,3,1,H,3,4,4,-3,2,3,-1,3,1,1
+29,30/08/03,Bolton,Charlton,0,0,D,3,5,10,-8,4,3,1,6,1,2
+30,30/08/03,Chelsea,Blackburn,2,2,D,3,6,2,2,4,2,3,9,6,4
+31,30/08/03,Everton,Liverpool,0,3,A,3,2,5,1,2,3,-1,1,4,6
+32,30/08/03,Middlesbrough,Leeds,2,3,A,3,4,7,-5,2,3,-1,3,1,2
+33,30/08/03,Newcastle,Birmingham,0,1,A,2,0,4,-1,4,2,1,1,1,3
+34,30/08/03,Tottenham,Fulham,0,3,A,2,5,2,0,3,3,-1,4,4,2
+35,30/08/03,Wolves,Portsmouth,0,0,D,3,2,10,-9,7,3,5,7,0,1
+36,31/08/03,Man City,Arsenal,1,2,A,3,1,3,4,9,3,7,8,7,7
+37,31/08/03,Southampton,Man United,1,0,H,3,1,2,0,9,3,6,7,3,2
+38,13/09/03,Arsenal,Portsmouth,1,1,D,4,2,2,8,8,4,5,7,12,10
+39,13/09/03,Blackburn,Liverpool,1,3,A,4,2,8,3,5,4,2,4,5,11
+40,13/09/03,Bolton,Middlesbrough,2,0,H,4,10,10,-8,1,4,-6,4,2,2
+41,13/09/03,Charlton,Man United,0,2,A,4,2,5,1,9,4,5,7,5,6
+42,13/09/03,Chelsea,Tottenham,4,2,H,4,5,4,2,4,3,-3,2,7,6
+43,13/09/03,Everton,Newcastle,2,2,D,3,5,8,-2,1,4,-2,3,4,6
+44,13/09/03,Southampton,Wolves,2,0,H,4,10,2,1,1,4,-9,1,6,3
+45,14/09/03,Birmingham,Fulham,2,2,D,3,5,0,2,6,3,2,7,7,2
+46,14/09/03,Man City,Aston Villa,4,1,H,4,5,5,3,4,4,-1,4,7,8
+47,15/09/03,Leicester,Leeds,4,0,H,4,6,7,-3,5,4,0,6,2,4
+48,20/09/03,Aston Villa,Charlton,2,1,H,5,7,9,-4,5,5,-1,6,4,5
+49,20/09/03,Fulham,Man City,2,2,D,5,6,7,2,10,4,6,12,7,9
+50,20/09/03,Leeds,Birmingham,0,2,A,4,2,10,-4,8,5,2,4,5,6
+51,20/09/03,Liverpool,Leicester,2,1,H,5,7,3,4,5,5,1,8,8,7
+52,20/09/03,Newcastle,Bolton,0,0,D,5,10,7,-2,5,4,-6,4,2,5
+53,20/09/03,Portsmouth,Blackburn,1,2,A,5,11,3,5,5,5,1,12,9,8
+54,20/09/03,Tottenham,Southampton,1,3,A,5,2,9,-5,9,5,3,5,4,4
+55,20/09/03,Wolves,Chelsea,0,5,A,4,6,12,-11,10,5,4,10,1,1
+56,21/09/03,Man United,Arsenal,0,0,D,5,3,2,7,13,5,8,11,12,9
+57,21/09/03,Middlesbrough,Everton,1,0,H,5,10,12,-8,5,5,-2,8,1,4
+58,26/09/03,Arsenal,Newcastle,3,2,H,5,7,3,8,3,6,-2,5,14,11
+59,27/09/03,Birmingham,Portsmouth,2,0,H,6,5,2,4,9,5,4,9,11,6
+60,27/09/03,Bolton,Wolves,1,1,D,6,17,10,-6,1,6,-16,1,6,4
+61,27/09/03,Chelsea,Aston Villa,1,0,H,6,10,6,9,7,5,-3,7,13,15
+62,27/09/03,Leicester,Man United,1,4,A,6,2,9,0,13,6,7,9,5,9
+63,27/09/03,Southampton,Middlesbrough,0,1,A,6,12,3,5,4,6,-7,5,12,8
+64,28/09/03,Blackburn,Fulham,0,2,A,5,9,12,2,8,6,2,11,8,14
+65,28/09/03,Charlton,Liverpool,3,2,H,6,4,9,-2,11,6,5,9,5,7
+66,28/09/03,Everton,Leeds,4,0,H,6,12,11,-3,5,6,-6,6,5,8
+67,28/09/03,Man City,Tottenham,0,0,D,6,12,8,6,4,6,-7,5,11,14
+68,04/10/03,Fulham,Leicester,2,0,H,7,13,9,4,5,6,-3,10,11,13
+69,04/10/03,Leeds,Blackburn,2,1,H,7,14,16,-10,8,7,0,14,5,6
+70,04/10/03,Liverpool,Arsenal,1,2,A,7,5,7,4,17,7,9,14,11,11
+71,04/10/03,Man United,Birmingham,3,0,H,6,2,3,10,14,7,6,8,16,13
+72,04/10/03,Newcastle,Southampton,1,0,H,7,4,10,-3,12,6,4,8,3,7
+73,04/10/03,Portsmouth,Charlton,1,2,A,7,11,7,2,8,7,-1,10,9,9
+74,04/10/03,Tottenham,Everton,3,0,H,7,11,12,-7,8,7,1,12,5,5
+75,04/10/03,Wolves,Man City,1,0,H,7,8,18,-16,12,7,6,14,2,2
+76,05/10/03,Aston Villa,Bolton,1,1,D,7,11,11,-4,7,7,-6,5,7,7
+77,05/10/03,Middlesbrough,Chelsea,1,2,A,6,6,12,-6,16,7,10,16,7,6
+78,14/10/03,Birmingham,Chelsea,0,0,D,7,7,5,3,19,7,11,18,14,8
+79,18/10/03,Arsenal,Chelsea,2,1,H,8,7,6,10,20,8,11,18,20,16
+80,18/10/03,Fulham,Wolves,0,0,D,8,18,9,6,5,7,-15,3,14,15
+81,18/10/03,Leeds,Man United,0,1,A,8,3,17,-9,19,8,13,16,8,8
+82,18/10/03,Man City,Bolton,6,2,H,8,12,9,5,8,8,-6,6,12,14
+83,18/10/03,Middlesbrough,Newcastle,0,1,A,7,10,14,-7,6,8,-2,8,7,7
+84,18/10/03,Portsmouth,Liverpool,1,0,H,8,9,9,1,11,8,3,12,9,10
+85,19/10/03,Birmingham,Aston Villa,0,0,D,8,12,5,3,8,8,-4,8,15,8
+86,19/10/03,Everton,Southampton,0,0,D,8,5,14,-2,12,8,3,8,8,12
+87,19/10/03,Leicester,Tottenham,1,2,A,8,12,15,-5,8,8,-4,8,5,10
+88,20/10/03,Blackburn,Charlton,0,1,A,8,12,16,-1,11,8,0,12,8,15
+89,21/10/03,Fulham,Newcastle,2,3,A,8,10,9,6,9,8,-1,9,15,15
+90,25/10/03,Aston Villa,Everton,0,0,D,9,14,12,-4,9,9,-2,12,9,8
+91,25/10/03,Bolton,Birmingham,0,1,A,9,5,18,-10,16,9,3,8,8,8
+92,25/10/03,Chelsea,Man City,1,0,H,9,11,9,10,15,9,9,20,20,19
+93,25/10/03,Liverpool,Leeds,3,1,H,9,18,10,2,8,9,-10,8,11,12
+94,25/10/03,Man United,Fulham,1,3,A,9,12,3,14,15,9,5,17,22,17
+95,25/10/03,Newcastle,Portsmouth,3,0,H,9,9,12,0,12,9,2,11,12,12
+96,25/10/03,Southampton,Blackburn,2,0,H,9,17,5,3,8,9,-2,15,13,8
+97,25/10/03,Wolves,Leicester,4,3,H,9,17,18,-15,5,9,-6,11,6,3
+98,26/10/03,Charlton,Arsenal,1,1,D,9,7,12,1,23,9,11,18,14,13
+99,26/10/03,Tottenham,Middlesbrough,0,0,D,9,15,13,-3,7,9,-8,7,11,10
+100,01/11/03,Everton,Chelsea,0,1,A,10,9,14,-2,23,10,11,20,10,12
+101,01/11/03,Leeds,Arsenal,1,4,A,10,8,21,-12,24,10,11,19,8,9
+102,01/11/03,Man United,Portsmouth,3,0,H,10,12,6,12,12,10,-1,11,22,18
+103,01/11/03,Middlesbrough,Wolves,2,0,H,10,21,15,-8,9,10,-14,7,8,7
+104,01/11/03,Newcastle,Aston Villa,1,1,D,10,12,12,3,10,10,-4,8,15,15
+105,01/11/03,Southampton,Man City,0,2,A,10,12,5,5,15,10,8,20,16,10
+106,01/11/03,Tottenham,Bolton,0,1,A,10,19,13,-3,8,10,-11,8,12,10
+107,02/11/03,Fulham,Liverpool,1,2,A,10,11,13,7,14,10,4,15,18,20
+108,02/11/03,Leicester,Blackburn,2,0,H,10,19,21,-7,8,10,-4,15,5,14
+109,03/11/03,Birmingham,Charlton,1,2,A,10,13,5,4,15,10,1,14,19,9
+110,08/11/03,Arsenal,Tottenham,2,1,H,11,14,9,14,12,11,-4,10,27,23
+111,08/11/03,Aston Villa,Middlesbrough,0,2,A,11,15,13,-4,11,11,-6,9,11,9
+112,08/11/03,Bolton,Southampton,0,0,D,11,7,19,-10,16,11,3,10,11,9
+113,08/11/03,Charlton,Fulham,3,1,H,11,15,14,2,18,11,6,21,18,16
+114,08/11/03,Portsmouth,Leeds,6,1,H,11,25,15,-4,8,11,-15,10,12,11
+115,08/11/03,Wolves,Birmingham,1,1,D,11,7,23,-16,19,11,3,10,9,7
+116,09/11/03,Chelsea,Newcastle,5,0,H,11,13,9,12,16,11,3,16,26,21
+117,09/11/03,Liverpool,Man United,1,2,A,11,6,12,5,25,11,15,21,17,17
+118,09/11/03,Man City,Leicester,0,3,A,11,21,12,10,8,11,-5,16,18,22
+119,10/11/03,Blackburn,Everton,2,1,H,11,15,21,-6,10,11,-3,12,8,15
+120,22/11/03,Birmingham,Arsenal,0,3,A,12,10,8,3,30,12,15,25,20,11
+121,22/11/03,Everton,Wolves,2,0,H,12,24,17,-4,10,12,-16,8,10,13
+122,22/11/03,Leeds,Bolton,0,2,A,12,19,31,-20,12,12,-10,9,8,11
+123,22/11/03,Leicester,Charlton,1,1,D,12,15,21,-2,21,12,4,19,11,19
+124,22/11/03,Man United,Blackburn,2,1,H,12,22,7,16,11,12,-5,17,28,23
+125,22/11/03,Middlesbrough,Liverpool,0,0,D,12,14,15,-4,17,12,4,18,14,11
+126,22/11/03,Newcastle,Man City,3,0,H,12,15,18,-2,18,12,7,22,16,16
+127,22/11/03,Southampton,Chelsea,0,1,A,12,9,7,3,29,12,17,26,17,10
+128,23/11/03,Tottenham,Aston Villa,2,1,H,12,15,16,-5,11,12,-6,9,12,11
+129,24/11/03,Fulham,Portsmouth,2,0,H,12,16,18,4,15,12,1,17,18,22
+130,29/11/03,Aston Villa,Southampton,1,0,H,13,8,17,-7,17,13,2,10,11,10
+131,29/11/03,Blackburn,Tottenham,1,0,H,13,17,24,-6,15,13,-4,13,11,18
+132,29/11/03,Bolton,Everton,2,0,H,13,17,19,-8,13,13,-2,15,15,11
+133,29/11/03,Charlton,Leeds,0,1,A,13,33,16,4,8,13,-22,11,22,20
+134,29/11/03,Portsmouth,Leicester,0,2,A,13,22,18,-1,12,13,-2,20,15,17
+135,29/11/03,Wolves,Newcastle,1,1,D,13,18,26,-18,19,13,1,19,10,8
+136,30/11/03,Arsenal,Fulham,0,0,D,13,18,10,18,21,13,6,24,33,28
+137,30/11/03,Chelsea,Man United,1,0,H,13,8,9,18,31,13,17,25,32,27
+138,30/11/03,Liverpool,Birmingham,3,1,H,13,11,14,4,20,13,0,11,18,18
+139,30/11/03,Man City,Middlesbrough,0,1,A,13,15,18,4,15,13,-4,11,18,22
+140,06/12/03,Birmingham,Blackburn,0,4,A,14,24,14,-2,14,14,-5,19,20,12
+141,06/12/03,Fulham,Bolton,2,1,H,14,19,18,6,18,14,-6,13,22,24
+142,06/12/03,Leeds,Chelsea,1,1,D,14,9,33,-21,35,14,19,28,11,12
+143,06/12/03,Leicester,Arsenal,1,1,D,14,10,22,0,34,14,18,28,15,22
+144,06/12/03,Man United,Aston Villa,4,0,H,14,17,9,16,14,14,-6,11,31,25
+145,06/12/03,Middlesbrough,Portsmouth,0,0,D,14,20,15,-3,15,14,-3,17,18,12
+146,06/12/03,Newcastle,Liverpool,1,1,D,14,15,19,1,21,14,6,21,20,20
+147,06/12/03,Tottenham,Wolves,5,2,H,14,27,18,-5,11,14,-18,9,15,13
+148,07/12/03,Everton,Man City,0,0,D,14,19,19,-4,18,14,3,22,13,15
+149,07/12/03,Southampton,Charlton,3,2,H,14,17,9,1,22,14,3,20,17,10
+150,13/12/03,Chelsea,Bolton,1,2,A,15,21,10,19,18,15,-7,14,36,29
+151,13/12/03,Leicester,Birmingham,0,2,A,15,18,23,0,20,15,-6,12,16,23
+152,13/12/03,Liverpool,Southampton,1,2,A,15,11,16,6,20,15,2,13,22,22
+153,13/12/03,Man United,Man City,3,1,H,15,19,9,20,19,15,3,22,34,29
+154,13/12/03,Middlesbrough,Charlton,0,0,D,15,20,15,-3,22,15,2,22,19,12
+155,13/12/03,Newcastle,Tottenham,4,0,H,15,20,20,1,18,15,-2,18,21,21
+156,13/12/03,Portsmouth,Everton,1,2,A,15,19,20,-3,14,15,-4,15,16,17
+157,14/12/03,Arsenal,Blackburn,1,0,H,15,24,11,18,17,15,-1,23,35,29
+158,14/12/03,Aston Villa,Wolves,3,2,H,15,32,21,-10,11,15,-21,11,14,11
+159,14/12/03,Leeds,Fulham,3,2,H,15,19,34,-21,25,15,7,26,12,13
+160,20/12/03,Blackburn,Aston Villa,0,2,A,16,23,25,-2,17,16,-9,14,17,23
+161,20/12/03,Bolton,Arsenal,1,1,D,16,11,22,-6,38,16,19,30,21,16
+162,20/12/03,Charlton,Newcastle,0,0,D,16,20,20,2,24,16,5,25,23,22
+163,20/12/03,Everton,Leicester,3,2,H,16,25,20,-3,16,16,-2,23,17,17
+164,20/12/03,Fulham,Chelsea,0,1,A,16,12,22,6,36,16,18,30,25,28
+165,21/12/03,Southampton,Portsmouth,3,0,H,16,22,12,3,16,16,-4,18,23,15
+166,21/12/03,Tottenham,Man United,1,2,A,16,10,24,-6,37,16,22,32,18,18
+167,22/12/03,Man City,Leeds,1,1,D,16,36,22,1,15,16,-20,16,19,23
+168,26/12/03,Arsenal,Wolves,3,0,H,16,35,12,19,11,17,-22,13,39,31
+169,26/12/03,Birmingham,Man City,2,1,H,17,23,18,-4,20,16,1,24,23,14
+170,26/12/03,Blackburn,Middlesbrough,2,2,D,16,15,27,-4,20,17,-3,12,17,23
+171,26/12/03,Charlton,Chelsea,4,2,H,17,12,20,2,39,17,19,31,24,22
+172,26/12/03,Fulham,Southampton,2,0,H,17,12,23,5,26,17,6,18,25,28
+173,26/12/03,Leeds,Aston Villa,0,0,D,17,23,37,-20,20,17,-7,16,16,17
+174,26/12/03,Leicester,Newcastle,1,1,D,17,20,28,-3,25,17,5,25,16,25
+175,26/12/03,Liverpool,Bolton,3,1,H,17,23,18,5,22,16,-6,17,22,23
+176,26/12/03,Man United,Everton,3,2,H,17,22,11,23,20,17,-2,20,40,34
+177,26/12/03,Portsmouth,Tottenham,2,0,H,17,26,25,-7,18,17,-7,19,16,18
+178,28/12/03,Aston Villa,Fulham,3,0,H,18,23,23,-7,28,18,7,30,21,16
+179,28/12/03,Bolton,Leicester,2,2,D,18,29,26,-8,17,18,-3,26,22,18
+180,28/12/03,Chelsea,Portsmouth,3,0,H,18,25,16,17,19,18,-5,20,39,33
+181,28/12/03,Everton,Birmingham,1,0,H,17,19,25,-3,26,18,-3,16,20,22
+182,28/12/03,Man City,Liverpool,2,2,D,17,19,25,0,25,18,7,26,20,25
+183,28/12/03,Middlesbrough,Man United,0,1,A,18,13,17,-3,43,17,24,37,21,14
+184,28/12/03,Newcastle,Blackburn,0,1,A,18,29,21,5,18,18,-4,25,26,26
+185,28/12/03,Tottenham,Charlton,0,1,A,18,22,28,-9,27,18,4,26,18,19
+186,28/12/03,Wolves,Leeds,3,1,H,18,37,38,-25,17,17,-20,17,11,13
+187,29/12/03,Southampton,Arsenal,0,1,A,18,12,14,4,42,18,22,34,26,18
+188,06/01/04,Aston Villa,Portsmouth,2,1,H,19,28,23,-4,19,19,-8,20,24,19
+189,07/01/04,Bolton,Man United,1,2,A,19,13,28,-8,46,19,25,38,23,20
+190,07/01/04,Chelsea,Liverpool,0,1,A,18,21,16,20,26,19,7,28,42,36
+191,07/01/04,Everton,Arsenal,1,1,D,19,12,25,-2,45,19,23,35,23,23
+192,07/01/04,Man City,Charlton,1,1,D,19,22,27,0,30,19,5,27,21,27
+193,07/01/04,Middlesbrough,Fulham,2,1,H,19,26,18,-4,28,18,4,30,21,14
+194,07/01/04,Newcastle,Leeds,1,0,H,19,40,22,4,17,19,-22,18,26,26
+195,07/01/04,Southampton,Leicester,0,0,D,19,31,15,3,18,19,-3,28,26,18
+196,07/01/04,Tottenham,Birmingham,4,1,H,18,20,29,-10,26,19,-4,16,18,19
+197,07/01/04,Wolves,Blackburn,2,2,D,19,29,39,-23,21,18,-3,26,14,16
+198,10/01/04,Arsenal,Middlesbrough,4,1,H,19,19,13,23,24,20,-3,16,46,36
+199,10/01/04,Birmingham,Southampton,2,1,H,20,15,24,-7,27,19,3,18,26,17
+200,10/01/04,Blackburn,Bolton,3,4,A,20,30,31,-3,23,20,-9,21,22,28
+201,10/01/04,Charlton,Wolves,2,0,H,19,41,23,5,15,20,-23,18,31,28
+202,10/01/04,Fulham,Everton,2,1,H,20,26,28,3,24,20,-2,24,28,31
+203,10/01/04,Leeds,Tottenham,0,1,A,20,30,41,-23,21,20,-7,23,17,18
+204,10/01/04,Liverpool,Aston Villa,1,0,H,20,24,21,8,27,19,-3,21,29,29
+205,10/01/04,Portsmouth,Man City,4,2,H,20,28,30,-9,22,20,0,28,19,21
+206,11/01/04,Leicester,Chelsea,0,4,A,20,17,31,-3,42,20,19,36,19,28
+207,11/01/04,Man United,Newcastle,0,0,D,20,22,14,26,29,20,5,27,49,40
+208,17/01/04,Bolton,Portsmouth,1,0,H,21,32,33,-8,22,21,-7,25,26,25
+209,17/01/04,Everton,Charlton,0,1,A,21,23,28,-3,34,21,7,30,24,25
+210,17/01/04,Man City,Blackburn,1,1,D,21,35,32,-2,22,21,-4,31,22,30
+211,17/01/04,Middlesbrough,Leicester,3,3,D,21,35,23,-6,19,20,-7,28,24,17
+212,17/01/04,Southampton,Leeds,2,1,H,21,42,17,2,17,21,-24,18,27,19
+213,17/01/04,Tottenham,Liverpool,2,1,H,20,21,30,-6,32,21,9,30,24,24
+214,17/01/04,Wolves,Man United,1,0,H,21,14,43,-25,50,20,26,40,15,18
+215,18/01/04,Aston Villa,Arsenal,0,2,A,21,14,25,-4,49,21,26,40,27,21
+216,18/01/04,Chelsea,Birmingham,0,0,D,20,25,17,23,29,21,-6,19,45,40
+217,19/01/04,Newcastle,Fulham,3,1,H,21,29,22,5,31,21,4,33,30,27
+218,21/01/04,Wolves,Liverpool,1,1,D,21,23,43,-24,32,21,8,31,18,19
+219,31/01/04,Birmingham,Newcastle,1,1,D,22,23,25,-6,33,21,7,30,30,19
+220,31/01/04,Charlton,Bolton,1,2,A,22,33,23,8,29,22,-7,26,37,31
+221,31/01/04,Fulham,Tottenham,2,1,H,22,31,32,2,27,22,-5,26,31,34
+222,31/01/04,Leeds,Middlesbrough,0,3,A,21,26,44,-25,25,22,-6,20,17,19
+223,31/01/04,Leicester,Aston Villa,0,5,A,22,27,38,-7,27,22,-6,21,20,31
+224,31/01/04,Liverpool,Everton,0,0,D,22,29,24,8,24,22,-4,25,33,32
+225,31/01/04,Man United,Southampton,3,2,H,22,18,15,25,30,22,3,21,50,40
+226,31/01/04,Portsmouth,Wolves,0,0,D,22,44,33,-8,19,22,-24,20,22,25
+227,01/02/04,Arsenal,Man City,2,1,H,22,33,14,28,23,22,-2,31,52,42
+228,01/02/04,Blackburn,Chelsea,2,3,A,22,17,36,-4,46,22,23,40,23,32
+229,07/02/04,Aston Villa,Leeds,2,0,H,23,47,27,-1,17,23,-28,19,30,26
+230,07/02/04,Bolton,Liverpool,2,2,D,23,24,34,-6,34,23,8,32,32,28
+231,07/02/04,Everton,Man United,3,4,A,23,17,29,-4,53,23,26,43,25,25
+232,07/02/04,Middlesbrough,Blackburn,0,1,A,23,39,26,-3,23,22,-5,34,28,23
+233,07/02/04,Newcastle,Leicester,3,1,H,23,43,24,7,20,23,-12,31,34,31
+234,07/02/04,Southampton,Fulham,0,0,D,23,33,21,2,34,23,3,36,30,23
+235,07/02/04,Tottenham,Portsmouth,4,3,H,23,33,33,-6,23,23,-8,25,27,27
+236,07/02/04,Wolves,Arsenal,1,3,A,23,15,44,-24,55,23,29,44,20,20
+237,08/02/04,Chelsea,Charlton,1,0,H,23,25,19,24,37,23,7,32,49,43
+238,08/02/04,Man City,Birmingham,0,0,D,22,26,35,-3,31,23,-6,20,23,32
+239,10/02/04,Arsenal,Southampton,2,0,H,24,21,16,31,31,24,2,23,58,47
+240,10/02/04,Leeds,Wolves,4,1,H,24,47,49,-30,20,24,-26,21,17,19
+241,10/02/04,Leicester,Bolton,1,1,D,24,36,46,-14,33,24,-6,30,20,32
+242,11/02/04,Birmingham,Everton,3,0,H,24,33,26,-6,25,23,-5,28,32,20
+243,11/02/04,Blackburn,Newcastle,1,1,D,24,25,39,-4,37,24,9,34,26,35
+244,11/02/04,Charlton,Tottenham,2,4,A,24,36,26,6,30,24,-5,31,37,32
+245,11/02/04,Fulham,Aston Villa,1,2,A,24,27,33,3,33,24,1,28,35,36
+246,11/02/04,Liverpool,Man City,2,1,H,24,35,26,8,24,24,-3,32,35,34
+247,11/02/04,Man United,Middlesbrough,2,3,A,23,27,20,27,28,24,-4,23,56,47
+248,11/02/04,Portsmouth,Chelsea,0,2,A,24,19,37,-9,52,24,25,44,23,28
+249,21/02/04,Bolton,Man City,1,3,A,25,37,37,-6,24,25,-4,33,34,31
+250,21/02/04,Charlton,Blackburn,3,2,H,25,40,30,4,27,25,-4,36,37,34
+251,21/02/04,Chelsea,Arsenal,1,2,A,25,16,19,27,61,25,33,49,55,46
+252,21/02/04,Man United,Leeds,1,1,D,25,50,23,26,20,25,-27,23,56,49
+253,21/02/04,Newcastle,Middlesbrough,2,1,H,24,29,26,9,31,25,-3,26,38,35
+254,21/02/04,Southampton,Everton,3,3,D,25,36,23,0,25,25,-8,28,31,23
+255,21/02/04,Wolves,Fulham,2,1,H,25,35,51,-29,35,25,2,37,20,22
+256,22/02/04,Aston Villa,Birmingham,2,2,D,24,26,28,2,35,25,-3,23,36,30
+257,22/02/04,Tottenham,Leicester,4,4,D,25,47,38,-3,21,25,-14,33,33,35
+258,28/02/04,Arsenal,Charlton,2,1,H,26,32,17,34,40,26,5,37,64,51
+259,28/02/04,Blackburn,Southampton,1,1,D,26,26,43,-5,32,26,0,26,27,38
+260,28/02/04,Everton,Aston Villa,2,0,H,26,30,39,-8,37,26,2,32,26,31
+261,28/02/04,Fulham,Man United,1,1,D,26,24,37,1,57,26,26,50,35,38
+262,28/02/04,Leicester,Wolves,0,0,D,26,52,51,-14,23,26,-28,24,22,37
+263,28/02/04,Man City,Chelsea,0,1,A,26,21,38,-2,55,26,26,47,27,36
+264,29/02/04,Leeds,Liverpool,2,2,D,25,27,51,-27,38,26,9,36,21,24
+265,29/02/04,Portsmouth,Newcastle,1,1,D,26,27,39,-11,41,25,10,37,23,28
+266,03/03/04,Birmingham,Middlesbrough,3,1,H,25,31,28,-3,31,25,-4,27,36,25
+267,06/03/04,Birmingham,Bolton,2,0,H,26,40,29,-1,34,26,-8,32,39,28
+268,09/03/04,Middlesbrough,Tottenham,1,0,H,26,42,34,-6,34,26,-3,39,31,28
+269,13/03/04,Birmingham,Leicester,0,1,A,27,51,29,1,23,27,-14,37,42,30
+270,13/03/04,Blackburn,Arsenal,0,2,A,27,18,44,-5,67,27,35,53,28,39
+271,13/03/04,Bolton,Chelsea,0,2,A,27,21,42,-10,58,27,27,48,34,32
+272,13/03/04,Charlton,Middlesbrough,1,0,H,27,34,34,4,34,27,-5,29,40,38
+273,13/03/04,Everton,Portsmouth,1,0,H,26,40,39,-6,24,27,-11,29,29,33
+274,13/03/04,Fulham,Leeds,2,0,H,27,53,38,1,22,27,-27,26,36,39
+275,14/03/04,Man City,Man United,4,1,H,27,25,39,-3,58,27,26,51,27,36
+276,14/03/04,Southampton,Liverpool,2,0,H,26,29,27,0,39,27,9,38,33,27
+277,14/03/04,Tottenham,Newcastle,1,0,H,27,28,43,-4,42,27,10,38,34,39
+278,14/03/04,Wolves,Aston Villa,0,4,A,27,32,52,-28,37,27,0,32,24,24
+279,17/03/04,Liverpool,Portsmouth,3,0,H,27,41,31,7,24,27,-12,29,39,38
+280,20/03/04,Arsenal,Bolton,2,1,H,28,44,18,37,34,28,-12,32,70,55
+281,20/03/04,Aston Villa,Blackburn,0,2,A,28,46,32,4,28,28,-7,39,40,36
+282,20/03/04,Chelsea,Fulham,2,1,H,28,38,21,29,39,28,3,41,61,50
+283,20/03/04,Leicester,Everton,1,1,D,28,39,51,-13,32,28,-5,34,26,38
+284,20/03/04,Liverpool,Wolves,1,0,H,28,56,31,10,24,28,-32,24,42,41
+285,20/03/04,Man United,Tottenham,3,0,H,28,43,29,23,37,28,-3,40,58,52
+286,20/03/04,Middlesbrough,Birmingham,5,3,H,28,30,35,-6,42,28,0,30,34,29
+287,20/03/04,Newcastle,Charlton,3,1,H,28,34,29,9,43,28,5,39,42,38
+288,21/03/04,Portsmouth,Southampton,1,0,H,28,27,44,-15,36,28,2,29,24,29
+289,22/03/04,Leeds,Man City,2,1,H,28,40,55,-29,30,28,0,40,22,26
+290,27/03/04,Birmingham,Leeds,4,1,H,29,56,35,-2,25,29,-28,28,42,33
+291,27/03/04,Blackburn,Portsmouth,1,2,A,29,44,46,-5,27,29,-14,30,31,41
+292,27/03/04,Charlton,Aston Villa,1,2,A,29,34,37,3,40,29,2,36,43,40
+293,27/03/04,Chelsea,Wolves,5,2,H,29,57,22,30,24,29,-33,24,64,52
+294,27/03/04,Everton,Middlesbrough,1,1,D,29,38,40,-5,37,29,-4,34,33,35
+295,27/03/04,Man City,Fulham,0,0,D,29,40,42,-1,39,29,2,42,30,41
+296,27/03/04,Southampton,Tottenham,1,0,H,29,46,28,1,37,29,-6,40,36,29
+297,28/03/04,Arsenal,Man United,1,1,D,29,29,19,38,61,29,26,55,73,57
+298,28/03/04,Bolton,Newcastle,1,0,H,29,30,46,-13,45,29,11,41,34,33
+299,28/03/04,Leicester,Liverpool,0,0,D,29,31,52,-13,45,29,11,42,27,39
+300,03/04/04,Fulham,Birmingham,0,0,D,30,36,40,2,45,30,1,37,40,42
+301,03/04/04,Middlesbrough,Bolton,2,0,H,30,46,39,-4,37,30,-12,34,38,35
+302,03/04/04,Newcastle,Everton,4,2,H,30,41,31,10,34,30,-5,36,45,41
+303,03/04/04,Tottenham,Chelsea,0,1,A,30,24,47,-7,67,30,33,57,37,40
+304,03/04/04,Wolves,Southampton,1,4,A,30,28,62,-36,39,30,2,30,24,26
+305,04/04/04,Aston Villa,Man City,1,1,D,30,42,35,3,31,30,-1,41,43,38
+306,04/04/04,Liverpool,Blackburn,4,0,H,30,48,31,11,31,30,-6,42,46,42
+307,05/04/04,Leeds,Leicester,3,2,H,30,52,60,-31,28,30,-13,39,25,29
+308,09/04/04,Arsenal,Liverpool,4,2,H,31,31,20,38,49,30,15,46,74,58
+309,09/04/04,Everton,Tottenham,3,1,H,31,48,45,-7,37,31,-8,40,34,38
+310,10/04/04,Birmingham,Man United,1,2,A,30,30,36,1,62,31,26,56,46,37
+311,10/04/04,Blackburn,Leeds,1,2,A,31,62,52,-10,28,31,-30,32,31,42
+312,10/04/04,Bolton,Aston Villa,2,2,D,31,36,48,-14,44,31,3,39,37,34
+313,10/04/04,Charlton,Portsmouth,1,1,D,30,45,39,2,30,30,-13,32,43,41
+314,10/04/04,Chelsea,Middlesbrough,0,0,D,31,39,24,34,41,31,-2,37,70,58
+315,10/04/04,Leicester,Fulham,0,2,A,31,40,55,-14,41,31,2,42,28,41
+316,10/04/04,Man City,Wolves,3,3,D,31,66,43,-1,24,31,-39,27,32,42
+317,11/04/04,Newcastle,Arsenal,0,0,D,31,22,33,12,77,31,40,62,48,45
+318,12/04/04,Aston Villa,Chelsea,3,2,H,32,24,38,3,71,32,34,58,45,41
+319,12/04/04,Fulham,Blackburn,3,4,A,32,54,40,4,31,32,-11,43,44,44
+320,12/04/04,Liverpool,Charlton,0,1,A,31,40,35,13,44,32,2,42,49,48
+321,12/04/04,Middlesbrough,Southampton,3,1,H,31,29,39,-2,42,32,5,34,42,37
+322,12/04/04,Portsmouth,Birmingham,3,1,H,32,38,46,-13,46,31,0,38,31,33
+323,12/04/04,Tottenham,Man City,1,1,D,32,46,51,-10,33,32,-1,45,37,41
+324,12/04/04,Wolves,Bolton,1,2,A,32,50,69,-39,38,32,-14,36,25,30
+325,13/04/04,Leeds,Everton,1,1,D,32,46,63,-29,37,32,-5,41,31,34
+326,13/04/04,Man United,Leicester,1,0,H,32,57,31,27,28,31,-16,41,65,58
+327,16/04/04,Arsenal,Leeds,5,0,H,33,64,22,40,32,32,-29,35,78,62
+328,17/04/04,Blackburn,Leicester,1,0,H,33,58,57,-10,28,33,-17,41,34,47
+329,17/04/04,Bolton,Tottenham,2,0,H,33,52,51,-13,38,33,-10,42,41,38
+330,17/04/04,Charlton,Birmingham,1,1,D,33,41,40,3,46,32,-2,39,47,43
+331,17/04/04,Chelsea,Everton,0,0,D,33,47,27,33,38,33,-5,42,71,60
+332,17/04/04,Liverpool,Fulham,0,0,D,33,44,36,12,44,33,3,47,49,48
+333,17/04/04,Man City,Southampton,1,3,A,32,32,47,-1,42,33,3,35,34,46
+334,17/04/04,Portsmouth,Man United,1,0,H,32,31,47,-11,68,32,28,59,34,36
+335,17/04/04,Wolves,Middlesbrough,2,0,H,33,40,71,-40,45,33,0,40,25,31
+336,18/04/04,Aston Villa,Newcastle,0,0,D,32,33,40,4,49,33,12,45,48,44
+337,20/04/04,Man United,Charlton,2,0,H,33,41,32,27,48,33,3,44,68,59
+338,24/04/04,Everton,Blackburn,0,1,A,34,57,47,-5,37,34,-9,48,39,42
+339,24/04/04,Fulham,Charlton,2,0,H,34,43,44,3,48,34,1,44,45,47
+340,24/04/04,Leicester,Man City,1,1,D,34,50,59,-18,34,34,-3,47,28,41
+341,24/04/04,Man United,Liverpool,0,1,A,34,36,32,29,50,34,12,48,71,61
+342,24/04/04,Middlesbrough,Aston Villa,1,2,A,34,40,42,-2,49,34,4,44,45,40
+343,24/04/04,Southampton,Bolton,1,2,A,34,51,33,5,44,33,-11,40,45,38
+344,25/04/04,Birmingham,Wolves,2,2,D,34,71,42,-2,28,34,-38,33,47,40
+345,25/04/04,Leeds,Portsmouth,1,2,A,33,47,69,-34,37,34,-10,37,32,35
+346,25/04/04,Newcastle,Chelsea,2,1,H,34,27,33,12,72,33,33,60,50,45
+347,25/04/04,Tottenham,Arsenal,2,2,D,33,22,54,-12,81,34,45,67,38,42
+348,01/05/04,Arsenal,Birmingham,0,0,D,35,44,24,45,48,34,-2,42,82,69
+349,01/05/04,Blackburn,Man United,1,0,H,35,33,57,-8,71,35,28,61,40,49
+350,01/05/04,Charlton,Leicester,2,2,D,35,60,45,-1,29,35,-18,42,48,44
+351,01/05/04,Chelsea,Southampton,4,0,H,34,35,29,32,45,35,4,39,72,61
+352,01/05/04,Man City,Newcastle,1,0,H,34,34,51,-3,53,35,13,47,35,48
+353,01/05/04,Portsmouth,Fulham,1,1,D,35,44,48,-9,48,34,5,49,40,39
+354,01/05/04,Wolves,Everton,2,1,H,35,48,73,-38,39,35,-6,42,29,35
+355,02/05/04,Aston Villa,Tottenham,1,0,H,35,56,41,5,39,35,-12,44,52,46
+356,02/05/04,Bolton,Leeds,4,1,H,35,71,52,-10,32,35,-35,36,47,42
+357,02/05/04,Liverpool,Middlesbrough,2,0,H,35,44,36,13,45,35,-3,41,53,49
+358,04/05/04,Portsmouth,Arsenal,1,1,D,35,24,49,-9,83,35,45,69,41,40
+359,08/05/04,Birmingham,Liverpool,0,3,A,36,36,44,-2,56,36,15,51,49,42
+360,08/05/04,Everton,Bolton,1,2,A,36,53,50,-7,50,36,-7,46,39,43
+361,08/05/04,Leeds,Charlton,3,3,D,36,47,75,-38,49,36,-1,46,32,37
+362,08/05/04,Leicester,Portsmouth,3,1,H,36,50,62,-18,42,36,-9,41,30,44
+363,08/05/04,Man United,Chelsea,1,1,D,36,29,34,27,75,36,36,65,71,61
+364,08/05/04,Middlesbrough,Man City,2,1,H,36,51,46,-5,38,36,-2,49,45,41
+365,08/05/04,Southampton,Aston Villa,1,1,D,36,41,39,0,55,35,6,47,45,39
+366,08/05/04,Tottenham,Blackburn,1,0,H,36,57,57,-13,43,36,-7,50,39,44
+367,09/05/04,Fulham,Arsenal,0,1,A,36,25,45,5,84,36,45,70,49,50
+368,09/05/04,Newcastle,Wolves,1,1,D,36,74,35,12,32,35,-37,37,53,47
+369,12/05/04,Southampton,Newcastle,3,3,D,36,36,40,0,54,36,12,48,46,40
+370,15/05/04,Arsenal,Leicester,2,1,H,37,63,25,46,33,37,-16,47,87,71
+371,15/05/04,Aston Villa,Man United,0,2,A,37,35,42,6,72,37,27,62,56,48
+372,15/05/04,Blackburn,Birmingham,1,1,D,37,47,58,-8,49,37,-5,42,43,50
+373,15/05/04,Bolton,Fulham,0,2,A,37,46,54,-6,49,37,4,50,53,48
+374,15/05/04,Charlton,Southampton,2,1,H,37,43,50,-1,47,37,0,43,50,49
+375,15/05/04,Chelsea,Leeds,1,0,H,37,78,30,36,33,37,-38,40,76,66
+376,15/05/04,Liverpool,Newcastle,1,1,D,37,39,36,18,55,37,12,51,59,54
+377,15/05/04,Man City,Everton,5,1,H,37,52,53,-3,39,37,-8,44,38,50
+378,15/05/04,Portsmouth,Middlesbrough,5,1,H,37,47,53,-11,48,37,-4,43,42,42
+379,15/05/04,Wolves,Tottenham,0,2,A,37,57,75,-37,42,37,-12,45,33,38
