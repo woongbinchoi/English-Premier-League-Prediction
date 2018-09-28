@@ -44,7 +44,7 @@ if __name__ == "__main__":
     # Produces: cleaned csv modified, located in CLEANED_DATA_FILE_PATH. Now all cleaned csv from 2006-2019 have OVA column. 
     mergeOVAToCleanedAll(OVA_FILE_PATH, CLEANED_DATA_FILE_PATH)
 
-    # 3. From 2, add current status columns (current point, current goal for,against,difference, match played)
+    # 3. From 2, add current status columns (current point, current goal for,against,difference, match played, losing/winning streaks, last 5 games)
     # Produces: cleaned csv modified, located in CLEANED_DATA_FILE_PATH. Now all cleaned csv from 1993-2019 have additinoal columns
     addCurrentDetailsAll(CLEANED_DATA_FILE_PATH)
     
