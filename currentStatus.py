@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import ntpath
+import rankings
 
 # Helpers
 # Identify Win/Loss Streaks if any.
@@ -24,11 +25,13 @@ def addCurrentDetails(cleanedPath):
 	matchDetail = {
 		'HT_match_played': [],
 		'HT_current_standing': [],
+		'HT_past_standing': [],
 		'HT_goal_for': [],
 		'HT_goal_against': [],
 		'HT_goal_differnece': [],
 		'AT_match_played': [],
 		'AT_current_standing': [],
+		'AT_past_standing': [],
 		'AT_goal_for': [],
 		'AT_goal_against': [],
 		'AT_goal_differnece': [],
@@ -43,7 +46,15 @@ def addCurrentDetails(cleanedPath):
 		'AT_last_2': [],
 		'AT_last_1': []
 	}
+
 	df = pd.read_csv(cleanedPath)
+
+	previousYear = int(cleanedPath[-13:-9]) - 1
+	standings = dict()
+	if previousYear > 2005:
+		dfstandings = pd.read_csv('data/standings/' + str(previousYear) + 'Standings.csv')
+		for index,row in dfstandings.iterrows():
+			standings[row['Team']] = row['Points']
 
 	for index, row in df.iterrows():
 		HT = row['HomeTeam']
@@ -53,6 +64,7 @@ def addCurrentDetails(cleanedPath):
 			teamDetail[HT] = {
 				'match_played': 0,
 				'current_standing': 0,
+				'past_standing': standings[HT] if HT in standings else -1,
 				'goal_for': 0,
 				'goal_against': 0,
 				'goal_difference': 0,
@@ -62,6 +74,7 @@ def addCurrentDetails(cleanedPath):
 			teamDetail[AT] = {
 				'match_played': 0,
 				'current_standing': 0,
+				'past_standing': standings[HT] if HT in standings else -1,
 				'goal_for': 0,
 				'goal_against': 0,
 				'goal_difference': 0,
@@ -70,11 +83,13 @@ def addCurrentDetails(cleanedPath):
 
 		matchDetail['HT_match_played'].append(teamDetail[HT]['match_played'])
 		matchDetail['HT_current_standing'].append(teamDetail[HT]['current_standing'])
+		matchDetail['HT_past_standing'].append(teamDetail[HT]['past_standing'])
 		matchDetail['HT_goal_for'].append(teamDetail[HT]['goal_for'])
 		matchDetail['HT_goal_against'].append(teamDetail[HT]['goal_against'])
 		matchDetail['HT_goal_differnece'].append(teamDetail[HT]['goal_difference'])
 		matchDetail['AT_match_played'].append(teamDetail[AT]['match_played'])
 		matchDetail['AT_current_standing'].append(teamDetail[AT]['current_standing'])
+		matchDetail['AT_past_standing'].append(teamDetail[AT]['past_standing'])
 		matchDetail['AT_goal_for'].append(teamDetail[AT]['goal_for'])
 		matchDetail['AT_goal_against'].append(teamDetail[AT]['goal_against'])
 		matchDetail['AT_goal_differnece'].append(teamDetail[AT]['goal_difference'])
