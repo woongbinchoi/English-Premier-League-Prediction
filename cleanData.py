@@ -42,11 +42,23 @@ def cleanAll(fromFolder, toFolder, columns):
         print("Cleaning ", frompath, "...")
         clean(frompath, topath, columns)
 
+def combineAllMatches(cleanedFolderPath, finalPath):
+    dfList = []
+    for year in range(1993, 2019):
+        file = '%s-%s.csv' % (year, year + 1)
+        path = ntpath.join(cleanedFolderPath, file)
+        df = pd.read_csv(path)
+        df.set_index('MatchID', inplace=True)
+        dfList.append(df)
+    df = pd.concat(dfList, ignore_index=True, sort=False)
+    df.to_csv(ntpath.join(finalPath, 'final.csv'))
+
 
 if __name__ == "__main__":
     RAW_DATA_FILE_PATH = 'data/raw'
     CLEANED_DATA_FILE_PATH = 'data/cleaned'
     OVA_FILE_PATH = 'data/OVAs'
+    FINAL_PATH = 'data'
 
     # 1. From raw data, remove all data but these columns below.
     # Produces: cleaned data csv located in CLEANED_DATA_FILE_PATH
@@ -60,4 +72,7 @@ if __name__ == "__main__":
     # 3. From 2, add current status columns (current point, current goal for,against,difference, match played, losing/winning streaks, last 5 games)
     # Produces: cleaned csv modified, located in CLEANED_DATA_FILE_PATH. Now all cleaned csv from 1993-2019 have additinoal columns
     addCurrentDetailsAll(CLEANED_DATA_FILE_PATH)
-    
+
+    # 4. From 3, merge all csv files from 1993 to 2018 together
+    # Produces: new csv file under FINAL_PATH as 'final.csv'
+    combineAllMatches(CLEANED_DATA_FILE_PATH, FINAL_PATH)

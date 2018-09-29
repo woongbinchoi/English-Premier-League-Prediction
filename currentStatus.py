@@ -21,31 +21,34 @@ def get_5game_ls(last_matches):
 # Input is csv that is just cleaned from raw data
 # Output is csv modified with each row added match played, current standing, GF, GA, GD, winning/losing streaks, etc.
 def addCurrentDetails(cleanedPath):
-	teamDetail = {}
-	matchDetail = {
-		'HT_match_played': [],
-		'HT_current_standing': [],
-		'HT_past_standing': [],
-		'HT_goal_for': [],
-		'HT_goal_against': [],
-		'HT_goal_differnece': [],
-		'AT_match_played': [],
-		'AT_current_standing': [],
-		'AT_past_standing': [],
-		'AT_goal_for': [],
-		'AT_goal_against': [],
-		'AT_goal_differnece': [],
-		'HT_last_5': [],
-		'HT_last_4': [],
-		'HT_last_3': [],
-		'HT_last_2': [],
-		'HT_last_1': [],
-		'AT_last_5': [],
-		'AT_last_4': [],
-		'AT_last_3': [],
-		'AT_last_2': [],
-		'AT_last_1': []
-	}
+	teamDetail, matchDetail = {}, {}
+	matchDetailColumns = [
+		'HT_match_played',
+		'HT_current_standing',
+		'HT_past_standing',
+		'HT_goal_for',
+		'HT_goal_against',
+		'HT_goal_differnece',
+		'AT_match_played',
+		'AT_current_standing',
+		'AT_past_standing',
+		'AT_goal_for',
+		'AT_goal_against',
+		'AT_goal_differnece',
+		'HT_last_5',
+		'HT_last_4',
+		'HT_last_3',
+		'HT_last_2',
+		'HT_last_1',
+		'AT_last_5',
+		'AT_last_4',
+		'AT_last_3',
+		'AT_last_2',
+		'AT_last_1'
+	]
+
+	for item in matchDetailColumns:
+		matchDetail[item] = []
 
 	df = pd.read_csv(cleanedPath)
 
@@ -138,8 +141,11 @@ def addCurrentDetails(cleanedPath):
 
 	df.set_index('MatchID', inplace=True)
 
+	columnList = list(df)
+
 	for key, matchResults in matchDetail.items():
 		df[key] = pd.Series(matchResults, index=df.index)
+	df = df[columnList + matchDetailColumns]
 
 	df['HT_last_matches'] = df['HT_last_5'] + df['HT_last_4'] + df['HT_last_3'] + df['HT_last_2'] + df['HT_last_1']
 	df['AT_last_matches'] = df['AT_last_5'] + df['AT_last_4'] + df['AT_last_3'] + df['AT_last_2'] + df['AT_last_1']

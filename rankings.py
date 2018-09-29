@@ -35,5 +35,6 @@ def getRankings(year, date):
 		for key in sorted(scores, key=scores.get, reverse=True):
 			standing_writer.writerow([key, scores[key]])
 
-for year in range(2006, 2018):
-	getRankings(year, '31/12/' + str(year+1)[-2:])
+if __name__ == "__main__":
+	for year in range(2006, 2018):
+		getRankings(year, '31/12/' + str(year+1)[-2:])
