@@ -1,381 +1,381 @@
-MatchID,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HT_match_played,HT_current_standing,HT_past_standing,HT_goal_for,HT_goal_against,HT_goal_differnece,AT_match_played,AT_current_standing,AT_past_standing,AT_goal_for,AT_goal_against,AT_goal_differnece,HT_last_5,HT_last_4,HT_last_3,HT_last_2,HT_last_1,AT_last_5,AT_last_4,AT_last_3,AT_last_2,AT_last_1,HT_last_matches,AT_last_matches,HT_3_win_streak,HT_5_win_streak,HT_3_lose_Streak,HT_5_lose_Streak,AT_3_win_streak,AT_5_win_streak,AT_3_lose_Streak,AT_5_lose_Streak
-0,2003-08-16,Arsenal,Everton,2,1,H,0,0,-1,0,0,0,0,0,-1,0,0,0,,,,,,,,,,,,,0,0,0,0,0,0,0,0
-1,2003-08-16,Birmingham,Tottenham,1,0,H,0,0,-1,0,0,0,0,0,-1,0,0,0,,,,,,,,,,,,,0,0,0,0,0,0,0,0
-2,2003-08-16,Blackburn,Wolves,5,1,H,0,0,-1,0,0,0,0,0,-1,0,0,0,,,,,,,,,,,,,0,0,0,0,0,0,0,0
-3,2003-08-16,Fulham,Middlesbrough,3,2,H,0,0,-1,0,0,0,0,0,-1,0,0,0,,,,,,,,,,,,,0,0,0,0,0,0,0,0
-4,2003-08-16,Leicester,Southampton,2,2,D,0,0,-1,0,0,0,0,0,-1,0,0,0,,,,,,,,,,,,,0,0,0,0,0,0,0,0
-5,2003-08-16,Man United,Bolton,4,0,H,0,0,-1,0,0,0,0,0,-1,0,0,0,,,,,,,,,,,,,0,0,0,0,0,0,0,0
-6,2003-08-16,Portsmouth,Aston Villa,2,1,H,0,0,-1,0,0,0,0,0,-1,0,0,0,,,,,,,,,,,,,0,0,0,0,0,0,0,0
-7,2003-08-17,Charlton,Man City,0,3,A,0,0,-1,0,0,0,0,0,-1,0,0,0,,,,,,,,,,,,,0,0,0,0,0,0,0,0
-8,2003-08-17,Leeds,Newcastle,2,2,D,0,0,-1,0,0,0,0,0,-1,0,0,0,,,,,,,,,,,,,0,0,0,0,0,0,0,0
-9,2003-08-17,Liverpool,Chelsea,1,2,A,0,0,-1,0,0,0,0,0,-1,0,0,0,,,,,,,,,,,,,0,0,0,0,0,0,0,0
-10,2003-08-23,Bolton,Blackburn,2,2,D,1,0,-1,0,4,-4,1,3,-1,5,1,4,,,,,L,,,,,W,L,W,0,0,0,0,0,0,0,0
-11,2003-08-23,Chelsea,Leicester,2,1,H,1,3,-1,2,1,1,1,1,-1,2,2,0,,,,,W,,,,,D,W,D,0,0,0,0,0,0,0,0
-12,2003-08-23,Everton,Fulham,3,1,H,1,0,-1,1,2,-1,1,3,-1,3,2,1,,,,,L,,,,,W,L,W,0,0,0,0,0,0,0,0
-13,2003-08-23,Man City,Portsmouth,1,1,D,1,3,-1,3,0,3,1,3,-1,2,1,1,,,,,W,,,,,W,W,W,0,0,0,0,0,0,0,0
-14,2003-08-23,Newcastle,Man United,1,2,A,1,1,-1,2,2,0,1,3,-1,4,0,4,,,,,D,,,,,W,D,W,0,0,0,0,0,0,0,0
-15,2003-08-23,Southampton,Birmingham,0,0,D,1,1,-1,2,2,0,1,3,-1,1,0,1,,,,,D,,,,,W,D,W,0,0,0,0,0,0,0,0
-16,2003-08-23,Tottenham,Leeds,2,1,H,1,0,-1,0,1,-1,1,1,-1,2,2,0,,,,,L,,,,,D,L,D,0,0,0,0,0,0,0,0
-17,2003-08-23,Wolves,Charlton,0,4,A,1,0,-1,1,5,-4,1,0,-1,0,3,-3,,,,,L,,,,,L,L,L,0,0,0,0,0,0,0,0
-18,2003-08-24,Aston Villa,Liverpool,0,0,D,1,0,-1,1,2,-1,1,0,-1,1,2,-1,,,,,L,,,,,L,L,L,0,0,0,0,0,0,0,0
-19,2003-08-24,Middlesbrough,Arsenal,0,4,A,1,0,-1,2,3,-1,1,3,-1,2,1,1,,,,,L,,,,,W,L,W,0,0,0,0,0,0,0,0
-20,2003-08-25,Blackburn,Man City,2,3,A,2,4,-1,7,3,4,2,4,-1,4,1,3,,,,W,D,,,,W,D,WD,WD,0,0,0,0,0,0,0,0
-21,2003-08-26,Charlton,Everton,2,2,D,2,3,-1,4,3,1,2,3,-1,4,3,1,,,,L,W,,,,L,W,LW,LW,0,0,0,0,0,0,0,0
-22,2003-08-26,Leeds,Southampton,0,0,D,2,1,-1,3,4,-1,2,2,-1,2,2,0,,,,D,L,,,,D,D,DL,DD,0,0,0,0,0,0,0,0
-23,2003-08-26,Leicester,Middlesbrough,0,0,D,2,1,-1,3,4,-1,2,0,-1,2,7,-5,,,,D,L,,,,L,L,DL,LL,0,0,0,0,0,0,0,0
-24,2003-08-26,Portsmouth,Bolton,4,0,H,2,4,-1,3,2,1,2,1,-1,2,6,-4,,,,W,D,,,,L,D,WD,LD,0,0,0,0,0,0,0,0
-25,2003-08-27,Arsenal,Aston Villa,2,0,H,2,6,-1,6,1,5,2,1,-1,1,2,-1,,,,W,W,,,,L,D,WW,LD,0,0,0,0,0,0,0,0
-26,2003-08-27,Liverpool,Tottenham,0,0,D,2,1,-1,1,2,-1,2,3,-1,2,2,0,,,,L,D,,,,L,W,LD,LW,0,0,0,0,0,0,0,0
-27,2003-08-27,Man United,Wolves,1,0,H,2,6,-1,6,1,5,2,0,-1,1,9,-8,,,,W,W,,,,L,L,WW,LL,0,0,0,0,0,0,0,0
-28,2003-08-30,Aston Villa,Leicester,3,1,H,3,1,-1,1,4,-3,3,2,-1,3,4,-1,,,L,D,L,,,D,L,D,LDL,DLD,0,0,0,0,0,0,0,0
-29,2003-08-30,Bolton,Charlton,0,0,D,3,1,-1,2,10,-8,3,4,-1,6,5,1,,,L,D,L,,,L,W,D,LDL,LWD,0,0,0,0,0,0,0,0
-30,2003-08-30,Chelsea,Blackburn,2,2,D,2,6,-1,4,2,2,3,4,-1,9,6,3,,,,W,W,,,W,D,L,WW,WDL,0,0,0,0,0,0,0,0
-31,2003-08-30,Everton,Liverpool,0,3,A,3,4,-1,6,5,1,3,2,-1,1,2,-1,,,L,W,D,,,L,D,D,LWD,LDD,0,0,0,0,0,0,0,0
-32,2003-08-30,Middlesbrough,Leeds,2,3,A,3,1,-1,2,7,-5,3,2,-1,3,4,-1,,,L,L,D,,,D,L,D,LLD,DLD,0,0,0,0,0,0,0,0
-33,2003-08-30,Newcastle,Birmingham,0,1,A,2,1,-1,3,4,-1,2,4,-1,1,0,1,,,,D,L,,,,W,D,DL,WD,0,0,0,0,0,0,0,0
-34,2003-08-30,Tottenham,Fulham,0,3,A,3,4,-1,2,2,0,2,3,-1,4,5,-1,,,L,W,D,,,,W,L,LWD,WL,0,0,0,0,0,0,0,0
-35,2003-08-30,Wolves,Portsmouth,0,0,D,3,0,-1,1,10,-9,3,7,-1,7,2,5,,,L,L,L,,,W,D,W,LLL,WDW,0,0,0,0,0,0,0,0
-36,2003-08-31,Man City,Arsenal,1,2,A,3,7,-1,7,3,4,3,9,-1,8,1,7,,,W,D,W,,,W,W,W,WDW,WWW,0,0,0,0,0,0,0,0
-37,2003-08-31,Southampton,Man United,1,0,H,3,3,-1,2,2,0,3,9,-1,7,1,6,,,D,D,D,,,W,W,W,DDD,WWW,0,0,0,0,0,0,0,0
-38,2003-09-13,Arsenal,Portsmouth,1,1,D,4,12,-1,10,2,8,4,8,-1,7,2,5,,W,W,W,W,,W,D,W,D,WWWW,WDWD,1,0,0,0,0,0,0,0
-39,2003-09-13,Blackburn,Liverpool,1,3,A,4,5,-1,11,8,3,4,5,-1,4,2,2,,W,D,L,D,,L,D,D,W,WDLD,LDDW,0,0,0,0,0,0,0,0
-40,2003-09-13,Bolton,Middlesbrough,2,0,H,4,2,-1,2,10,-8,4,1,-1,4,10,-6,,L,D,L,D,,L,L,D,L,LDLD,LLDL,0,0,0,0,0,0,0,0
-41,2003-09-13,Charlton,Man United,0,2,A,4,5,-1,6,5,1,4,9,-1,7,2,5,,L,W,D,D,,W,W,W,L,LWDD,WWWL,0,0,0,0,0,0,0,0
-42,2003-09-13,Chelsea,Tottenham,4,2,H,3,7,-1,6,4,2,4,4,-1,2,5,-3,,,W,W,D,,L,W,D,L,WWD,LWDL,0,0,0,0,0,0,0,0
-43,2003-09-13,Everton,Newcastle,2,2,D,4,4,-1,6,8,-2,3,1,-1,3,5,-2,,L,W,D,L,,,D,L,L,LWDL,DLL,0,0,0,0,0,0,0,0
-44,2003-09-13,Southampton,Wolves,2,0,H,4,6,-1,3,2,1,4,1,-1,1,10,-9,,D,D,D,W,,L,L,L,D,DDDW,LLLD,0,0,0,0,0,0,0,0
-45,2003-09-14,Birmingham,Fulham,2,2,D,3,7,-1,2,0,2,3,6,-1,7,5,2,,,W,D,W,,,W,L,W,WDW,WLW,0,0,0,0,0,0,0,0
-46,2003-09-14,Man City,Aston Villa,4,1,H,4,7,-1,8,5,3,4,4,-1,4,5,-1,,W,D,W,L,,L,D,L,W,WDWL,LDLW,0,0,0,0,0,0,0,0
-47,2003-09-15,Leicester,Leeds,4,0,H,4,2,-1,4,7,-3,4,5,-1,6,6,0,,D,L,D,L,,D,L,D,W,DLDL,DLDW,0,0,0,0,0,0,0,0
-48,2003-09-20,Aston Villa,Charlton,2,1,H,5,4,-1,5,9,-4,5,5,-1,6,7,-1,L,D,L,W,L,L,W,D,D,L,LDLWL,LWDDL,0,0,0,0,0,0,0,0
-49,2003-09-20,Fulham,Man City,2,2,D,4,7,-1,9,7,2,5,10,-1,12,6,6,,W,L,W,D,W,D,W,L,W,WLWD,WDWLW,0,0,0,0,0,0,0,0
-50,2003-09-20,Leeds,Birmingham,0,2,A,5,5,-1,6,10,-4,4,8,-1,4,2,2,D,L,D,W,L,,W,D,W,D,DLDWL,WDWD,0,0,0,0,0,0,0,0
-51,2003-09-20,Liverpool,Leicester,2,1,H,5,8,-1,7,3,4,5,5,-1,8,7,1,L,D,D,W,W,D,L,D,L,W,LDDWW,DLDLW,0,0,0,0,0,0,0,0
-52,2003-09-20,Newcastle,Bolton,0,0,D,4,2,-1,5,7,-2,5,5,-1,4,10,-6,,D,L,L,D,L,D,L,D,W,DLLD,LDLDW,0,0,0,0,0,0,0,0
-53,2003-09-20,Portsmouth,Blackburn,1,2,A,5,9,-1,8,3,5,5,5,-1,12,11,1,W,D,W,D,D,W,D,L,D,L,WDWDD,WDLDL,0,0,0,0,0,0,0,0
-54,2003-09-20,Tottenham,Southampton,1,3,A,5,4,-1,4,9,-5,5,9,-1,5,2,3,L,W,D,L,L,D,D,D,W,W,LWDLL,DDDWW,0,0,0,0,0,0,0,0
-55,2003-09-20,Wolves,Chelsea,0,5,A,5,1,-1,1,12,-11,4,10,-1,10,6,4,L,L,L,D,L,,W,W,D,W,LLLDL,WWDW,0,0,0,0,0,0,0,0
-56,2003-09-21,Man United,Arsenal,0,0,D,5,12,-1,9,2,7,5,13,-1,11,3,8,W,W,W,L,W,W,W,W,W,D,WWWLW,WWWWD,0,0,0,0,0,0,0,0
-57,2003-09-21,Middlesbrough,Everton,1,0,H,5,1,-1,4,12,-8,5,5,-1,8,10,-2,L,L,D,L,L,L,W,D,L,D,LLDLL,LWDLD,0,0,0,0,0,0,0,0
-58,2003-09-26,Arsenal,Newcastle,3,2,H,6,14,-1,11,3,8,5,3,-1,5,7,-2,W,W,W,D,D,D,L,L,D,D,WWWDD,DLLDD,0,0,0,0,0,0,0,0
-59,2003-09-27,Birmingham,Portsmouth,2,0,H,5,11,-1,6,2,4,6,9,-1,9,5,4,W,D,W,D,W,D,W,D,D,L,WDWDW,DWDDL,0,0,0,0,0,0,0,0
-60,2003-09-27,Bolton,Wolves,1,1,D,6,6,-1,4,10,-6,6,1,-1,1,17,-16,D,L,D,W,D,L,L,D,L,L,DLDWD,LLDLL,0,0,0,0,0,0,0,0
-61,2003-09-27,Chelsea,Aston Villa,1,0,H,5,13,-1,15,6,9,6,7,-1,7,10,-3,W,W,D,W,W,D,L,W,L,W,WWDWW,DLWLW,0,0,0,0,0,0,0,0
-62,2003-09-27,Leicester,Man United,1,4,A,6,5,-1,9,9,0,6,13,-1,9,2,7,L,D,L,W,L,W,W,L,W,D,LDLWL,WWLWD,0,0,0,0,0,0,0,0
-63,2003-09-27,Southampton,Middlesbrough,0,1,A,6,12,-1,8,3,5,6,4,-1,5,12,-7,D,D,W,W,W,L,D,L,L,W,DDWWW,LDLLW,1,0,0,0,0,0,0,0
-64,2003-09-28,Blackburn,Fulham,0,2,A,6,8,-1,14,12,2,5,8,-1,11,9,2,D,L,D,L,W,W,L,W,D,D,DLDLW,WLWDD,0,0,0,0,0,0,0,0
-65,2003-09-28,Charlton,Liverpool,3,2,H,6,5,-1,7,9,-2,6,11,-1,9,4,5,W,D,D,L,L,D,D,W,W,W,WDDLL,DDWWW,0,0,0,0,1,0,0,0
-66,2003-09-28,Everton,Leeds,4,0,H,6,5,-1,8,11,-3,6,5,-1,6,12,-6,W,D,L,D,L,L,D,W,L,L,WDLDL,LDWLL,0,0,0,0,0,0,0,0
-67,2003-09-28,Man City,Tottenham,0,0,D,6,11,-1,14,8,6,6,4,-1,5,12,-7,D,W,L,W,D,W,D,L,L,L,DWLWD,WDLLL,0,0,0,0,0,0,1,0
-68,2003-10-04,Fulham,Leicester,2,0,H,6,11,-1,13,9,4,7,5,-1,10,13,-3,L,W,D,D,W,D,L,W,L,L,LWDDW,DLWLL,0,0,0,0,0,0,0,0
-69,2003-10-04,Leeds,Blackburn,2,1,H,7,5,-1,6,16,-10,7,8,-1,14,14,0,D,W,L,L,L,L,D,L,W,L,DWLLL,LDLWL,0,0,1,0,0,0,0,0
-70,2003-10-04,Liverpool,Arsenal,1,2,A,7,11,-1,11,7,4,7,17,-1,14,5,9,D,W,W,W,L,W,W,D,D,W,DWWWL,WWDDW,0,0,0,0,0,0,0,0
-71,2003-10-04,Man United,Birmingham,3,0,H,7,16,-1,13,3,10,6,14,-1,8,2,6,W,L,W,D,W,D,W,D,W,W,WLWDW,DWDWW,0,0,0,0,0,0,0,0
-72,2003-10-04,Newcastle,Southampton,1,0,H,6,3,-1,7,10,-3,7,12,-1,8,4,4,L,L,D,D,L,D,W,W,W,L,LLDDL,DWWWL,0,0,0,0,0,0,0,0
-73,2003-10-04,Portsmouth,Charlton,1,2,A,7,9,-1,9,7,2,7,8,-1,10,11,-1,W,D,D,L,L,D,D,L,L,W,WDDLL,DDLLW,0,0,0,0,0,0,0,0
-74,2003-10-04,Tottenham,Everton,3,0,H,7,5,-1,5,12,-7,7,8,-1,12,11,1,D,L,L,L,D,D,L,D,L,W,DLLLD,DLDLW,0,0,0,0,0,0,0,0
-75,2003-10-04,Wolves,Man City,1,0,H,7,2,-1,2,18,-16,7,12,-1,14,8,6,L,D,L,L,D,W,L,W,D,D,LDLLD,WLWDD,0,0,0,0,0,0,0,0
-76,2003-10-05,Aston Villa,Bolton,1,1,D,7,7,-1,7,11,-4,7,7,-1,5,11,-6,L,W,L,W,L,L,D,W,D,D,LWLWL,LDWDD,0,0,0,0,0,0,0,0
-77,2003-10-05,Middlesbrough,Chelsea,1,2,A,7,7,-1,6,12,-6,6,16,-1,16,6,10,D,L,L,W,W,W,D,W,W,W,DLLWW,WDWWW,0,0,0,0,1,0,0,0
-78,2003-10-14,Birmingham,Chelsea,0,0,D,7,14,-1,8,5,3,7,19,-1,18,7,11,W,D,W,W,L,D,W,W,W,W,WDWWL,DWWWW,0,0,0,0,1,0,0,0
-79,2003-10-18,Arsenal,Chelsea,2,1,H,8,20,-1,16,6,10,8,20,-1,18,7,11,W,D,D,W,W,W,W,W,W,D,WDDWW,WWWWD,0,0,0,0,0,0,0,0
-80,2003-10-18,Fulham,Wolves,0,0,D,7,14,-1,15,9,6,8,5,-1,3,18,-15,W,D,D,W,W,D,L,L,D,W,WDDWW,DLLDW,0,0,0,0,0,0,0,0
-81,2003-10-18,Leeds,Man United,0,1,A,8,8,-1,8,17,-9,8,19,-1,16,3,13,W,L,L,L,W,L,W,D,W,W,WLLLW,LWDWW,0,0,0,0,0,0,0,0
-82,2003-10-18,Man City,Bolton,6,2,H,8,12,-1,14,9,5,8,8,-1,6,12,-6,L,W,D,D,L,D,W,D,D,D,LWDDL,DWDDD,0,0,0,0,0,0,0,0
-83,2003-10-18,Middlesbrough,Newcastle,0,1,A,8,7,-1,7,14,-7,7,6,-1,8,10,-2,L,L,W,W,L,L,D,D,L,W,LLWWL,LDDLW,0,0,0,0,0,0,0,0
-84,2003-10-18,Portsmouth,Liverpool,1,0,H,8,9,-1,10,9,1,8,11,-1,12,9,3,D,D,L,L,L,W,W,W,L,L,DDLLL,WWWLL,0,0,1,0,0,0,0,0
-85,2003-10-19,Birmingham,Aston Villa,0,0,D,8,15,-1,8,5,3,8,8,-1,8,12,-4,D,W,W,L,D,W,L,W,L,D,DWWLD,WLWLD,0,0,0,0,0,0,0,0
-86,2003-10-19,Everton,Southampton,0,0,D,8,8,-1,12,14,-2,8,12,-1,8,5,3,L,D,L,W,L,W,W,W,L,L,LDLWL,WWWLL,0,0,0,0,0,0,0,0
-87,2003-10-19,Leicester,Tottenham,1,2,A,8,5,-1,10,15,-5,8,8,-1,8,12,-4,L,W,L,L,L,L,L,L,D,W,LWLLL,LLLDW,0,0,1,0,0,0,0,0
-88,2003-10-20,Blackburn,Charlton,0,1,A,8,8,-1,15,16,-1,8,11,-1,12,12,0,D,L,W,L,L,D,L,L,W,W,DLWLL,DLLWW,0,0,0,0,0,0,0,0
-89,2003-10-21,Fulham,Newcastle,2,3,A,8,15,-1,15,9,6,8,9,-1,9,10,-1,D,D,W,W,D,D,D,L,W,W,DDWWD,DDLWW,0,0,0,0,0,0,0,0
-90,2003-10-25,Aston Villa,Everton,0,0,D,9,9,-1,8,12,-4,9,9,-1,12,14,-2,L,W,L,D,D,D,L,W,L,D,LWLDD,DLWLD,0,0,0,0,0,0,0,0
-91,2003-10-25,Bolton,Birmingham,0,1,A,9,8,-1,8,18,-10,9,16,-1,8,5,3,W,D,D,D,L,W,W,L,D,D,WDDDL,WWLDD,0,0,0,0,0,0,0,0
-92,2003-10-25,Chelsea,Man City,1,0,H,9,20,-1,19,9,10,9,15,-1,20,11,9,W,W,W,D,L,W,D,D,L,W,WWWDL,WDDLW,0,0,0,0,0,0,0,0
-93,2003-10-25,Liverpool,Leeds,3,1,H,9,11,-1,12,10,2,9,8,-1,8,18,-10,W,W,L,L,L,L,L,L,W,L,WWLLL,LLLWL,0,0,1,0,0,0,0,0
-94,2003-10-25,Man United,Fulham,1,3,A,9,22,-1,17,3,14,9,15,-1,17,12,5,W,D,W,W,W,D,W,W,D,L,WDWWW,DWWDL,1,0,0,0,0,0,0,0
-95,2003-10-25,Newcastle,Portsmouth,3,0,H,9,12,-1,12,12,0,9,12,-1,11,9,2,D,L,W,W,W,D,L,L,L,W,DLWWW,DLLLW,1,0,0,0,0,0,0,0
-96,2003-10-25,Southampton,Blackburn,2,0,H,9,13,-1,8,5,3,9,8,-1,15,17,-2,W,W,L,L,D,L,W,L,L,L,WWLLD,LWLLL,0,0,0,0,0,0,1,0
-97,2003-10-25,Wolves,Leicester,4,3,H,9,6,-1,3,18,-15,9,5,-1,11,17,-6,L,L,D,W,D,W,L,L,L,L,LLDWD,WLLLL,0,0,0,0,0,0,1,0
-98,2003-10-26,Charlton,Arsenal,1,1,D,9,14,-1,13,12,1,9,23,-1,18,7,11,L,L,W,W,W,D,D,W,W,W,LLWWW,DDWWW,1,0,0,0,1,0,0,0
-99,2003-10-26,Tottenham,Middlesbrough,0,0,D,9,11,-1,10,13,-3,9,7,-1,7,15,-8,L,L,D,W,W,L,W,W,L,L,LLDWW,LWWLL,0,0,0,0,0,0,0,0
-100,2003-11-01,Everton,Chelsea,0,1,A,10,10,-1,12,14,-2,10,23,-1,20,9,11,L,W,L,D,D,W,W,D,L,W,LWLDD,WWDLW,0,0,0,0,0,0,0,0
-101,2003-11-01,Leeds,Arsenal,1,4,A,10,8,-1,9,21,-12,10,24,-1,19,8,11,L,L,W,L,L,D,W,W,W,D,LLWLL,DWWWD,0,0,0,0,0,0,0,0
-102,2003-11-01,Man United,Portsmouth,3,0,H,10,22,-1,18,6,12,10,12,-1,11,12,-1,D,W,W,W,L,L,L,L,W,L,DWWWL,LLLWL,0,0,0,0,0,0,0,0
-103,2003-11-01,Middlesbrough,Wolves,2,0,H,10,8,-1,7,15,-8,10,9,-1,7,21,-14,W,W,L,L,D,L,D,W,D,W,WWLLD,LDWDW,0,0,0,0,0,0,0,0
-104,2003-11-01,Newcastle,Aston Villa,1,1,D,10,15,-1,15,12,3,10,10,-1,8,12,-4,L,W,W,W,W,W,L,D,D,D,LWWWW,WLDDD,1,0,0,0,0,0,0,0
-105,2003-11-01,Southampton,Man City,0,2,A,10,16,-1,10,5,5,10,15,-1,20,12,8,W,L,L,D,W,D,D,L,W,L,WLLDW,DDLWL,0,0,0,0,0,0,0,0
-106,2003-11-01,Tottenham,Bolton,0,1,A,10,12,-1,10,13,-3,10,8,-1,8,19,-11,L,D,W,W,D,D,D,D,L,L,LDWWD,DDDLL,0,0,0,0,0,0,0,0
-107,2003-11-02,Fulham,Liverpool,1,2,A,10,18,-1,20,13,7,10,14,-1,15,11,4,W,W,D,L,W,W,L,L,L,W,WWDLW,WLLLW,0,0,0,0,0,0,0,0
-108,2003-11-02,Leicester,Blackburn,2,0,H,10,5,-1,14,21,-7,10,8,-1,15,19,-4,L,L,L,L,L,W,L,L,L,L,LLLLL,WLLLL,0,0,1,1,0,0,1,0
-109,2003-11-03,Birmingham,Charlton,1,2,A,10,19,-1,9,5,4,10,15,-1,14,13,1,W,L,D,D,W,L,W,W,W,D,WLDDW,LWWWD,0,0,0,0,0,0,0,0
-110,2003-11-08,Arsenal,Tottenham,2,1,H,11,27,-1,23,9,14,11,12,-1,10,14,-4,W,W,W,D,W,D,W,W,D,L,WWWDW,DWWDL,0,0,0,0,0,0,0,0
-111,2003-11-08,Aston Villa,Middlesbrough,0,2,A,11,11,-1,9,13,-4,11,11,-1,9,15,-6,L,D,D,D,D,W,L,L,D,W,LDDDD,WLLDW,0,0,0,0,0,0,0,0
-112,2003-11-08,Bolton,Southampton,0,0,D,11,11,-1,9,19,-10,11,16,-1,10,7,3,D,D,L,L,W,L,L,D,W,L,DDLLW,LLDWL,0,0,0,0,0,0,0,0
-113,2003-11-08,Charlton,Fulham,3,1,H,11,18,-1,16,14,2,11,18,-1,21,15,6,W,W,W,D,W,W,D,L,W,L,WWWDW,WDLWL,0,0,0,0,0,0,0,0
-114,2003-11-08,Portsmouth,Leeds,6,1,H,11,12,-1,11,15,-4,11,8,-1,10,25,-15,L,L,W,L,L,L,W,L,L,L,LLWLL,LWLLL,0,0,0,0,0,0,1,0
-115,2003-11-08,Wolves,Birmingham,1,1,D,11,9,-1,7,23,-16,11,19,-1,10,7,3,D,W,D,W,L,L,D,D,W,L,DWDWL,LDDWL,0,0,0,0,0,0,0,0
-116,2003-11-09,Chelsea,Newcastle,5,0,H,11,26,-1,21,9,12,11,16,-1,16,13,3,W,D,L,W,W,W,W,W,W,D,WDLWW,WWWWD,0,0,0,0,0,0,0,0
-117,2003-11-09,Liverpool,Man United,1,2,A,11,17,-1,17,12,5,11,25,-1,21,6,15,L,L,L,W,W,W,W,W,L,W,LLLWW,WWWLW,0,0,0,0,0,0,0,0
-118,2003-11-09,Man City,Leicester,0,3,A,11,18,-1,22,12,10,11,8,-1,16,21,-5,D,L,W,L,W,L,L,L,L,W,DLWLW,LLLLW,0,0,0,0,0,0,0,0
-119,2003-11-10,Blackburn,Everton,2,1,H,11,8,-1,15,21,-6,11,10,-1,12,15,-3,L,L,L,L,L,W,L,D,D,L,LLLLL,WLDDL,0,0,1,1,0,0,0,0
-120,2003-11-22,Birmingham,Arsenal,0,3,A,12,20,-1,11,8,3,12,30,-1,25,10,15,D,D,W,L,D,W,W,D,W,W,DDWLD,WWDWW,0,0,0,0,0,0,0,0
-121,2003-11-22,Everton,Wolves,2,0,H,12,10,-1,13,17,-4,12,10,-1,8,24,-16,L,D,D,L,L,W,D,W,L,D,LDDLL,WDWLD,0,0,0,0,0,0,0,0
-122,2003-11-22,Leeds,Bolton,0,2,A,12,8,-1,11,31,-20,12,12,-1,9,19,-10,W,L,L,L,L,D,L,L,W,D,WLLLL,DLLWD,0,0,1,0,0,0,0,0
-123,2003-11-22,Leicester,Charlton,1,1,D,12,11,-1,19,21,-2,12,21,-1,19,15,4,L,L,L,W,W,W,W,D,W,W,LLLWW,WWDWW,0,0,0,0,0,0,0,0
-124,2003-11-22,Man United,Blackburn,2,1,H,12,28,-1,23,7,16,12,11,-1,17,22,-5,W,W,L,W,W,L,L,L,L,W,WWLWW,LLLLW,0,0,0,0,0,0,0,0
-125,2003-11-22,Middlesbrough,Liverpool,0,0,D,12,14,-1,11,15,-4,12,17,-1,18,14,4,L,L,D,W,W,L,L,W,W,L,LLDWW,LLWWL,0,0,0,0,0,0,0,0
-126,2003-11-22,Newcastle,Man City,3,0,H,12,16,-1,16,18,-2,12,18,-1,22,15,7,W,W,W,D,L,L,W,L,W,L,WWWDL,LWLWL,0,0,0,0,0,0,0,0
-127,2003-11-22,Southampton,Chelsea,0,1,A,12,17,-1,10,7,3,12,29,-1,26,9,17,L,D,W,L,D,D,L,W,W,W,LDWLD,DLWWW,0,0,0,0,1,0,0,0
-128,2003-11-23,Tottenham,Aston Villa,2,1,H,12,12,-1,11,16,-5,12,11,-1,9,15,-6,W,W,D,L,L,D,D,D,D,L,WWDLL,DDDDL,0,0,0,0,0,0,0,0
-129,2003-11-24,Fulham,Portsmouth,2,0,H,12,18,-1,22,18,4,12,15,-1,17,16,1,D,L,W,L,L,L,W,L,L,W,DLWLL,LWLLW,0,0,0,0,0,0,0,0
-130,2003-11-29,Aston Villa,Southampton,1,0,H,13,11,-1,10,17,-7,13,17,-1,10,8,2,D,D,D,L,L,D,W,L,D,L,DDDLL,DWLDL,0,0,0,0,0,0,0,0
-131,2003-11-29,Blackburn,Tottenham,1,0,H,13,11,-1,18,24,-6,13,15,-1,13,17,-4,L,L,L,W,L,W,D,L,L,W,LLLWL,WDLLW,0,0,0,0,0,0,0,0
-132,2003-11-29,Bolton,Everton,2,0,H,13,15,-1,11,19,-8,13,13,-1,15,17,-2,L,L,W,D,W,D,D,L,L,W,LLWDW,DDLLW,0,0,0,0,0,0,0,0
-133,2003-11-29,Charlton,Leeds,0,1,A,13,22,-1,20,16,4,13,8,-1,11,33,-22,W,D,W,W,D,L,L,L,L,L,WDWWD,LLLLL,0,0,0,0,0,0,1,1
-134,2003-11-29,Portsmouth,Leicester,0,2,A,13,15,-1,17,18,-1,13,12,-1,20,22,-2,W,L,L,W,L,L,L,W,W,D,WLLWL,LLWWD,0,0,0,0,0,0,0,0
-135,2003-11-29,Wolves,Newcastle,1,1,D,13,10,-1,8,26,-18,13,19,-1,19,18,1,D,W,L,D,L,W,W,D,L,W,DWLDL,WWDLW,0,0,0,0,0,0,0,0
-136,2003-11-30,Arsenal,Fulham,0,0,D,13,33,-1,28,10,18,13,21,-1,24,18,6,W,D,W,W,W,L,W,L,L,W,WDWWW,LWLLW,1,0,0,0,0,0,0,0
-137,2003-11-30,Chelsea,Man United,1,0,H,13,32,-1,27,9,18,13,31,-1,25,8,17,L,W,W,W,W,W,L,W,W,W,LWWWW,WLWWW,1,0,0,0,1,0,0,0
-138,2003-11-30,Liverpool,Birmingham,3,1,H,13,18,-1,18,14,4,13,20,-1,11,11,0,L,W,W,L,D,D,W,L,D,L,LWWLD,DWLDL,0,0,0,0,0,0,0,0
-139,2003-11-30,Man City,Middlesbrough,0,1,A,13,18,-1,22,18,4,13,15,-1,11,15,-4,W,L,W,L,L,L,D,W,W,D,WLWLL,LDWWD,0,0,0,0,0,0,0,0
-140,2003-12-06,Birmingham,Blackburn,0,4,A,14,20,-1,12,14,-2,14,14,-1,19,24,-5,W,L,D,L,L,L,L,W,L,W,WLDLL,LLWLW,0,0,0,0,0,0,0,0
-141,2003-12-06,Fulham,Bolton,2,1,H,14,22,-1,24,18,6,14,18,-1,13,19,-6,W,L,L,W,D,L,W,D,W,W,WLLWD,LWDWW,0,0,0,0,0,0,0,0
-142,2003-12-06,Leeds,Chelsea,1,1,D,14,11,-1,12,33,-21,14,35,-1,28,9,19,L,L,L,L,W,W,W,W,W,W,LLLLW,WWWWW,0,0,0,0,1,1,0,0
-143,2003-12-06,Leicester,Arsenal,1,1,D,14,15,-1,22,22,0,14,34,-1,28,10,18,L,W,W,D,W,D,W,W,W,D,LWWDW,DWWWD,0,0,0,0,0,0,0,0
-144,2003-12-06,Man United,Aston Villa,4,0,H,14,31,-1,25,9,16,14,14,-1,11,17,-6,L,W,W,W,L,D,D,L,L,W,LWWWL,DDLLW,0,0,0,0,0,0,0,0
-145,2003-12-06,Middlesbrough,Portsmouth,0,0,D,14,18,-1,12,15,-3,14,15,-1,17,20,-3,D,W,W,D,W,L,L,W,L,L,DWWDW,LLWLL,0,0,0,0,0,0,0,0
-146,2003-12-06,Newcastle,Liverpool,1,1,D,14,20,-1,20,19,1,14,21,-1,21,15,6,W,D,L,W,D,W,W,L,D,W,WDLWD,WWLDW,0,0,0,0,0,0,0,0
-147,2003-12-06,Tottenham,Wolves,5,2,H,14,15,-1,13,18,-5,14,11,-1,9,27,-18,D,L,L,W,L,W,L,D,L,D,DLLWL,WLDLD,0,0,0,0,0,0,0,0
-148,2003-12-07,Everton,Man City,0,0,D,14,13,-1,15,19,-4,14,18,-1,22,19,3,D,L,L,W,L,L,W,L,L,L,DLLWL,LWLLL,0,0,0,0,0,0,1,0
-149,2003-12-07,Southampton,Charlton,3,2,H,14,17,-1,10,9,1,14,22,-1,20,17,3,W,L,D,L,L,D,W,W,D,L,WLDLL,DWWDL,0,0,0,0,0,0,0,0
-150,2003-12-13,Chelsea,Bolton,1,2,A,15,36,-1,29,10,19,15,18,-1,14,21,-7,W,W,W,W,D,W,D,W,W,L,WWWWD,WDWWL,0,0,0,0,0,0,0,0
-151,2003-12-13,Leicester,Birmingham,0,2,A,15,16,-1,23,23,0,15,20,-1,12,18,-6,W,W,D,W,D,L,D,L,L,L,WWDWD,LDLLL,0,0,0,0,0,0,1,0
-152,2003-12-13,Liverpool,Southampton,1,2,A,15,22,-1,22,16,6,15,20,-1,13,11,2,W,L,D,W,D,L,D,L,L,W,WLDWD,LDLLW,0,0,0,0,0,0,0,0
-153,2003-12-13,Man United,Man City,3,1,H,15,34,-1,29,9,20,15,19,-1,22,19,3,W,W,W,L,W,W,L,L,L,D,WWWLW,WLLLD,0,0,0,0,0,0,0,0
-154,2003-12-13,Middlesbrough,Charlton,0,0,D,15,19,-1,12,15,-3,15,22,-1,22,20,2,W,W,D,W,D,W,W,D,L,L,WWDWD,WWDLL,0,0,0,0,0,0,0,0
-155,2003-12-13,Newcastle,Tottenham,4,0,H,15,21,-1,21,20,1,15,18,-1,18,20,-2,D,L,W,D,D,L,L,W,L,W,DLWDD,LLWLW,0,0,0,0,0,0,0,0
-156,2003-12-13,Portsmouth,Everton,1,2,A,15,16,-1,17,20,-3,15,14,-1,15,19,-4,L,W,L,L,D,L,L,W,L,D,LWLLD,LLWLD,0,0,0,0,0,0,0,0
-157,2003-12-14,Arsenal,Blackburn,1,0,H,15,35,-1,29,11,18,15,17,-1,23,24,-1,W,W,W,D,D,L,W,L,W,W,WWWDD,LWLWW,0,0,0,0,0,0,0,0
-158,2003-12-14,Aston Villa,Wolves,3,2,H,15,14,-1,11,21,-10,15,11,-1,11,32,-21,D,L,L,W,L,L,D,L,D,L,DLLWL,LDLDL,0,0,0,0,0,0,0,0
-159,2003-12-14,Leeds,Fulham,3,2,H,15,12,-1,13,34,-21,15,25,-1,26,19,7,L,L,L,W,D,L,L,W,D,W,LLLWD,LLWDW,0,0,0,0,0,0,0,0
-160,2003-12-20,Blackburn,Aston Villa,0,2,A,16,17,-1,23,25,-2,16,17,-1,14,23,-9,W,L,W,W,L,L,L,W,L,W,WLWWL,LLWLW,0,0,0,0,0,0,0,0
-161,2003-12-20,Bolton,Arsenal,1,1,D,16,21,-1,16,22,-6,16,38,-1,30,11,19,D,W,W,L,W,W,W,D,D,W,DWWLW,WWDDW,0,0,0,0,0,0,0,0
-162,2003-12-20,Charlton,Newcastle,0,0,D,16,23,-1,22,20,2,16,24,-1,25,20,5,W,D,L,L,D,L,W,D,D,W,WDLLD,LWDDW,0,0,0,0,0,0,0,0
-163,2003-12-20,Everton,Leicester,3,2,H,16,17,-1,17,20,-3,16,16,-1,23,25,-2,L,W,L,D,W,W,D,W,D,L,LWLDW,WDWDL,0,0,0,0,0,0,0,0
-164,2003-12-20,Fulham,Chelsea,0,1,A,16,25,-1,28,22,6,16,36,-1,30,12,18,L,W,D,W,L,W,W,W,D,L,LWDWL,WWWDL,0,0,0,0,0,0,0,0
-165,2003-12-21,Southampton,Portsmouth,3,0,H,16,23,-1,15,12,3,16,16,-1,18,22,-4,D,L,L,W,W,W,L,L,D,L,DLLWW,WLLDL,0,0,0,0,0,0,0,0
-166,2003-12-21,Tottenham,Man United,1,2,A,16,18,-1,18,24,-6,16,37,-1,32,10,22,L,W,L,W,L,W,W,L,W,W,LWLWL,WWLWW,0,0,0,0,0,0,0,0
-167,2003-12-22,Man City,Leeds,1,1,D,16,19,-1,23,22,1,16,15,-1,16,36,-20,L,L,L,D,L,L,L,W,D,W,LLLDL,LLWDW,0,0,0,0,0,0,0,0
-168,2003-12-26,Arsenal,Wolves,3,0,H,17,39,-1,31,12,19,16,11,-1,13,35,-22,W,D,D,W,D,D,L,D,L,L,WDDWD,DLDLL,0,0,0,0,0,0,0,0
-169,2003-12-26,Birmingham,Man City,2,1,H,16,23,-1,14,18,-4,17,20,-1,24,23,1,D,L,L,L,W,L,L,D,L,D,DLLLW,LLDLD,0,0,0,0,0,0,0,0
-170,2003-12-26,Blackburn,Middlesbrough,2,2,D,17,17,-1,23,27,-4,16,20,-1,12,15,-3,L,W,W,L,L,W,D,W,D,D,LWWLL,WDWDD,0,0,0,0,0,0,0,0
-171,2003-12-26,Charlton,Chelsea,4,2,H,17,24,-1,22,20,2,17,39,-1,31,12,19,D,L,L,D,D,W,W,D,L,W,DLLDD,WWDLW,0,0,0,0,0,0,0,0
-172,2003-12-26,Fulham,Southampton,2,0,H,17,25,-1,28,23,5,17,26,-1,18,12,6,W,D,W,L,L,L,L,W,W,W,WDWLL,LLWWW,0,0,0,0,1,0,0,0
-173,2003-12-26,Leeds,Aston Villa,0,0,D,17,16,-1,17,37,-20,17,20,-1,16,23,-7,L,W,D,W,D,L,W,L,W,W,LWDWD,LWLWW,0,0,0,0,0,0,0,0
-174,2003-12-26,Leicester,Newcastle,1,1,D,17,16,-1,25,28,-3,17,25,-1,25,20,5,D,W,D,L,L,W,D,D,W,D,DWDLL,WDDWD,0,0,0,0,0,0,0,0
-175,2003-12-26,Liverpool,Bolton,3,1,H,16,22,-1,23,18,5,17,22,-1,17,23,-6,L,D,W,D,L,W,W,L,W,D,LDWDL,WWLWD,0,0,0,0,0,0,0,0
-176,2003-12-26,Man United,Everton,3,2,H,17,40,-1,34,11,23,17,20,-1,20,22,-2,W,L,W,W,W,W,L,D,W,W,WLWWW,WLDWW,1,0,0,0,0,0,0,0
-177,2003-12-26,Portsmouth,Tottenham,2,0,H,17,16,-1,18,25,-7,17,18,-1,19,26,-7,L,L,D,L,L,W,L,W,L,L,LLDLL,WLWLL,0,0,0,0,0,0,0,0
-178,2003-12-28,Aston Villa,Fulham,3,0,H,18,21,-1,16,23,-7,18,28,-1,30,23,7,W,L,W,W,D,D,W,L,L,W,WLWWD,DWLLW,0,0,0,0,0,0,0,0
-179,2003-12-28,Bolton,Leicester,2,2,D,18,22,-1,18,26,-8,18,17,-1,26,29,-3,W,L,W,D,L,W,D,L,L,D,WLWDL,WDLLD,0,0,0,0,0,0,0,0
-180,2003-12-28,Chelsea,Portsmouth,3,0,H,18,39,-1,33,16,17,18,19,-1,20,25,-5,W,D,L,W,L,L,D,L,L,W,WDLWL,LDLLW,0,0,0,0,0,0,0,0
-181,2003-12-28,Everton,Birmingham,1,0,H,18,20,-1,22,25,-3,17,26,-1,16,19,-3,L,D,W,W,L,L,L,L,W,W,LDWWL,LLLWW,0,0,0,0,0,0,0,0
-182,2003-12-28,Man City,Liverpool,2,2,D,18,20,-1,25,25,0,17,25,-1,26,19,7,L,D,L,D,L,D,W,D,L,W,LDLDL,DWDLW,0,0,0,0,0,0,0,0
-183,2003-12-28,Middlesbrough,Man United,0,1,A,17,21,-1,14,17,-3,18,43,-1,37,13,24,D,W,D,D,D,L,W,W,W,W,DWDDD,LWWWW,0,0,0,0,1,0,0,0
-184,2003-12-28,Newcastle,Blackburn,0,1,A,18,26,-1,26,21,5,18,18,-1,25,29,-4,D,D,W,D,D,W,W,L,L,D,DDWDD,WWLLD,0,0,0,0,0,0,0,0
-185,2003-12-28,Tottenham,Charlton,0,1,A,18,18,-1,19,28,-9,18,27,-1,26,22,4,L,W,L,L,L,L,L,D,D,W,LWLLL,LLDDW,0,0,1,0,0,0,0,0
-186,2003-12-28,Wolves,Leeds,3,1,H,17,11,-1,13,38,-25,18,17,-1,17,37,-20,L,D,L,L,L,W,D,W,D,D,LDLLL,WDWDD,0,0,1,0,0,0,0,0
-187,2003-12-29,Southampton,Arsenal,0,1,A,18,26,-1,18,14,4,18,42,-1,34,12,22,L,W,W,W,L,D,D,W,D,W,LWWWL,DDWDW,0,0,0,0,0,0,0,0
-188,2004-01-06,Aston Villa,Portsmouth,2,1,H,19,24,-1,19,23,-4,19,19,-1,20,28,-8,L,W,W,D,W,D,L,L,W,L,LWWDW,DLLWL,0,0,0,0,0,0,0,0
-189,2004-01-07,Bolton,Man United,1,2,A,19,23,-1,20,28,-8,19,46,-1,38,13,25,L,W,D,L,D,W,W,W,W,W,LWDLD,WWWWW,0,0,0,0,1,1,0,0
-190,2004-01-07,Chelsea,Liverpool,0,1,A,19,42,-1,36,16,20,18,26,-1,28,21,7,D,L,W,L,W,W,D,L,W,D,DLWLW,WDLWD,0,0,0,0,0,0,0,0
-191,2004-01-07,Everton,Arsenal,1,1,D,19,23,-1,23,25,-2,19,45,-1,35,12,23,D,W,W,L,W,D,W,D,W,W,DWWLW,DWDWW,0,0,0,0,0,0,0,0
-192,2004-01-07,Man City,Charlton,1,1,D,19,21,-1,27,27,0,19,30,-1,27,22,5,D,L,D,L,D,L,D,D,W,W,DLDLD,LDDWW,0,0,0,0,0,0,0,0
-193,2004-01-07,Middlesbrough,Fulham,2,1,H,18,21,-1,14,18,-4,19,28,-1,30,26,4,W,D,D,D,L,W,L,L,W,L,WDDDL,WLLWL,0,0,0,0,0,0,0,0
-194,2004-01-07,Newcastle,Leeds,1,0,H,19,26,-1,26,22,4,19,17,-1,18,40,-22,D,W,D,D,L,D,W,D,D,L,DWDDL,DWDDL,0,0,0,0,0,0,0,0
-195,2004-01-07,Southampton,Leicester,0,0,D,19,26,-1,18,15,3,19,18,-1,28,31,-3,W,W,W,L,L,D,L,L,D,D,WWWLL,DLLDD,0,0,0,0,0,0,0,0
-196,2004-01-07,Tottenham,Birmingham,4,1,H,19,18,-1,19,29,-10,18,26,-1,16,20,-4,W,L,L,L,L,L,L,W,W,L,WLLLL,LLWWL,0,0,1,0,0,0,0,0
-197,2004-01-07,Wolves,Blackburn,2,2,D,18,14,-1,16,39,-23,19,21,-1,26,29,-3,D,L,L,L,W,W,L,L,D,W,DLLLW,WLLDW,0,0,0,0,0,0,0,0
-198,2004-01-10,Arsenal,Middlesbrough,4,1,H,20,46,-1,36,13,23,19,24,-1,16,19,-3,W,D,W,W,D,D,D,D,L,W,WDWWD,DDDLW,0,0,0,0,0,0,0,0
-199,2004-01-10,Birmingham,Southampton,2,1,H,19,26,-1,17,24,-7,20,27,-1,18,15,3,L,W,W,L,L,W,W,L,L,D,LWWLL,WWLLD,0,0,0,0,0,0,0,0
-200,2004-01-10,Blackburn,Bolton,3,4,A,20,22,-1,28,31,-3,20,23,-1,21,30,-9,L,L,D,W,D,W,D,L,D,L,LLDWD,WDLDL,0,0,0,0,0,0,0,0
-201,2004-01-10,Charlton,Wolves,2,0,H,20,31,-1,28,23,5,19,15,-1,18,41,-23,D,D,W,W,D,L,L,L,W,D,DDWWD,LLLWD,0,0,0,0,0,0,0,0
-202,2004-01-10,Fulham,Everton,2,1,H,20,28,-1,31,28,3,20,24,-1,24,26,-2,L,L,W,L,L,W,W,L,W,D,LLWLL,WWLWD,0,0,0,0,0,0,0,0
-203,2004-01-10,Leeds,Tottenham,0,1,A,20,17,-1,18,41,-23,20,21,-1,23,30,-7,W,D,D,L,L,L,L,L,L,W,WDDLL,LLLLW,0,0,0,0,0,0,0,0
-204,2004-01-10,Liverpool,Aston Villa,1,0,H,19,29,-1,29,21,8,20,27,-1,21,24,-3,D,L,W,D,W,W,W,D,W,W,DLWDW,WWDWW,0,0,0,0,0,0,0,0
-205,2004-01-10,Portsmouth,Man City,4,2,H,20,19,-1,21,30,-9,20,22,-1,28,28,0,L,L,W,L,L,L,D,L,D,D,LLWLL,LDLDD,0,0,0,0,0,0,0,0
-206,2004-01-11,Leicester,Chelsea,0,4,A,20,19,-1,28,31,-3,20,42,-1,36,17,19,L,L,D,D,D,L,W,L,W,L,LLDDD,LWLWL,0,0,0,0,0,0,0,0
-207,2004-01-11,Man United,Newcastle,0,0,D,20,49,-1,40,14,26,20,29,-1,27,22,5,W,W,W,W,W,W,D,D,L,W,WWWWW,WDDLW,1,1,0,0,0,0,0,0
-208,2004-01-17,Bolton,Portsmouth,1,0,H,21,26,-1,25,33,-8,21,22,-1,25,32,-7,D,L,D,L,W,L,W,L,L,W,DLDLW,LWLLW,0,0,0,0,0,0,0,0
-209,2004-01-17,Everton,Charlton,0,1,A,21,24,-1,25,28,-3,21,34,-1,30,23,7,W,L,W,D,L,D,W,W,D,W,WLWDL,DWWDW,0,0,0,0,0,0,0,0
-210,2004-01-17,Man City,Blackburn,1,1,D,21,22,-1,30,32,-2,21,22,-1,31,35,-4,D,L,D,D,L,L,D,W,D,L,DLDDL,LDWDL,0,0,0,0,0,0,0,0
-211,2004-01-17,Middlesbrough,Leicester,3,3,D,20,24,-1,17,23,-6,21,19,-1,28,35,-7,D,D,L,W,L,L,D,D,D,L,DDLWL,LDDDL,0,0,0,0,0,0,0,0
-212,2004-01-17,Southampton,Leeds,2,1,H,21,27,-1,19,17,2,21,17,-1,18,42,-24,W,L,L,D,L,D,D,L,L,L,WLLDL,DDLLL,0,0,0,0,0,0,1,0
-213,2004-01-17,Tottenham,Liverpool,2,1,H,21,24,-1,24,30,-6,20,32,-1,30,21,9,L,L,L,W,W,L,W,D,W,W,LLLWW,LWDWW,0,0,0,0,0,0,0,0
-214,2004-01-17,Wolves,Man United,1,0,H,20,15,-1,18,43,-25,21,50,-1,40,14,26,L,L,W,D,L,W,W,W,W,D,LLWDL,WWWWD,0,0,0,0,0,0,0,0
-215,2004-01-18,Aston Villa,Arsenal,0,2,A,21,27,-1,21,25,-4,21,49,-1,40,14,26,W,D,W,W,L,D,W,W,D,W,WDWWL,DWWDW,0,0,0,0,0,0,0,0
-216,2004-01-18,Chelsea,Birmingham,0,0,D,21,45,-1,40,17,23,20,29,-1,19,25,-6,W,L,W,L,W,W,W,L,L,W,WLWLW,WWLLW,0,0,0,0,0,0,0,0
-217,2004-01-19,Newcastle,Fulham,3,1,H,21,30,-1,27,22,5,21,31,-1,33,29,4,D,D,L,W,D,L,W,L,L,W,DDLWD,LWLLW,0,0,0,0,0,0,0,0
-218,2004-01-21,Wolves,Liverpool,1,1,D,21,18,-1,19,43,-24,21,32,-1,31,23,8,L,W,D,L,W,W,D,W,W,L,LWDLW,WDWWL,0,0,0,0,0,0,0,0
-219,2004-01-31,Birmingham,Newcastle,1,1,D,21,30,-1,19,25,-6,22,33,-1,30,23,7,W,L,L,W,D,D,L,W,D,W,WLLWD,DLWDW,0,0,0,0,0,0,0,0
-220,2004-01-31,Charlton,Bolton,1,2,A,22,37,-1,31,23,8,22,29,-1,26,33,-7,W,W,D,W,W,L,D,L,W,W,WWDWW,LDLWW,0,0,0,0,0,0,0,0
-221,2004-01-31,Fulham,Tottenham,2,1,H,22,31,-1,34,32,2,22,27,-1,26,31,-5,W,L,L,W,L,L,L,W,W,W,WLLWL,LLWWW,0,0,0,0,1,0,0,0
-222,2004-01-31,Leeds,Middlesbrough,0,3,A,22,17,-1,19,44,-25,21,25,-1,20,26,-6,D,L,L,L,L,D,L,W,L,D,DLLLL,DLWLD,0,0,1,0,0,0,0,0
-223,2004-01-31,Leicester,Aston Villa,0,5,A,22,20,-1,31,38,-7,22,27,-1,21,27,-6,D,D,D,L,D,D,W,W,L,L,DDDLD,DWWLL,0,0,0,0,0,0,0,0
-224,2004-01-31,Liverpool,Everton,0,0,D,22,33,-1,32,24,8,22,24,-1,25,29,-4,D,W,W,L,D,L,W,D,L,L,DWWLD,LWDLL,0,0,0,0,0,0,0,0
-225,2004-01-31,Man United,Southampton,3,2,H,22,50,-1,40,15,25,22,30,-1,21,18,3,W,W,W,D,L,L,L,D,L,W,WWWDL,LLDLW,0,0,0,0,0,0,0,0
-226,2004-01-31,Portsmouth,Wolves,0,0,D,22,22,-1,25,33,-8,22,19,-1,20,44,-24,W,L,L,W,L,W,D,L,W,D,WLLWL,WDLWD,0,0,0,0,0,0,0,0
-227,2004-02-01,Arsenal,Man City,2,1,H,22,52,-1,42,14,28,22,23,-1,31,33,-2,W,W,D,W,W,L,D,D,L,D,WWDWW,LDDLD,0,0,0,0,0,0,0,0
-228,2004-02-01,Blackburn,Chelsea,2,3,A,22,23,-1,32,36,-4,22,46,-1,40,17,23,D,W,D,L,D,L,W,L,W,D,DWDLD,LWLWD,0,0,0,0,0,0,0,0
-229,2004-02-07,Aston Villa,Leeds,2,0,H,23,30,-1,26,27,-1,23,17,-1,19,47,-28,W,W,L,L,W,L,L,L,L,L,WWLLW,LLLLL,0,0,0,0,0,0,1,1
-230,2004-02-07,Bolton,Liverpool,2,2,D,23,32,-1,28,34,-6,23,34,-1,32,24,8,D,L,W,W,W,W,W,L,D,D,DLWWW,WWLDD,1,0,0,0,0,0,0,0
-231,2004-02-07,Everton,Man United,3,4,A,23,25,-1,25,29,-4,23,53,-1,43,17,26,W,D,L,L,D,W,W,D,L,W,WDLLD,WWDLW,0,0,0,0,0,0,0,0
-232,2004-02-07,Middlesbrough,Blackburn,0,1,A,22,28,-1,23,26,-3,23,23,-1,34,39,-5,L,W,L,D,W,W,D,L,D,L,LWLDW,WDLDL,0,0,0,0,0,0,0,0
-233,2004-02-07,Newcastle,Leicester,3,1,H,23,34,-1,31,24,7,23,20,-1,31,43,-12,L,W,D,W,D,D,D,L,D,L,LWDWD,DDLDL,0,0,0,0,0,0,0,0
-234,2004-02-07,Southampton,Fulham,0,0,D,23,30,-1,23,21,2,23,34,-1,36,33,3,L,D,L,W,L,L,L,W,L,W,LDLWL,LLWLW,0,0,0,0,0,0,0,0
-235,2004-02-07,Tottenham,Portsmouth,4,3,H,23,27,-1,27,33,-6,23,23,-1,25,33,-8,L,W,W,W,L,L,L,W,L,D,LWWWL,LLWLD,0,0,0,0,0,0,0,0
-236,2004-02-07,Wolves,Arsenal,1,3,A,23,20,-1,20,44,-24,23,55,-1,44,15,29,D,L,W,D,D,W,D,W,W,W,DLWDD,WDWWW,0,0,0,0,1,0,0,0
-237,2004-02-08,Chelsea,Charlton,1,0,H,23,49,-1,43,19,24,23,37,-1,32,25,7,W,L,W,D,W,W,D,W,W,L,WLWDW,WDWWL,0,0,0,0,0,0,0,0
-238,2004-02-08,Man City,Birmingham,0,0,D,23,23,-1,32,35,-3,22,31,-1,20,26,-6,D,D,L,D,L,L,L,W,D,D,DDLDL,LLWDD,0,0,0,0,0,0,0,0
-239,2004-02-10,Arsenal,Southampton,2,0,H,24,58,-1,47,16,31,24,31,-1,23,21,2,D,W,W,W,W,D,L,W,L,D,DWWWW,DLWLD,1,0,0,0,0,0,0,0
-240,2004-02-10,Leeds,Wolves,4,1,H,24,17,-1,19,49,-30,24,20,-1,21,47,-26,L,L,L,L,L,L,W,D,D,L,LLLLL,LWDDL,0,0,1,1,0,0,0,0
-241,2004-02-10,Leicester,Bolton,1,1,D,24,20,-1,32,46,-14,24,33,-1,30,36,-6,D,L,D,L,L,L,W,W,W,D,DLDLL,LWWWD,0,0,0,0,0,0,0,0
-242,2004-02-11,Birmingham,Everton,3,0,H,23,32,-1,20,26,-6,24,25,-1,28,33,-5,L,W,D,D,D,D,L,L,D,L,LWDDD,DLLDL,0,0,0,0,0,0,0,0
-243,2004-02-11,Blackburn,Newcastle,1,1,D,24,26,-1,35,39,-4,24,37,-1,34,25,9,D,L,D,L,W,W,D,W,D,W,DLDLW,WDWDW,0,0,0,0,0,0,0,0
-244,2004-02-11,Charlton,Tottenham,2,4,A,24,37,-1,32,26,6,24,30,-1,31,36,-5,D,W,W,L,L,W,W,W,L,W,DWWLL,WWWLW,0,0,0,0,0,0,0,0
-245,2004-02-11,Fulham,Aston Villa,1,2,A,24,35,-1,36,33,3,24,33,-1,28,27,1,L,W,L,W,D,W,L,L,W,W,LWLWD,WLLWW,0,0,0,0,0,0,0,0
-246,2004-02-11,Liverpool,Man City,2,1,H,24,35,-1,34,26,8,24,24,-1,32,35,-3,W,L,D,D,D,D,L,D,L,D,WLDDD,DLDLD,0,0,0,0,0,0,0,0
-247,2004-02-11,Man United,Middlesbrough,2,3,A,24,56,-1,47,20,27,23,28,-1,23,27,-4,W,D,L,W,W,W,L,D,W,L,WDLWW,WLDWL,0,0,0,0,0,0,0,0
-248,2004-02-11,Portsmouth,Chelsea,0,2,A,24,23,-1,28,37,-9,24,52,-1,44,19,25,L,W,L,D,L,L,W,D,W,W,LWLDL,LWDWW,0,0,0,0,0,0,0,0
-249,2004-02-21,Bolton,Man City,1,3,A,25,34,-1,31,37,-6,25,24,-1,33,37,-4,W,W,W,D,D,L,D,L,D,L,WWWDD,LDLDL,0,0,0,0,0,0,0,0
-250,2004-02-21,Charlton,Blackburn,3,2,H,25,37,-1,34,30,4,25,27,-1,36,40,-4,W,W,L,L,L,L,D,L,W,D,WWLLL,LDLWD,0,0,1,0,0,0,0,0
-251,2004-02-21,Chelsea,Arsenal,1,2,A,25,55,-1,46,19,27,25,61,-1,49,16,33,W,D,W,W,W,W,W,W,W,W,WDWWW,WWWWW,1,0,0,0,1,1,0,0
-252,2004-02-21,Man United,Leeds,1,1,D,25,56,-1,49,23,26,25,20,-1,23,50,-27,D,L,W,W,L,L,L,L,L,W,DLWWL,LLLLW,0,0,0,0,0,0,0,0
-253,2004-02-21,Newcastle,Middlesbrough,2,1,H,25,38,-1,35,26,9,24,31,-1,26,29,-3,D,W,D,W,D,L,D,W,L,W,DWDWD,LDWLW,0,0,0,0,0,0,0,0
-254,2004-02-21,Southampton,Everton,3,3,D,25,31,-1,23,23,0,25,25,-1,28,36,-8,L,W,L,D,L,L,L,D,L,L,LWLDL,LLDLL,0,0,0,0,0,0,0,0
-255,2004-02-21,Wolves,Fulham,2,1,H,25,20,-1,22,51,-29,25,35,-1,37,35,2,W,D,D,L,L,W,L,W,D,L,WDDLL,WLWDL,0,0,0,0,0,0,0,0
-256,2004-02-22,Aston Villa,Birmingham,2,2,D,25,36,-1,30,28,2,24,35,-1,23,26,-3,L,L,W,W,W,W,D,D,D,W,LLWWW,WDDDW,1,0,0,0,0,0,0,0
-257,2004-02-22,Tottenham,Leicester,4,4,D,25,33,-1,35,38,-3,25,21,-1,33,47,-14,W,W,L,W,W,L,D,L,L,D,WWLWW,LDLLD,0,0,0,0,0,0,0,0
-258,2004-02-28,Arsenal,Charlton,2,1,H,26,64,-1,51,17,34,26,40,-1,37,32,5,W,W,W,W,W,W,L,L,L,W,WWWWW,WLLLW,1,1,0,0,0,0,0,0
-259,2004-02-28,Blackburn,Southampton,1,1,D,26,27,-1,38,43,-5,26,32,-1,26,26,0,D,L,W,D,L,W,L,D,L,D,DLWDL,WLDLD,0,0,0,0,0,0,0,0
-260,2004-02-28,Everton,Aston Villa,2,0,H,26,26,-1,31,39,-8,26,37,-1,32,30,2,L,D,L,L,D,L,W,W,W,D,LDLLD,LWWWD,0,0,0,0,0,0,0,0
-261,2004-02-28,Fulham,Man United,1,1,D,26,35,-1,38,37,1,26,57,-1,50,24,26,L,W,D,L,L,L,W,W,L,D,LWDLL,LWWLD,0,0,0,0,0,0,0,0
-262,2004-02-28,Leicester,Wolves,0,0,D,26,22,-1,37,51,-14,26,23,-1,24,52,-28,D,L,L,D,D,D,D,L,L,W,DLLDD,DDLLW,0,0,0,0,0,0,0,0
-263,2004-02-28,Man City,Chelsea,0,1,A,26,27,-1,36,38,-2,26,55,-1,47,21,26,D,L,D,L,W,D,W,W,W,L,DLDLW,DWWWL,0,0,0,0,0,0,0,0
-264,2004-02-29,Leeds,Liverpool,2,2,D,26,21,-1,24,51,-27,25,38,-1,36,27,9,L,L,L,W,D,L,D,D,D,W,LLLWD,LDDDW,0,0,0,0,0,0,0,0
-265,2004-02-29,Portsmouth,Newcastle,1,1,D,25,23,-1,28,39,-11,26,41,-1,37,27,10,W,L,D,L,L,W,D,W,D,W,WLDLL,WDWDW,0,0,0,0,0,0,0,0
-266,2004-03-03,Birmingham,Middlesbrough,3,1,H,25,36,-1,25,28,-3,25,31,-1,27,31,-4,D,D,D,W,D,D,W,L,W,L,DDDWD,DWLWL,0,0,0,0,0,0,0,0
-267,2004-03-06,Birmingham,Bolton,2,0,H,26,39,-1,28,29,-1,26,34,-1,32,40,-8,D,D,W,D,W,W,W,D,D,L,DDWDW,WWDDL,0,0,0,0,0,0,0,0
-268,2004-03-09,Middlesbrough,Tottenham,1,0,H,26,31,-1,28,34,-6,26,34,-1,39,42,-3,W,L,W,L,L,W,L,W,W,D,WLWLL,WLWWD,0,0,0,0,0,0,0,0
-269,2004-03-13,Birmingham,Leicester,0,1,A,27,42,-1,30,29,1,27,23,-1,37,51,-14,D,W,D,W,W,L,L,D,D,D,DWDWW,LLDDD,0,0,0,0,0,0,0,0
-270,2004-03-13,Blackburn,Arsenal,0,2,A,27,28,-1,39,44,-5,27,67,-1,53,18,35,L,W,D,L,D,W,W,W,W,W,LWDLD,WWWWW,0,0,0,0,1,1,0,0
-271,2004-03-13,Bolton,Chelsea,0,2,A,27,34,-1,32,42,-10,27,58,-1,48,21,27,W,D,D,L,L,W,W,W,L,W,WDDLL,WWWLW,0,0,0,0,0,0,0,0
-272,2004-03-13,Charlton,Middlesbrough,1,0,H,27,40,-1,38,34,4,27,34,-1,29,34,-5,L,L,L,W,L,L,W,L,L,W,LLLWL,LWLLW,0,0,0,0,0,0,0,0
-273,2004-03-13,Everton,Portsmouth,1,0,H,27,29,-1,33,39,-6,26,24,-1,29,40,-11,D,L,L,D,W,L,D,L,L,D,DLLDW,LDLLD,0,0,0,0,0,0,0,0
-274,2004-03-13,Fulham,Leeds,2,0,H,27,36,-1,39,38,1,27,22,-1,26,53,-27,W,D,L,L,D,L,L,W,D,D,WDLLD,LLWDD,0,0,0,0,0,0,0,0
-275,2004-03-14,Man City,Man United,4,1,H,27,27,-1,36,39,-3,27,58,-1,51,25,26,L,D,L,W,L,W,W,L,D,D,LDLWL,WWLDD,0,0,0,0,0,0,0,0
-276,2004-03-14,Southampton,Liverpool,2,0,H,27,33,-1,27,27,0,26,39,-1,38,29,9,L,D,L,D,D,D,D,D,W,D,LDLDD,DDDWD,0,0,0,0,0,0,0,0
-277,2004-03-14,Tottenham,Newcastle,1,0,H,27,34,-1,39,43,-4,27,42,-1,38,28,10,L,W,W,D,L,D,W,D,W,D,LWWDL,DWDWD,0,0,0,0,0,0,0,0
-278,2004-03-14,Wolves,Aston Villa,0,4,A,27,24,-1,24,52,-28,27,37,-1,32,32,0,D,L,L,W,D,W,W,W,D,L,DLLWD,WWWDL,0,0,0,0,0,0,0,0
-279,2004-03-17,Liverpool,Portsmouth,3,0,H,27,39,-1,38,31,7,27,24,-1,29,41,-12,D,D,W,D,L,D,L,L,D,L,DDWDL,DLLDL,0,0,0,0,0,0,0,0
-280,2004-03-20,Arsenal,Bolton,2,1,H,28,70,-1,55,18,37,28,34,-1,32,44,-12,W,W,W,W,W,D,D,L,L,L,WWWWW,DDLLL,1,1,0,0,0,0,1,0
-281,2004-03-20,Aston Villa,Blackburn,0,2,A,28,40,-1,36,32,4,28,28,-1,39,46,-7,W,W,D,L,W,W,D,L,D,L,WWDLW,WDLDL,0,0,0,0,0,0,0,0
-282,2004-03-20,Chelsea,Fulham,2,1,H,28,61,-1,50,21,29,28,39,-1,41,38,3,W,W,L,W,W,D,L,L,D,W,WWLWW,DLLDW,0,0,0,0,0,0,0,0
-283,2004-03-20,Leicester,Everton,1,1,D,28,26,-1,38,51,-13,28,32,-1,34,39,-5,L,D,D,D,W,L,L,D,W,W,LDDDW,LLDWW,0,0,0,0,0,0,0,0
-284,2004-03-20,Liverpool,Wolves,1,0,H,28,42,-1,41,31,10,28,24,-1,24,56,-32,D,W,D,L,W,L,L,W,D,L,DWDLW,LLWDL,0,0,0,0,0,0,0,0
-285,2004-03-20,Man United,Tottenham,3,0,H,28,58,-1,52,29,23,28,37,-1,40,43,-3,W,L,D,D,L,W,W,D,L,W,WLDDL,WWDLW,0,0,0,0,0,0,0,0
-286,2004-03-20,Middlesbrough,Birmingham,5,3,H,28,34,-1,29,35,-6,28,42,-1,30,30,0,W,L,L,W,L,W,D,W,W,L,WLLWL,WDWWL,0,0,0,0,0,0,0,0
-287,2004-03-20,Newcastle,Charlton,3,1,H,28,42,-1,38,29,9,28,43,-1,39,34,5,W,D,W,D,L,L,L,W,L,W,WDWDL,LLWLW,0,0,0,0,0,0,0,0
-288,2004-03-21,Portsmouth,Southampton,1,0,H,28,24,-1,29,44,-15,28,36,-1,29,27,2,L,L,D,L,L,D,L,D,D,W,LLDLL,DLDDW,0,0,0,0,0,0,0,0
-289,2004-03-22,Leeds,Man City,2,1,H,28,22,-1,26,55,-29,28,30,-1,40,40,0,L,W,D,D,L,D,L,W,L,W,LWDDL,DLWLW,0,0,0,0,0,0,0,0
-290,2004-03-27,Birmingham,Leeds,4,1,H,29,42,-1,33,35,-2,29,25,-1,28,56,-28,D,W,W,L,L,W,D,D,L,W,DWWLL,WDDLW,0,0,0,0,0,0,0,0
-291,2004-03-27,Blackburn,Portsmouth,1,2,A,29,31,-1,41,46,-5,29,27,-1,30,44,-14,D,L,D,L,W,L,D,L,L,W,DLDLW,LDLLW,0,0,0,0,0,0,0,0
-292,2004-03-27,Charlton,Aston Villa,1,2,A,29,43,-1,40,37,3,29,40,-1,36,34,2,L,W,L,W,L,W,D,L,W,L,LWLWL,WDLWL,0,0,0,0,0,0,0,0
-293,2004-03-27,Chelsea,Wolves,5,2,H,29,64,-1,52,22,30,29,24,-1,24,57,-33,W,L,W,W,W,L,W,D,L,L,WLWWW,LWDLL,1,0,0,0,0,0,0,0
-294,2004-03-27,Everton,Middlesbrough,1,1,D,29,33,-1,35,40,-5,29,37,-1,34,38,-4,L,D,W,W,D,L,L,W,L,W,LDWWD,LLWLW,0,0,0,0,0,0,0,0
-295,2004-03-27,Man City,Fulham,0,0,D,29,30,-1,41,42,-1,29,39,-1,42,40,2,L,W,L,W,L,L,L,D,W,L,LWLWL,LLDWL,0,0,0,0,0,0,0,0
-296,2004-03-27,Southampton,Tottenham,1,0,H,29,36,-1,29,28,1,29,37,-1,40,46,-6,L,D,D,W,L,W,D,L,W,L,LDDWL,WDLWL,0,0,0,0,0,0,0,0
-297,2004-03-28,Arsenal,Man United,1,1,D,29,73,-1,57,19,38,29,61,-1,55,29,26,W,W,W,W,W,L,D,D,L,W,WWWWW,LDDLW,1,1,0,0,0,0,0,0
-298,2004-03-28,Bolton,Newcastle,1,0,H,29,34,-1,33,46,-13,29,45,-1,41,30,11,D,L,L,L,L,D,W,D,L,W,DLLLL,DWDLW,0,0,1,0,0,0,0,0
-299,2004-03-28,Leicester,Liverpool,0,0,D,29,27,-1,39,52,-13,29,45,-1,42,31,11,D,D,D,W,D,W,D,L,W,W,DDDWD,WDLWW,0,0,0,0,0,0,0,0
-300,2004-04-03,Fulham,Birmingham,0,0,D,30,40,-1,42,40,2,30,45,-1,37,36,1,L,D,W,L,D,W,W,L,L,W,LDWLD,WWLLW,0,0,0,0,0,0,0,0
-301,2004-04-03,Middlesbrough,Bolton,2,0,H,30,38,-1,35,39,-4,30,37,-1,34,46,-12,L,W,L,W,D,L,L,L,L,W,LWLWD,LLLLW,0,0,0,0,0,0,0,0
-302,2004-04-03,Newcastle,Everton,4,2,H,30,45,-1,41,31,10,30,34,-1,36,41,-5,W,D,L,W,L,D,W,W,D,D,WDLWL,DWWDD,0,0,0,0,0,0,0,0
-303,2004-04-03,Tottenham,Chelsea,0,1,A,30,37,-1,40,47,-7,30,67,-1,57,24,33,D,L,W,L,L,L,W,W,W,W,DLWLL,LWWWW,0,0,0,0,1,0,0,0
-304,2004-04-03,Wolves,Southampton,1,4,A,30,24,-1,26,62,-36,30,39,-1,30,28,2,W,D,L,L,L,D,D,W,L,W,WDLLL,DDWLW,0,0,1,0,0,0,0,0
-305,2004-04-04,Aston Villa,Man City,1,1,D,30,43,-1,38,35,3,30,31,-1,41,42,-1,D,L,W,L,W,W,L,W,L,D,DLWLW,WLWLD,0,0,0,0,0,0,0,0
-306,2004-04-04,Liverpool,Blackburn,4,0,H,30,46,-1,42,31,11,30,31,-1,42,48,-6,D,L,W,W,D,L,D,L,W,L,DLWWD,LDLWL,0,0,0,0,0,0,0,0
-307,2004-04-05,Leeds,Leicester,3,2,H,30,25,-1,29,60,-31,30,28,-1,39,52,-13,D,D,L,W,L,D,D,W,D,D,DDLWL,DDWDD,0,0,0,0,0,0,0,0
-308,2004-04-09,Arsenal,Liverpool,4,2,H,30,74,-1,58,20,38,31,49,-1,46,31,15,W,W,W,W,D,L,W,W,D,W,WWWWD,LWWDW,0,0,0,0,0,0,0,0
-309,2004-04-09,Everton,Tottenham,3,1,H,31,34,-1,38,45,-7,31,37,-1,40,48,-8,W,W,D,D,L,L,W,L,L,L,WWDDL,LWLLL,0,0,0,0,0,0,1,0
-310,2004-04-10,Birmingham,Man United,1,2,A,31,46,-1,37,36,1,30,62,-1,56,30,26,W,L,L,W,D,D,D,L,W,D,WLLWD,DDLWD,0,0,0,0,0,0,0,0
-311,2004-04-10,Blackburn,Leeds,1,2,A,31,31,-1,42,52,-10,31,28,-1,32,62,-30,D,L,W,L,L,D,L,W,L,W,DLWLL,DLWLW,0,0,0,0,0,0,0,0
-312,2004-04-10,Bolton,Aston Villa,2,2,D,31,37,-1,34,48,-14,31,44,-1,39,36,3,L,L,L,W,L,L,W,L,W,D,LLLWL,LWLWD,0,0,0,0,0,0,0,0
-313,2004-04-10,Charlton,Portsmouth,1,1,D,30,43,-1,41,39,2,30,30,-1,32,45,-13,W,L,W,L,L,D,L,L,W,W,WLWLL,DLLWW,0,0,0,0,0,0,0,0
-314,2004-04-10,Chelsea,Middlesbrough,0,0,D,31,70,-1,58,24,34,31,41,-1,37,39,-2,W,W,W,W,W,W,L,W,D,W,WWWWW,WLWDW,1,1,0,0,0,0,0,0
-315,2004-04-10,Leicester,Fulham,0,2,A,31,28,-1,41,55,-14,31,41,-1,42,40,2,D,W,D,D,L,D,W,L,D,D,DWDDL,DWLDD,0,0,0,0,0,0,0,0
-316,2004-04-10,Man City,Wolves,3,3,D,31,32,-1,42,43,-1,31,24,-1,27,66,-39,L,W,L,D,D,D,L,L,L,L,LWLDD,DLLLL,0,0,0,0,0,0,1,0
-317,2004-04-11,Newcastle,Arsenal,0,0,D,31,48,-1,45,33,12,31,77,-1,62,22,40,D,L,W,L,W,W,W,W,D,W,DLWLW,WWWDW,0,0,0,0,0,0,0,0
-318,2004-04-12,Aston Villa,Chelsea,3,2,H,32,45,-1,41,38,3,32,71,-1,58,24,34,W,L,W,D,D,W,W,W,W,D,WLWDD,WWWWD,0,0,0,0,0,0,0,0
-319,2004-04-12,Fulham,Blackburn,3,4,A,32,44,-1,44,40,4,32,31,-1,43,54,-11,W,L,D,D,W,L,W,L,L,L,WLDDW,LWLLL,0,0,0,0,0,0,1,0
-320,2004-04-12,Liverpool,Charlton,0,1,A,32,49,-1,48,35,13,31,44,-1,42,40,2,W,W,D,W,L,L,W,L,L,D,WWDWL,LWLLD,0,0,0,0,0,0,0,0
-321,2004-04-12,Middlesbrough,Southampton,3,1,H,32,42,-1,37,39,-2,31,42,-1,34,29,5,L,W,D,W,D,D,W,L,W,W,LWDWD,DWLWW,0,0,0,0,0,0,0,0
-322,2004-04-12,Portsmouth,Birmingham,3,1,H,31,31,-1,33,46,-13,32,46,-1,38,38,0,L,L,W,W,D,L,L,W,D,L,LLWWD,LLWDL,0,0,0,0,0,0,0,0
-323,2004-04-12,Tottenham,Man City,1,1,D,32,37,-1,41,51,-10,32,33,-1,45,46,-1,W,L,L,L,L,W,L,D,D,D,WLLLL,WLDDD,0,0,1,0,0,0,0,0
-324,2004-04-12,Wolves,Bolton,1,2,A,32,25,-1,30,69,-39,32,38,-1,36,50,-14,L,L,L,L,D,L,L,W,L,D,LLLLD,LLWLD,0,0,0,0,0,0,0,0
-325,2004-04-13,Leeds,Everton,1,1,D,32,31,-1,34,63,-29,32,37,-1,41,46,-5,L,W,L,W,W,W,D,D,L,W,LWLWW,WDDLW,0,0,0,0,0,0,0,0
-326,2004-04-13,Man United,Leicester,1,0,H,31,65,-1,58,31,27,32,28,-1,41,57,-16,D,L,W,D,W,W,D,D,L,L,DLWDW,WDDLL,0,0,0,0,0,0,0,0
-327,2004-04-16,Arsenal,Leeds,5,0,H,32,78,-1,62,22,40,33,32,-1,35,64,-29,W,W,D,W,D,W,L,W,W,D,WWDWD,WLWWD,0,0,0,0,0,0,0,0
-328,2004-04-17,Blackburn,Leicester,1,0,H,33,34,-1,47,57,-10,33,28,-1,41,58,-17,W,L,L,L,W,D,D,L,L,L,WLLLW,DDLLL,0,0,0,0,0,0,1,0
-329,2004-04-17,Bolton,Tottenham,2,0,H,33,41,-1,38,51,-13,33,38,-1,42,52,-10,L,W,L,D,W,L,L,L,L,D,LWLDW,LLLLD,0,0,0,0,0,0,0,0
-330,2004-04-17,Charlton,Birmingham,1,1,D,32,47,-1,43,40,3,33,46,-1,39,41,-2,W,L,L,D,W,L,W,D,L,L,WLLDW,LWDLL,0,0,0,0,0,0,0,0
-331,2004-04-17,Chelsea,Everton,0,0,D,33,71,-1,60,27,33,33,38,-1,42,47,-5,W,W,W,D,L,D,D,L,W,D,WWWDL,DDLWD,0,0,0,0,0,0,0,0
-332,2004-04-17,Liverpool,Fulham,0,0,D,33,49,-1,48,36,12,33,44,-1,47,44,3,W,D,W,L,L,L,D,D,W,L,WDWLL,LDDWL,0,0,0,0,0,0,0,0
-333,2004-04-17,Man City,Southampton,1,3,A,33,34,-1,46,47,-1,32,42,-1,35,32,3,L,D,D,D,D,W,L,W,W,L,LDDDD,WLWWL,0,0,0,0,0,0,0,0
-334,2004-04-17,Portsmouth,Man United,1,0,H,32,34,-1,36,47,-11,32,68,-1,59,31,28,L,W,W,D,W,L,W,D,W,W,LWWDW,LWDWW,0,0,0,0,0,0,0,0
-335,2004-04-17,Wolves,Middlesbrough,2,0,H,33,25,-1,31,71,-40,33,45,-1,40,40,0,L,L,L,D,L,W,D,W,D,W,LLLDL,WDWDW,0,0,0,0,0,0,0,0
-336,2004-04-18,Aston Villa,Newcastle,0,0,D,33,48,-1,44,40,4,32,49,-1,45,33,12,L,W,D,D,W,L,W,L,W,D,LWDDW,LWLWD,0,0,0,0,0,0,0,0
-337,2004-04-20,Man United,Charlton,2,0,H,33,68,-1,59,32,27,33,48,-1,44,41,3,W,D,W,W,L,L,L,D,W,D,WDWWL,LLDWD,0,0,0,0,0,0,0,0
-338,2004-04-24,Everton,Blackburn,0,1,A,34,39,-1,42,47,-5,34,37,-1,48,57,-9,D,L,W,D,D,L,L,L,W,W,DLWDD,LLLWW,0,0,0,0,0,0,0,0
-339,2004-04-24,Fulham,Charlton,2,0,H,34,45,-1,47,44,3,34,48,-1,44,43,1,D,D,W,L,D,L,D,W,D,L,DDWLD,LDWDL,0,0,0,0,0,0,0,0
-340,2004-04-24,Leicester,Man City,1,1,D,34,28,-1,41,59,-18,34,34,-1,47,50,-3,D,L,L,L,L,D,D,D,D,L,DLLLL,DDDDL,0,0,1,0,0,0,0,0
-341,2004-04-24,Man United,Liverpool,0,1,A,34,71,-1,61,32,29,34,50,-1,48,36,12,D,W,W,L,W,D,W,L,L,D,DWWLW,DWLLD,0,0,0,0,0,0,0,0
-342,2004-04-24,Middlesbrough,Aston Villa,1,2,A,34,45,-1,40,42,-2,34,49,-1,44,40,4,D,W,D,W,L,W,D,D,W,D,DWDWL,WDDWD,0,0,0,0,0,0,0,0
-343,2004-04-24,Southampton,Bolton,1,2,A,33,45,-1,38,33,5,34,44,-1,40,51,-11,L,W,W,L,W,W,L,D,W,W,LWWLW,WLDWW,0,0,0,0,0,0,0,0
-344,2004-04-25,Birmingham,Wolves,2,2,D,34,47,-1,40,42,-2,34,28,-1,33,71,-38,W,D,L,L,D,L,L,D,L,W,WDLLD,LLDLW,0,0,0,0,0,0,0,0
-345,2004-04-25,Leeds,Portsmouth,1,2,A,34,32,-1,35,69,-34,33,37,-1,37,47,-10,L,W,W,D,L,W,W,D,W,W,LWWDL,WWDWW,0,0,0,0,0,0,0,0
-346,2004-04-25,Newcastle,Chelsea,2,1,H,33,50,-1,45,33,12,34,72,-1,60,27,33,W,L,W,D,D,W,W,D,L,D,WLWDD,WWDLD,0,0,0,0,0,0,0,0
-347,2004-04-25,Tottenham,Arsenal,2,2,D,34,38,-1,42,54,-12,33,81,-1,67,22,45,L,L,L,D,L,W,D,W,D,W,LLLDL,WDWDW,0,0,0,0,0,0,0,0
-348,2004-05-01,Arsenal,Birmingham,0,0,D,34,82,-1,69,24,45,35,48,-1,42,44,-2,D,W,D,W,D,D,L,L,D,D,DWDWD,DLLDD,0,0,0,0,0,0,0,0
-349,2004-05-01,Blackburn,Man United,1,0,H,35,40,-1,49,57,-8,35,71,-1,61,33,28,L,L,W,W,W,W,W,L,W,L,LLWWW,WWLWL,1,0,0,0,0,0,0,0
-350,2004-05-01,Charlton,Leicester,2,2,D,35,48,-1,44,45,-1,35,29,-1,42,60,-18,D,W,D,L,L,L,L,L,L,D,DWDLL,LLLLD,0,0,0,0,0,0,0,0
-351,2004-05-01,Chelsea,Southampton,4,0,H,35,72,-1,61,29,32,34,45,-1,39,35,4,W,D,L,D,L,W,W,L,W,L,WDLDL,WWLWL,0,0,0,0,0,0,0,0
-352,2004-05-01,Man City,Newcastle,1,0,H,35,35,-1,48,51,-3,34,53,-1,47,34,13,D,D,D,L,D,L,W,D,D,W,DDDLD,LWDDW,0,0,0,0,0,0,0,0
-353,2004-05-01,Portsmouth,Fulham,1,1,D,34,40,-1,39,48,-9,35,48,-1,49,44,5,W,D,W,W,W,D,W,L,D,W,WDWWW,DWLDW,1,0,0,0,0,0,0,0
-354,2004-05-01,Wolves,Everton,2,1,H,35,29,-1,35,73,-38,35,39,-1,42,48,-6,L,D,L,W,D,L,W,D,D,L,LDLWD,LWDDL,0,0,0,0,0,0,0,0
-355,2004-05-02,Aston Villa,Tottenham,1,0,H,35,52,-1,46,41,5,35,39,-1,44,56,-12,D,D,W,D,W,L,L,D,L,D,DDWDW,LLDLD,0,0,0,0,0,0,0,0
-356,2004-05-02,Bolton,Leeds,4,1,H,35,47,-1,42,52,-10,35,32,-1,36,71,-35,L,D,W,W,W,W,W,D,L,L,LDWWW,WWDLL,1,0,0,0,0,0,0,0
-357,2004-05-02,Liverpool,Middlesbrough,2,0,H,35,53,-1,49,36,13,35,45,-1,41,44,-3,W,L,L,D,W,W,D,W,L,L,WLLDW,WDWLL,0,0,0,0,0,0,0,0
-358,2004-05-04,Portsmouth,Arsenal,1,1,D,35,41,-1,40,49,-9,35,83,-1,69,24,45,D,W,W,W,D,W,D,W,D,D,DWWWD,WDWDD,0,0,0,0,0,0,0,0
-359,2004-05-08,Birmingham,Liverpool,0,3,A,36,49,-1,42,44,-2,36,56,-1,51,36,15,L,L,D,D,D,L,L,D,W,W,LLDDD,LLDWW,0,0,0,0,0,0,0,0
-360,2004-05-08,Everton,Bolton,1,2,A,36,39,-1,43,50,-7,36,50,-1,46,53,-7,W,D,D,L,L,D,W,W,W,W,WDDLL,DWWWW,0,0,0,0,1,0,0,0
-361,2004-05-08,Leeds,Charlton,3,3,D,36,32,-1,37,75,-38,36,49,-1,46,47,-1,W,D,L,L,L,W,D,L,L,D,WDLLL,WDLLD,0,0,1,0,0,0,0,0
-362,2004-05-08,Leicester,Portsmouth,3,1,H,36,30,-1,44,62,-18,36,42,-1,41,50,-9,L,L,L,D,D,W,W,W,D,D,LLLDD,WWWDD,0,0,0,0,0,0,0,0
-363,2004-05-08,Man United,Chelsea,1,1,D,36,71,-1,61,34,27,36,75,-1,65,29,36,W,L,W,L,L,D,L,D,L,W,WLWLL,DLDLW,0,0,0,0,0,0,0,0
-364,2004-05-08,Middlesbrough,Man City,2,1,H,36,45,-1,41,46,-5,36,38,-1,49,51,-2,D,W,L,L,L,D,D,L,D,W,DWLLL,DDLDW,0,0,1,0,0,0,0,0
-365,2004-05-08,Southampton,Aston Villa,1,1,D,35,45,-1,39,39,0,36,55,-1,47,41,6,W,L,W,L,L,D,W,D,W,W,WLWLL,DWDWW,0,0,0,0,0,0,0,0
-366,2004-05-08,Tottenham,Blackburn,1,0,H,36,39,-1,44,57,-13,36,43,-1,50,57,-7,L,D,L,D,L,L,W,W,W,W,LDLDL,LWWWW,0,0,0,0,1,0,0,0
-367,2004-05-09,Fulham,Arsenal,0,1,A,36,49,-1,50,45,5,36,84,-1,70,25,45,W,L,D,W,D,D,W,D,D,D,WLDWD,DWDDD,0,0,0,0,0,0,0,0
-368,2004-05-09,Newcastle,Wolves,1,1,D,35,53,-1,47,35,12,36,32,-1,37,74,-37,W,D,D,W,L,D,L,W,D,W,WDDWL,DLWDW,0,0,0,0,0,0,0,0
-369,2004-05-12,Southampton,Newcastle,3,3,D,36,46,-1,40,40,0,36,54,-1,48,36,12,L,W,L,L,D,D,D,W,L,D,LWLLD,DDWLD,0,0,0,0,0,0,0,0
-370,2004-05-15,Arsenal,Leicester,2,1,H,37,87,-1,71,25,46,37,33,-1,47,63,-16,W,D,D,D,W,L,L,D,D,W,WDDDW,LLDDW,0,0,0,0,0,0,0,0
-371,2004-05-15,Aston Villa,Man United,0,2,A,37,56,-1,48,42,6,37,72,-1,62,35,27,W,D,W,W,D,L,W,L,L,D,WDWWD,LWLLD,0,0,0,0,0,0,0,0
-372,2004-05-15,Blackburn,Birmingham,1,1,D,37,43,-1,50,58,-8,37,49,-1,42,47,-5,W,W,W,W,L,L,D,D,D,L,WWWWL,LDDDL,0,0,0,0,0,0,0,0
-373,2004-05-15,Bolton,Fulham,0,2,A,37,53,-1,48,54,-6,37,49,-1,50,46,4,W,W,W,W,W,L,D,W,D,L,WWWWW,LDWDL,1,1,0,0,0,0,0,0
-374,2004-05-15,Charlton,Southampton,2,1,H,37,50,-1,49,50,-1,37,47,-1,43,43,0,D,L,L,D,D,W,L,L,D,D,DLLDD,WLLDD,0,0,0,0,0,0,0,0
-375,2004-05-15,Chelsea,Leeds,1,0,H,37,76,-1,66,30,36,37,33,-1,40,78,-38,L,D,L,W,D,D,L,L,L,D,LDLWD,DLLLD,0,0,0,0,0,0,0,0
-376,2004-05-15,Liverpool,Newcastle,1,1,D,37,59,-1,54,36,18,37,55,-1,51,39,12,L,D,W,W,W,D,W,L,D,D,LDWWW,DWLDD,1,0,0,0,0,0,0,0
-377,2004-05-15,Man City,Everton,5,1,H,37,38,-1,50,53,-3,37,39,-1,44,52,-8,D,L,D,W,L,D,D,L,L,L,DLDWL,DDLLL,0,0,0,0,0,0,1,0
-378,2004-05-15,Portsmouth,Middlesbrough,5,1,H,37,42,-1,42,53,-11,37,48,-1,43,47,-4,W,W,D,D,L,W,L,L,L,W,WWDDL,WLLLW,0,0,0,0,0,0,0,0
-379,2004-05-15,Wolves,Tottenham,0,2,A,37,33,-1,38,75,-37,37,42,-1,45,57,-12,L,W,D,W,D,D,L,D,L,W,LWDWD,DLDLW,0,0,0,0,0,0,0,0
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HT_match_played,HT_current_standing,HT_past_standing,HT_goal_for,HT_goal_against,HT_goal_differnece,HT_win_rate_season,AT_match_played,AT_current_standing,AT_past_standing,AT_goal_for,AT_goal_against,AT_goal_differnece,AT_win_rate_season,HT_3_win_streak,HT_5_win_streak,HT_3_lose_Streak,HT_5_lose_Streak,AT_3_win_streak,AT_5_win_streak,AT_3_lose_Streak,AT_5_lose_Streak,HT_5_win_rate,AT_5_win_rate
+2003-08-16,Arsenal,Everton,2,1,H,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,
+2003-08-16,Birmingham,Tottenham,1,0,H,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,
+2003-08-16,Blackburn,Wolves,5,1,H,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,
+2003-08-16,Fulham,Middlesbrough,3,2,H,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,
+2003-08-16,Leicester,Southampton,2,2,D,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,
+2003-08-16,Man United,Bolton,4,0,H,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,
+2003-08-16,Portsmouth,Aston Villa,2,1,H,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,
+2003-08-17,Charlton,Man City,0,3,A,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,
+2003-08-17,Leeds,Newcastle,2,2,D,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,
+2003-08-17,Liverpool,Chelsea,1,2,A,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,
+2003-08-23,Bolton,Blackburn,2,2,D,1,0,,0,4,-4,0.0,1,3,,5,1,4,1.0,0,0,0,0,0,0,0,0,,
+2003-08-23,Chelsea,Leicester,2,1,H,1,3,,2,1,1,1.0,1,1,,2,2,0,0.0,0,0,0,0,0,0,0,0,,
+2003-08-23,Everton,Fulham,3,1,H,1,0,,1,2,-1,0.0,1,3,,3,2,1,1.0,0,0,0,0,0,0,0,0,,
+2003-08-23,Man City,Portsmouth,1,1,D,1,3,,3,0,3,1.0,1,3,,2,1,1,1.0,0,0,0,0,0,0,0,0,,
+2003-08-23,Newcastle,Man United,1,2,A,1,1,,2,2,0,0.0,1,3,,4,0,4,1.0,0,0,0,0,0,0,0,0,,
+2003-08-23,Southampton,Birmingham,0,0,D,1,1,,2,2,0,0.0,1,3,,1,0,1,1.0,0,0,0,0,0,0,0,0,,
+2003-08-23,Tottenham,Leeds,2,1,H,1,0,,0,1,-1,0.0,1,1,,2,2,0,0.0,0,0,0,0,0,0,0,0,,
+2003-08-23,Wolves,Charlton,0,4,A,1,0,,1,5,-4,0.0,1,0,,0,3,-3,0.0,0,0,0,0,0,0,0,0,,
+2003-08-24,Aston Villa,Liverpool,0,0,D,1,0,,1,2,-1,0.0,1,0,,1,2,-1,0.0,0,0,0,0,0,0,0,0,,
+2003-08-24,Middlesbrough,Arsenal,0,4,A,1,0,,2,3,-1,0.0,1,3,,2,1,1,1.0,0,0,0,0,0,0,0,0,,
+2003-08-25,Blackburn,Man City,2,3,A,2,4,,7,3,4,0.5,2,4,,4,1,3,0.5,0,0,0,0,0,0,0,0,,
+2003-08-26,Charlton,Everton,2,2,D,2,3,,4,3,1,0.5,2,3,,4,3,1,0.5,0,0,0,0,0,0,0,0,,
+2003-08-26,Leeds,Southampton,0,0,D,2,1,,3,4,-1,0.0,2,2,,2,2,0,0.0,0,0,0,0,0,0,0,0,,
+2003-08-26,Leicester,Middlesbrough,0,0,D,2,1,,3,4,-1,0.0,2,0,,2,7,-5,0.0,0,0,0,0,0,0,0,0,,
+2003-08-26,Portsmouth,Bolton,4,0,H,2,4,,3,2,1,0.5,2,1,,2,6,-4,0.0,0,0,0,0,0,0,0,0,,
+2003-08-27,Arsenal,Aston Villa,2,0,H,2,6,,6,1,5,1.0,2,1,,1,2,-1,0.0,0,0,0,0,0,0,0,0,,
+2003-08-27,Liverpool,Tottenham,0,0,D,2,1,,1,2,-1,0.0,2,3,,2,2,0,0.5,0,0,0,0,0,0,0,0,,
+2003-08-27,Man United,Wolves,1,0,H,2,6,,6,1,5,1.0,2,0,,1,9,-8,0.0,0,0,0,0,0,0,0,0,,
+2003-08-30,Aston Villa,Leicester,3,1,H,3,1,,1,4,-3,0.0,3,2,,3,4,-1,0.0,0,0,0,0,0,0,0,0,,
+2003-08-30,Bolton,Charlton,0,0,D,3,1,,2,10,-8,0.0,3,4,,6,5,1,0.3333333333333333,0,0,0,0,0,0,0,0,,
+2003-08-30,Chelsea,Blackburn,2,2,D,2,6,,4,2,2,1.0,3,4,,9,6,3,0.3333333333333333,0,0,0,0,0,0,0,0,,
+2003-08-30,Everton,Liverpool,0,3,A,3,4,,6,5,1,0.3333333333333333,3,2,,1,2,-1,0.0,0,0,0,0,0,0,0,0,,
+2003-08-30,Middlesbrough,Leeds,2,3,A,3,1,,2,7,-5,0.0,3,2,,3,4,-1,0.0,0,0,0,0,0,0,0,0,,
+2003-08-30,Newcastle,Birmingham,0,1,A,2,1,,3,4,-1,0.0,2,4,,1,0,1,0.5,0,0,0,0,0,0,0,0,,
+2003-08-30,Tottenham,Fulham,0,3,A,3,4,,2,2,0,0.3333333333333333,2,3,,4,5,-1,0.5,0,0,0,0,0,0,0,0,,
+2003-08-30,Wolves,Portsmouth,0,0,D,3,0,,1,10,-9,0.0,3,7,,7,2,5,0.6666666666666666,0,0,0,0,0,0,0,0,,
+2003-08-31,Man City,Arsenal,1,2,A,3,7,,7,3,4,0.6666666666666666,3,9,,8,1,7,1.0,0,0,0,0,0,0,0,0,,
+2003-08-31,Southampton,Man United,1,0,H,3,3,,2,2,0,0.0,3,9,,7,1,6,1.0,0,0,0,0,0,0,0,0,,
+2003-09-13,Arsenal,Portsmouth,1,1,D,4,12,,10,2,8,1.0,4,8,,7,2,5,0.5,1,0,0,0,0,0,0,0,,
+2003-09-13,Blackburn,Liverpool,1,3,A,4,5,,11,8,3,0.25,4,5,,4,2,2,0.25,0,0,0,0,0,0,0,0,,
+2003-09-13,Bolton,Middlesbrough,2,0,H,4,2,,2,10,-8,0.0,4,1,,4,10,-6,0.0,0,0,0,0,0,0,0,0,,
+2003-09-13,Charlton,Man United,0,2,A,4,5,,6,5,1,0.25,4,9,,7,2,5,0.75,0,0,0,0,0,0,0,0,,
+2003-09-13,Chelsea,Tottenham,4,2,H,3,7,,6,4,2,0.6666666666666666,4,4,,2,5,-3,0.25,0,0,0,0,0,0,0,0,,
+2003-09-13,Everton,Newcastle,2,2,D,4,4,,6,8,-2,0.25,3,1,,3,5,-2,0.0,0,0,0,0,0,0,0,0,,
+2003-09-13,Southampton,Wolves,2,0,H,4,6,,3,2,1,0.25,4,1,,1,10,-9,0.0,0,0,0,0,0,0,0,0,,
+2003-09-14,Birmingham,Fulham,2,2,D,3,7,,2,0,2,0.6666666666666666,3,6,,7,5,2,0.6666666666666666,0,0,0,0,0,0,0,0,,
+2003-09-14,Man City,Aston Villa,4,1,H,4,7,,8,5,3,0.5,4,4,,4,5,-1,0.25,0,0,0,0,0,0,0,0,,
+2003-09-15,Leicester,Leeds,4,0,H,4,2,,4,7,-3,0.0,4,5,,6,6,0,0.25,0,0,0,0,0,0,0,0,,
+2003-09-20,Aston Villa,Charlton,2,1,H,5,4,,5,9,-4,0.2,5,5,,6,7,-1,0.2,0,0,0,0,0,0,0,0,0.2,0.2
+2003-09-20,Fulham,Man City,2,2,D,4,7,,9,7,2,0.5,5,10,,12,6,6,0.6,0,0,0,0,0,0,0,0,,0.6
+2003-09-20,Leeds,Birmingham,0,2,A,5,5,,6,10,-4,0.2,4,8,,4,2,2,0.5,0,0,0,0,0,0,0,0,0.2,
+2003-09-20,Liverpool,Leicester,2,1,H,5,8,,7,3,4,0.4,5,5,,8,7,1,0.2,0,0,0,0,0,0,0,0,0.4,0.2
+2003-09-20,Newcastle,Bolton,0,0,D,4,2,,5,7,-2,0.0,5,5,,4,10,-6,0.2,0,0,0,0,0,0,0,0,,0.2
+2003-09-20,Portsmouth,Blackburn,1,2,A,5,9,,8,3,5,0.4,5,5,,12,11,1,0.2,0,0,0,0,0,0,0,0,0.4,0.2
+2003-09-20,Tottenham,Southampton,1,3,A,5,4,,4,9,-5,0.2,5,9,,5,2,3,0.4,0,0,0,0,0,0,0,0,0.2,0.4
+2003-09-20,Wolves,Chelsea,0,5,A,5,1,,1,12,-11,0.0,4,10,,10,6,4,0.75,0,0,0,0,0,0,0,0,0.0,
+2003-09-21,Man United,Arsenal,0,0,D,5,12,,9,2,7,0.8,5,13,,11,3,8,0.8,0,0,0,0,0,0,0,0,0.8,0.8
+2003-09-21,Middlesbrough,Everton,1,0,H,5,1,,4,12,-8,0.0,5,5,,8,10,-2,0.2,0,0,0,0,0,0,0,0,0.0,0.2
+2003-09-26,Arsenal,Newcastle,3,2,H,6,14,,11,3,8,0.6666666666666666,5,3,,5,7,-2,0.0,0,0,0,0,0,0,0,0,0.6,0.0
+2003-09-27,Birmingham,Portsmouth,2,0,H,5,11,,6,2,4,0.6,6,9,,9,5,4,0.3333333333333333,0,0,0,0,0,0,0,0,0.6,0.2
+2003-09-27,Bolton,Wolves,1,1,D,6,6,,4,10,-6,0.16666666666666666,6,1,,1,17,-16,0.0,0,0,0,0,0,0,0,0,0.2,0.0
+2003-09-27,Chelsea,Aston Villa,1,0,H,5,13,,15,6,9,0.8,6,7,,7,10,-3,0.3333333333333333,0,0,0,0,0,0,0,0,0.8,0.4
+2003-09-27,Leicester,Man United,1,4,A,6,5,,9,9,0,0.16666666666666666,6,13,,9,2,7,0.6666666666666666,0,0,0,0,0,0,0,0,0.2,0.6
+2003-09-27,Southampton,Middlesbrough,0,1,A,6,12,,8,3,5,0.5,6,4,,5,12,-7,0.16666666666666666,1,0,0,0,0,0,0,0,0.6,0.2
+2003-09-28,Blackburn,Fulham,0,2,A,6,8,,14,12,2,0.3333333333333333,5,8,,11,9,2,0.4,0,0,0,0,0,0,0,0,0.2,0.4
+2003-09-28,Charlton,Liverpool,3,2,H,6,5,,7,9,-2,0.16666666666666666,6,11,,9,4,5,0.5,0,0,0,0,1,0,0,0,0.2,0.6
+2003-09-28,Everton,Leeds,4,0,H,6,5,,8,11,-3,0.16666666666666666,6,5,,6,12,-6,0.16666666666666666,0,0,0,0,0,0,0,0,0.2,0.2
+2003-09-28,Man City,Tottenham,0,0,D,6,11,,14,8,6,0.5,6,4,,5,12,-7,0.16666666666666666,0,0,0,0,0,0,1,0,0.4,0.2
+2003-10-04,Fulham,Leicester,2,0,H,6,11,,13,9,4,0.5,7,5,,10,13,-3,0.14285714285714285,0,0,0,0,0,0,0,0,0.4,0.2
+2003-10-04,Leeds,Blackburn,2,1,H,7,5,,6,16,-10,0.14285714285714285,7,8,,14,14,0,0.2857142857142857,0,0,1,0,0,0,0,0,0.2,0.2
+2003-10-04,Liverpool,Arsenal,1,2,A,7,11,,11,7,4,0.42857142857142855,7,17,,14,5,9,0.7142857142857143,0,0,0,0,0,0,0,0,0.6,0.6
+2003-10-04,Man United,Birmingham,3,0,H,7,16,,13,3,10,0.7142857142857143,6,14,,8,2,6,0.6666666666666666,0,0,0,0,0,0,0,0,0.6,0.6
+2003-10-04,Newcastle,Southampton,1,0,H,6,3,,7,10,-3,0.0,7,12,,8,4,4,0.42857142857142855,0,0,0,0,0,0,0,0,0.0,0.6
+2003-10-04,Portsmouth,Charlton,1,2,A,7,9,,9,7,2,0.2857142857142857,7,8,,10,11,-1,0.2857142857142857,0,0,0,0,0,0,0,0,0.2,0.2
+2003-10-04,Tottenham,Everton,3,0,H,7,5,,5,12,-7,0.14285714285714285,7,8,,12,11,1,0.2857142857142857,0,0,0,0,0,0,0,0,0.0,0.2
+2003-10-04,Wolves,Man City,1,0,H,7,2,,2,18,-16,0.0,7,12,,14,8,6,0.42857142857142855,0,0,0,0,0,0,0,0,0.0,0.4
+2003-10-05,Aston Villa,Bolton,1,1,D,7,7,,7,11,-4,0.2857142857142857,7,7,,5,11,-6,0.14285714285714285,0,0,0,0,0,0,0,0,0.4,0.2
+2003-10-05,Middlesbrough,Chelsea,1,2,A,7,7,,6,12,-6,0.2857142857142857,6,16,,16,6,10,0.8333333333333334,0,0,0,0,1,0,0,0,0.4,0.8
+2003-10-14,Birmingham,Chelsea,0,0,D,7,14,,8,5,3,0.5714285714285714,7,19,,18,7,11,0.8571428571428571,0,0,0,0,1,0,0,0,0.6,0.8
+2003-10-18,Arsenal,Chelsea,2,1,H,8,20,,16,6,10,0.75,8,20,,18,7,11,0.75,0,0,0,0,0,0,0,0,0.6,0.8
+2003-10-18,Fulham,Wolves,0,0,D,7,14,,15,9,6,0.5714285714285714,8,5,,3,18,-15,0.125,0,0,0,0,0,0,0,0,0.6,0.2
+2003-10-18,Leeds,Man United,0,1,A,8,8,,8,17,-9,0.25,8,19,,16,3,13,0.75,0,0,0,0,0,0,0,0,0.4,0.6
+2003-10-18,Man City,Bolton,6,2,H,8,12,,14,9,5,0.375,8,8,,6,12,-6,0.125,0,0,0,0,0,0,0,0,0.2,0.2
+2003-10-18,Middlesbrough,Newcastle,0,1,A,8,7,,7,14,-7,0.25,7,6,,8,10,-2,0.14285714285714285,0,0,0,0,0,0,0,0,0.4,0.2
+2003-10-18,Portsmouth,Liverpool,1,0,H,8,9,,10,9,1,0.25,8,11,,12,9,3,0.375,0,0,1,0,0,0,0,0,0.0,0.6
+2003-10-19,Birmingham,Aston Villa,0,0,D,8,15,,8,5,3,0.5,8,8,,8,12,-4,0.25,0,0,0,0,0,0,0,0,0.4,0.4
+2003-10-19,Everton,Southampton,0,0,D,8,8,,12,14,-2,0.25,8,12,,8,5,3,0.375,0,0,0,0,0,0,0,0,0.2,0.6
+2003-10-19,Leicester,Tottenham,1,2,A,8,5,,10,15,-5,0.125,8,8,,8,12,-4,0.25,0,0,1,0,0,0,0,0,0.2,0.2
+2003-10-20,Blackburn,Charlton,0,1,A,8,8,,15,16,-1,0.25,8,11,,12,12,0,0.375,0,0,0,0,0,0,0,0,0.2,0.4
+2003-10-21,Fulham,Newcastle,2,3,A,8,15,,15,9,6,0.5,8,9,,9,10,-1,0.25,0,0,0,0,0,0,0,0,0.4,0.4
+2003-10-25,Aston Villa,Everton,0,0,D,9,9,,8,12,-4,0.2222222222222222,9,9,,12,14,-2,0.2222222222222222,0,0,0,0,0,0,0,0,0.2,0.2
+2003-10-25,Bolton,Birmingham,0,1,A,9,8,,8,18,-10,0.1111111111111111,9,16,,8,5,3,0.4444444444444444,0,0,0,0,0,0,0,0,0.2,0.4
+2003-10-25,Chelsea,Man City,1,0,H,9,20,,19,9,10,0.6666666666666666,9,15,,20,11,9,0.4444444444444444,0,0,0,0,0,0,0,0,0.6,0.4
+2003-10-25,Liverpool,Leeds,3,1,H,9,11,,12,10,2,0.3333333333333333,9,8,,8,18,-10,0.2222222222222222,0,0,1,0,0,0,0,0,0.4,0.2
+2003-10-25,Man United,Fulham,1,3,A,9,22,,17,3,14,0.7777777777777778,9,15,,17,12,5,0.4444444444444444,1,0,0,0,0,0,0,0,0.8,0.4
+2003-10-25,Newcastle,Portsmouth,3,0,H,9,12,,12,12,0,0.3333333333333333,9,12,,11,9,2,0.3333333333333333,1,0,0,0,0,0,0,0,0.6,0.2
+2003-10-25,Southampton,Blackburn,2,0,H,9,13,,8,5,3,0.3333333333333333,9,8,,15,17,-2,0.2222222222222222,0,0,0,0,0,0,1,0,0.4,0.2
+2003-10-25,Wolves,Leicester,4,3,H,9,6,,3,18,-15,0.1111111111111111,9,5,,11,17,-6,0.1111111111111111,0,0,0,0,0,0,1,0,0.2,0.2
+2003-10-26,Charlton,Arsenal,1,1,D,9,14,,13,12,1,0.4444444444444444,9,23,,18,7,11,0.7777777777777778,1,0,0,0,1,0,0,0,0.6,0.6
+2003-10-26,Tottenham,Middlesbrough,0,0,D,9,11,,10,13,-3,0.3333333333333333,9,7,,7,15,-8,0.2222222222222222,0,0,0,0,0,0,0,0,0.4,0.4
+2003-11-01,Everton,Chelsea,0,1,A,10,10,,12,14,-2,0.2,10,23,,20,9,11,0.7,0,0,0,0,0,0,0,0,0.2,0.6
+2003-11-01,Leeds,Arsenal,1,4,A,10,8,,9,21,-12,0.2,10,24,,19,8,11,0.7,0,0,0,0,0,0,0,0,0.2,0.6
+2003-11-01,Man United,Portsmouth,3,0,H,10,22,,18,6,12,0.7,10,12,,11,12,-1,0.3,0,0,0,0,0,0,0,0,0.6,0.2
+2003-11-01,Middlesbrough,Wolves,2,0,H,10,8,,7,15,-8,0.2,10,9,,7,21,-14,0.2,0,0,0,0,0,0,0,0,0.4,0.4
+2003-11-01,Newcastle,Aston Villa,1,1,D,10,15,,15,12,3,0.4,10,10,,8,12,-4,0.2,1,0,0,0,0,0,0,0,0.8,0.2
+2003-11-01,Southampton,Man City,0,2,A,10,16,,10,5,5,0.4,10,15,,20,12,8,0.4,0,0,0,0,0,0,0,0,0.4,0.2
+2003-11-01,Tottenham,Bolton,0,1,A,10,12,,10,13,-3,0.3,10,8,,8,19,-11,0.1,0,0,0,0,0,0,0,0,0.4,0.0
+2003-11-02,Fulham,Liverpool,1,2,A,10,18,,20,13,7,0.5,10,14,,15,11,4,0.4,0,0,0,0,0,0,0,0,0.6,0.4
+2003-11-02,Leicester,Blackburn,2,0,H,10,5,,14,21,-7,0.1,10,8,,15,19,-4,0.2,0,0,1,1,0,0,1,0,0.0,0.2
+2003-11-03,Birmingham,Charlton,1,2,A,10,19,,9,5,4,0.5,10,15,,14,13,1,0.4,0,0,0,0,0,0,0,0,0.4,0.6
+2003-11-08,Arsenal,Tottenham,2,1,H,11,27,,23,9,14,0.7272727272727273,11,12,,10,14,-4,0.2727272727272727,0,0,0,0,0,0,0,0,0.8,0.4
+2003-11-08,Aston Villa,Middlesbrough,0,2,A,11,11,,9,13,-4,0.18181818181818182,11,11,,9,15,-6,0.2727272727272727,0,0,0,0,0,0,0,0,0.0,0.4
+2003-11-08,Bolton,Southampton,0,0,D,11,11,,9,19,-10,0.18181818181818182,11,16,,10,7,3,0.36363636363636365,0,0,0,0,0,0,0,0,0.2,0.2
+2003-11-08,Charlton,Fulham,3,1,H,11,18,,16,14,2,0.45454545454545453,11,18,,21,15,6,0.45454545454545453,0,0,0,0,0,0,0,0,0.8,0.4
+2003-11-08,Portsmouth,Leeds,6,1,H,11,12,,11,15,-4,0.2727272727272727,11,8,,10,25,-15,0.18181818181818182,0,0,0,0,0,0,1,0,0.2,0.2
+2003-11-08,Wolves,Birmingham,1,1,D,11,9,,7,23,-16,0.18181818181818182,11,19,,10,7,3,0.45454545454545453,0,0,0,0,0,0,0,0,0.4,0.2
+2003-11-09,Chelsea,Newcastle,5,0,H,11,26,,21,9,12,0.7272727272727273,11,16,,16,13,3,0.36363636363636365,0,0,0,0,0,0,0,0,0.6,0.8
+2003-11-09,Liverpool,Man United,1,2,A,11,17,,17,12,5,0.45454545454545453,11,25,,21,6,15,0.7272727272727273,0,0,0,0,0,0,0,0,0.4,0.8
+2003-11-09,Man City,Leicester,0,3,A,11,18,,22,12,10,0.45454545454545453,11,8,,16,21,-5,0.18181818181818182,0,0,0,0,0,0,0,0,0.4,0.2
+2003-11-10,Blackburn,Everton,2,1,H,11,8,,15,21,-6,0.18181818181818182,11,10,,12,15,-3,0.18181818181818182,0,0,1,1,0,0,0,0,0.0,0.2
+2003-11-22,Birmingham,Arsenal,0,3,A,12,20,,11,8,3,0.4166666666666667,12,30,,25,10,15,0.75,0,0,0,0,0,0,0,0,0.2,0.8
+2003-11-22,Everton,Wolves,2,0,H,12,10,,13,17,-4,0.16666666666666666,12,10,,8,24,-16,0.16666666666666666,0,0,0,0,0,0,0,0,0.0,0.4
+2003-11-22,Leeds,Bolton,0,2,A,12,8,,11,31,-20,0.16666666666666666,12,12,,9,19,-10,0.16666666666666666,0,0,1,0,0,0,0,0,0.2,0.2
+2003-11-22,Leicester,Charlton,1,1,D,12,11,,19,21,-2,0.25,12,21,,19,15,4,0.5,0,0,0,0,0,0,0,0,0.4,0.8
+2003-11-22,Man United,Blackburn,2,1,H,12,28,,23,7,16,0.75,12,11,,17,22,-5,0.25,0,0,0,0,0,0,0,0,0.8,0.2
+2003-11-22,Middlesbrough,Liverpool,0,0,D,12,14,,11,15,-4,0.3333333333333333,12,17,,18,14,4,0.4166666666666667,0,0,0,0,0,0,0,0,0.4,0.4
+2003-11-22,Newcastle,Man City,3,0,H,12,16,,16,18,-2,0.3333333333333333,12,18,,22,15,7,0.4166666666666667,0,0,0,0,0,0,0,0,0.6,0.4
+2003-11-22,Southampton,Chelsea,0,1,A,12,17,,10,7,3,0.3333333333333333,12,29,,26,9,17,0.75,0,0,0,0,1,0,0,0,0.2,0.6
+2003-11-23,Tottenham,Aston Villa,2,1,H,12,12,,11,16,-5,0.25,12,11,,9,15,-6,0.16666666666666666,0,0,0,0,0,0,0,0,0.4,0.0
+2003-11-24,Fulham,Portsmouth,2,0,H,12,18,,22,18,4,0.4166666666666667,12,15,,17,16,1,0.3333333333333333,0,0,0,0,0,0,0,0,0.2,0.4
+2003-11-29,Aston Villa,Southampton,1,0,H,13,11,,10,17,-7,0.15384615384615385,13,17,,10,8,2,0.3076923076923077,0,0,0,0,0,0,0,0,0.0,0.2
+2003-11-29,Blackburn,Tottenham,1,0,H,13,11,,18,24,-6,0.23076923076923078,13,15,,13,17,-4,0.3076923076923077,0,0,0,0,0,0,0,0,0.2,0.4
+2003-11-29,Bolton,Everton,2,0,H,13,15,,11,19,-8,0.23076923076923078,13,13,,15,17,-2,0.23076923076923078,0,0,0,0,0,0,0,0,0.4,0.2
+2003-11-29,Charlton,Leeds,0,1,A,13,22,,20,16,4,0.46153846153846156,13,8,,11,33,-22,0.15384615384615385,0,0,0,0,0,0,1,1,0.6,0.0
+2003-11-29,Portsmouth,Leicester,0,2,A,13,15,,17,18,-1,0.3076923076923077,13,12,,20,22,-2,0.23076923076923078,0,0,0,0,0,0,0,0,0.4,0.4
+2003-11-29,Wolves,Newcastle,1,1,D,13,10,,8,26,-18,0.15384615384615385,13,19,,19,18,1,0.38461538461538464,0,0,0,0,0,0,0,0,0.2,0.6
+2003-11-30,Arsenal,Fulham,0,0,D,13,33,,28,10,18,0.7692307692307693,13,21,,24,18,6,0.46153846153846156,1,0,0,0,0,0,0,0,0.8,0.4
+2003-11-30,Chelsea,Man United,1,0,H,13,32,,27,9,18,0.7692307692307693,13,31,,25,8,17,0.7692307692307693,1,0,0,0,1,0,0,0,0.8,0.8
+2003-11-30,Liverpool,Birmingham,3,1,H,13,18,,18,14,4,0.38461538461538464,13,20,,11,11,0,0.38461538461538464,0,0,0,0,0,0,0,0,0.4,0.2
+2003-11-30,Man City,Middlesbrough,0,1,A,13,18,,22,18,4,0.38461538461538464,13,15,,11,15,-4,0.3076923076923077,0,0,0,0,0,0,0,0,0.4,0.4
+2003-12-06,Birmingham,Blackburn,0,4,A,14,20,,12,14,-2,0.35714285714285715,14,14,,19,24,-5,0.2857142857142857,0,0,0,0,0,0,0,0,0.2,0.4
+2003-12-06,Fulham,Bolton,2,1,H,14,22,,24,18,6,0.42857142857142855,14,18,,13,19,-6,0.2857142857142857,0,0,0,0,0,0,0,0,0.4,0.6
+2003-12-06,Leeds,Chelsea,1,1,D,14,11,,12,33,-21,0.21428571428571427,14,35,,28,9,19,0.7857142857142857,0,0,0,0,1,1,0,0,0.2,1.0
+2003-12-06,Leicester,Arsenal,1,1,D,14,15,,22,22,0,0.2857142857142857,14,34,,28,10,18,0.7142857142857143,0,0,0,0,0,0,0,0,0.6,0.6
+2003-12-06,Man United,Aston Villa,4,0,H,14,31,,25,9,16,0.7142857142857143,14,14,,11,17,-6,0.21428571428571427,0,0,0,0,0,0,0,0,0.6,0.2
+2003-12-06,Middlesbrough,Portsmouth,0,0,D,14,18,,12,15,-3,0.35714285714285715,14,15,,17,20,-3,0.2857142857142857,0,0,0,0,0,0,0,0,0.6,0.2
+2003-12-06,Newcastle,Liverpool,1,1,D,14,20,,20,19,1,0.35714285714285715,14,21,,21,15,6,0.42857142857142855,0,0,0,0,0,0,0,0,0.4,0.6
+2003-12-06,Tottenham,Wolves,5,2,H,14,15,,13,18,-5,0.2857142857142857,14,11,,9,27,-18,0.14285714285714285,0,0,0,0,0,0,0,0,0.2,0.2
+2003-12-07,Everton,Man City,0,0,D,14,13,,15,19,-4,0.21428571428571427,14,18,,22,19,3,0.35714285714285715,0,0,0,0,0,0,1,0,0.2,0.2
+2003-12-07,Southampton,Charlton,3,2,H,14,17,,10,9,1,0.2857142857142857,14,22,,20,17,3,0.42857142857142855,0,0,0,0,0,0,0,0,0.2,0.4
+2003-12-13,Chelsea,Bolton,1,2,A,15,36,,29,10,19,0.7333333333333333,15,18,,14,21,-7,0.26666666666666666,0,0,0,0,0,0,0,0,0.8,0.6
+2003-12-13,Leicester,Birmingham,0,2,A,15,16,,23,23,0,0.26666666666666666,15,20,,12,18,-6,0.3333333333333333,0,0,0,0,0,0,1,0,0.6,0.0
+2003-12-13,Liverpool,Southampton,1,2,A,15,22,,22,16,6,0.4,15,20,,13,11,2,0.3333333333333333,0,0,0,0,0,0,0,0,0.4,0.2
+2003-12-13,Man United,Man City,3,1,H,15,34,,29,9,20,0.7333333333333333,15,19,,22,19,3,0.3333333333333333,0,0,0,0,0,0,0,0,0.8,0.2
+2003-12-13,Middlesbrough,Charlton,0,0,D,15,19,,12,15,-3,0.3333333333333333,15,22,,22,20,2,0.4,0,0,0,0,0,0,0,0,0.6,0.4
+2003-12-13,Newcastle,Tottenham,4,0,H,15,21,,21,20,1,0.3333333333333333,15,18,,18,20,-2,0.3333333333333333,0,0,0,0,0,0,0,0,0.2,0.4
+2003-12-13,Portsmouth,Everton,1,2,A,15,16,,17,20,-3,0.26666666666666666,15,14,,15,19,-4,0.2,0,0,0,0,0,0,0,0,0.2,0.2
+2003-12-14,Arsenal,Blackburn,1,0,H,15,35,,29,11,18,0.6666666666666666,15,17,,23,24,-1,0.3333333333333333,0,0,0,0,0,0,0,0,0.6,0.6
+2003-12-14,Aston Villa,Wolves,3,2,H,15,14,,11,21,-10,0.2,15,11,,11,32,-21,0.13333333333333333,0,0,0,0,0,0,0,0,0.2,0.0
+2003-12-14,Leeds,Fulham,3,2,H,15,12,,13,34,-21,0.2,15,25,,26,19,7,0.4666666666666667,0,0,0,0,0,0,0,0,0.2,0.4
+2003-12-20,Blackburn,Aston Villa,0,2,A,16,17,,23,25,-2,0.3125,16,17,,14,23,-9,0.25,0,0,0,0,0,0,0,0,0.6,0.4
+2003-12-20,Bolton,Arsenal,1,1,D,16,21,,16,22,-6,0.3125,16,38,,30,11,19,0.6875,0,0,0,0,0,0,0,0,0.6,0.6
+2003-12-20,Charlton,Newcastle,0,0,D,16,23,,22,20,2,0.375,16,24,,25,20,5,0.375,0,0,0,0,0,0,0,0,0.2,0.4
+2003-12-20,Everton,Leicester,3,2,H,16,17,,17,20,-3,0.25,16,16,,23,25,-2,0.25,0,0,0,0,0,0,0,0,0.4,0.4
+2003-12-20,Fulham,Chelsea,0,1,A,16,25,,28,22,6,0.4375,16,36,,30,12,18,0.6875,0,0,0,0,0,0,0,0,0.4,0.6
+2003-12-21,Southampton,Portsmouth,3,0,H,16,23,,15,12,3,0.375,16,16,,18,22,-4,0.25,0,0,0,0,0,0,0,0,0.4,0.2
+2003-12-21,Tottenham,Man United,1,2,A,16,18,,18,24,-6,0.3125,16,37,,32,10,22,0.75,0,0,0,0,0,0,0,0,0.4,0.8
+2003-12-22,Man City,Leeds,1,1,D,16,19,,23,22,1,0.3125,16,15,,16,36,-20,0.25,0,0,0,0,0,0,0,0,0.0,0.4
+2003-12-26,Arsenal,Wolves,3,0,H,17,39,,31,12,19,0.6470588235294118,16,11,,13,35,-22,0.125,0,0,0,0,0,0,0,0,0.4,0.0
+2003-12-26,Birmingham,Man City,2,1,H,16,23,,14,18,-4,0.375,17,20,,24,23,1,0.29411764705882354,0,0,0,0,0,0,0,0,0.2,0.0
+2003-12-26,Blackburn,Middlesbrough,2,2,D,17,17,,23,27,-4,0.29411764705882354,16,20,,12,15,-3,0.3125,0,0,0,0,0,0,0,0,0.4,0.4
+2003-12-26,Charlton,Chelsea,4,2,H,17,24,,22,20,2,0.35294117647058826,17,39,,31,12,19,0.7058823529411765,0,0,0,0,0,0,0,0,0.0,0.6
+2003-12-26,Fulham,Southampton,2,0,H,17,25,,28,23,5,0.4117647058823529,17,26,,18,12,6,0.4117647058823529,0,0,0,0,1,0,0,0,0.4,0.6
+2003-12-26,Leeds,Aston Villa,0,0,D,17,16,,17,37,-20,0.23529411764705882,17,20,,16,23,-7,0.29411764705882354,0,0,0,0,0,0,0,0,0.4,0.6
+2003-12-26,Leicester,Newcastle,1,1,D,17,16,,25,28,-3,0.23529411764705882,17,25,,25,20,5,0.35294117647058826,0,0,0,0,0,0,0,0,0.2,0.4
+2003-12-26,Liverpool,Bolton,3,1,H,16,22,,23,18,5,0.375,17,22,,17,23,-6,0.29411764705882354,0,0,0,0,0,0,0,0,0.2,0.6
+2003-12-26,Man United,Everton,3,2,H,17,40,,34,11,23,0.7647058823529411,17,20,,20,22,-2,0.29411764705882354,1,0,0,0,0,0,0,0,0.8,0.6
+2003-12-26,Portsmouth,Tottenham,2,0,H,17,16,,18,25,-7,0.23529411764705882,17,18,,19,26,-7,0.29411764705882354,0,0,0,0,0,0,0,0,0.0,0.4
+2003-12-28,Aston Villa,Fulham,3,0,H,18,21,,16,23,-7,0.2777777777777778,18,28,,30,23,7,0.4444444444444444,0,0,0,0,0,0,0,0,0.6,0.4
+2003-12-28,Bolton,Leicester,2,2,D,18,22,,18,26,-8,0.2777777777777778,18,17,,26,29,-3,0.2222222222222222,0,0,0,0,0,0,0,0,0.4,0.2
+2003-12-28,Chelsea,Portsmouth,3,0,H,18,39,,33,16,17,0.6666666666666666,18,19,,20,25,-5,0.2777777777777778,0,0,0,0,0,0,0,0,0.4,0.2
+2003-12-28,Everton,Birmingham,1,0,H,18,20,,22,25,-3,0.2777777777777778,17,26,,16,19,-3,0.4117647058823529,0,0,0,0,0,0,0,0,0.4,0.4
+2003-12-28,Man City,Liverpool,2,2,D,18,20,,25,25,0,0.2777777777777778,17,25,,26,19,7,0.4117647058823529,0,0,0,0,0,0,0,0,0.0,0.4
+2003-12-28,Middlesbrough,Man United,0,1,A,17,21,,14,17,-3,0.29411764705882354,18,43,,37,13,24,0.7777777777777778,0,0,0,0,1,0,0,0,0.2,0.8
+2003-12-28,Newcastle,Blackburn,0,1,A,18,26,,26,21,5,0.3333333333333333,18,18,,25,29,-4,0.2777777777777778,0,0,0,0,0,0,0,0,0.2,0.4
+2003-12-28,Tottenham,Charlton,0,1,A,18,18,,19,28,-9,0.2777777777777778,18,27,,26,22,4,0.3888888888888889,0,0,1,0,0,0,0,0,0.2,0.2
+2003-12-28,Wolves,Leeds,3,1,H,17,11,,13,38,-25,0.11764705882352941,18,17,,17,37,-20,0.2222222222222222,0,0,1,0,0,0,0,0,0.0,0.4
+2003-12-29,Southampton,Arsenal,0,1,A,18,26,,18,14,4,0.3888888888888889,18,42,,34,12,22,0.6666666666666666,0,0,0,0,0,0,0,0,0.6,0.4
+2004-01-06,Aston Villa,Portsmouth,2,1,H,19,24,,19,23,-4,0.3157894736842105,19,19,,20,28,-8,0.2631578947368421,0,0,0,0,0,0,0,0,0.6,0.2
+2004-01-07,Bolton,Man United,1,2,A,19,23,,20,28,-8,0.2631578947368421,19,46,,38,13,25,0.7894736842105263,0,0,0,0,1,1,0,0,0.2,1.0
+2004-01-07,Chelsea,Liverpool,0,1,A,19,42,,36,16,20,0.6842105263157895,18,26,,28,21,7,0.3888888888888889,0,0,0,0,0,0,0,0,0.4,0.4
+2004-01-07,Everton,Arsenal,1,1,D,19,23,,23,25,-2,0.3157894736842105,19,45,,35,12,23,0.6842105263157895,0,0,0,0,0,0,0,0,0.6,0.6
+2004-01-07,Man City,Charlton,1,1,D,19,21,,27,27,0,0.2631578947368421,19,30,,27,22,5,0.42105263157894735,0,0,0,0,0,0,0,0,0.0,0.4
+2004-01-07,Middlesbrough,Fulham,2,1,H,18,21,,14,18,-4,0.2777777777777778,19,28,,30,26,4,0.42105263157894735,0,0,0,0,0,0,0,0,0.2,0.4
+2004-01-07,Newcastle,Leeds,1,0,H,19,26,,26,22,4,0.3157894736842105,19,17,,18,40,-22,0.21052631578947367,0,0,0,0,0,0,0,0,0.2,0.2
+2004-01-07,Southampton,Leicester,0,0,D,19,26,,18,15,3,0.3684210526315789,19,18,,28,31,-3,0.21052631578947367,0,0,0,0,0,0,0,0,0.6,0.0
+2004-01-07,Tottenham,Birmingham,4,1,H,19,18,,19,29,-10,0.2631578947368421,18,26,,16,20,-4,0.3888888888888889,0,0,1,0,0,0,0,0,0.2,0.4
+2004-01-07,Wolves,Blackburn,2,2,D,18,14,,16,39,-23,0.16666666666666666,19,21,,26,29,-3,0.3157894736842105,0,0,0,0,0,0,0,0,0.2,0.4
+2004-01-10,Arsenal,Middlesbrough,4,1,H,20,46,,36,13,23,0.65,19,24,,16,19,-3,0.3157894736842105,0,0,0,0,0,0,0,0,0.6,0.2
+2004-01-10,Birmingham,Southampton,2,1,H,19,26,,17,24,-7,0.3684210526315789,20,27,,18,15,3,0.35,0,0,0,0,0,0,0,0,0.4,0.4
+2004-01-10,Blackburn,Bolton,3,4,A,20,22,,28,31,-3,0.3,20,23,,21,30,-9,0.25,0,0,0,0,0,0,0,0,0.2,0.2
+2004-01-10,Charlton,Wolves,2,0,H,20,31,,28,23,5,0.4,19,15,,18,41,-23,0.15789473684210525,0,0,0,0,0,0,0,0,0.4,0.2
+2004-01-10,Fulham,Everton,2,1,H,20,28,,31,28,3,0.4,20,24,,24,26,-2,0.3,0,0,0,0,0,0,0,0,0.2,0.6
+2004-01-10,Leeds,Tottenham,0,1,A,20,17,,18,41,-23,0.2,20,21,,23,30,-7,0.3,0,0,0,0,0,0,0,0,0.2,0.2
+2004-01-10,Liverpool,Aston Villa,1,0,H,19,29,,29,21,8,0.42105263157894735,20,27,,21,24,-3,0.35,0,0,0,0,0,0,0,0,0.4,0.8
+2004-01-10,Portsmouth,Man City,4,2,H,20,19,,21,30,-9,0.25,20,22,,28,28,0,0.25,0,0,0,0,0,0,0,0,0.2,0.0
+2004-01-11,Leicester,Chelsea,0,4,A,20,19,,28,31,-3,0.2,20,42,,36,17,19,0.65,0,0,0,0,0,0,0,0,0.0,0.4
+2004-01-11,Man United,Newcastle,0,0,D,20,49,,40,14,26,0.8,20,29,,27,22,5,0.35,1,1,0,0,0,0,0,0,1.0,0.4
+2004-01-17,Bolton,Portsmouth,1,0,H,21,26,,25,33,-8,0.2857142857142857,21,22,,25,32,-7,0.2857142857142857,0,0,0,0,0,0,0,0,0.2,0.4
+2004-01-17,Everton,Charlton,0,1,A,21,24,,25,28,-3,0.2857142857142857,21,34,,30,23,7,0.42857142857142855,0,0,0,0,0,0,0,0,0.4,0.6
+2004-01-17,Man City,Blackburn,1,1,D,21,22,,30,32,-2,0.23809523809523808,21,22,,31,35,-4,0.2857142857142857,0,0,0,0,0,0,0,0,0.0,0.2
+2004-01-17,Middlesbrough,Leicester,3,3,D,20,24,,17,23,-6,0.3,21,19,,28,35,-7,0.19047619047619047,0,0,0,0,0,0,0,0,0.2,0.0
+2004-01-17,Southampton,Leeds,2,1,H,21,27,,19,17,2,0.3333333333333333,21,17,,18,42,-24,0.19047619047619047,0,0,0,0,0,0,1,0,0.2,0.0
+2004-01-17,Tottenham,Liverpool,2,1,H,21,24,,24,30,-6,0.3333333333333333,20,32,,30,21,9,0.45,0,0,0,0,0,0,0,0,0.4,0.6
+2004-01-17,Wolves,Man United,1,0,H,20,15,,18,43,-25,0.15,21,50,,40,14,26,0.7619047619047619,0,0,0,0,0,0,0,0,0.2,0.8
+2004-01-18,Aston Villa,Arsenal,0,2,A,21,27,,21,25,-4,0.3333333333333333,21,49,,40,14,26,0.6666666666666666,0,0,0,0,0,0,0,0,0.6,0.6
+2004-01-18,Chelsea,Birmingham,0,0,D,21,45,,40,17,23,0.6666666666666666,20,29,,19,25,-6,0.4,0,0,0,0,0,0,0,0,0.6,0.6
+2004-01-19,Newcastle,Fulham,3,1,H,21,30,,27,22,5,0.3333333333333333,21,31,,33,29,4,0.42857142857142855,0,0,0,0,0,0,0,0,0.2,0.4
+2004-01-21,Wolves,Liverpool,1,1,D,21,18,,19,43,-24,0.19047619047619047,21,32,,31,23,8,0.42857142857142855,0,0,0,0,0,0,0,0,0.4,0.6
+2004-01-31,Birmingham,Newcastle,1,1,D,21,30,,19,25,-6,0.38095238095238093,22,33,,30,23,7,0.36363636363636365,0,0,0,0,0,0,0,0,0.4,0.4
+2004-01-31,Charlton,Bolton,1,2,A,22,37,,31,23,8,0.45454545454545453,22,29,,26,33,-7,0.3181818181818182,0,0,0,0,0,0,0,0,0.8,0.4
+2004-01-31,Fulham,Tottenham,2,1,H,22,31,,34,32,2,0.4090909090909091,22,27,,26,31,-5,0.36363636363636365,0,0,0,0,1,0,0,0,0.4,0.6
+2004-01-31,Leeds,Middlesbrough,0,3,A,22,17,,19,44,-25,0.18181818181818182,21,25,,20,26,-6,0.2857142857142857,0,0,1,0,0,0,0,0,0.0,0.2
+2004-01-31,Leicester,Aston Villa,0,5,A,22,20,,31,38,-7,0.18181818181818182,22,27,,21,27,-6,0.3181818181818182,0,0,0,0,0,0,0,0,0.0,0.4
+2004-01-31,Liverpool,Everton,0,0,D,22,33,,32,24,8,0.4090909090909091,22,24,,25,29,-4,0.2727272727272727,0,0,0,0,0,0,0,0,0.4,0.2
+2004-01-31,Man United,Southampton,3,2,H,22,50,,40,15,25,0.7272727272727273,22,30,,21,18,3,0.36363636363636365,0,0,0,0,0,0,0,0,0.6,0.2
+2004-01-31,Portsmouth,Wolves,0,0,D,22,22,,25,33,-8,0.2727272727272727,22,19,,20,44,-24,0.18181818181818182,0,0,0,0,0,0,0,0,0.4,0.4
+2004-02-01,Arsenal,Man City,2,1,H,22,52,,42,14,28,0.6818181818181818,22,23,,31,33,-2,0.22727272727272727,0,0,0,0,0,0,0,0,0.8,0.0
+2004-02-01,Blackburn,Chelsea,2,3,A,22,23,,32,36,-4,0.2727272727272727,22,46,,40,17,23,0.6363636363636364,0,0,0,0,0,0,0,0,0.2,0.4
+2004-02-07,Aston Villa,Leeds,2,0,H,23,30,,26,27,-1,0.34782608695652173,23,17,,19,47,-28,0.17391304347826086,0,0,0,0,0,0,1,1,0.6,0.0
+2004-02-07,Bolton,Liverpool,2,2,D,23,32,,28,34,-6,0.34782608695652173,23,34,,32,24,8,0.391304347826087,1,0,0,0,0,0,0,0,0.6,0.4
+2004-02-07,Everton,Man United,3,4,A,23,25,,25,29,-4,0.2608695652173913,23,53,,43,17,26,0.7391304347826086,0,0,0,0,0,0,0,0,0.2,0.6
+2004-02-07,Middlesbrough,Blackburn,0,1,A,22,28,,23,26,-3,0.3181818181818182,23,23,,34,39,-5,0.2608695652173913,0,0,0,0,0,0,0,0,0.4,0.2
+2004-02-07,Newcastle,Leicester,3,1,H,23,34,,31,24,7,0.34782608695652173,23,20,,31,43,-12,0.17391304347826086,0,0,0,0,0,0,0,0,0.4,0.0
+2004-02-07,Southampton,Fulham,0,0,D,23,30,,23,21,2,0.34782608695652173,23,34,,36,33,3,0.43478260869565216,0,0,0,0,0,0,0,0,0.2,0.4
+2004-02-07,Tottenham,Portsmouth,4,3,H,23,27,,27,33,-6,0.34782608695652173,23,23,,25,33,-8,0.2608695652173913,0,0,0,0,0,0,0,0,0.6,0.2
+2004-02-07,Wolves,Arsenal,1,3,A,23,20,,20,44,-24,0.17391304347826086,23,55,,44,15,29,0.6956521739130435,0,0,0,0,1,0,0,0,0.2,0.8
+2004-02-08,Chelsea,Charlton,1,0,H,23,49,,43,19,24,0.6521739130434783,23,37,,32,25,7,0.43478260869565216,0,0,0,0,0,0,0,0,0.6,0.6
+2004-02-08,Man City,Birmingham,0,0,D,23,23,,32,35,-3,0.21739130434782608,22,31,,20,26,-6,0.36363636363636365,0,0,0,0,0,0,0,0,0.0,0.2
+2004-02-10,Arsenal,Southampton,2,0,H,24,58,,47,16,31,0.7083333333333334,24,31,,23,21,2,0.3333333333333333,1,0,0,0,0,0,0,0,0.8,0.2
+2004-02-10,Leeds,Wolves,4,1,H,24,17,,19,49,-30,0.16666666666666666,24,20,,21,47,-26,0.16666666666666666,0,0,1,1,0,0,0,0,0.0,0.2
+2004-02-10,Leicester,Bolton,1,1,D,24,20,,32,46,-14,0.16666666666666666,24,33,,30,36,-6,0.3333333333333333,0,0,0,0,0,0,0,0,0.0,0.6
+2004-02-11,Birmingham,Everton,3,0,H,23,32,,20,26,-6,0.34782608695652173,24,25,,28,33,-5,0.25,0,0,0,0,0,0,0,0,0.2,0.0
+2004-02-11,Blackburn,Newcastle,1,1,D,24,26,,35,39,-4,0.2916666666666667,24,37,,34,25,9,0.375,0,0,0,0,0,0,0,0,0.2,0.6
+2004-02-11,Charlton,Tottenham,2,4,A,24,37,,32,26,6,0.4166666666666667,24,30,,31,36,-5,0.375,0,0,0,0,0,0,0,0,0.4,0.8
+2004-02-11,Fulham,Aston Villa,1,2,A,24,35,,36,33,3,0.4166666666666667,24,33,,28,27,1,0.375,0,0,0,0,0,0,0,0,0.4,0.6
+2004-02-11,Liverpool,Man City,2,1,H,24,35,,34,26,8,0.375,24,24,,32,35,-3,0.20833333333333334,0,0,0,0,0,0,0,0,0.2,0.0
+2004-02-11,Man United,Middlesbrough,2,3,A,24,56,,47,20,27,0.75,23,28,,23,27,-4,0.30434782608695654,0,0,0,0,0,0,0,0,0.6,0.4
+2004-02-11,Portsmouth,Chelsea,0,2,A,24,23,,28,37,-9,0.25,24,52,,44,19,25,0.6666666666666666,0,0,0,0,0,0,0,0,0.2,0.6
+2004-02-21,Bolton,Man City,1,3,A,25,34,,31,37,-6,0.32,25,24,,33,37,-4,0.2,0,0,0,0,0,0,0,0,0.6,0.0
+2004-02-21,Charlton,Blackburn,3,2,H,25,37,,34,30,4,0.4,25,27,,36,40,-4,0.28,0,0,1,0,0,0,0,0,0.4,0.2
+2004-02-21,Chelsea,Arsenal,1,2,A,25,55,,46,19,27,0.68,25,61,,49,16,33,0.72,1,0,0,0,1,1,0,0,0.8,1.0
+2004-02-21,Man United,Leeds,1,1,D,25,56,,49,23,26,0.72,25,20,,23,50,-27,0.2,0,0,0,0,0,0,0,0,0.4,0.2
+2004-02-21,Newcastle,Middlesbrough,2,1,H,25,38,,35,26,9,0.36,24,31,,26,29,-3,0.3333333333333333,0,0,0,0,0,0,0,0,0.4,0.4
+2004-02-21,Southampton,Everton,3,3,D,25,31,,23,23,0,0.32,25,25,,28,36,-8,0.24,0,0,0,0,0,0,0,0,0.2,0.0
+2004-02-21,Wolves,Fulham,2,1,H,25,20,,22,51,-29,0.16,25,35,,37,35,2,0.4,0,0,0,0,0,0,0,0,0.2,0.4
+2004-02-22,Aston Villa,Birmingham,2,2,D,25,36,,30,28,2,0.4,24,35,,23,26,-3,0.375,1,0,0,0,0,0,0,0,0.6,0.4
+2004-02-22,Tottenham,Leicester,4,4,D,25,33,,35,38,-3,0.4,25,21,,33,47,-14,0.16,0,0,0,0,0,0,0,0,0.8,0.0
+2004-02-28,Arsenal,Charlton,2,1,H,26,64,,51,17,34,0.7307692307692307,26,40,,37,32,5,0.4230769230769231,1,1,0,0,0,0,0,0,1.0,0.4
+2004-02-28,Blackburn,Southampton,1,1,D,26,27,,38,43,-5,0.2692307692307692,26,32,,26,26,0,0.3076923076923077,0,0,0,0,0,0,0,0,0.2,0.2
+2004-02-28,Everton,Aston Villa,2,0,H,26,26,,31,39,-8,0.23076923076923078,26,37,,32,30,2,0.38461538461538464,0,0,0,0,0,0,0,0,0.0,0.6
+2004-02-28,Fulham,Man United,1,1,D,26,35,,38,37,1,0.38461538461538464,26,57,,50,24,26,0.6923076923076923,0,0,0,0,0,0,0,0,0.2,0.4
+2004-02-28,Leicester,Wolves,0,0,D,26,22,,37,51,-14,0.15384615384615385,26,23,,24,52,-28,0.19230769230769232,0,0,0,0,0,0,0,0,0.0,0.2
+2004-02-28,Man City,Chelsea,0,1,A,26,27,,36,38,-2,0.23076923076923078,26,55,,47,21,26,0.6538461538461539,0,0,0,0,0,0,0,0,0.2,0.6
+2004-02-29,Leeds,Liverpool,2,2,D,26,21,,24,51,-27,0.19230769230769232,25,38,,36,27,9,0.4,0,0,0,0,0,0,0,0,0.2,0.2
+2004-02-29,Portsmouth,Newcastle,1,1,D,25,23,,28,39,-11,0.24,26,41,,37,27,10,0.38461538461538464,0,0,0,0,0,0,0,0,0.2,0.6
+2004-03-03,Birmingham,Middlesbrough,3,1,H,25,36,,25,28,-3,0.36,25,31,,27,31,-4,0.32,0,0,0,0,0,0,0,0,0.2,0.4
+2004-03-06,Birmingham,Bolton,2,0,H,26,39,,28,29,-1,0.38461538461538464,26,34,,32,40,-8,0.3076923076923077,0,0,0,0,0,0,0,0,0.4,0.4
+2004-03-09,Middlesbrough,Tottenham,1,0,H,26,31,,28,34,-6,0.3076923076923077,26,34,,39,42,-3,0.38461538461538464,0,0,0,0,0,0,0,0,0.4,0.6
+2004-03-13,Birmingham,Leicester,0,1,A,27,42,,30,29,1,0.4074074074074074,27,23,,37,51,-14,0.14814814814814814,0,0,0,0,0,0,0,0,0.6,0.0
+2004-03-13,Blackburn,Arsenal,0,2,A,27,28,,39,44,-5,0.25925925925925924,27,67,,53,18,35,0.7407407407407407,0,0,0,0,1,1,0,0,0.2,1.0
+2004-03-13,Bolton,Chelsea,0,2,A,27,34,,32,42,-10,0.2962962962962963,27,58,,48,21,27,0.6666666666666666,0,0,0,0,0,0,0,0,0.2,0.8
+2004-03-13,Charlton,Middlesbrough,1,0,H,27,40,,38,34,4,0.4074074074074074,27,34,,29,34,-5,0.3333333333333333,0,0,0,0,0,0,0,0,0.2,0.4
+2004-03-13,Everton,Portsmouth,1,0,H,27,29,,33,39,-6,0.25925925925925924,26,24,,29,40,-11,0.23076923076923078,0,0,0,0,0,0,0,0,0.2,0.0
+2004-03-13,Fulham,Leeds,2,0,H,27,36,,39,38,1,0.37037037037037035,27,22,,26,53,-27,0.18518518518518517,0,0,0,0,0,0,0,0,0.2,0.2
+2004-03-14,Man City,Man United,4,1,H,27,27,,36,39,-3,0.2222222222222222,27,58,,51,25,26,0.6666666666666666,0,0,0,0,0,0,0,0,0.2,0.4
+2004-03-14,Southampton,Liverpool,2,0,H,27,33,,27,27,0,0.2962962962962963,26,39,,38,29,9,0.38461538461538464,0,0,0,0,0,0,0,0,0.0,0.2
+2004-03-14,Tottenham,Newcastle,1,0,H,27,34,,39,43,-4,0.37037037037037035,27,42,,38,28,10,0.37037037037037035,0,0,0,0,0,0,0,0,0.4,0.4
+2004-03-14,Wolves,Aston Villa,0,4,A,27,24,,24,52,-28,0.18518518518518517,27,37,,32,32,0,0.37037037037037035,0,0,0,0,0,0,0,0,0.2,0.6
+2004-03-17,Liverpool,Portsmouth,3,0,H,27,39,,38,31,7,0.37037037037037035,27,24,,29,41,-12,0.2222222222222222,0,0,0,0,0,0,0,0,0.2,0.0
+2004-03-20,Arsenal,Bolton,2,1,H,28,70,,55,18,37,0.75,28,34,,32,44,-12,0.2857142857142857,1,1,0,0,0,0,1,0,1.0,0.0
+2004-03-20,Aston Villa,Blackburn,0,2,A,28,40,,36,32,4,0.39285714285714285,28,28,,39,46,-7,0.25,0,0,0,0,0,0,0,0,0.6,0.2
+2004-03-20,Chelsea,Fulham,2,1,H,28,61,,50,21,29,0.6785714285714286,28,39,,41,38,3,0.39285714285714285,0,0,0,0,0,0,0,0,0.8,0.2
+2004-03-20,Leicester,Everton,1,1,D,28,26,,38,51,-13,0.17857142857142858,28,32,,34,39,-5,0.2857142857142857,0,0,0,0,0,0,0,0,0.2,0.4
+2004-03-20,Liverpool,Wolves,1,0,H,28,42,,41,31,10,0.39285714285714285,28,24,,24,56,-32,0.17857142857142858,0,0,0,0,0,0,0,0,0.4,0.2
+2004-03-20,Man United,Tottenham,3,0,H,28,58,,52,29,23,0.6428571428571429,28,37,,40,43,-3,0.39285714285714285,0,0,0,0,0,0,0,0,0.2,0.6
+2004-03-20,Middlesbrough,Birmingham,5,3,H,28,34,,29,35,-6,0.32142857142857145,28,42,,30,30,0,0.39285714285714285,0,0,0,0,0,0,0,0,0.4,0.6
+2004-03-20,Newcastle,Charlton,3,1,H,28,42,,38,29,9,0.35714285714285715,28,43,,39,34,5,0.42857142857142855,0,0,0,0,0,0,0,0,0.4,0.4
+2004-03-21,Portsmouth,Southampton,1,0,H,28,24,,29,44,-15,0.21428571428571427,28,36,,29,27,2,0.32142857142857145,0,0,0,0,0,0,0,0,0.0,0.2
+2004-03-22,Leeds,Man City,2,1,H,28,22,,26,55,-29,0.17857142857142858,28,30,,40,40,0,0.25,0,0,0,0,0,0,0,0,0.2,0.4
+2004-03-27,Birmingham,Leeds,4,1,H,29,42,,33,35,-2,0.3793103448275862,29,25,,28,56,-28,0.20689655172413793,0,0,0,0,0,0,0,0,0.4,0.4
+2004-03-27,Blackburn,Portsmouth,1,2,A,29,31,,41,46,-5,0.27586206896551724,29,27,,30,44,-14,0.2413793103448276,0,0,0,0,0,0,0,0,0.2,0.2
+2004-03-27,Charlton,Aston Villa,1,2,A,29,43,,40,37,3,0.41379310344827586,29,40,,36,34,2,0.3793103448275862,0,0,0,0,0,0,0,0,0.4,0.4
+2004-03-27,Chelsea,Wolves,5,2,H,29,64,,52,22,30,0.6896551724137931,29,24,,24,57,-33,0.1724137931034483,1,0,0,0,0,0,0,0,0.8,0.2
+2004-03-27,Everton,Middlesbrough,1,1,D,29,33,,35,40,-5,0.27586206896551724,29,37,,34,38,-4,0.3448275862068966,0,0,0,0,0,0,0,0,0.4,0.4
+2004-03-27,Man City,Fulham,0,0,D,29,30,,41,42,-1,0.2413793103448276,29,39,,42,40,2,0.3793103448275862,0,0,0,0,0,0,0,0,0.4,0.2
+2004-03-27,Southampton,Tottenham,1,0,H,29,36,,29,28,1,0.3103448275862069,29,37,,40,46,-6,0.3793103448275862,0,0,0,0,0,0,0,0,0.2,0.4
+2004-03-28,Arsenal,Man United,1,1,D,29,73,,57,19,38,0.7586206896551724,29,61,,55,29,26,0.6551724137931034,1,1,0,0,0,0,0,0,1.0,0.2
+2004-03-28,Bolton,Newcastle,1,0,H,29,34,,33,46,-13,0.27586206896551724,29,45,,41,30,11,0.3793103448275862,0,0,1,0,0,0,0,0,0.0,0.4
+2004-03-28,Leicester,Liverpool,0,0,D,29,27,,39,52,-13,0.1724137931034483,29,45,,42,31,11,0.41379310344827586,0,0,0,0,0,0,0,0,0.2,0.6
+2004-04-03,Fulham,Birmingham,0,0,D,30,40,,42,40,2,0.36666666666666664,30,45,,37,36,1,0.4,0,0,0,0,0,0,0,0,0.2,0.6
+2004-04-03,Middlesbrough,Bolton,2,0,H,30,38,,35,39,-4,0.3333333333333333,30,37,,34,46,-12,0.3,0,0,0,0,0,0,0,0,0.4,0.2
+2004-04-03,Newcastle,Everton,4,2,H,30,45,,41,31,10,0.36666666666666664,30,34,,36,41,-5,0.26666666666666666,0,0,0,0,0,0,0,0,0.4,0.4
+2004-04-03,Tottenham,Chelsea,0,1,A,30,37,,40,47,-7,0.36666666666666664,30,67,,57,24,33,0.7,0,0,0,0,1,0,0,0,0.2,0.8
+2004-04-03,Wolves,Southampton,1,4,A,30,24,,26,62,-36,0.16666666666666666,30,39,,30,28,2,0.3333333333333333,0,0,1,0,0,0,0,0,0.2,0.4
+2004-04-04,Aston Villa,Man City,1,1,D,30,43,,38,35,3,0.4,30,31,,41,42,-1,0.23333333333333334,0,0,0,0,0,0,0,0,0.4,0.4
+2004-04-04,Liverpool,Blackburn,4,0,H,30,46,,42,31,11,0.4,30,31,,42,48,-6,0.26666666666666666,0,0,0,0,0,0,0,0,0.4,0.2
+2004-04-05,Leeds,Leicester,3,2,H,30,25,,29,60,-31,0.2,30,28,,39,52,-13,0.16666666666666666,0,0,0,0,0,0,0,0,0.2,0.2
+2004-04-09,Arsenal,Liverpool,4,2,H,30,74,,58,20,38,0.7333333333333333,31,49,,46,31,15,0.41935483870967744,0,0,0,0,0,0,0,0,0.8,0.6
+2004-04-09,Everton,Tottenham,3,1,H,31,34,,38,45,-7,0.25806451612903225,31,37,,40,48,-8,0.3548387096774194,0,0,0,0,0,0,1,0,0.4,0.2
+2004-04-10,Birmingham,Man United,1,2,A,31,46,,37,36,1,0.3870967741935484,30,62,,56,30,26,0.6333333333333333,0,0,0,0,0,0,0,0,0.4,0.2
+2004-04-10,Blackburn,Leeds,1,2,A,31,31,,42,52,-10,0.25806451612903225,31,28,,32,62,-30,0.22580645161290322,0,0,0,0,0,0,0,0,0.2,0.4
+2004-04-10,Bolton,Aston Villa,2,2,D,31,37,,34,48,-14,0.2903225806451613,31,44,,39,36,3,0.3870967741935484,0,0,0,0,0,0,0,0,0.2,0.4
+2004-04-10,Charlton,Portsmouth,1,1,D,30,43,,41,39,2,0.4,30,30,,32,45,-13,0.26666666666666666,0,0,0,0,0,0,0,0,0.4,0.4
+2004-04-10,Chelsea,Middlesbrough,0,0,D,31,70,,58,24,34,0.7096774193548387,31,41,,37,39,-2,0.3548387096774194,1,1,0,0,0,0,0,0,1.0,0.6
+2004-04-10,Leicester,Fulham,0,2,A,31,28,,41,55,-14,0.16129032258064516,31,41,,42,40,2,0.3548387096774194,0,0,0,0,0,0,0,0,0.2,0.2
+2004-04-10,Man City,Wolves,3,3,D,31,32,,42,43,-1,0.22580645161290322,31,24,,27,66,-39,0.16129032258064516,0,0,0,0,0,0,1,0,0.2,0.0
+2004-04-11,Newcastle,Arsenal,0,0,D,31,48,,45,33,12,0.3870967741935484,31,77,,62,22,40,0.7419354838709677,0,0,0,0,0,0,0,0,0.4,0.8
+2004-04-12,Aston Villa,Chelsea,3,2,H,32,45,,41,38,3,0.375,32,71,,58,24,34,0.6875,0,0,0,0,0,0,0,0,0.4,0.8
+2004-04-12,Fulham,Blackburn,3,4,A,32,44,,44,40,4,0.375,32,31,,43,54,-11,0.25,0,0,0,0,0,0,1,0,0.4,0.2
+2004-04-12,Liverpool,Charlton,0,1,A,32,49,,48,35,13,0.40625,31,44,,42,40,2,0.3870967741935484,0,0,0,0,0,0,0,0,0.6,0.2
+2004-04-12,Middlesbrough,Southampton,3,1,H,32,42,,37,39,-2,0.34375,31,42,,34,29,5,0.3548387096774194,0,0,0,0,0,0,0,0,0.4,0.6
+2004-04-12,Portsmouth,Birmingham,3,1,H,31,31,,33,46,-13,0.25806451612903225,32,46,,38,38,0,0.375,0,0,0,0,0,0,0,0,0.4,0.2
+2004-04-12,Tottenham,Man City,1,1,D,32,37,,41,51,-10,0.34375,32,33,,45,46,-1,0.21875,0,0,1,0,0,0,0,0,0.2,0.2
+2004-04-12,Wolves,Bolton,1,2,A,32,25,,30,69,-39,0.15625,32,38,,36,50,-14,0.28125,0,0,0,0,0,0,0,0,0.0,0.2
+2004-04-13,Leeds,Everton,1,1,D,32,31,,34,63,-29,0.25,32,37,,41,46,-5,0.28125,0,0,0,0,0,0,0,0,0.6,0.4
+2004-04-13,Man United,Leicester,1,0,H,31,65,,58,31,27,0.6451612903225806,32,28,,41,57,-16,0.15625,0,0,0,0,0,0,0,0,0.4,0.2
+2004-04-16,Arsenal,Leeds,5,0,H,32,78,,62,22,40,0.71875,33,32,,35,64,-29,0.24242424242424243,0,0,0,0,0,0,0,0,0.6,0.6
+2004-04-17,Blackburn,Leicester,1,0,H,33,34,,47,57,-10,0.2727272727272727,33,28,,41,58,-17,0.15151515151515152,0,0,0,0,0,0,1,0,0.4,0.0
+2004-04-17,Bolton,Tottenham,2,0,H,33,41,,38,51,-13,0.30303030303030304,33,38,,42,52,-10,0.3333333333333333,0,0,0,0,0,0,0,0,0.4,0.0
+2004-04-17,Charlton,Birmingham,1,1,D,32,47,,43,40,3,0.40625,33,46,,39,41,-2,0.36363636363636365,0,0,0,0,0,0,0,0,0.4,0.2
+2004-04-17,Chelsea,Everton,0,0,D,33,71,,60,27,33,0.6666666666666666,33,38,,42,47,-5,0.2727272727272727,0,0,0,0,0,0,0,0,0.6,0.2
+2004-04-17,Liverpool,Fulham,0,0,D,33,49,,48,36,12,0.3939393939393939,33,44,,47,44,3,0.36363636363636365,0,0,0,0,0,0,0,0,0.4,0.2
+2004-04-17,Man City,Southampton,1,3,A,33,34,,46,47,-1,0.21212121212121213,32,42,,35,32,3,0.34375,0,0,0,0,0,0,0,0,0.0,0.6
+2004-04-17,Portsmouth,Man United,1,0,H,32,34,,36,47,-11,0.28125,32,68,,59,31,28,0.65625,0,0,0,0,0,0,0,0,0.6,0.6
+2004-04-17,Wolves,Middlesbrough,2,0,H,33,25,,31,71,-40,0.15151515151515152,33,45,,40,40,0,0.36363636363636365,0,0,0,0,0,0,0,0,0.0,0.6
+2004-04-18,Aston Villa,Newcastle,0,0,D,33,48,,44,40,4,0.3939393939393939,32,49,,45,33,12,0.375,0,0,0,0,0,0,0,0,0.4,0.4
+2004-04-20,Man United,Charlton,2,0,H,33,68,,59,32,27,0.6363636363636364,33,48,,44,41,3,0.3939393939393939,0,0,0,0,0,0,0,0,0.6,0.2
+2004-04-24,Everton,Blackburn,0,1,A,34,39,,42,47,-5,0.2647058823529412,34,37,,48,57,-9,0.29411764705882354,0,0,0,0,0,0,0,0,0.2,0.4
+2004-04-24,Fulham,Charlton,2,0,H,34,45,,47,44,3,0.35294117647058826,34,48,,44,43,1,0.38235294117647056,0,0,0,0,0,0,0,0,0.2,0.2
+2004-04-24,Leicester,Man City,1,1,D,34,28,,41,59,-18,0.14705882352941177,34,34,,47,50,-3,0.20588235294117646,0,0,1,0,0,0,0,0,0.0,0.0
+2004-04-24,Man United,Liverpool,0,1,A,34,71,,61,32,29,0.6470588235294118,34,50,,48,36,12,0.38235294117647056,0,0,0,0,0,0,0,0,0.6,0.2
+2004-04-24,Middlesbrough,Aston Villa,1,2,A,34,45,,40,42,-2,0.35294117647058826,34,49,,44,40,4,0.38235294117647056,0,0,0,0,0,0,0,0,0.4,0.4
+2004-04-24,Southampton,Bolton,1,2,A,33,45,,38,33,5,0.36363636363636365,34,44,,40,51,-11,0.3235294117647059,0,0,0,0,0,0,0,0,0.6,0.6
+2004-04-25,Birmingham,Wolves,2,2,D,34,47,,40,42,-2,0.35294117647058826,34,28,,33,71,-38,0.17647058823529413,0,0,0,0,0,0,0,0,0.2,0.2
+2004-04-25,Leeds,Portsmouth,1,2,A,34,32,,35,69,-34,0.23529411764705882,33,37,,37,47,-10,0.30303030303030304,0,0,0,0,0,0,0,0,0.4,0.8
+2004-04-25,Newcastle,Chelsea,2,1,H,33,50,,45,33,12,0.36363636363636365,34,72,,60,27,33,0.6470588235294118,0,0,0,0,0,0,0,0,0.4,0.4
+2004-04-25,Tottenham,Arsenal,2,2,D,34,38,,42,54,-12,0.3235294117647059,33,81,,67,22,45,0.7272727272727273,0,0,0,0,0,0,0,0,0.0,0.6
+2004-05-01,Arsenal,Birmingham,0,0,D,34,82,,69,24,45,0.7058823529411765,35,48,,42,44,-2,0.34285714285714286,0,0,0,0,0,0,0,0,0.4,0.0
+2004-05-01,Blackburn,Man United,1,0,H,35,40,,49,57,-8,0.3142857142857143,35,71,,61,33,28,0.6285714285714286,1,0,0,0,0,0,0,0,0.6,0.6
+2004-05-01,Charlton,Leicester,2,2,D,35,48,,44,45,-1,0.37142857142857144,35,29,,42,60,-18,0.14285714285714285,0,0,0,0,0,0,0,0,0.2,0.0
+2004-05-01,Chelsea,Southampton,4,0,H,35,72,,61,29,32,0.6285714285714286,34,45,,39,35,4,0.35294117647058826,0,0,0,0,0,0,0,0,0.2,0.6
+2004-05-01,Man City,Newcastle,1,0,H,35,35,,48,51,-3,0.2,34,53,,47,34,13,0.38235294117647056,0,0,0,0,0,0,0,0,0.0,0.4
+2004-05-01,Portsmouth,Fulham,1,1,D,34,40,,39,48,-9,0.3235294117647059,35,48,,49,44,5,0.37142857142857144,1,0,0,0,0,0,0,0,0.8,0.4
+2004-05-01,Wolves,Everton,2,1,H,35,29,,35,73,-38,0.17142857142857143,35,39,,42,48,-6,0.2571428571428571,0,0,0,0,0,0,0,0,0.2,0.2
+2004-05-02,Aston Villa,Tottenham,1,0,H,35,52,,46,41,5,0.4,35,39,,44,56,-12,0.3142857142857143,0,0,0,0,0,0,0,0,0.4,0.0
+2004-05-02,Bolton,Leeds,4,1,H,35,47,,42,52,-10,0.34285714285714286,35,32,,36,71,-35,0.22857142857142856,1,0,0,0,0,0,0,0,0.6,0.4
+2004-05-02,Liverpool,Middlesbrough,2,0,H,35,53,,49,36,13,0.4,35,45,,41,44,-3,0.34285714285714286,0,0,0,0,0,0,0,0,0.4,0.4
+2004-05-04,Portsmouth,Arsenal,1,1,D,35,41,,40,49,-9,0.3142857142857143,35,83,,69,24,45,0.6857142857142857,0,0,0,0,0,0,0,0,0.6,0.4
+2004-05-08,Birmingham,Liverpool,0,3,A,36,49,,42,44,-2,0.3333333333333333,36,56,,51,36,15,0.4166666666666667,0,0,0,0,0,0,0,0,0.0,0.4
+2004-05-08,Everton,Bolton,1,2,A,36,39,,43,50,-7,0.25,36,50,,46,53,-7,0.3611111111111111,0,0,0,0,1,0,0,0,0.2,0.8
+2004-05-08,Leeds,Charlton,3,3,D,36,32,,37,75,-38,0.2222222222222222,36,49,,46,47,-1,0.3611111111111111,0,0,1,0,0,0,0,0,0.2,0.2
+2004-05-08,Leicester,Portsmouth,3,1,H,36,30,,44,62,-18,0.1388888888888889,36,42,,41,50,-9,0.3055555555555556,0,0,0,0,0,0,0,0,0.0,0.6
+2004-05-08,Man United,Chelsea,1,1,D,36,71,,61,34,27,0.6111111111111112,36,75,,65,29,36,0.6388888888888888,0,0,0,0,0,0,0,0,0.4,0.2
+2004-05-08,Middlesbrough,Man City,2,1,H,36,45,,41,46,-5,0.3333333333333333,36,38,,49,51,-2,0.2222222222222222,0,0,1,0,0,0,0,0,0.2,0.2
+2004-05-08,Southampton,Aston Villa,1,1,D,35,45,,39,39,0,0.34285714285714286,36,55,,47,41,6,0.4166666666666667,0,0,0,0,0,0,0,0,0.4,0.6
+2004-05-08,Tottenham,Blackburn,1,0,H,36,39,,44,57,-13,0.3055555555555556,36,43,,50,57,-7,0.3333333333333333,0,0,0,0,1,0,0,0,0.0,0.8
+2004-05-09,Fulham,Arsenal,0,1,A,36,49,,50,45,5,0.3611111111111111,36,84,,70,25,45,0.6666666666666666,0,0,0,0,0,0,0,0,0.4,0.2
+2004-05-09,Newcastle,Wolves,1,1,D,35,53,,47,35,12,0.37142857142857144,36,32,,37,74,-37,0.19444444444444445,0,0,0,0,0,0,0,0,0.4,0.4
+2004-05-12,Southampton,Newcastle,3,3,D,36,46,,40,40,0,0.3333333333333333,36,54,,48,36,12,0.3611111111111111,0,0,0,0,0,0,0,0,0.2,0.2
+2004-05-15,Arsenal,Leicester,2,1,H,37,87,,71,25,46,0.6756756756756757,37,33,,47,63,-16,0.16216216216216217,0,0,0,0,0,0,0,0,0.4,0.2
+2004-05-15,Aston Villa,Man United,0,2,A,37,56,,48,42,6,0.40540540540540543,37,72,,62,35,27,0.5945945945945946,0,0,0,0,0,0,0,0,0.6,0.2
+2004-05-15,Blackburn,Birmingham,1,1,D,37,43,,50,58,-8,0.32432432432432434,37,49,,42,47,-5,0.32432432432432434,0,0,0,0,0,0,0,0,0.8,0.0
+2004-05-15,Bolton,Fulham,0,2,A,37,53,,48,54,-6,0.3783783783783784,37,49,,50,46,4,0.35135135135135137,1,1,0,0,0,0,0,0,1.0,0.2
+2004-05-15,Charlton,Southampton,2,1,H,37,50,,49,50,-1,0.35135135135135137,37,47,,43,43,0,0.32432432432432434,0,0,0,0,0,0,0,0,0.0,0.2
+2004-05-15,Chelsea,Leeds,1,0,H,37,76,,66,30,36,0.6216216216216216,37,33,,40,78,-38,0.21621621621621623,0,0,0,0,0,0,0,0,0.2,0.0
+2004-05-15,Liverpool,Newcastle,1,1,D,37,59,,54,36,18,0.43243243243243246,37,55,,51,39,12,0.35135135135135137,1,0,0,0,0,0,0,0,0.6,0.2
+2004-05-15,Man City,Everton,5,1,H,37,38,,50,53,-3,0.21621621621621623,37,39,,44,52,-8,0.24324324324324326,0,0,0,0,0,0,1,0,0.2,0.0
+2004-05-15,Portsmouth,Middlesbrough,5,1,H,37,42,,42,53,-11,0.2972972972972973,37,48,,43,47,-4,0.35135135135135137,0,0,0,0,0,0,0,0,0.4,0.4
+2004-05-15,Wolves,Tottenham,0,2,A,37,33,,38,75,-37,0.1891891891891892,37,42,,45,57,-12,0.32432432432432434,0,0,0,0,0,0,0,0,0.4,0.2
