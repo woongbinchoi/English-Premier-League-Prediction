@@ -1,4 +1,4 @@
-Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,HT_match_played,HT_current_standing,HT_past_standing,HT_goal_for,HT_goal_against,HT_goal_differnece,HT_win_rate_season,AT_match_played,AT_current_standing,AT_past_standing,AT_goal_for,AT_goal_against,AT_goal_differnece,AT_win_rate_season,HT_3_win_streak,HT_5_win_streak,HT_3_lose_Streak,HT_5_lose_Streak,AT_3_win_streak,AT_5_win_streak,AT_3_lose_Streak,AT_5_lose_Streak,HT_5_win_rate,AT_5_win_rate
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,HT_match_played,HT_current_standing,HT_past_standing,HT_goal_for,HT_goal_against,HT_goal_diff,HT_win_rate_season,AT_match_played,AT_current_standing,AT_past_standing,AT_goal_for,AT_goal_against,AT_goal_diff,AT_win_rate_season,HT_3_win_streak,HT_5_win_streak,HT_3_lose_Streak,HT_5_lose_Streak,AT_3_win_streak,AT_5_win_streak,AT_3_lose_Streak,AT_5_lose_Streak,HT_5_win_rate,AT_5_win_rate
 2007-08-11,Aston Villa,Liverpool,1,2,A,75,81,0,0,50.0,0,0,0,,0,0,50.0,0,0,0,,0,0,0,0,0,0,0,0,,
 2007-08-11,Bolton,Newcastle,1,3,A,75,77,0,0,56.0,0,0,0,,0,0,56.0,0,0,0,,0,0,0,0,0,0,0,0,,
 2007-08-11,Derby,Portsmouth,2,2,D,69,76,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,

@@ -43,9 +43,10 @@ def cleanAll(fromFolder, toFolder, columns):
         print("Cleaning ", frompath, "...")
         clean(frompath, topath, columns)
 
+# FOR NOW, I only collect data from 2007
 def combineAllMatches(cleanedFolderPath, finalPath):
     dfList = []
-    for year in range(1993, 2019):
+    for year in range(2007, 2019):
         file = '%s-%s.csv' % (year, year + 1)
         path = ntpath.join(cleanedFolderPath, file)
         df = pd.read_csv(path)
@@ -104,11 +105,17 @@ def getMatchResultsAgainst(filePath):
     df['AT_win_rate_against'] = pd.Series(matchDetail['AT_win_rate_against'], index=df.index)
     df.to_csv(filePath, index=False)
 
+def removeGoalScores(finalPath):
+    df = pd.read_csv(finalPath)
+    df = df.drop(columns=['FTHG','FTAG'])
+    df.to_csv(finalPath, index=False)
+
 if __name__ == "__main__":
     RAW_DATA_FILE_PATH = 'data/raw'
     CLEANED_DATA_FILE_PATH = 'data/cleaned'
     OVA_FILE_PATH = 'data/OVAs'
     FINAL_PATH = 'data'
+    FINAL_FILE = ntpath.join(FINAL_PATH, 'final.csv')
 
 
     # 1. From raw data, remove all data but these columns below.
@@ -128,6 +135,10 @@ if __name__ == "__main__":
     # Produces: new csv file under FINAL_PATH as 'final.csv'
     combineAllMatches(CLEANED_DATA_FILE_PATH, FINAL_PATH)
 
-    # 4. From 4, get all head-to-head results (match results against the other team over time)
+    # 5. From 4, get all head-to-head results (match results against the other team over time)
     # Produces: editted final.csv file under FINAL_PATH
-    getMatchResultsAgainst(ntpath.join(FINAL_PATH, 'final.csv'))
+    getMatchResultsAgainst(FINAL_FILE)
+
+    # 5. From 6, remove goal score, which we don't need for prediction
+    # Produces: editted final.csv file under FINAL_PATH
+    removeGoalScores(FINAL_FILE)

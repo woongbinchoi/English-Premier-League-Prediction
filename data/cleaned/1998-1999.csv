@@ -1,4 +1,4 @@
-Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HT_match_played,HT_current_standing,HT_past_standing,HT_goal_for,HT_goal_against,HT_goal_differnece,HT_win_rate_season,AT_match_played,AT_current_standing,AT_past_standing,AT_goal_for,AT_goal_against,AT_goal_differnece,AT_win_rate_season,HT_3_win_streak,HT_5_win_streak,HT_3_lose_Streak,HT_5_lose_Streak,AT_3_win_streak,AT_5_win_streak,AT_3_lose_Streak,AT_5_lose_Streak,HT_5_win_rate,AT_5_win_rate
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HT_match_played,HT_current_standing,HT_past_standing,HT_goal_for,HT_goal_against,HT_goal_diff,HT_win_rate_season,AT_match_played,AT_current_standing,AT_past_standing,AT_goal_for,AT_goal_against,AT_goal_diff,AT_win_rate_season,HT_3_win_streak,HT_5_win_streak,HT_3_lose_Streak,HT_5_lose_Streak,AT_3_win_streak,AT_5_win_streak,AT_3_lose_Streak,AT_5_lose_Streak,HT_5_win_rate,AT_5_win_rate
 1998-08-15,Blackburn,Derby,0,0,D,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,
 1998-08-15,Coventry,Chelsea,2,1,H,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,
 1998-08-15,Everton,Aston Villa,0,0,D,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,

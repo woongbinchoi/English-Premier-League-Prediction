@@ -1,4 +1,4 @@
-Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,HT_match_played,HT_current_standing,HT_past_standing,HT_goal_for,HT_goal_against,HT_goal_differnece,HT_win_rate_season,AT_match_played,AT_current_standing,AT_past_standing,AT_goal_for,AT_goal_against,AT_goal_differnece,AT_win_rate_season,HT_3_win_streak,HT_5_win_streak,HT_3_lose_Streak,HT_5_lose_Streak,AT_3_win_streak,AT_5_win_streak,AT_3_lose_Streak,AT_5_lose_Streak,HT_5_win_rate,AT_5_win_rate
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,HT_match_played,HT_current_standing,HT_past_standing,HT_goal_for,HT_goal_against,HT_goal_diff,HT_win_rate_season,AT_match_played,AT_current_standing,AT_past_standing,AT_goal_for,AT_goal_against,AT_goal_diff,AT_win_rate_season,HT_3_win_streak,HT_5_win_streak,HT_3_lose_Streak,HT_5_lose_Streak,AT_3_win_streak,AT_5_win_streak,AT_3_lose_Streak,AT_5_lose_Streak,HT_5_win_rate,AT_5_win_rate
 2017-08-11,Arsenal,Leicester,4,3,H,82,78,0,0,75.0,0,0,0,,0,0,75.0,0,0,0,,0,0,0,0,0,0,0,0,,
 2017-08-12,Brighton,Man City,0,2,A,75,84,0,0,,0,0,0,,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,
 2017-08-12,Chelsea,Burnley,2,3,A,83,77,0,0,93.0,0,0,0,,0,0,93.0,0,0,0,,0,0,0,0,0,0,0,0,,

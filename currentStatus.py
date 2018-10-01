@@ -35,14 +35,14 @@ def addCurrentDetails(cleanedPath):
 		'HT_past_standing',
 		'HT_goal_for',
 		'HT_goal_against',
-		'HT_goal_differnece',
+		'HT_goal_diff',
 		'HT_win_rate_season',
 		'AT_match_played',
 		'AT_current_standing',
 		'AT_past_standing',
 		'AT_goal_for',
 		'AT_goal_against',
-		'AT_goal_differnece',
+		'AT_goal_diff',
 		'AT_win_rate_season',
 		'HT_last_5',
 		'HT_last_4',
@@ -103,13 +103,13 @@ def addCurrentDetails(cleanedPath):
 		matchDetail['HT_past_standing'].append(TD_HT['past_standing'])
 		matchDetail['HT_goal_for'].append(TD_HT['goal_for'])
 		matchDetail['HT_goal_against'].append(TD_HT['goal_against'])
-		matchDetail['HT_goal_differnece'].append(TD_HT['goal_difference'])
+		matchDetail['HT_goal_diff'].append(TD_HT['goal_difference'])
 		matchDetail['AT_match_played'].append(TD_AT['match_played'])
 		matchDetail['AT_current_standing'].append(TD_AT['current_standing'])
 		matchDetail['AT_past_standing'].append(TD_AT['past_standing'])
 		matchDetail['AT_goal_for'].append(TD_AT['goal_for'])
 		matchDetail['AT_goal_against'].append(TD_AT['goal_against'])
-		matchDetail['AT_goal_differnece'].append(TD_AT['goal_difference'])
+		matchDetail['AT_goal_diff'].append(TD_AT['goal_difference'])
 		matchDetail['HT_win_rate_season'].append(TD_HT['win'] / TD_HT['match_played'] if TD_HT['match_played'] > 0 else np.nan)
 		matchDetail['AT_win_rate_season'].append(TD_AT['win'] / TD_AT['match_played'] if TD_AT['match_played'] > 0 else np.nan)
 
