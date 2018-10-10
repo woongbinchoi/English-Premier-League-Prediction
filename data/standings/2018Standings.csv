@@ -1,0 +1,21 @@
+Team,Points,Goal_Diff,Win_Rate
+Chelsea,20,13,0.75
+Man City,20,18,0.75
+Liverpool,20,12,0.75
+Tottenham,18,8,0.75
+Arsenal,18,9,0.75
+Bournemouth,16,4,0.625
+Wolves,15,3,0.5
+Man United,13,-1,0.5
+Watford,13,-1,0.5
+Leicester,12,2,0.5
+Everton,12,1,0.375
+Brighton,8,-4,0.25
+Burnley,8,-2,0.25
+Crystal Palace,7,-4,0.25
+West Ham,7,-5,0.25
+Fulham,5,-12,0.125
+Southampton,5,-8,0.125
+Huddersfield,3,-13,0.0
+Cardiff,2,-13,0.0
+Newcastle,2,-7,0.0

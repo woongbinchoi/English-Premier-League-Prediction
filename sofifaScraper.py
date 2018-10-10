@@ -116,6 +116,7 @@ def mergeOVAToCleaned(ovaPath, cleanedPath):
 
 	cleaneddf['HomeOVA'] = pd.Series(HomeOVAs, index=cleaneddf.index)
 	cleaneddf['AwayOVA'] = pd.Series(AwayOVAs, index=cleaneddf.index)
+	cleaneddf['OVA_diff'] = cleaneddf['HomeOVA'] - cleaneddf['AwayOVA']
 	cleaneddf.to_csv(cleanedPath, index=False)
 
 def scrapeTeamOVAAll(path):

@@ -6,6 +6,13 @@ import numpy as np
 from sofifaScraper import mergeOVAToCleanedAll
 from currentStatus import addCurrentDetailsAll
 
+#Constants
+RAW_DATA_FILE_PATH = 'data/raw'
+CLEANED_DATA_FILE_PATH = 'data/cleaned'
+OVA_FILE_PATH = 'data/OVAs'
+FINAL_PATH = 'data'
+FINAL_FILE = ntpath.join(FINAL_PATH, 'final.csv')
+
 
 # clean the original raw data by storing only the columns that we need, and removing the rest.
 def clean(fromPath, toPath, columns):
@@ -43,19 +50,23 @@ def cleanAll(fromFolder, toFolder, columns):
         print("Cleaning ", frompath, "...")
         clean(frompath, topath, columns)
 
-# FOR NOW, I only collect data from 2007
-def combineAllMatches(cleanedFolderPath, finalPath):
+# FOR NOW, I only collect data from 2006
+def combineMatches(cleanedFolderPath, finalPath, startYear, endYear, makeFile=True):
+    print("Combining matches from {} to {}...".format(startYear, endYear))
     dfList = []
-    for year in range(2007, 2019):
+    for year in range(startYear, endYear):
         file = '%s-%s.csv' % (year, year + 1)
         path = ntpath.join(cleanedFolderPath, file)
         df = pd.read_csv(path)
         # df.set_index('MatchID', inplace=True)
         dfList.append(df)
     df = pd.concat(dfList, ignore_index=True, sort=False)
-    df.to_csv(ntpath.join(finalPath, 'final.csv'), index=False)
+    if makeFile:
+        df.to_csv(ntpath.join(finalPath, 'final.csv'), index=False)
+    return df
 
 def getMatchResultsAgainst(filePath):
+    print("Getting head-to-head results...")
     teamDetail, matchDetail = {}, {}
     matchDetailColumns = [
         'HT_win_rate_against',
@@ -65,7 +76,7 @@ def getMatchResultsAgainst(filePath):
     for item in matchDetailColumns:
         matchDetail[item] = []
 
-    df = pd.read_csv(filePath)
+    df = combineMatches(CLEANED_DATA_FILE_PATH, FINAL_PATH, 1993, 2019, makeFile=False)
     for index, row in df.iterrows():
         HT = row['HomeTeam']
         AT = row['AwayTeam']
@@ -101,23 +112,19 @@ def getMatchResultsAgainst(filePath):
         elif gameResult == 'A':
             TD_AT_HT['win'] += 1
 
-    df['HT_win_rate_against'] = pd.Series(matchDetail['HT_win_rate_against'], index=df.index)
-    df['AT_win_rate_against'] = pd.Series(matchDetail['AT_win_rate_against'], index=df.index)
-    df.to_csv(filePath, index=False)
+    filedf = pd.read_csv(filePath)
+    row_count = filedf.shape[0]
+    filedf['HT_win_rate_against'] = pd.Series(matchDetail['HT_win_rate_against'][-row_count:], index=filedf.index)
+    filedf['AT_win_rate_against'] = pd.Series(matchDetail['AT_win_rate_against'][-row_count:], index=filedf.index)
+    filedf.to_csv(filePath, index=False)
 
 def removeGoalScores(finalPath):
+    print("Removing Goal Scores...")
     df = pd.read_csv(finalPath)
     df = df.drop(columns=['FTHG','FTAG'])
     df.to_csv(finalPath, index=False)
 
 if __name__ == "__main__":
-    RAW_DATA_FILE_PATH = 'data/raw'
-    CLEANED_DATA_FILE_PATH = 'data/cleaned'
-    OVA_FILE_PATH = 'data/OVAs'
-    FINAL_PATH = 'data'
-    FINAL_FILE = ntpath.join(FINAL_PATH, 'final.csv')
-
-
     # 1. From raw data, remove all data but these columns below.
     # Produces: cleaned data csv located in CLEANED_DATA_FILE_PATH
     columns = ['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR']
@@ -131,9 +138,9 @@ if __name__ == "__main__":
     # Produces: cleaned csv modified, located in CLEANED_DATA_FILE_PATH. Now all cleaned csv from 1993-2019 have additinoal columns
     addCurrentDetailsAll(CLEANED_DATA_FILE_PATH)
 
-    # 4. From 3, merge all csv files from 1993 to 2018 together
+    # 4. From 3, merge all csv files from startYear to endYear together
     # Produces: new csv file under FINAL_PATH as 'final.csv'
-    combineAllMatches(CLEANED_DATA_FILE_PATH, FINAL_PATH)
+    combineMatches(CLEANED_DATA_FILE_PATH, FINAL_PATH, 2006, 2019)
 
     # 5. From 4, get all head-to-head results (match results against the other team over time)
     # Produces: editted final.csv file under FINAL_PATH
