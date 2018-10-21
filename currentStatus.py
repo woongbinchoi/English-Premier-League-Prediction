@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import ntpath
-import rankings
 
 # Helpers
 # Identify Win/Loss Streaks if any.

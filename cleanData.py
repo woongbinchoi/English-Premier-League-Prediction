@@ -3,15 +3,6 @@ from datetime import datetime as dt
 import os
 import pandas as pd
 import numpy as np
-from sofifaScraper import mergeOVAToCleanedAll
-from currentStatus import addCurrentDetailsAll
-
-#Constants
-RAW_DATA_FILE_PATH = 'data/raw'
-CLEANED_DATA_FILE_PATH = 'data/cleaned'
-OVA_FILE_PATH = 'data/OVAs'
-FINAL_PATH = 'data'
-FINAL_FILE = ntpath.join(FINAL_PATH, 'final.csv')
 
 
 # clean the original raw data by storing only the columns that we need, and removing the rest.
@@ -42,6 +33,7 @@ def clean(fromPath, toPath, columns):
         os.makedirs(head)
     df.to_csv(toPath, index=False)
 
+
 def cleanAll(fromFolder, toFolder, columns):
     for year in range(1993, 2019):
         csvFile = '%s-%s.csv' % (year, year + 1)
@@ -49,6 +41,7 @@ def cleanAll(fromFolder, toFolder, columns):
         topath = ntpath.join(toFolder, csvFile)
         print("Cleaning ", frompath, "...")
         clean(frompath, topath, columns)
+
 
 # FOR NOW, I only collect data from 2006
 def combineMatches(cleanedFolderPath, finalPath, startYear, endYear, makeFile=True):
@@ -65,7 +58,8 @@ def combineMatches(cleanedFolderPath, finalPath, startYear, endYear, makeFile=Tr
         df.to_csv(ntpath.join(finalPath, 'final.csv'), index=False)
     return df
 
-def getMatchResultsAgainst(filePath):
+
+def getMatchResultsAgainst(filePath, cleanedFolderPath, finalPath):
     print("Getting head-to-head results...")
     teamDetail, matchDetail = {}, {}
     matchDetailColumns = [
@@ -76,7 +70,7 @@ def getMatchResultsAgainst(filePath):
     for item in matchDetailColumns:
         matchDetail[item] = []
 
-    df = combineMatches(CLEANED_DATA_FILE_PATH, FINAL_PATH, 1993, 2019, makeFile=False)
+    df = combineMatches(cleanedFolderPath, finalPath, 1993, 2019, makeFile=False)
     for index, row in df.iterrows():
         HT = row['HomeTeam']
         AT = row['AwayTeam']
@@ -118,34 +112,10 @@ def getMatchResultsAgainst(filePath):
     filedf['AT_win_rate_against'] = pd.Series(matchDetail['AT_win_rate_against'][-row_count:], index=filedf.index)
     filedf.to_csv(filePath, index=False)
 
+
 def removeGoalScores(finalPath):
     print("Removing Goal Scores...")
     df = pd.read_csv(finalPath)
     df = df.drop(columns=['FTHG','FTAG'])
     df.to_csv(finalPath, index=False)
 
-if __name__ == "__main__":
-    # 1. From raw data, remove all data but these columns below.
-    # Produces: cleaned data csv located in CLEANED_DATA_FILE_PATH
-    columns = ['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR']
-    cleanAll(RAW_DATA_FILE_PATH, CLEANED_DATA_FILE_PATH, columns)
-
-    # 2. From 1, add Overall Rating columns
-    # Produces: cleaned csv modified, located in CLEANED_DATA_FILE_PATH. Now all cleaned csv from 2006-2019 have OVA column. 
-    mergeOVAToCleanedAll(OVA_FILE_PATH, CLEANED_DATA_FILE_PATH)
-
-    # 3. From 2, add current status columns (current point, current goal for,against,difference, match played, losing/winning streaks, last 5 games)
-    # Produces: cleaned csv modified, located in CLEANED_DATA_FILE_PATH. Now all cleaned csv from 1993-2019 have additinoal columns
-    addCurrentDetailsAll(CLEANED_DATA_FILE_PATH)
-
-    # 4. From 3, merge all csv files from startYear to endYear together
-    # Produces: new csv file under FINAL_PATH as 'final.csv'
-    combineMatches(CLEANED_DATA_FILE_PATH, FINAL_PATH, 2006, 2019)
-
-    # 5. From 4, get all head-to-head results (match results against the other team over time)
-    # Produces: editted final.csv file under FINAL_PATH
-    getMatchResultsAgainst(FINAL_FILE)
-
-    # 5. From 6, remove goal score, which we don't need for prediction
-    # Produces: editted final.csv file under FINAL_PATH
-    removeGoalScores(FINAL_FILE)

@@ -1,3 +1,5 @@
+import os.path
+import json
 import pandas as pd
 from IPython import get_ipython
 ipy = get_ipython()
@@ -5,7 +7,7 @@ if ipy is not None:
     ipy.run_line_magic('matplotlib', 'inline')
 
 from sklearn.preprocessing import scale
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import KFold
 from time import time 
 from sklearn.metrics import f1_score
 
@@ -104,11 +106,14 @@ def train_predict(clf, X_train, y_train, X_test, y_test):
     print("Confidence score for test set: {}.".format(confidence))
     print()
     
+    return confidence
+    
 
-def train_predict_grid(clf, scoring, param, X_all, y_all, X_train, y_train, X_test, y_test):
+def get_grid_clf(clf, scoring, param, X_all, y_all):
     gridsearch = GridSearchCV(clf, 
                               scoring=scoring, 
-                              param_grid=param)
+                              param_grid=param, 
+                              verbose=100)
     grid_obj = gridsearch.fit(X_all,y_all)
     
     clf = grid_obj.best_estimator_
@@ -116,13 +121,14 @@ def train_predict_grid(clf, scoring, param, X_all, y_all, X_train, y_train, X_te
     print(clf)
     print(params)
     
-    train_predict(clf, X_train, y_train, X_test, y_test)
+    return clf
 
 
-def train_predict_random(clf, scoring, param, X_all, y_all, X_train, y_train, X_test, y_test):
+def get_random_clf(clf, scoring, param, X_all, y_all):
     randomsearch = RandomizedSearchCV(clf, param, 
-                                      n_iter=10, 
-                                      scoring=scoring)
+                                      n_iter=10,
+                                      scoring=scoring,
+                                      verbose=100)
     random_obj = randomsearch.fit(X_all,y_all)
     
     clf = random_obj.best_estimator_
@@ -130,60 +136,150 @@ def train_predict_random(clf, scoring, param, X_all, y_all, X_train, y_train, X_
     print(clf)
     print(params)
     
-    train_predict(clf, X_train, y_train, X_test, y_test)
+    return clf
+
+
+def process_print_result(clfs, res):
+    def average(lst):
+        return sum(lst) / len(lst)
+    
+    avg_dict = {}
+    best_clf_so_far = 0
+    best_avg_so_far = -1
+    for i in range(len(clfs)):
+        clf_name = clfs[i].__class__.__name__
+        if clf_name in avg_dict:
+            clf_name += json.dumps(clfs[i].get_params())
+        avg = average(res[i])
+        avg_dict[clf_name] = avg
+        if avg > best_avg_so_far:
+        	best_avg_so_far = avg
+        	best_clf_so_far = i
+    
+    for clf_name in sorted(avg_dict, key=avg_dict.get, reverse=True):
+        print("{}: {}".format(clf_name, avg_dict[clf_name]))
+    
+    return avg_dict, clfs[best_clf_so_far]
+
+
+
+
+def getCLF(finalFilePath, model_confidence_csv_path):
+#    First load the data from csv file
+    data = pd.read_csv(finalFilePath)
+    
+#    Drop columns that are not needed and normalized each columns
+    data = prepare_data(data)
+    
+#    Divide data into features and label
+    X_all = data.drop(columns=['FTR'])
+    y_all = data['FTR']
+
+#   List of Classifiers that we are going to run
+    classifiers = [
+                # Logistic Regressions
+                LogisticRegression(),
+                # Best param in this grid search
+                LogisticRegression(penalty='l2', solver='newton-cg', multi_class='ovr',
+                                   C=0.1, warm_start=True),
+                LogisticRegression(penalty='l2', solver='lbfgs', multi_class='multinomial',
+                                   C=0.4, warm_start=False),
+               # SVC
+                SVC(),
+                SVC(C=0.3, class_weight=None, decision_function_shape='ovo', degree=1,
+                    kernel='rbf', probability=False, shrinking=True, tol=0.0005),
+                SVC(C=0.28, class_weight=None, decision_function_shape='ovo', degree=1,
+                    kernel='rbf', probability=False, shrinking=True, tol=0.0002),
+                # XGBoost
+                xgb.XGBClassifier(),
+                xgb.XGBClassifier(learning_rate=0.01, n_estimators=1000, max_depth=2,
+                    min_child_weight=5, gamma=0, subsample=0.8, colsample_bytree=0.7,
+                    scale_pos_weight=0.8, reg_alpha=1e-5, booster='gbtree', objective='multi:softprob'),
+#                KNeighborsClassifier(),
+#                RandomForestClassifier(),
+#                GaussianNB(),
+#                DecisionTreeClassifier(),
+#                GradientBoostingClassifier(),
+#                LinearSVC(),
+#                SGDClassifier()
+            ]
     
     
-
-data = pd.read_csv('data/final.csv')
-data = prepare_data(data)
-
-X_all = data.drop(columns=['FTR'])
-y_all = data['FTR']
-
-X_train, X_test, y_train, y_test = train_test_split(X_all, y_all, test_size = 0.3)
-
-clf_A = LogisticRegression()
-clf_B = SVC(kernel='rbf')
-clf_C = xgb.XGBClassifier()
-clf_D = KNeighborsClassifier()
-clf_E = RandomForestClassifier()
-clf_F = GaussianNB()
-clf_G = DecisionTreeClassifier()
-clf_H = GradientBoostingClassifier()
-clf_I = LinearSVC()
-clf_J = SGDClassifier()
-
-clf_K = xgb.XGBClassifier()
-parameters_K = { 'learning_rate' : [0.1],
-               'n_estimators' : [40],
-               'max_depth': [3],
-               'min_child_weight': [3],
-               'gamma':[0.4],
-               'subsample' : [0.8],
-               'colsample_bytree' : [0.8],
-               'scale_pos_weight' : [1],
-               'reg_alpha':[1e-5]
-             }  
-f1_scorer_K = make_scorer(f1_score, labels=['H','D','A'], average = 'micro')
-
-clf_L = LogisticRegression()
-C_distr = expon(scale=2)
-parameters_L = {'C': C_distr, 'penalty': ['l1', 'l2']}
-f1_scorer_L = make_scorer(f1_score, labels=['H','D','A'], average = 'micro')
-
-
-#train_predict(clf_A, X_train, y_train, X_test, y_test)
-#train_predict(clf_B, X_train, y_train, X_test, y_test)
-#train_predict(clf_C, X_train, y_train, X_test, y_test)
-#train_predict(clf_D, X_train, y_train, X_test, y_test)
-#train_predict(clf_E, X_train, y_train, X_test, y_test)
-#train_predict(clf_F, X_train, y_train, X_test, y_test)
-#train_predict(clf_G, X_train, y_train, X_test, y_test)
-#train_predict(clf_H, X_train, y_train, X_test, y_test)
-#train_predict(clf_I, X_train, y_train, X_test, y_test)
-#train_predict(clf_J, X_train, y_train, X_test, y_test)
-#train_predict_grid(clf_K, f1_scorer_K, parameters_K, X_all, y_all, X_train, y_train, X_test, y_test)
-train_predict_random(clf_L, f1_scorer_L, parameters_L, X_all, y_all, X_train, y_train, X_test, y_test)
-
-
-
+##    Example of how to grid search classifiers
+##    Logistic Regression
+#    clf_L = LogisticRegression()
+#    parameters_L = {'penalty': ['l2'], 
+#                    'solver': ['lbfgs', 'newton-cg', 'sag'], 
+#                    'multi_class': ['ovr', 'multinomial'],
+#                    'C': [x * 0.1 + 0.1 for x in range(10)],
+#                    'warm_start': [True, False],
+#                    'fit_intercept':[True, False],
+#                    'class_weight':['balanced',None]}
+#    f1_scorer_L = make_scorer(f1_score, labels=['H','D','A'], average = 'micro')
+#    clf_L = get_grid_clf(clf_L, f1_scorer_L, parameters_L, X_all, y_all)
+#    classifiers.append(clf_L)
+    
+##    SVC
+#    clf_L = SVC()
+#    parameters_L = {
+#            'C': [x * 0.01 + 0.27 for x in range(5)], 
+#            'kernel': ['linear', 'poly', 'rbf', 'sigmoid'],
+#            'degree': [x + 1 for x in range(3)],
+#            'shrinking': [True, False],
+#            'tol':[x * 0.0005 + 0.0005 for x in range(3)],
+#            'class_weight':['balanced',None],
+#            'decision_function_shape': ['ovo', 'ovr']
+#            }
+#    f1_scorer_L = make_scorer(f1_score, labels=['H','D','A'], average = 'micro')
+#    clf_L = get_grid_clf(clf_L, f1_scorer_L, parameters_L, X_all, y_all)
+#    classifiers.append(clf_L)
+    
+##    XGBoost
+#    clf_L = xgb.XGBClassifier()
+#    parameters_L = {
+#            'learning_rate': [0.01],
+#            'n_estimators':[1000],
+#            'max_depth': [2],
+#            'min_child_weight': [5],
+#            'gamma': [0],
+#            'subsample': [0.8],
+#            'colsample_bytree': [0.7],
+#            'scale_pos_weight':[0.8],
+#            'reg_alpha':[1e-5],
+#            'booster': ['gbtree'],
+#            'objective': ['multi:softprob']
+#            }
+#    f1_scorer_L = make_scorer(f1_score, labels=['H','D','A'], average = 'micro')
+#    clf_L = get_grid_clf(clf_L, f1_scorer_L, parameters_L, X_all, y_all)
+#    classifiers.append(clf_L)
+    
+#   We are going to record accuracies of each classifier prediction iteration
+    result = [[] for _ in range(len(classifiers))]
+    
+#   Using 10-fold cross validation (Dividing the data into 10 sub groups, and run 
+#   preidction with each classifiers using each sub groups as a dataset)
+    split = 10
+    kf = KFold(n_splits=split, shuffle=True)
+    for split_index, (train_index, test_index) in enumerate(kf.split(X_all)):
+        print("Processing {}/{} of KFold Cross Validation...".format(split_index + 1, split))
+        X_train, X_test = X_all.iloc[train_index], X_all.iloc[test_index]
+        y_train, y_test = y_all.iloc[train_index], y_all.iloc[test_index]
+    
+        for index, clf in enumerate(classifiers):
+            print("KFold: {}/{}. clf_index: {}/{}.".format(split_index + 1, split, index + 1, len(classifiers)))
+            result[index].append(train_predict(clf, X_train, y_train, X_test, y_test))
+    
+#   Make a dictionary of average accuracies for each classifiers
+    avg_dict, best_clf = process_print_result(classifiers, result)
+    
+#   Put the result into the csv file
+    if os.path.isfile(model_confidence_csv_path):    
+        df = pd.read_csv(model_confidence_csv_path)
+        newdf = pd.DataFrame(avg_dict, index=[df.shape[1]])
+        df = pd.concat([df, newdf], ignore_index=True, sort=False)
+    else:
+        df = pd.DataFrame(avg_dict, index=[df.shape[1]])
+    df.to_csv(model_confidence_csv_path, index=False)
+    
+#   Return the best classifier
+    return best_clf

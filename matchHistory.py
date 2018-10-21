@@ -59,3 +59,4 @@ def getAllTime():
 		print (key)
 		print (scores[key])
 	return scores
+
