@@ -3,6 +3,7 @@ from datetime import datetime as dt
 import os
 import pandas as pd
 import numpy as np
+import math
 
 
 # clean the original raw data by storing only the columns that we need, and removing the rest.
@@ -12,10 +13,17 @@ def clean(fromPath, toPath, columns):
             return None
         else:
             _, file = ntpath.split(toPath)
-            if file == '2002-2003.csv':
+            if len(date.split('-')) == 3:
+                return date
+            elif file == '2002-2003.csv':
                 return dt.strptime(date, '%d/%m/%Y').date()
             else:
                 return dt.strptime(date, '%d/%m/%y').date()
+    def convertScore(score):
+        if math.isnan(score):
+            return score
+        else:
+            return int(score)
 
     df = pd.read_csv(fromPath, error_bad_lines=False)
     df = df[columns]
@@ -24,8 +32,8 @@ def clean(fromPath, toPath, columns):
     # df['MatchID'] = pd.Series([str(x) for x in range(len(df))])
     # df.set_index('MatchID', inplace=True)
 
-    df['FTHG'] = df['FTHG'].astype(int)
-    df['FTAG'] = df['FTAG'].astype(int)
+    df['FTHG'] = df['FTHG'].apply(convertScore)
+    df['FTAG'] = df['FTAG'].apply(convertScore)
     df['Date'] = df['Date'].apply(convertDate)
     
     head, _ = ntpath.split(toPath)
@@ -43,7 +51,6 @@ def cleanAll(fromFolder, toFolder, columns):
         clean(frompath, topath, columns)
 
 
-# FOR NOW, I only collect data from 2006
 def combineMatches(cleanedFolderPath, finalPath, startYear, endYear, makeFile=True):
     print("Combining matches from {} to {}...".format(startYear, endYear))
     dfList = []
@@ -118,4 +125,5 @@ def removeGoalScores(finalPath):
     df = pd.read_csv(finalPath)
     df = df.drop(columns=['FTHG','FTAG'])
     df.to_csv(finalPath, index=False)
+
 

@@ -164,11 +164,14 @@ def addCurrentDetails(cleanedPath):
             TD_AT['win'] += 1
             TD_HT['last_5_matches'].append('L')
             TD_AT['last_5_matches'].append('W')
-        else: 
+        elif gameResult == 'D': 
             TD_HT['current_standing'] += 1
             TD_AT['current_standing'] += 1
             TD_HT['last_5_matches'].append('D')
             TD_AT['last_5_matches'].append('D')
+        elif gameResult == 'X':
+            TD_HT['last_5_matches'].append('X')
+            TD_AT['last_5_matches'].append('X')
 
 
     # df.set_index('MatchID', inplace=True)

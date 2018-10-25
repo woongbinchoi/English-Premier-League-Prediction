@@ -10,6 +10,7 @@ from sklearn.preprocessing import scale
 from sklearn.model_selection import KFold
 from time import time 
 from sklearn.metrics import f1_score
+from sklearn.externals import joblib
 
 import xgboost as xgb
 from sklearn.linear_model import LogisticRegression
@@ -30,15 +31,18 @@ from sklearn.metrics import make_scorer
 from sklearn.model_selection import RandomizedSearchCV
 from scipy.stats import expon
 
-def prepare_data(data):
+def prepare_data(data, drop_na=True):
     ''' Drops unnecessary columns, Fill or Drop rows containing N/A, and pre-processes the columns.'''
     data = data.drop(columns=['Date', 'HomeTeam', 'AwayTeam'])
     data = data.drop(columns=['HT_goal_for', 'AT_goal_for', 'HT_goal_against', 'AT_goal_against'])
     #data = data.drop(columns=['HT_3_win_streak', 'HT_5_win_streak', 'HT_3_lose_Streak', 'HT_5_lose_Streak', 
     #                          'AT_3_win_streak', 'AT_5_win_streak', 'AT_3_lose_Streak', 'AT_5_lose_Streak'])
     
-    #data.fillna(value=-99999, inplace=True)
-    data = data.dropna()
+    if drop_na:
+        data = data.dropna()
+    else:
+        data.fillna(value=-99999, inplace=True)
+    
     
     # Columns that are not normalized: (Ordinal, Categorical)
     # [FTR, HT_match_played, AT_match_played, HT_3_win_streak, HT_5_win_streak, 
@@ -59,7 +63,7 @@ def prepare_data(data):
         data[column] = scale(data[column])
     
     return data
-    
+
 
 def train_classifier(clf, X_train, y_train):
     ''' Fits a classifier to the training data. '''
@@ -164,7 +168,10 @@ def process_print_result(clfs, res):
 
 
 
-def getCLF(finalFilePath, model_confidence_csv_path):
+def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True):
+    if not recalculate:
+        return joblib.load(clf_file)
+    
 #    First load the data from csv file
     data = pd.read_csv(finalFilePath)
     
@@ -187,9 +194,9 @@ def getCLF(finalFilePath, model_confidence_csv_path):
                # SVC
                 SVC(),
                 SVC(C=0.3, class_weight=None, decision_function_shape='ovo', degree=1,
-                    kernel='rbf', probability=False, shrinking=True, tol=0.0005),
+                    kernel='rbf', probability=True, shrinking=True, tol=0.0005),
                 SVC(C=0.28, class_weight=None, decision_function_shape='ovo', degree=1,
-                    kernel='rbf', probability=False, shrinking=True, tol=0.0002),
+                    kernel='rbf', probability=True, shrinking=True, tol=0.0002),
                 # XGBoost
                 xgb.XGBClassifier(),
                 xgb.XGBClassifier(learning_rate=0.01, n_estimators=1000, max_depth=2,
@@ -281,5 +288,12 @@ def getCLF(finalFilePath, model_confidence_csv_path):
         df = pd.DataFrame(avg_dict, index=[df.shape[1]])
     df.to_csv(model_confidence_csv_path, index=False)
     
+#    Saves the classifier using joblib module
+    if recalculate:
+        joblib.dump(best_clf, clf_file)
 #   Return the best classifier
     return best_clf
+
+
+
+
