@@ -1,0 +1,463 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+1993-08-14,Arsenal,Coventry,0,3,A
+1993-08-14,Aston Villa,QPR,4,1,H
+1993-08-14,Chelsea,Blackburn,1,2,A
+1993-08-14,Liverpool,Sheffield Weds,2,0,H
+1993-08-14,Man City,Leeds,1,1,D
+1993-08-14,Newcastle,Tottenham,0,1,A
+1993-08-14,Oldham,Ipswich,0,3,A
+1993-08-14,Sheffield United,Swindon,3,1,H
+1993-08-14,Southampton,Everton,0,2,A
+1993-08-14,West Ham,Wimbledon,0,2,A
+1993-08-15,Norwich,Man United,0,2,A
+1993-08-16,Tottenham,Arsenal,0,1,A
+1993-08-17,Everton,Man City,1,0,H
+1993-08-17,Ipswich,Southampton,1,0,H
+1993-08-17,Leeds,West Ham,1,0,H
+1993-08-17,Wimbledon,Chelsea,1,1,D
+1993-08-18,Blackburn,Norwich,2,3,A
+1993-08-18,Coventry,Newcastle,2,1,H
+1993-08-18,Man United,Sheffield United,3,0,H
+1993-08-18,QPR,Liverpool,1,3,A
+1993-08-18,Sheffield Weds,Aston Villa,0,0,D
+1993-08-18,Swindon,Oldham,0,1,A
+1993-08-21,Blackburn,Oldham,1,0,H
+1993-08-21,Coventry,West Ham,1,1,D
+1993-08-21,Everton,Sheffield United,4,2,H
+1993-08-21,Ipswich,Chelsea,1,0,H
+1993-08-21,Leeds,Norwich,0,4,A
+1993-08-21,Man United,Newcastle,1,1,D
+1993-08-21,QPR,Southampton,2,1,H
+1993-08-21,Sheffield Weds,Arsenal,0,1,A
+1993-08-21,Tottenham,Man City,1,0,H
+1993-08-21,Wimbledon,Aston Villa,2,2,D
+1993-08-22,Swindon,Liverpool,0,5,A
+1993-08-23,Aston Villa,Man United,1,2,A
+1993-08-24,Arsenal,Leeds,2,1,H
+1993-08-24,Man City,Blackburn,0,2,A
+1993-08-24,Oldham,Coventry,3,3,D
+1993-08-24,Sheffield United,Wimbledon,2,1,H
+1993-08-25,Chelsea,QPR,2,0,H
+1993-08-25,Liverpool,Tottenham,1,2,A
+1993-08-25,Newcastle,Everton,1,0,H
+1993-08-25,Norwich,Ipswich,1,0,H
+1993-08-25,Southampton,Swindon,5,1,H
+1993-08-25,West Ham,Sheffield Weds,2,0,H
+1993-08-27,Man City,Coventry,1,1,D
+1993-08-28,Arsenal,Everton,2,0,H
+1993-08-28,Aston Villa,Tottenham,1,0,H
+1993-08-28,Chelsea,Sheffield Weds,1,1,D
+1993-08-28,Liverpool,Leeds,2,0,H
+1993-08-28,Norwich,Swindon,0,0,D
+1993-08-28,Oldham,Wimbledon,1,1,D
+1993-08-28,Sheffield United,Ipswich,1,1,D
+1993-08-28,Southampton,Man United,1,3,A
+1993-08-28,West Ham,QPR,0,4,A
+1993-08-29,Newcastle,Blackburn,1,1,D
+1993-08-30,Leeds,Oldham,1,0,H
+1993-08-31,Everton,Aston Villa,0,1,A
+1993-08-31,Ipswich,Newcastle,1,1,D
+1993-08-31,Wimbledon,Southampton,1,0,H
+1993-09-01,Blackburn,Arsenal,1,1,D
+1993-09-01,Coventry,Liverpool,1,0,H
+1993-09-01,Man United,West Ham,3,0,H
+1993-09-01,QPR,Sheffield United,2,1,H
+1993-09-01,Sheffield Weds,Norwich,3,3,D
+1993-09-01,Swindon,Man City,1,3,A
+1993-09-01,Tottenham,Chelsea,1,1,D
+1993-09-11,Arsenal,Ipswich,4,0,H
+1993-09-11,Aston Villa,Coventry,0,0,D
+1993-09-11,Chelsea,Man United,1,0,H
+1993-09-11,Man City,QPR,3,0,H
+1993-09-11,Norwich,Wimbledon,0,1,A
+1993-09-11,Oldham,Everton,0,1,A
+1993-09-11,Sheffield United,Tottenham,2,2,D
+1993-09-11,Southampton,Leeds,0,2,A
+1993-09-11,West Ham,Swindon,0,0,D
+1993-09-12,Liverpool,Blackburn,0,1,A
+1993-09-13,Newcastle,Sheffield Weds,4,2,H
+1993-09-18,Blackburn,West Ham,0,2,A
+1993-09-18,Coventry,Chelsea,1,1,D
+1993-09-18,Everton,Liverpool,2,0,H
+1993-09-18,Ipswich,Aston Villa,1,2,A
+1993-09-18,Leeds,Sheffield United,2,1,H
+1993-09-18,QPR,Norwich,2,2,D
+1993-09-18,Sheffield Weds,Southampton,2,0,H
+1993-09-18,Swindon,Newcastle,2,2,D
+1993-09-18,Tottenham,Oldham,5,0,H
+1993-09-19,Man United,Arsenal,1,0,H
+1993-09-20,Wimbledon,Man City,1,0,H
+1993-09-25,Arsenal,Southampton,1,0,H
+1993-09-25,Blackburn,Sheffield Weds,1,1,D
+1993-09-25,Chelsea,Liverpool,1,0,H
+1993-09-25,Coventry,Leeds,0,2,A
+1993-09-25,Everton,Norwich,1,5,A
+1993-09-25,Man United,Swindon,4,2,H
+1993-09-25,Newcastle,West Ham,2,0,H
+1993-09-25,Oldham,Aston Villa,1,1,D
+1993-09-25,Sheffield United,Man City,0,1,A
+1993-09-26,Ipswich,Tottenham,2,2,D
+1993-09-27,Wimbledon,QPR,1,1,D
+1993-10-02,Aston Villa,Newcastle,0,2,A
+1993-10-02,Leeds,Wimbledon,4,0,H
+1993-10-02,Liverpool,Arsenal,0,0,D
+1993-10-02,Norwich,Coventry,1,0,H
+1993-10-02,QPR,Ipswich,3,0,H
+1993-10-02,Sheffield Weds,Man United,2,3,A
+1993-10-02,Southampton,Sheffield United,3,3,D
+1993-10-02,Swindon,Blackburn,1,3,A
+1993-10-02,West Ham,Chelsea,1,0,H
+1993-10-03,Tottenham,Everton,3,2,H
+1993-10-04,Man City,Oldham,1,1,D
+1993-10-16,Arsenal,Man City,0,0,D
+1993-10-16,Chelsea,Norwich,1,2,A
+1993-10-16,Coventry,Southampton,1,1,D
+1993-10-16,Liverpool,Oldham,2,1,H
+1993-10-16,Man United,Tottenham,2,1,H
+1993-10-16,Newcastle,QPR,1,2,A
+1993-10-16,Sheffield Weds,Wimbledon,2,2,D
+1993-10-16,Swindon,Everton,1,1,D
+1993-10-16,West Ham,Aston Villa,0,0,D
+1993-10-17,Ipswich,Leeds,0,0,D
+1993-10-18,Blackburn,Sheffield United,0,0,D
+1993-10-23,Aston Villa,Chelsea,1,0,H
+1993-10-23,Everton,Man United,0,1,A
+1993-10-23,Leeds,Blackburn,3,3,D
+1993-10-23,Man City,Liverpool,1,1,D
+1993-10-23,Norwich,West Ham,0,0,D
+1993-10-23,Oldham,Arsenal,0,0,D
+1993-10-23,QPR,Coventry,5,1,H
+1993-10-23,Sheffield United,Sheffield Weds,1,1,D
+1993-10-23,Tottenham,Swindon,1,1,D
+1993-10-24,Southampton,Newcastle,2,1,H
+1993-10-25,Wimbledon,Ipswich,0,2,A
+1993-10-30,Arsenal,Norwich,0,0,D
+1993-10-30,Blackburn,Tottenham,1,0,H
+1993-10-30,Chelsea,Oldham,0,1,A
+1993-10-30,Ipswich,Everton,0,2,A
+1993-10-30,Liverpool,Southampton,4,2,H
+1993-10-30,Man United,QPR,2,1,H
+1993-10-30,Newcastle,Wimbledon,4,0,H
+1993-10-30,Sheffield Weds,Leeds,3,3,D
+1993-10-30,Swindon,Aston Villa,1,2,A
+1993-10-31,Coventry,Sheffield United,0,0,D
+1993-11-01,West Ham,Man City,3,1,H
+1993-11-06,Arsenal,Aston Villa,1,2,A
+1993-11-06,Coventry,Everton,2,1,H
+1993-11-06,Ipswich,Sheffield Weds,1,4,A
+1993-11-06,Leeds,Chelsea,4,1,H
+1993-11-06,Liverpool,West Ham,2,0,H
+1993-11-06,QPR,Blackburn,1,0,H
+1993-11-06,Sheffield United,Norwich,1,2,A
+1993-11-06,Southampton,Tottenham,1,0,H
+1993-11-06,Wimbledon,Swindon,3,0,H
+1993-11-07,Man City,Man United,2,3,A
+1993-11-08,Oldham,Newcastle,1,3,A
+1993-11-20,Aston Villa,Sheffield United,1,0,H
+1993-11-20,Blackburn,Southampton,2,0,H
+1993-11-20,Chelsea,Arsenal,0,2,A
+1993-11-20,Everton,QPR,0,3,A
+1993-11-20,Man United,Wimbledon,3,1,H
+1993-11-20,Norwich,Man City,1,1,D
+1993-11-20,Sheffield Weds,Coventry,0,0,D
+1993-11-20,Swindon,Ipswich,2,2,D
+1993-11-20,Tottenham,Leeds,1,1,D
+1993-11-20,West Ham,Oldham,2,0,H
+1993-11-21,Newcastle,Liverpool,3,0,H
+1993-11-22,Chelsea,Man City,0,0,D
+1993-11-23,Blackburn,Coventry,2,1,H
+1993-11-23,Everton,Leeds,1,1,D
+1993-11-24,Aston Villa,Southampton,0,2,A
+1993-11-24,Man United,Ipswich,0,0,D
+1993-11-24,Newcastle,Sheffield United,4,0,H
+1993-11-24,Sheffield Weds,Oldham,3,0,H
+1993-11-24,Swindon,QPR,1,0,H
+1993-11-24,Tottenham,Wimbledon,1,1,D
+1993-11-24,West Ham,Arsenal,0,0,D
+1993-11-27,Arsenal,Newcastle,2,1,H
+1993-11-27,Coventry,Man United,0,1,A
+1993-11-27,Ipswich,Blackburn,1,0,H
+1993-11-27,Leeds,Swindon,3,0,H
+1993-11-27,Man City,Sheffield Weds,1,3,A
+1993-11-27,Oldham,Norwich,2,1,H
+1993-11-27,QPR,Tottenham,1,1,D
+1993-11-27,Sheffield United,Chelsea,1,0,H
+1993-11-27,Wimbledon,Everton,1,1,D
+1993-11-28,Liverpool,Aston Villa,2,1,H
+1993-11-29,Southampton,West Ham,0,2,A
+1993-12-04,Coventry,Arsenal,1,0,H
+1993-12-04,Everton,Southampton,1,0,H
+1993-12-04,Ipswich,Oldham,0,0,D
+1993-12-04,Leeds,Man City,3,2,H
+1993-12-04,Man United,Norwich,2,2,D
+1993-12-04,QPR,Aston Villa,2,2,D
+1993-12-04,Sheffield Weds,Liverpool,3,1,H
+1993-12-04,Swindon,Sheffield United,0,0,D
+1993-12-04,Tottenham,Newcastle,1,2,A
+1993-12-04,Wimbledon,West Ham,1,2,A
+1993-12-05,Blackburn,Chelsea,2,0,H
+1993-12-06,Arsenal,Tottenham,1,1,D
+1993-12-07,Oldham,Swindon,2,1,H
+1993-12-07,Sheffield United,Man United,0,3,A
+1993-12-08,Aston Villa,Sheffield Weds,2,2,D
+1993-12-08,Liverpool,QPR,3,2,H
+1993-12-08,Man City,Everton,1,0,H
+1993-12-08,Southampton,Ipswich,0,1,A
+1993-12-08,West Ham,Leeds,0,1,A
+1993-12-11,Aston Villa,Wimbledon,0,1,A
+1993-12-11,Chelsea,Ipswich,1,1,D
+1993-12-11,Liverpool,Swindon,2,2,D
+1993-12-11,Man City,Tottenham,0,2,A
+1993-12-11,Newcastle,Man United,1,1,D
+1993-12-11,Oldham,Blackburn,1,2,A
+1993-12-11,Sheffield United,Everton,0,0,D
+1993-12-11,Southampton,QPR,0,1,A
+1993-12-11,West Ham,Coventry,3,2,H
+1993-12-12,Arsenal,Sheffield Weds,1,0,H
+1993-12-13,Norwich,Leeds,2,1,H
+1993-12-18,Blackburn,Man City,2,0,H
+1993-12-18,Coventry,Oldham,1,1,D
+1993-12-18,Everton,Newcastle,0,2,A
+1993-12-18,Ipswich,Norwich,2,1,H
+1993-12-18,Leeds,Arsenal,2,1,H
+1993-12-18,Sheffield Weds,West Ham,5,0,H
+1993-12-18,Swindon,Southampton,2,1,H
+1993-12-18,Tottenham,Liverpool,3,3,D
+1993-12-18,Wimbledon,Sheffield United,2,0,H
+1993-12-19,Man United,Aston Villa,3,1,H
+1993-12-22,Newcastle,Leeds,1,1,D
+1993-12-26,Man United,Blackburn,1,1,D
+1993-12-26,Sheffield United,Liverpool,0,0,D
+1993-12-26,Wimbledon,Coventry,1,2,A
+1993-12-27,Everton,Sheffield Weds,0,2,A
+1993-12-27,Ipswich,West Ham,1,1,D
+1993-12-27,QPR,Oldham,2,0,H
+1993-12-27,Southampton,Chelsea,3,1,H
+1993-12-27,Swindon,Arsenal,0,4,A
+1993-12-27,Tottenham,Norwich,1,3,A
+1993-12-28,Chelsea,Newcastle,1,0,H
+1993-12-28,Liverpool,Wimbledon,1,1,D
+1993-12-28,Man City,Southampton,1,1,D
+1993-12-28,West Ham,Tottenham,1,3,A
+1993-12-29,Arsenal,Sheffield United,3,0,H
+1993-12-29,Blackburn,Everton,2,0,H
+1993-12-29,Leeds,QPR,1,1,D
+1993-12-29,Norwich,Aston Villa,1,2,A
+1993-12-29,Oldham,Man United,2,5,A
+1993-12-29,Sheffield Weds,Swindon,3,3,D
+1994-01-01,Aston Villa,Blackburn,0,1,A
+1994-01-01,Everton,West Ham,0,1,A
+1994-01-01,Ipswich,Liverpool,1,2,A
+1994-01-01,Man United,Leeds,0,0,D
+1994-01-01,Newcastle,Man City,2,0,H
+1994-01-01,QPR,Sheffield Weds,1,2,A
+1994-01-01,Sheffield United,Oldham,2,1,H
+1994-01-01,Southampton,Norwich,0,1,A
+1994-01-01,Swindon,Chelsea,1,3,A
+1994-01-01,Tottenham,Coventry,1,2,A
+1994-01-01,Wimbledon,Arsenal,0,3,A
+1994-01-03,Arsenal,QPR,0,0,D
+1994-01-03,Chelsea,Everton,4,2,H
+1994-01-03,Coventry,Swindon,1,1,D
+1994-01-03,Sheffield Weds,Tottenham,1,0,H
+1994-01-03,West Ham,Sheffield United,0,0,D
+1994-01-04,Liverpool,Man United,3,3,D
+1994-01-04,Norwich,Newcastle,1,2,A
+1994-01-15,Aston Villa,West Ham,3,1,H
+1994-01-15,Everton,Swindon,6,2,H
+1994-01-15,Leeds,Ipswich,0,0,D
+1994-01-15,Man City,Arsenal,0,0,D
+1994-01-15,Norwich,Chelsea,1,1,D
+1994-01-15,Oldham,Liverpool,0,3,A
+1994-01-15,Sheffield United,Blackburn,1,2,A
+1994-01-15,Southampton,Coventry,1,0,H
+1994-01-15,Tottenham,Man United,0,1,A
+1994-01-15,Wimbledon,Sheffield Weds,2,1,H
+1994-01-16,QPR,Newcastle,1,2,A
+1994-01-22,Arsenal,Oldham,1,1,D
+1994-01-22,Chelsea,Aston Villa,1,1,D
+1994-01-22,Coventry,QPR,0,1,A
+1994-01-22,Ipswich,Wimbledon,0,0,D
+1994-01-22,Liverpool,Man City,2,1,H
+1994-01-22,Man United,Everton,1,0,H
+1994-01-22,Newcastle,Southampton,1,2,A
+1994-01-22,Sheffield Weds,Sheffield United,3,1,H
+1994-01-22,Swindon,Tottenham,2,1,H
+1994-01-23,Blackburn,Leeds,2,1,H
+1994-01-24,West Ham,Norwich,3,3,D
+1994-02-02,Coventry,Ipswich,1,0,H
+1994-02-05,Blackburn,Wimbledon,3,0,H
+1994-02-05,Everton,Chelsea,4,2,H
+1994-02-05,Man City,Ipswich,2,1,H
+1994-02-05,Norwich,Liverpool,2,2,D
+1994-02-05,Oldham,Southampton,2,1,H
+1994-02-05,QPR,Man United,2,3,A
+1994-02-05,Swindon,Coventry,3,1,H
+1994-02-05,Tottenham,Sheffield Weds,1,3,A
+1994-02-06,Aston Villa,Leeds,1,0,H
+1994-02-12,Aston Villa,Swindon,5,0,H
+1994-02-12,Everton,Ipswich,0,0,D
+1994-02-12,Man City,West Ham,0,0,D
+1994-02-12,Oldham,Chelsea,2,1,H
+1994-02-12,Sheffield United,Coventry,0,0,D
+1994-02-12,Tottenham,Blackburn,0,2,A
+1994-02-12,Wimbledon,Newcastle,4,2,H
+1994-02-13,Norwich,Arsenal,1,1,D
+1994-02-14,Southampton,Liverpool,4,2,H
+1994-02-19,Blackburn,Newcastle,1,0,H
+1994-02-19,Coventry,Man City,4,0,H
+1994-02-19,Everton,Arsenal,1,1,D
+1994-02-19,Leeds,Liverpool,2,0,H
+1994-02-19,Swindon,Norwich,3,3,D
+1994-02-22,Aston Villa,Man City,0,0,D
+1994-02-22,Norwich,Blackburn,2,2,D
+1994-02-23,Newcastle,Coventry,4,0,H
+1994-02-26,Arsenal,Blackburn,1,0,H
+1994-02-26,Ipswich,Sheffield United,3,2,H
+1994-02-26,Liverpool,Coventry,1,0,H
+1994-02-26,Man City,Swindon,2,1,H
+1994-02-26,Norwich,Sheffield Weds,1,1,D
+1994-02-26,Southampton,Wimbledon,1,0,H
+1994-02-26,West Ham,Man United,2,2,D
+1994-02-27,Chelsea,Tottenham,4,3,H
+1994-02-28,Oldham,Leeds,1,1,D
+1994-03-02,Tottenham,Aston Villa,1,1,D
+1994-03-05,Blackburn,Liverpool,2,0,H
+1994-03-05,Everton,Oldham,2,1,H
+1994-03-05,Ipswich,Arsenal,1,5,A
+1994-03-05,Leeds,Southampton,0,0,D
+1994-03-05,Man United,Chelsea,0,1,A
+1994-03-05,QPR,Man City,1,1,D
+1994-03-05,Sheffield Weds,Newcastle,0,1,A
+1994-03-05,Swindon,West Ham,1,1,D
+1994-03-05,Tottenham,Sheffield United,2,2,D
+1994-03-05,Wimbledon,Norwich,3,1,H
+1994-03-06,Coventry,Aston Villa,0,1,A
+1994-03-12,Aston Villa,Ipswich,0,1,A
+1994-03-12,Man City,Wimbledon,0,1,A
+1994-03-12,Newcastle,Swindon,7,1,H
+1994-03-12,Norwich,QPR,3,4,A
+1994-03-12,Southampton,Sheffield Weds,1,1,D
+1994-03-13,Liverpool,Everton,2,1,H
+1994-03-13,Sheffield United,Leeds,2,2,D
+1994-03-16,Chelsea,Wimbledon,2,0,H
+1994-03-16,Leeds,Aston Villa,2,0,H
+1994-03-16,Man United,Sheffield Weds,5,0,H
+1994-03-16,Sheffield United,QPR,1,1,D
+1994-03-19,Aston Villa,Oldham,1,2,A
+1994-03-19,Leeds,Coventry,1,0,H
+1994-03-19,Liverpool,Chelsea,2,1,H
+1994-03-19,Man City,Sheffield United,0,0,D
+1994-03-19,QPR,Wimbledon,1,0,H
+1994-03-19,Southampton,Arsenal,0,4,A
+1994-03-19,Swindon,Man United,2,2,D
+1994-03-19,Tottenham,Ipswich,1,1,D
+1994-03-19,West Ham,Newcastle,2,4,A
+1994-03-20,Sheffield Weds,Blackburn,1,2,A
+1994-03-21,Norwich,Everton,3,0,H
+1994-03-22,Arsenal,Man United,2,2,D
+1994-03-22,Newcastle,Ipswich,2,0,H
+1994-03-26,Arsenal,Liverpool,1,0,H
+1994-03-26,Blackburn,Swindon,3,1,H
+1994-03-26,Chelsea,West Ham,2,0,H
+1994-03-26,Coventry,Norwich,2,1,H
+1994-03-26,Everton,Tottenham,0,1,A
+1994-03-26,Ipswich,QPR,1,3,A
+1994-03-26,Oldham,Man City,0,0,D
+1994-03-26,Sheffield United,Southampton,0,0,D
+1994-03-27,Wimbledon,Leeds,1,0,H
+1994-03-28,Sheffield United,West Ham,3,2,H
+1994-03-29,Ipswich,Man City,2,2,D
+1994-03-29,Newcastle,Norwich,3,0,H
+1994-03-29,Wimbledon,Blackburn,4,1,H
+1994-03-30,Aston Villa,Everton,0,0,D
+1994-03-30,Man United,Liverpool,1,0,H
+1994-03-30,Sheffield Weds,Chelsea,3,1,H
+1994-03-30,Southampton,Oldham,1,3,A
+1994-04-01,Leeds,Newcastle,1,1,D
+1994-04-02,Arsenal,Swindon,1,1,D
+1994-04-02,Blackburn,Man United,2,0,H
+1994-04-02,Chelsea,Southampton,2,0,H
+1994-04-02,Coventry,Wimbledon,1,2,A
+1994-04-02,Liverpool,Sheffield United,1,2,A
+1994-04-02,Man City,Aston Villa,3,0,H
+1994-04-02,Norwich,Tottenham,1,2,A
+1994-04-02,Oldham,QPR,4,1,H
+1994-04-02,Sheffield Weds,Everton,5,1,H
+1994-04-02,West Ham,Ipswich,2,1,H
+1994-04-04,Aston Villa,Norwich,0,0,D
+1994-04-04,Everton,Blackburn,0,3,A
+1994-04-04,Ipswich,Coventry,0,2,A
+1994-04-04,Man United,Oldham,3,2,H
+1994-04-04,Newcastle,Chelsea,0,0,D
+1994-04-04,QPR,Leeds,0,4,A
+1994-04-04,Sheffield United,Arsenal,1,1,D
+1994-04-04,Southampton,Man City,0,1,A
+1994-04-04,Swindon,Sheffield Weds,0,1,A
+1994-04-04,Tottenham,West Ham,1,4,A
+1994-04-04,Wimbledon,Liverpool,1,1,D
+1994-04-09,Coventry,Tottenham,1,0,H
+1994-04-09,Liverpool,Ipswich,1,0,H
+1994-04-09,Man City,Newcastle,2,1,H
+1994-04-09,Norwich,Southampton,4,5,A
+1994-04-09,Sheffield Weds,QPR,3,1,H
+1994-04-09,West Ham,Everton,0,1,A
+1994-04-11,Blackburn,Aston Villa,1,0,H
+1994-04-13,QPR,Chelsea,1,1,D
+1994-04-16,Arsenal,Chelsea,1,0,H
+1994-04-16,Coventry,Sheffield Weds,1,1,D
+1994-04-16,Ipswich,Swindon,1,1,D
+1994-04-16,Liverpool,Newcastle,0,2,A
+1994-04-16,Man City,Norwich,1,1,D
+1994-04-16,Oldham,West Ham,1,2,A
+1994-04-16,QPR,Everton,2,1,H
+1994-04-16,Sheffield United,Aston Villa,1,2,A
+1994-04-16,Southampton,Blackburn,3,1,H
+1994-04-16,Wimbledon,Man United,1,0,H
+1994-04-17,Leeds,Tottenham,2,0,H
+1994-04-19,Arsenal,Wimbledon,1,1,D
+1994-04-23,Aston Villa,Arsenal,1,2,A
+1994-04-23,Chelsea,Leeds,1,1,D
+1994-04-23,Everton,Coventry,0,0,D
+1994-04-23,Man United,Man City,2,0,H
+1994-04-23,Newcastle,Oldham,3,2,H
+1994-04-23,Norwich,Sheffield United,0,1,A
+1994-04-23,Sheffield Weds,Ipswich,5,0,H
+1994-04-23,Swindon,Wimbledon,2,4,A
+1994-04-23,Tottenham,Southampton,3,0,H
+1994-04-23,West Ham,Liverpool,1,2,A
+1994-04-24,Blackburn,QPR,1,1,D
+1994-04-26,Wimbledon,Oldham,3,0,H
+1994-04-27,Chelsea,Swindon,2,0,H
+1994-04-27,Leeds,Man United,0,2,A
+1994-04-27,Newcastle,Aston Villa,5,1,H
+1994-04-27,QPR,Arsenal,1,1,D
+1994-04-27,West Ham,Blackburn,1,2,A
+1994-04-30,Arsenal,West Ham,0,2,A
+1994-04-30,Leeds,Everton,3,0,H
+1994-04-30,Liverpool,Norwich,0,1,A
+1994-04-30,Man City,Chelsea,2,2,D
+1994-04-30,Oldham,Sheffield Weds,0,0,D
+1994-04-30,QPR,Swindon,1,3,A
+1994-04-30,Sheffield United,Newcastle,2,0,H
+1994-04-30,Southampton,Aston Villa,4,1,H
+1994-04-30,Wimbledon,Tottenham,2,1,H
+1994-05-01,Ipswich,Man United,1,2,A
+1994-05-02,Coventry,Blackburn,2,1,H
+1994-05-03,Leeds,Sheffield Weds,2,2,D
+1994-05-03,Oldham,Sheffield United,1,1,D
+1994-05-03,QPR,West Ham,0,0,D
+1994-05-04,Chelsea,Coventry,1,2,A
+1994-05-04,Man United,Southampton,2,0,H
+1994-05-05,Oldham,Tottenham,0,2,A
+1994-05-07,Aston Villa,Liverpool,2,1,H
+1994-05-07,Blackburn,Ipswich,0,0,D
+1994-05-07,Chelsea,Sheffield United,3,2,H
+1994-05-07,Everton,Wimbledon,3,2,H
+1994-05-07,Newcastle,Arsenal,2,0,H
+1994-05-07,Norwich,Oldham,1,1,D
+1994-05-07,Sheffield Weds,Man City,1,1,D
+1994-05-07,Swindon,Leeds,0,5,A
+1994-05-07,Tottenham,QPR,1,2,A
+1994-05-07,West Ham,Southampton,3,3,D
+1994-05-08,Man United,Coventry,0,0,D

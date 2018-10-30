@@ -1,0 +1,381 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,OVA_diff
+2007-08-11,Aston Villa,Liverpool,1,2,A,75,81,-6
+2007-08-11,Bolton,Newcastle,1,3,A,75,77,-2
+2007-08-11,Derby,Portsmouth,2,2,D,69,76,-7
+2007-08-11,Everton,Wigan,2,1,H,76,72,4
+2007-08-11,Middlesbrough,Blackburn,1,2,A,75,76,-1
+2007-08-11,Sunderland,Tottenham,1,0,H,71,78,-7
+2007-08-11,West Ham,Man City,0,2,A,76,75,1
+2007-08-12,Arsenal,Fulham,2,1,H,80,74,6
+2007-08-12,Chelsea,Birmingham,3,2,H,83,72,11
+2007-08-12,Man United,Reading,0,0,D,83,74,9
+2007-08-14,Tottenham,Everton,1,3,A,78,76,2
+2007-08-15,Birmingham,Sunderland,2,2,D,72,71,1
+2007-08-15,Fulham,Bolton,2,1,H,74,75,-1
+2007-08-15,Man City,Derby,1,0,H,75,69,6
+2007-08-15,Portsmouth,Man United,1,1,D,76,83,-7
+2007-08-15,Reading,Chelsea,1,2,A,74,83,-9
+2007-08-15,Wigan,Middlesbrough,1,0,H,72,75,-3
+2007-08-18,Birmingham,West Ham,0,1,A,72,76,-4
+2007-08-18,Fulham,Middlesbrough,1,2,A,74,75,-1
+2007-08-18,Newcastle,Aston Villa,0,0,D,77,75,2
+2007-08-18,Portsmouth,Bolton,3,1,H,76,75,1
+2007-08-18,Reading,Everton,1,0,H,74,76,-2
+2007-08-18,Tottenham,Derby,4,0,H,78,69,9
+2007-08-18,Wigan,Sunderland,3,0,H,72,71,1
+2007-08-19,Blackburn,Arsenal,1,1,D,76,80,-4
+2007-08-19,Liverpool,Chelsea,1,1,D,81,83,-2
+2007-08-19,Man City,Man United,1,0,H,75,83,-8
+2007-08-25,Arsenal,Man City,1,0,H,80,75,5
+2007-08-25,Aston Villa,Fulham,2,1,H,75,74,1
+2007-08-25,Bolton,Reading,3,0,H,75,74,1
+2007-08-25,Chelsea,Portsmouth,1,0,H,83,76,7
+2007-08-25,Derby,Birmingham,1,2,A,69,72,-3
+2007-08-25,Everton,Blackburn,1,1,D,76,76,0
+2007-08-25,Sunderland,Liverpool,0,2,A,71,81,-10
+2007-08-25,West Ham,Wigan,1,1,D,76,72,4
+2007-08-26,Man United,Tottenham,1,0,H,83,78,5
+2007-08-26,Middlesbrough,Newcastle,2,2,D,75,77,-2
+2007-09-01,Bolton,Everton,1,2,A,75,76,-1
+2007-09-01,Fulham,Tottenham,3,3,D,74,78,-4
+2007-09-01,Liverpool,Derby,6,0,H,81,69,12
+2007-09-01,Man United,Sunderland,1,0,H,83,71,12
+2007-09-01,Middlesbrough,Birmingham,2,0,H,75,72,3
+2007-09-01,Newcastle,Wigan,1,0,H,77,72,5
+2007-09-01,Reading,West Ham,0,3,A,74,76,-2
+2007-09-02,Arsenal,Portsmouth,3,1,H,80,76,4
+2007-09-02,Aston Villa,Chelsea,2,0,H,75,83,-8
+2007-09-02,Blackburn,Man City,1,0,H,76,75,1
+2007-09-15,Birmingham,Bolton,1,0,H,72,75,-3
+2007-09-15,Chelsea,Blackburn,0,0,D,83,76,7
+2007-09-15,Everton,Man United,0,1,A,76,83,-7
+2007-09-15,Portsmouth,Liverpool,0,0,D,76,81,-5
+2007-09-15,Sunderland,Reading,2,1,H,71,74,-3
+2007-09-15,Tottenham,Arsenal,1,3,A,78,80,-2
+2007-09-15,West Ham,Middlesbrough,3,0,H,76,75,1
+2007-09-15,Wigan,Fulham,1,1,D,72,74,-2
+2007-09-16,Man City,Aston Villa,1,0,H,75,75,0
+2007-09-17,Derby,Newcastle,1,0,H,69,77,-8
+2007-09-22,Arsenal,Derby,5,0,H,80,69,11
+2007-09-22,Fulham,Man City,3,3,D,74,75,-1
+2007-09-22,Liverpool,Birmingham,0,0,D,81,72,9
+2007-09-22,Middlesbrough,Sunderland,2,2,D,75,71,4
+2007-09-22,Reading,Wigan,2,1,H,74,72,2
+2007-09-23,Aston Villa,Everton,2,0,H,75,76,-1
+2007-09-23,Blackburn,Portsmouth,0,1,A,76,76,0
+2007-09-23,Bolton,Tottenham,1,1,D,75,78,-3
+2007-09-23,Man United,Chelsea,2,0,H,83,83,0
+2007-09-23,Newcastle,West Ham,3,1,H,77,76,1
+2007-09-29,Birmingham,Man United,0,1,A,72,83,-11
+2007-09-29,Chelsea,Fulham,0,0,D,83,74,9
+2007-09-29,Derby,Bolton,1,1,D,69,75,-6
+2007-09-29,Man City,Newcastle,3,1,H,75,77,-2
+2007-09-29,Portsmouth,Reading,7,4,H,76,74,2
+2007-09-29,Sunderland,Blackburn,1,2,A,71,76,-5
+2007-09-29,West Ham,Arsenal,0,1,A,76,80,-4
+2007-09-29,Wigan,Liverpool,0,1,A,72,81,-9
+2007-09-30,Everton,Middlesbrough,2,0,H,76,75,1
+2007-10-01,Tottenham,Aston Villa,4,4,D,78,75,3
+2007-10-06,Aston Villa,West Ham,1,0,H,75,76,-1
+2007-10-06,Man United,Wigan,4,0,H,83,72,11
+2007-10-07,Arsenal,Sunderland,3,2,H,80,71,9
+2007-10-07,Blackburn,Birmingham,2,1,H,76,72,4
+2007-10-07,Bolton,Chelsea,0,1,A,75,83,-8
+2007-10-07,Fulham,Portsmouth,0,2,A,74,76,-2
+2007-10-07,Liverpool,Tottenham,2,2,D,81,78,3
+2007-10-07,Man City,Middlesbrough,3,1,H,75,75,0
+2007-10-07,Newcastle,Everton,3,2,H,77,76,1
+2007-10-07,Reading,Derby,1,0,H,74,69,5
+2007-10-20,Arsenal,Bolton,2,0,H,80,75,5
+2007-10-20,Aston Villa,Man United,1,4,A,75,83,-8
+2007-10-20,Blackburn,Reading,4,2,H,76,74,2
+2007-10-20,Everton,Liverpool,1,2,A,76,81,-5
+2007-10-20,Fulham,Derby,0,0,D,74,69,5
+2007-10-20,Man City,Birmingham,1,0,H,75,72,3
+2007-10-20,Middlesbrough,Chelsea,0,2,A,75,83,-8
+2007-10-20,Wigan,Portsmouth,0,2,A,72,76,-4
+2007-10-21,West Ham,Sunderland,3,1,H,76,71,5
+2007-10-22,Newcastle,Tottenham,3,1,H,77,78,-1
+2007-10-27,Birmingham,Wigan,3,2,H,72,72,0
+2007-10-27,Chelsea,Man City,6,0,H,83,75,8
+2007-10-27,Man United,Middlesbrough,4,1,H,83,75,8
+2007-10-27,Portsmouth,West Ham,0,0,D,76,76,0
+2007-10-27,Reading,Newcastle,2,1,H,74,77,-3
+2007-10-27,Sunderland,Fulham,1,1,D,71,74,-3
+2007-10-28,Bolton,Aston Villa,1,1,D,75,75,0
+2007-10-28,Derby,Everton,0,2,A,69,76,-7
+2007-10-28,Liverpool,Arsenal,1,1,D,81,80,1
+2007-10-28,Tottenham,Blackburn,1,2,A,78,76,2
+2007-11-03,Arsenal,Man United,2,2,D,80,83,-3
+2007-11-03,Aston Villa,Derby,2,0,H,75,69,6
+2007-11-03,Blackburn,Liverpool,0,0,D,76,81,-5
+2007-11-03,Everton,Birmingham,3,1,H,76,72,4
+2007-11-03,Fulham,Reading,3,1,H,74,74,0
+2007-11-03,Middlesbrough,Tottenham,1,1,D,75,78,-3
+2007-11-03,Newcastle,Portsmouth,1,4,A,77,76,1
+2007-11-03,Wigan,Chelsea,0,2,A,72,83,-11
+2007-11-04,West Ham,Bolton,1,1,D,76,75,1
+2007-11-05,Man City,Sunderland,1,0,H,75,71,4
+2007-11-10,Derby,West Ham,0,5,A,69,76,-7
+2007-11-10,Liverpool,Fulham,2,0,H,81,74,7
+2007-11-10,Sunderland,Newcastle,1,1,D,71,77,-6
+2007-11-11,Birmingham,Aston Villa,1,2,A,72,75,-3
+2007-11-11,Bolton,Middlesbrough,0,0,D,75,75,0
+2007-11-11,Chelsea,Everton,1,1,D,83,76,7
+2007-11-11,Man United,Blackburn,2,0,H,83,76,7
+2007-11-11,Portsmouth,Man City,0,0,D,76,75,1
+2007-11-11,Tottenham,Wigan,4,0,H,78,72,6
+2007-11-12,Reading,Arsenal,1,3,A,74,80,-6
+2007-11-24,Arsenal,Wigan,2,0,H,80,72,8
+2007-11-24,Birmingham,Portsmouth,0,2,A,72,76,-4
+2007-11-24,Bolton,Man United,1,0,H,75,83,-8
+2007-11-24,Derby,Chelsea,0,2,A,69,83,-14
+2007-11-24,Everton,Sunderland,7,1,H,76,71,5
+2007-11-24,Man City,Reading,2,1,H,75,74,1
+2007-11-24,Middlesbrough,Aston Villa,0,3,A,75,75,0
+2007-11-24,Newcastle,Liverpool,0,3,A,77,81,-4
+2007-11-25,Fulham,Blackburn,2,2,D,74,76,-2
+2007-11-25,West Ham,Tottenham,1,1,D,76,78,-2
+2007-11-28,Blackburn,Aston Villa,0,4,A,76,75,1
+2007-12-01,Aston Villa,Arsenal,1,2,A,75,80,-5
+2007-12-01,Blackburn,Newcastle,3,1,H,76,77,-1
+2007-12-01,Chelsea,West Ham,1,0,H,83,76,7
+2007-12-01,Portsmouth,Everton,0,0,D,76,76,0
+2007-12-01,Reading,Middlesbrough,1,1,D,74,75,-1
+2007-12-01,Sunderland,Derby,1,0,H,71,69,2
+2007-12-01,Wigan,Man City,1,1,D,72,75,-3
+2007-12-02,Liverpool,Bolton,4,0,H,81,75,6
+2007-12-02,Tottenham,Birmingham,2,3,A,78,72,6
+2007-12-03,Man United,Fulham,2,0,H,83,74,9
+2007-12-05,Newcastle,Arsenal,1,1,D,77,80,-3
+2007-12-08,Aston Villa,Portsmouth,1,3,A,75,76,-1
+2007-12-08,Chelsea,Sunderland,2,0,H,83,71,12
+2007-12-08,Everton,Fulham,3,0,H,76,74,2
+2007-12-08,Man United,Derby,4,1,H,83,69,14
+2007-12-08,Newcastle,Birmingham,2,1,H,77,72,5
+2007-12-08,Reading,Liverpool,3,1,H,74,81,-7
+2007-12-09,Blackburn,West Ham,0,1,A,76,76,0
+2007-12-09,Bolton,Wigan,4,1,H,75,72,3
+2007-12-09,Middlesbrough,Arsenal,2,1,H,75,80,-5
+2007-12-09,Tottenham,Man City,2,1,H,78,75,3
+2007-12-15,Birmingham,Reading,1,1,D,72,74,-2
+2007-12-15,Derby,Middlesbrough,0,1,A,69,75,-6
+2007-12-15,Fulham,Newcastle,0,1,A,74,77,-3
+2007-12-15,Man City,Bolton,4,2,H,75,75,0
+2007-12-15,Portsmouth,Tottenham,0,1,A,76,78,-2
+2007-12-15,Sunderland,Aston Villa,1,1,D,71,75,-4
+2007-12-15,West Ham,Everton,0,2,A,76,76,0
+2007-12-15,Wigan,Blackburn,5,3,H,72,76,-4
+2007-12-16,Arsenal,Chelsea,1,0,H,80,83,-3
+2007-12-16,Liverpool,Man United,0,1,A,81,83,-2
+2007-12-22,Arsenal,Tottenham,2,1,H,80,78,2
+2007-12-22,Aston Villa,Man City,1,1,D,75,75,0
+2007-12-22,Bolton,Birmingham,3,0,H,75,72,3
+2007-12-22,Fulham,Wigan,1,1,D,74,72,2
+2007-12-22,Liverpool,Portsmouth,4,1,H,81,76,5
+2007-12-22,Middlesbrough,West Ham,1,2,A,75,76,-1
+2007-12-22,Reading,Sunderland,2,1,H,74,71,3
+2007-12-23,Blackburn,Chelsea,0,1,A,76,83,-7
+2007-12-23,Man United,Everton,2,1,H,83,76,7
+2007-12-23,Newcastle,Derby,2,2,D,77,69,8
+2007-12-26,Birmingham,Middlesbrough,3,0,H,72,75,-3
+2007-12-26,Chelsea,Aston Villa,4,4,D,83,75,8
+2007-12-26,Derby,Liverpool,1,2,A,69,81,-12
+2007-12-26,Everton,Bolton,2,0,H,76,75,1
+2007-12-26,Portsmouth,Arsenal,0,0,D,76,80,-4
+2007-12-26,Sunderland,Man United,0,4,A,71,83,-12
+2007-12-26,Tottenham,Fulham,5,1,H,78,74,4
+2007-12-26,West Ham,Reading,1,1,D,76,74,2
+2007-12-26,Wigan,Newcastle,1,0,H,72,77,-5
+2007-12-27,Man City,Blackburn,2,2,D,75,76,-1
+2007-12-29,Birmingham,Fulham,1,1,D,72,74,-2
+2007-12-29,Chelsea,Newcastle,2,1,H,83,77,6
+2007-12-29,Everton,Arsenal,1,4,A,76,80,-4
+2007-12-29,Portsmouth,Middlesbrough,0,1,A,76,75,1
+2007-12-29,Sunderland,Bolton,3,1,H,71,75,-4
+2007-12-29,Tottenham,Reading,6,4,H,78,74,4
+2007-12-29,West Ham,Man United,2,1,H,76,83,-7
+2007-12-29,Wigan,Aston Villa,1,2,A,72,75,-3
+2007-12-30,Derby,Blackburn,1,2,A,69,76,-7
+2007-12-30,Man City,Liverpool,0,0,D,75,81,-6
+2008-01-01,Arsenal,West Ham,2,0,H,80,76,4
+2008-01-01,Aston Villa,Tottenham,2,1,H,75,78,-3
+2008-01-01,Fulham,Chelsea,1,2,A,74,83,-9
+2008-01-01,Man United,Birmingham,1,0,H,83,72,11
+2008-01-01,Middlesbrough,Everton,0,2,A,75,76,-1
+2008-01-01,Reading,Portsmouth,0,2,A,74,76,-2
+2008-01-02,Blackburn,Sunderland,1,0,H,76,71,5
+2008-01-02,Bolton,Derby,1,0,H,75,69,6
+2008-01-02,Liverpool,Wigan,1,1,D,81,72,9
+2008-01-02,Newcastle,Man City,0,2,A,77,75,2
+2008-01-12,Arsenal,Birmingham,1,1,D,80,72,8
+2008-01-12,Aston Villa,Reading,3,1,H,75,74,1
+2008-01-12,Chelsea,Tottenham,2,0,H,83,78,5
+2008-01-12,Derby,Wigan,0,1,A,69,72,-3
+2008-01-12,Everton,Man City,1,0,H,76,75,1
+2008-01-12,Man United,Newcastle,6,0,H,83,77,6
+2008-01-12,Middlesbrough,Liverpool,1,1,D,75,81,-6
+2008-01-12,West Ham,Fulham,2,1,H,76,74,2
+2008-01-13,Bolton,Blackburn,1,2,A,75,76,-1
+2008-01-13,Sunderland,Portsmouth,2,0,H,71,76,-5
+2008-01-19,Birmingham,Chelsea,0,1,A,72,83,-11
+2008-01-19,Blackburn,Middlesbrough,1,1,D,76,75,1
+2008-01-19,Fulham,Arsenal,0,3,A,74,80,-6
+2008-01-19,Newcastle,Bolton,0,0,D,77,75,2
+2008-01-19,Portsmouth,Derby,3,1,H,76,69,7
+2008-01-19,Reading,Man United,0,2,A,74,83,-9
+2008-01-19,Tottenham,Sunderland,2,0,H,78,71,7
+2008-01-20,Man City,West Ham,1,1,D,75,76,-1
+2008-01-20,Wigan,Everton,1,2,A,72,76,-4
+2008-01-21,Liverpool,Aston Villa,2,2,D,81,75,6
+2008-01-26,Aston Villa,Blackburn,1,1,D,75,76,-1
+2008-01-29,Arsenal,Newcastle,3,0,H,80,77,3
+2008-01-29,Bolton,Fulham,0,0,D,75,74,1
+2008-01-29,Middlesbrough,Wigan,1,0,H,75,72,3
+2008-01-29,Sunderland,Birmingham,2,0,H,71,72,-1
+2008-01-30,Chelsea,Reading,1,0,H,83,74,9
+2008-01-30,Derby,Man City,1,1,D,69,75,-6
+2008-01-30,Everton,Tottenham,0,0,D,76,78,-2
+2008-01-30,Man United,Portsmouth,2,0,H,83,76,7
+2008-01-30,West Ham,Liverpool,1,0,H,76,81,-5
+2008-02-02,Birmingham,Derby,1,1,D,72,69,3
+2008-02-02,Blackburn,Everton,0,0,D,76,76,0
+2008-02-02,Liverpool,Sunderland,3,0,H,81,71,10
+2008-02-02,Man City,Arsenal,1,3,A,75,80,-5
+2008-02-02,Portsmouth,Chelsea,1,1,D,76,83,-7
+2008-02-02,Reading,Bolton,0,2,A,74,75,-1
+2008-02-02,Tottenham,Man United,1,1,D,78,83,-5
+2008-02-02,Wigan,West Ham,1,0,H,72,76,-4
+2008-02-03,Fulham,Aston Villa,2,1,H,74,75,-1
+2008-02-03,Newcastle,Middlesbrough,1,1,D,77,75,2
+2008-02-09,Aston Villa,Newcastle,4,1,H,75,77,-2
+2008-02-09,Bolton,Portsmouth,0,1,A,75,76,-1
+2008-02-09,Derby,Tottenham,0,3,A,69,78,-9
+2008-02-09,Everton,Reading,1,0,H,76,74,2
+2008-02-09,Middlesbrough,Fulham,1,0,H,75,74,1
+2008-02-09,Sunderland,Wigan,2,0,H,71,72,-1
+2008-02-09,West Ham,Birmingham,1,1,D,76,72,4
+2008-02-10,Chelsea,Liverpool,0,0,D,83,81,2
+2008-02-10,Man United,Man City,1,2,A,83,75,8
+2008-02-11,Arsenal,Blackburn,2,0,H,80,76,4
+2008-02-23,Birmingham,Arsenal,2,2,D,72,80,-8
+2008-02-23,Fulham,West Ham,0,1,A,74,76,-2
+2008-02-23,Liverpool,Middlesbrough,3,2,H,81,75,6
+2008-02-23,Newcastle,Man United,1,5,A,77,83,-6
+2008-02-23,Portsmouth,Sunderland,1,0,H,76,71,5
+2008-02-23,Wigan,Derby,2,0,H,72,69,3
+2008-02-24,Blackburn,Bolton,4,1,H,76,75,1
+2008-02-24,Reading,Aston Villa,1,2,A,74,75,-1
+2008-02-25,Man City,Everton,0,2,A,75,76,-1
+2008-03-01,Arsenal,Aston Villa,1,1,D,80,75,5
+2008-03-01,Birmingham,Tottenham,4,1,H,72,78,-6
+2008-03-01,Derby,Sunderland,0,0,D,69,71,-2
+2008-03-01,Fulham,Man United,0,3,A,74,83,-9
+2008-03-01,Man City,Wigan,0,0,D,75,72,3
+2008-03-01,Middlesbrough,Reading,0,1,A,75,74,1
+2008-03-01,Newcastle,Blackburn,0,1,A,77,76,1
+2008-03-01,West Ham,Chelsea,0,4,A,76,83,-7
+2008-03-02,Bolton,Liverpool,1,3,A,75,81,-6
+2008-03-02,Everton,Portsmouth,3,1,H,76,76,0
+2008-03-05,Liverpool,West Ham,4,0,H,81,76,5
+2008-03-08,Blackburn,Fulham,1,1,D,76,74,2
+2008-03-08,Liverpool,Newcastle,3,0,H,81,77,4
+2008-03-08,Reading,Man City,2,0,H,74,75,-1
+2008-03-09,Sunderland,Everton,0,1,A,71,76,-5
+2008-03-09,Tottenham,West Ham,4,0,H,78,76,2
+2008-03-09,Wigan,Arsenal,0,0,D,72,80,-8
+2008-03-12,Aston Villa,Middlesbrough,1,1,D,75,75,0
+2008-03-12,Chelsea,Derby,6,1,H,83,69,14
+2008-03-12,Portsmouth,Birmingham,4,2,H,76,72,4
+2008-03-15,Arsenal,Middlesbrough,1,1,D,80,75,5
+2008-03-15,Derby,Man United,0,1,A,69,83,-14
+2008-03-15,Liverpool,Reading,2,1,H,81,74,7
+2008-03-15,Portsmouth,Aston Villa,2,0,H,76,75,1
+2008-03-15,Sunderland,Chelsea,0,1,A,71,83,-12
+2008-03-15,West Ham,Blackburn,2,1,H,76,76,0
+2008-03-16,Fulham,Everton,1,0,H,74,76,-2
+2008-03-16,Man City,Tottenham,2,1,H,75,78,-3
+2008-03-16,Wigan,Bolton,1,0,H,72,75,-3
+2008-03-17,Birmingham,Newcastle,1,1,D,72,77,-5
+2008-03-19,Man United,Bolton,2,0,H,83,75,8
+2008-03-19,Tottenham,Chelsea,4,4,D,78,83,-5
+2008-03-22,Aston Villa,Sunderland,0,1,A,75,71,4
+2008-03-22,Blackburn,Wigan,3,1,H,76,72,4
+2008-03-22,Bolton,Man City,0,0,D,75,75,0
+2008-03-22,Everton,West Ham,1,1,D,76,76,0
+2008-03-22,Middlesbrough,Derby,1,0,H,75,69,6
+2008-03-22,Newcastle,Fulham,2,0,H,77,74,3
+2008-03-22,Reading,Birmingham,2,1,H,74,72,2
+2008-03-22,Tottenham,Portsmouth,2,0,H,78,76,2
+2008-03-23,Chelsea,Arsenal,2,1,H,83,80,3
+2008-03-23,Man United,Liverpool,3,0,H,83,81,2
+2008-03-29,Birmingham,Man City,3,1,H,72,75,-3
+2008-03-29,Bolton,Arsenal,2,3,A,75,80,-5
+2008-03-29,Derby,Fulham,2,2,D,69,74,-5
+2008-03-29,Man United,Aston Villa,4,0,H,83,75,8
+2008-03-29,Portsmouth,Wigan,2,0,H,76,72,4
+2008-03-29,Reading,Blackburn,0,0,D,74,76,-2
+2008-03-29,Sunderland,West Ham,2,1,H,71,76,-5
+2008-03-30,Chelsea,Middlesbrough,1,0,H,83,75,8
+2008-03-30,Liverpool,Everton,1,0,H,81,76,5
+2008-03-30,Tottenham,Newcastle,1,4,A,78,77,1
+2008-04-05,Arsenal,Liverpool,1,1,D,80,81,-1
+2008-04-05,Aston Villa,Bolton,4,0,H,75,75,0
+2008-04-05,Blackburn,Tottenham,1,1,D,76,78,-2
+2008-04-05,Fulham,Sunderland,1,3,A,74,71,3
+2008-04-05,Man City,Chelsea,0,2,A,75,83,-8
+2008-04-05,Newcastle,Reading,3,0,H,77,74,3
+2008-04-05,Wigan,Birmingham,2,0,H,72,72,0
+2008-04-06,Everton,Derby,1,0,H,76,69,7
+2008-04-06,Middlesbrough,Man United,2,2,D,75,83,-8
+2008-04-08,West Ham,Portsmouth,0,1,A,76,76,0
+2008-04-12,Birmingham,Everton,1,1,D,72,76,-4
+2008-04-12,Bolton,West Ham,1,0,H,75,76,-1
+2008-04-12,Derby,Aston Villa,0,6,A,69,75,-6
+2008-04-12,Portsmouth,Newcastle,0,0,D,76,77,-1
+2008-04-12,Reading,Fulham,0,2,A,74,74,0
+2008-04-12,Sunderland,Man City,1,2,A,71,75,-4
+2008-04-12,Tottenham,Middlesbrough,1,1,D,78,75,3
+2008-04-13,Liverpool,Blackburn,3,1,H,81,76,5
+2008-04-13,Man United,Arsenal,2,1,H,83,80,3
+2008-04-14,Chelsea,Wigan,1,1,D,83,72,11
+2008-04-17,Everton,Chelsea,0,1,A,76,83,-7
+2008-04-19,Arsenal,Reading,2,0,H,80,74,6
+2008-04-19,Blackburn,Man United,1,1,D,76,83,-7
+2008-04-19,Fulham,Liverpool,0,2,A,74,81,-7
+2008-04-19,Middlesbrough,Bolton,0,1,A,75,75,0
+2008-04-19,West Ham,Derby,2,1,H,76,69,7
+2008-04-19,Wigan,Tottenham,1,1,D,72,78,-6
+2008-04-20,Aston Villa,Birmingham,5,1,H,75,72,3
+2008-04-20,Man City,Portsmouth,3,1,H,75,76,-1
+2008-04-20,Newcastle,Sunderland,2,0,H,77,71,6
+2008-04-26,Birmingham,Liverpool,2,2,D,72,81,-9
+2008-04-26,Chelsea,Man United,2,1,H,83,83,0
+2008-04-26,Man City,Fulham,2,3,A,75,74,1
+2008-04-26,Sunderland,Middlesbrough,3,2,H,71,75,-4
+2008-04-26,Tottenham,Bolton,1,1,D,78,75,3
+2008-04-26,West Ham,Newcastle,2,2,D,76,77,-1
+2008-04-26,Wigan,Reading,0,0,D,72,74,-2
+2008-04-27,Everton,Aston Villa,2,2,D,76,75,1
+2008-04-27,Portsmouth,Blackburn,0,1,A,76,76,0
+2008-04-28,Derby,Arsenal,2,6,A,69,80,-11
+2008-05-03,Aston Villa,Wigan,0,2,A,75,72,3
+2008-05-03,Blackburn,Derby,3,1,H,76,69,7
+2008-05-03,Bolton,Sunderland,2,0,H,75,71,4
+2008-05-03,Fulham,Birmingham,2,0,H,74,72,2
+2008-05-03,Man United,West Ham,4,1,H,83,76,7
+2008-05-03,Middlesbrough,Portsmouth,2,0,H,75,76,-1
+2008-05-03,Reading,Tottenham,0,1,A,74,78,-4
+2008-05-04,Arsenal,Everton,1,0,H,80,76,4
+2008-05-04,Liverpool,Man City,1,0,H,81,75,6
+2008-05-05,Newcastle,Chelsea,0,2,A,77,83,-6
+2008-05-11,Birmingham,Blackburn,4,1,H,72,76,-4
+2008-05-11,Chelsea,Bolton,1,1,D,83,75,8
+2008-05-11,Derby,Reading,0,4,A,69,74,-5
+2008-05-11,Everton,Newcastle,3,1,H,76,77,-1
+2008-05-11,Middlesbrough,Man City,8,1,H,75,75,0
+2008-05-11,Portsmouth,Fulham,0,1,A,76,74,2
+2008-05-11,Sunderland,Arsenal,0,1,A,71,80,-9
+2008-05-11,Tottenham,Liverpool,0,2,A,78,81,-3
+2008-05-11,West Ham,Aston Villa,2,2,D,76,75,1
+2008-05-11,Wigan,Man United,0,2,A,72,83,-11

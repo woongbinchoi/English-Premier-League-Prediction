@@ -89,16 +89,16 @@
 87,2018-10-20,Huddersfield,Liverpool,0.0,1.0,A
 88,2018-10-21,Everton,Crystal Palace,2.0,0.0,H
 89,2018-10-22,Arsenal,Leicester,3.0,1.0,H
-90,2018-10-27,Fulham,Bournemouth,,,X
-91,2018-10-27,Liverpool,Cardiff,,,X
-92,2018-10-27,Southampton,Newcastle,,,X
-93,2018-10-27,Brighton,Wolves,,,X
-94,2018-10-27,Watford,Huddersfield,,,X
-95,2018-10-27,Leicester,West Ham,,,X
-96,2018-10-28,Burnley,Chelsea,,,X
-97,2018-10-28,Crystal Palace,Arsenal,,,X
-98,2018-10-28,Man United,Everton,,,X
-99,2018-10-29,Tottenham,Man City,,,X
+90,2018-10-27,Fulham,Bournemouth,0.0,3.0,A
+91,2018-10-27,Liverpool,Cardiff,4.0,1.0,H
+92,2018-10-27,Southampton,Newcastle,0.0,0.0,D
+93,2018-10-27,Brighton,Wolves,1.0,0.0,H
+94,2018-10-27,Watford,Huddersfield,3.0,0.0,H
+95,2018-10-27,Leicester,West Ham,1.0,1.0,D
+96,2018-10-28,Burnley,Chelsea,0.0,4.0,A
+97,2018-10-28,Crystal Palace,Arsenal,2.0,2.0,D
+98,2018-10-28,Man United,Everton,2.0,1.0,H
+99,2018-10-29,Tottenham,Man City,0.0,1.0,A
 100,2018-11-03,Bournemouth,Man United,,,X
 101,2018-11-03,Newcastle,Watford,,,X
 102,2018-11-03,Everton,Brighton,,,X
@@ -141,8 +141,8 @@
 139,2018-12-02,Liverpool,Everton,,,X
 140,2018-12-04,West Ham,Cardiff,,,X
 141,2018-12-04,Brighton,Crystal Palace,,,X
-142,2018-12-04,Watford,Man City,,,X
-143,2018-12-04,Bournemouth,Huddersfield,,,X
+142,2018-12-04,Bournemouth,Huddersfield,,,X
+143,2018-12-04,Watford,Man City,,,X
 144,2018-12-05,Wolves,Chelsea,,,X
 145,2018-12-05,Fulham,Leicester,,,X
 146,2018-12-05,Burnley,Liverpool,,,X

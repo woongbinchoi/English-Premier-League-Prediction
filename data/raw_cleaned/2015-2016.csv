@@ -1,0 +1,381 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,OVA_diff
+2015-08-08,Bournemouth,Aston Villa,0,1,A,73,75,-2
+2015-08-08,Chelsea,Swansea,2,2,D,83,76,7
+2015-08-08,Everton,Watford,2,2,D,78,75,3
+2015-08-08,Leicester,Sunderland,4,2,H,76,75,1
+2015-08-08,Man United,Tottenham,1,0,H,81,79,2
+2015-08-08,Norwich,Crystal Palace,1,3,A,74,76,-2
+2015-08-09,Arsenal,West Ham,0,2,A,82,77,5
+2015-08-09,Newcastle,Southampton,2,2,D,77,77,0
+2015-08-09,Stoke,Liverpool,0,1,A,77,79,-2
+2015-08-10,West Brom,Man City,0,3,A,75,82,-7
+2015-08-14,Aston Villa,Man United,0,1,A,75,81,-6
+2015-08-15,Southampton,Everton,0,3,A,77,78,-1
+2015-08-15,Sunderland,Norwich,1,3,A,75,74,1
+2015-08-15,Swansea,Newcastle,2,0,H,76,77,-1
+2015-08-15,Tottenham,Stoke,2,2,D,79,77,2
+2015-08-15,Watford,West Brom,0,0,D,75,75,0
+2015-08-15,West Ham,Leicester,1,2,A,77,76,1
+2015-08-16,Crystal Palace,Arsenal,1,2,A,76,82,-6
+2015-08-16,Man City,Chelsea,3,0,H,82,83,-1
+2015-08-17,Liverpool,Bournemouth,1,0,H,79,73,6
+2015-08-22,Crystal Palace,Aston Villa,2,1,H,76,75,1
+2015-08-22,Leicester,Tottenham,1,1,D,76,79,-3
+2015-08-22,Man United,Newcastle,0,0,D,81,77,4
+2015-08-22,Norwich,Stoke,1,1,D,74,77,-3
+2015-08-22,Sunderland,Swansea,1,1,D,75,76,-1
+2015-08-22,West Ham,Bournemouth,3,4,A,77,73,4
+2015-08-23,Everton,Man City,0,2,A,78,82,-4
+2015-08-23,Watford,Southampton,0,0,D,75,77,-2
+2015-08-23,West Brom,Chelsea,2,3,A,75,83,-8
+2015-08-24,Arsenal,Liverpool,0,0,D,82,79,3
+2015-08-29,Aston Villa,Sunderland,2,2,D,75,75,0
+2015-08-29,Bournemouth,Leicester,1,1,D,73,76,-3
+2015-08-29,Chelsea,Crystal Palace,1,2,A,83,76,7
+2015-08-29,Liverpool,West Ham,0,3,A,79,77,2
+2015-08-29,Man City,Watford,2,0,H,82,75,7
+2015-08-29,Newcastle,Arsenal,0,1,A,77,82,-5
+2015-08-29,Stoke,West Brom,0,1,A,77,75,2
+2015-08-29,Tottenham,Everton,0,0,D,79,78,1
+2015-08-30,Southampton,Norwich,3,0,H,77,74,3
+2015-08-30,Swansea,Man United,2,1,H,76,81,-5
+2015-09-12,Arsenal,Stoke,2,0,H,82,77,5
+2015-09-12,Crystal Palace,Man City,0,1,A,76,82,-6
+2015-09-12,Everton,Chelsea,3,1,H,78,83,-5
+2015-09-12,Man United,Liverpool,3,1,H,81,79,2
+2015-09-12,Norwich,Bournemouth,3,1,H,74,73,1
+2015-09-12,Watford,Swansea,1,0,H,75,76,-1
+2015-09-12,West Brom,Southampton,0,0,D,75,77,-2
+2015-09-13,Leicester,Aston Villa,3,2,H,76,75,1
+2015-09-13,Sunderland,Tottenham,0,1,A,75,79,-4
+2015-09-14,West Ham,Newcastle,2,0,H,77,77,0
+2015-09-19,Aston Villa,West Brom,0,1,A,75,75,0
+2015-09-19,Bournemouth,Sunderland,2,0,H,73,75,-2
+2015-09-19,Chelsea,Arsenal,2,0,H,83,82,1
+2015-09-19,Man City,West Ham,1,2,A,82,77,5
+2015-09-19,Newcastle,Watford,1,2,A,77,75,2
+2015-09-19,Stoke,Leicester,2,2,D,77,76,1
+2015-09-19,Swansea,Everton,0,0,D,76,78,-2
+2015-09-20,Liverpool,Norwich,1,1,D,79,74,5
+2015-09-20,Southampton,Man United,2,3,A,77,81,-4
+2015-09-20,Tottenham,Crystal Palace,1,0,H,79,76,3
+2015-09-26,Leicester,Arsenal,2,5,A,76,82,-6
+2015-09-26,Liverpool,Aston Villa,3,2,H,79,75,4
+2015-09-26,Man United,Sunderland,3,0,H,81,75,6
+2015-09-26,Newcastle,Chelsea,2,2,D,77,83,-6
+2015-09-26,Southampton,Swansea,3,1,H,77,76,1
+2015-09-26,Stoke,Bournemouth,2,1,H,77,73,4
+2015-09-26,Tottenham,Man City,4,1,H,79,82,-3
+2015-09-26,West Ham,Norwich,2,2,D,77,74,3
+2015-09-27,Watford,Crystal Palace,0,1,A,75,76,-1
+2015-09-28,West Brom,Everton,2,3,A,75,78,-3
+2015-10-03,Aston Villa,Stoke,0,1,A,75,77,-2
+2015-10-03,Bournemouth,Watford,1,1,D,73,75,-2
+2015-10-03,Chelsea,Southampton,1,3,A,83,77,6
+2015-10-03,Crystal Palace,West Brom,2,0,H,76,75,1
+2015-10-03,Man City,Newcastle,6,1,H,82,77,5
+2015-10-03,Norwich,Leicester,1,2,A,74,76,-2
+2015-10-03,Sunderland,West Ham,2,2,D,75,77,-2
+2015-10-04,Arsenal,Man United,3,0,H,82,81,1
+2015-10-04,Everton,Liverpool,1,1,D,78,79,-1
+2015-10-04,Swansea,Tottenham,2,2,D,76,79,-3
+2015-10-17,Chelsea,Aston Villa,2,0,H,83,75,8
+2015-10-17,Crystal Palace,West Ham,1,3,A,76,77,-1
+2015-10-17,Everton,Man United,0,3,A,78,81,-3
+2015-10-17,Man City,Bournemouth,5,1,H,82,73,9
+2015-10-17,Southampton,Leicester,2,2,D,77,76,1
+2015-10-17,Tottenham,Liverpool,0,0,D,79,79,0
+2015-10-17,Watford,Arsenal,0,3,A,75,82,-7
+2015-10-17,West Brom,Sunderland,1,0,H,75,75,0
+2015-10-18,Newcastle,Norwich,6,2,H,77,74,3
+2015-10-19,Swansea,Stoke,0,1,A,76,77,-1
+2015-10-24,Arsenal,Everton,2,1,H,82,78,4
+2015-10-24,Aston Villa,Swansea,1,2,A,75,76,-1
+2015-10-24,Leicester,Crystal Palace,1,0,H,76,76,0
+2015-10-24,Norwich,West Brom,0,1,A,74,75,-1
+2015-10-24,Stoke,Watford,0,2,A,77,75,2
+2015-10-24,West Ham,Chelsea,2,1,H,77,83,-6
+2015-10-25,Bournemouth,Tottenham,1,5,A,73,79,-6
+2015-10-25,Liverpool,Southampton,1,1,D,79,77,2
+2015-10-25,Man United,Man City,0,0,D,81,82,-1
+2015-10-25,Sunderland,Newcastle,3,0,H,75,77,-2
+2015-10-31,Chelsea,Liverpool,1,3,A,83,79,4
+2015-10-31,Crystal Palace,Man United,0,0,D,76,81,-5
+2015-10-31,Man City,Norwich,2,1,H,82,74,8
+2015-10-31,Newcastle,Stoke,0,0,D,77,77,0
+2015-10-31,Swansea,Arsenal,0,3,A,76,82,-6
+2015-10-31,Watford,West Ham,2,0,H,75,77,-2
+2015-10-31,West Brom,Leicester,2,3,A,75,76,-1
+2015-11-01,Everton,Sunderland,6,2,H,78,75,3
+2015-11-01,Southampton,Bournemouth,2,0,H,77,73,4
+2015-11-02,Tottenham,Aston Villa,3,1,H,79,75,4
+2015-11-07,Bournemouth,Newcastle,0,1,A,73,77,-4
+2015-11-07,Leicester,Watford,2,1,H,76,75,1
+2015-11-07,Man United,West Brom,2,0,H,81,75,6
+2015-11-07,Norwich,Swansea,1,0,H,74,76,-2
+2015-11-07,Stoke,Chelsea,1,0,H,77,83,-6
+2015-11-07,Sunderland,Southampton,0,1,A,75,77,-2
+2015-11-07,West Ham,Everton,1,1,D,77,78,-1
+2015-11-08,Arsenal,Tottenham,1,1,D,82,79,3
+2015-11-08,Aston Villa,Man City,0,0,D,75,82,-7
+2015-11-08,Liverpool,Crystal Palace,1,2,A,79,76,3
+2015-11-21,Chelsea,Norwich,1,0,H,83,74,9
+2015-11-21,Everton,Aston Villa,4,0,H,78,75,3
+2015-11-21,Man City,Liverpool,1,4,A,82,79,3
+2015-11-21,Newcastle,Leicester,0,3,A,77,76,1
+2015-11-21,Southampton,Stoke,0,1,A,77,77,0
+2015-11-21,Swansea,Bournemouth,2,2,D,76,73,3
+2015-11-21,Watford,Man United,1,2,A,75,81,-6
+2015-11-21,West Brom,Arsenal,2,1,H,75,82,-7
+2015-11-22,Tottenham,West Ham,4,1,H,79,77,2
+2015-11-23,Crystal Palace,Sunderland,0,1,A,76,75,1
+2015-11-28,Aston Villa,Watford,2,3,A,75,75,0
+2015-11-28,Bournemouth,Everton,3,3,D,73,78,-5
+2015-11-28,Crystal Palace,Newcastle,5,1,H,76,77,-1
+2015-11-28,Leicester,Man United,1,1,D,76,81,-5
+2015-11-28,Man City,Southampton,3,1,H,82,77,5
+2015-11-28,Sunderland,Stoke,2,0,H,75,77,-2
+2015-11-29,Liverpool,Swansea,1,0,H,79,76,3
+2015-11-29,Norwich,Arsenal,1,1,D,74,82,-8
+2015-11-29,Tottenham,Chelsea,0,0,D,79,83,-4
+2015-11-29,West Ham,West Brom,1,1,D,77,75,2
+2015-12-05,Arsenal,Sunderland,3,1,H,82,75,7
+2015-12-05,Chelsea,Bournemouth,0,1,A,83,73,10
+2015-12-05,Man United,West Ham,0,0,D,81,77,4
+2015-12-05,Southampton,Aston Villa,1,1,D,77,75,2
+2015-12-05,Stoke,Man City,2,0,H,77,82,-5
+2015-12-05,Swansea,Leicester,0,3,A,76,76,0
+2015-12-05,Watford,Norwich,2,0,H,75,74,1
+2015-12-05,West Brom,Tottenham,1,1,D,75,79,-4
+2015-12-06,Newcastle,Liverpool,2,0,H,77,79,-2
+2015-12-07,Everton,Crystal Palace,1,1,D,78,76,2
+2015-12-12,Bournemouth,Man United,2,1,H,73,81,-8
+2015-12-12,Crystal Palace,Southampton,1,0,H,76,77,-1
+2015-12-12,Man City,Swansea,2,1,H,82,76,6
+2015-12-12,Norwich,Everton,1,1,D,74,78,-4
+2015-12-12,Sunderland,Watford,0,1,A,75,75,0
+2015-12-12,West Ham,Stoke,0,0,D,77,77,0
+2015-12-13,Aston Villa,Arsenal,0,2,A,75,82,-7
+2015-12-13,Liverpool,West Brom,2,2,D,79,75,4
+2015-12-13,Tottenham,Newcastle,1,2,A,79,77,2
+2015-12-14,Leicester,Chelsea,2,1,H,76,83,-7
+2015-12-19,Chelsea,Sunderland,3,1,H,83,75,8
+2015-12-19,Everton,Leicester,2,3,A,78,76,2
+2015-12-19,Man United,Norwich,1,2,A,81,74,7
+2015-12-19,Newcastle,Aston Villa,1,1,D,77,75,2
+2015-12-19,Southampton,Tottenham,0,2,A,77,79,-2
+2015-12-19,Stoke,Crystal Palace,1,2,A,77,76,1
+2015-12-19,West Brom,Bournemouth,1,2,A,75,73,2
+2015-12-20,Swansea,West Ham,0,0,D,76,77,-1
+2015-12-20,Watford,Liverpool,3,0,H,75,79,-4
+2015-12-21,Arsenal,Man City,2,1,H,82,82,0
+2015-12-26,Aston Villa,West Ham,1,1,D,75,77,-2
+2015-12-26,Bournemouth,Crystal Palace,0,0,D,73,76,-3
+2015-12-26,Chelsea,Watford,2,2,D,83,75,8
+2015-12-26,Liverpool,Leicester,1,0,H,79,76,3
+2015-12-26,Man City,Sunderland,4,1,H,82,75,7
+2015-12-26,Newcastle,Everton,0,1,A,77,78,-1
+2015-12-26,Southampton,Arsenal,4,0,H,77,82,-5
+2015-12-26,Stoke,Man United,2,0,H,77,81,-4
+2015-12-26,Swansea,West Brom,1,0,H,76,75,1
+2015-12-26,Tottenham,Norwich,3,0,H,79,74,5
+2015-12-28,Arsenal,Bournemouth,2,0,H,82,73,9
+2015-12-28,Crystal Palace,Swansea,0,0,D,76,76,0
+2015-12-28,Everton,Stoke,3,4,A,78,77,1
+2015-12-28,Man United,Chelsea,0,0,D,81,83,-2
+2015-12-28,Norwich,Aston Villa,2,0,H,74,75,-1
+2015-12-28,Watford,Tottenham,1,2,A,75,79,-4
+2015-12-28,West Brom,Newcastle,1,0,H,75,77,-2
+2015-12-28,West Ham,Southampton,2,1,H,77,77,0
+2015-12-29,Leicester,Man City,0,0,D,76,82,-6
+2015-12-30,Sunderland,Liverpool,0,1,A,75,79,-4
+2016-01-02,Arsenal,Newcastle,1,0,H,82,77,5
+2016-01-02,Leicester,Bournemouth,0,0,D,76,73,3
+2016-01-02,Man United,Swansea,2,1,H,81,76,5
+2016-01-02,Norwich,Southampton,1,0,H,74,77,-3
+2016-01-02,Sunderland,Aston Villa,3,1,H,75,75,0
+2016-01-02,Watford,Man City,1,2,A,75,82,-7
+2016-01-02,West Brom,Stoke,2,1,H,75,77,-2
+2016-01-02,West Ham,Liverpool,2,0,H,77,79,-2
+2016-01-03,Crystal Palace,Chelsea,0,3,A,76,83,-7
+2016-01-03,Everton,Tottenham,1,1,D,78,79,-1
+2016-01-12,Aston Villa,Crystal Palace,1,0,H,75,76,-1
+2016-01-12,Bournemouth,West Ham,1,3,A,73,77,-4
+2016-01-12,Newcastle,Man United,3,3,D,77,81,-4
+2016-01-13,Chelsea,West Brom,2,2,D,83,75,8
+2016-01-13,Liverpool,Arsenal,3,3,D,79,82,-3
+2016-01-13,Man City,Everton,0,0,D,82,78,4
+2016-01-13,Southampton,Watford,2,0,H,77,75,2
+2016-01-13,Stoke,Norwich,3,1,H,77,74,3
+2016-01-13,Swansea,Sunderland,2,4,A,76,75,1
+2016-01-13,Tottenham,Leicester,0,1,A,79,76,3
+2016-01-16,Aston Villa,Leicester,1,1,D,75,76,-1
+2016-01-16,Bournemouth,Norwich,3,0,H,73,74,-1
+2016-01-16,Chelsea,Everton,3,3,D,83,78,5
+2016-01-16,Man City,Crystal Palace,4,0,H,82,76,6
+2016-01-16,Newcastle,West Ham,2,1,H,77,77,0
+2016-01-16,Southampton,West Brom,3,0,H,77,75,2
+2016-01-16,Tottenham,Sunderland,4,1,H,79,75,4
+2016-01-17,Liverpool,Man United,0,1,A,79,81,-2
+2016-01-17,Stoke,Arsenal,0,0,D,77,82,-5
+2016-01-18,Swansea,Watford,1,0,H,76,75,1
+2016-01-23,Crystal Palace,Tottenham,1,3,A,76,79,-3
+2016-01-23,Leicester,Stoke,3,0,H,76,77,-1
+2016-01-23,Man United,Southampton,0,1,A,81,77,4
+2016-01-23,Norwich,Liverpool,4,5,A,74,79,-5
+2016-01-23,Sunderland,Bournemouth,1,1,D,75,73,2
+2016-01-23,Watford,Newcastle,2,1,H,75,77,-2
+2016-01-23,West Brom,Aston Villa,0,0,D,75,75,0
+2016-01-23,West Ham,Man City,2,2,D,77,82,-5
+2016-01-24,Arsenal,Chelsea,0,1,A,82,83,-1
+2016-01-24,Everton,Swansea,1,2,A,78,76,2
+2016-02-02,Arsenal,Southampton,0,0,D,82,77,5
+2016-02-02,Crystal Palace,Bournemouth,1,2,A,76,73,3
+2016-02-02,Leicester,Liverpool,2,0,H,76,79,-3
+2016-02-02,Man United,Stoke,3,0,H,81,77,4
+2016-02-02,Norwich,Tottenham,0,3,A,74,79,-5
+2016-02-02,Sunderland,Man City,0,1,A,75,82,-7
+2016-02-02,West Brom,Swansea,1,1,D,75,76,-1
+2016-02-02,West Ham,Aston Villa,2,0,H,77,75,2
+2016-02-03,Everton,Newcastle,3,0,H,78,77,1
+2016-02-03,Watford,Chelsea,0,0,D,75,83,-8
+2016-02-06,Aston Villa,Norwich,2,0,H,75,74,1
+2016-02-06,Liverpool,Sunderland,2,2,D,79,75,4
+2016-02-06,Man City,Leicester,1,3,A,82,76,6
+2016-02-06,Newcastle,West Brom,1,0,H,77,75,2
+2016-02-06,Southampton,West Ham,1,0,H,77,77,0
+2016-02-06,Stoke,Everton,0,3,A,77,78,-1
+2016-02-06,Swansea,Crystal Palace,1,1,D,76,76,0
+2016-02-06,Tottenham,Watford,1,0,H,79,75,4
+2016-02-07,Bournemouth,Arsenal,0,2,A,73,82,-9
+2016-02-07,Chelsea,Man United,1,1,D,83,81,2
+2016-02-13,Bournemouth,Stoke,1,3,A,73,77,-4
+2016-02-13,Chelsea,Newcastle,5,1,H,83,77,6
+2016-02-13,Crystal Palace,Watford,1,2,A,76,75,1
+2016-02-13,Everton,West Brom,0,1,A,78,75,3
+2016-02-13,Norwich,West Ham,2,2,D,74,77,-3
+2016-02-13,Sunderland,Man United,2,1,H,75,81,-6
+2016-02-13,Swansea,Southampton,0,1,A,76,77,-1
+2016-02-14,Arsenal,Leicester,2,1,H,82,76,6
+2016-02-14,Aston Villa,Liverpool,0,6,A,75,79,-4
+2016-02-14,Man City,Tottenham,1,2,A,82,79,3
+2016-02-27,Leicester,Norwich,1,0,H,76,74,2
+2016-02-27,Southampton,Chelsea,1,2,A,77,83,-6
+2016-02-27,Stoke,Aston Villa,2,1,H,77,75,2
+2016-02-27,Watford,Bournemouth,0,0,D,75,73,2
+2016-02-27,West Brom,Crystal Palace,3,2,H,75,76,-1
+2016-02-27,West Ham,Sunderland,1,0,H,77,75,2
+2016-02-28,Tottenham,Swansea,2,1,H,79,76,3
+2016-02-28,Man United,Arsenal,3,2,H,81,82,-1
+2016-03-01,Aston Villa,Everton,1,3,A,75,78,-3
+2016-03-01,Bournemouth,Southampton,2,0,H,73,77,-4
+2016-03-01,Leicester,West Brom,2,2,D,76,75,1
+2016-03-01,Norwich,Chelsea,1,2,A,74,83,-9
+2016-03-01,Sunderland,Crystal Palace,2,2,D,75,76,-1
+2016-03-02,Arsenal,Swansea,1,2,A,82,76,6
+2016-03-02,Liverpool,Man City,3,0,H,79,82,-3
+2016-03-02,Man United,Watford,1,0,H,81,75,6
+2016-03-02,Stoke,Newcastle,1,0,H,77,77,0
+2016-03-02,West Ham,Tottenham,1,0,H,77,79,-2
+2016-03-05,Chelsea,Stoke,1,1,D,83,77,6
+2016-03-05,Everton,West Ham,2,3,A,78,77,1
+2016-03-05,Man City,Aston Villa,4,0,H,82,75,7
+2016-03-05,Newcastle,Bournemouth,1,3,A,77,73,4
+2016-03-05,Southampton,Sunderland,1,1,D,77,75,2
+2016-03-05,Swansea,Norwich,1,0,H,76,74,2
+2016-03-05,Tottenham,Arsenal,2,2,D,79,82,-3
+2016-03-05,Watford,Leicester,0,1,A,75,76,-1
+2016-03-06,Crystal Palace,Liverpool,1,2,A,76,79,-3
+2016-03-06,West Brom,Man United,1,0,H,75,81,-6
+2016-03-12,Bournemouth,Swansea,3,2,H,73,76,-3
+2016-03-12,Norwich,Man City,0,0,D,74,82,-8
+2016-03-12,Stoke,Southampton,1,2,A,77,77,0
+2016-03-13,Aston Villa,Tottenham,0,2,A,75,79,-4
+2016-03-14,Leicester,Newcastle,1,0,H,76,77,-1
+2016-03-19,Chelsea,West Ham,2,2,D,83,77,6
+2016-03-19,Crystal Palace,Leicester,0,1,A,76,76,0
+2016-03-19,Everton,Arsenal,0,2,A,78,82,-4
+2016-03-19,Swansea,Aston Villa,1,0,H,76,75,1
+2016-03-19,Watford,Stoke,1,2,A,75,77,-2
+2016-03-19,West Brom,Norwich,0,1,A,75,74,1
+2016-03-20,Man City,Man United,0,1,A,82,81,1
+2016-03-20,Newcastle,Sunderland,1,1,D,77,75,2
+2016-03-20,Southampton,Liverpool,3,2,H,77,79,-2
+2016-03-20,Tottenham,Bournemouth,3,0,H,79,73,6
+2016-04-02,Arsenal,Watford,4,0,H,82,75,7
+2016-04-02,Aston Villa,Chelsea,0,4,A,75,83,-8
+2016-04-02,Bournemouth,Man City,0,4,A,73,82,-9
+2016-04-02,Liverpool,Tottenham,1,1,D,79,79,0
+2016-04-02,Norwich,Newcastle,3,2,H,74,77,-3
+2016-04-02,Stoke,Swansea,2,2,D,77,76,1
+2016-04-02,Sunderland,West Brom,0,0,D,75,75,0
+2016-04-02,West Ham,Crystal Palace,2,2,D,77,76,1
+2016-04-03,Leicester,Southampton,1,0,H,76,77,-1
+2016-04-03,Man United,Everton,1,0,H,81,78,3
+2016-04-09,Aston Villa,Bournemouth,1,2,A,75,73,2
+2016-04-09,Crystal Palace,Norwich,1,0,H,76,74,2
+2016-04-09,Man City,West Brom,2,1,H,82,75,7
+2016-04-09,Southampton,Newcastle,3,1,H,77,77,0
+2016-04-09,Swansea,Chelsea,1,0,H,76,83,-7
+2016-04-09,Watford,Everton,1,1,D,75,78,-3
+2016-04-09,West Ham,Arsenal,3,3,D,77,82,-5
+2016-04-10,Liverpool,Stoke,4,1,H,79,77,2
+2016-04-10,Sunderland,Leicester,0,2,A,75,76,-1
+2016-04-10,Tottenham,Man United,3,0,H,79,81,-2
+2016-04-13,Crystal Palace,Everton,0,0,D,76,78,-2
+2016-04-16,Chelsea,Man City,0,3,A,83,82,1
+2016-04-16,Everton,Southampton,1,1,D,78,77,1
+2016-04-16,Man United,Aston Villa,1,0,H,81,75,6
+2016-04-16,Newcastle,Swansea,3,0,H,77,76,1
+2016-04-16,Norwich,Sunderland,0,3,A,74,75,-1
+2016-04-16,West Brom,Watford,0,1,A,75,75,0
+2016-04-17,Arsenal,Crystal Palace,1,1,D,82,76,6
+2016-04-17,Bournemouth,Liverpool,1,2,A,73,79,-6
+2016-04-17,Leicester,West Ham,2,2,D,76,77,-1
+2016-04-18,Stoke,Tottenham,0,4,A,77,79,-2
+2016-04-19,Newcastle,Man City,1,1,D,77,82,-5
+2016-04-20,Liverpool,Everton,4,0,H,79,78,1
+2016-04-20,Man United,Crystal Palace,2,0,H,81,76,5
+2016-04-20,West Ham,Watford,3,1,H,77,75,2
+2016-04-21,Arsenal,West Brom,2,0,H,82,75,7
+2016-04-23,Aston Villa,Southampton,2,4,A,75,77,-2
+2016-04-23,Bournemouth,Chelsea,1,4,A,73,83,-10
+2016-04-23,Liverpool,Newcastle,2,2,D,79,77,2
+2016-04-23,Man City,Stoke,4,0,H,82,77,5
+2016-04-24,Leicester,Swansea,4,0,H,76,76,0
+2016-04-24,Sunderland,Arsenal,0,0,D,75,82,-7
+2016-04-25,Tottenham,West Brom,1,1,D,79,75,4
+2016-04-30,Arsenal,Norwich,1,0,H,82,74,8
+2016-04-30,Everton,Bournemouth,2,1,H,78,73,5
+2016-04-30,Newcastle,Crystal Palace,1,0,H,77,76,1
+2016-04-30,Stoke,Sunderland,1,1,D,77,75,2
+2016-04-30,Watford,Aston Villa,3,2,H,75,75,0
+2016-04-30,West Brom,West Ham,0,3,A,75,77,-2
+2016-05-01,Man United,Leicester,1,1,D,81,76,5
+2016-05-01,Southampton,Man City,4,2,H,77,82,-5
+2016-05-01,Swansea,Liverpool,3,1,H,76,79,-3
+2016-05-02,Chelsea,Tottenham,2,2,D,83,79,4
+2016-05-07,Aston Villa,Newcastle,0,0,D,75,77,-2
+2016-05-07,Bournemouth,West Brom,1,1,D,73,75,-2
+2016-05-07,Crystal Palace,Stoke,2,1,H,76,77,-1
+2016-05-07,Leicester,Everton,3,1,H,76,78,-2
+2016-05-07,Norwich,Man United,0,1,A,74,81,-7
+2016-05-07,Sunderland,Chelsea,3,2,H,75,83,-8
+2016-05-07,West Ham,Swansea,1,4,A,77,76,1
+2016-05-08,Liverpool,Watford,2,0,H,79,75,4
+2016-05-08,Man City,Arsenal,2,2,D,82,82,0
+2016-05-08,Tottenham,Southampton,1,2,A,79,77,2
+2016-05-10,West Ham,Man United,3,2,H,77,81,-4
+2016-05-11,Liverpool,Chelsea,1,1,D,79,83,-4
+2016-05-11,Norwich,Watford,4,2,H,74,75,-1
+2016-05-11,Sunderland,Everton,3,0,H,75,78,-3
+2016-05-15,Arsenal,Aston Villa,4,0,H,82,75,7
+2016-05-15,Chelsea,Leicester,1,1,D,83,76,7
+2016-05-15,Everton,Norwich,3,0,H,78,74,4
+2016-05-15,Newcastle,Tottenham,5,1,H,77,79,-2
+2016-05-15,Southampton,Crystal Palace,4,1,H,77,76,1
+2016-05-15,Stoke,West Ham,2,1,H,77,77,0
+2016-05-15,Swansea,Man City,1,1,D,76,82,-6
+2016-05-15,Watford,Sunderland,2,2,D,75,75,0
+2016-05-15,West Brom,Liverpool,1,1,D,75,79,-4
+2016-05-17,Man United,Bournemouth,3,1,H,81,73,8

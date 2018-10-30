@@ -4,6 +4,11 @@ import os
 import pandas as pd
 import numpy as np
 import math
+from distutils.dir_util import copy_tree
+
+# Copy Raw claened data to cleaned data to predict 
+def copy_csv(raw_cleaned_path, cleaned_path):
+    copy_tree(raw_cleaned_path, cleaned_path)
 
 
 # clean the original raw data by storing only the columns that we need, and removing the rest.

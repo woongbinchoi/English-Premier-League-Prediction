@@ -1,0 +1,381 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,OVA_diff
+2006-08-19,Arsenal,Aston Villa,1,1,D,82,75,7
+2006-08-19,Bolton,Tottenham,2,0,H,76,79,-3
+2006-08-19,Everton,Watford,2,1,H,77,68,9
+2006-08-19,Newcastle,Wigan,2,1,H,79,74,5
+2006-08-19,Portsmouth,Blackburn,3,0,H,75,77,-2
+2006-08-19,Reading,Middlesbrough,3,2,H,71,76,-5
+2006-08-19,Sheffield United,Liverpool,1,1,D,72,81,-9
+2006-08-19,West Ham,Charlton,3,1,H,76,75,1
+2006-08-20,Chelsea,Man City,3,0,H,84,77,7
+2006-08-20,Man United,Fulham,5,1,H,82,75,7
+2006-08-22,Tottenham,Sheffield United,2,0,H,79,72,7
+2006-08-22,Watford,West Ham,1,1,D,68,76,-8
+2006-08-23,Aston Villa,Reading,2,1,H,75,71,4
+2006-08-23,Blackburn,Everton,1,1,D,77,77,0
+2006-08-23,Charlton,Man United,0,3,A,75,82,-7
+2006-08-23,Fulham,Bolton,1,1,D,75,76,-1
+2006-08-23,Man City,Portsmouth,0,0,D,77,75,2
+2006-08-23,Middlesbrough,Chelsea,2,1,H,76,84,-8
+2006-08-26,Charlton,Bolton,2,0,H,75,76,-1
+2006-08-26,Fulham,Sheffield United,1,0,H,75,72,3
+2006-08-26,Liverpool,West Ham,2,1,H,81,76,5
+2006-08-26,Man City,Arsenal,1,0,H,77,82,-5
+2006-08-26,Tottenham,Everton,0,2,A,79,77,2
+2006-08-26,Watford,Man United,1,2,A,68,82,-14
+2006-08-26,Wigan,Reading,1,0,H,74,71,3
+2006-08-27,Aston Villa,Newcastle,2,0,H,75,79,-4
+2006-08-27,Blackburn,Chelsea,0,2,A,77,84,-7
+2006-08-28,Middlesbrough,Portsmouth,0,4,A,76,75,1
+2006-09-09,Arsenal,Middlesbrough,1,1,D,82,76,6
+2006-09-09,Bolton,Watford,1,0,H,76,68,8
+2006-09-09,Chelsea,Charlton,2,1,H,84,75,9
+2006-09-09,Everton,Liverpool,3,0,H,77,81,-4
+2006-09-09,Man United,Tottenham,1,0,H,82,79,3
+2006-09-09,Newcastle,Fulham,1,2,A,79,75,4
+2006-09-09,Portsmouth,Wigan,1,0,H,75,74,1
+2006-09-09,Sheffield United,Blackburn,0,0,D,72,77,-5
+2006-09-10,West Ham,Aston Villa,1,1,D,76,75,1
+2006-09-11,Reading,Man City,1,0,H,71,77,-6
+2006-09-16,Bolton,Middlesbrough,0,0,D,76,76,0
+2006-09-16,Charlton,Portsmouth,0,1,A,75,75,0
+2006-09-16,Everton,Wigan,2,2,D,77,74,3
+2006-09-16,Sheffield United,Reading,1,2,A,72,71,1
+2006-09-16,Watford,Aston Villa,0,0,D,68,75,-7
+2006-09-17,Blackburn,Man City,4,2,H,77,77,0
+2006-09-17,Chelsea,Liverpool,1,0,H,84,81,3
+2006-09-17,Man United,Arsenal,0,1,A,82,82,0
+2006-09-17,Tottenham,Fulham,0,0,D,79,75,4
+2006-09-17,West Ham,Newcastle,0,2,A,76,79,-3
+2006-09-20,Liverpool,Newcastle,2,0,H,81,79,2
+2006-09-23,Arsenal,Sheffield United,3,0,H,82,72,10
+2006-09-23,Aston Villa,Charlton,2,0,H,75,75,0
+2006-09-23,Fulham,Chelsea,0,2,A,75,84,-9
+2006-09-23,Liverpool,Tottenham,3,0,H,81,79,2
+2006-09-23,Man City,West Ham,2,0,H,77,76,1
+2006-09-23,Middlesbrough,Blackburn,0,1,A,76,77,-1
+2006-09-23,Reading,Man United,1,1,D,71,82,-11
+2006-09-23,Wigan,Watford,1,1,D,74,68,6
+2006-09-24,Newcastle,Everton,1,1,D,79,77,2
+2006-09-25,Portsmouth,Bolton,0,1,A,75,76,-1
+2006-09-30,Bolton,Liverpool,2,0,H,76,81,-5
+2006-09-30,Charlton,Arsenal,1,2,A,75,82,-7
+2006-09-30,Chelsea,Aston Villa,1,1,D,84,75,9
+2006-09-30,Everton,Man City,1,1,D,77,77,0
+2006-09-30,Sheffield United,Middlesbrough,2,1,H,72,76,-4
+2006-10-01,Blackburn,Wigan,2,1,H,77,74,3
+2006-10-01,Man United,Newcastle,2,0,H,82,79,3
+2006-10-01,Tottenham,Portsmouth,2,1,H,79,75,4
+2006-10-01,West Ham,Reading,0,1,A,76,71,5
+2006-10-02,Watford,Fulham,3,3,D,68,75,-7
+2006-10-14,Arsenal,Watford,3,0,H,82,68,14
+2006-10-14,Aston Villa,Tottenham,1,1,D,75,79,-4
+2006-10-14,Liverpool,Blackburn,1,1,D,81,77,4
+2006-10-14,Man City,Sheffield United,0,0,D,77,72,5
+2006-10-14,Middlesbrough,Everton,2,1,H,76,77,-1
+2006-10-14,Portsmouth,West Ham,2,0,H,75,76,-1
+2006-10-14,Reading,Chelsea,0,1,A,71,84,-13
+2006-10-14,Wigan,Man United,1,3,A,74,82,-8
+2006-10-15,Newcastle,Bolton,1,2,A,79,76,3
+2006-10-16,Fulham,Charlton,2,1,H,75,75,0
+2006-10-21,Aston Villa,Fulham,1,1,D,75,75,0
+2006-10-21,Charlton,Watford,0,0,D,75,68,7
+2006-10-21,Chelsea,Portsmouth,2,1,H,84,75,9
+2006-10-21,Everton,Sheffield United,2,0,H,77,72,5
+2006-10-21,Wigan,Man City,4,0,H,74,77,-3
+2006-10-22,Blackburn,Bolton,0,1,A,77,76,1
+2006-10-22,Man United,Liverpool,2,0,H,82,81,1
+2006-10-22,Middlesbrough,Newcastle,1,0,H,76,79,-3
+2006-10-22,Reading,Arsenal,0,4,A,71,82,-11
+2006-10-22,Tottenham,West Ham,1,0,H,79,76,3
+2006-10-28,Arsenal,Everton,1,1,D,82,77,5
+2006-10-28,Bolton,Man United,0,4,A,76,82,-6
+2006-10-28,Fulham,Wigan,0,1,A,75,74,1
+2006-10-28,Liverpool,Aston Villa,3,1,H,81,75,6
+2006-10-28,Newcastle,Charlton,0,0,D,79,75,4
+2006-10-28,Portsmouth,Reading,3,1,H,75,71,4
+2006-10-28,Sheffield United,Chelsea,0,2,A,72,84,-12
+2006-10-28,Watford,Tottenham,0,0,D,68,79,-11
+2006-10-29,West Ham,Blackburn,2,1,H,76,77,-1
+2006-10-30,Man City,Middlesbrough,1,0,H,77,76,1
+2006-11-04,Bolton,Wigan,0,1,A,76,74,2
+2006-11-04,Charlton,Man City,1,0,H,75,77,-2
+2006-11-04,Fulham,Everton,1,0,H,75,77,-2
+2006-11-04,Liverpool,Reading,2,0,H,81,71,10
+2006-11-04,Man United,Portsmouth,3,0,H,82,75,7
+2006-11-04,Newcastle,Sheffield United,0,1,A,79,72,7
+2006-11-04,Watford,Middlesbrough,2,0,H,68,76,-8
+2006-11-05,Aston Villa,Blackburn,2,0,H,75,77,-2
+2006-11-05,Tottenham,Chelsea,2,1,H,79,84,-5
+2006-11-05,West Ham,Arsenal,1,0,H,76,82,-6
+2006-11-11,Blackburn,Man United,0,1,A,77,82,-5
+2006-11-11,Chelsea,Watford,4,0,H,84,68,16
+2006-11-11,Everton,Aston Villa,0,1,A,77,75,2
+2006-11-11,Man City,Newcastle,0,0,D,77,79,-2
+2006-11-11,Middlesbrough,West Ham,1,0,H,76,76,0
+2006-11-11,Portsmouth,Fulham,1,1,D,75,75,0
+2006-11-11,Sheffield United,Bolton,2,2,D,72,76,-4
+2006-11-11,Wigan,Charlton,3,2,H,74,75,-1
+2006-11-12,Arsenal,Liverpool,3,0,H,82,81,1
+2006-11-12,Reading,Tottenham,3,1,H,71,79,-8
+2006-11-18,Arsenal,Newcastle,1,1,D,82,79,3
+2006-11-18,Chelsea,West Ham,1,0,H,84,76,8
+2006-11-18,Everton,Bolton,1,0,H,77,76,1
+2006-11-18,Man City,Fulham,3,1,H,77,75,2
+2006-11-18,Middlesbrough,Liverpool,0,0,D,76,81,-5
+2006-11-18,Portsmouth,Watford,2,1,H,75,68,7
+2006-11-18,Reading,Charlton,2,0,H,71,75,-4
+2006-11-18,Sheffield United,Man United,1,2,A,72,82,-10
+2006-11-19,Blackburn,Tottenham,1,1,D,77,79,-2
+2006-11-19,Wigan,Aston Villa,0,0,D,74,75,-1
+2006-11-25,Aston Villa,Middlesbrough,1,1,D,75,76,-1
+2006-11-25,Bolton,Arsenal,3,1,H,76,82,-6
+2006-11-25,Charlton,Everton,1,1,D,75,77,-2
+2006-11-25,Fulham,Reading,0,1,A,75,71,4
+2006-11-25,Liverpool,Man City,1,0,H,81,77,4
+2006-11-25,West Ham,Sheffield United,1,0,H,76,72,4
+2006-11-26,Man United,Chelsea,1,1,D,82,84,-2
+2006-11-26,Newcastle,Portsmouth,1,0,H,79,75,4
+2006-11-26,Tottenham,Wigan,3,1,H,79,74,5
+2006-11-28,Watford,Sheffield United,0,1,A,68,72,-4
+2006-11-29,Aston Villa,Man City,1,3,A,75,77,-2
+2006-11-29,Bolton,Chelsea,0,1,A,76,84,-8
+2006-11-29,Fulham,Arsenal,2,1,H,75,82,-7
+2006-11-29,Liverpool,Portsmouth,0,0,D,81,75,6
+2006-11-29,Man United,Everton,3,0,H,82,77,5
+2006-12-02,Arsenal,Tottenham,3,0,H,82,79,3
+2006-12-02,Blackburn,Fulham,2,0,H,77,75,2
+2006-12-02,Middlesbrough,Man United,1,2,A,76,82,-6
+2006-12-02,Portsmouth,Aston Villa,2,2,D,75,75,0
+2006-12-02,Reading,Bolton,1,0,H,71,76,-5
+2006-12-02,Sheffield United,Charlton,2,1,H,72,75,-3
+2006-12-02,Wigan,Liverpool,0,4,A,74,81,-7
+2006-12-03,Everton,West Ham,2,0,H,77,76,1
+2006-12-04,Man City,Watford,0,0,D,77,68,9
+2006-12-05,Charlton,Blackburn,1,0,H,75,77,-2
+2006-12-05,Tottenham,Middlesbrough,2,1,H,79,76,3
+2006-12-06,Newcastle,Reading,3,2,H,79,71,8
+2006-12-06,West Ham,Wigan,0,2,A,76,74,2
+2006-12-09,Blackburn,Newcastle,1,3,A,77,79,-2
+2006-12-09,Bolton,West Ham,4,0,H,76,76,0
+2006-12-09,Liverpool,Fulham,4,0,H,81,75,6
+2006-12-09,Man United,Man City,3,1,H,82,77,5
+2006-12-09,Middlesbrough,Wigan,1,1,D,76,74,2
+2006-12-09,Portsmouth,Everton,2,0,H,75,77,-2
+2006-12-09,Tottenham,Charlton,5,1,H,79,75,4
+2006-12-09,Watford,Reading,0,0,D,68,71,-3
+2006-12-10,Chelsea,Arsenal,1,1,D,84,82,2
+2006-12-11,Sheffield United,Aston Villa,2,2,D,72,75,-3
+2006-12-13,Chelsea,Newcastle,1,0,H,84,79,5
+2006-12-13,Wigan,Arsenal,0,1,A,74,82,-8
+2006-12-16,Arsenal,Portsmouth,2,2,D,82,75,7
+2006-12-16,Aston Villa,Bolton,0,1,A,75,76,-1
+2006-12-16,Charlton,Liverpool,0,3,A,75,81,-6
+2006-12-16,Newcastle,Watford,2,1,H,79,68,11
+2006-12-16,Reading,Blackburn,1,2,A,71,77,-6
+2006-12-16,Wigan,Sheffield United,0,1,A,74,72,2
+2006-12-17,Everton,Chelsea,2,3,A,77,84,-7
+2006-12-17,Man City,Tottenham,1,2,A,77,79,-2
+2006-12-17,West Ham,Man United,1,0,H,76,82,-6
+2006-12-18,Fulham,Middlesbrough,2,1,H,75,76,-1
+2006-12-23,Arsenal,Blackburn,6,2,H,82,77,5
+2006-12-23,Aston Villa,Man United,0,3,A,75,82,-7
+2006-12-23,Fulham,West Ham,0,0,D,75,76,-1
+2006-12-23,Liverpool,Watford,2,0,H,81,68,13
+2006-12-23,Man City,Bolton,0,2,A,77,76,1
+2006-12-23,Middlesbrough,Charlton,2,0,H,76,75,1
+2006-12-23,Newcastle,Tottenham,3,1,H,79,79,0
+2006-12-23,Portsmouth,Sheffield United,3,1,H,75,72,3
+2006-12-23,Reading,Everton,0,2,A,71,77,-6
+2006-12-23,Wigan,Chelsea,2,3,A,74,84,-10
+2006-12-26,Blackburn,Liverpool,1,0,H,77,81,-4
+2006-12-26,Bolton,Newcastle,2,1,H,76,79,-3
+2006-12-26,Chelsea,Reading,2,2,D,84,71,13
+2006-12-26,Everton,Middlesbrough,0,0,D,77,76,1
+2006-12-26,Man United,Wigan,3,1,H,82,74,8
+2006-12-26,Sheffield United,Man City,0,1,A,72,77,-5
+2006-12-26,Tottenham,Aston Villa,2,1,H,79,75,4
+2006-12-26,Watford,Arsenal,1,2,A,68,82,-14
+2006-12-26,West Ham,Portsmouth,1,2,A,76,75,1
+2006-12-27,Charlton,Fulham,2,2,D,75,75,0
+2006-12-30,Blackburn,Middlesbrough,2,1,H,77,76,1
+2006-12-30,Bolton,Portsmouth,3,2,H,76,75,1
+2006-12-30,Charlton,Aston Villa,2,1,H,75,75,0
+2006-12-30,Chelsea,Fulham,2,2,D,84,75,9
+2006-12-30,Everton,Newcastle,3,0,H,77,79,-2
+2006-12-30,Man United,Reading,3,2,H,82,71,11
+2006-12-30,Sheffield United,Arsenal,1,0,H,72,82,-10
+2006-12-30,Tottenham,Liverpool,0,1,A,79,81,-2
+2006-12-30,West Ham,Man City,0,1,A,76,77,-1
+2007-01-01,Fulham,Watford,0,0,D,75,68,7
+2007-01-01,Liverpool,Bolton,3,0,H,81,76,5
+2007-01-01,Man City,Everton,2,1,H,77,77,0
+2007-01-01,Middlesbrough,Sheffield United,3,1,H,76,72,4
+2007-01-01,Newcastle,Man United,2,2,D,79,82,-3
+2007-01-01,Portsmouth,Tottenham,1,1,D,75,79,-4
+2007-01-01,Reading,West Ham,6,0,H,71,76,-5
+2007-01-01,Wigan,Blackburn,0,3,A,74,77,-3
+2007-01-02,Arsenal,Charlton,4,0,H,82,75,7
+2007-01-02,Aston Villa,Chelsea,0,0,D,75,84,-9
+2007-01-13,Blackburn,Arsenal,0,2,A,77,82,-5
+2007-01-13,Bolton,Man City,0,0,D,76,77,-1
+2007-01-13,Charlton,Middlesbrough,1,3,A,75,76,-1
+2007-01-13,Chelsea,Wigan,4,0,H,84,74,10
+2007-01-13,Man United,Aston Villa,3,1,H,82,75,7
+2007-01-13,Sheffield United,Portsmouth,1,1,D,72,75,-3
+2007-01-13,Watford,Liverpool,0,3,A,68,81,-13
+2007-01-13,West Ham,Fulham,3,3,D,76,75,1
+2007-01-14,Everton,Reading,1,1,D,77,71,6
+2007-01-14,Tottenham,Newcastle,2,3,A,79,79,0
+2007-01-20,Aston Villa,Watford,2,0,H,75,68,7
+2007-01-20,Fulham,Tottenham,1,1,D,75,79,-4
+2007-01-20,Liverpool,Chelsea,2,0,H,81,84,-3
+2007-01-20,Man City,Blackburn,0,3,A,77,77,0
+2007-01-20,Middlesbrough,Bolton,5,1,H,76,76,0
+2007-01-20,Newcastle,West Ham,2,2,D,79,76,3
+2007-01-20,Portsmouth,Charlton,0,1,A,75,75,0
+2007-01-20,Reading,Sheffield United,3,1,H,71,72,-1
+2007-01-21,Arsenal,Man United,2,1,H,82,82,0
+2007-01-21,Wigan,Everton,0,2,A,74,77,-3
+2007-01-23,Watford,Blackburn,2,1,H,68,77,-9
+2007-01-30,Portsmouth,Middlesbrough,0,0,D,75,76,-1
+2007-01-30,Reading,Wigan,3,2,H,71,74,-3
+2007-01-30,Sheffield United,Fulham,2,0,H,72,75,-3
+2007-01-30,West Ham,Liverpool,1,2,A,76,81,-5
+2007-01-31,Bolton,Charlton,1,1,D,76,75,1
+2007-01-31,Chelsea,Blackburn,3,0,H,84,77,7
+2007-01-31,Man United,Watford,4,0,H,82,68,14
+2007-01-31,Newcastle,Aston Villa,3,1,H,79,75,4
+2007-02-03,Aston Villa,West Ham,1,0,H,75,76,-1
+2007-02-03,Blackburn,Sheffield United,2,1,H,77,72,5
+2007-02-03,Charlton,Chelsea,0,1,A,75,84,-9
+2007-02-03,Fulham,Newcastle,2,1,H,75,79,-4
+2007-02-03,Liverpool,Everton,0,0,D,81,77,4
+2007-02-03,Man City,Reading,0,2,A,77,71,6
+2007-02-03,Middlesbrough,Arsenal,1,1,D,76,82,-6
+2007-02-03,Watford,Bolton,0,1,A,68,76,-8
+2007-02-03,Wigan,Portsmouth,1,0,H,74,75,-1
+2007-02-04,Tottenham,Man United,0,4,A,79,82,-3
+2007-02-10,Chelsea,Middlesbrough,3,0,H,84,76,8
+2007-02-10,Everton,Blackburn,1,0,H,77,77,0
+2007-02-10,Man United,Charlton,2,0,H,82,75,7
+2007-02-10,Newcastle,Liverpool,2,1,H,79,81,-2
+2007-02-10,Portsmouth,Man City,2,1,H,75,77,-2
+2007-02-10,Reading,Aston Villa,2,0,H,71,75,-4
+2007-02-10,Sheffield United,Tottenham,2,1,H,72,79,-7
+2007-02-10,West Ham,Watford,0,1,A,76,68,8
+2007-02-11,Arsenal,Wigan,2,1,H,82,74,8
+2007-02-11,Bolton,Fulham,2,1,H,76,75,1
+2007-02-21,Everton,Tottenham,1,2,A,77,79,-2
+2007-02-21,Watford,Wigan,1,1,D,68,74,-6
+2007-02-24,Charlton,West Ham,4,0,H,75,76,-1
+2007-02-24,Fulham,Man United,1,2,A,75,82,-7
+2007-02-24,Liverpool,Sheffield United,4,0,H,81,72,9
+2007-02-24,Middlesbrough,Reading,2,1,H,76,71,5
+2007-02-24,Watford,Everton,0,3,A,68,77,-9
+2007-02-25,Blackburn,Portsmouth,3,0,H,77,75,2
+2007-02-25,Tottenham,Bolton,4,1,H,79,76,3
+2007-02-25,Wigan,Newcastle,1,0,H,74,79,-5
+2007-03-03,Arsenal,Reading,2,1,H,82,71,11
+2007-03-03,Fulham,Aston Villa,1,1,D,75,75,0
+2007-03-03,Liverpool,Man United,0,1,A,81,82,-1
+2007-03-03,Man City,Wigan,0,1,A,77,74,3
+2007-03-03,Newcastle,Middlesbrough,0,0,D,79,76,3
+2007-03-03,Portsmouth,Chelsea,0,2,A,75,84,-9
+2007-03-03,Sheffield United,Everton,1,1,D,72,77,-5
+2007-03-03,Watford,Charlton,2,2,D,68,75,-7
+2007-03-04,Bolton,Blackburn,1,2,A,76,77,-1
+2007-03-04,West Ham,Tottenham,3,4,A,76,79,-3
+2007-03-14,Aston Villa,Arsenal,0,1,A,75,82,-7
+2007-03-14,Man City,Chelsea,0,1,A,77,84,-7
+2007-03-17,Blackburn,West Ham,1,2,A,77,76,1
+2007-03-17,Chelsea,Sheffield United,3,0,H,84,72,12
+2007-03-17,Man United,Bolton,4,1,H,82,76,6
+2007-03-17,Middlesbrough,Man City,0,2,A,76,77,-1
+2007-03-17,Reading,Portsmouth,0,0,D,71,75,-4
+2007-03-17,Tottenham,Watford,3,1,H,79,68,11
+2007-03-17,Wigan,Fulham,0,0,D,74,75,-1
+2007-03-18,Aston Villa,Liverpool,0,0,D,75,81,-6
+2007-03-18,Charlton,Newcastle,2,0,H,75,79,-4
+2007-03-18,Everton,Arsenal,1,0,H,77,82,-5
+2007-03-31,Bolton,Sheffield United,1,0,H,76,72,4
+2007-03-31,Charlton,Wigan,1,0,H,75,74,1
+2007-03-31,Fulham,Portsmouth,1,1,D,75,75,0
+2007-03-31,Liverpool,Arsenal,4,1,H,81,82,-1
+2007-03-31,Man United,Blackburn,4,1,H,82,77,5
+2007-03-31,Newcastle,Man City,0,1,A,79,77,2
+2007-03-31,Watford,Chelsea,0,1,A,68,84,-16
+2007-03-31,West Ham,Middlesbrough,2,0,H,76,76,0
+2007-04-01,Tottenham,Reading,1,0,H,79,71,8
+2007-04-02,Aston Villa,Everton,1,1,D,75,77,-2
+2007-04-06,Everton,Fulham,4,1,H,77,75,2
+2007-04-06,Man City,Charlton,0,0,D,77,75,2
+2007-04-07,Arsenal,West Ham,0,1,A,82,76,6
+2007-04-07,Blackburn,Aston Villa,1,2,A,77,75,2
+2007-04-07,Chelsea,Tottenham,1,0,H,84,79,5
+2007-04-07,Middlesbrough,Watford,4,1,H,76,68,8
+2007-04-07,Portsmouth,Man United,2,1,H,75,82,-7
+2007-04-07,Reading,Liverpool,1,2,A,71,81,-10
+2007-04-07,Sheffield United,Newcastle,1,2,A,72,79,-7
+2007-04-07,Wigan,Bolton,1,3,A,74,76,-2
+2007-04-09,Aston Villa,Wigan,1,1,D,75,74,1
+2007-04-09,Bolton,Everton,1,1,D,76,77,-1
+2007-04-09,Charlton,Reading,0,0,D,75,71,4
+2007-04-09,Fulham,Man City,1,3,A,75,77,-2
+2007-04-09,Newcastle,Arsenal,0,0,D,79,82,-3
+2007-04-09,Watford,Portsmouth,4,2,H,68,75,-7
+2007-04-14,Arsenal,Bolton,2,1,H,82,76,6
+2007-04-14,Man City,Liverpool,0,0,D,77,81,-4
+2007-04-14,Middlesbrough,Aston Villa,1,3,A,76,75,1
+2007-04-14,Portsmouth,Newcastle,2,1,H,75,79,-4
+2007-04-14,Reading,Fulham,1,0,H,71,75,-4
+2007-04-14,Sheffield United,West Ham,3,0,H,72,76,-4
+2007-04-15,Everton,Charlton,2,1,H,77,75,2
+2007-04-15,Wigan,Tottenham,3,3,D,74,79,-5
+2007-04-17,Arsenal,Man City,3,1,H,82,77,5
+2007-04-17,Man United,Sheffield United,2,0,H,82,72,10
+2007-04-18,Blackburn,Watford,3,1,H,77,68,9
+2007-04-18,Liverpool,Middlesbrough,2,0,H,81,76,5
+2007-04-18,West Ham,Chelsea,1,4,A,76,84,-8
+2007-04-21,Bolton,Reading,1,3,A,76,71,5
+2007-04-21,Charlton,Sheffield United,1,1,D,75,72,3
+2007-04-21,Fulham,Blackburn,1,1,D,75,77,-2
+2007-04-21,Liverpool,Wigan,2,0,H,81,74,7
+2007-04-21,Man United,Middlesbrough,1,1,D,82,76,6
+2007-04-21,Tottenham,Arsenal,2,2,D,79,82,-3
+2007-04-21,Watford,Man City,1,1,D,68,77,-9
+2007-04-21,West Ham,Everton,1,0,H,76,77,-1
+2007-04-22,Aston Villa,Portsmouth,0,0,D,75,75,0
+2007-04-22,Newcastle,Chelsea,0,0,D,79,84,-5
+2007-04-28,Blackburn,Charlton,4,1,H,77,75,2
+2007-04-28,Chelsea,Bolton,2,2,D,84,76,8
+2007-04-28,Everton,Man United,2,4,A,77,82,-5
+2007-04-28,Man City,Aston Villa,0,2,A,77,75,2
+2007-04-28,Middlesbrough,Tottenham,2,3,A,76,79,-3
+2007-04-28,Portsmouth,Liverpool,2,1,H,75,81,-6
+2007-04-28,Sheffield United,Watford,1,0,H,72,68,4
+2007-04-28,Wigan,West Ham,0,3,A,74,76,-2
+2007-04-29,Arsenal,Fulham,3,1,H,82,75,7
+2007-04-30,Reading,Newcastle,1,0,H,71,79,-8
+2007-05-05,Aston Villa,Sheffield United,3,0,H,75,72,3
+2007-05-05,Everton,Portsmouth,3,0,H,77,75,2
+2007-05-05,Fulham,Liverpool,1,0,H,75,81,-6
+2007-05-05,Man City,Man United,0,1,A,77,82,-5
+2007-05-05,Newcastle,Blackburn,0,2,A,79,77,2
+2007-05-05,Reading,Watford,0,2,A,71,68,3
+2007-05-05,West Ham,Bolton,3,1,H,76,76,0
+2007-05-05,Wigan,Middlesbrough,0,1,A,74,76,-2
+2007-05-06,Arsenal,Chelsea,1,1,D,82,84,-2
+2007-05-07,Charlton,Tottenham,0,2,A,75,79,-4
+2007-05-09,Chelsea,Man United,0,0,D,84,82,2
+2007-05-10,Tottenham,Blackburn,1,1,D,79,77,2
+2007-05-13,Blackburn,Reading,3,3,D,77,71,6
+2007-05-13,Bolton,Aston Villa,2,2,D,76,75,1
+2007-05-13,Chelsea,Everton,1,1,D,84,77,7
+2007-05-13,Liverpool,Charlton,2,2,D,81,75,6
+2007-05-13,Man United,West Ham,0,1,A,82,76,6
+2007-05-13,Middlesbrough,Fulham,3,1,H,76,75,1
+2007-05-13,Portsmouth,Arsenal,0,0,D,75,82,-7
+2007-05-13,Sheffield United,Wigan,1,2,A,72,74,-2
+2007-05-13,Tottenham,Man City,2,1,H,79,77,2
+2007-05-13,Watford,Newcastle,1,1,D,68,79,-11

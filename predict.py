@@ -34,6 +34,7 @@ from scipy.stats import expon
 def prepare_data(data, drop_na=True):
     ''' Drops unnecessary columns, Fill or Drop rows containing N/A, and pre-processes the columns.'''
     data = data.drop(columns=['Date', 'HomeTeam', 'AwayTeam'])
+    data = data.drop(columns=['FTHG','FTAG'])
     data = data.drop(columns=['HT_goal_for', 'AT_goal_for', 'HT_goal_against', 'AT_goal_against'])
     #data = data.drop(columns=['HT_3_win_streak', 'HT_5_win_streak', 'HT_3_lose_Streak', 'HT_5_lose_Streak', 
     #                          'AT_3_win_streak', 'AT_5_win_streak', 'AT_3_lose_Streak', 'AT_5_lose_Streak'])

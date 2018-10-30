@@ -1,0 +1,381 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,OVA_diff
+2009-08-15,Aston Villa,Wigan,0,2,A,79,74,5
+2009-08-15,Blackburn,Man City,0,2,A,75,81,-6
+2009-08-15,Bolton,Sunderland,0,1,A,75,75,0
+2009-08-15,Chelsea,Hull,2,1,H,83,73,10
+2009-08-15,Everton,Arsenal,1,6,A,79,81,-2
+2009-08-15,Portsmouth,Fulham,0,1,A,75,76,-1
+2009-08-15,Stoke,Burnley,2,0,H,73,72,1
+2009-08-15,Wolves,West Ham,0,2,A,72,76,-4
+2009-08-16,Man United,Birmingham,1,0,H,82,74,8
+2009-08-16,Tottenham,Liverpool,2,1,H,79,82,-3
+2009-08-18,Sunderland,Chelsea,1,3,A,75,83,-8
+2009-08-18,Wigan,Wolves,0,1,A,74,72,2
+2009-08-19,Birmingham,Portsmouth,1,0,H,74,75,-1
+2009-08-19,Burnley,Man United,1,0,H,72,82,-10
+2009-08-19,Hull,Tottenham,1,5,A,73,79,-6
+2009-08-19,Liverpool,Stoke,4,0,H,82,73,9
+2009-08-22,Arsenal,Portsmouth,4,1,H,81,75,6
+2009-08-22,Birmingham,Stoke,0,0,D,74,73,1
+2009-08-22,Hull,Bolton,1,0,H,73,75,-2
+2009-08-22,Man City,Wolves,1,0,H,81,72,9
+2009-08-22,Sunderland,Blackburn,2,1,H,75,75,0
+2009-08-22,Wigan,Man United,0,5,A,74,82,-8
+2009-08-23,Burnley,Everton,1,0,H,72,79,-7
+2009-08-23,Fulham,Chelsea,0,2,A,76,83,-7
+2009-08-23,West Ham,Tottenham,1,2,A,76,79,-3
+2009-08-24,Liverpool,Aston Villa,1,3,A,82,79,3
+2009-08-29,Blackburn,West Ham,0,0,D,75,76,-1
+2009-08-29,Bolton,Liverpool,2,3,A,75,82,-7
+2009-08-29,Chelsea,Burnley,3,0,H,83,72,11
+2009-08-29,Man United,Arsenal,2,1,H,82,81,1
+2009-08-29,Stoke,Sunderland,1,0,H,73,75,-2
+2009-08-29,Tottenham,Birmingham,2,1,H,79,74,5
+2009-08-29,Wolves,Hull,1,1,D,72,73,-1
+2009-08-30,Aston Villa,Fulham,2,0,H,79,76,3
+2009-08-30,Everton,Wigan,2,1,H,79,74,5
+2009-08-30,Portsmouth,Man City,0,1,A,75,81,-6
+2009-09-12,Blackburn,Wolves,3,1,H,75,72,3
+2009-09-12,Liverpool,Burnley,4,0,H,82,72,10
+2009-09-12,Man City,Arsenal,4,2,H,81,81,0
+2009-09-12,Portsmouth,Bolton,2,3,A,75,75,0
+2009-09-12,Stoke,Chelsea,1,2,A,73,83,-10
+2009-09-12,Sunderland,Hull,4,1,H,75,73,2
+2009-09-12,Tottenham,Man United,1,3,A,79,82,-3
+2009-09-12,Wigan,West Ham,1,0,H,74,76,-2
+2009-09-13,Birmingham,Aston Villa,0,1,A,74,79,-5
+2009-09-13,Fulham,Everton,2,1,H,76,79,-3
+2009-09-19,Arsenal,Wigan,4,0,H,81,74,7
+2009-09-19,Aston Villa,Portsmouth,2,0,H,79,75,4
+2009-09-19,Bolton,Stoke,1,1,D,75,73,2
+2009-09-19,Burnley,Sunderland,3,1,H,72,75,-3
+2009-09-19,Hull,Birmingham,0,1,A,73,74,-1
+2009-09-19,West Ham,Liverpool,2,3,A,76,82,-6
+2009-09-20,Chelsea,Tottenham,3,0,H,83,79,4
+2009-09-20,Everton,Blackburn,3,0,H,79,75,4
+2009-09-20,Man United,Man City,4,3,H,82,81,1
+2009-09-20,Wolves,Fulham,2,1,H,72,76,-4
+2009-09-26,Birmingham,Bolton,1,2,A,74,75,-1
+2009-09-26,Blackburn,Aston Villa,2,1,H,75,79,-4
+2009-09-26,Fulham,Arsenal,0,1,A,76,81,-5
+2009-09-26,Liverpool,Hull,6,1,H,82,73,9
+2009-09-26,Portsmouth,Everton,0,1,A,75,79,-4
+2009-09-26,Stoke,Man United,0,2,A,73,82,-9
+2009-09-26,Tottenham,Burnley,5,0,H,79,72,7
+2009-09-26,Wigan,Chelsea,3,1,H,74,83,-9
+2009-09-27,Sunderland,Wolves,5,2,H,75,72,3
+2009-09-28,Man City,West Ham,3,1,H,81,76,5
+2009-10-03,Bolton,Tottenham,2,2,D,75,79,-4
+2009-10-03,Burnley,Birmingham,2,1,H,72,74,-2
+2009-10-03,Hull,Wigan,2,1,H,73,74,-1
+2009-10-03,Man United,Sunderland,2,2,D,82,75,7
+2009-10-03,Wolves,Portsmouth,0,1,A,72,75,-3
+2009-10-04,Arsenal,Blackburn,6,2,H,81,75,6
+2009-10-04,Chelsea,Liverpool,2,0,H,83,82,1
+2009-10-04,Everton,Stoke,1,1,D,79,73,6
+2009-10-04,West Ham,Fulham,2,2,D,76,76,0
+2009-10-05,Aston Villa,Man City,1,1,D,79,81,-2
+2009-10-17,Arsenal,Birmingham,3,1,H,81,74,7
+2009-10-17,Aston Villa,Chelsea,2,1,H,79,83,-4
+2009-10-17,Everton,Wolves,1,1,D,79,72,7
+2009-10-17,Man United,Bolton,2,1,H,82,75,7
+2009-10-17,Portsmouth,Tottenham,1,2,A,75,79,-4
+2009-10-17,Stoke,West Ham,2,1,H,73,76,-3
+2009-10-17,Sunderland,Liverpool,1,0,H,75,82,-7
+2009-10-18,Blackburn,Burnley,3,2,H,75,72,3
+2009-10-18,Wigan,Man City,1,1,D,74,81,-7
+2009-10-19,Fulham,Hull,2,0,H,76,73,3
+2009-10-24,Birmingham,Sunderland,2,1,H,74,75,-1
+2009-10-24,Burnley,Wigan,1,3,A,72,74,-2
+2009-10-24,Chelsea,Blackburn,5,0,H,83,75,8
+2009-10-24,Hull,Portsmouth,0,0,D,73,75,-2
+2009-10-24,Tottenham,Stoke,0,1,A,79,73,6
+2009-10-24,Wolves,Aston Villa,1,1,D,72,79,-7
+2009-10-25,Bolton,Everton,3,2,H,75,79,-4
+2009-10-25,Liverpool,Man United,2,0,H,82,82,0
+2009-10-25,Man City,Fulham,2,2,D,81,76,5
+2009-10-25,West Ham,Arsenal,2,2,D,76,81,-5
+2009-10-31,Arsenal,Tottenham,3,0,H,81,79,2
+2009-10-31,Bolton,Chelsea,0,4,A,75,83,-8
+2009-10-31,Burnley,Hull,2,0,H,72,73,-1
+2009-10-31,Everton,Aston Villa,1,1,D,79,79,0
+2009-10-31,Fulham,Liverpool,3,1,H,76,82,-6
+2009-10-31,Man United,Blackburn,2,0,H,82,75,7
+2009-10-31,Portsmouth,Wigan,4,0,H,75,74,1
+2009-10-31,Stoke,Wolves,2,2,D,73,72,1
+2009-10-31,Sunderland,West Ham,2,2,D,75,76,-1
+2009-11-01,Birmingham,Man City,0,0,D,74,81,-7
+2009-11-04,West Ham,Aston Villa,2,1,H,76,79,-3
+2009-11-07,Aston Villa,Bolton,5,1,H,79,75,4
+2009-11-07,Blackburn,Portsmouth,3,1,H,75,75,0
+2009-11-07,Man City,Burnley,3,3,D,81,72,9
+2009-11-07,Tottenham,Sunderland,2,0,H,79,75,4
+2009-11-07,Wolves,Arsenal,1,4,A,72,81,-9
+2009-11-08,Chelsea,Man United,1,0,H,83,82,1
+2009-11-08,Hull,Stoke,2,1,H,73,73,0
+2009-11-08,West Ham,Everton,1,2,A,76,79,-3
+2009-11-08,Wigan,Fulham,1,1,D,74,76,-2
+2009-11-09,Liverpool,Birmingham,2,2,D,82,74,8
+2009-11-21,Birmingham,Fulham,1,0,H,74,76,-2
+2009-11-21,Burnley,Aston Villa,1,1,D,72,79,-7
+2009-11-21,Chelsea,Wolves,4,0,H,83,72,11
+2009-11-21,Hull,West Ham,3,3,D,73,76,-3
+2009-11-21,Liverpool,Man City,2,2,D,82,81,1
+2009-11-21,Man United,Everton,3,0,H,82,79,3
+2009-11-21,Sunderland,Arsenal,1,0,H,75,81,-6
+2009-11-22,Bolton,Blackburn,0,2,A,75,75,0
+2009-11-22,Stoke,Portsmouth,1,0,H,73,75,-2
+2009-11-22,Tottenham,Wigan,9,1,H,79,74,5
+2009-11-25,Fulham,Blackburn,3,0,H,76,75,1
+2009-11-25,Hull,Everton,3,2,H,73,79,-6
+2009-11-28,Aston Villa,Tottenham,1,1,D,79,79,0
+2009-11-28,Blackburn,Stoke,0,0,D,75,73,2
+2009-11-28,Fulham,Bolton,1,1,D,76,75,1
+2009-11-28,Man City,Hull,1,1,D,81,73,8
+2009-11-28,Portsmouth,Man United,1,4,A,75,82,-7
+2009-11-28,West Ham,Burnley,5,3,H,76,72,4
+2009-11-28,Wigan,Sunderland,1,0,H,74,75,-1
+2009-11-29,Arsenal,Chelsea,0,3,A,81,83,-2
+2009-11-29,Everton,Liverpool,0,2,A,79,82,-3
+2009-11-29,Wolves,Birmingham,0,1,A,72,74,-2
+2009-12-05,Arsenal,Stoke,2,0,H,81,73,8
+2009-12-05,Aston Villa,Hull,3,0,H,79,73,6
+2009-12-05,Blackburn,Liverpool,0,0,D,75,82,-7
+2009-12-05,Man City,Chelsea,2,1,H,81,83,-2
+2009-12-05,Portsmouth,Burnley,2,0,H,75,72,3
+2009-12-05,West Ham,Man United,0,4,A,76,82,-6
+2009-12-05,Wigan,Birmingham,2,3,A,74,74,0
+2009-12-05,Wolves,Bolton,2,1,H,72,75,-3
+2009-12-06,Everton,Tottenham,2,2,D,79,79,0
+2009-12-06,Fulham,Sunderland,1,0,H,76,75,1
+2009-12-12,Birmingham,West Ham,1,0,H,74,76,-2
+2009-12-12,Bolton,Man City,3,3,D,75,81,-6
+2009-12-12,Burnley,Fulham,1,1,D,72,76,-4
+2009-12-12,Chelsea,Everton,3,3,D,83,79,4
+2009-12-12,Hull,Blackburn,0,0,D,73,75,-2
+2009-12-12,Man United,Aston Villa,0,1,A,82,79,3
+2009-12-12,Stoke,Wigan,2,2,D,73,74,-1
+2009-12-12,Sunderland,Portsmouth,1,1,D,75,75,0
+2009-12-12,Tottenham,Wolves,0,1,A,79,72,7
+2009-12-13,Liverpool,Arsenal,1,2,A,82,81,1
+2009-12-15,Birmingham,Blackburn,2,1,H,74,75,-1
+2009-12-15,Bolton,West Ham,3,1,H,75,76,-1
+2009-12-15,Man United,Wolves,3,0,H,82,72,10
+2009-12-15,Sunderland,Aston Villa,0,2,A,75,79,-4
+2009-12-16,Burnley,Arsenal,1,1,D,72,81,-9
+2009-12-16,Chelsea,Portsmouth,2,1,H,83,75,8
+2009-12-16,Liverpool,Wigan,2,1,H,82,74,8
+2009-12-16,Tottenham,Man City,3,0,H,79,81,-2
+2009-12-19,Arsenal,Hull,3,0,H,81,73,8
+2009-12-19,Aston Villa,Stoke,1,0,H,79,73,6
+2009-12-19,Blackburn,Tottenham,0,2,A,75,79,-4
+2009-12-19,Fulham,Man United,3,0,H,76,82,-6
+2009-12-19,Man City,Sunderland,4,3,H,81,75,6
+2009-12-19,Portsmouth,Liverpool,2,0,H,75,82,-7
+2009-12-20,Everton,Birmingham,1,1,D,79,74,5
+2009-12-20,West Ham,Chelsea,1,1,D,76,83,-7
+2009-12-20,Wolves,Burnley,2,0,H,72,72,0
+2009-12-26,Birmingham,Chelsea,0,0,D,74,83,-9
+2009-12-26,Burnley,Bolton,1,1,D,72,75,-3
+2009-12-26,Fulham,Tottenham,0,0,D,76,79,-3
+2009-12-26,Liverpool,Wolves,2,0,H,82,72,10
+2009-12-26,Man City,Stoke,2,0,H,81,73,8
+2009-12-26,Sunderland,Everton,1,1,D,75,79,-4
+2009-12-26,West Ham,Portsmouth,2,0,H,76,75,1
+2009-12-26,Wigan,Blackburn,1,1,D,74,75,-1
+2009-12-27,Arsenal,Aston Villa,3,0,H,81,79,2
+2009-12-27,Hull,Man United,1,3,A,73,82,-9
+2009-12-28,Blackburn,Sunderland,2,2,D,75,75,0
+2009-12-28,Chelsea,Fulham,2,1,H,83,76,7
+2009-12-28,Everton,Burnley,2,0,H,79,72,7
+2009-12-28,Stoke,Birmingham,0,1,A,73,74,-1
+2009-12-28,Tottenham,West Ham,2,0,H,79,76,3
+2009-12-28,Wolves,Man City,0,3,A,72,81,-9
+2009-12-29,Aston Villa,Liverpool,0,1,A,79,82,-3
+2009-12-29,Bolton,Hull,2,2,D,75,73,2
+2009-12-30,Man United,Wigan,5,0,H,82,74,8
+2009-12-30,Portsmouth,Arsenal,1,4,A,75,81,-6
+2010-01-05,Stoke,Fulham,3,2,H,73,76,-3
+2010-01-09,Arsenal,Everton,2,2,D,81,79,2
+2010-01-09,Birmingham,Man United,1,1,D,74,82,-8
+2010-01-11,Man City,Blackburn,4,1,H,81,75,6
+2010-01-16,Chelsea,Sunderland,7,2,H,83,75,8
+2010-01-16,Everton,Man City,2,0,H,79,81,-2
+2010-01-16,Man United,Burnley,3,0,H,82,72,10
+2010-01-16,Stoke,Liverpool,1,1,D,73,82,-9
+2010-01-16,Tottenham,Hull,0,0,D,79,73,6
+2010-01-16,Wolves,Wigan,0,2,A,72,74,-2
+2010-01-17,Aston Villa,West Ham,0,0,D,79,76,3
+2010-01-17,Blackburn,Fulham,2,0,H,75,76,-1
+2010-01-17,Bolton,Arsenal,0,2,A,75,81,-6
+2010-01-20,Arsenal,Bolton,4,2,H,81,75,6
+2010-01-20,Liverpool,Tottenham,2,0,H,82,79,3
+2010-01-23,Man United,Hull,4,0,H,82,73,9
+2010-01-26,Bolton,Burnley,1,0,H,75,72,3
+2010-01-26,Portsmouth,West Ham,1,1,D,75,76,-1
+2010-01-26,Tottenham,Fulham,2,0,H,79,76,3
+2010-01-26,Wolves,Liverpool,0,0,D,72,82,-10
+2010-01-27,Aston Villa,Arsenal,0,0,D,79,81,-2
+2010-01-27,Blackburn,Wigan,2,1,H,75,74,1
+2010-01-27,Chelsea,Birmingham,3,0,H,83,74,9
+2010-01-27,Everton,Sunderland,2,0,H,79,75,4
+2010-01-30,Birmingham,Tottenham,1,1,D,74,79,-5
+2010-01-30,Burnley,Chelsea,1,2,A,72,83,-11
+2010-01-30,Fulham,Aston Villa,0,2,A,76,79,-3
+2010-01-30,Hull,Wolves,2,2,D,73,72,1
+2010-01-30,Liverpool,Bolton,2,0,H,82,75,7
+2010-01-30,West Ham,Blackburn,0,0,D,76,75,1
+2010-01-30,Wigan,Everton,0,1,A,74,79,-5
+2010-01-31,Arsenal,Man United,1,3,A,81,82,-1
+2010-01-31,Man City,Portsmouth,2,0,H,81,75,6
+2010-02-01,Sunderland,Stoke,0,0,D,75,73,2
+2010-02-02,Hull,Chelsea,1,1,D,73,83,-10
+2010-02-03,Fulham,Portsmouth,1,0,H,76,75,1
+2010-02-06,Bolton,Fulham,0,0,D,75,76,-1
+2010-02-06,Burnley,West Ham,2,1,H,72,76,-4
+2010-02-06,Hull,Man City,2,1,H,73,81,-8
+2010-02-06,Liverpool,Everton,1,0,H,82,79,3
+2010-02-06,Man United,Portsmouth,5,0,H,82,75,7
+2010-02-06,Stoke,Blackburn,3,0,H,73,75,-2
+2010-02-06,Sunderland,Wigan,1,1,D,75,74,1
+2010-02-06,Tottenham,Aston Villa,0,0,D,79,79,0
+2010-02-07,Birmingham,Wolves,2,1,H,74,72,2
+2010-02-07,Chelsea,Arsenal,2,0,H,83,81,2
+2010-02-09,Fulham,Burnley,3,0,H,76,72,4
+2010-02-09,Man City,Bolton,2,0,H,81,75,6
+2010-02-09,Portsmouth,Sunderland,1,1,D,75,75,0
+2010-02-09,Wigan,Stoke,1,1,D,74,73,1
+2010-02-10,Arsenal,Liverpool,1,0,H,81,82,-1
+2010-02-10,Aston Villa,Man United,1,1,D,79,82,-3
+2010-02-10,Blackburn,Hull,1,0,H,75,73,2
+2010-02-10,Everton,Chelsea,2,1,H,79,83,-4
+2010-02-10,West Ham,Birmingham,2,0,H,76,74,2
+2010-02-10,Wolves,Tottenham,1,0,H,72,79,-7
+2010-02-16,Stoke,Man City,1,1,D,73,81,-8
+2010-02-17,Wigan,Bolton,0,0,D,74,75,-1
+2010-02-20,Arsenal,Sunderland,2,0,H,81,75,6
+2010-02-20,Everton,Man United,3,1,H,79,82,-3
+2010-02-20,Portsmouth,Stoke,1,2,A,75,73,2
+2010-02-20,West Ham,Hull,3,0,H,76,73,3
+2010-02-20,Wolves,Chelsea,0,2,A,72,83,-11
+2010-02-21,Aston Villa,Burnley,5,2,H,79,72,7
+2010-02-21,Blackburn,Bolton,3,0,H,75,75,0
+2010-02-21,Fulham,Birmingham,2,1,H,76,74,2
+2010-02-21,Man City,Liverpool,0,0,D,81,82,-1
+2010-02-21,Wigan,Tottenham,0,3,A,74,79,-5
+2010-02-23,Man United,West Ham,3,0,H,82,76,6
+2010-02-27,Birmingham,Wigan,1,0,H,74,74,0
+2010-02-27,Bolton,Wolves,1,0,H,75,72,3
+2010-02-27,Burnley,Portsmouth,1,2,A,72,75,-3
+2010-02-27,Chelsea,Man City,2,4,A,83,81,2
+2010-02-27,Stoke,Arsenal,1,3,A,73,81,-8
+2010-02-28,Liverpool,Blackburn,2,1,H,82,75,7
+2010-02-28,Sunderland,Fulham,0,0,D,75,76,-1
+2010-02-28,Tottenham,Everton,2,1,H,79,79,0
+2010-03-06,Arsenal,Burnley,3,1,H,81,72,9
+2010-03-06,West Ham,Bolton,1,2,A,76,75,1
+2010-03-06,Wolves,Man United,0,1,A,72,82,-10
+2010-03-07,Everton,Hull,5,1,H,79,73,6
+2010-03-08,Wigan,Liverpool,1,0,H,74,82,-8
+2010-03-09,Portsmouth,Birmingham,1,2,A,75,74,1
+2010-03-09,Sunderland,Bolton,4,0,H,75,75,0
+2010-03-10,Burnley,Stoke,1,1,D,72,73,-1
+2010-03-13,Birmingham,Everton,2,2,D,74,79,-5
+2010-03-13,Bolton,Wigan,4,0,H,75,74,1
+2010-03-13,Burnley,Wolves,1,2,A,72,72,0
+2010-03-13,Chelsea,West Ham,4,1,H,83,76,7
+2010-03-13,Hull,Arsenal,1,2,A,73,81,-8
+2010-03-13,Stoke,Aston Villa,0,0,D,73,79,-6
+2010-03-13,Tottenham,Blackburn,3,1,H,79,75,4
+2010-03-14,Man United,Fulham,3,0,H,82,76,6
+2010-03-14,Sunderland,Man City,1,1,D,75,81,-6
+2010-03-15,Liverpool,Portsmouth,4,1,H,82,75,7
+2010-03-16,Wigan,Aston Villa,1,2,A,74,79,-5
+2010-03-20,Arsenal,West Ham,2,0,H,81,76,5
+2010-03-20,Aston Villa,Wolves,2,2,D,79,72,7
+2010-03-20,Everton,Bolton,2,0,H,79,75,4
+2010-03-20,Portsmouth,Hull,3,2,H,75,73,2
+2010-03-20,Stoke,Tottenham,1,2,A,73,79,-6
+2010-03-20,Sunderland,Birmingham,3,1,H,75,74,1
+2010-03-20,Wigan,Burnley,1,0,H,74,72,2
+2010-03-21,Blackburn,Chelsea,1,1,D,75,83,-8
+2010-03-21,Fulham,Man City,1,2,A,76,81,-5
+2010-03-21,Man United,Liverpool,2,1,H,82,82,0
+2010-03-23,West Ham,Wolves,1,3,A,76,72,4
+2010-03-24,Aston Villa,Sunderland,1,1,D,79,75,4
+2010-03-24,Blackburn,Birmingham,2,1,H,75,74,1
+2010-03-24,Man City,Everton,0,2,A,81,79,2
+2010-03-24,Portsmouth,Chelsea,0,5,A,75,83,-8
+2010-03-27,Birmingham,Arsenal,1,1,D,74,81,-7
+2010-03-27,Bolton,Man United,0,4,A,75,82,-7
+2010-03-27,Chelsea,Aston Villa,7,1,H,83,79,4
+2010-03-27,Hull,Fulham,2,0,H,73,76,-3
+2010-03-27,Tottenham,Portsmouth,2,0,H,79,75,4
+2010-03-27,West Ham,Stoke,0,1,A,76,73,3
+2010-03-27,Wolves,Everton,0,0,D,72,79,-7
+2010-03-28,Burnley,Blackburn,0,1,A,72,75,-3
+2010-03-28,Liverpool,Sunderland,3,0,H,82,75,7
+2010-03-29,Man City,Wigan,3,0,H,81,74,7
+2010-04-03,Arsenal,Wolves,1,0,H,81,72,9
+2010-04-03,Bolton,Aston Villa,0,1,A,75,79,-4
+2010-04-03,Burnley,Man City,1,6,A,72,81,-9
+2010-04-03,Man United,Chelsea,1,2,A,82,83,-1
+2010-04-03,Portsmouth,Blackburn,0,0,D,75,75,0
+2010-04-03,Stoke,Hull,2,0,H,73,73,0
+2010-04-03,Sunderland,Tottenham,3,1,H,75,79,-4
+2010-04-04,Birmingham,Liverpool,1,1,D,74,82,-8
+2010-04-04,Everton,West Ham,2,2,D,79,76,3
+2010-04-04,Fulham,Wigan,2,1,H,76,74,2
+2010-04-10,Hull,Burnley,1,4,A,73,72,1
+2010-04-10,West Ham,Sunderland,1,0,H,76,75,1
+2010-04-11,Blackburn,Man United,0,0,D,75,82,-7
+2010-04-11,Liverpool,Fulham,0,0,D,82,76,6
+2010-04-11,Man City,Birmingham,5,1,H,81,74,7
+2010-04-11,Wolves,Stoke,0,0,D,72,73,-1
+2010-04-13,Chelsea,Bolton,1,0,H,83,75,8
+2010-04-14,Aston Villa,Everton,2,2,D,79,79,0
+2010-04-14,Tottenham,Arsenal,2,1,H,79,81,-2
+2010-04-14,Wigan,Portsmouth,0,0,D,74,75,-1
+2010-04-17,Birmingham,Hull,0,0,D,74,73,1
+2010-04-17,Blackburn,Everton,2,3,A,75,79,-4
+2010-04-17,Fulham,Wolves,0,0,D,76,72,4
+2010-04-17,Man City,Man United,0,1,A,81,82,-1
+2010-04-17,Stoke,Bolton,1,2,A,73,75,-2
+2010-04-17,Sunderland,Burnley,2,1,H,75,72,3
+2010-04-17,Tottenham,Chelsea,2,1,H,79,83,-4
+2010-04-18,Portsmouth,Aston Villa,1,2,A,75,79,-4
+2010-04-18,Wigan,Arsenal,3,2,H,74,81,-7
+2010-04-19,Liverpool,West Ham,3,0,H,82,76,6
+2010-04-21,Hull,Aston Villa,0,2,A,73,79,-6
+2010-04-24,Arsenal,Man City,0,0,D,81,81,0
+2010-04-24,Bolton,Portsmouth,2,2,D,75,75,0
+2010-04-24,Hull,Sunderland,0,1,A,73,75,-2
+2010-04-24,Man United,Tottenham,3,1,H,82,79,3
+2010-04-24,West Ham,Wigan,3,2,H,76,74,2
+2010-04-24,Wolves,Blackburn,1,1,D,72,75,-3
+2010-04-25,Aston Villa,Birmingham,1,0,H,79,74,5
+2010-04-25,Burnley,Liverpool,0,4,A,72,82,-10
+2010-04-25,Chelsea,Stoke,7,0,H,83,73,10
+2010-04-25,Everton,Fulham,2,1,H,79,76,3
+2010-05-01,Birmingham,Burnley,2,1,H,74,72,2
+2010-05-01,Man City,Aston Villa,3,1,H,81,79,2
+2010-05-01,Portsmouth,Wolves,3,1,H,75,72,3
+2010-05-01,Stoke,Everton,0,0,D,73,79,-6
+2010-05-01,Tottenham,Bolton,1,0,H,79,75,4
+2010-05-02,Fulham,West Ham,3,2,H,76,76,0
+2010-05-02,Liverpool,Chelsea,0,2,A,82,83,-1
+2010-05-02,Sunderland,Man United,0,1,A,75,82,-7
+2010-05-03,Blackburn,Arsenal,2,1,H,75,81,-6
+2010-05-03,Wigan,Hull,2,2,D,74,73,1
+2010-05-05,Fulham,Stoke,0,1,A,76,73,3
+2010-05-05,Man City,Tottenham,0,1,A,81,79,2
+2010-05-09,Arsenal,Fulham,4,0,H,81,76,5
+2010-05-09,Aston Villa,Blackburn,0,1,A,79,75,4
+2010-05-09,Bolton,Birmingham,2,1,H,75,74,1
+2010-05-09,Burnley,Tottenham,4,2,H,72,79,-7
+2010-05-09,Chelsea,Wigan,8,0,H,83,74,9
+2010-05-09,Everton,Portsmouth,1,0,H,79,75,4
+2010-05-09,Hull,Liverpool,0,0,D,73,82,-9
+2010-05-09,Man United,Stoke,4,0,H,82,73,9
+2010-05-09,West Ham,Man City,1,1,D,76,81,-5
+2010-05-09,Wolves,Sunderland,2,1,H,72,75,-3
