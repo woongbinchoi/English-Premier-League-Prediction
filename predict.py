@@ -286,7 +286,10 @@ def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True)
         newdf = pd.DataFrame(avg_dict, index=[df.shape[1]])
         df = pd.concat([df, newdf], ignore_index=True, sort=False)
     else:
-        df = pd.DataFrame(avg_dict, index=[df.shape[1]])
+        directory = os.path.dirname(model_confidence_csv_path)
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+        df = pd.DataFrame(avg_dict, index=[0])
     df.to_csv(model_confidence_csv_path, index=False)
     
 #    Saves the classifier using joblib module
@@ -294,6 +297,37 @@ def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True)
         joblib.dump(best_clf, clf_file)
 #   Return the best classifier
     return best_clf
+
+
+def predict_next_round(clf, final_path, current_raw_cleaned_path):
+
+    df = pd.read_csv(final_path)
+    len_df = df.shape[0]
+    df = df.loc[(df['FTR'] == 'X') & ((df['HT_goal_for']) == (df['HT_goal_for']))]
+    df_indices = [x - len_df for x in df.index]
+    
+    df = prepare_data(df, drop_na=False)
+    df = df.drop(columns=['FTR'])
+    
+    prediction = clf.predict(df).tolist()
+    prediction_probability = clf.predict_proba(df).tolist()
+
+    current_raw_cleaned_path ='data/raw_cleaned/2018-2019.csv'
+    df_to_predict = pd.read_csv(current_raw_cleaned_path)
+    len_df = df_to_predict.shape[0]
+    
+    print("Home       Away       Predict       Probability")
+    for (index, result, pred_prob) in zip(df_indices, prediction, prediction_probability):
+        HT = df_to_predict.at[index + len_df, 'HomeTeam']
+        AT = df_to_predict.at[index + len_df, 'AwayTeam']
+        print("{}      {}      {}      {}".format(HT, AT, HT if result == "H" else AT, max(pred_prob)))
+        
+        df_to_predict.at[index + len_df, 'FTR'] = result
+        df_to_predict.at[index + len_df, 'FTHG'] = 0
+        df_to_predict.at[index + len_df, 'FTAG'] = 0
+        
+    df_to_predict.to_csv(current_raw_cleaned_path, index=False)
+
 
 
 
