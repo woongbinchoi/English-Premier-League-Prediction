@@ -109,36 +109,36 @@ Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,OVA_diff
 2018-11-04,Man City,Southampton,0.0,0.0,H,85,77,8
 2018-11-04,Chelsea,Crystal Palace,0.0,0.0,H,83,77,6
 2018-11-05,Huddersfield,Fulham,0.0,0.0,H,75,76,-1
-2018-11-10,Cardiff,Brighton,0.0,0.0,H,73,76,-3
-2018-11-10,Newcastle,Bournemouth,0.0,0.0,H,76,76,0
-2018-11-10,Leicester,Burnley,0.0,0.0,H,78,78,0
-2018-11-10,Huddersfield,West Ham,0.0,0.0,H,75,78,-3
-2018-11-10,Southampton,Watford,0.0,0.0,H,77,77,0
-2018-11-10,Crystal Palace,Tottenham,0.0,0.0,A,77,83,-6
-2018-11-11,Liverpool,Fulham,0.0,0.0,H,83,76,7
-2018-11-11,Chelsea,Everton,0.0,0.0,H,83,79,4
-2018-11-11,Man City,Man United,0.0,0.0,H,85,83,2
-2018-11-11,Arsenal,Wolves,0.0,0.0,H,82,76,6
-2018-11-24,Fulham,Southampton,0.0,0.0,H,76,77,-1
-2018-11-24,Everton,Cardiff,0.0,0.0,H,79,73,6
-2018-11-24,Man United,Crystal Palace,0.0,0.0,H,83,77,6
-2018-11-24,West Ham,Man City,0.0,0.0,A,78,85,-7
-2018-11-24,Brighton,Leicester,0.0,0.0,H,76,78,-2
-2018-11-24,Watford,Liverpool,0.0,0.0,A,77,83,-6
-2018-11-24,Tottenham,Chelsea,0.0,0.0,H,83,83,0
-2018-11-25,Bournemouth,Arsenal,0.0,0.0,A,76,82,-6
-2018-11-25,Wolves,Huddersfield,0.0,0.0,H,76,75,1
-2018-11-26,Burnley,Newcastle,0.0,0.0,H,78,76,2
-2018-11-30,Cardiff,Wolves,0.0,0.0,H,73,76,-3
-2018-12-01,Man City,Bournemouth,0.0,0.0,H,85,76,9
-2018-12-01,Newcastle,West Ham,0.0,0.0,H,76,78,-2
-2018-12-01,Leicester,Watford,0.0,0.0,H,78,77,1
-2018-12-01,Huddersfield,Brighton,0.0,0.0,H,75,76,-1
-2018-12-01,Crystal Palace,Burnley,0.0,0.0,H,77,78,-1
-2018-12-01,Southampton,Man United,0.0,0.0,A,77,83,-6
-2018-12-02,Chelsea,Fulham,0.0,0.0,H,83,76,7
-2018-12-02,Arsenal,Tottenham,0.0,0.0,A,82,83,-1
-2018-12-02,Liverpool,Everton,0.0,0.0,H,83,79,4
+2018-11-10,Cardiff,Brighton,,,X,73,76,-3
+2018-11-10,Newcastle,Bournemouth,,,X,76,76,0
+2018-11-10,Leicester,Burnley,,,X,78,78,0
+2018-11-10,Huddersfield,West Ham,,,X,75,78,-3
+2018-11-10,Southampton,Watford,,,X,77,77,0
+2018-11-10,Crystal Palace,Tottenham,,,X,77,83,-6
+2018-11-11,Liverpool,Fulham,,,X,83,76,7
+2018-11-11,Chelsea,Everton,,,X,83,79,4
+2018-11-11,Man City,Man United,,,X,85,83,2
+2018-11-11,Arsenal,Wolves,,,X,82,76,6
+2018-11-24,Fulham,Southampton,,,X,76,77,-1
+2018-11-24,Everton,Cardiff,,,X,79,73,6
+2018-11-24,Man United,Crystal Palace,,,X,83,77,6
+2018-11-24,West Ham,Man City,,,X,78,85,-7
+2018-11-24,Brighton,Leicester,,,X,76,78,-2
+2018-11-24,Watford,Liverpool,,,X,77,83,-6
+2018-11-24,Tottenham,Chelsea,,,X,83,83,0
+2018-11-25,Bournemouth,Arsenal,,,X,76,82,-6
+2018-11-25,Wolves,Huddersfield,,,X,76,75,1
+2018-11-26,Burnley,Newcastle,,,X,78,76,2
+2018-11-30,Cardiff,Wolves,,,X,73,76,-3
+2018-12-01,Man City,Bournemouth,,,X,85,76,9
+2018-12-01,Newcastle,West Ham,,,X,76,78,-2
+2018-12-01,Leicester,Watford,,,X,78,77,1
+2018-12-01,Huddersfield,Brighton,,,X,75,76,-1
+2018-12-01,Crystal Palace,Burnley,,,X,77,78,-1
+2018-12-01,Southampton,Man United,,,X,77,83,-6
+2018-12-02,Chelsea,Fulham,,,X,83,76,7
+2018-12-02,Arsenal,Tottenham,,,X,82,83,-1
+2018-12-02,Liverpool,Everton,,,X,83,79,4
 2018-12-04,West Ham,Cardiff,,,X,78,73,5
 2018-12-04,Brighton,Crystal Palace,,,X,76,77,-1
 2018-12-04,Bournemouth,Huddersfield,,,X,76,75,1

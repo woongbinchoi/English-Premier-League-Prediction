@@ -26,7 +26,7 @@ def get_5win_rate(last_matches):
 # Calculate match played, current standing, goal for, goal against, goal difference, winning/losing streaks, etc.
 # Input is csv that is just cleaned from raw data
 # Output is csv modified with each row added match played, current standing, GF, GA, GD, winning/losing streaks, etc.
-def addCurrentDetails(cleanedPath):
+def addCurrentDetails(frompath, topath):
     teamDetail, matchDetail = {}, {}
     matchDetailColumns = [
         'HT_match_played',
@@ -62,9 +62,9 @@ def addCurrentDetails(cleanedPath):
     for item in matchDetailColumns:
         matchDetail[item] = []
 
-    df = pd.read_csv(cleanedPath)
+    df = pd.read_csv(frompath)
 
-    previousYear = int(cleanedPath[-13:-9]) - 1
+    previousYear = int(frompath[-13:-9]) - 1
     standings = dict()
     if previousYear > 1993:
         dfstandings = pd.read_csv('data/standings/' + str(previousYear) + 'Standings.csv')
@@ -206,12 +206,13 @@ def addCurrentDetails(cleanedPath):
     dropLabels += ['HT_last_matches', 'AT_last_matches']
     df = df.drop(columns=dropLabels)
 
-    df.to_csv(cleanedPath, index=False)
+    df.to_csv(topath, index=False)
 
-def addCurrentDetailsAll(cleanedFolderPath):
+def addCurrentDetailsAll(fromFolderPath, toFolderPath):
     for year in range(1993, 2019):
         file = '%s-%s.csv' % (year, year + 1)
-        path = ntpath.join(cleanedFolderPath, file)
-        print("About to add 'current details' for " + path + " ...")
-        addCurrentDetails(path)
+        frompath = ntpath.join(fromFolderPath, file)
+        topath = ntpath.join(toFolderPath, file)
+        print("About to add 'current details' from {} to {}...".format(frompath, topath))
+        addCurrentDetails(frompath, topath)
     

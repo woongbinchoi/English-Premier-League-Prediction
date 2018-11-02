@@ -10,6 +10,10 @@ from distutils.dir_util import copy_tree
 def copy_csv(raw_cleaned_path, cleaned_path):
     copy_tree(raw_cleaned_path, cleaned_path)
 
+def make_directory(path):
+    directory = os.path.dirname(path)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
 
 # clean the original raw data by storing only the columns that we need, and removing the rest.
 def clean(fromPath, toPath, columns):
