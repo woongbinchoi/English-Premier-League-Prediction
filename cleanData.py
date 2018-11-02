@@ -54,8 +54,8 @@ def clean(fromPath, toPath, columns):
 def cleanAll(fromFolder, toFolder, columns):
     for year in range(1993, 2019):
         csvFile = '%s-%s.csv' % (year, year + 1)
-        frompath = ntpath.join(fromFolder, csvFile)
-        topath = ntpath.join(toFolder, csvFile)
+        frompath = os.path.join(fromFolder, csvFile)
+        topath = os.path.join(toFolder, csvFile)
         print("Cleaning ", frompath, "...")
         clean(frompath, topath, columns)
 
@@ -65,13 +65,13 @@ def combineMatches(cleanedFolderPath, finalPath, startYear, endYear, makeFile=Tr
     dfList = []
     for year in range(startYear, endYear):
         file = '%s-%s.csv' % (year, year + 1)
-        path = ntpath.join(cleanedFolderPath, file)
+        path = os.path.join(cleanedFolderPath, file)
         df = pd.read_csv(path)
         # df.set_index('MatchID', inplace=True)
         dfList.append(df)
     df = pd.concat(dfList, ignore_index=True, sort=False)
     if makeFile:
-        df.to_csv(ntpath.join(finalPath, 'final.csv'), index=False)
+        df.to_csv(os.path.join(finalPath, 'final.csv'), index=False)
     return df
 
 

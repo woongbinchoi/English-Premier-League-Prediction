@@ -26,7 +26,7 @@ from sklearn.linear_model import SGDClassifier
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-from sklearn.grid_search import GridSearchCV
+from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import make_scorer
 from sklearn.model_selection import RandomizedSearchCV
 from scipy.stats import expon
@@ -61,8 +61,9 @@ def prepare_data(data, drop_na=True):
     normalizedColumns += ['current_standing_diff', 'win_rate_season_diff', 'goal_diff_diff']
     normalizedColumns += ['past_standing_diff', 'past_goal_diff_diff', 'past_win_rate_diff']
     #normalizedColumns += ['HT_goal_for', 'AT_goal_for', 'HT_goal_against', 'AT_goal_against']
-    
+
     for column in normalizedColumns:
+        print(data[column], len(data[column]))
         data[column] = scale(data[column])
     
     return data

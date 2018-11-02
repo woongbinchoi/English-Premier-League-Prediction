@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import ntpath
+import os
 
 # Helpers
 # Identify Win/Loss Streaks if any.
@@ -211,8 +211,8 @@ def addCurrentDetails(frompath, topath):
 def addCurrentDetailsAll(fromFolderPath, toFolderPath):
     for year in range(1993, 2019):
         file = '%s-%s.csv' % (year, year + 1)
-        frompath = ntpath.join(fromFolderPath, file)
-        topath = ntpath.join(toFolderPath, file)
+        frompath = os.path.join(fromFolderPath, file)
+        topath = os.path.join(toFolderPath, file)
         print("About to add 'current details' from {} to {}...".format(frompath, topath))
         addCurrentDetails(frompath, topath)
     

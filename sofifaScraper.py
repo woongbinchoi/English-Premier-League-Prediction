@@ -1,4 +1,3 @@
-import ntpath
 import os
 import pandas as pd
 from selenium import webdriver
@@ -126,8 +125,8 @@ def mergeOVAToCleanedAll(ovaFolderPath, cleanedFolderPath):
 	fromYear = 2006
 	toYear = 2018
 	for year in range(fromYear, toYear + 1):
-		ovaPath = ntpath.join(ovaFolderPath, '%s-%s.csv' % (year, year + 1))
-		cleanedPath = ntpath.join(cleanedFolderPath, '%s-%s.csv' % (year, year + 1))
+		ovaPath = os.path.join(ovaFolderPath, '%s-%s.csv' % (year, year + 1))
+		cleanedPath = os.path.join(cleanedFolderPath, '%s-%s.csv' % (year, year + 1))
 
 		print("About to merge " + ovaPath + " ...")
 		mergeOVAToCleaned(ovaPath, cleanedPath)
