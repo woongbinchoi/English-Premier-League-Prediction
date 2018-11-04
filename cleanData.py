@@ -121,7 +121,15 @@ def getMatchResultsAgainst(filePath, cleanedFolderPath, finalPath):
             TD_HT_AT['win'] += 1
         elif gameResult == 'A':
             TD_AT_HT['win'] += 1
-
+        
+#        Team_1 = "Watford"
+#        Team_2 = "Huddersfield"
+#        if HT == Team_1 and AT == Team_2 or AT == Team_1 and HT == Team_2:
+#            print(row['Date'])
+#            print("{}: match played: {}, win: {}".format(HT, teamDetail[HT][AT]['match_played'], teamDetail[HT][AT]['win']))
+#            print("{}: match played: {}, win: {}".format(AT, teamDetail[AT][HT]['match_played'], teamDetail[AT][HT]['win']))
+#            print()
+            
     filedf = pd.read_csv(filePath)
     row_count = filedf.shape[0]
     filedf['HT_win_rate_against'] = pd.Series(matchDetail['HT_win_rate_against'][-row_count:], index=filedf.index)

@@ -110,9 +110,10 @@ def getCurrentFixtures(rawDataPath):
         'AwayTeam': [convertTeamName(match['awayTeam']['name']) for match in match_data],
         'FTHG': [match['score']['fullTime']['homeTeam'] if match['status'] == "FINISHED" else np.nan for match in match_data],
         'FTAG': [match['score']['fullTime']['awayTeam'] if match['status'] == "FINISHED" else np.nan for match in match_data],
-        'FTR': [match['score']['winner'][0] if match['status'] == "FINISHED" else 'X' for match in match_data]
+        'FTR': [match['score']['winner'][0] if match['status'] == "FINISHED" and match['score']['winner'] else "" for match in match_data]
     }
 
     df = pd.DataFrame(matches_dict)
     year = 2018
     df.to_csv('{}/{}-{}.csv'.format(rawDataPath, year, year+1))
+    

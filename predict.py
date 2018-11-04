@@ -1,6 +1,7 @@
 import os.path
 import json
 import pandas as pd
+import numpy as np
 from IPython import get_ipython
 ipy = get_ipython()
 if ipy is not None:
@@ -41,6 +42,8 @@ def prepare_data(data, drop_na=True):
     #data = data.drop(columns=['HT_3_win_streak', 'HT_5_win_streak', 'HT_3_lose_Streak', 'HT_5_lose_Streak', 
     #                          'AT_3_win_streak', 'AT_5_win_streak', 'AT_3_lose_Streak', 'AT_5_lose_Streak'])
     
+    data = data.loc[data['HT_match_played'] == data['HT_match_played']]
+    
     if drop_na:
         data = data.dropna()
     else:
@@ -63,7 +66,7 @@ def prepare_data(data, drop_na=True):
     #normalizedColumns += ['HT_goal_for', 'AT_goal_for', 'HT_goal_against', 'AT_goal_against']
 
     for column in normalizedColumns:
-        print(data[column], len(data[column]))
+#        print(data[column], len(data[column]))
         data[column] = scale(data[column])
     
     return data
@@ -180,9 +183,10 @@ def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True)
     data = pd.read_csv(finalFilePath)
     
 #    Drop columns that are not needed and normalized each columns
-    data = prepare_data(data)
+    data = prepare_data(data, drop_na=True)
+    data = data.loc[(data['FTR'] == 'H') | (data['FTR'] == 'D') | (data['FTR'] == 'A')]
     
-#    Divide data into features and label
+#   Divide data into features and label
     X_all = data.drop(columns=['FTR'])
     y_all = data['FTR']
 
@@ -196,7 +200,7 @@ def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True)
                 LogisticRegression(penalty='l2', solver='lbfgs', multi_class='multinomial',
                                    C=0.4, warm_start=False),
                # SVC
-                SVC(),
+                SVC(probability=True),
                 SVC(C=0.3, class_weight=None, decision_function_shape='ovo', degree=1,
                     kernel='rbf', probability=True, shrinking=True, tol=0.0005),
                 SVC(C=0.28, class_weight=None, decision_function_shape='ovo', degree=1,
@@ -304,7 +308,10 @@ def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=Fal
 
     df = pd.read_csv(final_path)
     len_df = df.shape[0]
-    df = df.loc[(df['FTR'] == 'X') & ((df['HT_goal_for']) == (df['HT_goal_for']))]
+    
+    df = prepare_data(df, drop_na=False)
+    df = df.loc[(df['FTR'] != 'H') & (df['FTR'] != 'D') & (df['FTR'] != 'A')]
+    df = df.drop(columns=['FTR'])
     
     if statistics:
         if stat_path is not None:
@@ -315,9 +322,6 @@ def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=Fal
     
     if len(df) > 0:
         df_indices = [x - len_df for x in df.index]
-        
-        df = prepare_data(df, drop_na=False)
-        df = df.drop(columns=['FTR'])
         
         prediction = clf.predict(df).tolist()
         prediction_probability = clf.predict_proba(df).tolist()

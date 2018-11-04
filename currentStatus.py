@@ -5,23 +5,31 @@ import os
 # Helpers
 # Identify Win/Loss Streaks if any.
 def get_3game_ws(last_matches):
-    return 1 if len(last_matches) > 3 and last_matches[-3:] == 'WWW' else 0
+    if hasattr(last_matches, "__len__"):
+        return 1 if len(last_matches) > 3 and last_matches[-3:] == 'WWW' else 0
+    return np.nan
     
 def get_5game_ws(last_matches):
-    return 1 if last_matches == 'WWWWW' else 0
+    if hasattr(last_matches, "__len__"):
+        return 1 if last_matches == 'WWWWW' else 0
+    return np.nan
     
 def get_3game_ls(last_matches):
-    return 1 if len(last_matches) > 3 and last_matches[-3:] == 'LLL' else 0
+    if hasattr(last_matches, "__len__"):
+        return 1 if len(last_matches) > 3 and last_matches[-3:] == 'LLL' else 0
+    return np.nan
     
 def get_5game_ls(last_matches):
-    return 1 if last_matches == 'LLLLL' else 0
+    if hasattr(last_matches, "__len__"):
+        return 1 if last_matches == 'LLLLL' else 0
+    return np.nan
 
 def get_5win_rate(last_matches):
-    if len(last_matches) < 5:
-        return np.nan
-    else:
+    if hasattr(last_matches, "__len__") and len(last_matches) == 5:
         win_count = last_matches.count('W')
         return win_count / len(last_matches)
+    else:
+        return np.nan
 
 # Calculate match played, current standing, goal for, goal against, goal difference, winning/losing streaks, etc.
 # Input is csv that is just cleaned from raw data
@@ -107,6 +115,9 @@ def addCurrentDetails(frompath, topath):
 
         TD_HT = teamDetail[HT]
         TD_AT = teamDetail[AT]
+        
+        if len(TD_HT['last_5_matches']) != 5 or len(TD_AT['last_5_matches']) != 5:
+            break
 
         matchDetail['HT_match_played'].append(TD_HT['match_played'])
         matchDetail['HT_current_standing'].append(TD_HT['current_standing'])
@@ -128,14 +139,14 @@ def addCurrentDetails(frompath, topath):
         matchDetail['AT_win_rate_season'].append(TD_AT['win'] / TD_AT['match_played'] if TD_AT['match_played'] > 0 else np.nan)
 
         matchDetail['HT_last_5'].append(TD_HT['last_5_matches'][0])
-        matchDetail['HT_last_4'].append(TD_HT['last_5_matches'][1])
-        matchDetail['HT_last_3'].append(TD_HT['last_5_matches'][2])
-        matchDetail['HT_last_2'].append(TD_HT['last_5_matches'][3])
-        matchDetail['HT_last_1'].append(TD_HT['last_5_matches'][4])
         matchDetail['AT_last_5'].append(TD_AT['last_5_matches'][0])
+        matchDetail['HT_last_4'].append(TD_HT['last_5_matches'][1])        
         matchDetail['AT_last_4'].append(TD_AT['last_5_matches'][1])
+        matchDetail['HT_last_3'].append(TD_HT['last_5_matches'][2])
         matchDetail['AT_last_3'].append(TD_AT['last_5_matches'][2])
+        matchDetail['HT_last_2'].append(TD_HT['last_5_matches'][3])
         matchDetail['AT_last_2'].append(TD_AT['last_5_matches'][3])
+        matchDetail['HT_last_1'].append(TD_HT['last_5_matches'][4])
         matchDetail['AT_last_1'].append(TD_AT['last_5_matches'][4])
 
 
@@ -169,17 +180,11 @@ def addCurrentDetails(frompath, topath):
             TD_AT['current_standing'] += 1
             TD_HT['last_5_matches'].append('D')
             TD_AT['last_5_matches'].append('D')
-        elif gameResult == 'X':
-            TD_HT['last_5_matches'].append('X')
-            TD_AT['last_5_matches'].append('X')
-
-
-    # df.set_index('MatchID', inplace=True)
 
     columnList = list(df)
 
     for key, matchResults in matchDetail.items():
-        df[key] = pd.Series(matchResults, index=df.index)
+        df[key] = pd.Series(matchResults)
     df = df[columnList + matchDetailColumns]
 
     df['HT_last_matches'] = df['HT_last_5'] + df['HT_last_4'] + df['HT_last_3'] + df['HT_last_2'] + df['HT_last_1']
