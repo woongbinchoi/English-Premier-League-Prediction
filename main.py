@@ -68,20 +68,15 @@ if __name__ == "__main__":
     # and do some grid search on it if necessary, and finally generates 'model confidence.csv' that records confidence score of each classifier.
     # If 'recalculate' is set False, and if clf_file exists, then it simply loads the clf from clf_file.
     # Produces: returns the best clf.
-    best_clf = getCLF(FINAL_FILE, CONFIDENCE_FILE, CLF_FILE, recalculate=True)
+    best_clf = getCLF(FINAL_FILE, CONFIDENCE_FILE, CLF_FILE, recalculate=False)
     
-    predict_next_round(best_clf, FINAL_FILE, RAW_CLEANED_DATA_FILE_PATH_CURRENT, 
-                             statistics=True, stat_path=PREDICTION_FILE)
-
-#    
-#    # TODO: Make this loop to only do the job that is needed
-#    # TODO: Make it stop when all of them are predicted already
 #    # TODO: What if I only use the current 5 years of data or something?
-#    # TODO: GET RID OF X and use np.nan. THink of a way to use prediction without using np.nan
 #    # TODO: Normalize columns before I make prediction
-#    while predict_next_round(best_clf, FINAL_FILE, RAW_CLEANED_DATA_FILE_PATH_CURRENT, 
-#                             statistics=True, stat_path=PREDICTION_FILE):
-#        addCurrentDetails(RAW_CLEANED_DATA_FILE_PATH_CURRENT, CLEANED_DATA_FILE_PATH_CURRENT)
-#        combineMatches(CLEANED_DATA_FILE_PATH, DATA_PATH, 2006, 2019)
-#        getMatchResultsAgainst(FINAL_FILE, CLEANED_DATA_FILE_PATH, DATA_PATH)
+     # TODO: See what makes the best prediction accuracy (fill data, drop data, normalize, not normalize)
+     # TODO: Work on saving probability data
+    while predict_next_round(best_clf, FINAL_FILE, RAW_CLEANED_DATA_FILE_PATH_CURRENT, 
+                             statistics=True, stat_path=PREDICTION_FILE):
+        addCurrentDetails(RAW_CLEANED_DATA_FILE_PATH_CURRENT, CLEANED_DATA_FILE_PATH_CURRENT)
+        combineMatches(CLEANED_DATA_FILE_PATH, DATA_PATH, 2006, 2019)
+        getMatchResultsAgainst(FINAL_FILE, CLEANED_DATA_FILE_PATH, DATA_PATH)
         

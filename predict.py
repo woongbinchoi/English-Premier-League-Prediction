@@ -305,10 +305,14 @@ def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True)
 
 
 def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=False, stat_path=None):
-
+    
+    # Load final data csv
     df = pd.read_csv(final_path)
+    
+    # Get the row count of the dataframe
     len_df = df.shape[0]
     
+    # Normalize each columns and remove rows that should not be predicted yet
     df = prepare_data(df, drop_na=False)
     df = df.loc[(df['FTR'] != 'H') & (df['FTR'] != 'D') & (df['FTR'] != 'A')]
     df = df.drop(columns=['FTR'])
@@ -325,22 +329,30 @@ def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=Fal
         
         prediction = clf.predict(df).tolist()
         prediction_probability = clf.predict_proba(df).tolist()
-    
-        current_raw_cleaned_path ='data/raw_cleaned/2018-2019.csv'
+        clf_classes = clf.classes_
+        
         df_to_predict = pd.read_csv(current_raw_cleaned_path)
         len_df = df_to_predict.shape[0]
         
-        print("Home       Away       Predict       Probability")
+        print("Home                 Away                 Predict              Probability")
         for (index, result, pred_prob) in zip(df_indices, prediction, prediction_probability):
             HT = df_to_predict.at[index + len_df, 'HomeTeam']
             AT = df_to_predict.at[index + len_df, 'AwayTeam']
-            print(pred_prob)
-            print("{}      {}      {}      {}".format(HT, AT, HT if result == "H" else AT, max(pred_prob)))
             
             df_to_predict.at[index + len_df, 'FTR'] = result
             df_to_predict.at[index + len_df, 'FTHG'] = 0
             df_to_predict.at[index + len_df, 'FTAG'] = 0
             
+            for (outcome, prob) in zip(clf_classes, pred_prob):
+                df_to_predict.at[index + len_df, 'prob_' + outcome] = prob
+            
+            print("{:20} {:20} {:20} {}".format(HT, AT, HT if result == "H" else AT, max(pred_prob)))
+        
+        if statistics:
+            df_to_predict.to_csv(stat_path, index=False)
+            
+        df_to_predict = df_to_predict.drop(columns=['prob_' + outcome for outcome in clf_classes])
+        
         df_to_predict.to_csv(current_raw_cleaned_path, index=False)
         return True
     else:
