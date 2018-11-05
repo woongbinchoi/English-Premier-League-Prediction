@@ -67,7 +67,7 @@ def prepare_data(data, drop_na=True):
 
     for column in normalizedColumns:
 #        print(data[column], len(data[column]))
-        data[column] = scale(data[column])
+        data[column] = scale(list(data[column]))
     
     return data
 
