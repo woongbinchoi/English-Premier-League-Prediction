@@ -304,8 +304,9 @@ def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True)
     return best_clf
 
 
-def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=False, stat_path=None):
-    
+def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=False, stat_path=None, first=True):
+    # First indicates whether the one being predicted is the upcoming round
+
     # Load final data csv
     df = pd.read_csv(final_path)
     
@@ -334,7 +335,7 @@ def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=Fal
         df_to_predict = pd.read_csv(current_raw_cleaned_path)
         len_df = df_to_predict.shape[0]
         
-        print("Home                 Away                 Predict              Probability")
+        print("{:20} {:20} {:20} {}".format("Home", "Away", "Predict", "Probability"))
         for (index, result, pred_prob) in zip(df_indices, prediction, prediction_probability):
             HT = df_to_predict.at[index + len_df, 'HomeTeam']
             AT = df_to_predict.at[index + len_df, 'AwayTeam']
@@ -349,6 +350,8 @@ def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=Fal
             print("{:20} {:20} {:20} {}".format(HT, AT, HT if result == "H" else AT, max(pred_prob)))
         
         if statistics:
+            if os.path.exists(stat_path):
+                pass
             df_to_predict.to_csv(stat_path, index=False)
             
         df_to_predict = df_to_predict.drop(columns=['prob_' + outcome for outcome in clf_classes])

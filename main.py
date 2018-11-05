@@ -33,7 +33,7 @@ if __name__ == "__main__":
 #    scrapeTeamOVAAll(OVA_FILE_PATH)
     # 2. Manaually bring result data from http://www.football-data.co.uk/englandm.php
     #    This can be also done by calling "getCurrentFixtures" from matchHistory.py
-#    getCurrentFixtures(RAW_DATA_FILE_PATH)
+    getCurrentFixtures(RAW_DATA_FILE_PATH)
     # 3. past standing data from rankings: To automate this, I need to run "getRankings" from 
     #    "rankings.py" before I call everything.
     
@@ -69,14 +69,16 @@ if __name__ == "__main__":
     # If 'recalculate' is set False, and if clf_file exists, then it simply loads the clf from clf_file.
     # Produces: returns the best clf.
     best_clf = getCLF(FINAL_FILE, CONFIDENCE_FILE, CLF_FILE, recalculate=False)
-    
+
 #    # TODO: What if I only use the current 5 years of data or something?
 #    # TODO: Normalize columns before I make prediction
      # TODO: See what makes the best prediction accuracy (fill data, drop data, normalize, not normalize)
      # TODO: Work on saving probability data
+    is_first = True
     while predict_next_round(best_clf, FINAL_FILE, RAW_CLEANED_DATA_FILE_PATH_CURRENT, 
-                             statistics=True, stat_path=PREDICTION_FILE):
+                             statistics=True, stat_path=PREDICTION_FILE, first=is_first):
         addCurrentDetails(RAW_CLEANED_DATA_FILE_PATH_CURRENT, CLEANED_DATA_FILE_PATH_CURRENT)
         combineMatches(CLEANED_DATA_FILE_PATH, DATA_PATH, 2006, 2019)
         getMatchResultsAgainst(FINAL_FILE, CLEANED_DATA_FILE_PATH, DATA_PATH)
+        is_first = False
         
