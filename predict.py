@@ -322,8 +322,7 @@ def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=Fal
         if stat_path is not None:
             make_directory(stat_path)
         else:
-            print("specify 'stat_path' to save prediction result. Exiting...")
-            return False
+            raise ValueError("specify 'stat_path' to save prediction result. Exiting...")
     
     if len(df) > 0:
         df_indices = [x - len_df for x in df.index]
@@ -350,9 +349,16 @@ def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=Fal
             print("{:20} {:20} {:20} {}".format(HT, AT, HT if result == "H" else AT, max(pred_prob)))
         
         if statistics:
-            if os.path.exists(stat_path):
-                pass
-            df_to_predict.to_csv(stat_path, index=False)
+            if first:
+                df_to_predict.to_csv(stat_path, index=False)
+            else:
+                if os.path.isfile(stat_path):
+                    stat_df = pd.read_csv(stat_path)
+                    stat_df.update(df_to_predict)
+                    stat_df.to_csv(stat_path, index=False)
+                else:
+                    raise ValueError('FATAL ERROR: either set first=True, or feed stat_path.')
+                
             
         df_to_predict = df_to_predict.drop(columns=['prob_' + outcome for outcome in clf_classes])
         

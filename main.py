@@ -3,6 +3,7 @@ from currentStatus import addCurrentDetailsAll, addCurrentDetails
 from cleanData import cleanAll, combineMatches, getMatchResultsAgainst, removeGoalScores, copy_csv
 from predict import getCLF, prepare_data, predict_next_round
 from matchHistory import getCurrentFixtures
+from rankings import getRankings
 import pandas as pd
 import numpy as np
 import os
@@ -21,6 +22,7 @@ STATISTICS_PATH = os.path.join(DATA_PATH,'statistics')
 FINAL_FILE = os.path.join(DATA_PATH, 'final.csv')
 CONFIDENCE_FILE = os.path.join(STATISTICS_PATH, 'model_confidence.csv')
 PREDICTION_FILE = os.path.join(STATISTICS_PATH, 'prediction_result.csv')
+PRED_RANKING_FILE = os.path.join(STATISTICS_PATH, 'prediction_ranking.csv')
 CLF_FILE = os.path.join(DATA_PATH, 'best_clf.joblib')
 
 
@@ -33,7 +35,7 @@ if __name__ == "__main__":
 #    scrapeTeamOVAAll(OVA_FILE_PATH)
     # 2. Manaually bring result data from http://www.football-data.co.uk/englandm.php
     #    This can be also done by calling "getCurrentFixtures" from matchHistory.py
-    getCurrentFixtures(RAW_DATA_FILE_PATH)
+#    getCurrentFixtures(RAW_DATA_FILE_PATH)
     # 3. past standing data from rankings: To automate this, I need to run "getRankings" from 
     #    "rankings.py" before I call everything.
     
@@ -81,4 +83,6 @@ if __name__ == "__main__":
         combineMatches(CLEANED_DATA_FILE_PATH, DATA_PATH, 2006, 2019)
         getMatchResultsAgainst(FINAL_FILE, CLEANED_DATA_FILE_PATH, DATA_PATH)
         is_first = False
+    
+    getRankings(fromFile=PREDICTION_FILE, toFile=PRED_RANKING_FILE)
         

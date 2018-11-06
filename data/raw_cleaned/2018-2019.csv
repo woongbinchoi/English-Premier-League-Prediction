@@ -106,9 +106,9 @@ Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,OVA_diff
 2018-11-03,West Ham,Burnley,4.0,2.0,H,78,78,0
 2018-11-03,Arsenal,Liverpool,1.0,1.0,D,82,83,-1
 2018-11-03,Wolves,Tottenham,2.0,3.0,A,76,83,-7
-2018-11-04,Man City,Southampton,0.0,0.0,H,85,77,8
-2018-11-04,Chelsea,Crystal Palace,0.0,0.0,H,83,77,6
-2018-11-05,Huddersfield,Fulham,0.0,0.0,H,75,76,-1
+2018-11-04,Man City,Southampton,6.0,1.0,H,85,77,8
+2018-11-04,Chelsea,Crystal Palace,3.0,1.0,H,83,77,6
+2018-11-05,Huddersfield,Fulham,1.0,0.0,H,75,76,-1
 2018-11-10,Cardiff,Brighton,0.0,0.0,H,73,76,-3
 2018-11-10,Newcastle,Bournemouth,0.0,0.0,H,76,76,0
 2018-11-10,Leicester,Burnley,0.0,0.0,H,78,78,0
@@ -144,7 +144,7 @@ Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,OVA_diff
 2018-12-04,Bournemouth,Huddersfield,0.0,0.0,H,76,75,1
 2018-12-04,Watford,Man City,0.0,0.0,A,77,85,-8
 2018-12-05,Wolves,Chelsea,0.0,0.0,A,76,83,-7
-2018-12-05,Fulham,Leicester,0.0,0.0,H,76,78,-2
+2018-12-05,Fulham,Leicester,0.0,0.0,A,76,78,-2
 2018-12-05,Burnley,Liverpool,0.0,0.0,A,78,83,-5
 2018-12-05,Everton,Newcastle,0.0,0.0,H,79,76,3
 2018-12-05,Man United,Arsenal,0.0,0.0,H,83,82,1
@@ -162,10 +162,10 @@ Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,OVA_diff
 2018-12-15,Man City,Everton,0.0,0.0,H,85,79,6
 2018-12-15,Wolves,Bournemouth,0.0,0.0,H,76,76,0
 2018-12-15,Tottenham,Burnley,0.0,0.0,H,83,78,5
-2018-12-15,Huddersfield,Newcastle,0.0,0.0,H,75,76,-1
+2018-12-15,Huddersfield,Newcastle,0.0,0.0,A,75,76,-1
 2018-12-15,Crystal Palace,Leicester,0.0,0.0,A,77,78,-1
 2018-12-15,Watford,Cardiff,0.0,0.0,H,77,73,4
-2018-12-15,Fulham,West Ham,0.0,0.0,H,76,78,-2
+2018-12-15,Fulham,West Ham,0.0,0.0,A,76,78,-2
 2018-12-16,Southampton,Arsenal,0.0,0.0,A,77,82,-5
 2018-12-16,Brighton,Chelsea,0.0,0.0,A,76,83,-7
 2018-12-16,Liverpool,Man United,0.0,0.0,H,83,83,0
@@ -204,7 +204,7 @@ Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,OVA_diff
 2019-01-01,Cardiff,Tottenham,0.0,0.0,A,73,83,-10
 2019-01-02,Wolves,Crystal Palace,0.0,0.0,H,76,77,-1
 2019-01-02,Chelsea,Southampton,0.0,0.0,H,83,77,6
-2019-01-02,Huddersfield,Burnley,0.0,0.0,H,75,78,-3
+2019-01-02,Huddersfield,Burnley,0.0,0.0,A,75,78,-3
 2019-01-02,West Ham,Brighton,0.0,0.0,H,78,76,2
 2019-01-02,Bournemouth,Watford,0.0,0.0,H,76,77,-1
 2019-01-02,Newcastle,Man United,0.0,0.0,A,76,83,-7
@@ -232,7 +232,7 @@ Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,OVA_diff
 2019-01-29,Wolves,West Ham,0.0,0.0,H,76,78,-2
 2019-01-29,Fulham,Brighton,0.0,0.0,H,76,76,0
 2019-01-29,Arsenal,Cardiff,0.0,0.0,H,82,73,9
-2019-01-29,Huddersfield,Everton,0.0,0.0,H,75,79,-4
+2019-01-29,Huddersfield,Everton,0.0,0.0,A,75,79,-4
 2019-01-29,Bournemouth,Chelsea,0.0,0.0,A,76,83,-7
 2019-01-29,Man United,Burnley,0.0,0.0,H,83,78,5
 2019-01-29,Newcastle,Man City,0.0,0.0,A,76,85,-9
