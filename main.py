@@ -38,13 +38,13 @@ if __name__ == "__main__":
     # Things that are manually done still...
     # 1. OVA data from SOFIFASCRAPER: To automate this, I need to run "scrapeTeamOVAAll" from 
     #    "sofifaScraper.py" before I call mergeOVATOCleanedAll. (Warning: This takes a long time to run)
-#    scrapeTeamOVAAll(OVA_FILE_PATH, data_year_collect_from, current_year)
+    # scrapeTeamOVAAll(OVA_FILE_PATH, data_year_collect_from, current_year)
     # 2. Manaually bring result data from http://www.football-data.co.uk/englandm.php
     #    This can be also done by calling "getCurrentFixtures" from matchHistory.py
-    # getCurrentFixtures(RAW_DATA_FILE_PATH_CURRENT)
+    getCurrentFixtures(RAW_DATA_FILE_PATH_CURRENT)
     # 3. past standing data from rankings: To automate this, I need to run "getRankings" from 
     #    "rankings.py" before I call everything.
-    # getRankingsAll(1993, 2019, RAW_CLEANED_DATA_FILE_PATH, STANDINGS_PATH)
+    getRankingsAll(1993, 2019, RAW_CLEANED_DATA_FILE_PATH, STANDINGS_PATH)
     
     # 1. From raw data, remove all data but these columns below.
     # Produces: cleaned data csv located in CLEANED_DATA_FILE_PATH
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     # Produces: returns the best clf.
     best_clf = getCLF(FINAL_FILE, CONFIDENCE_FILE, CLF_FILE, recalculate=True)
 
-#    # TODO: What if I only use the current 5 years of data or something?
+    # TODO: What if I only use the current 5 years of data or something?
 
     # 8. Now we make prediction. This process is done by first predicting the upcoming round, then aggregate the result, then predict the next,
     # and repeat the process until there are no more games to predict. "predict_next_round" also produces prediction probabilities

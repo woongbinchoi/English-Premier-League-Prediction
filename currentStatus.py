@@ -214,7 +214,7 @@ def addCurrentDetails(frompath, topath, standings_path, yearAvailableFrom):
 
     df.to_csv(topath, index=False)
 
-def addCurrentDetailsAll(fromFolderPath, toFolderPath, standings_path, fromYear, toYear):
+def addCurrentDetailsAll(fromFolderPath, toFolderPath, standings_path, fromYear, toYear, yearAvailableFrom):
     for year in range(fromYear, toYear + 1):
         file = '{}-{}.csv'.format(year, year + 1)
         frompath = os.path.join(fromFolderPath, file)
