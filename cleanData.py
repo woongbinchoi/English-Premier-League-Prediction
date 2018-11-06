@@ -51,9 +51,9 @@ def clean(fromPath, toPath, columns):
     df.to_csv(toPath, index=False)
 
 
-def cleanAll(fromFolder, toFolder, columns):
-    for year in range(1993, 2019):
-        csvFile = '%s-%s.csv' % (year, year + 1)
+def cleanAll(fromFolder, toFolder, columns, fromYear, toYear):
+    for year in range(fromYear, toYear + 1):
+        csvFile = '{}-{}.csv'.format(year, year + 1)
         frompath = os.path.join(fromFolder, csvFile)
         topath = os.path.join(toFolder, csvFile)
         print("Cleaning ", frompath, "...")
@@ -63,19 +63,19 @@ def cleanAll(fromFolder, toFolder, columns):
 def combineMatches(cleanedFolderPath, finalPath, startYear, endYear, makeFile=True):
     print("Combining matches from {} to {}...".format(startYear, endYear))
     dfList = []
-    for year in range(startYear, endYear):
-        file = '%s-%s.csv' % (year, year + 1)
+    for year in range(startYear, endYear + 1):
+        file = '{}-{}.csv'.format(year, year + 1)
         path = os.path.join(cleanedFolderPath, file)
         df = pd.read_csv(path)
         # df.set_index('MatchID', inplace=True)
         dfList.append(df)
     df = pd.concat(dfList, ignore_index=True, sort=False)
     if makeFile:
-        df.to_csv(os.path.join(finalPath, 'final.csv'), index=False)
+        df.to_csv(finalPath, index=False)
     return df
 
 
-def getMatchResultsAgainst(filePath, cleanedFolderPath, finalPath):
+def getMatchResultsAgainst(filePath, cleanedFolderPath, finalPath, fromYear, toYear):
     print("Getting head-to-head results...")
     teamDetail, matchDetail = {}, {}
     matchDetailColumns = [
@@ -86,7 +86,8 @@ def getMatchResultsAgainst(filePath, cleanedFolderPath, finalPath):
     for item in matchDetailColumns:
         matchDetail[item] = []
 
-    df = combineMatches(cleanedFolderPath, finalPath, 1993, 2019, makeFile=False)
+    # Get head-to-head result from fromYear to toYear
+    df = combineMatches(cleanedFolderPath, finalPath, fromYear, toYear, makeFile=False)
     for index, row in df.iterrows():
         HT = row['HomeTeam']
         AT = row['AwayTeam']
@@ -130,6 +131,7 @@ def getMatchResultsAgainst(filePath, cleanedFolderPath, finalPath):
 #            print("{}: match played: {}, win: {}".format(AT, teamDetail[AT][HT]['match_played'], teamDetail[AT][HT]['win']))
 #            print()
             
+    # Only take the last x results of df and combine with filedf. This is because we don't always want to merge all data from 1993 to 2018
     filedf = pd.read_csv(filePath)
     row_count = filedf.shape[0]
     filedf['HT_win_rate_against'] = pd.Series(matchDetail['HT_win_rate_against'][-row_count:], index=filedf.index)

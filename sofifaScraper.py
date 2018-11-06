@@ -93,8 +93,8 @@ def scrapeTeamOVA(fromYear, toYear, csvPath):
 		# Data to csv
 		df = pd.DataFrame.from_records(zip(titles, OVAs), columns=["Team", "OVA"])
 		df.set_index('Team', inplace=True)
-		filePath = "%s/%s-%s.csv" % (csvPath, year, year + 1)
-		df.to_csv(filePath)
+		filePath = "{}/{}-{}.csv".format(csvPath, year, year + 1)
+		df.to_csv(filePath, index=False)
 
 def convertTeamName(name):
 	return NameChangeMap[name] if name in NameChangeMap else name
@@ -104,7 +104,6 @@ def mergeOVAToCleaned(ovaPath, cleanedPath):
 	cleaneddf = pd.read_csv(cleanedPath)
 
 	OVAdf.set_index('Team', inplace=True)
-	# cleaneddf.set_index('MatchID', inplace=True)
 
 	HomeOVAs, AwayOVAs = [], []
 	for index, row in cleaneddf.iterrows():
@@ -118,15 +117,13 @@ def mergeOVAToCleaned(ovaPath, cleanedPath):
 	cleaneddf['OVA_diff'] = cleaneddf['HomeOVA'] - cleaneddf['AwayOVA']
 	cleaneddf.to_csv(cleanedPath, index=False)
 
-def scrapeTeamOVAAll(path):
-	scrapeTeamOVA(2006, 2018, path)
+def scrapeTeamOVAAll(path, fromYear, toYear):
+	scrapeTeamOVA(fromYear, toYear, path)
 
-def mergeOVAToCleanedAll(ovaFolderPath, cleanedFolderPath):
-	fromYear = 2006
-	toYear = 2018
+def mergeOVAToCleanedAll(ovaFolderPath, cleanedFolderPath, fromYear, toYear):
 	for year in range(fromYear, toYear + 1):
-		ovaPath = os.path.join(ovaFolderPath, '%s-%s.csv' % (year, year + 1))
-		cleanedPath = os.path.join(cleanedFolderPath, '%s-%s.csv' % (year, year + 1))
+		ovaPath = os.path.join(ovaFolderPath, '{}-{}.csv'.format(year, year + 1))
+		cleanedPath = os.path.join(cleanedFolderPath, '{}-{}.csv'.format(year, year + 1))
 
 		print("About to merge " + ovaPath + " ...")
 		mergeOVAToCleaned(ovaPath, cleanedPath)

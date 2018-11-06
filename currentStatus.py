@@ -34,7 +34,7 @@ def get_5win_rate(last_matches):
 # Calculate match played, current standing, goal for, goal against, goal difference, winning/losing streaks, etc.
 # Input is csv that is just cleaned from raw data
 # Output is csv modified with each row added match played, current standing, GF, GA, GD, winning/losing streaks, etc.
-def addCurrentDetails(frompath, topath):
+def addCurrentDetails(frompath, topath, standings_path, yearAvailableFrom=1993):
     teamDetail, matchDetail = {}, {}
     matchDetailColumns = [
         'HT_match_played',
@@ -74,8 +74,9 @@ def addCurrentDetails(frompath, topath):
 
     previousYear = int(frompath[-13:-9]) - 1
     standings = dict()
-    if previousYear > 1993:
-        dfstandings = pd.read_csv('data/standings/' + str(previousYear) + 'Standings.csv')
+    # We only have data from 1993 to current. That means We don't have previous data at 1993.
+    if previousYear > yearAvailableFrom:
+        dfstandings = pd.read_csv('{}/{}-{}.csv'.format(standings_path, previousYear, previousYear + 1))
         for index,row in dfstandings.iterrows():
             standings[row['Team']] = dict()
             standings[row['Team']]['Points'] = row['Points']
@@ -213,11 +214,11 @@ def addCurrentDetails(frompath, topath):
 
     df.to_csv(topath, index=False)
 
-def addCurrentDetailsAll(fromFolderPath, toFolderPath):
-    for year in range(1993, 2019):
-        file = '%s-%s.csv' % (year, year + 1)
+def addCurrentDetailsAll(fromFolderPath, toFolderPath, standings_path, fromYear, toYear):
+    for year in range(fromYear, toYear + 1):
+        file = '{}-{}.csv'.format(year, year + 1)
         frompath = os.path.join(fromFolderPath, file)
         topath = os.path.join(toFolderPath, file)
         print("About to add 'current details' from {} to {}...".format(frompath, topath))
-        addCurrentDetails(frompath, topath)
+        addCurrentDetails(frompath, topath, standings_path)
     

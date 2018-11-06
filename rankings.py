@@ -3,17 +3,17 @@ import pandas as pd
 import math
 from datetime import datetime
 import csv
+from cleanData import make_directory
 
-# Either year, date pair or fromFile. toFile pair needs to be fed to the function
-def getRankings(year=None, date=None, fromFile=None, toFile=None):
-    if not (year and date or fromFile and toFile):
-        raise ValueError("Give a year/date pair or fromFile/toFile pair")
-    
+# If date is specified, calculate ranking up until that date
+def getRankings(fromFile, toFile, date=None, include_prediction=False):
     if date:
-        df = pd.read_csv('data/raw_cleaned/%s-%s.csv' % (year, year + 1))
         datet = datetime.strptime(date, '%Y-%m-%d')
-    else:
-        df = pd.read_csv(fromFile)
+    if not (fromFile and toFile):
+        raise ValueError("Error: getRankings: Give a fromFile/toFile pair")
+    
+    df = pd.read_csv(fromFile)
+
     scores = dict()
     for index,row in df.iterrows():
         if type(row['Date']) is float:
@@ -21,7 +21,7 @@ def getRankings(year=None, date=None, fromFile=None, toFile=None):
         if date and datetime.strptime(row['Date'], '%Y-%m-%d') > datet:
             break
         # That means this row is a prediction value
-        if date and row['FTHG'] == 0 and row['FTAG'] == 0 and row['FTR'] != 'D':
+        if not include_prediction and row['FTHG'] == 0 and row['FTAG'] == 0 and row['FTR'] != 'D':
             break
         home = row['HomeTeam']
         away = row['AwayTeam']
@@ -64,10 +64,8 @@ def getRankings(year=None, date=None, fromFile=None, toFile=None):
         Win_Rate.append(val['win'] / val['match_played'])
     df = pd.DataFrame(list(zip(Team, Points, Goal_Diff, Win_Rate)), columns=['Team', 'Points', 'Goal_Diff', 'Win_Rate'])
     
-    if date:
-        df.to_csv('data/standings/{}Standings.csv'.format(year), index=False)
-    else:
-        df.to_csv(toFile, index=False)
+    make_directory(toFile)
+    df.to_csv(toFile, index=False)
     
     # with open('data/standings/' + str(year) + 'Standings.csv', mode='w') as standing_files:
     #   standing_writer = csv.writer(standing_files, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
@@ -75,10 +73,14 @@ def getRankings(year=None, date=None, fromFile=None, toFile=None):
     #   for key in sorted(scores, key=scores.get, reverse=True):
     #       standing_writer.writerow([key, scores[key]])
 
-def getRankingsAll():
-    for year in range(1993, 2019):
+def getRankingsAll(fromYear, toYear, fromFileFolderPath, toFileFolderPath):
+    for year in range(fromYear, toYear):
         print('About to get rankings on {}...'.format(year))
-        getRankings(year, str(year+1) + '-12-31')
+        csv_file = '{}-{}.csv'.format(year, year + 1)
+        fromFile = os.path.join(fromFileFolderPath, csv_file)
+        toFile = os.path.join(toFileFolderPath, csv_file)
+        getRankings(fromFile, toFile, '{}-12-31'.format(str(year+1)), include_prediction=False)
+
     
         
     

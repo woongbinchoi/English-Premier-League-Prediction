@@ -4,11 +4,11 @@ import requests
 import numpy as np
 from datetime import datetime
 
-
-def getScore(team1, team2, date):
+# Deprecated function. Use getRankings from rankings.py
+def getScore(team1, team2, date, fromYear=2006, toYear=2019):
     datet = datetime.strptime(date, '%d/%m/%y')
     score = [0, 0, 0]
-    for year in range(2006, 2019):
+    for year in range(fromYear, toYear):
         path = 'data/cleaned/%s-%s.csv' % (year, year + 1)
         df = pd.read_csv(path)
         for index,row in df.iterrows():
@@ -30,10 +30,10 @@ def getScore(team1, team2, date):
                     score[2] += 1
     return score
 
-
-def getAllTime():
+# Deprecated function. Use getRankings from rankings.py
+def getAllTime(fromYear=2006, toYear=2019):
     scores = dict()
-    for year in range(2006, 2019):
+    for year in range(fromYear, toYear):
         path = 'data/cleaned/%s-%s.csv' % (year, year + 1)
         df = pd.read_csv(path)
         for index,row in df.iterrows():
@@ -88,7 +88,7 @@ def convertTeamName(team):
 
     return teamMap[team]
 
-def getCurrentFixtures(rawDataPath):
+def getCurrentFixtures(rawDataCurrentPath):
     base_url = "http://api.football-data.org/v2/competitions/"
     AUTH_TOKEN = "9f2efd00a5604f59a8f1c54860786e31"
     headers={"X-Auth-Token": AUTH_TOKEN}
@@ -114,6 +114,5 @@ def getCurrentFixtures(rawDataPath):
     }
 
     df = pd.DataFrame(matches_dict)
-    year = 2018
-    df.to_csv('{}/{}-{}.csv'.format(rawDataPath, year, year+1))
+    df.to_csv(rawDataCurrentPath, index=False)
     
