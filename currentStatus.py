@@ -34,7 +34,7 @@ def get_5win_rate(last_matches):
 # Calculate match played, current standing, goal for, goal against, goal difference, winning/losing streaks, etc.
 # Input is csv that is just cleaned from raw data
 # Output is csv modified with each row added match played, current standing, GF, GA, GD, winning/losing streaks, etc.
-def addCurrentDetails(frompath, topath, standings_path, yearAvailableFrom=1993):
+def addCurrentDetails(frompath, topath, standings_path, yearAvailableFrom):
     teamDetail, matchDetail = {}, {}
     matchDetailColumns = [
         'HT_match_played',
@@ -220,5 +220,5 @@ def addCurrentDetailsAll(fromFolderPath, toFolderPath, standings_path, fromYear,
         frompath = os.path.join(fromFolderPath, file)
         topath = os.path.join(toFolderPath, file)
         print("About to add 'current details' from {} to {}...".format(frompath, topath))
-        addCurrentDetails(frompath, topath, standings_path)
+        addCurrentDetails(frompath, topath, standings_path, yearAvailableFrom)
     
