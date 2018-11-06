@@ -1,5 +1,5 @@
 from sofifaScraper import mergeOVAToCleanedAll, scrapeTeamOVAAll
-from currentStatus import addCurrentDetailsAll, addCurrentDetails
+from currentStatus import addCurrentDetailsAll, addCurrentDetails, getCurrentSeason
 from cleanData import cleanAll, combineMatches, getMatchResultsAgainst, removeGoalScores, copy_csv
 from predict import getCLF, prepare_data, predict_next_round
 from matchHistory import getCurrentFixtures
@@ -12,7 +12,7 @@ import os
 #Constants
 data_year_available_from = 1993
 data_year_collect_from = 2006
-current_year = 2018
+current_year = getCurrentSeason()
 
 CURRENT_FILE = '{}-{}.csv'.format(current_year, current_year + 1)
 DATA_PATH = 'data'
@@ -98,4 +98,6 @@ if __name__ == "__main__":
     
     # 9. Now prediction is done. Produce a season standing with using the prediction result.
     getRankings(PREDICTION_FILE, PRED_RANKING_FILE, include_prediction=True)
-        
+
+
+

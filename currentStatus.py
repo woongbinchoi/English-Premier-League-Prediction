@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import os
+import datetime
 
 # Helpers
 # Identify Win/Loss Streaks if any.
@@ -30,6 +31,14 @@ def get_5win_rate(last_matches):
         return win_count / len(last_matches)
     else:
         return np.nan
+
+
+
+def getCurrentSeason():
+    now = datetime.datetime.now()
+    # By July, fixture of the season should be available.
+    new_season_start = datetime.datetime(now.year, 7, 1)
+    return now.year if now > new_season_start else now.year - 1
 
 # Calculate match played, current standing, goal for, goal against, goal difference, winning/losing streaks, etc.
 # Input is csv that is just cleaned from raw data
