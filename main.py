@@ -77,10 +77,9 @@ if __name__ == "__main__":
     # and do some grid search on it if necessary, and finally generates 'model confidence.csv' that records confidence score of each classifier.
     # If 'recalculate' is set False, and if clf_file exists, then it simply loads the clf from clf_file.
     # Produces: returns the best clf.
-    best_clf = getCLF(FINAL_FILE, CONFIDENCE_FILE, CLF_FILE, recalculate=True)
-
+    best_clf, y_results = getCLF(FINAL_FILE, CONFIDENCE_FILE, CLF_FILE, recalculate=True)
+    
     # TODO: What if I only use the current 5 years of data or something?
-
     # 8. Now we make prediction. This process is done by first predicting the upcoming round, then aggregate the result, then predict the next,
     # and repeat the process until there are no more games to predict. "predict_next_round" also produces prediction probabilities
     # for each matches on stat_path. 

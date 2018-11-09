@@ -94,7 +94,7 @@ def predict_labels(clf, features, target):
     # Print and return results
 #    print("Made predictions in {:.4f} seconds.".format(end - start))
     
-    return f1_score(target, y_pred, labels=['H','D','A'], average = None), sum(target == y_pred) / float(len(y_pred)), clf.score(features, target)
+    return f1_score(target, y_pred, labels=['H','D','A'], average = None), sum(target == y_pred) / float(len(y_pred)), clf.score(features, target), y_pred
 
 
 def train_predict(clf, X_train, y_train, X_test, y_test):
@@ -107,17 +107,17 @@ def train_predict(clf, X_train, y_train, X_test, y_test):
     train_classifier(clf, X_train, y_train)
     
     # Print the results of prediction for both training and testing
-    f1, acc, confidence = predict_labels(clf, X_train, y_train)
+    f1, acc, confidence, _ = predict_labels(clf, X_train, y_train)
 #    print(f1, acc)
 #    print("F1 score and accuracy score for training set: {} , {}.".format(f1 , acc))
 #    print("Confidence score for training set: {}.".format(confidence))
     
-    f1, acc, confidence = predict_labels(clf, X_test, y_test)
+    f1, acc, confidence, predictions = predict_labels(clf, X_test, y_test)
 #    print("F1 score and accuracy score for test set: {} , {}.".format(f1 , acc))
     print("Confidence score for test set: {}.".format(confidence))
     print()
     
-    return confidence
+    return confidence, predictions
     
 
 def get_grid_clf(clf, scoring, param, X_all, y_all):
@@ -269,7 +269,9 @@ def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True)
 #    classifiers.append(clf_L)
     
 #   We are going to record accuracies of each classifier prediction iteration
-    result = [[] for _ in range(len(classifiers))]
+    len_classifiers = len(classifiers)
+    result = [[] for _ in range(len_classifiers)]
+    y_results = [[] for _ in range(len_classifiers + 1)]
     
 #   Using 10-fold cross validation (Dividing the data into 10 sub groups, and run 
 #   preidction with each classifiers using each sub groups as a dataset)
@@ -279,10 +281,13 @@ def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True)
         print("Processing {}/{} of KFold Cross Validation...".format(split_index + 1, split))
         X_train, X_test = X_all.iloc[train_index], X_all.iloc[test_index]
         y_train, y_test = y_all.iloc[train_index], y_all.iloc[test_index]
-    
+        y_results[len_classifiers] += y_test.tolist()
+        
         for index, clf in enumerate(classifiers):
             print("KFold: {}/{}. clf_index: {}/{}.".format(split_index + 1, split, index + 1, len(classifiers)))
-            result[index].append(train_predict(clf, X_train, y_train, X_test, y_test))
+            confidence, predicted_result = train_predict(clf, X_train, y_train, X_test, y_test)
+            result[index].append(confidence)
+            y_results[index] += predicted_result.tolist()
     
 #   Make a dictionary of average accuracies for each classifiers
     avg_dict, best_clf = process_print_result(classifiers, result)
@@ -301,7 +306,7 @@ def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True)
     if recalculate:
         joblib.dump(best_clf, clf_file)
 #   Return the best classifier
-    return best_clf
+    return best_clf, y_results
 
 
 def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=False, stat_path=None, first=True):
