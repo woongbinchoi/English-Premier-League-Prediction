@@ -15,8 +15,7 @@ Apply machine learning to predict English Premier League soccer match.
 &nbsp;
 &nbsp;
 
-### Scripts
----
+## Scripts
 #### 1. cleanData.py
 	Includes necessary helper functions to process raw data
 #### 2. currentStatus.py
@@ -38,37 +37,36 @@ Apply machine learning to predict English Premier League soccer match.
 
 
 
-### Data
----
+## Data
 #### 1. data/OVAs (directory)
-	scraped overall team stat data
+- scraped overall team stat data
 #### 2. data/standings (directory)
-	historical standing results calculated in rankings.py
+- historical standing results calculated in rankings.py
 #### 3. data/raw (directory)
-	manually collected historical data of match outcomes
-	latest match outcomes of the current season
+- manually collected historical data of match outcomes
+- latest match outcomes of the current season
 #### 4. data/raw_cleaned (directory)
-	data extracted from data/raw
+- data extracted from data/raw
 #### 5. data/cleaned (directory)
-	data processed from data/raw_cleaned
+- data processed from data/raw_cleaned
 #### 6. data/statistics (directory)
-	1. data/statistics/round_rankings (directory)
-		- standings calculated based on the predicted match outcomes
-		- each file in the directory has a date included in its name. It provides predicted standing outcomes at the denoted date
-	2. data/statistics/prediction_ranking.csv
-		- predicted standing at the end of the season
-	3. data/statistics/prediction_result.csv
-		- individual predicted match outcomes
-	4. data/statistics/round_rankings_summary.csv
-		- predicted standing summary over the course of the season
+1. data/statistics/round_rankings (directory)
+	- standings calculated based on the predicted match outcomes
+	- each file in the directory has a date included in its name. It provides predicted standing outcomes at the denoted date
+2. data/statistics/prediction_ranking.csv
+	- predicted standing at the end of the season
+3. data/statistics/prediction_result.csv
+	- individual predicted match outcomes
+4. data/statistics/round_rankings_summary.csv
+	- predicted standing summary over the course of the season
 #### 7. data/best_clf.joblib
-	disk cache of classifier that gives the best accuracy of prediction
+- disk cache of classifier that gives the best accuracy of prediction
 #### 8. data/database.db
-	sql database that stores previous match outcomes, predicted match results and predicted standings
+- sql database that stores previous match outcomes, predicted match results and predicted standings
 #### 9. data/final.csv
-	csv file used for training a model and making predictions
+- csv file used for training a model and making predictions
 #### 10. data/model_confidence.csv
-	list of grid searched classifiers and its confidence score
+- list of grid searched classifiers and its confidence score
 
 
 
