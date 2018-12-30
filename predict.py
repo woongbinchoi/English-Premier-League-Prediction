@@ -177,7 +177,8 @@ def process_print_result(clfs, res):
 
 def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True):
     if not recalculate:
-        return joblib.load(clf_file)
+#        prediction result (y_result) not available
+        return joblib.load(clf_file), None
     
 #    First load the data from csv file
     data = pd.read_csv(finalFilePath)
@@ -343,6 +344,7 @@ def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=Fal
         for (index, result, pred_prob) in zip(df_indices, prediction, prediction_probability):
             HT = df_to_predict.at[index + len_df, 'HomeTeam']
             AT = df_to_predict.at[index + len_df, 'AwayTeam']
+            date_so_far = df_to_predict.at[index + len_df, 'Date']
             
             df_to_predict.at[index + len_df, 'FTR'] = result
             df_to_predict.at[index + len_df, 'FTHG'] = 0
@@ -355,6 +357,8 @@ def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=Fal
         
         if statistics:
             if first:
+                if os.path.exists(stat_path):
+                    os.remove(stat_path)
                 df_to_predict.to_csv(stat_path, index=False)
             else:
                 if os.path.isfile(stat_path):
@@ -368,10 +372,10 @@ def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=Fal
         df_to_predict = df_to_predict.drop(columns=['prob_' + outcome for outcome in clf_classes])
         
         df_to_predict.to_csv(current_raw_cleaned_path, index=False)
-        return True
+        return True, date_so_far
     else:
         print("There are no more games to make prediction")
-        return False
+        return False, None
 
 
 

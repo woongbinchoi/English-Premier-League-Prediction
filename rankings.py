@@ -1,12 +1,13 @@
 import os
 import pandas as pd
+import numpy as np
 import math
 from datetime import datetime
 import csv
 from cleanData import make_directory
 
 # If date is specified, calculate ranking up until that date
-def getRankings(fromFile, toFile, date=None, include_prediction=False):
+def getRankings(fromFile, toFile, date=None, include_prediction=False, predicted_date_so_far=None, ranking_summary_file=None):
     if date:
         datet = datetime.strptime(date, '%Y-%m-%d')
     if not (fromFile and toFile):
@@ -22,6 +23,9 @@ def getRankings(fromFile, toFile, date=None, include_prediction=False):
             break
         # That means this row is a prediction value
         if not include_prediction and row['FTHG'] == 0 and row['FTAG'] == 0 and row['FTR'] != 'D':
+            break
+        # Meaning this game is not played and not predicted yet
+        if row['FTR'] is np.nan:
             break
         home = row['HomeTeam']
         away = row['AwayTeam']
@@ -66,6 +70,20 @@ def getRankings(fromFile, toFile, date=None, include_prediction=False):
     
     make_directory(toFile)
     df.to_csv(toFile, index=False)
+    
+    if include_prediction and predicted_date_so_far and ranking_summary_file:
+        round_df = pd.DataFrame(list(zip(Team, Points)), columns=['Team', predicted_date_so_far])
+        round_df.set_index('Team', inplace=True)
+        round_df = round_df.transpose()
+        round_df.index.name = 'Date'
+        
+        if os.path.isfile(ranking_summary_file):
+            summary_df = pd.read_csv(ranking_summary_file)
+            summary_df.set_index('Date', inplace=True)
+            summary_df = pd.concat([summary_df, round_df], sort=False)
+            summary_df.to_csv(ranking_summary_file)
+        else:
+            round_df.to_csv(ranking_summary_file)
     
     # with open('data/standings/' + str(year) + 'Standings.csv', mode='w') as standing_files:
     #   standing_writer = csv.writer(standing_files, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)

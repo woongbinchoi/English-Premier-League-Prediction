@@ -5,15 +5,29 @@ import pandas as pd
 import numpy as np
 import math
 from distutils.dir_util import copy_tree
+from shutil import rmtree
+import sqlite3
 
 # Copy Raw claened data to cleaned data to predict 
-def copy_csv(raw_cleaned_path, cleaned_path):
-    copy_tree(raw_cleaned_path, cleaned_path)
+def copy_csv(fromPath, toPath):
+    make_directory(toPath)
+    if os.path.isfile(fromPath):
+        with open(toPath, 'w') as toFile, open(fromPath, 'r') as fromFile:
+            for line in fromFile:
+                    toFile.write(line)
+    elif os.path.isdir(fromPath):
+        copy_tree(fromPath, toPath)
+    else:
+        raise ValueError("Copy_CSV Error. File does not exist")
 
 def make_directory(path):
     directory = os.path.dirname(path)
     if not os.path.exists(directory):
         os.makedirs(directory)
+
+def remove_directory(path):
+    if os.path.exists(path):
+        rmtree(path)
 
 # clean the original raw data by storing only the columns that we need, and removing the rest.
 def clean(fromPath, toPath, columns):
@@ -145,4 +159,27 @@ def removeGoalScores(finalPath):
     df = df.drop(columns=['FTHG','FTAG'])
     df.to_csv(finalPath, index=False)
 
+
+def saveNewDataToDatabase(database_path, final_data_file, prediction_results_file, standing_predictions_file,
+                          final_data_file_name='previous_results', prediction_results_file_name='prediction_results',
+                          standing_predictions_file_name='prediction_rankings'):
+    conn = sqlite3.connect(database_path)
+    
+    previous_results_df = pd.read_csv(final_data_file)
+    previous_results_df = previous_results_df[["Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "FTR"]]
+    previous_results_df = previous_results_df.loc[(previous_results_df['FTHG'] != 0) | 
+                            (previous_results_df['FTAG'] != 0) | 
+                            ((previous_results_df['FTR'] != 'A') & 
+                                (previous_results_df['FTR'] != 'H'))]
+    
+    prediction_results_df = pd.read_csv(prediction_results_file)
+    prediction_results_df = prediction_results_df[["Date", "HomeTeam", "AwayTeam", "FTR", "prob_A", "prob_D", "prob_H"]]
+    prediction_results_df = prediction_results_df.loc[prediction_results_df['prob_A'].notna()]
+    
+    standing_result_df = pd.read_csv(standing_predictions_file)
+    
+    previous_results_df.to_sql(final_data_file_name, con=conn, if_exists='replace')
+    prediction_results_df.to_sql(prediction_results_file_name, con=conn, if_exists='replace')
+    standing_result_df.to_sql(standing_predictions_file_name, con=conn, if_exists='replace')
+    
 
