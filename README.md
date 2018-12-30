@@ -17,20 +17,20 @@ Apply machine learning to predict English Premier League soccer match.
 
 ## Scripts
 #### 1. cleanData.py
-	Includes necessary helper functions to process raw data
+- Includes necessary helper functions to process raw data
 #### 2. currentStatus.py
-	Collects and adds more details to the processed raw data
-	current/past standings, goals for/against/differences, etc.
+- Collects and adds more details to the processed raw data
+- current/past standings, goals for/against/differences, etc.
 #### 3. matchHistory.py
-	Collects the latest match results
+- Collects the latest match results
 #### 4. rankings.py
-	Calculate league points and generate standings
+- Calculate league points and generate standings
 #### 5. sofifaScraper.py
-	Scrape overall team stat from FIFA
+- Scrape overall team stat from FIFA
 #### 6. predict.py
-	With using processed data, train a ML model to predict future results
+- With using processed data, train a ML model to predict future results
 #### 7. model.py
-	I/O file where the functions from the above files are actually executed
+- I/O file where the functions from the above files are actually executed
 
 &nbsp;
 &nbsp;
