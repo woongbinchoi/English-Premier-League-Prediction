@@ -10,49 +10,71 @@ import os
 import datetime
 
 
-#Constants
+
+
+# Variables
+should_train = True
+
+
+# Constants
 data_year_available_from = 1993
 data_year_collect_from = 2006
 current_year = getCurrentSeason()
-
 CURRENT_FILE = '{}-{}.csv'.format(current_year, current_year + 1)
+columns = ['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR']
+
+
+# Paths
 DATA_PATH = 'data'
+
 RAW_DATA_FILE_PATH = os.path.join(DATA_PATH,'raw')
-RAW_DATA_FILE_PATH_CURRENT = os.path.join(RAW_DATA_FILE_PATH, CURRENT_FILE)
 OVA_FILE_PATH = os.path.join(DATA_PATH,'OVAs')
 STANDINGS_PATH = os.path.join(DATA_PATH, 'standings')
 STATISTICS_PATH = os.path.join(DATA_PATH,'statistics')
 RAW_CLEANED_DATA_FILE_PATH = os.path.join(DATA_PATH,'raw_cleaned')
-RAW_CLEANED_DATA_FILE_PATH_CURRENT = os.path.join(RAW_CLEANED_DATA_FILE_PATH, CURRENT_FILE)
 CLEANED_DATA_FILE_PATH = os.path.join(DATA_PATH,'cleaned')
-CLEANED_DATA_FILE_PATH_CURRENT = os.path.join(CLEANED_DATA_FILE_PATH, CURRENT_FILE)
 DATABASE_PATH = os.path.join(DATA_PATH, 'database.db')
-PRED_RANKING_ROUND_PATH = os.path.join(STATISTICS_PATH, 'round_rankings')
-
-CURRENT_STANDINGS_FILE = os.path.join(STANDINGS_PATH, CURRENT_FILE)
 FINAL_FILE = os.path.join(DATA_PATH, 'final.csv')
 CLF_FILE = os.path.join(DATA_PATH, 'best_clf.joblib')
 CONFIDENCE_FILE = os.path.join(DATA_PATH, 'model_confidence.csv')
+
+RAW_DATA_FILE_PATH_CURRENT = os.path.join(RAW_DATA_FILE_PATH, CURRENT_FILE)
+RAW_CLEANED_DATA_FILE_PATH_CURRENT = os.path.join(RAW_CLEANED_DATA_FILE_PATH, CURRENT_FILE)
+CLEANED_DATA_FILE_PATH_CURRENT = os.path.join(CLEANED_DATA_FILE_PATH, CURRENT_FILE)
+PRED_RANKING_ROUND_PATH = os.path.join(STATISTICS_PATH, 'round_rankings')
 PREDICTION_FILE = os.path.join(STATISTICS_PATH, 'prediction_result.csv')
 PRED_RANKING_FILE = os.path.join(STATISTICS_PATH, 'prediction_ranking.csv')
 PRED_RANKING_ROUND_SUMMARY_FILE = os.path.join(STATISTICS_PATH, 'round_rankings_summary.csv')
+CURRENT_STANDINGS_FILE = os.path.join(STANDINGS_PATH, CURRENT_FILE)
+
+
 
 
 if __name__ == "__main__":
-    # Things that are manually done still...
-    # 1. OVA data from SOFIFASCRAPER: To automate this, I need to run "scrapeTeamOVAAll" from 
-    #    "sofifaScraper.py" before I call mergeOVATOCleanedAll. (Warning: This takes a long time to run)
-    # scrapeTeamOVAAll(OVA_FILE_PATH, data_year_collect_from, current_year)
-    # 2. Manaually bring result data from http://www.football-data.co.uk/englandm.php
-    #    This can be also done by calling "getCurrentFixtures" from matchHistory.py
-#    getCurrentFixtures(RAW_DATA_FILE_PATH_CURRENT)
-    # 3. past standing data from rankings: To automate this, I need to run "getRankings" from 
-    #    "rankings.py" before I call everything.
-    getRankingsAll(1993, 2019, RAW_CLEANED_DATA_FILE_PATH, STANDINGS_PATH)
+    # Function(s) that don't have to be executed every time
+
+    # 1. OVA data from SOFIFASCRAPER (Warning: This takes a long time to run)
+    #   SOFIFA updates their stat two or three times every month, but they don't change data much
+    # Uncomment below to scrape team overall stat data
+    scrapeTeamOVAAll(OVA_FILE_PATH, data_year_collect_from, current_year)
+
+
+    # Preprocessing
+
+    # 1. Latest premier league results 
+    # This data can also be retrieved from http://www.football-data.co.uk/englandm.php
+    # Uncomment below to get the latest match results
+    getCurrentFixtures(RAW_DATA_FILE_PATH_CURRENT)
+
+    # 2. Standings (from 1993 to curent year)
+    # Uncomment below to run the function
+    getRankingsAll(data_year_available_from, current_year, RAW_CLEANED_DATA_FILE_PATH, STANDINGS_PATH)
     
-    # 1. From raw data, remove all data but these columns below.
+
+    # Run the functions below to start generating necessary data
+
+    # 1. From raw data, remove all data but the selected columns.
     # Produces: cleaned data csv located in CLEANED_DATA_FILE_PATH
-    columns = ['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR']
     cleanAll(RAW_DATA_FILE_PATH, RAW_CLEANED_DATA_FILE_PATH, columns, data_year_available_from, current_year)
 
     # 2. From 1, add Overall Rating columns
@@ -68,7 +90,7 @@ if __name__ == "__main__":
     addCurrentDetailsAll(CLEANED_DATA_FILE_PATH, CLEANED_DATA_FILE_PATH, STANDINGS_PATH, data_year_available_from, current_year, data_year_available_from)
 
     # 5. From 4, merge all csv files from startYear to endYear together. 
-    # FOR NOW, I only collect data from 2006 because sofifa only provides ova data from 2006
+    # FOR NOW, I only collect data from 2006 because sofifa only provides ova data from 2006, and model tends to perform better with this approach
     # Produces: new csv file on FINAL_FILE
     combineMatches(CLEANED_DATA_FILE_PATH, FINAL_FILE, data_year_collect_from, current_year)
 
@@ -81,9 +103,8 @@ if __name__ == "__main__":
     # and do some grid search on it if necessary, and finally generates 'model confidence.csv' that records confidence score of each classifier.
     # If 'recalculate' is set False, and if clf_file exists, then it simply loads the clf from clf_file.
     # Produces: returns the best clf.
-    best_clf, y_results = getCLF(FINAL_FILE, CONFIDENCE_FILE, CLF_FILE, recalculate=False)
+    best_clf, y_results = getCLF(FINAL_FILE, CONFIDENCE_FILE, CLF_FILE, recalculate=should_train)
     
-    # TODO: What if I only use the current 5 years of data or something?
     # 8. Now we make prediction. This process is done by first predicting the upcoming round, then aggregate the result, then predict the next,
     # and repeat the process until there are no more games to predict. "predict_next_round" also produces prediction probabilities
     # for each matches on stat_path. 
@@ -116,6 +137,5 @@ if __name__ == "__main__":
     # 10. Put previous results, prediction results, standing predictions to the database
     saveNewDataToDatabase(DATABASE_PATH, FINAL_FILE, PREDICTION_FILE, PRED_RANKING_ROUND_SUMMARY_FILE)
     
-
 
 

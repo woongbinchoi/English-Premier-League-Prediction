@@ -8,7 +8,7 @@ from distutils.dir_util import copy_tree
 from shutil import rmtree
 import sqlite3
 
-# Copy Raw claened data to cleaned data to predict 
+# Use this function to copy a file or a folder
 def copy_csv(fromPath, toPath):
     make_directory(toPath)
     if os.path.isfile(fromPath):
@@ -18,7 +18,7 @@ def copy_csv(fromPath, toPath):
     elif os.path.isdir(fromPath):
         copy_tree(fromPath, toPath)
     else:
-        raise ValueError("Copy_CSV Error. File does not exist")
+        raise ValueError("Copy_CSV Error. File either does not exist, or is an unsupported file type")
 
 def make_directory(path):
     directory = os.path.dirname(path)
@@ -39,6 +39,7 @@ def clean(fromPath, toPath, columns):
             if len(date.split('-')) == 3:
                 return date
             elif file == '2002-2003.csv':
+                # Only this file has a different date format
                 return dt.strptime(date, '%d/%m/%Y').date()
             else:
                 return dt.strptime(date, '%d/%m/%y').date()
@@ -51,9 +52,6 @@ def clean(fromPath, toPath, columns):
     df = pd.read_csv(fromPath, error_bad_lines=False)
     df = df[columns]
     df = df[pd.notnull(df['Date'])]
-
-    # df['MatchID'] = pd.Series([str(x) for x in range(len(df))])
-    # df.set_index('MatchID', inplace=True)
 
     df['FTHG'] = df['FTHG'].apply(convertScore)
     df['FTAG'] = df['FTAG'].apply(convertScore)
@@ -81,7 +79,6 @@ def combineMatches(cleanedFolderPath, finalPath, startYear, endYear, makeFile=Tr
         file = '{}-{}.csv'.format(year, year + 1)
         path = os.path.join(cleanedFolderPath, file)
         df = pd.read_csv(path)
-        # df.set_index('MatchID', inplace=True)
         dfList.append(df)
     df = pd.concat(dfList, ignore_index=True, sort=False)
     if makeFile:
@@ -136,14 +133,6 @@ def getMatchResultsAgainst(filePath, cleanedFolderPath, finalPath, fromYear, toY
             TD_HT_AT['win'] += 1
         elif gameResult == 'A':
             TD_AT_HT['win'] += 1
-        
-#        Team_1 = "Watford"
-#        Team_2 = "Huddersfield"
-#        if HT == Team_1 and AT == Team_2 or AT == Team_1 and HT == Team_2:
-#            print(row['Date'])
-#            print("{}: match played: {}, win: {}".format(HT, teamDetail[HT][AT]['match_played'], teamDetail[HT][AT]['win']))
-#            print("{}: match played: {}, win: {}".format(AT, teamDetail[AT][HT]['match_played'], teamDetail[AT][HT]['win']))
-#            print()
             
     # Only take the last x results of df and combine with filedf. This is because we don't always want to merge all data from 1993 to 2018
     filedf = pd.read_csv(filePath)

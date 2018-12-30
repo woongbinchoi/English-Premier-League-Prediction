@@ -83,7 +83,7 @@ def addCurrentDetails(frompath, topath, standings_path, yearAvailableFrom):
 
     previousYear = int(frompath[-13:-9]) - 1
     standings = dict()
-    # We only have data from 1993 to current. That means We don't have previous data at 1993.
+    # We only have data from 1993 to current. That means We don't have 'previous year' data at 1993.
     if previousYear > yearAvailableFrom:
         dfstandings = pd.read_csv('{}/{}-{}.csv'.format(standings_path, previousYear, previousYear + 1))
         for index,row in dfstandings.iterrows():

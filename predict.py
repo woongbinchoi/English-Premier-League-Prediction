@@ -66,7 +66,6 @@ def prepare_data(data, drop_na=True):
     #normalizedColumns += ['HT_goal_for', 'AT_goal_for', 'HT_goal_against', 'AT_goal_against']
 
     for column in normalizedColumns:
-#        print(data[column], len(data[column]))
         data[column] = scale(list(data[column]))
     
     return data
@@ -108,7 +107,6 @@ def train_predict(clf, X_train, y_train, X_test, y_test):
     
     # Print the results of prediction for both training and testing
     f1, acc, confidence, _ = predict_labels(clf, X_train, y_train)
-#    print(f1, acc)
 #    print("F1 score and accuracy score for training set: {} , {}.".format(f1 , acc))
 #    print("Confidence score for training set: {}.".format(confidence))
     
@@ -274,8 +272,8 @@ def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True)
     result = [[] for _ in range(len_classifiers)]
     y_results = [[] for _ in range(len_classifiers + 1)]
     
-#   Using 10-fold cross validation (Dividing the data into 10 sub groups, and run 
-#   preidction with each classifiers using each sub groups as a dataset)
+#   Using 10-fold cross validation (Dividing the data into sub groups (90% to fit, 10% to test), and run 
+#   prediction with each classifiers using the sub groups as a dataset)
     split = 10
     kf = KFold(n_splits=split, shuffle=True)
     for split_index, (train_index, test_index) in enumerate(kf.split(X_all)):
@@ -293,7 +291,7 @@ def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True)
 #   Make a dictionary of average accuracies for each classifiers
     avg_dict, best_clf = process_print_result(classifiers, result)
     
-#   Put the result into the csv file
+#   Put the result into csv file
     if os.path.isfile(model_confidence_csv_path):    
         df = pd.read_csv(model_confidence_csv_path)
         newdf = pd.DataFrame(avg_dict, index=[df.shape[1]])

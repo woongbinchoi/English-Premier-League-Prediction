@@ -94,7 +94,7 @@ def scrapeTeamOVA(fromYear, toYear, csvPath):
 		df = pd.DataFrame.from_records(zip(titles, OVAs), columns=["Team", "OVA"])
 		df.set_index('Team', inplace=True)
 		filePath = "{}/{}-{}.csv".format(csvPath, year, year + 1)
-		df.to_csv(filePath, index=False)
+		df.to_csv(filePath)
 
 def convertTeamName(name):
 	return NameChangeMap[name] if name in NameChangeMap else name

@@ -84,15 +84,10 @@ def getRankings(fromFile, toFile, date=None, include_prediction=False, predicted
             summary_df.to_csv(ranking_summary_file)
         else:
             round_df.to_csv(ranking_summary_file)
-    
-    # with open('data/standings/' + str(year) + 'Standings.csv', mode='w') as standing_files:
-    #   standing_writer = csv.writer(standing_files, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    #   standing_writer.writerow(['Team', 'Points'])
-    #   for key in sorted(scores, key=scores.get, reverse=True):
-    #       standing_writer.writerow([key, scores[key]])
+
 
 def getRankingsAll(fromYear, toYear, fromFileFolderPath, toFileFolderPath):
-    for year in range(fromYear, toYear):
+    for year in range(fromYear, toYear + 1):
         print('About to get rankings on {}...'.format(year))
         csv_file = '{}-{}.csv'.format(year, year + 1)
         fromFile = os.path.join(fromFileFolderPath, csv_file)
