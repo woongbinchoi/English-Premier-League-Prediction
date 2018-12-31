@@ -9,7 +9,7 @@ Apply machine learning to predict English Premier League soccer match.
 ## To Run
 > python3 model.py
 
-***Warning***: There may be a few packages that are required before running this script. Please install them all, or use a 3rd party IDE (such as spyder) which includes these packages by default.
+***Warning***: Few packages required to run the script. Install them all, or use a 3rd party IDE (such as spyder) that pre-installs these packages by default.
 
 
 &nbsp;
