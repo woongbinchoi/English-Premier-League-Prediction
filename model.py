@@ -10,47 +10,37 @@ import os
 import datetime
 
 
+def magic(should_train=True, data_year_available_from=1993, data_year_collect_from=2006):
+    # Constants
+    current_year = getCurrentSeason()
+    CURRENT_FILE = '{}-{}.csv'.format(current_year, current_year + 1)
+    columns = ['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR']
 
 
-# Variables
-should_train = True
+    # Paths
+    DATA_PATH = 'data'
+
+    RAW_DATA_FILE_PATH = os.path.join(DATA_PATH,'raw')
+    OVA_FILE_PATH = os.path.join(DATA_PATH,'OVAs')
+    STANDINGS_PATH = os.path.join(DATA_PATH, 'standings')
+    STATISTICS_PATH = os.path.join(DATA_PATH,'statistics')
+    RAW_CLEANED_DATA_FILE_PATH = os.path.join(DATA_PATH,'raw_cleaned')
+    CLEANED_DATA_FILE_PATH = os.path.join(DATA_PATH,'cleaned')
+    DATABASE_PATH = os.path.join(DATA_PATH, 'database.db')
+    FINAL_FILE = os.path.join(DATA_PATH, 'final.csv')
+    CLF_FILE = os.path.join(DATA_PATH, 'best_clf.joblib')
+    CONFIDENCE_FILE = os.path.join(DATA_PATH, 'model_confidence.csv')
+
+    RAW_DATA_FILE_PATH_CURRENT = os.path.join(RAW_DATA_FILE_PATH, CURRENT_FILE)
+    RAW_CLEANED_DATA_FILE_PATH_CURRENT = os.path.join(RAW_CLEANED_DATA_FILE_PATH, CURRENT_FILE)
+    CLEANED_DATA_FILE_PATH_CURRENT = os.path.join(CLEANED_DATA_FILE_PATH, CURRENT_FILE)
+    PRED_RANKING_ROUND_PATH = os.path.join(STATISTICS_PATH, 'round_rankings')
+    PREDICTION_FILE = os.path.join(STATISTICS_PATH, 'prediction_result.csv')
+    PRED_RANKING_FILE = os.path.join(STATISTICS_PATH, 'prediction_ranking.csv')
+    PRED_RANKING_ROUND_SUMMARY_FILE = os.path.join(STATISTICS_PATH, 'round_rankings_summary.csv')
+    CURRENT_STANDINGS_FILE = os.path.join(STANDINGS_PATH, CURRENT_FILE)
 
 
-# Constants
-data_year_available_from = 1993
-data_year_collect_from = 2006
-current_year = getCurrentSeason()
-CURRENT_FILE = '{}-{}.csv'.format(current_year, current_year + 1)
-columns = ['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR']
-
-
-# Paths
-DATA_PATH = 'data'
-
-RAW_DATA_FILE_PATH = os.path.join(DATA_PATH,'raw')
-OVA_FILE_PATH = os.path.join(DATA_PATH,'OVAs')
-STANDINGS_PATH = os.path.join(DATA_PATH, 'standings')
-STATISTICS_PATH = os.path.join(DATA_PATH,'statistics')
-RAW_CLEANED_DATA_FILE_PATH = os.path.join(DATA_PATH,'raw_cleaned')
-CLEANED_DATA_FILE_PATH = os.path.join(DATA_PATH,'cleaned')
-DATABASE_PATH = os.path.join(DATA_PATH, 'database.db')
-FINAL_FILE = os.path.join(DATA_PATH, 'final.csv')
-CLF_FILE = os.path.join(DATA_PATH, 'best_clf.joblib')
-CONFIDENCE_FILE = os.path.join(DATA_PATH, 'model_confidence.csv')
-
-RAW_DATA_FILE_PATH_CURRENT = os.path.join(RAW_DATA_FILE_PATH, CURRENT_FILE)
-RAW_CLEANED_DATA_FILE_PATH_CURRENT = os.path.join(RAW_CLEANED_DATA_FILE_PATH, CURRENT_FILE)
-CLEANED_DATA_FILE_PATH_CURRENT = os.path.join(CLEANED_DATA_FILE_PATH, CURRENT_FILE)
-PRED_RANKING_ROUND_PATH = os.path.join(STATISTICS_PATH, 'round_rankings')
-PREDICTION_FILE = os.path.join(STATISTICS_PATH, 'prediction_result.csv')
-PRED_RANKING_FILE = os.path.join(STATISTICS_PATH, 'prediction_ranking.csv')
-PRED_RANKING_ROUND_SUMMARY_FILE = os.path.join(STATISTICS_PATH, 'round_rankings_summary.csv')
-CURRENT_STANDINGS_FILE = os.path.join(STANDINGS_PATH, CURRENT_FILE)
-
-
-
-
-if __name__ == "__main__":
     # Function(s) that don't have to be executed every time
 
     # 1. OVA data from SOFIFASCRAPER (Warning: This takes a long time to run)
@@ -139,3 +129,7 @@ if __name__ == "__main__":
     
 
 
+if __name__ == "__main__":
+    magic()
+
+    
