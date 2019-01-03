@@ -1,2 +1,11 @@
 Flask
 gunicorn
+ntpath
+pandas
+numpy
+selenium
+IPython
+sklearn
+xgboost
+scipy
+csv
