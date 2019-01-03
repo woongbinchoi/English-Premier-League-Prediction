@@ -5,6 +5,10 @@ import json
 app = Flask(__name__)
 database_path = 'data/database.db'
 
+@app.route('/')
+def index():
+    return json.dumps({})
+
 @app.route('/rankings')
 def rankings():
     conn = sqlite3.connect(database_path)
