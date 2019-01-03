@@ -3,6 +3,8 @@ from flask import Flask, render_template, request
 import sqlite3
 import json
 import threading
+from currentStatus import getCurrentSeason
+import datetime
 
 app = Flask(__name__)
 database_path = 'data/database.db'
@@ -66,14 +68,15 @@ def previous_results():
     conn = sqlite3.connect(database_path)
     cur = conn.cursor()
     
-    query = 'SELECT * FROM previous_results'
+    season_start = datetime.datetime(getCurrentSeason(), 7, 1).date().strftime('%Y-%m-%d')
+    query = 'SELECT * FROM previous_results WHERE Date > "{}"'.format(season_start)
     req_params_raw = request.data
     if req_params_raw:
         req_params = json.loads(req_params_raw)
         query_type = 'AND' if 'against' in req_params else 'OR'
         teams = ["'" + team + "'" for team in req_params['teams']]
         teams = ",".join(teams)
-        query += ' WHERE HomeTeam IN ({}) {} AwayTeam IN ({})'.format(teams, query_type, teams)
+        query += ' AND (HomeTeam IN ({}) {} AwayTeam IN ({}))'.format(teams, query_type, teams)
         
     cur.execute(query)
     previous_results_raw = cur.fetchall()
