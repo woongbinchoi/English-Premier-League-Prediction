@@ -1,6 +1,5 @@
 Flask
 gunicorn
-ntpath
 pandas
 numpy
 selenium

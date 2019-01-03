@@ -7,6 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 import time
+from currentStatus import getCurrentSeason
 
 # Constants
 timeout = 5
@@ -53,6 +54,12 @@ def scrapeTeamOVA(fromYear, toYear, csvPath):
 
 	# Clicks
 	for year in range(fromYear, toYear + 1):
+		filePath = "{}/{}-{}.csv".format(csvPath, year, year + 1)
+		
+		# We don't need to pull the same data again
+		if year != getCurrentSeason() and os.path.exists(filePath):
+			continue
+
 		fifaVersion = str(format((year % 2000 + 1), '02d'))
 
 		ShowListButton = browser.find_element_by_xpath("//a[@class='choose-version']")
@@ -93,7 +100,6 @@ def scrapeTeamOVA(fromYear, toYear, csvPath):
 		# Data to csv
 		df = pd.DataFrame.from_records(zip(titles, OVAs), columns=["Team", "OVA"])
 		df.set_index('Team', inplace=True)
-		filePath = "{}/{}-{}.csv".format(csvPath, year, year + 1)
 		df.to_csv(filePath)
 
 def convertTeamName(name):

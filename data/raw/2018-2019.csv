@@ -199,15 +199,15 @@ Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
 2018-12-30,Burnley,West Ham,2.0,0.0,H
 2018-12-30,Southampton,Man City,1.0,3.0,A
 2018-12-30,Man United,Bournemouth,4.0,1.0,H
-2019-01-01,Everton,Leicester,,,
-2019-01-01,Arsenal,Fulham,,,
-2019-01-01,Cardiff,Tottenham,,,
-2019-01-02,Wolves,Crystal Palace,,,
-2019-01-02,Chelsea,Southampton,,,
-2019-01-02,Huddersfield,Burnley,,,
-2019-01-02,West Ham,Brighton,,,
-2019-01-02,Bournemouth,Watford,,,
-2019-01-02,Newcastle,Man United,,,
+2019-01-01,Everton,Leicester,0.0,1.0,A
+2019-01-01,Arsenal,Fulham,4.0,1.0,H
+2019-01-01,Cardiff,Tottenham,0.0,3.0,A
+2019-01-02,Wolves,Crystal Palace,0.0,2.0,A
+2019-01-02,Chelsea,Southampton,0.0,0.0,D
+2019-01-02,Huddersfield,Burnley,1.0,2.0,A
+2019-01-02,West Ham,Brighton,2.0,2.0,D
+2019-01-02,Bournemouth,Watford,3.0,3.0,D
+2019-01-02,Newcastle,Man United,0.0,2.0,A
 2019-01-03,Man City,Liverpool,,,
 2019-01-12,West Ham,Arsenal,,,
 2019-01-12,Leicester,Southampton,,,

@@ -1,6 +1,8 @@
+from model import magic
 from flask import Flask, render_template, request
 import sqlite3
 import json
+import threading
 
 app = Flask(__name__)
 database_path = 'data/database.db'
@@ -8,6 +10,14 @@ database_path = 'data/database.db'
 @app.route('/')
 def index():
     return json.dumps({})
+
+@app.route('/refresh')
+def start_new_prediction():
+    t = threading.Thread(target=magic)
+    t.daemon = True
+    t.start()
+    return json.dumps("Process started.")
+
 
 @app.route('/rankings')
 def rankings():
