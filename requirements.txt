@@ -7,3 +7,4 @@ IPython
 sklearn
 xgboost
 scipy
+requests
