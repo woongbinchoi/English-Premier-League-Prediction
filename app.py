@@ -1,5 +1,5 @@
 from model import magic
-from flask import Flask, render_template, request
+from flask import Flask, request, Response
 import sqlite3
 import json
 import threading
@@ -9,16 +9,23 @@ import datetime
 app = Flask(__name__)
 database_path = 'data/database.db'
 
+
 @app.route('/')
 def index():
-    return json.dumps({})
+    response = Response({})
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
+
 
 @app.route('/refresh')
 def start_new_prediction():
     t = threading.Thread(target=magic)
     t.daemon = True
     t.start()
-    return json.dumps("Process started.")
+
+    response = Response(json.dumps("Process started."))
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
 
 
 @app.route('/rankings')
@@ -34,8 +41,11 @@ def rankings():
         for column, data in zip(columns[1:], ranking[1:]):
             ranking_on_date[column] = data
         rankings.append(ranking_on_date)
-        
-    return json.dumps(rankings)
+    
+    response = Response(json.dumps(rankings))
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
+
 
 @app.route('/predictions')
 def predictions():
@@ -61,7 +71,10 @@ def predictions():
             prediction_match[column] = data
         predictions.append(prediction_match)
 
-    return json.dumps(predictions)
+    response = Response(json.dumps(predictions))
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
+
 
 @app.route('/previous_results')
 def previous_results():
@@ -88,7 +101,13 @@ def previous_results():
             match_result[column] = data
         previous_results.append(match_result)
 
-    return json.dumps(previous_results)
+    response = Response(json.dumps(previous_results))
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
+
 
 if __name__ == '__main__':
 	app.run()
+
+
+
