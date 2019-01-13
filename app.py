@@ -47,6 +47,22 @@ def rankings():
     return response
 
 
+@app.route('/summary')
+def summary():
+    conn = sqlite3.connect(database_path)
+    cur = conn.cursor()    
+    cur.execute('SELECT * FROM summary')
+    summary = cur.fetchall()[0]
+    columns = [x[0] for x in cur.description]
+    summary_dict = {}
+    for column, data in zip(columns, summary):
+        summary_dict[column] = data
+    
+    response = Response(json.dumps(summary_dict))
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
+
+
 @app.route('/predictions')
 def predictions():
     conn = sqlite3.connect(database_path)

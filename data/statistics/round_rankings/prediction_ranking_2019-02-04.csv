@@ -1,21 +1,21 @@
 Team,Points,Goal_Diff,Win_Rate
 Liverpool,66,40.0,0.84
-Man City,62,38.0,0.8
+Man City,62,39.0,0.8
 Tottenham,60,25.0,0.8
-Chelsea,53,22.0,0.64
-Arsenal,50,15.0,0.6
+Chelsea,53,23.0,0.64
 Man United,47,11.0,0.56
-Everton,36,0.0,0.4
+Arsenal,47,14.0,0.56
+Watford,35,0.0,0.4
 Wolves,35,-2.0,0.4
-Leicester,34,2.0,0.4
-Watford,32,-1.0,0.36
-Bournemouth,30,-9.0,0.36
-Brighton,29,-5.0,0.32
-Crystal Palace,28,-7.0,0.32
-West Ham,28,-3.0,0.32
-Cardiff,24,-22.0,0.28
-Burnley,24,-21.0,0.28
-Southampton,22,-17.0,0.2
-Newcastle,21,-14.0,0.2
-Fulham,17,-28.0,0.16
-Huddersfield,10,-24.0,0.08
+Everton,35,0.0,0.36
+Leicester,31,1.0,0.36
+Bournemouth,31,-9.0,0.36
+West Ham,31,-2.0,0.36
+Brighton,30,-6.0,0.32
+Crystal Palace,26,-8.0,0.28
+Burnley,24,-20.0,0.28
+Newcastle,21,-15.0,0.2
+Southampton,21,-16.0,0.16
+Cardiff,20,-22.0,0.2
+Fulham,15,-29.0,0.12
+Huddersfield,12,-24.0,0.08

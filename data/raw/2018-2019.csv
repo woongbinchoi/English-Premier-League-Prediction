@@ -208,14 +208,14 @@ Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
 2019-01-02,West Ham,Brighton,2.0,2.0,D
 2019-01-02,Bournemouth,Watford,3.0,3.0,D
 2019-01-02,Newcastle,Man United,0.0,2.0,A
-2019-01-03,Man City,Liverpool,,,
-2019-01-12,West Ham,Arsenal,,,
-2019-01-12,Leicester,Southampton,,,
-2019-01-12,Burnley,Fulham,,,
-2019-01-12,Cardiff,Huddersfield,,,
-2019-01-12,Crystal Palace,Watford,,,
-2019-01-12,Brighton,Liverpool,,,
-2019-01-12,Chelsea,Newcastle,,,
+2019-01-03,Man City,Liverpool,2.0,1.0,H
+2019-01-12,West Ham,Arsenal,1.0,0.0,H
+2019-01-12,Leicester,Southampton,1.0,2.0,A
+2019-01-12,Burnley,Fulham,2.0,1.0,H
+2019-01-12,Cardiff,Huddersfield,0.0,0.0,D
+2019-01-12,Crystal Palace,Watford,1.0,2.0,A
+2019-01-12,Brighton,Liverpool,0.0,1.0,A
+2019-01-12,Chelsea,Newcastle,2.0,1.0,H
 2019-01-13,Everton,Bournemouth,,,
 2019-01-13,Tottenham,Man United,,,
 2019-01-14,Man City,Wolves,,,
@@ -233,9 +233,9 @@ Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
 2019-01-29,Fulham,Brighton,,,
 2019-01-29,Arsenal,Cardiff,,,
 2019-01-29,Huddersfield,Everton,,,
-2019-01-29,Bournemouth,Chelsea,,,
 2019-01-29,Man United,Burnley,,,
 2019-01-29,Newcastle,Man City,,,
+2019-01-30,Bournemouth,Chelsea,,,
 2019-01-30,Southampton,Crystal Palace,,,
 2019-01-30,Liverpool,Leicester,,,
 2019-01-30,Tottenham,Watford,,,

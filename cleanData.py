@@ -171,4 +171,15 @@ def saveNewDataToDatabase(database_path, final_data_file, prediction_results_fil
     prediction_results_df.to_sql(prediction_results_file_name, con=conn, if_exists='replace')
     standing_result_df.to_sql(standing_predictions_file_name, con=conn, if_exists='replace')
     
+def saveSummaryToDatabase(database_path, best_clf_average, winner):
+    conn = sqlite3.connect(database_path)
+    cur = conn.cursor()
+    
+    cur.execute('DROP TABLE IF EXISTS summary')
+    cur.execute('CREATE TABLE summary (time DATE, accuracy NUMBER, winner TEXT)')
+    cur.execute('INSERT INTO summary (time, accuracy, winner) VALUES (?, ?, ?)', 
+                (dt.now().strftime('%Y-%m-%d'), best_clf_average, winner))
+    conn.commit()
+
+    
 

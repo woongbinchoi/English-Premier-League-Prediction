@@ -168,7 +168,7 @@ def process_print_result(clfs, res):
     for clf_name in sorted(avg_dict, key=avg_dict.get, reverse=True):
         print("{}: {}".format(clf_name, avg_dict[clf_name]))
     
-    return avg_dict, clfs[best_clf_so_far]
+    return avg_dict, clfs[best_clf_so_far], best_avg_so_far
 
 
 
@@ -289,7 +289,7 @@ def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True)
             y_results[index] += predicted_result.tolist()
     
 #   Make a dictionary of average accuracies for each classifiers
-    avg_dict, best_clf = process_print_result(classifiers, result)
+    avg_dict, best_clf, best_clf_average = process_print_result(classifiers, result)
     
 #   Put the result into csv file
     if os.path.isfile(model_confidence_csv_path):    
@@ -305,7 +305,7 @@ def getCLF(finalFilePath, model_confidence_csv_path, clf_file, recalculate=True)
     if recalculate:
         joblib.dump(best_clf, clf_file)
 #   Return the best classifier
-    return best_clf, y_results
+    return best_clf, y_results, best_clf_average
 
 
 def predict_next_round(clf, final_path, current_raw_cleaned_path, statistics=False, stat_path=None, first=True):

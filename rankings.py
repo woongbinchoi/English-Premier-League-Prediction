@@ -84,6 +84,8 @@ def getRankings(fromFile, toFile, date=None, include_prediction=False, predicted
             summary_df.to_csv(ranking_summary_file)
         else:
             round_df.to_csv(ranking_summary_file)
+    
+    return Team[0]
 
 
 def getRankingsAll(fromYear, toYear, fromFileFolderPath, toFileFolderPath):

@@ -1,6 +1,6 @@
 from sofifaScraper import mergeOVAToCleanedAll, scrapeTeamOVAAll
 from currentStatus import addCurrentDetailsAll, addCurrentDetails, getCurrentSeason
-from cleanData import cleanAll, combineMatches, getMatchResultsAgainst, removeGoalScores, copy_csv, remove_directory, saveNewDataToDatabase
+from cleanData import cleanAll, combineMatches, getMatchResultsAgainst, removeGoalScores, copy_csv, remove_directory, saveNewDataToDatabase, saveSummaryToDatabase
 from predict import getCLF, prepare_data, predict_next_round
 from matchHistory import getCurrentFixtures
 from rankings import getRankings, getRankingsAll
@@ -93,7 +93,7 @@ def magic(should_train=True, data_year_available_from=1993, data_year_collect_fr
     # and do some grid search on it if necessary, and finally generates 'model confidence.csv' that records confidence score of each classifier.
     # If 'recalculate' is set False, and if clf_file exists, then it simply loads the clf from clf_file.
     # Produces: returns the best clf.
-    best_clf, y_results = getCLF(FINAL_FILE, CONFIDENCE_FILE, CLF_FILE, recalculate=should_train)
+    best_clf, y_results, best_clf_average = getCLF(FINAL_FILE, CONFIDENCE_FILE, CLF_FILE, recalculate=should_train)
     
     # 8. Now we make prediction. This process is done by first predicting the upcoming round, then aggregate the result, then predict the next,
     # and repeat the process until there are no more games to predict. "predict_next_round" also produces prediction probabilities
@@ -122,10 +122,13 @@ def magic(should_train=True, data_year_available_from=1993, data_year_collect_fr
         is_first = False
     
     # 9. Now prediction is done. Produce a season standing with using the prediction result.
-    getRankings(PREDICTION_FILE, PRED_RANKING_FILE, include_prediction=True)
+    winning_team = getRankings(PREDICTION_FILE, PRED_RANKING_FILE, include_prediction=True)
     
     # 10. Put previous results, prediction results, standing predictions to the database
     saveNewDataToDatabase(DATABASE_PATH, FINAL_FILE, PREDICTION_FILE, PRED_RANKING_ROUND_SUMMARY_FILE)
+    
+    # 11. Summary to database
+    saveSummaryToDatabase(DATABASE_PATH, best_clf_average, winning_team)
     
 
 
