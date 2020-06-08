@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 import os
 import datetime
+import argparse
 
 
 def magic(should_train=True, data_year_available_from=1993, data_year_collect_from=2006):
@@ -40,7 +41,6 @@ def magic(should_train=True, data_year_available_from=1993, data_year_collect_fr
     PRED_RANKING_ROUND_SUMMARY_FILE = os.path.join(STATISTICS_PATH, 'round_rankings_summary.csv')
     CURRENT_STANDINGS_FILE = os.path.join(STANDINGS_PATH, CURRENT_FILE)
 
-
     # Function(s) that don't have to be executed every time
 
     # 1. OVA data from SOFIFASCRAPER (Warning: This takes a long time to run)
@@ -59,7 +59,7 @@ def magic(should_train=True, data_year_available_from=1993, data_year_collect_fr
     # 2. Standings (from 1993 to curent year)
     # Uncomment below to run the function
     getRankingsAll(data_year_available_from, current_year, RAW_CLEANED_DATA_FILE_PATH, STANDINGS_PATH)
-    
+
 
     # Run the functions below to start generating necessary data
 
@@ -70,7 +70,7 @@ def magic(should_train=True, data_year_available_from=1993, data_year_collect_fr
     # 2. From 1, add Overall Rating columns
     # Produces: cleaned csv modified, located in CLEANED_DATA_FILE_PATH. Now all cleaned csv from 2006-2018 have OVA column. 
     mergeOVAToCleanedAll(OVA_FILE_PATH, RAW_CLEANED_DATA_FILE_PATH, data_year_collect_from, current_year)
-    
+
     # 3. From 2, copy cleaned raw data to cleaned data for prediction purpose
     # Produces: copy csv from RAW_CLEANED_DATA_FILE_PATH to CLEANED_DATA_FILE_PATH
     copy_csv(RAW_CLEANED_DATA_FILE_PATH, CLEANED_DATA_FILE_PATH)
@@ -103,13 +103,13 @@ def magic(should_train=True, data_year_available_from=1993, data_year_collect_fr
     #  - 3. combineMatches combine all matches from 2006 to 2018
     #  - 4. getMatchResultsAgainst adds head-to-head results between two teams for each match
     is_first = True
-    
+
     # First save current ranking before predicting results
     remove_directory(STATISTICS_PATH)
     now = datetime.datetime.now().date().strftime('%Y-%m-%d')
     pred_ranking_round_file = os.path.join(PRED_RANKING_ROUND_PATH, 'prediction_ranking_{}.csv'.format(now))
     getRankings(RAW_CLEANED_DATA_FILE_PATH_CURRENT, pred_ranking_round_file, include_prediction=True, predicted_date_so_far=now, ranking_summary_file=PRED_RANKING_ROUND_SUMMARY_FILE)
-    
+
     while True:
         isNextRound, date = predict_next_round(best_clf, FINAL_FILE, RAW_CLEANED_DATA_FILE_PATH_CURRENT, statistics=True, stat_path=PREDICTION_FILE, first=is_first)
         if not isNextRound:
@@ -120,7 +120,7 @@ def magic(should_train=True, data_year_available_from=1993, data_year_collect_fr
         pred_ranking_round_file = os.path.join(PRED_RANKING_ROUND_PATH, 'prediction_ranking_{}.csv'.format(date))
         getRankings(PREDICTION_FILE, pred_ranking_round_file, include_prediction=True, predicted_date_so_far=date, ranking_summary_file=PRED_RANKING_ROUND_SUMMARY_FILE)
         is_first = False
-    
+
     # 9. Now prediction is done. Produce a season standing with using the prediction result.
     winning_team = getRankings(PREDICTION_FILE, PRED_RANKING_FILE, include_prediction=True)
     
@@ -133,6 +133,13 @@ def magic(should_train=True, data_year_available_from=1993, data_year_collect_fr
 
 
 if __name__ == "__main__":
-    magic()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '--skip_train',
+        action='store_true',
+        help='indicate whether to skip training a new model before prediction')
+
+    args = parser.parse_args()
+    magic(should_train=not args.skip_train)
 
     

@@ -9,7 +9,12 @@ Apply machine learning to predict English Premier League soccer match.
 ## To Run
 > python3 model.py
 
-***Warning***: Few python packages required to run the script. Install them all, or use a 3rd party IDE (such as spyder) that pre-installs these packages by default.
+***Warning***: Few python packages required to run the script. Install them all, or use a 3rd party IDE (such as spyder) that pre-installs these packages by default. Few of the packages required are:
+- brew cask install chromedriver
+- brew install libomp
+- pip3 install xgboost
+- pip3 install selenium
+
 
 
 &nbsp;

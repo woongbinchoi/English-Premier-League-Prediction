@@ -38,7 +38,7 @@ def clean(fromPath, toPath, columns):
             _, file = ntpath.split(toPath)
             if len(date.split('-')) == 3:
                 return date
-            elif file == '2002-2003.csv':
+            elif file in ['2002-2003.csv', '2018-2019.csv', '2019-2020.csv']:
                 # Only this file has a different date format
                 return dt.strptime(date, '%d/%m/%Y').date()
             else:

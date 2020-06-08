@@ -83,7 +83,10 @@ def convertTeamName(team):
         'Liverpool FC': 'Liverpool',
         'West Ham United FC': 'West Ham',
         'Southampton FC': 'Southampton',
-        'Burnley FC': 'Burnley'
+        'Burnley FC': 'Burnley',
+        'Aston Villa FC': 'Aston Villa',
+        'Norwich City FC': 'Norwich City',
+        'Sheffield United FC': 'Sheffield United'
     }
 
     return teamMap[team]
@@ -116,3 +119,6 @@ def getCurrentFixtures(rawDataCurrentPath):
     df = pd.DataFrame(matches_dict)
     df.to_csv(rawDataCurrentPath, index=False)
     
+
+if __name__ == "__main__":
+    getCurrentFixtures("data/raw/2019-2020.csv")
