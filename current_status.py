@@ -3,49 +3,42 @@ import numpy as np
 import os
 import datetime
 
-# Helpers
-# Identify Win/Loss Streaks if any.
-def get_3game_ws(last_matches):
-    if hasattr(last_matches, "__len__"):
-        return 1 if len(last_matches) > 3 and last_matches[-3:] == 'WWW' else 0
-    return np.nan
-    
-def get_5game_ws(last_matches):
-    if hasattr(last_matches, "__len__"):
-        return 1 if last_matches == 'WWWWW' else 0
-    return np.nan
-    
-def get_3game_ls(last_matches):
-    if hasattr(last_matches, "__len__"):
-        return 1 if len(last_matches) > 3 and last_matches[-3:] == 'LLL' else 0
-    return np.nan
-    
-def get_5game_ls(last_matches):
-    if hasattr(last_matches, "__len__"):
-        return 1 if last_matches == 'LLLLL' else 0
-    return np.nan
-
-def get_5win_rate(last_matches):
-    if hasattr(last_matches, "__len__") and len(last_matches) == 5:
-        win_count = last_matches.count('W')
-        return win_count / len(last_matches)
-    else:
-        return np.nan
-
-
-
-def getCurrentSeason():
-    now = datetime.datetime.now()
-    # By July, fixture of the season should be available.
-    new_season_start = datetime.datetime(now.year, 7, 1)
-    return now.year if now > new_season_start else now.year - 1
 
 # Calculate match played, current standing, goal for, goal against, goal difference, winning/losing streaks, etc.
 # Input is csv that is just cleaned from raw data
 # Output is csv modified with each row added match played, current standing, GF, GA, GD, winning/losing streaks, etc.
-def addCurrentDetails(frompath, topath, standings_path, yearAvailableFrom):
-    teamDetail, matchDetail = {}, {}
-    matchDetailColumns = [
+def add_current_details(from_path, to_path, standings_path, year_available_from):
+    # Helpers
+    # Identify Win/Loss Streaks if any.
+    def get_3game_ws(last_matches):
+        if hasattr(last_matches, "__len__"):
+            return 1 if len(last_matches) > 3 and last_matches[-3:] == 'WWW' else 0
+        return np.nan
+        
+    def get_5game_ws(last_matches):
+        if hasattr(last_matches, "__len__"):
+            return 1 if last_matches == 'WWWWW' else 0
+        return np.nan
+        
+    def get_3game_ls(last_matches):
+        if hasattr(last_matches, "__len__"):
+            return 1 if len(last_matches) > 3 and last_matches[-3:] == 'LLL' else 0
+        return np.nan
+        
+    def get_5game_ls(last_matches):
+        if hasattr(last_matches, "__len__"):
+            return 1 if last_matches == 'LLLLL' else 0
+        return np.nan
+
+    def get_5win_rate(last_matches):
+        if hasattr(last_matches, "__len__") and len(last_matches) == 5:
+            win_count = last_matches.count('W')
+            return win_count / len(last_matches)
+        else:
+            return np.nan
+
+    team_detail, match_detail = {}, {}
+    match_detail_columns = [
         'HT_match_played',
         'HT_current_standing',
         'HT_past_standing',
@@ -76,28 +69,28 @@ def addCurrentDetails(frompath, topath, standings_path, yearAvailableFrom):
         'AT_last_1'
     ]
 
-    for item in matchDetailColumns:
-        matchDetail[item] = []
+    for item in match_detail_columns:
+        match_detail[item] = []
 
-    df = pd.read_csv(frompath)
+    df = pd.read_csv(from_path)
 
-    previousYear = int(frompath[-13:-9]) - 1
+    previous_year = int(from_path[-13:-9]) - 1
     standings = dict()
     # We only have data from 1993 to current. That means We don't have 'previous year' data at 1993.
-    if previousYear > yearAvailableFrom:
-        dfstandings = pd.read_csv('{}/{}-{}.csv'.format(standings_path, previousYear, previousYear + 1))
-        for index,row in dfstandings.iterrows():
+    if previous_year > year_available_from:
+        dfstandings = pd.read_csv('{}/{}-{}.csv'.format(standings_path, previous_year, previous_year + 1))
+        for _,row in dfstandings.iterrows():
             standings[row['Team']] = dict()
             standings[row['Team']]['Points'] = row['Points']
             standings[row['Team']]['Goal_Diff'] = row['Goal_Diff']
             standings[row['Team']]['Win_Rate'] = row['Win_Rate']
 
-    for index, row in df.iterrows():
+    for _, row in df.iterrows():
         HT = row['HomeTeam']
         AT = row['AwayTeam']
 
-        if HT not in teamDetail:
-            teamDetail[HT] = {
+        if HT not in team_detail:
+            team_detail[HT] = {
                 'match_played': 0,
                 'win': 0,
                 'current_standing': 0,
@@ -109,8 +102,8 @@ def addCurrentDetails(frompath, topath, standings_path, yearAvailableFrom):
                 'goal_difference': 0,
                 'last_5_matches': [""] * 5
             }
-        if AT not in teamDetail:
-            teamDetail[AT] = {
+        if AT not in team_detail:
+            team_detail[AT] = {
                 'match_played': 0,
                 'win': 0,
                 'current_standing': 0,
@@ -123,42 +116,41 @@ def addCurrentDetails(frompath, topath, standings_path, yearAvailableFrom):
                 'last_5_matches': [""] * 5
             }
 
-        TD_HT = teamDetail[HT]
-        TD_AT = teamDetail[AT]
+        TD_HT = team_detail[HT]
+        TD_AT = team_detail[AT]
         
         if len(TD_HT['last_5_matches']) != 5 or len(TD_AT['last_5_matches']) != 5:
             break
 
-        matchDetail['HT_match_played'].append(TD_HT['match_played'])
-        matchDetail['HT_current_standing'].append(TD_HT['current_standing'])
-        matchDetail['HT_past_standing'].append(TD_HT['past_standing'])
-        matchDetail['HT_past_goal_diff'].append(TD_HT['past_goal_diff'])
-        matchDetail['HT_past_win_rate'].append(TD_HT['past_win_rate'])
-        matchDetail['HT_goal_for'].append(TD_HT['goal_for'])
-        matchDetail['HT_goal_against'].append(TD_HT['goal_against'])
-        matchDetail['HT_goal_diff'].append(TD_HT['goal_difference'])
-        matchDetail['AT_match_played'].append(TD_AT['match_played'])
-        matchDetail['AT_current_standing'].append(TD_AT['current_standing'])
-        matchDetail['AT_past_standing'].append(TD_AT['past_standing'])
-        matchDetail['AT_past_goal_diff'].append(TD_AT['past_goal_diff'])
-        matchDetail['AT_past_win_rate'].append(TD_AT['past_win_rate'])
-        matchDetail['AT_goal_for'].append(TD_AT['goal_for'])
-        matchDetail['AT_goal_against'].append(TD_AT['goal_against'])
-        matchDetail['AT_goal_diff'].append(TD_AT['goal_difference'])
-        matchDetail['HT_win_rate_season'].append(TD_HT['win'] / TD_HT['match_played'] if TD_HT['match_played'] > 0 else np.nan)
-        matchDetail['AT_win_rate_season'].append(TD_AT['win'] / TD_AT['match_played'] if TD_AT['match_played'] > 0 else np.nan)
+        match_detail['HT_match_played'].append(TD_HT['match_played'])
+        match_detail['HT_current_standing'].append(TD_HT['current_standing'])
+        match_detail['HT_past_standing'].append(TD_HT['past_standing'])
+        match_detail['HT_past_goal_diff'].append(TD_HT['past_goal_diff'])
+        match_detail['HT_past_win_rate'].append(TD_HT['past_win_rate'])
+        match_detail['HT_goal_for'].append(TD_HT['goal_for'])
+        match_detail['HT_goal_against'].append(TD_HT['goal_against'])
+        match_detail['HT_goal_diff'].append(TD_HT['goal_difference'])
+        match_detail['AT_match_played'].append(TD_AT['match_played'])
+        match_detail['AT_current_standing'].append(TD_AT['current_standing'])
+        match_detail['AT_past_standing'].append(TD_AT['past_standing'])
+        match_detail['AT_past_goal_diff'].append(TD_AT['past_goal_diff'])
+        match_detail['AT_past_win_rate'].append(TD_AT['past_win_rate'])
+        match_detail['AT_goal_for'].append(TD_AT['goal_for'])
+        match_detail['AT_goal_against'].append(TD_AT['goal_against'])
+        match_detail['AT_goal_diff'].append(TD_AT['goal_difference'])
+        match_detail['HT_win_rate_season'].append(TD_HT['win'] / TD_HT['match_played'] if TD_HT['match_played'] > 0 else np.nan)
+        match_detail['AT_win_rate_season'].append(TD_AT['win'] / TD_AT['match_played'] if TD_AT['match_played'] > 0 else np.nan)
 
-        matchDetail['HT_last_5'].append(TD_HT['last_5_matches'][0])
-        matchDetail['AT_last_5'].append(TD_AT['last_5_matches'][0])
-        matchDetail['HT_last_4'].append(TD_HT['last_5_matches'][1])        
-        matchDetail['AT_last_4'].append(TD_AT['last_5_matches'][1])
-        matchDetail['HT_last_3'].append(TD_HT['last_5_matches'][2])
-        matchDetail['AT_last_3'].append(TD_AT['last_5_matches'][2])
-        matchDetail['HT_last_2'].append(TD_HT['last_5_matches'][3])
-        matchDetail['AT_last_2'].append(TD_AT['last_5_matches'][3])
-        matchDetail['HT_last_1'].append(TD_HT['last_5_matches'][4])
-        matchDetail['AT_last_1'].append(TD_AT['last_5_matches'][4])
-
+        match_detail['HT_last_5'].append(TD_HT['last_5_matches'][0])
+        match_detail['AT_last_5'].append(TD_AT['last_5_matches'][0])
+        match_detail['HT_last_4'].append(TD_HT['last_5_matches'][1])        
+        match_detail['AT_last_4'].append(TD_AT['last_5_matches'][1])
+        match_detail['HT_last_3'].append(TD_HT['last_5_matches'][2])
+        match_detail['AT_last_3'].append(TD_AT['last_5_matches'][2])
+        match_detail['HT_last_2'].append(TD_HT['last_5_matches'][3])
+        match_detail['AT_last_2'].append(TD_AT['last_5_matches'][3])
+        match_detail['HT_last_1'].append(TD_HT['last_5_matches'][4])
+        match_detail['AT_last_1'].append(TD_AT['last_5_matches'][4])
 
         TD_HT['match_played'] += 1
         TD_AT['match_played'] += 1
@@ -191,11 +183,11 @@ def addCurrentDetails(frompath, topath, standings_path, yearAvailableFrom):
             TD_HT['last_5_matches'].append('D')
             TD_AT['last_5_matches'].append('D')
 
-    columnList = list(df)
+    column_list = list(df)
 
-    for key, matchResults in matchDetail.items():
+    for key, matchResults in match_detail.items():
         df[key] = pd.Series(matchResults)
-    df = df[columnList + matchDetailColumns]
+    df = df[column_list + match_detail_columns]
 
     df['HT_last_matches'] = df['HT_last_5'] + df['HT_last_4'] + df['HT_last_3'] + df['HT_last_2'] + df['HT_last_1']
     df['AT_last_matches'] = df['AT_last_5'] + df['AT_last_4'] + df['AT_last_3'] + df['AT_last_2'] + df['AT_last_1']
@@ -217,17 +209,16 @@ def addCurrentDetails(frompath, topath, standings_path, yearAvailableFrom):
     df['win_rate_season_diff'] = df['HT_win_rate_season'] - df['AT_win_rate_season']
     df['goal_diff_diff'] = df['HT_goal_diff'] - df['AT_goal_diff']
 
-    dropLabels = ['HT_last_' + str(x+1) for x in range(5)] + ['AT_last_' + str(x+1) for x in range(5)]
-    dropLabels += ['HT_last_matches', 'AT_last_matches']
-    df = df.drop(columns=dropLabels)
+    drop_labels = ['HT_last_' + str(x+1) for x in range(5)] + ['AT_last_' + str(x+1) for x in range(5)]
+    drop_labels += ['HT_last_matches', 'AT_last_matches']
+    df = df.drop(columns=drop_labels)
+    df.to_csv(to_path, index=False)
 
-    df.to_csv(topath, index=False)
 
-def addCurrentDetailsAll(fromFolderPath, toFolderPath, standings_path, fromYear, toYear, yearAvailableFrom):
-    for year in range(fromYear, toYear + 1):
+def add_current_details_all(from_folder_path, to_folder_path, standings_path, from_year, to_year, year_available_from):
+    for year in range(from_year, to_year + 1):
         file = '{}-{}.csv'.format(year, year + 1)
-        frompath = os.path.join(fromFolderPath, file)
-        topath = os.path.join(toFolderPath, file)
-        print("About to add 'current details' from {} to {}...".format(frompath, topath))
-        addCurrentDetails(frompath, topath, standings_path, yearAvailableFrom)
-    
+        from_path = os.path.join(from_folder_path, file)
+        to_path = os.path.join(to_folder_path, file)
+        print("About to add 'current details' from {} to {}...".format(from_path, to_path))
+        add_current_details(from_path, to_path, standings_path, year_available_from)

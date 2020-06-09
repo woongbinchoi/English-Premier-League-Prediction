@@ -9,14 +9,14 @@ from shutil import rmtree
 import sqlite3
 
 # Use this function to copy a file or a folder
-def copy_csv(fromPath, toPath):
-    make_directory(toPath)
-    if os.path.isfile(fromPath):
-        with open(toPath, 'w') as toFile, open(fromPath, 'r') as fromFile:
-            for line in fromFile:
-                    toFile.write(line)
-    elif os.path.isdir(fromPath):
-        copy_tree(fromPath, toPath)
+def copy_csv(from_path, to_path):
+    make_directory(to_path)
+    if os.path.isfile(from_path):
+        with open(to_path, 'w') as to_file, open(from_path, 'r') as from_file:
+            for line in from_file:
+                    to_file.write(line)
+    elif os.path.isdir(from_path):
+        copy_tree(from_path, to_path)
     else:
         raise ValueError("Copy_CSV Error. File either does not exist, or is an unsupported file type")
 
@@ -29,13 +29,14 @@ def remove_directory(path):
     if os.path.exists(path):
         rmtree(path)
 
+
 # clean the original raw data by storing only the columns that we need, and removing the rest.
-def clean(fromPath, toPath, columns):
-    def convertDate(date):
+def clean(from_path, to_path, columns):
+    def convert_date(date):
         if date == '':
             return None
         else:
-            _, file = ntpath.split(toPath)
+            _, file = ntpath.split(to_path)
             if len(date.split('-')) == 3:
                 return date
             elif file in ['2002-2003.csv', '2018-2019.csv', '2019-2020.csv']:
@@ -43,113 +44,114 @@ def clean(fromPath, toPath, columns):
                 return dt.strptime(date, '%d/%m/%Y').date()
             else:
                 return dt.strptime(date, '%d/%m/%y').date()
-    def convertScore(score):
+    def convert_score(score):
         if math.isnan(score):
             return score
         else:
             return int(score)
 
-    df = pd.read_csv(fromPath, error_bad_lines=False)
+    df = pd.read_csv(from_path, error_bad_lines=False)
     df = df[columns]
     df = df[pd.notnull(df['Date'])]
 
-    df['FTHG'] = df['FTHG'].apply(convertScore)
-    df['FTAG'] = df['FTAG'].apply(convertScore)
-    df['Date'] = df['Date'].apply(convertDate)
+    df['FTHG'] = df['FTHG'].apply(convert_score)
+    df['FTAG'] = df['FTAG'].apply(convert_score)
+    df['Date'] = df['Date'].apply(convert_date)
     
-    head, _ = ntpath.split(toPath)
+    head, _ = ntpath.split(to_path)
     if not os.path.exists(head):
         os.makedirs(head)
-    df.to_csv(toPath, index=False)
+    df.to_csv(to_path, index=False)
 
 
-def cleanAll(fromFolder, toFolder, columns, fromYear, toYear):
-    for year in range(fromYear, toYear + 1):
+def clean_all(from_folder, to_folder, from_year, to_year):
+    columns = ['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR']
+    for year in range(from_year, to_year + 1):
         csvFile = '{}-{}.csv'.format(year, year + 1)
-        frompath = os.path.join(fromFolder, csvFile)
-        topath = os.path.join(toFolder, csvFile)
-        print("Cleaning ", frompath, "...")
-        clean(frompath, topath, columns)
+        from_path = os.path.join(from_folder, csvFile)
+        to_path = os.path.join(to_folder, csvFile)
+        print("Cleaning ", from_path, "...")
+        clean(from_path, to_path, columns)
 
 
-def combineMatches(cleanedFolderPath, finalPath, startYear, endYear, makeFile=True):
-    print("Combining matches from {} to {}...".format(startYear, endYear))
+def combine_matches(cleaned_folder_path, final_path, start_year, end_year, make_file=True):
+    print("Combining matches from {} to {}...".format(start_year, end_year))
     dfList = []
-    for year in range(startYear, endYear + 1):
+    for year in range(start_year, end_year + 1):
         file = '{}-{}.csv'.format(year, year + 1)
-        path = os.path.join(cleanedFolderPath, file)
+        path = os.path.join(cleaned_folder_path, file)
         df = pd.read_csv(path)
         dfList.append(df)
     df = pd.concat(dfList, ignore_index=True, sort=False)
-    if makeFile:
-        df.to_csv(finalPath, index=False)
+    if make_file:
+        df.to_csv(final_path, index=False)
     return df
 
 
-def getMatchResultsAgainst(filePath, cleanedFolderPath, finalPath, fromYear, toYear):
+def get_match_results_against(file_path, cleaned_folder_path, final_path, from_year, to_year):
     print("Getting head-to-head results...")
-    teamDetail, matchDetail = {}, {}
-    matchDetailColumns = [
+    team_detail, match_detail = {}, {}
+    match_detail_columns = [
         'HT_win_rate_against',
         'AT_win_rate_against'
     ]
 
-    for item in matchDetailColumns:
-        matchDetail[item] = []
+    for item in match_detail_columns:
+        match_detail[item] = []
 
-    # Get head-to-head result from fromYear to toYear
-    df = combineMatches(cleanedFolderPath, finalPath, fromYear, toYear, makeFile=False)
-    for index, row in df.iterrows():
+    # Get head-to-head result from from_year to to_year
+    df = combine_matches(cleaned_folder_path, final_path, from_year, to_year, make_file=False)
+    for _, row in df.iterrows():
         HT = row['HomeTeam']
         AT = row['AwayTeam']
 
-        if HT not in teamDetail:
-            teamDetail[HT] = {}
-        if AT not in teamDetail:
-            teamDetail[AT] = {}
-        if AT not in teamDetail[HT]:
-            teamDetail[HT][AT] = {
+        if HT not in team_detail:
+            team_detail[HT] = {}
+        if AT not in team_detail:
+            team_detail[AT] = {}
+        if AT not in team_detail[HT]:
+            team_detail[HT][AT] = {
                 'match_played': 0,
                 'win': 0
             }
-        if HT not in teamDetail[AT]:
-            teamDetail[AT][HT] = {
+        if HT not in team_detail[AT]:
+            team_detail[AT][HT] = {
                 'match_played': 0,
                 'win': 0
             }
 
-        TD_HT_AT = teamDetail[HT][AT]
-        TD_AT_HT = teamDetail[AT][HT]
+        TD_HT_AT = team_detail[HT][AT]
+        TD_AT_HT = team_detail[AT][HT]
         HT_WR = TD_HT_AT['win'] / TD_HT_AT['match_played'] if TD_HT_AT['match_played'] > 0 else np.nan
         AT_WR = TD_AT_HT['win'] / TD_AT_HT['match_played'] if TD_AT_HT['match_played'] > 0 else np.nan
-        matchDetail['HT_win_rate_against'].append(HT_WR)
-        matchDetail['AT_win_rate_against'].append(AT_WR)
+        match_detail['HT_win_rate_against'].append(HT_WR)
+        match_detail['AT_win_rate_against'].append(AT_WR)
 
         TD_HT_AT['match_played'] += 1
         TD_AT_HT['match_played'] += 1
 
-        gameResult = row['FTR']
-        if gameResult == 'H':
+        game_result = row['FTR']
+        if game_result == 'H':
             TD_HT_AT['win'] += 1
-        elif gameResult == 'A':
+        elif game_result == 'A':
             TD_AT_HT['win'] += 1
             
     # Only take the last x results of df and combine with filedf. This is because we don't always want to merge all data from 1993 to 2018
-    filedf = pd.read_csv(filePath)
+    filedf = pd.read_csv(file_path)
     row_count = filedf.shape[0]
-    filedf['HT_win_rate_against'] = pd.Series(matchDetail['HT_win_rate_against'][-row_count:], index=filedf.index)
-    filedf['AT_win_rate_against'] = pd.Series(matchDetail['AT_win_rate_against'][-row_count:], index=filedf.index)
-    filedf.to_csv(filePath, index=False)
+    filedf['HT_win_rate_against'] = pd.Series(match_detail['HT_win_rate_against'][-row_count:], index=filedf.index)
+    filedf['AT_win_rate_against'] = pd.Series(match_detail['AT_win_rate_against'][-row_count:], index=filedf.index)
+    filedf.to_csv(file_path, index=False)
 
 
-def removeGoalScores(finalPath):
+def remove_goal_scores(final_path):
     print("Removing Goal Scores...")
-    df = pd.read_csv(finalPath)
+    df = pd.read_csv(final_path)
     df = df.drop(columns=['FTHG','FTAG'])
-    df.to_csv(finalPath, index=False)
+    df.to_csv(final_path, index=False)
 
 
-def saveNewDataToDatabase(database_path, final_data_file, prediction_results_file, standing_predictions_file,
+def save_new_data_to_database(database_path, final_data_file, prediction_results_file, standing_predictions_file,
                           final_data_file_name='previous_results', prediction_results_file_name='prediction_results',
                           standing_predictions_file_name='prediction_rankings'):
     conn = sqlite3.connect(database_path)
@@ -170,8 +172,9 @@ def saveNewDataToDatabase(database_path, final_data_file, prediction_results_fil
     previous_results_df.to_sql(final_data_file_name, con=conn, if_exists='replace')
     prediction_results_df.to_sql(prediction_results_file_name, con=conn, if_exists='replace')
     standing_result_df.to_sql(standing_predictions_file_name, con=conn, if_exists='replace')
-    
-def saveSummaryToDatabase(database_path, best_clf_average, winner):
+
+
+def save_summary_to_database(database_path, best_clf_average, winner):
     conn = sqlite3.connect(database_path)
     cur = conn.cursor()
     
@@ -180,6 +183,3 @@ def saveSummaryToDatabase(database_path, best_clf_average, winner):
     cur.execute('INSERT INTO summary (time, accuracy, winner) VALUES (?, ?, ?)', 
                 (dt.now().strftime('%Y-%m-%d'), best_clf_average, winner))
     conn.commit()
-
-    
-

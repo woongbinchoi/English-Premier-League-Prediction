@@ -304,12 +304,12 @@ Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,OVA_diff
 2020-06-24,Wolves,Bournemouth,0.0,0.0,H,78,76,2
 2020-06-24,Newcastle,Aston Villa,0.0,0.0,H,77,76,1
 2020-06-24,Man United,Sheffield United,0.0,0.0,H,81,75,6
-2020-06-24,Norwich City,Everton,0.0,0.0,H,74,78,-4
+2020-06-24,Norwich City,Everton,0.0,0.0,A,74,78,-4
 2020-06-24,Liverpool,Crystal Palace,0.0,0.0,H,85,77,8
 2020-06-25,Burnley,Watford,0.0,0.0,H,76,77,-1
 2020-06-25,Southampton,Arsenal,0.0,0.0,A,76,80,-4
 2020-06-25,Chelsea,Man City,0.0,0.0,H,81,85,-4
-2020-06-27,Aston Villa,Wolves,0.0,0.0,H,76,78,-2
+2020-06-27,Aston Villa,Wolves,0.0,0.0,A,76,78,-2
 2020-06-28,Watford,Southampton,0.0,0.0,H,77,76,1
 2020-06-29,Crystal Palace,Burnley,0.0,0.0,H,77,76,1
 2020-06-30,Brighton,Man United,0.0,0.0,A,76,81,-5
@@ -321,7 +321,7 @@ Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,OVA_diff
 2020-07-02,Man City,Liverpool,0.0,0.0,H,85,85,0
 2020-07-04,Wolves,Arsenal,0.0,0.0,H,78,80,-2
 2020-07-04,Liverpool,Aston Villa,0.0,0.0,H,85,76,9
-2020-07-04,Newcastle,West Ham,0.0,0.0,H,77,78,-1
+2020-07-04,Newcastle,West Ham,0.0,0.0,D,77,78,-1
 2020-07-04,Chelsea,Watford,0.0,0.0,H,81,77,4
 2020-07-04,Tottenham,Everton,0.0,0.0,H,82,78,4
 2020-07-04,Man United,Bournemouth,0.0,0.0,H,81,76,5
@@ -344,21 +344,21 @@ Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,OVA_diff
 2020-07-11,Liverpool,Burnley,0.0,0.0,H,85,76,9
 2020-07-11,Tottenham,Arsenal,0.0,0.0,H,82,80,2
 2020-07-11,Man United,Southampton,0.0,0.0,H,81,76,5
-2020-07-11,Norwich City,West Ham,0.0,0.0,H,74,78,-4
+2020-07-11,Norwich City,West Ham,0.0,0.0,A,74,78,-4
 2020-07-11,Sheffield United,Chelsea,0.0,0.0,A,75,81,-6
 2020-07-11,Brighton,Man City,0.0,0.0,A,76,85,-9
 2020-07-11,Watford,Newcastle,0.0,0.0,H,77,77,0
 2020-07-11,Bournemouth,Leicester,0.0,0.0,A,76,79,-3
-2020-07-14,Man City,Bournemouth,0.0,0.0,H,85,76,9
-2020-07-14,Newcastle,Tottenham,0.0,0.0,A,77,82,-5
-2020-07-14,Arsenal,Liverpool,0.0,0.0,A,80,85,-5
-2020-07-14,Chelsea,Norwich City,0.0,0.0,H,81,74,7
-2020-07-14,Everton,Aston Villa,0.0,0.0,H,78,76,2
-2020-07-14,Leicester,Sheffield United,0.0,0.0,H,79,75,4
-2020-07-14,Burnley,Wolves,0.0,0.0,H,76,78,-2
-2020-07-14,West Ham,Watford,0.0,0.0,H,78,77,1
-2020-07-14,Southampton,Brighton,0.0,0.0,H,76,76,0
-2020-07-14,Crystal Palace,Man United,0.0,0.0,A,77,81,-4
+2020-07-15,Man City,Bournemouth,0.0,0.0,H,85,76,9
+2020-07-15,Newcastle,Tottenham,0.0,0.0,A,77,82,-5
+2020-07-15,Arsenal,Liverpool,0.0,0.0,A,80,85,-5
+2020-07-15,Chelsea,Norwich City,0.0,0.0,H,81,74,7
+2020-07-15,Everton,Aston Villa,0.0,0.0,H,78,76,2
+2020-07-15,Leicester,Sheffield United,0.0,0.0,H,79,75,4
+2020-07-15,Burnley,Wolves,0.0,0.0,A,76,78,-2
+2020-07-15,West Ham,Watford,0.0,0.0,H,78,77,1
+2020-07-15,Southampton,Brighton,0.0,0.0,H,76,76,0
+2020-07-15,Crystal Palace,Man United,0.0,0.0,A,77,81,-4
 2020-07-18,Tottenham,Leicester,0.0,0.0,H,82,79,3
 2020-07-18,Man United,West Ham,0.0,0.0,H,81,78,3
 2020-07-18,Norwich City,Burnley,0.0,0.0,H,74,76,-2

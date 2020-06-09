@@ -3,11 +3,11 @@ from flask import Flask, request, Response
 import sqlite3
 import json
 import threading
-from currentStatus import getCurrentSeason
+from constants import CURRENT_YEAR, DATABASE_PATH
 import datetime
 
 app = Flask(__name__)
-database_path = 'data/database.db'
+database_path = DATABASE_PATH
 
 
 @app.route('/')
@@ -97,7 +97,7 @@ def previous_results():
     conn = sqlite3.connect(database_path)
     cur = conn.cursor()
     
-    season_start = datetime.datetime(getCurrentSeason(), 7, 1).date().strftime('%Y-%m-%d')
+    season_start = datetime.datetime(CURRENT_YEAR, 7, 1).date().strftime('%Y-%m-%d')
     query = 'SELECT * FROM previous_results WHERE Date > "{}"'.format(season_start)
     req_params_raw = request.data
     if req_params_raw:
@@ -124,6 +124,3 @@ def previous_results():
 
 if __name__ == '__main__':
 	app.run()
-
-
-
