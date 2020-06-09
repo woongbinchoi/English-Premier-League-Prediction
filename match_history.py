@@ -5,35 +5,36 @@ import numpy as np
 from datetime import datetime
 
 
-def get_current_fixtures(rawDataCurrentPath):
-    def convert_team_name(team):
-        team_map = {
-            'Manchester United FC': 'Man United',
-            'Leicester City FC': 'Leicester',
-            'Tottenham Hotspur FC': 'Tottenham',
-            'Newcastle United FC': 'Newcastle',
-            'Chelsea FC': 'Chelsea',
-            'Huddersfield Town AFC': 'Huddersfield',
-            'Crystal Palace FC': 'Crystal Palace',
-            'Fulham FC': 'Fulham',
-            'AFC Bournemouth': 'Bournemouth',
-            'Cardiff City FC': 'Cardiff',
-            'Watford FC': 'Watford',
-            'Brighton & Hove Albion FC': 'Brighton',
-            'Wolverhampton Wanderers FC': 'Wolves',
-            'Everton FC': 'Everton',
-            'Arsenal FC': 'Arsenal',
-            'Manchester City FC': 'Man City',
-            'Liverpool FC': 'Liverpool',
-            'West Ham United FC': 'West Ham',
-            'Southampton FC': 'Southampton',
-            'Burnley FC': 'Burnley',
-            'Aston Villa FC': 'Aston Villa',
-            'Norwich City FC': 'Norwich City',
-            'Sheffield United FC': 'Sheffield United'
-        }
-        return team_map[team]
+def convert_team_name(team):
+    team_map = {
+        'Manchester United FC': 'Man United',
+        'Leicester City FC': 'Leicester',
+        'Tottenham Hotspur FC': 'Tottenham',
+        'Newcastle United FC': 'Newcastle',
+        'Chelsea FC': 'Chelsea',
+        'Huddersfield Town AFC': 'Huddersfield',
+        'Crystal Palace FC': 'Crystal Palace',
+        'Fulham FC': 'Fulham',
+        'AFC Bournemouth': 'Bournemouth',
+        'Cardiff City FC': 'Cardiff',
+        'Watford FC': 'Watford',
+        'Brighton & Hove Albion FC': 'Brighton',
+        'Wolverhampton Wanderers FC': 'Wolves',
+        'Everton FC': 'Everton',
+        'Arsenal FC': 'Arsenal',
+        'Manchester City FC': 'Man City',
+        'Liverpool FC': 'Liverpool',
+        'West Ham United FC': 'West Ham',
+        'Southampton FC': 'Southampton',
+        'Burnley FC': 'Burnley',
+        'Aston Villa FC': 'Aston Villa',
+        'Norwich City FC': 'Norwich City',
+        'Sheffield United FC': 'Sheffield United'
+    }
+    return team_map[team] if team in team_map else team
 
+
+def get_current_fixtures(rawDataCurrentPath):
     base_url = "http://api.football-data.org/v2/competitions/"
     AUTH_TOKEN = "9f2efd00a5604f59a8f1c54860786e31"
     headers={"X-Auth-Token": AUTH_TOKEN}

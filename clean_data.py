@@ -4,30 +4,7 @@ import os
 import pandas as pd
 import numpy as np
 import math
-from distutils.dir_util import copy_tree
-from shutil import rmtree
 import sqlite3
-
-# Use this function to copy a file or a folder
-def copy_csv(from_path, to_path):
-    make_directory(to_path)
-    if os.path.isfile(from_path):
-        with open(to_path, 'w') as to_file, open(from_path, 'r') as from_file:
-            for line in from_file:
-                    to_file.write(line)
-    elif os.path.isdir(from_path):
-        copy_tree(from_path, to_path)
-    else:
-        raise ValueError("Copy_CSV Error. File either does not exist, or is an unsupported file type")
-
-def make_directory(path):
-    directory = os.path.dirname(path)
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-
-def remove_directory(path):
-    if os.path.exists(path):
-        rmtree(path)
 
 
 # clean the original raw data by storing only the columns that we need, and removing the rest.

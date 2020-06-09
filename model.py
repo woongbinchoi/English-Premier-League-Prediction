@@ -27,10 +27,12 @@ from clean_data import (
     combine_matches,
     get_match_results_against,
     remove_goal_scores,
-    copy_csv,
-    remove_directory,
     save_new_data_to_database,
     save_summary_to_database,
+)
+from helpers import (
+    copy_csv,
+    remove_directory,
 )
 from predict import get_clf, prepare_data, predict_next_round
 from match_history import get_current_fixtures

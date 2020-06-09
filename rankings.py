@@ -4,7 +4,7 @@ import numpy as np
 import math
 from datetime import datetime
 import csv
-from clean_data import make_directory
+from helpers import make_directory
 
 # If date is specified, calculate ranking up until that date
 def get_rankings(from_file, to_file, date=None, include_prediction=False, predicted_date_so_far=None, ranking_summary_file=None):

@@ -33,7 +33,7 @@ from sklearn.metrics import make_scorer
 from sklearn.model_selection import RandomizedSearchCV
 from scipy.stats import expon
 
-from clean_data import make_directory
+from helpers import make_directory
 
 
 def prepare_data(data, drop_na=True):
