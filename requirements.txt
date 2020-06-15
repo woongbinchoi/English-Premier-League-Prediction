@@ -1,0 +1,10 @@
+Flask
+gunicorn
+pandas
+numpy
+selenium
+IPython
+sklearn
+xgboost
+scipy
+requests
