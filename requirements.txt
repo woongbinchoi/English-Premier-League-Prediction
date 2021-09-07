@@ -5,6 +5,7 @@ numpy
 selenium
 IPython
 sklearn
+webdriver-manager
 xgboost
 scipy
 requests

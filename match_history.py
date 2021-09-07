@@ -7,32 +7,54 @@ from datetime import datetime
 
 def convert_team_name(team):
     team_map = {
-        'Manchester United FC': 'Man United',
-        'Leicester City FC': 'Leicester',
-        'Tottenham Hotspur FC': 'Tottenham',
-        'Newcastle United FC': 'Newcastle',
-        'Chelsea FC': 'Chelsea',
-        'Huddersfield Town AFC': 'Huddersfield',
-        'Crystal Palace FC': 'Crystal Palace',
-        'Fulham FC': 'Fulham',
         'AFC Bournemouth': 'Bournemouth',
-        'Cardiff City FC': 'Cardiff',
-        'Watford FC': 'Watford',
-        'Brighton & Hove Albion FC': 'Brighton',
-        'Wolverhampton Wanderers FC': 'Wolves',
-        'Everton FC': 'Everton',
         'Arsenal FC': 'Arsenal',
-        'Manchester City FC': 'Man City',
-        'Liverpool FC': 'Liverpool',
-        'West Ham United FC': 'West Ham',
-        'Southampton FC': 'Southampton',
-        'Burnley FC': 'Burnley',
         'Aston Villa FC': 'Aston Villa',
+        'Brighton & Hove Albion FC': 'Brighton',
+        'Brentford FC': 'Brentford',
+        'Burnley FC': 'Burnley',
+        'Cardiff City FC': 'Cardiff',
+        'Chelsea FC': 'Chelsea',
+        'Crystal Palace FC': 'Crystal Palace',
+        'Everton FC': 'Everton',
+        'Fulham FC': 'Fulham',
+        'Huddersfield Town AFC': 'Huddersfield',
+        'Leeds United FC': 'Leeds',
+        'Leicester City FC': 'Leicester',
+        'Liverpool FC': 'Liverpool',
+        'Manchester City FC': 'Man City',
+        'Manchester United FC': 'Man United',
+        'Newcastle United FC': 'Newcastle',
         'Norwich City FC': 'Norwich City',
-        'Sheffield United FC': 'Sheffield United'
+        'Sheffield United FC': 'Sheffield United',
+        'Southampton FC': 'Southampton',
+        'Tottenham Hotspur FC': 'Tottenham',
+        'Watford FC': 'Watford',
+        'West Ham United FC': 'West Ham',
+        'Wolverhampton Wanderers FC': 'Wolves',
     }
     return team_map[team] if team in team_map else team
 
+
+def get_fixtures(rawDataPath, yearFrom, yearTo):
+    def format_api_url(year):
+        base_url = 'http://www.football-data.co.uk/mmz4281/{}{}/E0.csv'
+        return base_url.format(str(year)[2:], str(year + 1)[2:])
+
+    def format_file_path(year):
+        return os.path.join(rawDataPath, f'{year}-{year + 1}.csv')
+    
+    for year in range(yearFrom, yearTo + 1):
+        url = format_api_url(year)
+        file_path = format_file_path(year)
+        try:
+            if not os.path.exists(file_path) or year > yearTo - 2:
+                df = pd.read_csv(url)
+                df.to_csv(file_path, index=False)
+                print(f'Saved fixtures for {year}...')
+        except:
+            print(f'Failed to save fixtures for {year}!')
+            continue
 
 def get_current_fixtures(rawDataCurrentPath):
     base_url = "http://api.football-data.org/v2/competitions/"

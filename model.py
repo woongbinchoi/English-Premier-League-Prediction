@@ -35,7 +35,7 @@ from helpers import (
     remove_directory,
 )
 from predict import get_clf, prepare_data, predict_next_round
-from match_history import get_current_fixtures
+from match_history import get_fixtures, get_current_fixtures
 from rankings import get_rankings, get_rankings_all
 import pandas as pd
 import numpy as np
@@ -55,20 +55,21 @@ def magic(should_train=True, should_scrape=False, data_year_available_from=1993,
 
     # Preprocessing
 
-    # 1. Latest premier league results 
+    # Preprocessing-1. Latest premier league results 
     # This data can also be retrieved from http://www.football-data.co.uk/englandm.php
     # Uncomment below to get the latest match results
+    get_fixtures(RAW_DATA_FILE_PATH, data_year_available_from, CURRENT_YEAR)
     get_current_fixtures(RAW_DATA_FILE_PATH_CURRENT)
-
-    # 2. Standings (from 1993 to curent year)
-    # Uncomment below to run the function
-    get_rankings_all(data_year_available_from, CURRENT_YEAR, RAW_CLEANED_DATA_FILE_PATH, STANDINGS_PATH)
 
     # Run the functions below to start generating necessary data
 
     # 1. From raw data, remove all data but the selected columns.
     # Produces: cleaned data csv located in CLEANED_DATA_FILE_PATH
     clean_all(RAW_DATA_FILE_PATH, RAW_CLEANED_DATA_FILE_PATH, data_year_available_from, CURRENT_YEAR)
+
+    # Preprocessing-2. Standings (from 1993 to curent year)
+    # Uncomment below to run the function
+    get_rankings_all(data_year_available_from, CURRENT_YEAR, RAW_CLEANED_DATA_FILE_PATH, STANDINGS_PATH)
 
     # 2. From 1, add Overall Rating columns
     # Produces: cleaned csv modified, located in CLEANED_DATA_FILE_PATH. Now all cleaned csv from 2006-2018 have OVA column. 

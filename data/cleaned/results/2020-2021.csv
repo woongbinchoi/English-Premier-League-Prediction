@@ -1,0 +1,381 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HomeOVA,AwayOVA,OVA_diff
+2020-09-12,Fulham,Arsenal,0,3,A,75,80,-5
+2020-09-12,Crystal Palace,Southampton,1,0,H,76,76,0
+2020-09-12,Liverpool,Leeds,4,3,H,85,76,9
+2020-09-12,West Ham,Newcastle,0,2,A,78,76,2
+2020-09-13,West Brom,Leicester,0,3,A,73,80,-7
+2020-09-13,Tottenham,Everton,0,1,A,82,79,3
+2020-09-14,Brighton,Chelsea,1,3,A,75,82,-7
+2020-09-14,Sheffield United,Wolves,0,2,A,73,79,-6
+2020-09-19,Everton,West Brom,5,2,H,79,73,6
+2020-09-19,Leeds,Fulham,4,3,H,76,75,1
+2020-09-19,Man United,Crystal Palace,1,3,A,82,76,6
+2020-09-19,Arsenal,West Ham,2,1,H,80,78,2
+2020-09-20,Southampton,Tottenham,2,5,A,76,82,-6
+2020-09-20,Newcastle,Brighton,0,3,A,76,75,1
+2020-09-20,Chelsea,Liverpool,0,2,A,82,85,-3
+2020-09-20,Leicester,Burnley,4,2,H,80,76,4
+2020-09-21,Aston Villa,Sheffield United,1,0,H,77,73,4
+2020-09-21,Wolves,Man City,1,3,A,79,85,-6
+2020-09-26,Brighton,Man United,2,3,A,75,82,-7
+2020-09-26,Crystal Palace,Everton,1,2,A,76,79,-3
+2020-09-26,West Brom,Chelsea,3,3,D,73,82,-9
+2020-09-26,Burnley,Southampton,0,1,A,76,76,0
+2020-09-27,Sheffield United,Leeds,0,1,A,73,76,-3
+2020-09-27,Tottenham,Newcastle,1,1,D,82,76,6
+2020-09-27,Man City,Leicester,2,5,A,85,80,5
+2020-09-27,West Ham,Wolves,4,0,H,78,79,-1
+2020-09-28,Fulham,Aston Villa,0,3,A,75,77,-2
+2020-09-28,Liverpool,Arsenal,3,1,H,85,80,5
+2020-10-03,Chelsea,Crystal Palace,4,0,H,82,76,6
+2020-10-03,Everton,Brighton,4,2,H,79,75,4
+2020-10-03,Leeds,Man City,1,1,D,76,85,-9
+2020-10-03,Newcastle,Burnley,3,1,H,76,76,0
+2020-10-04,Leicester,West Ham,0,3,A,80,78,2
+2020-10-04,Southampton,West Brom,2,0,H,76,73,3
+2020-10-04,Arsenal,Sheffield United,2,1,H,80,73,7
+2020-10-04,Wolves,Fulham,1,0,H,79,75,4
+2020-10-04,Man United,Tottenham,1,6,A,82,82,0
+2020-10-04,Aston Villa,Liverpool,7,2,H,77,85,-8
+2020-10-17,Everton,Liverpool,2,2,D,79,85,-6
+2020-10-17,Chelsea,Southampton,3,3,D,82,76,6
+2020-10-17,Man City,Arsenal,1,0,H,85,80,5
+2020-10-17,Newcastle,Man United,1,4,A,76,82,-6
+2020-10-18,Sheffield United,Fulham,1,1,D,73,75,-2
+2020-10-18,Crystal Palace,Brighton,1,1,D,76,75,1
+2020-10-18,Tottenham,West Ham,3,3,D,82,78,4
+2020-10-18,Leicester,Aston Villa,0,1,A,80,77,3
+2020-10-19,West Brom,Burnley,0,0,D,73,76,-3
+2020-10-19,Leeds,Wolves,0,1,A,76,79,-3
+2020-10-23,Aston Villa,Leeds,0,3,A,77,76,1
+2020-10-24,West Ham,Man City,1,1,D,78,85,-7
+2020-10-24,Fulham,Crystal Palace,1,2,A,75,76,-1
+2020-10-24,Man United,Chelsea,0,0,D,82,82,0
+2020-10-24,Liverpool,Sheffield United,2,1,H,85,73,12
+2020-10-25,Southampton,Everton,2,0,H,76,79,-3
+2020-10-25,Wolves,Newcastle,1,1,D,79,76,3
+2020-10-25,Arsenal,Leicester,0,1,A,80,80,0
+2020-10-26,Brighton,West Brom,1,1,D,75,73,2
+2020-10-26,Burnley,Tottenham,0,1,A,76,82,-6
+2020-10-30,Wolves,Crystal Palace,2,0,H,79,76,3
+2020-10-31,Sheffield United,Man City,0,1,A,73,85,-12
+2020-10-31,Burnley,Chelsea,0,3,A,76,82,-6
+2020-10-31,Liverpool,West Ham,2,1,H,85,78,7
+2020-11-01,Aston Villa,Southampton,3,4,A,77,76,1
+2020-11-01,Newcastle,Everton,2,1,H,76,79,-3
+2020-11-01,Man United,Arsenal,0,1,A,82,80,2
+2020-11-01,Tottenham,Brighton,2,1,H,82,75,7
+2020-11-02,Fulham,West Brom,2,0,H,75,73,2
+2020-11-02,Leeds,Leicester,1,4,A,76,80,-4
+2020-11-06,Brighton,Burnley,0,0,D,75,76,-1
+2020-11-06,Southampton,Newcastle,2,0,H,76,76,0
+2020-11-07,Everton,Man United,1,3,A,79,82,-3
+2020-11-07,Crystal Palace,Leeds,4,1,H,76,76,0
+2020-11-07,Chelsea,Sheffield United,4,1,H,82,73,9
+2020-11-07,West Ham,Fulham,1,0,H,78,75,3
+2020-11-08,West Brom,Tottenham,0,1,A,73,82,-9
+2020-11-08,Leicester,Wolves,1,0,H,80,79,1
+2020-11-08,Man City,Liverpool,1,1,D,85,85,0
+2020-11-08,Arsenal,Aston Villa,0,3,A,80,77,3
+2020-11-21,Newcastle,Chelsea,0,2,A,76,82,-6
+2020-11-21,Aston Villa,Brighton,1,2,A,77,75,2
+2020-11-21,Tottenham,Man City,2,0,H,82,85,-3
+2020-11-21,Man United,West Brom,1,0,H,82,73,9
+2020-11-22,Fulham,Everton,2,3,A,75,79,-4
+2020-11-22,Sheffield United,West Ham,0,1,A,73,78,-5
+2020-11-22,Leeds,Arsenal,0,0,D,76,80,-4
+2020-11-22,Liverpool,Leicester,3,0,H,85,80,5
+2020-11-23,Burnley,Crystal Palace,1,0,H,76,76,0
+2020-11-23,Wolves,Southampton,1,1,D,79,76,3
+2020-11-27,Crystal Palace,Newcastle,0,2,A,76,76,0
+2020-11-28,Brighton,Liverpool,1,1,D,75,85,-10
+2020-11-28,Man City,Burnley,5,0,H,85,76,9
+2020-11-28,Everton,Leeds,0,1,A,79,76,3
+2020-11-28,West Brom,Sheffield United,1,0,H,73,73,0
+2020-11-29,Southampton,Man United,2,3,A,76,82,-6
+2020-11-29,Chelsea,Tottenham,0,0,D,82,82,0
+2020-11-29,Arsenal,Wolves,1,2,A,80,79,1
+2020-11-30,Leicester,Fulham,1,2,A,80,75,5
+2020-11-30,West Ham,Aston Villa,2,1,H,78,77,1
+2020-12-05,Burnley,Everton,1,1,D,76,79,-3
+2020-12-05,Man City,Fulham,2,0,H,85,75,10
+2020-12-05,West Ham,Man United,1,3,A,78,82,-4
+2020-12-05,Chelsea,Leeds,3,1,H,82,76,6
+2020-12-06,West Brom,Crystal Palace,1,5,A,73,76,-3
+2020-12-06,Sheffield United,Leicester,1,2,A,73,80,-7
+2020-12-06,Tottenham,Arsenal,2,0,H,82,80,2
+2020-12-06,Liverpool,Wolves,4,0,H,85,79,6
+2020-12-07,Brighton,Southampton,1,2,A,75,76,-1
+2020-12-11,Leeds,West Ham,1,2,A,76,78,-2
+2020-12-12,Wolves,Aston Villa,0,1,A,79,77,2
+2020-12-12,Newcastle,West Brom,2,1,H,76,73,3
+2020-12-12,Man United,Man City,0,0,D,82,85,-3
+2020-12-12,Everton,Chelsea,1,0,H,79,82,-3
+2020-12-13,Southampton,Sheffield United,3,0,H,76,73,3
+2020-12-13,Crystal Palace,Tottenham,1,1,D,76,82,-6
+2020-12-13,Fulham,Liverpool,1,1,D,75,85,-10
+2020-12-13,Arsenal,Burnley,0,1,A,80,76,4
+2020-12-13,Leicester,Brighton,3,0,H,80,75,5
+2020-12-15,Wolves,Chelsea,2,1,H,79,82,-3
+2020-12-15,Man City,West Brom,1,1,D,85,73,12
+2020-12-16,Arsenal,Southampton,1,1,D,80,76,4
+2020-12-16,Leeds,Newcastle,5,2,H,76,76,0
+2020-12-16,Leicester,Everton,0,2,A,80,79,1
+2020-12-16,Fulham,Brighton,0,0,D,75,75,0
+2020-12-16,Liverpool,Tottenham,2,1,H,85,82,3
+2020-12-16,West Ham,Crystal Palace,1,1,D,78,76,2
+2020-12-17,Aston Villa,Burnley,0,0,D,77,76,1
+2020-12-17,Sheffield United,Man United,2,3,A,73,82,-9
+2020-12-19,Crystal Palace,Liverpool,0,7,A,76,85,-9
+2020-12-19,Southampton,Man City,0,1,A,76,85,-9
+2020-12-19,Everton,Arsenal,2,1,H,79,80,-1
+2020-12-19,Newcastle,Fulham,1,1,D,76,75,1
+2020-12-20,Brighton,Sheffield United,1,1,D,75,73,2
+2020-12-20,Tottenham,Leicester,0,2,A,82,80,2
+2020-12-20,Man United,Leeds,6,2,H,82,76,6
+2020-12-20,West Brom,Aston Villa,0,3,A,73,77,-4
+2020-12-21,Burnley,Wolves,2,1,H,76,79,-3
+2020-12-21,Chelsea,West Ham,3,0,H,82,78,4
+2020-12-26,Leicester,Man United,2,2,D,80,82,-2
+2020-12-26,Aston Villa,Crystal Palace,3,0,H,77,76,1
+2020-12-26,Fulham,Southampton,0,0,D,75,76,-1
+2020-12-26,Arsenal,Chelsea,3,1,H,80,82,-2
+2020-12-26,Man City,Newcastle,2,0,H,85,76,9
+2020-12-26,Sheffield United,Everton,0,1,A,73,79,-6
+2020-12-27,Leeds,Burnley,1,0,H,76,76,0
+2020-12-27,West Ham,Brighton,2,2,D,78,75,3
+2020-12-27,Liverpool,West Brom,1,1,D,85,73,12
+2020-12-27,Wolves,Tottenham,1,1,D,79,82,-3
+2020-12-28,Crystal Palace,Leicester,1,1,D,76,80,-4
+2020-12-28,Chelsea,Aston Villa,1,1,D,82,77,5
+2020-12-29,Brighton,Arsenal,0,1,A,75,80,-5
+2020-12-29,Burnley,Sheffield United,1,0,H,76,73,3
+2020-12-29,Southampton,West Ham,0,0,D,76,78,-2
+2020-12-29,West Brom,Leeds,0,5,A,73,76,-3
+2020-12-29,Man United,Wolves,1,0,H,82,79,3
+2020-12-30,Newcastle,Liverpool,0,0,D,76,85,-9
+2021-01-01,Everton,West Ham,0,1,A,79,78,1
+2021-01-01,Man United,Aston Villa,2,1,H,82,77,5
+2021-01-02,Tottenham,Leeds,3,0,H,82,76,6
+2021-01-02,Crystal Palace,Sheffield United,2,0,H,76,73,3
+2021-01-02,Brighton,Wolves,3,3,D,75,79,-4
+2021-01-02,West Brom,Arsenal,0,4,A,73,80,-7
+2021-01-03,Newcastle,Leicester,1,2,A,76,80,-4
+2021-01-03,Chelsea,Man City,1,3,A,82,85,-3
+2021-01-04,Southampton,Liverpool,1,0,H,76,85,-9
+2021-01-12,Sheffield United,Newcastle,1,0,H,73,76,-3
+2021-01-12,Burnley,Man United,0,1,A,76,82,-6
+2021-01-12,Wolves,Everton,1,2,A,79,79,0
+2021-01-13,Man City,Brighton,1,0,H,85,75,10
+2021-01-13,Tottenham,Fulham,1,1,D,82,75,7
+2021-01-14,Arsenal,Crystal Palace,0,0,D,80,76,4
+2021-01-16,Wolves,West Brom,2,3,A,79,73,6
+2021-01-16,Leeds,Brighton,0,1,A,76,75,1
+2021-01-16,West Ham,Burnley,1,0,H,78,76,2
+2021-01-16,Fulham,Chelsea,0,1,A,75,82,-7
+2021-01-16,Leicester,Southampton,2,0,H,80,76,4
+2021-01-17,Sheffield United,Tottenham,1,3,A,73,82,-9
+2021-01-17,Liverpool,Man United,0,0,D,85,82,3
+2021-01-17,Man City,Crystal Palace,4,0,H,85,76,9
+2021-01-18,Arsenal,Newcastle,3,0,H,80,76,4
+2021-01-19,West Ham,West Brom,2,1,H,78,73,5
+2021-01-19,Leicester,Chelsea,2,0,H,80,82,-2
+2021-01-20,Man City,Aston Villa,2,0,H,85,77,8
+2021-01-20,Fulham,Man United,1,2,A,75,82,-7
+2021-01-21,Liverpool,Burnley,0,1,A,85,76,9
+2021-01-23,Aston Villa,Newcastle,2,0,H,77,76,1
+2021-01-26,Crystal Palace,West Ham,2,3,A,76,78,-2
+2021-01-26,Newcastle,Leeds,1,2,A,76,76,0
+2021-01-26,Southampton,Arsenal,1,3,A,76,80,-4
+2021-01-26,West Brom,Man City,0,5,A,73,85,-12
+2021-01-27,Burnley,Aston Villa,3,2,H,76,77,-1
+2021-01-27,Chelsea,Wolves,0,0,D,82,79,3
+2021-01-27,Brighton,Fulham,0,0,D,75,75,0
+2021-01-27,Everton,Leicester,1,1,D,79,80,-1
+2021-01-27,Man United,Sheffield United,1,2,A,82,73,9
+2021-01-28,Tottenham,Liverpool,1,3,A,82,85,-3
+2021-01-30,Everton,Newcastle,0,2,A,79,76,3
+2021-01-30,Crystal Palace,Wolves,1,0,H,76,79,-3
+2021-01-30,Man City,Sheffield United,1,0,H,85,73,12
+2021-01-30,West Brom,Fulham,2,2,D,73,75,-2
+2021-01-30,Arsenal,Man United,0,0,D,80,82,-2
+2021-01-30,Southampton,Aston Villa,0,1,A,76,77,-1
+2021-01-31,Chelsea,Burnley,2,0,H,82,76,6
+2021-01-31,Leicester,Leeds,1,3,A,80,76,4
+2021-01-31,West Ham,Liverpool,1,3,A,78,85,-7
+2021-01-31,Brighton,Tottenham,1,0,H,75,82,-7
+2021-02-02,Sheffield United,West Brom,2,1,H,73,73,0
+2021-02-02,Wolves,Arsenal,2,1,H,79,80,-1
+2021-02-02,Man United,Southampton,9,0,H,82,76,6
+2021-02-02,Newcastle,Crystal Palace,1,2,A,76,76,0
+2021-02-03,Burnley,Man City,0,2,A,76,85,-9
+2021-02-03,Fulham,Leicester,0,2,A,75,80,-5
+2021-02-03,Leeds,Everton,1,2,A,76,79,-3
+2021-02-03,Aston Villa,West Ham,1,3,A,77,78,-1
+2021-02-03,Liverpool,Brighton,0,1,A,85,75,10
+2021-02-04,Tottenham,Chelsea,0,1,A,82,82,0
+2021-02-06,Aston Villa,Arsenal,1,0,H,77,80,-3
+2021-02-06,Burnley,Brighton,1,1,D,76,75,1
+2021-02-06,Newcastle,Southampton,3,2,H,76,76,0
+2021-02-06,Fulham,West Ham,0,0,D,75,78,-3
+2021-02-06,Man United,Everton,3,3,D,82,79,3
+2021-02-07,Tottenham,West Brom,2,0,H,82,73,9
+2021-02-07,Wolves,Leicester,0,0,D,79,80,-1
+2021-02-07,Liverpool,Man City,1,4,A,85,85,0
+2021-02-07,Sheffield United,Chelsea,1,2,A,73,82,-9
+2021-02-08,Leeds,Crystal Palace,2,0,H,76,76,0
+2021-02-13,Leicester,Liverpool,3,1,H,80,85,-5
+2021-02-13,Crystal Palace,Burnley,0,3,A,76,76,0
+2021-02-13,Man City,Tottenham,3,0,H,85,82,3
+2021-02-13,Brighton,Aston Villa,0,0,D,75,77,-2
+2021-02-14,Southampton,Wolves,1,2,A,76,79,-3
+2021-02-14,West Brom,Man United,1,1,D,73,82,-9
+2021-02-14,Arsenal,Leeds,4,2,H,80,76,4
+2021-02-14,Everton,Fulham,0,2,A,79,75,4
+2021-02-15,West Ham,Sheffield United,3,0,H,78,73,5
+2021-02-15,Chelsea,Newcastle,2,0,H,82,76,6
+2021-02-17,Burnley,Fulham,1,1,D,76,75,1
+2021-02-17,Everton,Man City,1,3,A,79,85,-6
+2021-02-19,Wolves,Leeds,1,0,H,79,76,3
+2021-02-20,Southampton,Chelsea,1,1,D,76,82,-6
+2021-02-20,Burnley,West Brom,0,0,D,76,73,3
+2021-02-20,Liverpool,Everton,0,2,A,85,79,6
+2021-02-20,Fulham,Sheffield United,1,0,H,75,73,2
+2021-02-21,West Ham,Tottenham,2,1,H,78,82,-4
+2021-02-21,Aston Villa,Leicester,1,2,A,77,80,-3
+2021-02-21,Arsenal,Man City,0,1,A,80,85,-5
+2021-02-21,Man United,Newcastle,3,1,H,82,76,6
+2021-02-22,Brighton,Crystal Palace,1,2,A,75,76,-1
+2021-02-23,Leeds,Southampton,3,0,H,76,76,0
+2021-02-27,Man City,West Ham,2,1,H,85,78,7
+2021-02-27,West Brom,Brighton,1,0,H,73,75,-2
+2021-02-27,Leeds,Aston Villa,0,1,A,76,77,-1
+2021-02-27,Newcastle,Wolves,1,1,D,76,79,-3
+2021-02-28,Crystal Palace,Fulham,0,0,D,76,75,1
+2021-02-28,Leicester,Arsenal,1,3,A,80,80,0
+2021-02-28,Tottenham,Burnley,4,0,H,82,76,6
+2021-02-28,Chelsea,Man United,0,0,D,82,82,0
+2021-02-28,Sheffield United,Liverpool,0,2,A,73,85,-12
+2021-03-01,Everton,Southampton,1,0,H,79,76,3
+2021-03-02,Man City,Wolves,4,1,H,85,79,6
+2021-03-03,Burnley,Leicester,1,1,D,76,80,-4
+2021-03-03,Sheffield United,Aston Villa,1,0,H,73,77,-4
+2021-03-03,Crystal Palace,Man United,0,0,D,76,82,-6
+2021-03-04,Fulham,Tottenham,0,1,A,75,82,-7
+2021-03-04,West Brom,Everton,0,1,A,73,79,-6
+2021-03-04,Liverpool,Chelsea,0,1,A,85,82,3
+2021-03-06,Burnley,Arsenal,1,1,D,76,80,-4
+2021-03-06,Sheffield United,Southampton,0,2,A,73,76,-3
+2021-03-06,Aston Villa,Wolves,0,0,D,77,79,-2
+2021-03-06,Brighton,Leicester,1,2,A,75,80,-5
+2021-03-07,West Brom,Newcastle,0,0,D,73,76,-3
+2021-03-07,Liverpool,Fulham,0,1,A,85,75,10
+2021-03-07,Man City,Man United,0,2,A,85,82,3
+2021-03-07,Tottenham,Crystal Palace,4,1,H,82,76,6
+2021-03-08,Chelsea,Everton,2,0,H,82,79,3
+2021-03-08,West Ham,Leeds,2,0,H,78,76,2
+2021-03-10,Man City,Southampton,5,2,H,85,76,9
+2021-03-12,Newcastle,Aston Villa,1,1,D,76,77,-1
+2021-03-13,Leeds,Chelsea,0,0,D,76,82,-6
+2021-03-13,Crystal Palace,West Brom,1,0,H,76,73,3
+2021-03-13,Everton,Burnley,1,2,A,79,76,3
+2021-03-13,Fulham,Man City,0,3,A,75,85,-10
+2021-03-14,Southampton,Brighton,1,2,A,76,75,1
+2021-03-14,Leicester,Sheffield United,5,0,H,80,73,7
+2021-03-14,Arsenal,Tottenham,2,1,H,80,82,-2
+2021-03-14,Man United,West Ham,1,0,H,82,78,4
+2021-03-15,Wolves,Liverpool,0,1,A,79,85,-6
+2021-03-19,Fulham,Leeds,1,2,A,75,76,-1
+2021-03-20,Brighton,Newcastle,3,0,H,75,76,-1
+2021-03-21,West Ham,Arsenal,3,3,D,78,80,-2
+2021-03-21,Aston Villa,Tottenham,0,2,A,77,82,-5
+2021-04-03,Chelsea,West Brom,2,5,A,82,73,9
+2021-04-03,Leeds,Sheffield United,2,1,H,76,73,3
+2021-04-03,Leicester,Man City,0,2,A,80,85,-5
+2021-04-03,Arsenal,Liverpool,0,3,A,80,85,-5
+2021-04-04,Southampton,Burnley,3,2,H,76,76,0
+2021-04-04,Newcastle,Tottenham,2,2,D,76,82,-6
+2021-04-04,Aston Villa,Fulham,3,1,H,77,75,2
+2021-04-04,Man United,Brighton,2,1,H,82,75,7
+2021-04-05,Everton,Crystal Palace,1,1,D,79,76,3
+2021-04-05,Wolves,West Ham,2,3,A,79,78,1
+2021-04-09,Fulham,Wolves,0,1,A,75,79,-4
+2021-04-10,Man City,Leeds,1,2,A,85,76,9
+2021-04-10,Liverpool,Aston Villa,2,1,H,85,77,8
+2021-04-10,Crystal Palace,Chelsea,1,4,A,76,82,-6
+2021-04-11,Burnley,Newcastle,1,2,A,76,76,0
+2021-04-11,West Ham,Leicester,3,2,H,78,80,-2
+2021-04-11,Tottenham,Man United,1,3,A,82,82,0
+2021-04-11,Sheffield United,Arsenal,0,3,A,73,80,-7
+2021-04-12,West Brom,Southampton,3,0,H,73,76,-3
+2021-04-12,Brighton,Everton,0,0,D,75,79,-4
+2021-04-16,Everton,Tottenham,2,2,D,79,82,-3
+2021-04-17,Newcastle,West Ham,3,2,H,76,78,-2
+2021-04-17,Wolves,Sheffield United,1,0,H,79,73,6
+2021-04-18,Arsenal,Fulham,1,1,D,80,75,5
+2021-04-18,Man United,Burnley,3,1,H,82,76,6
+2021-04-19,Leeds,Liverpool,1,1,D,76,85,-9
+2021-04-20,Chelsea,Brighton,0,0,D,82,75,7
+2021-04-21,Tottenham,Southampton,2,1,H,82,76,6
+2021-04-21,Aston Villa,Man City,1,2,A,77,85,-8
+2021-04-22,Leicester,West Brom,3,0,H,80,73,7
+2021-04-23,Arsenal,Everton,0,1,A,80,79,1
+2021-04-24,Liverpool,Newcastle,1,1,D,85,76,9
+2021-04-24,West Ham,Chelsea,0,1,A,78,82,-4
+2021-04-24,Sheffield United,Brighton,1,0,H,73,75,-2
+2021-04-25,Wolves,Burnley,0,4,A,79,76,3
+2021-04-25,Leeds,Man United,0,0,D,76,82,-6
+2021-04-25,Aston Villa,West Brom,2,2,D,77,73,4
+2021-04-26,Leicester,Crystal Palace,2,1,H,80,76,4
+2021-04-30,Southampton,Leicester,1,1,D,76,80,-4
+2021-05-01,Crystal Palace,Man City,0,2,A,76,85,-9
+2021-05-01,Brighton,Leeds,2,0,H,75,76,-1
+2021-05-01,Chelsea,Fulham,2,0,H,82,75,7
+2021-05-01,Everton,Aston Villa,1,2,A,79,77,2
+2021-05-02,Newcastle,Arsenal,0,2,A,76,80,-4
+2021-05-02,Tottenham,Sheffield United,4,0,H,82,73,9
+2021-05-03,West Brom,Wolves,1,1,D,73,79,-6
+2021-05-03,Burnley,West Ham,1,2,A,76,78,-2
+2021-05-07,Leicester,Newcastle,2,4,A,80,76,4
+2021-05-08,Leeds,Tottenham,3,1,H,76,82,-6
+2021-05-08,Sheffield United,Crystal Palace,0,2,A,73,76,-3
+2021-05-08,Man City,Chelsea,1,2,A,85,82,3
+2021-05-08,Liverpool,Southampton,2,0,H,85,76,9
+2021-05-09,Wolves,Brighton,2,1,H,79,75,4
+2021-05-09,Aston Villa,Man United,1,3,A,77,82,-5
+2021-05-09,West Ham,Everton,0,1,A,78,79,-1
+2021-05-09,Arsenal,West Brom,3,1,H,80,73,7
+2021-05-10,Fulham,Burnley,0,2,A,75,76,-1
+2021-05-11,Man United,Leicester,1,2,A,82,80,2
+2021-05-11,Southampton,Crystal Palace,3,1,H,76,76,0
+2021-05-12,Chelsea,Arsenal,0,1,A,82,80,2
+2021-05-13,Aston Villa,Everton,0,0,D,77,79,-2
+2021-05-13,Man United,Liverpool,2,4,A,82,85,-3
+2021-05-14,Newcastle,Man City,3,4,A,76,85,-9
+2021-05-15,Burnley,Leeds,0,4,A,76,76,0
+2021-05-15,Southampton,Fulham,3,1,H,76,75,1
+2021-05-15,Brighton,West Ham,1,1,D,75,78,-3
+2021-05-16,Crystal Palace,Aston Villa,3,2,H,76,77,-1
+2021-05-16,Tottenham,Wolves,2,0,H,82,79,3
+2021-05-16,West Brom,Liverpool,1,2,A,73,85,-12
+2021-05-16,Everton,Sheffield United,0,1,A,79,73,6
+2021-05-18,Man United,Fulham,1,1,D,82,75,7
+2021-05-18,Southampton,Leeds,0,2,A,76,76,0
+2021-05-18,Brighton,Man City,3,2,H,75,85,-10
+2021-05-18,Chelsea,Leicester,2,1,H,82,80,2
+2021-05-19,Everton,Wolves,1,0,H,79,79,0
+2021-05-19,Newcastle,Sheffield United,1,0,H,76,73,3
+2021-05-19,Tottenham,Aston Villa,1,2,A,82,77,5
+2021-05-19,Crystal Palace,Arsenal,1,3,A,76,80,-4
+2021-05-19,Burnley,Liverpool,0,3,A,76,85,-9
+2021-05-19,West Brom,West Ham,1,3,A,73,78,-5
+2021-05-23,Arsenal,Brighton,2,0,H,80,75,5
+2021-05-23,Aston Villa,Chelsea,2,1,H,77,82,-5
+2021-05-23,Fulham,Newcastle,0,2,A,75,76,-1
+2021-05-23,Leeds,West Brom,3,1,H,76,73,3
+2021-05-23,Leicester,Tottenham,2,4,A,80,82,-2
+2021-05-23,Liverpool,Crystal Palace,2,0,H,85,76,9
+2021-05-23,Man City,Everton,5,0,H,85,79,6
+2021-05-23,Sheffield United,Burnley,1,0,H,73,76,-3
+2021-05-23,West Ham,Southampton,3,0,H,78,76,2
+2021-05-23,Wolves,Man United,1,2,A,79,82,-3

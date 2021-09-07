@@ -7,6 +7,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 
@@ -16,8 +17,8 @@ def scrape_team_ova(from_year, to_year, csv_path):
         os.makedirs(csv_path)
 
     # Start scraping.
-    browser = webdriver.Chrome()
-    browser.get("https://sofifa.com/teams?type=all&lg%5B%5D=13")
+    browser = webdriver.Chrome(ChromeDriverManager().install())
+    browser.get("https://sofifa.com/teams?type=all&lg%5B%5D=13&lg%5B%5D=14")
 
     try:
         WebDriverWait(browser, SCRAPER_TIMEOUT).until(EC.visibility_of_element_located((By.XPATH, "//a[contains(@class, 'bp3-button bp3-minimal text dropdown-toggle')]")))
@@ -27,34 +28,42 @@ def scrape_team_ova(from_year, to_year, csv_path):
 
     # Clicks
     for year in range(from_year, to_year + 1):
-        fifa_version = str(format((year % 2000 + 1), '02d'))
+        try:
+            filePath = "{}/{}-{}.csv".format(csv_path, year, year + 1)
+            if os.path.exists(filePath) and year < to_year - 1:
+                # Skip if file already exists and does not need to be updated
+                continue
+            fifa_version = str(format((year % 2000 + 1), '02d'))
 
-        show_list_button = browser.find_element_by_xpath("//a[contains(@class, 'bp3-button bp3-minimal text dropdown-toggle')]")
-        show_list_button.click()
-        time.sleep(SCRAPER_SLEEP)
+            show_list_button = browser.find_element_by_xpath("//a[contains(@class, 'bp3-button bp3-minimal text dropdown-toggle')]")
+            show_list_button.click()
+            time.sleep(SCRAPER_SLEEP)
 
-        fifa_year_button = browser.find_element_by_xpath("//a[contains(text(), 'FIFA " + fifa_version + "')]")
-        fifa_year_button.click()
-        time.sleep(SCRAPER_SLEEP)
+            fifa_year_button = browser.find_element_by_xpath("//a[contains(text(), 'FIFA " + fifa_version + "')]")
+            fifa_year_button.click()
+            time.sleep(SCRAPER_SLEEP)
 
-        # Collect the data we need
-        name_elements = browser.find_elements_by_xpath("//tbody/tr/td[2]/a/div")
-        ova_elements = browser.find_elements_by_xpath("//tbody/tr/td[3]/span")
-        titles = [x.text for x in name_elements[::2]]
-        ovas = [x.text for x in ova_elements]
+            # Collect the data we need
+            name_elements = browser.find_elements_by_xpath("//tbody/tr/td[2]/a/div")
+            ova_elements = browser.find_elements_by_xpath("//tbody/tr/td[3]/span")
+            titles = [x.text for x in name_elements[::2]]
+            ovas = [x.text for x in ova_elements]
 
-        # Print the data we have
-        print()
-        print("Data for ", year)
-        print("Titles    |     OVA")
-        for title, OVA in zip(titles, ovas):
-            print(title, "   ", OVA)
+            # Print the data we have
+            print()
+            print("Data for ", year)
+            print("Titles    |     OVA")
+            for title, OVA in zip(titles, ovas):
+                print(title, "   ", OVA)
 
-        # Data to csv
-        df = pd.DataFrame.from_records(zip(titles, ovas), columns=["Team", "OVA"])
-        df.set_index('Team', inplace=True)
-        filePath = "{}/{}-{}.csv".format(csv_path, year, year + 1)
-        df.to_csv(filePath)
+            # Data to csv
+            df = pd.DataFrame.from_records(zip(titles, ovas), columns=["Team", "OVA"])
+            df.set_index('Team', inplace=True)
+            df.to_csv(filePath)
+            print(f'Scraping OVA for year {year} completed')
+        except Exception as e:
+            print(f'Failed to scrape OVA for year {year}')
+            print(e)
 
 
 def convert_team_name(name):
@@ -68,6 +77,7 @@ def convert_team_name(name):
         'Derby': 'Derby County',
         'Huddersfield': 'Huddersfield Town',
         'Hull': 'Hull City',
+        'Leeds': 'Leeds United',
         'Leicester': 'Leicester City',
         'Man City': 'Manchester City',
         'Man United': 'Manchester United',
@@ -111,6 +121,9 @@ def scrape_team_ova_all(path, from_year, to_year):
 def merge_ova_to_cleaned_all(ova_folder_path, cleaned_folder_path, from_year, to_year):
     for year in range(from_year, to_year + 1):
         ova_path = os.path.join(ova_folder_path, '{}-{}.csv'.format(year, year + 1))
+        if not os.path.exists(ova_path):
+            print(f'Using ovapath {ova_path} for year {year} because ova data does not exist...')
+            ova_path = os.path.join(ova_folder_path, '{}-{}.csv'.format(year - 1, year))
         cleaned_path = os.path.join(cleaned_folder_path, '{}-{}.csv'.format(year, year + 1))
 
         print("About to merge " + ova_path + " ...")

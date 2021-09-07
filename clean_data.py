@@ -13,11 +13,11 @@ def clean(from_path, to_path, columns):
         if date == '':
             return None
         else:
-            _, file = ntpath.split(to_path)
             if len(date.split('-')) == 3:
                 return date
-            elif file in ['2002-2003.csv', '2018-2019.csv', '2019-2020.csv']:
-                # Only this file has a different date format
+
+            year = date.split('/')[-1]
+            if len(year) == 4:
                 return dt.strptime(date, '%d/%m/%Y').date()
             else:
                 return dt.strptime(date, '%d/%m/%y').date()
