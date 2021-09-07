@@ -1,5 +1,6 @@
 import os.path
 import json
+import joblib
 import pandas as pd
 import numpy as np
 from IPython import get_ipython
@@ -11,7 +12,6 @@ from sklearn.preprocessing import scale
 from sklearn.model_selection import KFold
 from time import time 
 from sklearn.metrics import f1_score
-from sklearn.externals import joblib
 
 import xgboost as xgb
 from sklearn.linear_model import LogisticRegression

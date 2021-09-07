@@ -1,6 +1,7 @@
 Flask
 gunicorn
 pandas
+joblib
 numpy
 selenium
 IPython
